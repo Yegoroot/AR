@@ -56,6 +56,11 @@ function HeaderLinks({ ...props }) {
                     WeakLetters
                 </Link>
             </ListItem>
+            <ListItem className={classes.listItem}>
+                <Link to="/jumlatuhaal" className={classes.navLink}>
+                    Jumlatuhaal
+                </Link>
+            </ListItem>
             {/* <ListItem className={classes.listItem}>
 				<Link to="/login" className={classes.navLink}>
 					Регистрация
