@@ -40,7 +40,7 @@ class ProfilePage extends React.Component {
             <div>
                 <Header
                     color="transparent"
-                    brand="جملة الحال"
+                    brand="أدْوَات الجَزْم"
                     rightLinks={<HeaderLinks />}
                     fixed
                     changeColorOnScroll={{
@@ -51,26 +51,18 @@ class ProfilePage extends React.Component {
                     {...rest}
                 />
 
-                <Parallax small filter image={require('assets/img/bg4-.jpg')} />
+                <Parallax small filter image={require('assets/img/ert.jpg')} />
                 <div className={classNames(classes.main, classes.mainRaised)}>
                     <div className={classes.container}>
                         <div className={classes.navWrapper}>
+                            <h1> لمْ - لَمّا - لا - لامْ الأمر </h1>
                             <div className={classes.description}>
-                                <p>
-                                    <span className={classes.arSpan}>جملة الحال</span> отвечает на вопрос "как?" -
-                                    является образом действия (похоже на наречие) слово
-                                    <span className={classes.arSpan}>الحال</span> буквально значит "ситуация" или
-                                    "положение. В каком положении, в каком состоянии.
-                                </p>
-                                <p>
-                                    Перед <span className={classes.arSpan}>جملة الحال</span> приходит глагольное
-                                    предложение в то время как <span className={classes.arSpan}>جملة الحال</span>
-                                    именное
-                                </p>
-                                <h3> Примеры с الحال: </h3>
                                 <Paper className={classes.arEx}>
                                     <div className={classes.arDiv}>
-                                        دخل المدرس الفصل <span className={classes.arColor}>غَضِبًا </span>
+                                        <span className={classes.arColor} />
+                                        <span className={classes.arColor}> </span>
+                                        {/* <span className={classes.arColor}>/span> */}
+                                        <span className={classes.arColor} />
                                     </div>
                                     <div className={classes.ruDiv}>
                                         Пришел учитель в класс{' '}

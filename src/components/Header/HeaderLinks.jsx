@@ -61,6 +61,11 @@ function HeaderLinks({ ...props }) {
                     Jumlatuhaal
                 </Link>
             </ListItem>
+            <ListItem className={classes.listItem}>
+                <Link to="/adwatuldjazm" className={classes.navLink}>
+                    AdwatulDjazm
+                </Link>
+            </ListItem>
             {/* <ListItem className={classes.listItem}>
 				<Link to="/login" className={classes.navLink}>
 					Регистрация

@@ -3,12 +3,14 @@ import LandingPage from 'views/LandingPage/LandingPage.jsx'
 import ProfilePage from 'views/ProfilePage/ProfilePage.jsx'
 import LoginPage from 'views/LoginPage/LoginPage.jsx'
 // import AdminPage from 'views/AdminPage'
-import WeakLetters from 'views/WeakLetters/WeakLetters'
-import JumlatuHaal from 'views/JumlatuHaal/JumlatuHaal'
+import WeakLettersPage from 'views/WeakLettersPage/WeakLettersPage'
+import JumlatuHaalPage from 'views/JumlatuHaalPage/JumlatuHaalPage'
+import AdwatulDjazmPage from 'views/AdwatulDjazmPage/AdwatulDjazmPage'
 
 var indexRoutes = [
-    { path: '/jumlatuhaal', name: 'JumlatuHaal', component: JumlatuHaal },
-    { path: '/weakLetters', name: 'WeakLetters', component: WeakLetters },
+    { path: '/adwatuldjazm', name: 'AdwatulDjazmPage', component: AdwatulDjazmPage },
+    { path: '/jumlatuhaal', name: 'JumlatuHaalPage', component: JumlatuHaalPage },
+    { path: '/weakLetters', name: 'WeakLettersPage', component: WeakLettersPage },
     // { path: '/admin', name: 'AdminPage', component: AdminPage, isWrapp: true },
     { path: '/landing', name: 'LandingPage', component: LandingPage },
     { path: '/profile', name: 'ProfilePage', component: ProfilePage },

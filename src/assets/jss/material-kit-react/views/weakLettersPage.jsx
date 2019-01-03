@@ -2,8 +2,8 @@ import { container, title } from 'assets/jss/material-kit-react.jsx'
 import arFont from 'assets/jss/ar/font'
 import tooltipsStyle from 'assets/jss/material-kit-react/tooltipsStyle.jsx'
 
-const JumlatuHaalPage = {
-    container,
+const weakLettersPage = {
+    // container,
     description: {
         margin: '1.071rem auto 0',
         // maxWidth: '600px',
@@ -28,4 +28,4 @@ const JumlatuHaalPage = {
     ...tooltipsStyle,
 }
 
-export default JumlatuHaalPage
+export default weakLettersPage
