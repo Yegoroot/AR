@@ -51,7 +51,7 @@ class ProfilePage extends React.Component {
                     {...rest}
                 />
 
-                <Parallax small filter image={require('assets/img/ert.jpg')} />
+                <Parallax small filter image={require('assets/img/bg4-norm.jpg')} />
                 <div className={classNames(classes.main, classes.mainRaised)}>
                     <div className={classes.container}>
                         <div className={classes.navWrapper}>

@@ -4,6 +4,9 @@ import tooltipsStyle from 'assets/jss/material-kit-react/tooltipsStyle.jsx'
 
 const weakLettersPage = {
     // container,
+    // container: {
+    //     padding: 20,
+    // },
     description: {
         margin: '1.071rem auto 0',
         // maxWidth: '600px',

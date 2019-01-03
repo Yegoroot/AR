@@ -51,33 +51,33 @@ class ProfilePage extends React.Component {
 
                 <Parallax small filter image={require('assets/img/bg4-.jpg')} />
                 <div className={classNames(classes.main, classes.mainRaised)}>
-                    <div className={classes.container}>
-                        <GridContainer justify="center">
-                            <GridItem xs={12} sm={12} md={12} className={classes.navWrapper}>
-                                <NavPills
-                                    alignCenter
-                                    color="primary"
-                                    tabs={[
-                                        {
-                                            tabButton: 'Первая коренная',
-                                            tabIcon: Camera,
-                                            tabContent: <WeakLetters templates={weakLetters1} />,
-                                        },
-                                        {
-                                            tabButton: 'Вторая коренная',
-                                            tabIcon: Palette,
-                                            tabContent: <WeakLetters templates={weakLetters2} />,
-                                        },
-                                        {
-                                            tabButton: 'Третья коренная',
-                                            tabIcon: Favorite,
-                                            tabContent: <WeakLetters templates={weakLetters3} />,
-                                        },
-                                    ]}
-                                />
-                            </GridItem>
-                        </GridContainer>
-                    </div>
+                    {/* <div className={classes.container}> */}
+                    <GridContainer justify="center">
+                        <GridItem xs={12} sm={12} md={12} className={classes.navWrapper}>
+                            <NavPills
+                                alignCenter
+                                color="primary"
+                                tabs={[
+                                    {
+                                        tabButton: 'Первая коренная',
+                                        tabIcon: Camera,
+                                        tabContent: <WeakLetters templates={weakLetters1} />,
+                                    },
+                                    {
+                                        tabButton: 'Вторая коренная',
+                                        tabIcon: Palette,
+                                        tabContent: <WeakLetters templates={weakLetters2} />,
+                                    },
+                                    {
+                                        tabButton: 'Третья коренная',
+                                        tabIcon: Favorite,
+                                        tabContent: <WeakLetters templates={weakLetters3} />,
+                                    },
+                                ]}
+                            />
+                        </GridItem>
+                    </GridContainer>
+                    {/* </div> */}
                 </div>
                 <Footer />
             </div>

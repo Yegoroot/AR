@@ -12,10 +12,12 @@ const styles = theme => ({
         '& h4': {
             marginBottom: 30,
             fontSize: 40,
+            textAlign: 'right',
         },
         // ...theme.arabicFont,
     },
     ulAr: {
+        paddingRight: 0,
         '& > li': {
             display: 'flex',
             '& > *': {
@@ -29,7 +31,9 @@ const styles = theme => ({
 const PaperTense = ({ data, classes }) =>
     data.map(tense => (
         <Paper elevation={4} key={tense.name} className={classes.arParagraph}>
-            <h4>{tense.name}</h4>
+            <h4 dir="rtl" lang="ar">
+                {tense.name}
+            </h4>
             <ul className={classes.ulAr}>
                 {tense.faces.map(face => (
                     <li dir="rtl" lang="ar" key={face.name}>
