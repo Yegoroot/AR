@@ -156,7 +156,8 @@ const defaultBoxShadow = {
 
 const title = {
     color: '#3C4858',
-    margin: '1.75rem 0 0.875rem',
+    margin: '0rem 0 0.875rem',
+    // margin: '1.75rem 0 0.875rem',
     textDecoration: 'none',
     fontWeight: '700',
     fontFamily: `"Roboto Slab", "Times New Roman", serif`,
@@ -178,8 +179,29 @@ const cardSubtitle = {
     marginTop: '-.375rem',
 }
 
+/**
+ * МОИ НАРАБОТКИ
+ */
+
+const titleAr = {
+    // Заголовок название темы на страницах
+    ...title,
+    margin: '1.75rem 0 0.875rem', // незнаю зачем
+    textAlign: 'right',
+    marginBottom: 50,
+}
+const paperStandart = {
+    // component UI Material Paper
+    position: 'relative',
+    padding: '20px 25px 20px',
+    marginTop: 25,
+    marginBottom: 25,
+}
+
 export {
     //variables
+    titleAr,
+    paperStandart,
     drawerWidth,
     transition,
     container,

@@ -6,8 +6,10 @@ import LoginPage from 'views/LoginPage/LoginPage.jsx'
 import WeakLettersPage from 'views/WeakLettersPage/WeakLettersPage'
 import JumlatuHaalPage from 'views/JumlatuHaalPage/JumlatuHaalPage'
 import AdwatulDjazmPage from 'views/AdwatulDjazmPage/AdwatulDjazmPage'
+import Idafa from 'views/Idafa/Idafa'
 
 var indexRoutes = [
+    { path: '/idafa', name: 'Idafa', component: Idafa },
     { path: '/adwatuldjazm', name: 'AdwatulDjazmPage', component: AdwatulDjazmPage },
     { path: '/jumlatuhaal', name: 'JumlatuHaalPage', component: JumlatuHaalPage },
     { path: '/weakLetters', name: 'WeakLettersPage', component: WeakLettersPage },

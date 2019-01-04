@@ -15,6 +15,7 @@ const typographyOtherStyle = {
         // color: primaryColor,
         color: '#676767',
     },
+    // арабские буквы очень маленьки на фоне других
     arFonts: {
         fontSize: '32px',
     },
@@ -22,17 +23,26 @@ const typographyOtherStyle = {
         // fontSize: 16,
     },
     defaultParagraphMargins: {
-        marginBottom: '30px',
+        marginBottom: '1rem',
     },
+    // выделить слово
     contrastWord: {
         color: dangerColor,
     },
-    // labelWord: {
-    //     position: 'absolute',
-    //     color: dangerColor,
-    //     top: -50,
-    //     fontSize: 70,
-    // },
+    // несколько предложений
+    severalSentence: {
+        display: 'flex',
+        flexWrap: 'wrap',
+        alignItems: 'center',
+        '& > *': {
+            marginRight: 20,
+        },
+    },
+    // блок дополнительно  информации
+    additionalInfo: {
+        paddingLeft: 15,
+        borderLeft: `solid 3px ${primaryColor}`,
+    },
 }
 
 export default typographyOtherStyle

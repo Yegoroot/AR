@@ -11,8 +11,8 @@ import Header from 'components/Header/Header.jsx'
 import Footer from 'components/Footer/Footer.jsx'
 import Word from 'components/word'
 
-import ContrastWord from 'components/Typography/ContrastWord.jsx'
 import ArSentence from 'components/Typography/ArSentence.jsx'
+import ContrastWord from 'components/Typography/ContrastWord.jsx'
 import Paragraph from 'components/Typography/Paragraph.jsx'
 import HeaderLinks from 'components/Header/HeaderLinks.jsx'
 
@@ -21,18 +21,9 @@ import Parallax from 'components/Parallax/Parallax.jsx'
 import JumlatuHaalPage from 'assets/jss/material-kit-react/views/JumlatuHaalPage.jsx'
 
 class ProfilePage extends React.Component {
-    state = {
-        value: 0,
-    }
-
-    handleChange = (event, value) => {
-        this.setState({ value })
-    }
-
     render() {
         const { classes, ...rest } = this.props
-        // const imageClasses = classNames(classes.imgRaised, classes.imgRoundedCircle, classes.imgFluid)
-        // const navImageClasses = classNames(classes.imgRounded, classes.imgGallery)
+
         return (
             <div>
                 <Header

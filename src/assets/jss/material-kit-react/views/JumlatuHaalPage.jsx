@@ -1,20 +1,12 @@
-import { container, title } from 'assets/jss/material-kit-react.jsx'
+import { container, title, titleAr, paperStandart } from 'assets/jss/material-kit-react.jsx'
 
 import tooltipsStyle from 'assets/jss/material-kit-react/tooltipsStyle.jsx'
 
 const JumlatuHaalPage = {
     container,
     title,
-    titleAr: {
-        ...title,
-        textAlign: 'right',
-    },
-    paperStandart: {
-        position: 'relative',
-        padding: '10px 15px 15px',
-        marginTop: 25,
-        marginBottom: 25,
-    },
+    titleAr,
+    paperStandart,
     main: {
         paddingTop: 20,
         paddingBottom: 30,

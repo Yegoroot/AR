@@ -60,11 +60,11 @@ const word = ({ root, suffix, prefix, classes }) => {
     }
 
     return (
-        <div className={classes.wrapper}>
+        <span className={classes.wrapper}>
             {prefix ? <span className="prefix">{`${prefix}${pr}`}</span> : null}
             <span className="root">{`${pr}${root}${sf}`}</span>
             {suffix ? <span className="suffix">{`${sf}${suffix}`}</span> : null}
-        </div>
+        </span>
     )
 }
 

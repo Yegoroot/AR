@@ -53,7 +53,12 @@ function HeaderLinks({ ...props }) {
             </ListItem>
             <ListItem className={classes.listItem}>
                 <Link to="/weakLetters" className={classes.navLink}>
-                    WeakLetters
+                    Слабая коренная
+                </Link>
+            </ListItem>
+            <ListItem className={classes.listItem}>
+                <Link to="/idafa" className={classes.navLink}>
+                    Не согласованное определение
                 </Link>
             </ListItem>
             <ListItem className={classes.listItem}>
