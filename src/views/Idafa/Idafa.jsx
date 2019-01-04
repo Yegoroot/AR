@@ -48,12 +48,32 @@ class ProfilePage extends React.Component {
                         <div className={classes.navWrapper}>
                             <h1 className={classes.titleAr}>Не согласованное определение</h1>
 
-                            <h4>"Идафа" - это не согласованное сочетение двух слов</h4>
+                            <h4>
+                                Термин "идафа", который означает буквально "присоединение", можно перевести на русский
+                                язык как "несогласованное определение". Иногда этот термин переводят как "изафетная
+                                связка" например:
+                            </h4>
                             <SeveralSentence>
                                 <ArSentence>قلم تِلمِيذٍ</ArSentence>
                                 <RuSentence> Карандаш ученика </RuSentence>
                             </SeveralSentence>
 
+                            <Paper className={classes.paperStandart}>
+                                <h4>
+                                    <ContrastWord>Первый член идафы</ContrastWord> не принимает ни танвина ни
+                                    определенного артикля т.е стоит в так называемом "сопряженном состоянии". В
+                                    зависимости от местоположения может быть в любом падеже
+                                </h4>
+                                <ArSentence>
+                                    <ContrastWord> قلمُ </ContrastWord> تِلميذ
+                                </ArSentence>
+                                <ArSentence>
+                                    قرأتُ من <ContrastWord> كتابِ </ContrastWord> الطّالب
+                                </ArSentence>
+                                <ArSentence>
+                                    رأيتُ <ContrastWord> كتابَ </ContrastWord> الطّالب
+                                </ArSentence>
+                            </Paper>
                             <Paper className={classes.paperStandart}>
                                 <h4>
                                     <ContrastWord>Второй член идафы</ContrastWord> может стоять как в определенном
@@ -78,23 +98,6 @@ class ProfilePage extends React.Component {
                                     бы владельцем) того, на что указывает первый член
                                 </h4>
                             </Paper>
-                            <Paper className={classes.paperStandart}>
-                                <h4>
-                                    <ContrastWord>Первый член идафы</ContrastWord> не принимает ни танвина ни
-                                    определенного артикля т.е стоит в так называемом "сопряженном состоянии". В
-                                    зависимости от местоположения может быть в любом падеже
-                                </h4>
-                                <ArSentence>
-                                    <ContrastWord> قلمُ </ContrastWord> تِلميذ
-                                </ArSentence>
-                                <ArSentence>
-                                    قرأتُ من <ContrastWord> كتابِ </ContrastWord> الطّالب
-                                </ArSentence>
-                                <ArSentence>
-                                    رأيتُ <ContrastWord> كتابَ </ContrastWord> الطّالب
-                                </ArSentence>
-                            </Paper>
-
                             <AdditionalInfo>
                                 <h4>Притяжательное местоимение является вторым членом идафы</h4>
                                 <ArSentence>

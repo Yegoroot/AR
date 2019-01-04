@@ -14,14 +14,16 @@ import GridItem from 'components/Grid/GridItem.jsx'
 import Parallax from 'components/Parallax/Parallax.jsx'
 // sections for this page
 import HeaderLinks from 'components/Header/HeaderLinks.jsx'
-import SectionBasics from './Sections/SectionBasics.jsx'
-import SectionNavbars from './Sections/SectionNavbars.jsx'
-import SectionTabs from './Sections/SectionTabs.jsx'
-import SectionPills from './Sections/SectionPills.jsx'
-import SectionNotifications from './Sections/SectionNotifications.jsx'
-import SectionTypography from './Sections/SectionTypography.jsx'
-import SectionJavascript from './Sections/SectionJavascript.jsx'
-import SectionCarousel from './Sections/SectionCarousel.jsx'
+
+import Card from './Sections/Card.jsx'
+// import SectionBasics from './Sections/SectionBasics.jsx'
+// import SectionNavbars from './Sections/SectionNavbars.jsx'
+// import SectionTabs from './Sections/SectionTabs.jsx'
+// import SectionPills from './Sections/SectionPills.jsx'
+// import SectionNotifications from './Sections/SectionNotifications.jsx'
+// import SectionTypography from './Sections/SectionTypography.jsx'
+// import SectionJavascript from './Sections/SectionJavascript.jsx'
+// import SectionCarousel from './Sections/SectionCarousel.jsx'
 
 import componentsStyle from 'assets/jss/material-kit-react/views/components.jsx'
 
@@ -55,15 +57,15 @@ class Components extends React.Component {
                     </div>
                 </Parallax>
 
-                <div className={classNames(classes.main, classes.mainRaised)}>
-                    <SectionBasics />
-                    <SectionNavbars />
-                    <SectionTabs />
-                    <SectionPills />
-                    <SectionNotifications />
-                    <SectionTypography />
-                    <SectionJavascript />
-                    <SectionCarousel />
+                <div
+                    className={classNames(classes.main, classes.mainRaised)}
+                    style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}>
+                    <Card />
+                    <Card />
+                    <Card />
+                    <Card />
+                    <Card />
+                    <Card />
                 </div>
                 <Footer />
             </div>

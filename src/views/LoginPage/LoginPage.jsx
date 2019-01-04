@@ -150,7 +150,15 @@ const validate = ({ name, email, password }) => {
 /** 
  * пришлось возвращать ф-тю потому что консоль рунается (route ждет ф-ию)
  */
-export default () =>  reduxForm({
+// const ExportComp = () =>  reduxForm({
+// 	form: 'authSignUp',
+// 	validate,
+// })(withStyles(loginPageStyle)(LoginPage))
+console.log( reduxForm({
+	form: 'authSignUp',
+	validate,
+})(withStyles(loginPageStyle)(LoginPage)))
+export default  reduxForm({
 	form: 'authSignUp',
 	validate,
 })(withStyles(loginPageStyle)(LoginPage))
