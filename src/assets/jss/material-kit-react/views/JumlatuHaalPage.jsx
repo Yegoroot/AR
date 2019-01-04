@@ -4,12 +4,7 @@ import tooltipsStyle from 'assets/jss/material-kit-react/tooltipsStyle.jsx'
 
 const JumlatuHaalPage = {
     container,
-    description: {
-        margin: '1.071rem auto 0',
-        // maxWidth: '600px',
-        color: '#999',
-        // textAlign: 'center !important',
-    },
+
     ...arFont,
 
     main: {

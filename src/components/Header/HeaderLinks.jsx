@@ -57,13 +57,13 @@ function HeaderLinks({ ...props }) {
                 </Link>
             </ListItem>
             <ListItem className={classes.listItem}>
-                <Link to="/jumlatuhaal" className={classes.navLink}>
-                    Jumlatuhaal
+                <Link to="/jumlatuhaal" className={classes.navLink} style={{ fontSize: 27 }}>
+                    جملة الحال
                 </Link>
             </ListItem>
             <ListItem className={classes.listItem}>
-                <Link to="/adwatuldjazm" className={classes.navLink}>
-                    AdwatulDjazm
+                <Link to="/adwatuldjazm" className={classes.navLink} style={{ fontSize: 27 }}>
+                    أدْوَات الجَزْم
                 </Link>
             </ListItem>
             {/* <ListItem className={classes.listItem}>

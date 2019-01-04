@@ -4,7 +4,7 @@ import classNames from 'classnames'
 // @material-ui/core components
 import withStyles from '@material-ui/core/styles/withStyles'
 // @material-ui/icons
-import Camera from '@material-ui/icons/Camera'
+import Filter_1 from '@material-ui/icons/Looks'
 import Palette from '@material-ui/icons/Palette'
 import Favorite from '@material-ui/icons/Favorite'
 // core components
@@ -60,17 +60,17 @@ class ProfilePage extends React.Component {
                                 tabs={[
                                     {
                                         tabButton: 'Первая коренная',
-                                        tabIcon: Camera,
+                                        // tabIcon: Filter_1,
                                         tabContent: <WeakLetters templates={weakLetters1} />,
                                     },
                                     {
                                         tabButton: 'Вторая коренная',
-                                        tabIcon: Palette,
+                                        // tabIcon: Palette,
                                         tabContent: <WeakLetters templates={weakLetters2} />,
                                     },
                                     {
                                         tabButton: 'Третья коренная',
-                                        tabIcon: Favorite,
+                                        // tabIcon: Favorite,
                                         tabContent: <WeakLetters templates={weakLetters3} />,
                                     },
                                 ]}
