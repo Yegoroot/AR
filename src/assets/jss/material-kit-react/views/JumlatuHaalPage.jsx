@@ -1,12 +1,13 @@
 import { container, title } from 'assets/jss/material-kit-react.jsx'
-import arFont from 'assets/jss/ar/font'
+
 import tooltipsStyle from 'assets/jss/material-kit-react/tooltipsStyle.jsx'
 
 const JumlatuHaalPage = {
     container,
-
-    ...arFont,
-
+    title,
+    paperStandart: {
+        padding: 15,
+    },
     main: {
         paddingTop: 20,
         paddingBottom: 30,

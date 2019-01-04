@@ -22,8 +22,6 @@ import SectionNotifications from './Sections/SectionNotifications.jsx'
 import SectionTypography from './Sections/SectionTypography.jsx'
 import SectionJavascript from './Sections/SectionJavascript.jsx'
 import SectionCarousel from './Sections/SectionCarousel.jsx'
-import SectionCompletedExamples from './Sections/SectionCompletedExamples.jsx'
-import SectionDownload from './Sections/SectionDownload.jsx'
 
 import componentsStyle from 'assets/jss/material-kit-react/views/components.jsx'
 
@@ -68,9 +66,6 @@ class Components extends React.Component {
                     <SectionTypography />
                     <SectionJavascript />
                     <SectionCarousel />
-                    <SectionCompletedExamples />
-
-                    <SectionDownload />
                 </div>
                 <Footer />
             </div>

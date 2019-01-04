@@ -5,23 +5,19 @@ import classNames from 'classnames'
 import { Paper, Tooltip, Button } from '@material-ui/core'
 // @material-ui/core components
 import withStyles from '@material-ui/core/styles/withStyles'
-// @material-ui/icons
-import Camera from '@material-ui/icons/Camera'
-import Palette from '@material-ui/icons/Palette'
-import Favorite from '@material-ui/icons/Favorite'
+
 // core components
 import Header from 'components/Header/Header.jsx'
 import Footer from 'components/Footer/Footer.jsx'
-// import Button from 'components/CustomButtons/Button.jsx'
-import GridContainer from 'components/Grid/GridContainer.jsx'
-import GridItem from 'components/Grid/GridItem.jsx'
+
+import Info from 'components/Typography/Info.jsx'
+import Primary from 'components/Typography/Primary.jsx'
+import Muted from 'components/Typography/Muted.jsx'
 import HeaderLinks from 'components/Header/HeaderLinks.jsx'
-import NavPills from 'components/NavPills/NavPills.jsx'
+
 import Parallax from 'components/Parallax/Parallax.jsx'
 
 import JumlatuHaalPage from 'assets/jss/material-kit-react/views/JumlatuHaalPage.jsx'
-import WeakLetters from 'components/weakLetters'
-import { weakLetters1, weakLetters2, weakLetters3 } from 'api/verbs/weakLetters'
 
 class ProfilePage extends React.Component {
     state = {
@@ -55,92 +51,19 @@ class ProfilePage extends React.Component {
                 <div className={classNames(classes.main, classes.mainRaised)}>
                     <div className={classes.container}>
                         <div className={classes.navWrapper}>
-                            <h1> لمْ - لَمّا - لا - لامْ الأمر </h1>
+                            <h1 className={classes.title}> لمْ - لَمّا - لا - لامْ الأمر </h1>
 
                             <Paper className={classes.arEx}>
+                                <Primary>
+                                    <span className={classes.arColor}>لَمْ</span> - Отрицательная частица, которая
+                                    приходит перед глаголами настоящего времени у ней две роли
+                                </Primary>
+                                <ul>
+                                    <li>отрицает</li>
+                                    <li>меняет время на прошедшее</li>
+                                </ul>
                                 <div className={classes.arDiv}>
-                                    <span className={classes.arColor} />
-                                    <span className={classes.arColor}> </span>
-                                    {/* <span className={classes.arColor}>/span> */}
-                                    <span className={classes.arColor} />
-                                </div>
-                                <div className={classes.ruDiv}>
-                                    Пришел учитель в класс{' '}
-                                    <span className={classes.arColor}>злым (пришёл в состоянии злости)</span>
-                                </div>
-                            </Paper>
-                            <Paper className={classes.arEx}>
-                                <div className={classes.arDiv}>
-                                    شرب اِبني الماء <span className={classes.arColor}>صافِيًا </span>
-                                </div>
-                                <div className={classes.ruDiv}>
-                                    Мой сын пил воду{' '}
-                                    <span className={classes.arColor}>чистую (в момент пития вода была чистой)</span>
-                                </div>
-                                Если же мы хотим сказать что вода И была чистой, то используем простое прилагательное
-                                <div className={classes.arDiv}>شرب اِبني الماء الصافِي</div>
-                            </Paper>
-
-                            <h3> Примеры с جملة الحال: </h3>
-                            <Paper className={classes.arEx}>
-                                <div className={classes.arDiv}>
-                                    قرأ الكتاب{' '}
-                                    <span className={classes.arColor}>
-                                        <Tooltip
-                                            title="واو الحال"
-                                            placement="top"
-                                            classes={{ tooltip: classes.tooltip }}>
-                                            <Button className={classes.tooltipButton}>و</Button>
-                                        </Tooltip>{' '}
-                                        أنا جالِس{' '}
-                                    </span>
-                                </div>
-                                <div className={classes.ruDiv}>
-                                    Читал книгу
-                                    <span className={classes.arColor}> сидя (в состоянии сидения)</span>
-                                </div>
-                            </Paper>
-                            <Paper className={classes.arEx}>
-                                <div className={classes.arDiv}>
-                                    شربت الشاي{' '}
-                                    <Tooltip title="واو العَطْف" placement="top" classes={{ tooltip: classes.tooltip }}>
-                                        <Button className={classes.tooltipButton}>و</Button>
-                                    </Tooltip>{' '}
-                                    القهوة{' '}
-                                    <span className={classes.arColor}>
-                                        <Tooltip
-                                            title="واو الحال"
-                                            placement="top"
-                                            classes={{ tooltip: classes.tooltip }}>
-                                            <Button className={classes.tooltipButton}>و</Button>
-                                        </Tooltip>{' '}
-                                        أنا في العَمل{' '}
-                                    </span>
-                                </div>
-                                <div className={classes.ruDiv}>
-                                    Пил чай и кофе
-                                    <span className={classes.arColor}>
-                                        {' '}
-                                        когда был на работе (в состоянии нахождения на работе)
-                                    </span>
-                                </div>
-                            </Paper>
-                            <Paper className={classes.arEx}>
-                                <div className={classes.arDiv}>
-                                    أكل أخي تفاحتي{' '}
-                                    <span className={classes.arColor}>
-                                        <Tooltip
-                                            title="واو الحال"
-                                            placement="top"
-                                            classes={{ tooltip: classes.tooltip }}>
-                                            <Button className={classes.tooltipButton}>و</Button>
-                                        </Tooltip>{' '}
-                                        أنا نائِم{' '}
-                                    </span>
-                                </div>
-                                <div className={classes.ruDiv}>
-                                    Мой брат ел яблоки{' '}
-                                    <span className={classes.arColor}>пока я спал (был в состоянии сна)</span>
+                                    <span className={classes.arColor}>لمْ</span> أذهَبْ = ما ذهبتُ
                                 </div>
                             </Paper>
                         </div>
