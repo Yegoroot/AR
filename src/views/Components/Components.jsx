@@ -42,7 +42,7 @@ class Components extends React.Component {
                     {...rest}
                 />
                 {/* <Parallax image={require('assets/img/bg4.jpg')}> */}
-                <Parallax image={require('assets/img/ce1eb07b853c9054649e3a24c7698f33.jpg')}>
+                <Parallax image={require('assets/img/minaret.jpg')}>
                     {/* <Parallax image={require('assets/img/ertt.jpg')}> */}
                     {/* <Parallax image={require('assets/img/bg4---.jpg')}> */}
                     <div className={classes.container}>

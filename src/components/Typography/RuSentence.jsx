@@ -8,7 +8,7 @@ import typographyOtherStyle from 'assets/jss/material-kit-react/components/typog
 
 function RuSentence({ ...props }) {
     const { classes, children } = props
-    return <div className={classes.defaultFontStyle + ' ' + classes.ruSentence}>{children}</div>
+    return <div className={classes.defaultFontStyle + ' ' + classes.ruFonts}>{children}</div>
 }
 
 RuSentence.propTypes = {

@@ -10,10 +10,10 @@ import withStyles from '@material-ui/core/styles/withStyles'
 import Header from 'components/Header/Header.jsx'
 import Footer from 'components/Footer/Footer.jsx'
 
-import RuSentence from 'components/Typography/Other/RuSentence.jsx'
-import ContrastWord from 'components/Typography/Other/ContrastWord.jsx'
-import ArSentence from 'components/Typography/Other/ArSentence.jsx'
-import Paragraph from 'components/Typography/Other/Paragraph.jsx'
+import RuSentence from 'components/Typography/RuSentence.jsx'
+import ContrastWord from 'components/Typography/ContrastWord.jsx'
+import ArSentence from 'components/Typography/ArSentence.jsx'
+import Paragraph from 'components/Typography/Paragraph.jsx'
 
 import HeaderLinks from 'components/Header/HeaderLinks.jsx'
 
@@ -44,14 +44,14 @@ class ProfilePage extends React.Component {
                 <div className={classNames(classes.main, classes.mainRaised)}>
                     <div className={classes.container}>
                         <div className={classes.navWrapper}>
-                            <h1 className={classes.title}>جملة الحال</h1>
+                            <h1 className={classes.titleAr}>جملة الحال</h1>
                             <h4>
                                 Отвечает на вопрос "как?" - является образом действия слово الحال буквально означает
                                 "ситуация" или "положение. В каком положении пребывает объект, в каком состоянии.
                                 <br />
                                 Перед جملة الحال приходит глагольное предложение в то время как جملة الحال именное
                             </h4>
-                            <h3 className={classes.title}> Примеры с الحال: </h3>
+                            <h3 className={classes.titleAr}> :الحال</h3>
                             <Paper className={classes.paperStandart}>
                                 <Paragraph>
                                     <ArSentence>
@@ -82,7 +82,7 @@ class ProfilePage extends React.Component {
                                 </Paragraph>
                             </Paper>
 
-                            <h3 className={classes.title}> Примеры с جملة الحال: </h3>
+                            <h3 className={classes.titleAr}> :جملة الحال </h3>
                             <Paper className={classes.paperStandart}>
                                 <Paragraph>
                                     <ArSentence>

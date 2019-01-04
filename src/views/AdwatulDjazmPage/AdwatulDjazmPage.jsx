@@ -9,10 +9,11 @@ import withStyles from '@material-ui/core/styles/withStyles'
 // core components
 import Header from 'components/Header/Header.jsx'
 import Footer from 'components/Footer/Footer.jsx'
+import Word from 'components/word'
 
-import Info from 'components/Typography/Info.jsx'
-import Primary from 'components/Typography/Primary.jsx'
-import Muted from 'components/Typography/Muted.jsx'
+import ContrastWord from 'components/Typography/ContrastWord.jsx'
+import ArSentence from 'components/Typography/ArSentence.jsx'
+import Paragraph from 'components/Typography/Paragraph.jsx'
 import HeaderLinks from 'components/Header/HeaderLinks.jsx'
 
 import Parallax from 'components/Parallax/Parallax.jsx'
@@ -51,20 +52,58 @@ class ProfilePage extends React.Component {
                 <div className={classNames(classes.main, classes.mainRaised)}>
                     <div className={classes.container}>
                         <div className={classes.navWrapper}>
-                            <h1 className={classes.title}> لمْ - لَمّا - لا - لامْ الأمر </h1>
+                            <h1 className={classes.titleAr}> لمْ - لَمّا - لا - لامْ الأمر </h1>
 
-                            <Paper className={classes.arEx}>
-                                <Primary>
-                                    <span className={classes.arColor}>لَمْ</span> - Отрицательная частица, которая
-                                    приходит перед глаголами настоящего времени у ней две роли
-                                </Primary>
-                                <ul>
-                                    <li>отрицает</li>
-                                    <li>меняет время на прошедшее</li>
-                                </ul>
-                                <div className={classes.arDiv}>
-                                    <span className={classes.arColor}>لمْ</span> أذهَبْ = ما ذهبتُ
-                                </div>
+                            <Paper className={classes.paperStandart}>
+                                <Paragraph>
+                                    <h3 className={classes.title}>
+                                        Отрицательная частица <ContrastWord inRu>لَمْ</ContrastWord>{' '}
+                                    </h3>
+                                    <h5>Приходит перед глаголами настоящего времени у ней две роли</h5>
+                                    <ul>
+                                        <li>Отрицает</li>
+                                        <li>Меняет время на прошедшее</li>
+                                    </ul>
+                                    <ArSentence>
+                                        <ContrastWord>لمْ</ContrastWord> أذهَبْ = ما ذهبتُ
+                                    </ArSentence>
+                                </Paragraph>
+
+                                <ArSentence> لَمْ أذهبْ - لَمْ نَذهبْ</ArSentence>
+                                <ArSentence> أنتَ لَمْ تَذهبْ - أنتِ لَمْ نَذهبِي</ArSentence>
+                                <ArSentence> أنتُم لَمْ تَذهبُوا - أنتنّ لَمْ نَذهبْن</ArSentence>
+                                <ArSentence> هو لَمْ يَذهبْ - هي لَمْ تَذهَبْ</ArSentence>
+                                <ArSentence> هم لَمْ يَذهبُوا - هنّ لَمْ يذهَبْن</ArSentence>
+                            </Paper>
+
+                            <Paper className={classes.paperStandart}>
+                                <h3 className={classes.title}>
+                                    Частица <ContrastWord inRu>لَمّا</ContrastWord> (пока еще не, еще не)
+                                </h3>
+                                <h5>
+                                    Отрицает и прошлый и настоящий момент, у لمّا есть высокий уровень возможности
+                                    свершения
+                                </h5>
+                            </Paper>
+
+                            <Paper className={classes.paperStandart}>
+                                <h3 className={classes.title}>
+                                    Частица отрицания<ContrastWord inRu> لا النّاهية </ContrastWord>
+                                </h3>
+                                <h5>Приходит только ко второму лицу настоящего времени!</h5>
+                                <ArSentence> لا تَ‍‍ذهب‍‍وا الي المدرسة</ArSentence>
+                                Не ходите в школу
+                            </Paper>
+
+                            <Paper className={classes.paperStandart}>
+                                <h3 className={classes.title}>
+                                    Частица приказа<ContrastWord inRu> لمْ الأمر </ContrastWord>
+                                </h3>
+                                <h5>Может прийти к любому лицу (Пусть он, пусть она)</h5>
+                                <ArSentence> لِنَذْهَب الي المدرسة</ArSentence>
+                                Пойдёмте в школу
+                                <ArSentence> لِيَذهَبْ الي المدرسة</ArSentence>
+                                Пусть он идёт в школу
                             </Paper>
                         </div>
                     </div>

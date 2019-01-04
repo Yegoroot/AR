@@ -8,7 +8,11 @@ import typographyOtherStyle from 'assets/jss/material-kit-react/components/typog
 
 function ArSentence({ ...props }) {
     const { classes, children } = props
-    return <div className={classes.defaultFontStyle + ' ' + classes.arSentence}>{children}</div>
+    return (
+        <div dir="rtl" lang="ar" className={classes.defaultFontStyle + ' ' + classes.arFonts}>
+            {children}
+        </div>
+    )
 }
 
 ArSentence.propTypes = {

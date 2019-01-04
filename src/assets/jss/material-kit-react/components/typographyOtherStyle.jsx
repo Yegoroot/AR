@@ -15,10 +15,10 @@ const typographyOtherStyle = {
         // color: primaryColor,
         color: '#676767',
     },
-    arSentence: {
+    arFonts: {
         fontSize: '32px',
     },
-    ruSentence: {
+    ruFonts: {
         // fontSize: 16,
     },
     defaultParagraphMargins: {
@@ -27,6 +27,12 @@ const typographyOtherStyle = {
     contrastWord: {
         color: dangerColor,
     },
+    // labelWord: {
+    //     position: 'absolute',
+    //     color: dangerColor,
+    //     top: -50,
+    //     fontSize: 70,
+    // },
 }
 
 export default typographyOtherStyle

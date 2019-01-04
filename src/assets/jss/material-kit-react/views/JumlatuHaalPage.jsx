@@ -5,8 +5,15 @@ import tooltipsStyle from 'assets/jss/material-kit-react/tooltipsStyle.jsx'
 const JumlatuHaalPage = {
     container,
     title,
+    titleAr: {
+        ...title,
+        textAlign: 'right',
+    },
     paperStandart: {
-        padding: 15,
+        position: 'relative',
+        padding: '10px 15px 15px',
+        marginTop: 25,
+        marginBottom: 25,
     },
     main: {
         paddingTop: 20,
