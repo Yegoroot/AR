@@ -30,6 +30,7 @@ class JumlatuHaalPage extends React.Component {
                 <Header
                     color="transparent"
                     brand="جملة الحال"
+                    isBrandAr
                     rightLinks={<HeaderLinks />}
                     fixed
                     changeColorOnScroll={{

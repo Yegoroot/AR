@@ -32,6 +32,7 @@ class IdafaPage extends React.Component {
                 <Header
                     color="transparent"
                     brand="الإَضَافَةُ"
+                    isBrandAr
                     rightLinks={<HeaderLinks />}
                     fixed
                     changeColorOnScroll={{

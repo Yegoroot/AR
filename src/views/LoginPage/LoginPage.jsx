@@ -46,7 +46,7 @@ class LoginPage extends React.Component {
 		const { handleSubmit, pristine, submitting } = this.props
 		return (
 			<div>
-				<Header absolute color="transparent" brand="في منامي" rightLinks={<HeaderLinks />} {...rest} />
+				<Header  absolute color="transparent" brand="في منامي" isBrandAr rightLinks={<HeaderLinks />} {...rest} />
 				<div
 					className={classes.pageHeader}
 					style={{

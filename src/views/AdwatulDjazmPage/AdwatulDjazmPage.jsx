@@ -29,6 +29,7 @@ class AdwatulDjazmPage extends React.Component {
                 <Header
                     color="transparent"
                     brand="أدْوَات الجَزْم"
+                    isBrandAr
                     rightLinks={<HeaderLinks />}
                     fixed
                     changeColorOnScroll={{

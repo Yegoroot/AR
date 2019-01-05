@@ -32,6 +32,7 @@ class Components extends React.Component {
             <div>
                 <Header
                     brand="في منامي"
+                    isBrandAr
                     rightLinks={<HeaderLinks />}
                     fixed
                     color="transparent"
