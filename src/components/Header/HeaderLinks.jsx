@@ -9,7 +9,7 @@ import ListItem from '@material-ui/core/ListItem'
 import Tooltip from '@material-ui/core/Tooltip'
 
 // @material-ui/icons
-import { Apps, CloudDownload } from '@material-ui/icons'
+import { Apps, Waves } from '@material-ui/icons'
 
 // core components
 import CustomDropdown from 'components/CustomDropdown/CustomDropdown.jsx'
@@ -57,9 +57,23 @@ function HeaderLinks({ ...props }) {
                 </Link>
             </ListItem>
             <ListItem className={classes.listItem}>
-                <Link to="/idafa" className={classes.navLink}>
-                    Не согласованное определение
-                </Link>
+                <CustomDropdown
+                    noLiPadding
+                    buttonText="Определение"
+                    buttonProps={{
+                        className: classes.navLink,
+                        color: 'transparent',
+                    }}
+                    buttonIcon={Waves}
+                    dropdownList={[
+                        <Link to="/idafa" className={classes.navLink}>
+                            Не согласованное определение
+                        </Link>,
+                        <Link to="/soglasopr" className={classes.navLink}>
+                            Согласованное определение
+                        </Link>,
+                    ]}
+                />
             </ListItem>
             <ListItem className={classes.listItem}>
                 <Link to="/jumlatuhaal" className={classes.navLink} style={{ fontSize: 27 }}>

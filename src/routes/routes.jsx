@@ -8,18 +8,20 @@ import WeakLettersPage from 'views/WeakLettersPage/WeakLettersPage'
 import JumlatuHaalPage from 'views/JumlatuHaalPage/JumlatuHaalPage'
 import AdwatulDjazmPage from 'views/AdwatulDjazmPage/AdwatulDjazmPage'
 import Idafa from 'views/Idafa/Idafa'
+import SoglasovOpr from 'views/SoglasovOpr/SoglasovOpr'
 
 var indexRoutes = [
+    { path: '/soglasopr', name: 'SoglasovOpr', component: SoglasovOpr },
     { path: '/idafa', name: 'Idafa', component: Idafa },
     { path: '/adwatuldjazm', name: 'AdwatulDjazmPage', component: AdwatulDjazmPage },
     { path: '/jumlatuhaal', name: 'JumlatuHaalPage', component: JumlatuHaalPage },
     { path: '/weakLetters', name: 'WeakLettersPage', component: WeakLettersPage },
-    // { path: '/admin', name: 'AdminPage', component: AdminPage, isWrapp: true },
     { path: '/landing', name: 'LandingPage', component: LandingPage },
     { path: '/profile', name: 'ProfilePage', component: ProfilePage },
     { path: '/login', name: 'LoginPage', component: LoginPage },
     { path: '/components', name: 'Components', component: Components },
     { path: '/', name: 'Home', component: Home },
+    // { path: '/admin', name: 'AdminPage', component: AdminPage, isWrapp: true },
 ]
 
 export default indexRoutes

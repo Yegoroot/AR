@@ -21,9 +21,9 @@ import HeaderLinks from 'components/Header/HeaderLinks.jsx'
 
 import Parallax from 'components/Parallax/Parallax.jsx'
 
-import JumlatuHaalPage from 'assets/jss/material-kit-react/views/JumlatuHaalPage.jsx'
+import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
 
-class ProfilePage extends React.Component {
+class SoglasovOpr extends React.Component {
     render() {
         const { classes, ...rest } = this.props
 
@@ -113,4 +113,4 @@ class ProfilePage extends React.Component {
     }
 }
 
-export default withStyles(JumlatuHaalPage)(ProfilePage)
+export default withStyles(arabicPageStyle)(SoglasovOpr)
