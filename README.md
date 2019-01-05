@@ -37,5 +37,5 @@ Ducks позволяет нам:
 
 ## BUILD (в подкаталог домена)
 Что касаеться роутов то я выложил у себя на сайте в директорию domen.com/ar 
-и соответсвенно добавил __<BrowserRouter basename={'/ar'}>__ в index.jsx и __<Redirect to='/'/>__ в switcher in App.js
+и соответсвенно добавил в __history__ basename={'/ar'}> а если не в connected-react-router то <BrowserRouter basename={'/ar'}> И  index.jsx и __<Redirect to='/'/>__ в switcher in App.js
 a так же в __package.json__  "homepage": "https://domen.com/ar",

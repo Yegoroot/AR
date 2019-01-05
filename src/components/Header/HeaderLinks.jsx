@@ -34,17 +34,17 @@ function HeaderLinks({ ...props }) {
                         <Link to="/" className={classes.dropdownLink}>
                             Главная
                         </Link>,
-                        <Link to="/" className={classes.dropdownLink}>
+                        <Link to="/components" className={classes.dropdownLink}>
                             Все компоненты
                         </Link>,
 
-                        <Link to="/landing" className={classes.navLink}>
-                            Лэндинг
-                        </Link>,
+                        // <Link to="/landing" className={classes.navLink}>
+                        //     Лэндинг
+                        // </Link>,
 
-                        <Link to="/profile" className={classes.navLink}>
-                            Персонал
-                        </Link>,
+                        // <Link to="/profile" className={classes.navLink}>
+                        //     Персонал
+                        // </Link>,
                         <Link to="/login" className={classes.navLink}>
                             Login
                         </Link>,
