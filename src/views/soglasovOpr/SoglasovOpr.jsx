@@ -23,6 +23,10 @@ import Parallax from 'components/Parallax/Parallax.jsx'
 
 import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
 
+import soglasOprImg1 from 'assets/img/content/soglasOpr/soglasOpr1.png'
+import soglasOprImg2 from 'assets/img/content/soglasOpr/soglasOpr2.png'
+import soglasOprImg3 from 'assets/img/content/soglasOpr/soglasOpr3.png'
+
 class SoglasovOpr extends React.Component {
     render() {
         const { classes, ...rest } = this.props
@@ -68,14 +72,14 @@ class SoglasovOpr extends React.Component {
                             <p>
                                 Определяемое может иметь при себе одновременно как несогласованное определение так и
                                 согласованное; В таком случае с начала за определяемым следует{' '}
-                                <Link to="/idafa">несогласованное</Link> затем согласованное
+                                <Link to="/idafa">несогласованное определение (идафа)</Link> затем согласованное
                             </p>
                             <h4 className={classes.title}>Определяемое -> Не согласованное -> Согласованное</h4>
 
                             <Paper className={classes.paperStandart}>
                                 <p>
-                                    Если <Link to="/idafa">несогласованное</Link> определение стоит в неопределенном
-                                    состоянии, то и имя определяемое считается неопределенным
+                                    Если <Link to="/idafa">несогласованное определение (идафа)</Link> стоит в
+                                    неопределенном состоянии, то и имя определяемое считается неопределенным
                                 </p>
                                 <Paragraph>
                                     <SeveralSentence>
@@ -98,8 +102,8 @@ class SoglasovOpr extends React.Component {
                                         <ContrastWord red inRu>
                                             طالبةٍ
                                         </ContrastWord>
-                                        {' -'} (какой то) <ContrastWord red> студентки </ContrastWord> [несогласованное
-                                        определение]
+                                        {' -'} (какой то) <ContrastWord red> студентки </ContrastWord> [идафа при
+                                        определяемом]
                                     </RuSentence>
                                     <RuSentence>
                                         <ContrastWord blue inRu>
@@ -110,11 +114,12 @@ class SoglasovOpr extends React.Component {
                                         определяемом]
                                     </RuSentence>
                                 </Paragraph>
+                                <img src={soglasOprImg1} style={{ width: '100%' }} />
                             </Paper>
                             <Paper className={classes.paperStandart}>
                                 <p>
-                                    Если же несогласованное в определенном состоянии, то и определяемое считается в
-                                    определенном состоянии
+                                    Если же идафа в определенном состоянии, то и определяемое считается в определенном
+                                    состоянии
                                 </p>
 
                                 <Paragraph>
@@ -138,17 +143,57 @@ class SoglasovOpr extends React.Component {
                                         <ContrastWord red inRu>
                                             البابِ
                                         </ContrastWord>
-                                        {' -'} <ContrastWord red> двери </ContrastWord> [несогласованное определение]
+                                        {' -'} <ContrastWord red> двери </ContrastWord> [идафа при определяемом]
                                     </RuSentence>
                                     <RuSentence>
                                         <ContrastWord blue inRu>
                                             الكبيرِ
                                         </ContrastWord>
                                         {' -'}
-                                        <ContrastWord blue>большой</ContrastWord> [согласованное определение при
-                                        несогласованном]
+                                        <ContrastWord blue>большой</ContrastWord> [согласованное определение при идафе]
                                     </RuSentence>
                                 </Paragraph>
+                                <img src={soglasOprImg2} style={{ width: '100%' }} />
+                            </Paper>
+
+                            <Paper className={classes.paperStandart}>
+                                <p>
+                                    В данном случае когда определение в идафе имеет собственную идафу, то само
+                                    определение (второй идафы) пишется без танвина и без определенного артикля, только
+                                    лишь идафА идафЫ получает артикль
+                                </p>
+                                <Paragraph>
+                                    <SeveralSentence>
+                                        <ArSentence>
+                                            <ContrastWord> مفتاحُ</ContrastWord>
+                                            <ContrastWord red> بابِ</ContrastWord>{' '}
+                                            <ContrastWord blue> البيتِ </ContrastWord>
+                                        </ArSentence>
+                                        <RuSentence>
+                                            <ContrastWord> Ключ (от)</ContrastWord>
+                                            <ContrastWord red> двери </ContrastWord>{' '}
+                                            <ContrastWord blue> дома </ContrastWord>
+                                        </RuSentence>
+                                    </SeveralSentence>
+
+                                    <RuSentence>
+                                        <ContrastWord inRu>مفتاحُ</ContrastWord> {' -'} ключ [определяемое]
+                                    </RuSentence>
+                                    <RuSentence>
+                                        <ContrastWord red inRu>
+                                            بابِ
+                                        </ContrastWord>
+                                        {' -'} <ContrastWord red> двери </ContrastWord> [идафа при определяемом]
+                                    </RuSentence>
+                                    <RuSentence>
+                                        <ContrastWord blue inRu>
+                                            البيتِ
+                                        </ContrastWord>
+                                        {' -'}
+                                        <ContrastWord blue>дома</ContrastWord> [идафа при идафе]
+                                    </RuSentence>
+                                </Paragraph>
+                                <img src={soglasOprImg3} style={{ width: '100%' }} />
                             </Paper>
                         </div>
                     </div>
