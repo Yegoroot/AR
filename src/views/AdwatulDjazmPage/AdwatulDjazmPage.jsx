@@ -49,7 +49,10 @@ class AdwatulDjazmPage extends React.Component {
                             <Paper className={classes.paperStandart}>
                                 <Paragraph>
                                     <h3 className={classes.title}>
-                                        Отрицательная частица <ContrastWord inRu>لَمْ</ContrastWord>{' '}
+                                        Отрицательная частица{' '}
+                                        <ContrastWord red inRu>
+                                            لَمْ
+                                        </ContrastWord>{' '}
                                     </h3>
                                     <h5>Приходит перед глаголами настоящего времени у ней две роли</h5>
                                     <ul>
@@ -57,7 +60,7 @@ class AdwatulDjazmPage extends React.Component {
                                         <li>Меняет время на прошедшее</li>
                                     </ul>
                                     <ArSentence>
-                                        <ContrastWord>لمْ</ContrastWord> أذهَبْ = ما ذهبتُ
+                                        <ContrastWord red>لمْ</ContrastWord> أذهَبْ = ما ذهبتُ
                                     </ArSentence>
                                 </Paragraph>
 
@@ -70,7 +73,11 @@ class AdwatulDjazmPage extends React.Component {
 
                             <Paper className={classes.paperStandart}>
                                 <h3 className={classes.title}>
-                                    Частица <ContrastWord inRu>لَمّا</ContrastWord> (пока еще не, еще не)
+                                    Частица{' '}
+                                    <ContrastWord red inRu>
+                                        لَمّا
+                                    </ContrastWord>{' '}
+                                    (пока еще не, еще не)
                                 </h3>
                                 <h5>
                                     Отрицает и прошлый и настоящий момент, у لمّا есть высокий уровень возможности
@@ -80,7 +87,11 @@ class AdwatulDjazmPage extends React.Component {
 
                             <Paper className={classes.paperStandart}>
                                 <h3 className={classes.title}>
-                                    Частица отрицания<ContrastWord inRu> لا النّاهية </ContrastWord>
+                                    Частица отрицания
+                                    <ContrastWord red inRu>
+                                        {' '}
+                                        لا النّاهية{' '}
+                                    </ContrastWord>
                                 </h3>
                                 <h5>Приходит только ко второму лицу настоящего времени!</h5>
                                 <ArSentence> لا تَ‍‍ذهب‍‍وا الي المدرسة</ArSentence>
@@ -89,7 +100,11 @@ class AdwatulDjazmPage extends React.Component {
 
                             <Paper className={classes.paperStandart}>
                                 <h3 className={classes.title}>
-                                    Частица приказа<ContrastWord inRu> لمْ الأمر </ContrastWord>
+                                    Частица приказа
+                                    <ContrastWord red inRu>
+                                        {' '}
+                                        لمْ الأمر{' '}
+                                    </ContrastWord>
                                 </h3>
                                 <h5>Может прийти к любому лицу (Пусть он, пусть она)</h5>
                                 <ArSentence> لِنَذْهَب الي المدرسة</ArSentence>

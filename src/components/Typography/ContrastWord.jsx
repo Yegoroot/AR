@@ -5,11 +5,19 @@ import PropTypes from 'prop-types'
 import withStyles from '@material-ui/core/styles/withStyles'
 // core components
 import typographyOtherStyle from 'assets/jss/material-kit-react/components/typographyOtherStyle.jsx'
+import classNames from 'classnames'
 
 function ContrastWord({ ...props }) {
-    const { classes, children, inRu } = props
-    const arFonts = inRu ? ' ' + classes.arFonts : ' ' // в русском предложении арабское слово
-    return <span className={classes.defaultFontStyle + ' ' + classes.contrastWord + arFonts}>{children}</span>
+    const { classes, children, inRu, blue, red } = props
+    const classContrastWord = classNames({
+        [classes.defaultFontStyle]: true,
+        [classes.contrastWord]: true,
+        [classes.arFonts]: inRu, // в русском предложении арабское слово
+        [classes.colorBlue]: blue,
+        [classes.colorRed]: red,
+    })
+
+    return <span className={classContrastWord}>{children}</span>
 }
 
 ContrastWord.propTypes = {

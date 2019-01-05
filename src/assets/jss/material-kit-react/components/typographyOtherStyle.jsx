@@ -25,10 +25,19 @@ const typographyOtherStyle = {
     defaultParagraphMargins: {
         marginBottom: '1rem',
     },
-    // выделить слово
+    // ВЫДЕЛИТЬ СЛОВО
+    // выделить слово красным
     contrastWord: {
+        // color: dangerColor,
+    },
+    colorRed: {
         color: dangerColor,
     },
+    // выделить слово синим
+    colorBlue: {
+        color: infoColor,
+    },
+
     // несколько предложений
     severalSentence: {
         display: 'flex',

@@ -31,7 +31,7 @@ class SoglasovOpr extends React.Component {
             <div>
                 <Header
                     color="transparent"
-                    brand="Не согласованное определение"
+                    brand="Согласованное определение"
                     rightLinks={<HeaderLinks />}
                     fixed
                     changeColorOnScroll={{
@@ -45,25 +45,58 @@ class SoglasovOpr extends React.Component {
                 <div className={classNames(classes.main, classes.mainRaised)}>
                     <div className={classes.container}>
                         <div className={classes.navWrapper}>
-                            <h1 className={classes.titleAr}>Не согласованное определение</h1>
+                            <h1 className={classes.titleAr}>Согласованное определение</h1>
 
-                            <h4>
-                                Термин "идафа", который означает буквально "присоединение", можно перевести на русский
-                                язык как "несогласованное определение". Иногда этот термин переводят как "изафетная
-                                связка" например:
-                            </h4>
-                            <SeveralSentence>
-                                <ArSentence>قلم تِلمِيذٍ</ArSentence>
-                                <RuSentence> Карандаш ученика </RuSentence>
-                            </SeveralSentence>
+                            <h3>
+                                Согласованное определение ставится после определяемого и полностью согласуется в роде,
+                                числе, падеже, состоянии. Чаще всего в роде согласованного определения выступает
+                                прилагательное
+                            </h3>
+
+                            <Paragraph>
+                                <ArSentence>
+                                    <ContrastWord> عبّاس </ContrastWord>
+                                    <ContrastWord red> تاجر </ContrastWord>
+                                    <ContrastWord blue> غني </ContrastWord>
+                                </ArSentence>
+                                <RuSentence>
+                                    <ContrastWord>Аббас</ContrastWord>{' '}
+                                    <ContrastWord red>торговец [определяемое слово]</ContrastWord>{' '}
+                                    <ContrastWord blue> богатый [определение]</ContrastWord>
+                                </RuSentence>
+                            </Paragraph>
+                            <p>
+                                Определяемое может иметь при себе одновременно как несогласованное определение так и
+                                согласованное; В таком случае с начала за определяемым следует несогласованное затем
+                                согласованное
+                            </p>
+                            <h4 className={classes.title}>Определяемое -> Не согласованное -> Согласованное</h4>
 
                             <Paper className={classes.paperStandart}>
-                                <h4>
-                                    <ContrastWord>Первый член идафы</ContrastWord> не принимает ни танвина ни
-                                    определенного артикля т.е стоит в так называемом "сопряженном состоянии". В
-                                    зависимости от местоположения может быть в любом падеже
-                                </h4>
-                                <ArSentence>
+                                <p>
+                                    Если несогласованное определение стоит в неопределенном состоянии, то и имя
+                                    определяемое считается неопределенным
+                                </p>
+                                <Paragraph>
+                                    <ArSentence>
+                                        <ContrastWord> دفترُ</ContrastWord>
+                                        <ContrastWord red> طالبةٍ</ContrastWord>{' '}
+                                        <ContrastWord blue> نظيفٌ </ContrastWord>
+                                    </ArSentence>
+                                    <RuSentence>
+                                        <ContrastWord blue> (какая то) Чистая </ContrastWord>
+                                        <ContrastWord> тетрадь</ContrastWord>{' '}
+                                        <ContrastWord red> (какой то) студентки </ContrastWord>
+                                    </RuSentence>
+                                </Paragraph>
+                            </Paper>
+                            <Paper className={classes.paperStandart}>
+                                <p>
+                                    Если же несогласованное в определенном состоянии, то и определяемое считается в
+                                    определенном состоянии
+                                </p>
+
+                                {/* <ArSentence>
                                     <ContrastWord> قلمُ </ContrastWord> تِلميذ
                                 </ArSentence>
                                 <ArSentence>
@@ -71,39 +104,8 @@ class SoglasovOpr extends React.Component {
                                 </ArSentence>
                                 <ArSentence>
                                     رأيتُ <ContrastWord> كتابَ </ContrastWord> الطّالب
-                                </ArSentence>
+                                </ArSentence> */}
                             </Paper>
-                            <Paper className={classes.paperStandart}>
-                                <h4>
-                                    <ContrastWord>Второй член идафы</ContrastWord> может стоять как в определенном
-                                    состоянии так и в не определенном состоянии
-                                </h4>
-                                <SeveralSentence>
-                                    <Paragraph>
-                                        <ArSentence>
-                                            دفتر<ContrastWord> طالبٍ </ContrastWord>
-                                        </ArSentence>
-                                        <RuSentence> Тетрадь (какого то) студента </RuSentence>
-                                    </Paragraph>
-                                    <Paragraph>
-                                        <ArSentence>
-                                            دفتر<ContrastWord> الطالبٍ </ContrastWord>
-                                        </ArSentence>
-                                        <RuSentence> Тетрадь (известного) студента </RuSentence>
-                                    </Paragraph>
-                                </SeveralSentence>
-                                <h4>
-                                    <ContrastWord>Всегда в родительном падеже</ContrastWord> и является владельцем (как
-                                    бы владельцем) того, на что указывает первый член
-                                </h4>
-                            </Paper>
-                            <AdditionalInfo>
-                                <h4>Притяжательное местоимение является вторым членом идафы</h4>
-                                <ArSentence>
-                                    <Word root="بيت" suffix="ه" /> <Word root="بيت" suffix="ها" />{' '}
-                                    <Word root="بيت" suffix="كم" />
-                                </ArSentence>
-                            </AdditionalInfo>
                         </div>
                     </div>
                 </div>

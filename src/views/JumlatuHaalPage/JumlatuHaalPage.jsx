@@ -56,21 +56,21 @@ class JumlatuHaalPage extends React.Component {
                             <Paper className={classes.paperStandart}>
                                 <Paragraph>
                                     <ArSentence>
-                                        دخل المدرس الفصل <ContrastWord>غَضِبًا </ContrastWord>
+                                        دخل المدرس الفصل <ContrastWord red>غَضِبًا </ContrastWord>
                                     </ArSentence>
                                     <RuSentence>
                                         Пришел учитель в класс{' '}
-                                        <ContrastWord>злым (пришёл в состоянии злости)</ContrastWord>
+                                        <ContrastWord red>злым (пришёл в состоянии злости)</ContrastWord>
                                     </RuSentence>
                                 </Paragraph>
 
                                 <Paragraph>
                                     <ArSentence>
-                                        شرب اِبني الماء <ContrastWord>صافِيًا </ContrastWord>
+                                        شرب اِبني الماء <ContrastWord red>صافِيًا </ContrastWord>
                                     </ArSentence>
                                     <RuSentence>
                                         Мой сын пил воду{' '}
-                                        <ContrastWord>чистую (в момент пития вода была чистой)</ContrastWord>
+                                        <ContrastWord red>чистую (в момент пития вода была чистой)</ContrastWord>
                                     </RuSentence>
                                 </Paragraph>
 
@@ -88,7 +88,7 @@ class JumlatuHaalPage extends React.Component {
                                 <Paragraph>
                                     <ArSentence>
                                         قرأ الكتاب{' '}
-                                        <ContrastWord>
+                                        <ContrastWord red>
                                             <Tooltip
                                                 title="واو الحال"
                                                 placement="top"
@@ -100,7 +100,7 @@ class JumlatuHaalPage extends React.Component {
                                     </ArSentence>
                                     <RuSentence>
                                         Читал книгу
-                                        <ContrastWord> сидя (в состоянии сидения)</ContrastWord>
+                                        <ContrastWord red> сидя (в состоянии сидения)</ContrastWord>
                                     </RuSentence>
                                 </Paragraph>
 
@@ -114,7 +114,7 @@ class JumlatuHaalPage extends React.Component {
                                             <Button className={classes.tooltipButton}>و</Button>
                                         </Tooltip>{' '}
                                         القهوة{' '}
-                                        <ContrastWord>
+                                        <ContrastWord red>
                                             <Tooltip
                                                 title="واو الحال"
                                                 placement="top"
@@ -126,7 +126,7 @@ class JumlatuHaalPage extends React.Component {
                                     </ArSentence>
                                     <div>
                                         Пил чай и кофе
-                                        <ContrastWord>
+                                        <ContrastWord red>
                                             когда был на работе (в состоянии нахождения на работе)
                                         </ContrastWord>
                                     </div>
@@ -135,7 +135,7 @@ class JumlatuHaalPage extends React.Component {
                                 <Paragraph>
                                     <ArSentence>
                                         أكل أخي تفاحتي{' '}
-                                        <ContrastWord>
+                                        <ContrastWord red>
                                             <Tooltip
                                                 title="واو الحال"
                                                 placement="top"
@@ -147,7 +147,7 @@ class JumlatuHaalPage extends React.Component {
                                     </ArSentence>
                                     <div>
                                         Мой брат ел яблоки{' '}
-                                        <ContrastWord>пока я спал (был в состоянии сна)</ContrastWord>
+                                        <ContrastWord red>пока я спал (был в состоянии сна)</ContrastWord>
                                     </div>
                                 </Paragraph>
                             </Paper>

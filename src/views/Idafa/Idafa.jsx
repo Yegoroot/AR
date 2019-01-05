@@ -61,42 +61,42 @@ class IdafaPage extends React.Component {
 
                             <Paper className={classes.paperStandart}>
                                 <h4>
-                                    <ContrastWord>Первый член идафы</ContrastWord> не принимает ни танвина ни
+                                    <ContrastWord red>Первый член идафы</ContrastWord> не принимает ни танвина ни
                                     определенного артикля т.е стоит в так называемом "сопряженном состоянии". В
                                     зависимости от местоположения может быть в любом падеже
                                 </h4>
                                 <ArSentence>
-                                    <ContrastWord> قلمُ </ContrastWord> تِلميذ
+                                    <ContrastWord red> قلمُ </ContrastWord> تِلميذ
                                 </ArSentence>
                                 <ArSentence>
-                                    قرأتُ من <ContrastWord> كتابِ </ContrastWord> الطّالب
+                                    قرأتُ من <ContrastWord red> كتابِ </ContrastWord> الطّالب
                                 </ArSentence>
                                 <ArSentence>
-                                    رأيتُ <ContrastWord> كتابَ </ContrastWord> الطّالب
+                                    رأيتُ <ContrastWord red> كتابَ </ContrastWord> الطّالب
                                 </ArSentence>
                             </Paper>
                             <Paper className={classes.paperStandart}>
                                 <h4>
-                                    <ContrastWord>Второй член идафы</ContrastWord> может стоять как в определенном
+                                    <ContrastWord red>Второй член идафы</ContrastWord> может стоять как в определенном
                                     состоянии так и в не определенном состоянии
                                 </h4>
                                 <SeveralSentence>
                                     <Paragraph>
                                         <ArSentence>
-                                            دفتر<ContrastWord> طالبٍ </ContrastWord>
+                                            دفتر<ContrastWord red> طالبٍ </ContrastWord>
                                         </ArSentence>
                                         <RuSentence> Тетрадь (какого то) студента </RuSentence>
                                     </Paragraph>
                                     <Paragraph>
                                         <ArSentence>
-                                            دفتر<ContrastWord> الطالبٍ </ContrastWord>
+                                            دفتر<ContrastWord red> الطالبٍ </ContrastWord>
                                         </ArSentence>
                                         <RuSentence> Тетрадь (известного) студента </RuSentence>
                                     </Paragraph>
                                 </SeveralSentence>
                                 <h4>
-                                    <ContrastWord>Всегда в родительном падеже</ContrastWord> и является владельцем (как
-                                    бы владельцем) того, на что указывает первый член
+                                    <ContrastWord red>Всегда в родительном падеже</ContrastWord> и является владельцем
+                                    (как бы владельцем) того, на что указывает первый член
                                 </h4>
                             </Paper>
                             <AdditionalInfo>
