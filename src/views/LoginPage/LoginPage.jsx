@@ -17,7 +17,7 @@ import CardBody from 'components/Card/CardBody.jsx'
 import CardHeader from 'components/Card/CardHeader.jsx'
 import CardFooter from 'components/Card/CardFooter.jsx'
 import loginPageStyle from 'assets/jss/material-kit-react/views/loginPage.jsx'
-import image from 'assets/img/bg4-norm.jpg'
+import image from 'assets/img/mosque/mosque3.jpg'
 // import image from 'assets/img/bg7.jpg'
 
 import { reduxForm, Field } from 'redux-form'
