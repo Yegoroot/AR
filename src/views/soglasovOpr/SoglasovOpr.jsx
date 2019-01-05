@@ -5,7 +5,7 @@ import classNames from 'classnames'
 import { Paper, Tooltip, Button } from '@material-ui/core'
 // @material-ui/core components
 import withStyles from '@material-ui/core/styles/withStyles'
-
+import { Link } from 'react-router-dom'
 // core components
 import Header from 'components/Header/Header.jsx'
 import Footer from 'components/Footer/Footer.jsx'
@@ -67,26 +67,47 @@ class SoglasovOpr extends React.Component {
                             </Paragraph>
                             <p>
                                 Определяемое может иметь при себе одновременно как несогласованное определение так и
-                                согласованное; В таком случае с начала за определяемым следует несогласованное затем
-                                согласованное
+                                согласованное; В таком случае с начала за определяемым следует{' '}
+                                <Link to="/idafa">несогласованное</Link> затем согласованное
                             </p>
                             <h4 className={classes.title}>Определяемое -> Не согласованное -> Согласованное</h4>
 
                             <Paper className={classes.paperStandart}>
                                 <p>
-                                    Если несогласованное определение стоит в неопределенном состоянии, то и имя
-                                    определяемое считается неопределенным
+                                    Если <Link to="/idafa">несогласованное</Link> определение стоит в неопределенном
+                                    состоянии, то и имя определяемое считается неопределенным
                                 </p>
                                 <Paragraph>
-                                    <ArSentence>
-                                        <ContrastWord> دفترُ</ContrastWord>
-                                        <ContrastWord red> طالبةٍ</ContrastWord>{' '}
-                                        <ContrastWord blue> نظيفٌ </ContrastWord>
-                                    </ArSentence>
+                                    <SeveralSentence>
+                                        <ArSentence>
+                                            <ContrastWord> دفترُ</ContrastWord>
+                                            <ContrastWord red> طالبةٍ</ContrastWord>{' '}
+                                            <ContrastWord blue> نظيفٌ </ContrastWord>
+                                        </ArSentence>
+                                        <RuSentence>
+                                            (какая то) <ContrastWord blue> Чистая </ContrastWord>
+                                            <ContrastWord> тетрадь</ContrastWord>{' '}
+                                            <ContrastWord red> (какой то) студентки </ContrastWord>
+                                        </RuSentence>
+                                    </SeveralSentence>
+
                                     <RuSentence>
-                                        <ContrastWord blue> (какая то) Чистая </ContrastWord>
-                                        <ContrastWord> тетрадь</ContrastWord>{' '}
-                                        <ContrastWord red> (какой то) студентки </ContrastWord>
+                                        <ContrastWord inRu>دفترُ</ContrastWord> {' -'} тетерадь [определяемое]
+                                    </RuSentence>
+                                    <RuSentence>
+                                        <ContrastWord red inRu>
+                                            طالبةٍ
+                                        </ContrastWord>
+                                        {' -'} (какой то) <ContrastWord red> студентки </ContrastWord> [несогласованное
+                                        определение]
+                                    </RuSentence>
+                                    <RuSentence>
+                                        <ContrastWord blue inRu>
+                                            نظيفٌ
+                                        </ContrastWord>
+                                        {' -'}
+                                        <ContrastWord blue>чистая</ContrastWord> [согласованное определение при
+                                        определяемом]
                                     </RuSentence>
                                 </Paragraph>
                             </Paper>
@@ -96,15 +117,38 @@ class SoglasovOpr extends React.Component {
                                     определенном состоянии
                                 </p>
 
-                                {/* <ArSentence>
-                                    <ContrastWord> قلمُ </ContrastWord> تِلميذ
-                                </ArSentence>
-                                <ArSentence>
-                                    قرأتُ من <ContrastWord> كتابِ </ContrastWord> الطّالب
-                                </ArSentence>
-                                <ArSentence>
-                                    رأيتُ <ContrastWord> كتابَ </ContrastWord> الطّالب
-                                </ArSentence> */}
+                                <Paragraph>
+                                    <SeveralSentence>
+                                        <ArSentence>
+                                            <ContrastWord> مفتاحُ</ContrastWord>
+                                            <ContrastWord red> البابِ</ContrastWord>{' '}
+                                            <ContrastWord blue> الكبيرِ </ContrastWord>
+                                        </ArSentence>
+                                        <RuSentence>
+                                            <ContrastWord> Ключ (от)</ContrastWord>
+                                            <ContrastWord blue> большой </ContrastWord>{' '}
+                                            <ContrastWord red> двери </ContrastWord>
+                                        </RuSentence>
+                                    </SeveralSentence>
+
+                                    <RuSentence>
+                                        <ContrastWord inRu>مفتاحُ</ContrastWord> {' -'} ключ [определяемое]
+                                    </RuSentence>
+                                    <RuSentence>
+                                        <ContrastWord red inRu>
+                                            البابِ
+                                        </ContrastWord>
+                                        {' -'} <ContrastWord red> двери </ContrastWord> [несогласованное определение]
+                                    </RuSentence>
+                                    <RuSentence>
+                                        <ContrastWord blue inRu>
+                                            الكبيرِ
+                                        </ContrastWord>
+                                        {' -'}
+                                        <ContrastWord blue>большой</ContrastWord> [согласованное определение при
+                                        несогласованном]
+                                    </RuSentence>
+                                </Paragraph>
                             </Paper>
                         </div>
                     </div>

@@ -49,22 +49,22 @@ class IdafaPage extends React.Component {
                         <div className={classes.navWrapper}>
                             <h1 className={classes.titleAr}>Не согласованное определение</h1>
 
-                            <h4>
+                            <h3>
                                 Термин "идафа", который означает буквально "присоединение", можно перевести на русский
                                 язык как "несогласованное определение". Иногда этот термин переводят как "изафетная
                                 связка" например:
-                            </h4>
+                            </h3>
                             <SeveralSentence>
                                 <ArSentence>قلم تِلمِيذٍ</ArSentence>
                                 <RuSentence> Карандаш ученика </RuSentence>
                             </SeveralSentence>
 
                             <Paper className={classes.paperStandart}>
-                                <h4>
+                                <p>
                                     <ContrastWord red>Первый член идафы</ContrastWord> не принимает ни танвина ни
                                     определенного артикля т.е стоит в так называемом "сопряженном состоянии". В
                                     зависимости от местоположения может быть в любом падеже
-                                </h4>
+                                </p>
                                 <ArSentence>
                                     <ContrastWord red> قلمُ </ContrastWord> تِلميذ
                                 </ArSentence>
@@ -76,31 +76,31 @@ class IdafaPage extends React.Component {
                                 </ArSentence>
                             </Paper>
                             <Paper className={classes.paperStandart}>
-                                <h4>
+                                <p>
                                     <ContrastWord red>Второй член идафы</ContrastWord> может стоять как в определенном
                                     состоянии так и в не определенном состоянии
-                                </h4>
+                                </p>
+                                <p>
+                                    <ContrastWord red>]Всегда пребывает в родительном падеже</ContrastWord> и является
+                                    владельцем (как бы владельцем) того, на что указывает первый член
+                                </p>
                                 <SeveralSentence>
-                                    <Paragraph>
+                                    <div>
                                         <ArSentence>
                                             دفتر<ContrastWord red> طالبٍ </ContrastWord>
                                         </ArSentence>
                                         <RuSentence> Тетрадь (какого то) студента </RuSentence>
-                                    </Paragraph>
-                                    <Paragraph>
+                                    </div>
+                                    <div>
                                         <ArSentence>
                                             دفتر<ContrastWord red> الطالبٍ </ContrastWord>
                                         </ArSentence>
                                         <RuSentence> Тетрадь (известного) студента </RuSentence>
-                                    </Paragraph>
+                                    </div>
                                 </SeveralSentence>
-                                <h4>
-                                    <ContrastWord red>Всегда в родительном падеже</ContrastWord> и является владельцем
-                                    (как бы владельцем) того, на что указывает первый член
-                                </h4>
                             </Paper>
                             <AdditionalInfo>
-                                <h4>Притяжательное местоимение является вторым членом идафы</h4>
+                                <p>Притяжательное местоимение является вторым членом идафы</p>
                                 <ArSentence>
                                     <Word root="بيت" suffix="ه" /> <Word root="بيت" suffix="ها" />{' '}
                                     <Word root="بيت" suffix="كم" />
