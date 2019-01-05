@@ -17,11 +17,11 @@ import HeaderLinks from 'components/Header/HeaderLinks.jsx'
 import NavPills from 'components/NavPills/NavPills.jsx'
 import Parallax from 'components/Parallax/Parallax.jsx'
 
-import WeakLettersPage from 'assets/jss/material-kit-react/views/weakLettersPage.jsx'
+import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
 import WeakLetters from 'components/weakLetters'
 import { weakLetters1, weakLetters2, weakLetters3 } from 'api/verbs/weakLetters'
 
-class ProfilePage extends React.Component {
+class WeakLettersPage extends React.Component {
     state = {
         value: 0,
     }
@@ -84,4 +84,4 @@ class ProfilePage extends React.Component {
     }
 }
 
-export default withStyles(WeakLettersPage)(ProfilePage)
+export default withStyles(arabicPageStyle)(WeakLettersPage)
