@@ -31,12 +31,11 @@ class ProfilePage extends React.Component {
             <div>
                 <Header
                     color="transparent"
-                    brand="الإَضَافَةُ"
+                    brand="Не согласованное определение"
                     rightLinks={<HeaderLinks />}
                     fixed
                     changeColorOnScroll={{
                         height: 200,
-
                         color: 'white',
                     }}
                     {...rest}
