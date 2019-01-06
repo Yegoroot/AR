@@ -11,6 +11,7 @@ import ArSentence from 'components/Typography/ArSentence.jsx'
 // import SnackbarContent from 'components/Snackbar/SnackbarContent.jsx'
 import Clearfix from 'components/Clearfix/Clearfix.jsx'
 import tricksWithVerbs from 'assets/jss/material-kit-react/views/tricksWithVerbs.jsx'
+import { Link } from 'react-router-dom'
 
 class LyaNahia extends React.Component {
     render() {
@@ -21,12 +22,26 @@ class LyaNahia extends React.Component {
                     <h2 className={classes.titleAr}>لا الناهية</h2>
                     <Paper>
                         <div className="wrap1">
-                            <p>Частица запрета</p>
+                            <p>
+                                Частица запрета, употребляется <ContrastWord red>только во втором лице</ContrastWord>.
+                            </p>
                             <ArSentence translate="Умар, ни пей кофе!">
                                 يا عمر <ContrastWord red> لا </ContrastWord> يشربْ القهوة
                             </ArSentence>
                             <ArSentence translate="Не учите французкий язык">
                                 أنتم <ContrastWord red> لا </ContrastWord> تدرسوُا اللغة الفرنسية
+                            </ArSentence>
+                            <p>
+                                Как вы заметели ن множественного числа пропала, потому что это одна из частиц{' '}
+                                <Link to="/adwatuldjazm"> أدْوَات الجَزْم</Link>
+                            </p>
+                            <p>
+                                لا Частица настоящего времени, кроме случая, если в одном предложениии два глагола
+                                которые мы хоти отрицать. Действия прошедшего времени. Например:
+                            </p>
+                            <ArSentence translate="Не пил и не кушал">
+                                <ContrastWord red> لا </ContrastWord> أكلتُ <ContrastWord red> و </ContrastWord>{' '}
+                                <ContrastWord red> لا </ContrastWord> شربتُ
                             </ArSentence>
                         </div>
                     </Paper>

@@ -4,7 +4,7 @@ import React from 'react'
 import withStyles from '@material-ui/core/styles/withStyles'
 // @material-ui/icons
 import { Paper } from '@material-ui/core'
-import { Link } from 'react-router-dom'
+
 import ContrastWord from 'components/Typography/ContrastWord.jsx'
 import ArSentence from 'components/Typography/ArSentence.jsx'
 // import Word from 'components/word'
@@ -29,10 +29,6 @@ class LyaNafia extends React.Component {
                             <ArSentence translate="Вы не учите французкий язык">
                                 أنتم <ContrastWord red> لا </ContrastWord> تدرسونَ اللغة الفرنسية
                             </ArSentence>
-                            <p>
-                                Как вы заметели ن множественного числа пропала, потому что это одна из частиц{' '}
-                                <Link to="/adwatuldjazm"> أدْوَات الجَزْم</Link>
-                            </p>
                         </div>
                     </Paper>
                 </div>
