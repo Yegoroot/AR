@@ -64,6 +64,7 @@ const headerStyle = {
     },
     isBrandAr: {
         fontSize: '50px',
+        lineHeight: 1,
         '@media (max-width: 960px)': {
             fontSize: '30px',
         },
