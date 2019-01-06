@@ -12,8 +12,10 @@ import SoglasovOprPage from 'views/SoglasovOprPage/SoglasovOprPage'
 import JumlatuIsmPage from 'views/JumlatuIsmPage/JumlatuIsmPage'
 import TricksWithVerbsPage from 'views/TricksWithVerbsPage/TricksWithVerbsPage'
 import TypeHarfLya from 'views/TypeHarfLya/TypeHarfLya'
+import MasdarPage from 'views/MasdarPage/MasdarPage'
 
 var indexRoutes = [
+    { path: '/masdar', name: 'MasdarPage', component: MasdarPage },
     { path: '/typeharflya', name: 'TypeHarfLya', component: TypeHarfLya },
     { path: '/tricksverbs', name: 'TricksWithVerbsPage', component: TricksWithVerbsPage },
     { path: '/jumlatuism', name: 'JumlatuIsmPage', component: JumlatuIsmPage },

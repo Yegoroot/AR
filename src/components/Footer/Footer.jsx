@@ -44,27 +44,19 @@ function Footer({ ...props }) {
                                 Blog
                             </a>
                         </ListItem>
-                        <ListItem className={classes.inlineBlock}>
-                            <a
-                                href="https://www.creative-tim.com/license"
-                                rel="noopener noreferrer"
-                                className={classes.block}
-                                target="_blank">
+                        {/* <ListItem className={classes.inlineBlock}>
+                            <a href="#123" rel="noopener noreferrer" className={classes.block} target="_blank">
                                 Licenses
                             </a>
-                        </ListItem>
+                        </ListItem> */}
                     </List>
                 </div>
                 <div className={classes.right}>
                     &copy; {1900 + new Date().getYear()} , made with <Favorite className={classes.icon} /> by{' '}
-                    <a
-                        href="https://www.creative-tim.com"
-                        className={aClasses}
-                        rel="noopener noreferrer"
-                        target="_blank">
-                        Creative Tim
+                    <a href="/" className={aClasses} rel="noopener noreferrer">
+                        #
                     </a>{' '}
-                    for a better web.
+                    for a better remember arabic
                 </div>
             </div>
         </footer>

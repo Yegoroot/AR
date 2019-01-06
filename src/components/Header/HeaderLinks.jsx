@@ -45,7 +45,7 @@ function HeaderLinks({ ...props }) {
                         // <Link to="/profile" className={classes.navLink}>
                         //     Персонал
                         // </Link>,
-                        <Link to="/login" className={classes.navLink}>
+                        <Link to="/login" className={classes.dropdownLink}>
                             Login
                         </Link>,
                     ]}
@@ -62,10 +62,10 @@ function HeaderLinks({ ...props }) {
                     }}
                     buttonIcon={Waves}
                     dropdownList={[
-                        <Link to="/idafa" className={classes.navLink}>
+                        <Link to="/idafa" className={classes.dropdownLink}>
                             Не согласованное определение
                         </Link>,
-                        <Link to="/soglasopr" className={classes.navLink}>
+                        <Link to="/soglasopr" className={classes.dropdownLink}>
                             Согласованное определение
                         </Link>,
                     ]}
@@ -82,10 +82,10 @@ function HeaderLinks({ ...props }) {
                     }}
                     buttonIcon={Waves}
                     dropdownList={[
-                        <Link to="/jumlatuhaal" className={classes.navLink} style={{ fontSize: 27 }}>
+                        <Link to="/jumlatuhaal" className={classes.dropdownLink} style={{ fontSize: 20 }}>
                             جملة الحال
                         </Link>,
-                        <Link to="/jumlatuism" className={classes.navLink} style={{ fontSize: 27 }}>
+                        <Link to="/jumlatuism" className={classes.dropdownLink} style={{ fontSize: 20 }}>
                             جملة الاِسميَة
                         </Link>,
                     ]}
@@ -94,7 +94,7 @@ function HeaderLinks({ ...props }) {
             <ListItem className={classes.listItem}>
                 <CustomDropdown
                     noLiPadding
-                    buttonText="Глаголы"
+                    buttonText="Глагол"
                     // FSAr
                     buttonProps={{
                         className: classes.navLink,
@@ -102,13 +102,34 @@ function HeaderLinks({ ...props }) {
                     }}
                     buttonIcon={Waves}
                     dropdownList={[
-                        <Link to="/tricksverbs" className={classes.navLink}>
+                        <Link to="/tricksverbs" className={classes.dropdownLink}>
                             Трюки с глаголами
                         </Link>,
 
-                        <Link to="/weakLetters" className={classes.navLink}>
+                        <Link to="/weakLetters" className={classes.dropdownLink}>
                             Слабая коренная
                         </Link>,
+                    ]}
+                />
+            </ListItem>
+            <ListItem className={classes.listItem}>
+                <CustomDropdown
+                    noLiPadding
+                    buttonText="Имя"
+                    // FSAr
+                    buttonProps={{
+                        className: classes.navLink,
+                        color: 'transparent',
+                    }}
+                    buttonIcon={Waves}
+                    dropdownList={[
+                        <Link to="/masdar" className={classes.dropdownLink}>
+                            Масдар
+                        </Link>,
+
+                        // <Link to="/weakLetters" className={classes.navLink}>
+                        //     Слабая коренная
+                        // </Link>,
                     ]}
                 />
             </ListItem>
@@ -123,11 +144,11 @@ function HeaderLinks({ ...props }) {
                     }}
                     buttonIcon={Waves}
                     dropdownList={[
-                        <Link to="/adwatuldjazm" className={classes.navLink} style={{ fontSize: 27 }}>
+                        <Link to="/adwatuldjazm" className={classes.dropdownLink} style={{ fontSize: 20 }}>
                             أدْوَات الجَزْم
                         </Link>,
 
-                        <Link to="/typeharflya" className={classes.navLink}>
+                        <Link to="/typeharflya" className={classes.dropdownLink}>
                             Частица لا
                         </Link>,
                     ]}
