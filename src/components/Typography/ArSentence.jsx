@@ -5,15 +5,24 @@ import PropTypes from 'prop-types'
 import withStyles from '@material-ui/core/styles/withStyles'
 // core components
 import typographyOtherStyle from 'assets/jss/material-kit-react/components/typographyOtherStyle.jsx'
+const styleArSentence = {
+    display: 'flex',
+    alignItems: 'center',
+    flexWrap: 'wrap',
+}
+const styleArSentenceTranslate = {
+    fontSize: 16,
+    marginLeft: 10,
+}
 
 function ArSentence({ ...props }) {
-    const { classes, children } = props
+    const { classes, children, translate } = props
     return (
         <div
-            dir="rtl"
-            lang="ar"
+            style={styleArSentence}
             className={classes.defaultFontStyle + ' ' + classes.arFonts + ' ' + classes.arSentence}>
-            {children}
+            <span>{children}</span>
+            <span style={styleArSentenceTranslate}>{translate}</span>
         </div>
     )
 }

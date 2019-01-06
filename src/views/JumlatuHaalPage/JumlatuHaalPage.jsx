@@ -10,7 +10,6 @@ import withStyles from '@material-ui/core/styles/withStyles'
 import Header from 'components/Header/Header.jsx'
 import Footer from 'components/Footer/Footer.jsx'
 
-import RuSentence from 'components/Typography/RuSentence.jsx'
 import ContrastWord from 'components/Typography/ContrastWord.jsx'
 import ArSentence from 'components/Typography/ArSentence.jsx'
 import Paragraph from 'components/Typography/Paragraph.jsx'
@@ -55,38 +54,48 @@ class JumlatuHaalPage extends React.Component {
                             <h3 className={classes.titleAr}> :الحال</h3>
                             <Paper className={classes.paperStandart}>
                                 <Paragraph>
-                                    <ArSentence>
+                                    <ArSentence
+                                        translate={
+                                            <div>
+                                                Пришел учитель в класс{' '}
+                                                <ContrastWord red>злым (пришёл в состоянии злости)</ContrastWord>
+                                            </div>
+                                        }>
                                         دخل المدرس الفصل <ContrastWord red>غَضِبًا </ContrastWord>
                                     </ArSentence>
-                                    <RuSentence>
-                                        Пришел учитель в класс{' '}
-                                        <ContrastWord red>злым (пришёл в состоянии злости)</ContrastWord>
-                                    </RuSentence>
                                 </Paragraph>
 
                                 <Paragraph>
-                                    <ArSentence>
+                                    <ArSentence
+                                        translate={
+                                            <div>
+                                                Мой сын пил воду{' '}
+                                                <ContrastWord red>
+                                                    чистую (в момент пития вода была чистой)
+                                                </ContrastWord>
+                                            </div>
+                                        }>
                                         شرب اِبني الماء <ContrastWord red>صافِيًا </ContrastWord>
                                     </ArSentence>
-                                    <RuSentence>
-                                        Мой сын пил воду{' '}
-                                        <ContrastWord red>чистую (в момент пития вода была чистой)</ContrastWord>
-                                    </RuSentence>
                                 </Paragraph>
 
                                 <Paragraph>
-                                    <RuSentence>
-                                        <ArSentence>شرب اِبني الماء الصافِي</ArSentence>
-                                        Если же мы хотим сказать что вода И была чистой, то используем простое
-                                        прилагательное
-                                    </RuSentence>
+                                    <ArSentence>شرب اِبني الماء الصافِي</ArSentence>
+                                    Если же мы хотим сказать что вода И была чистой, то используем простое
+                                    прилагательное
                                 </Paragraph>
                             </Paper>
 
                             <h3 className={classes.titleAr}> :جملة الحال </h3>
                             <Paper className={classes.paperStandart}>
                                 <Paragraph>
-                                    <ArSentence>
+                                    <ArSentence
+                                        translate={
+                                            <div>
+                                                Читал книгу
+                                                <ContrastWord red> сидя (в состоянии сидения)</ContrastWord>
+                                            </div>
+                                        }>
                                         قرأ الكتاب{' '}
                                         <ContrastWord red>
                                             <Tooltip
@@ -98,14 +107,19 @@ class JumlatuHaalPage extends React.Component {
                                             أنا جالِس{' '}
                                         </ContrastWord>
                                     </ArSentence>
-                                    <RuSentence>
-                                        Читал книгу
-                                        <ContrastWord red> сидя (в состоянии сидения)</ContrastWord>
-                                    </RuSentence>
                                 </Paragraph>
 
                                 <Paragraph>
-                                    <ArSentence>
+                                    <ArSentence
+                                        translate={
+                                            <div>
+                                                Пил чай и кофе
+                                                <ContrastWord red>
+                                                    {' '}
+                                                    когда был на работе (в состоянии нахождения на работе)
+                                                </ContrastWord>
+                                            </div>
+                                        }>
                                         شربت الشاي{' '}
                                         <Tooltip
                                             title="واو العَطْف"
@@ -124,17 +138,16 @@ class JumlatuHaalPage extends React.Component {
                                             أنا في العَمل{' '}
                                         </ContrastWord>
                                     </ArSentence>
-                                    <div>
-                                        Пил чай и кофе
-                                        <ContrastWord red>
-                                            {' '}
-                                            когда был на работе (в состоянии нахождения на работе)
-                                        </ContrastWord>
-                                    </div>
                                 </Paragraph>
 
                                 <Paragraph>
-                                    <ArSentence>
+                                    <ArSentence
+                                        translate={
+                                            <div>
+                                                Мой брат ел яблоки{' '}
+                                                <ContrastWord red>пока я спал (был в состоянии сна)</ContrastWord>
+                                            </div>
+                                        }>
                                         أكل أخي تفاحتي{' '}
                                         <ContrastWord red>
                                             <Tooltip
@@ -146,10 +159,6 @@ class JumlatuHaalPage extends React.Component {
                                             أنا نائِم{' '}
                                         </ContrastWord>
                                     </ArSentence>
-                                    <div>
-                                        Мой брат ел яблоки{' '}
-                                        <ContrastWord red>пока я спал (был в состоянии сна)</ContrastWord>
-                                    </div>
                                 </Paragraph>
                             </Paper>
                         </div>

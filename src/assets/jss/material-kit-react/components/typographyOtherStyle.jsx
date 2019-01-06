@@ -22,9 +22,6 @@ const typographyOtherStyle = {
     arFonts: {
         fontSize: '32px',
     },
-    ruFonts: {
-        // fontSize: 16,
-    },
     defaultParagraphMargins: {
         marginBottom: '1rem',
     },
@@ -41,16 +38,6 @@ const typographyOtherStyle = {
         color: infoColor,
     },
 
-    // несколько предложений
-    severalSentence: {
-        display: 'flex',
-        flexWrap: 'wrap',
-        alignItems: 'center',
-        marginTop: 15,
-        '& > *': {
-            marginRight: 20,
-        },
-    },
     // блок дополнительно  информации
     additionalInfo: {
         paddingLeft: 15,

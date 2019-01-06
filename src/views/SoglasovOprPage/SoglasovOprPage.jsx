@@ -11,9 +11,7 @@ import Header from 'components/Header/Header.jsx'
 import Footer from 'components/Footer/Footer.jsx'
 
 import ContrastWord from 'components/Typography/ContrastWord.jsx'
-import SeveralSentence from 'components/Typography/SeveralSentence.jsx'
 import ArSentence from 'components/Typography/ArSentence.jsx'
-import RuSentence from 'components/Typography/RuSentence.jsx'
 import Paragraph from 'components/Typography/Paragraph.jsx'
 import HeaderLinks from 'components/Header/HeaderLinks.jsx'
 
@@ -56,16 +54,18 @@ class SoglasovOpr extends React.Component {
                             </h3>
 
                             <Paragraph>
-                                <ArSentence>
+                                <ArSentence
+                                    translate={
+                                        <div>
+                                            <ContrastWord>Аббас</ContrastWord>{' '}
+                                            <ContrastWord red>торговец [определяемое слово]</ContrastWord>{' '}
+                                            <ContrastWord blue> богатый [определение]</ContrastWord>
+                                        </div>
+                                    }>
                                     <ContrastWord> عبّاس </ContrastWord>
                                     <ContrastWord red> تاجر </ContrastWord>
                                     <ContrastWord blue> غني </ContrastWord>
                                 </ArSentence>
-                                <RuSentence>
-                                    <ContrastWord>Аббас</ContrastWord>{' '}
-                                    <ContrastWord red>торговец [определяемое слово]</ContrastWord>{' '}
-                                    <ContrastWord blue> богатый [определение]</ContrastWord>
-                                </RuSentence>
                             </Paragraph>
                             <p>
                                 Определяемое может иметь при себе одновременно как несогласованное определение так и
@@ -80,37 +80,47 @@ class SoglasovOpr extends React.Component {
                                     неопределенном состоянии, то и имя определяемое считается неопределенным
                                 </p>
                                 <Paragraph>
-                                    <SeveralSentence>
-                                        <ArSentence>
-                                            <ContrastWord> دفترُ</ContrastWord>
-                                            <ContrastWord red> طالبةٍ</ContrastWord>{' '}
-                                            <ContrastWord blue> نظيفٌ </ContrastWord>
-                                        </ArSentence>
-                                        <RuSentence>
-                                            (какая то) <ContrastWord blue> Чистая </ContrastWord>
-                                            <ContrastWord> тетрадь</ContrastWord>{' '}
-                                            <ContrastWord red> (какой то) студентки </ContrastWord>
-                                        </RuSentence>
-                                    </SeveralSentence>
+                                    <ArSentence
+                                        translate={
+                                            <div>
+                                                (какая то) <ContrastWord blue> Чистая </ContrastWord>
+                                                <ContrastWord> тетрадь</ContrastWord>{' '}
+                                                <ContrastWord red> (какой то) студентки </ContrastWord>
+                                            </div>
+                                        }>
+                                        <ContrastWord> دفترُ</ContrastWord>
+                                        <ContrastWord red> طالبةٍ</ContrastWord>{' '}
+                                        <ContrastWord blue> نظيفٌ </ContrastWord>
+                                    </ArSentence>
 
-                                    <RuSentence>
-                                        <ContrastWord inRu>دفترُ</ContrastWord> {' -'} тетерадь [определяемое]
-                                    </RuSentence>
-                                    <RuSentence>
+                                    <ArSentence translate=" - тетерадь [определяемое]">
+                                        <ContrastWord inRu>دفترُ</ContrastWord>
+                                    </ArSentence>
+                                    <ArSentence
+                                        translate={
+                                            <div>
+                                                {' '}
+                                                - (какой то) <ContrastWord red> студентки </ContrastWord> [идафа при
+                                                определяемом]
+                                            </div>
+                                        }>
                                         <ContrastWord red inRu>
                                             طالبةٍ
                                         </ContrastWord>
-                                        {' -'} (какой то) <ContrastWord red> студентки </ContrastWord> [идафа при
-                                        определяемом]
-                                    </RuSentence>
-                                    <RuSentence>
+                                    </ArSentence>
+
+                                    <ArSentence
+                                        translate={
+                                            <div>
+                                                {' '}
+                                                - <ContrastWord blue>чистая</ContrastWord> [согласованное определение
+                                                при определяемом]
+                                            </div>
+                                        }>
                                         <ContrastWord blue inRu>
                                             نظيفٌ
                                         </ContrastWord>
-                                        {' -'}
-                                        <ContrastWord blue>чистая</ContrastWord> [согласованное определение при
-                                        определяемом]
-                                    </RuSentence>
+                                    </ArSentence>
                                 </Paragraph>
                                 <img src={soglasOprImg1} style={{ width: '100%' }} alt="Схема 1" />
                             </Paper>
@@ -121,35 +131,45 @@ class SoglasovOpr extends React.Component {
                                 </p>
 
                                 <Paragraph>
-                                    <SeveralSentence>
-                                        <ArSentence>
-                                            <ContrastWord> مفتاحُ</ContrastWord>
-                                            <ContrastWord red> البابِ</ContrastWord>{' '}
-                                            <ContrastWord blue> الكبيرِ </ContrastWord>
-                                        </ArSentence>
-                                        <RuSentence>
-                                            <ContrastWord> Ключ (от)</ContrastWord>
-                                            <ContrastWord blue> большой </ContrastWord>{' '}
-                                            <ContrastWord red> двери </ContrastWord>
-                                        </RuSentence>
-                                    </SeveralSentence>
+                                    <ArSentence
+                                        translate={
+                                            <div>
+                                                <ContrastWord> Ключ (от)</ContrastWord>
+                                                <ContrastWord blue> большой </ContrastWord>{' '}
+                                                <ContrastWord red> двери </ContrastWord>
+                                            </div>
+                                        }>
+                                        <ContrastWord> مفتاحُ</ContrastWord>
+                                        <ContrastWord red> البابِ</ContrastWord>{' '}
+                                        <ContrastWord blue> الكبيرِ </ContrastWord>
+                                    </ArSentence>
 
-                                    <RuSentence>
-                                        <ContrastWord inRu>مفتاحُ</ContrastWord> {' -'} ключ [определяемое]
-                                    </RuSentence>
-                                    <RuSentence>
+                                    <ArSentence translate="- ключ [определяемое]">
+                                        <ContrastWord inRu>مفتاحُ</ContrastWord>
+                                    </ArSentence>
+                                    <ArSentence
+                                        translate={
+                                            <div>
+                                                {' '}
+                                                - <ContrastWord red> двери </ContrastWord> [идафа при определяемом]
+                                            </div>
+                                        }>
                                         <ContrastWord red inRu>
                                             البابِ
                                         </ContrastWord>
-                                        {' -'} <ContrastWord red> двери </ContrastWord> [идафа при определяемом]
-                                    </RuSentence>
-                                    <RuSentence>
+                                    </ArSentence>
+                                    <ArSentence
+                                        translate={
+                                            <div>
+                                                {' - '}
+                                                <ContrastWord blue>большой</ContrastWord> [согласованное определение при
+                                                идафе]
+                                            </div>
+                                        }>
                                         <ContrastWord blue inRu>
                                             الكبيرِ
                                         </ContrastWord>
-                                        {' -'}
-                                        <ContrastWord blue>большой</ContrastWord> [согласованное определение при идафе]
-                                    </RuSentence>
+                                    </ArSentence>
                                 </Paragraph>
                                 <img src={soglasOprImg2} style={{ width: '100%' }} alt="Схема 2" />
                             </Paper>
@@ -161,35 +181,44 @@ class SoglasovOpr extends React.Component {
                                     лишь идафА идафЫ получает артикль
                                 </p>
                                 <Paragraph>
-                                    <SeveralSentence>
-                                        <ArSentence>
-                                            <ContrastWord> مفتاحُ</ContrastWord>
-                                            <ContrastWord red> بابِ</ContrastWord>{' '}
-                                            <ContrastWord blue> البيتِ </ContrastWord>
-                                        </ArSentence>
-                                        <RuSentence>
-                                            <ContrastWord> Ключ (от)</ContrastWord>
-                                            <ContrastWord red> двери </ContrastWord>{' '}
-                                            <ContrastWord blue> дома </ContrastWord>
-                                        </RuSentence>
-                                    </SeveralSentence>
+                                    <ArSentence
+                                        translate={
+                                            <div>
+                                                <ContrastWord> Ключ (от)</ContrastWord>
+                                                <ContrastWord red> двери </ContrastWord>{' '}
+                                                <ContrastWord blue> дома </ContrastWord>
+                                            </div>
+                                        }>
+                                        <ContrastWord> مفتاحُ</ContrastWord>
+                                        <ContrastWord red> بابِ</ContrastWord>{' '}
+                                        <ContrastWord blue> البيتِ </ContrastWord>
+                                    </ArSentence>
 
-                                    <RuSentence>
-                                        <ContrastWord inRu>مفتاحُ</ContrastWord> {' -'} ключ [определяемое]
-                                    </RuSentence>
-                                    <RuSentence>
+                                    <ArSentence translate=" - ключ [определяемое]">
+                                        <ContrastWord inRu>مفتاحُ</ContrastWord>
+                                    </ArSentence>
+                                    <ArSentence
+                                        translate={
+                                            <div>
+                                                {' - '} <ContrastWord red> двери </ContrastWord> [идафа при
+                                                определяемом]
+                                            </div>
+                                        }>
                                         <ContrastWord red inRu>
                                             بابِ
                                         </ContrastWord>
-                                        {' -'} <ContrastWord red> двери </ContrastWord> [идафа при определяемом]
-                                    </RuSentence>
-                                    <RuSentence>
+                                    </ArSentence>
+                                    <ArSentence
+                                        translate={
+                                            <div>
+                                                {' - '}
+                                                <ContrastWord blue>дома</ContrastWord> [идафа при идафе]
+                                            </div>
+                                        }>
                                         <ContrastWord blue inRu>
                                             البيتِ
                                         </ContrastWord>
-                                        {' -'}
-                                        <ContrastWord blue>дома</ContrastWord> [идафа при идафе]
-                                    </RuSentence>
+                                    </ArSentence>
                                 </Paragraph>
                                 <img src={soglasOprImg3} style={{ width: '100%' }} alt="Схема 3" />
                             </Paper>

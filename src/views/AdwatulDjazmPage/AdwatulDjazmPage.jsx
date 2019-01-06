@@ -9,7 +9,7 @@ import withStyles from '@material-ui/core/styles/withStyles'
 // core components
 import Header from 'components/Header/Header.jsx'
 import Footer from 'components/Footer/Footer.jsx'
-// import Word from 'components/word'
+import Word from 'components/word'
 
 import ArSentence from 'components/Typography/ArSentence.jsx'
 import ContrastWord from 'components/Typography/ContrastWord.jsx'
@@ -94,8 +94,10 @@ class AdwatulDjazmPage extends React.Component {
                                     </ContrastWord>
                                 </h3>
                                 <h5>Приходит только ко второму лицу настоящего времени!</h5>
-                                <ArSentence> لا تَ‍‍ذهب‍‍وا الي المدرسة</ArSentence>
-                                Не ходите в школу
+                                <ArSentence translate="Не ходите в школу">
+                                    {' '}
+                                    <ContrastWord red>لا</ContrastWord> تَ‍‍ذهب‍‍وا الي المدرسة{' '}
+                                </ArSentence>
                             </Paper>
 
                             <Paper className={classes.paperStandart}>
@@ -107,10 +109,15 @@ class AdwatulDjazmPage extends React.Component {
                                     </ContrastWord>
                                 </h3>
                                 <h5>Может прийти к любому лицу (Пусть он, пусть она)</h5>
-                                <ArSentence> لِنَذْهَب الي المدرسة</ArSentence>
-                                Пойдёмте в школу
-                                <ArSentence> لِيَذهَبْ الي المدرسة</ArSentence>
-                                Пусть он идёт в школу
+                                <ArSentence translate={<span>Пойдёмте в школу</span>}>
+                                    {' '}
+                                    <Word prefix="لِ" root="نَذْهَب" /> الي المدرسة
+                                </ArSentence>
+
+                                <ArSentence translate={<span>Пусть он идёт в школу</span>}>
+                                    {' '}
+                                    <Word prefix="لِ" root="يَذهَبْ" /> الي المدرسة
+                                </ArSentence>
                             </Paper>
                         </div>
                     </div>

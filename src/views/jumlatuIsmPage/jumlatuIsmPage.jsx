@@ -9,7 +9,6 @@ import Footer from 'components/Footer/Footer.jsx'
 import Header from 'components/Header/Header.jsx'
 
 import ArSentence from 'components/Typography/ArSentence.jsx'
-import RuSentence from 'components/Typography/RuSentence.jsx'
 
 import HeaderLinks from 'components/Header/HeaderLinks.jsx'
 
@@ -54,30 +53,12 @@ class JumlatuIsmPage extends React.Component {
                             </p>
 
                             <div className="BL1">
-                                <div className="SS1">
-                                    <ArSentence>التّلميذُ نشيط</ArSentence>
-                                    <RuSentence>Ученик активен</RuSentence>
-                                </div>
-                                <div className="SS1">
-                                    <ArSentence>التّلميذةُ نشيطة</ArSentence>
-                                    <RuSentence>Ученица активна</RuSentence>
-                                </div>
-                                <div className="SS1">
-                                    <ArSentence>التِّلميذَان نشيطانِ</ArSentence>
-                                    <RuSentence>Два ученика активны</RuSentence>
-                                </div>
-                                <div className="SS1">
-                                    <ArSentence>التّلميذتانِ نشيطتانِ </ArSentence>
-                                    <RuSentence>Две ученицы активны</RuSentence>
-                                </div>
-                                <div className="SS1">
-                                    <ArSentence>التَّلاميذُ نِشَاط </ArSentence>
-                                    <RuSentence>Ученики активны</RuSentence>
-                                </div>
-                                <div className="SS1">
-                                    <ArSentence>التلميذَات نشِيطَات </ArSentence>
-                                    <RuSentence>Ученицы активны</RuSentence>
-                                </div>
+                                <ArSentence translate="Ученик активен">التّلميذُ نشيط</ArSentence>
+                                <ArSentence translate="Ученица активна">التّلميذةُ نشيطة</ArSentence>
+                                <ArSentence translate="Два ученика активны">التِّلميذَان نشيطانِ</ArSentence>
+                                <ArSentence translate="Две ученицы активны">التّلميذتانِ نشيطتانِ </ArSentence>
+                                <ArSentence translate="Ученики активны">التَّلاميذُ نِشَاط </ArSentence>
+                                <ArSentence translate="Ученицы активны">التلميذَات نشِيطَات </ArSentence>
                             </div>
                             <p>
                                 В именных предложениях, приведенных выше, сказуемым являлось имя, но часто сказуемое
@@ -85,28 +66,19 @@ class JumlatuIsmPage extends React.Component {
                             </p>
                             <div className="BL1">
                                 <h4 className={classes.title}>{'1)'} глаголом:</h4>
-                                <div className="SS1">
-                                    <ArSentence>زيدٌ فتح الباب</ArSentence>
-                                    <RuSentence>Зейд открыл дверь</RuSentence>
-                                </div>
+                                <ArSentence translate="Зейд открыл дверь">زيدٌ فتح الباب</ArSentence>
                             </div>
 
                             <div className="BL1">
                                 <h4 className={classes.title}>{'2)'} изафетным сочетанием обстоятельства и имени:</h4>
-                                <div className="SS1">
-                                    <ArSentence>السّيّارةُ أَمامَ البيتِ</ArSentence>
-                                    <RuSentence>Машина перед домом</RuSentence>
-                                </div>
+                                <ArSentence translate="Машина перед домом">السّيّارةُ أَمامَ البيتِ</ArSentence>
                             </div>
 
                             <div className="BL1">
                                 <h4 className={classes.title}>
                                     {'3)'} сочетанием предлога родительного падежа и имени:
                                 </h4>
-                                <div className="SS1">
-                                    <ArSentence>التّلميذُ فى المدرسةِ</ArSentence>
-                                    <RuSentence>Ученик в школе</RuSentence>
-                                </div>
+                                <ArSentence translate="Ученик в школе">التّلميذُ فى المدرسةِ</ArSentence>
                             </div>
                         </div>
                     </div>

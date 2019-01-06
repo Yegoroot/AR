@@ -13,9 +13,8 @@ import Footer from 'components/Footer/Footer.jsx'
 import Word from 'components/word'
 import AdditionalInfo from 'components/Typography/AdditionalInfo.jsx'
 import ContrastWord from 'components/Typography/ContrastWord.jsx'
-import SeveralSentence from 'components/Typography/SeveralSentence.jsx'
 import ArSentence from 'components/Typography/ArSentence.jsx'
-import RuSentence from 'components/Typography/RuSentence.jsx'
+
 // import Paragraph from 'components/Typography/Paragraph.jsx'
 import HeaderLinks from 'components/Header/HeaderLinks.jsx'
 
@@ -54,10 +53,8 @@ class IdafaPage extends React.Component {
                                 язык как "несогласованное определение". Иногда этот термин переводят как "изафетная
                                 связка" например:
                             </h3>
-                            <SeveralSentence>
-                                <ArSentence>قلم تِلمِيذٍ</ArSentence>
-                                <RuSentence> Карандаш ученика </RuSentence>
-                            </SeveralSentence>
+
+                            <ArSentence translate="Карандаш ученика">قلم تِلمِيذٍ</ArSentence>
 
                             <Paper className={classes.paperStandart}>
                                 <p>
@@ -79,25 +76,17 @@ class IdafaPage extends React.Component {
                                 <p>
                                     <ContrastWord red>Второй член идафы</ContrastWord> может стоять как в определенном
                                     состоянии так и в не определенном состоянии
-                                </p>
-                                <p>
-                                    <ContrastWord red>]Всегда пребывает в родительном падеже</ContrastWord> и является
+                                    <ContrastWord red> Всегда пребывает в родительном падеже</ContrastWord> и является
                                     владельцем (как бы владельцем) того, на что указывает первый член
                                 </p>
-                                <SeveralSentence>
-                                    <div>
-                                        <ArSentence>
-                                            دفتر<ContrastWord red> طالبٍ </ContrastWord>
-                                        </ArSentence>
-                                        <RuSentence> Тетрадь (какого то) студента </RuSentence>
-                                    </div>
-                                    <div>
-                                        <ArSentence>
-                                            دفتر<ContrastWord red> الطالبٍ </ContrastWord>
-                                        </ArSentence>
-                                        <RuSentence> Тетрадь (известного) студента </RuSentence>
-                                    </div>
-                                </SeveralSentence>
+
+                                <ArSentence translate="Тетрадь (какого то) студента">
+                                    دفتر<ContrastWord red> طالبٍ </ContrastWord>
+                                </ArSentence>
+
+                                <ArSentence translate="Тетрадь (известного) студента">
+                                    دفتر<ContrastWord red> الطالبٍ </ContrastWord>
+                                </ArSentence>
                             </Paper>
                             <AdditionalInfo>
                                 <p>Притяжательное местоимение является вторым членом идафы</p>
