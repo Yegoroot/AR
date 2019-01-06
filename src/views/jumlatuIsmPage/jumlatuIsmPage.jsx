@@ -1,33 +1,23 @@
 import React from 'react'
 // nodejs library that concatenates classes
 import classNames from 'classnames'
-
-import { Paper, Tooltip, Button } from '@material-ui/core'
 // @material-ui/core components
 import withStyles from '@material-ui/core/styles/withStyles'
-import { Link } from 'react-router-dom'
-// core components
-import Header from 'components/Header/Header.jsx'
-import Footer from 'components/Footer/Footer.jsx'
 
-import Word from 'components/word'
-import AdditionalInfo from 'components/Typography/AdditionalInfo.jsx'
-import ContrastWord from 'components/Typography/ContrastWord.jsx'
-import SeveralSentence from 'components/Typography/SeveralSentence.jsx'
+// core components
+import Footer from 'components/Footer/Footer.jsx'
+import Header from 'components/Header/Header.jsx'
+
 import ArSentence from 'components/Typography/ArSentence.jsx'
 import RuSentence from 'components/Typography/RuSentence.jsx'
-import Paragraph from 'components/Typography/Paragraph.jsx'
+
 import HeaderLinks from 'components/Header/HeaderLinks.jsx'
 
 import Parallax from 'components/Parallax/Parallax.jsx'
 
 import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
 
-import soglasOprImg1 from 'assets/img/content/soglasOpr/soglasOpr1.png'
-import soglasOprImg2 from 'assets/img/content/soglasOpr/soglasOpr2.png'
-import soglasOprImg3 from 'assets/img/content/soglasOpr/soglasOpr3.png'
-
-class SoglasovOpr extends React.Component {
+class JumlatuIsmPage extends React.Component {
     render() {
         const { classes, ...rest } = this.props
 
@@ -94,7 +84,7 @@ class SoglasovOpr extends React.Component {
                                 выражается также
                             </p>
                             <div className="BL1">
-                                <h4 className={classes.title}>1) глаголом:</h4>
+                                <h4 className={classes.title}>{'1)'} глаголом:</h4>
                                 <div className="SS1">
                                     <ArSentence>زيدٌ فتح الباب</ArSentence>
                                     <RuSentence>Зейд открыл дверь</RuSentence>
@@ -102,7 +92,7 @@ class SoglasovOpr extends React.Component {
                             </div>
 
                             <div className="BL1">
-                                <h4 className={classes.title}>2) изафетным сочетанием обстоятельства и имени:</h4>
+                                <h4 className={classes.title}>{'2)'} изафетным сочетанием обстоятельства и имени:</h4>
                                 <div className="SS1">
                                     <ArSentence>السّيّارةُ أَمامَ البيتِ</ArSentence>
                                     <RuSentence>Машина перед домом</RuSentence>
@@ -110,7 +100,9 @@ class SoglasovOpr extends React.Component {
                             </div>
 
                             <div className="BL1">
-                                <h4 className={classes.title}>3) сочетанием предлога родительного падежа и имени:</h4>
+                                <h4 className={classes.title}>
+                                    {'3)'} сочетанием предлога родительного падежа и имени:
+                                </h4>
                                 <div className="SS1">
                                     <ArSentence>التّلميذُ فى المدرسةِ</ArSentence>
                                     <RuSentence>Ученик в школе</RuSentence>
@@ -125,4 +117,4 @@ class SoglasovOpr extends React.Component {
     }
 }
 
-export default withStyles(arabicPageStyle)(SoglasovOpr)
+export default withStyles(arabicPageStyle)(JumlatuIsmPage)

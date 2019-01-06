@@ -2,7 +2,7 @@ import React from 'react'
 // nodejs library that concatenates classes
 import classNames from 'classnames'
 
-import { Paper, Tooltip, Button } from '@material-ui/core'
+import { Paper /*Tooltip, Button */ } from '@material-ui/core'
 // @material-ui/core components
 import withStyles from '@material-ui/core/styles/withStyles'
 
@@ -16,7 +16,7 @@ import ContrastWord from 'components/Typography/ContrastWord.jsx'
 import SeveralSentence from 'components/Typography/SeveralSentence.jsx'
 import ArSentence from 'components/Typography/ArSentence.jsx'
 import RuSentence from 'components/Typography/RuSentence.jsx'
-import Paragraph from 'components/Typography/Paragraph.jsx'
+// import Paragraph from 'components/Typography/Paragraph.jsx'
 import HeaderLinks from 'components/Header/HeaderLinks.jsx'
 
 import Parallax from 'components/Parallax/Parallax.jsx'

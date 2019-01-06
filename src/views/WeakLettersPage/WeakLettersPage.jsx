@@ -4,9 +4,9 @@ import classNames from 'classnames'
 // @material-ui/core components
 import withStyles from '@material-ui/core/styles/withStyles'
 // @material-ui/icons
-import Filter_1 from '@material-ui/icons/Looks'
-import Palette from '@material-ui/icons/Palette'
-import Favorite from '@material-ui/icons/Favorite'
+// import Filter_1 from '@material-ui/icons/Looks'
+// import Palette from '@material-ui/icons/Palette'
+// import Favorite from '@material-ui/icons/Favorite'
 // core components
 import Header from 'components/Header/Header.jsx'
 import Footer from 'components/Footer/Footer.jsx'

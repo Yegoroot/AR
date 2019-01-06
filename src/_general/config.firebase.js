@@ -1,5 +1,5 @@
 // Initialize Firebase
-import firebase from 'firebase/app'
+// import firebase from 'firebase/app'
 
 export const appName = 'appName'
 export const firebaseConfig = {

@@ -2,8 +2,8 @@ import {
     defaultFont,
     primaryColor,
     infoColor,
-    successColor,
-    warningColor,
+    // successColor,
+    // warningColor,
     dangerColor,
 } from 'assets/jss/material-kit-react.jsx'
 

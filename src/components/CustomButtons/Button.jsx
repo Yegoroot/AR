@@ -43,7 +43,6 @@ function RegularButton({ ...props }) {
         [className]: className,
         [classes.FSAr]: FSAr,
     })
-    console.log(classes.FSAr)
     return (
         <Button {...rest} className={btnClasses}>
             {children}

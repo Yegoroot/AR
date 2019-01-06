@@ -2,7 +2,7 @@ import React from 'react'
 // nodejs library that concatenates classes
 import classNames from 'classnames'
 
-import { Paper, Tooltip, Button } from '@material-ui/core'
+import { Paper /*Tooltip, Button*/ } from '@material-ui/core'
 // @material-ui/core components
 import withStyles from '@material-ui/core/styles/withStyles'
 import { Link } from 'react-router-dom'
@@ -10,8 +10,6 @@ import { Link } from 'react-router-dom'
 import Header from 'components/Header/Header.jsx'
 import Footer from 'components/Footer/Footer.jsx'
 
-import Word from 'components/word'
-import AdditionalInfo from 'components/Typography/AdditionalInfo.jsx'
 import ContrastWord from 'components/Typography/ContrastWord.jsx'
 import SeveralSentence from 'components/Typography/SeveralSentence.jsx'
 import ArSentence from 'components/Typography/ArSentence.jsx'
@@ -114,7 +112,7 @@ class SoglasovOpr extends React.Component {
                                         определяемом]
                                     </RuSentence>
                                 </Paragraph>
-                                <img src={soglasOprImg1} style={{ width: '100%' }} />
+                                <img src={soglasOprImg1} style={{ width: '100%' }} alt="Схема 1" />
                             </Paper>
                             <Paper className={classes.paperStandart}>
                                 <p>
@@ -153,7 +151,7 @@ class SoglasovOpr extends React.Component {
                                         <ContrastWord blue>большой</ContrastWord> [согласованное определение при идафе]
                                     </RuSentence>
                                 </Paragraph>
-                                <img src={soglasOprImg2} style={{ width: '100%' }} />
+                                <img src={soglasOprImg2} style={{ width: '100%' }} alt="Схема 2" />
                             </Paper>
 
                             <Paper className={classes.paperStandart}>
@@ -193,7 +191,7 @@ class SoglasovOpr extends React.Component {
                                         <ContrastWord blue>дома</ContrastWord> [идафа при идафе]
                                     </RuSentence>
                                 </Paragraph>
-                                <img src={soglasOprImg3} style={{ width: '100%' }} />
+                                <img src={soglasOprImg3} style={{ width: '100%' }} alt="Схема 3" />
                             </Paper>
                         </div>
                     </div>

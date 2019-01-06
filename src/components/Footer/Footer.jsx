@@ -26,22 +26,30 @@ function Footer({ ...props }) {
                 <div className={classes.left}>
                     <List className={classes.list}>
                         <ListItem className={classes.inlineBlock}>
-                            <a href="http://dict.arabera.org/" className={classes.block} target="_blank">
+                            <a
+                                href="http://dict.arabera.org/"
+                                rel="noopener noreferrer"
+                                className={classes.block}
+                                target="_blank">
                                 Переводчик онлайн
                             </a>
                         </ListItem>
                         <ListItem className={classes.inlineBlock}>
-                            <a href="/" className={classes.block} target="_blank">
+                            <a href="/" className={classes.block} rel="noopener noreferrer" target="_blank">
                                 About us
                             </a>
                         </ListItem>
                         <ListItem className={classes.inlineBlock}>
-                            <a href="/" className={classes.block} target="_blank">
+                            <a href="/" className={classes.block} rel="noopener noreferrer" target="_blank">
                                 Blog
                             </a>
                         </ListItem>
                         <ListItem className={classes.inlineBlock}>
-                            <a href="https://www.creative-tim.com/license" className={classes.block} target="_blank">
+                            <a
+                                href="https://www.creative-tim.com/license"
+                                rel="noopener noreferrer"
+                                className={classes.block}
+                                target="_blank">
                                 Licenses
                             </a>
                         </ListItem>
@@ -49,7 +57,11 @@ function Footer({ ...props }) {
                 </div>
                 <div className={classes.right}>
                     &copy; {1900 + new Date().getYear()} , made with <Favorite className={classes.icon} /> by{' '}
-                    <a href="https://www.creative-tim.com" className={aClasses} target="_blank">
+                    <a
+                        href="https://www.creative-tim.com"
+                        className={aClasses}
+                        rel="noopener noreferrer"
+                        target="_blank">
                         Creative Tim
                     </a>{' '}
                     for a better web.
