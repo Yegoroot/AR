@@ -9,8 +9,10 @@ import JumlatuHaalPage from 'views/JumlatuHaalPage/JumlatuHaalPage'
 import AdwatulDjazmPage from 'views/AdwatulDjazmPage/AdwatulDjazmPage'
 import IdafaPage from 'views/IdafaPage/IdafaPage'
 import SoglasovOprPage from 'views/SoglasovOprPage/SoglasovOprPage'
+import JumlatuIsmPage from 'views/JumlatuIsmPage/JumlatuIsmPage'
 
 var indexRoutes = [
+    { path: '/jumlatuism', name: 'JumlatuIsmPage', component: JumlatuIsmPage },
     { path: '/soglasopr', name: 'SoglasovOprPage', component: SoglasovOprPage },
     { path: '/idafa', name: 'IdafaPage', component: IdafaPage },
     { path: '/adwatuldjazm', name: 'AdwatulDjazmPage', component: AdwatulDjazmPage },

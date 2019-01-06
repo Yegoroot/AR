@@ -43,7 +43,7 @@ const typographyOtherStyle = {
         display: 'flex',
         flexWrap: 'wrap',
         alignItems: 'center',
-        marginBottom: 25,
+        marginTop: 15,
         '& > *': {
             marginRight: 20,
         },

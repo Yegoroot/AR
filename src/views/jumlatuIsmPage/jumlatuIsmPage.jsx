@@ -35,7 +35,8 @@ class SoglasovOpr extends React.Component {
             <div>
                 <Header
                     color="transparent"
-                    brand="Согласованное определение"
+                    brand="الجملةُ الاِسمِيَّةُ"
+                    isBrandAr
                     rightLinks={<HeaderLinks />}
                     fixed
                     changeColorOnScroll={{
@@ -49,152 +50,72 @@ class SoglasovOpr extends React.Component {
                 <div className={classNames(classes.main, classes.mainRaised)}>
                     <div className={classes.container}>
                         <div className={classes.navWrapper}>
-                            <h1 className={classes.titleAr}>Согласованное определение</h1>
+                            <h1 className={classes.titleAr}>Именное предложение</h1>
 
                             <h3>
-                                Согласованное определение ставится после определяемого и полностью согласуется в роде,
-                                числе, падеже, состоянии. Чаще всего в роде согласованного определения выступает
-                                прилагательное
+                                Именное предложение – это предложение, которое начинается с имени. Например: الطَّالِبُ
+                                مُجْتَهِدٌ Студент прилежен Подлежащее именного предложения (المُبْتَدَأُ) ставится, как
+                                правило, в определённом состоянии, а сказуемое (الخَبَرُ) - в неопределённом.
                             </h3>
 
-                            <Paragraph>
-                                <ArSentence>
-                                    <ContrastWord> عبّاس </ContrastWord>
-                                    <ContrastWord red> تاجر </ContrastWord>
-                                    <ContrastWord blue> غني </ContrastWord>
-                                </ArSentence>
-                                <RuSentence>
-                                    <ContrastWord>Аббас</ContrastWord>{' '}
-                                    <ContrastWord red>торговец [определяемое слово]</ContrastWord>{' '}
-                                    <ContrastWord blue> богатый [определение]</ContrastWord>
-                                </RuSentence>
-                            </Paragraph>
                             <p>
-                                Определяемое может иметь при себе одновременно как несогласованное определение так и
-                                согласованное; В таком случае с начала за определяемым следует{' '}
-                                <Link to="/idafa">несогласованное определение (идафа)</Link> затем согласованное
+                                Если сказуемое именного предложения является именем, то оно согласуется с подлежащим в
+                                числе и роде:
                             </p>
-                            <h4 className={classes.title}>Определяемое -> Не согласованное -> Согласованное</h4>
 
-                            <Paper className={classes.paperStandart}>
-                                <p>
-                                    Если <Link to="/idafa">несогласованное определение (идафа)</Link> стоит в
-                                    неопределенном состоянии, то и имя определяемое считается неопределенным
-                                </p>
-                                <Paragraph>
-                                    <SeveralSentence>
-                                        <ArSentence>
-                                            <ContrastWord> دفترُ</ContrastWord>
-                                            <ContrastWord red> طالبةٍ</ContrastWord>{' '}
-                                            <ContrastWord blue> نظيفٌ </ContrastWord>
-                                        </ArSentence>
-                                        <RuSentence>
-                                            (какая то) <ContrastWord blue> Чистая </ContrastWord>
-                                            <ContrastWord> тетрадь</ContrastWord>{' '}
-                                            <ContrastWord red> (какой то) студентки </ContrastWord>
-                                        </RuSentence>
-                                    </SeveralSentence>
+                            <div className="BL1">
+                                <div className="SS1">
+                                    <ArSentence>التّلميذُ نشيط</ArSentence>
+                                    <RuSentence>Ученик активен</RuSentence>
+                                </div>
+                                <div className="SS1">
+                                    <ArSentence>التّلميذةُ نشيطة</ArSentence>
+                                    <RuSentence>Ученица активна</RuSentence>
+                                </div>
+                                <div className="SS1">
+                                    <ArSentence>التِّلميذَان نشيطانِ</ArSentence>
+                                    <RuSentence>Два ученика активны</RuSentence>
+                                </div>
+                                <div className="SS1">
+                                    <ArSentence>التّلميذتانِ نشيطتانِ </ArSentence>
+                                    <RuSentence>Две ученицы активны</RuSentence>
+                                </div>
+                                <div className="SS1">
+                                    <ArSentence>التَّلاميذُ نِشَاط </ArSentence>
+                                    <RuSentence>Ученики активны</RuSentence>
+                                </div>
+                                <div className="SS1">
+                                    <ArSentence>التلميذَات نشِيطَات </ArSentence>
+                                    <RuSentence>Ученицы активны</RuSentence>
+                                </div>
+                            </div>
+                            <p>
+                                В именных предложениях, приведенных выше, сказуемым являлось имя, но часто сказуемое
+                                выражается также
+                            </p>
+                            <div className="BL1">
+                                <h4 className={classes.title}>1) глаголом:</h4>
+                                <div className="SS1">
+                                    <ArSentence>زيدٌ فتح الباب</ArSentence>
+                                    <RuSentence>Зейд открыл дверь</RuSentence>
+                                </div>
+                            </div>
 
-                                    <RuSentence>
-                                        <ContrastWord inRu>دفترُ</ContrastWord> {' -'} тетерадь [определяемое]
-                                    </RuSentence>
-                                    <RuSentence>
-                                        <ContrastWord red inRu>
-                                            طالبةٍ
-                                        </ContrastWord>
-                                        {' -'} (какой то) <ContrastWord red> студентки </ContrastWord> [идафа при
-                                        определяемом]
-                                    </RuSentence>
-                                    <RuSentence>
-                                        <ContrastWord blue inRu>
-                                            نظيفٌ
-                                        </ContrastWord>
-                                        {' -'}
-                                        <ContrastWord blue>чистая</ContrastWord> [согласованное определение при
-                                        определяемом]
-                                    </RuSentence>
-                                </Paragraph>
-                                <img src={soglasOprImg1} style={{ width: '100%' }} />
-                            </Paper>
-                            <Paper className={classes.paperStandart}>
-                                <p>
-                                    Если же идафа в определенном состоянии, то и определяемое считается в определенном
-                                    состоянии
-                                </p>
+                            <div className="BL1">
+                                <h4 className={classes.title}>2) изафетным сочетанием обстоятельства и имени:</h4>
+                                <div className="SS1">
+                                    <ArSentence>السّيّارةُ أَمامَ البيتِ</ArSentence>
+                                    <RuSentence>Машина перед домом</RuSentence>
+                                </div>
+                            </div>
 
-                                <Paragraph>
-                                    <SeveralSentence>
-                                        <ArSentence>
-                                            <ContrastWord> مفتاحُ</ContrastWord>
-                                            <ContrastWord red> البابِ</ContrastWord>{' '}
-                                            <ContrastWord blue> الكبيرِ </ContrastWord>
-                                        </ArSentence>
-                                        <RuSentence>
-                                            <ContrastWord> Ключ (от)</ContrastWord>
-                                            <ContrastWord blue> большой </ContrastWord>{' '}
-                                            <ContrastWord red> двери </ContrastWord>
-                                        </RuSentence>
-                                    </SeveralSentence>
-
-                                    <RuSentence>
-                                        <ContrastWord inRu>مفتاحُ</ContrastWord> {' -'} ключ [определяемое]
-                                    </RuSentence>
-                                    <RuSentence>
-                                        <ContrastWord red inRu>
-                                            البابِ
-                                        </ContrastWord>
-                                        {' -'} <ContrastWord red> двери </ContrastWord> [идафа при определяемом]
-                                    </RuSentence>
-                                    <RuSentence>
-                                        <ContrastWord blue inRu>
-                                            الكبيرِ
-                                        </ContrastWord>
-                                        {' -'}
-                                        <ContrastWord blue>большой</ContrastWord> [согласованное определение при идафе]
-                                    </RuSentence>
-                                </Paragraph>
-                                <img src={soglasOprImg2} style={{ width: '100%' }} />
-                            </Paper>
-
-                            <Paper className={classes.paperStandart}>
-                                <p>
-                                    В данном случае когда определение в идафе имеет собственную идафу, то само
-                                    определение (второй идафы) пишется без танвина и без определенного артикля, только
-                                    лишь идафА идафЫ получает артикль
-                                </p>
-                                <Paragraph>
-                                    <SeveralSentence>
-                                        <ArSentence>
-                                            <ContrastWord> مفتاحُ</ContrastWord>
-                                            <ContrastWord red> بابِ</ContrastWord>{' '}
-                                            <ContrastWord blue> البيتِ </ContrastWord>
-                                        </ArSentence>
-                                        <RuSentence>
-                                            <ContrastWord> Ключ (от)</ContrastWord>
-                                            <ContrastWord red> двери </ContrastWord>{' '}
-                                            <ContrastWord blue> дома </ContrastWord>
-                                        </RuSentence>
-                                    </SeveralSentence>
-
-                                    <RuSentence>
-                                        <ContrastWord inRu>مفتاحُ</ContrastWord> {' -'} ключ [определяемое]
-                                    </RuSentence>
-                                    <RuSentence>
-                                        <ContrastWord red inRu>
-                                            بابِ
-                                        </ContrastWord>
-                                        {' -'} <ContrastWord red> двери </ContrastWord> [идафа при определяемом]
-                                    </RuSentence>
-                                    <RuSentence>
-                                        <ContrastWord blue inRu>
-                                            البيتِ
-                                        </ContrastWord>
-                                        {' -'}
-                                        <ContrastWord blue>дома</ContrastWord> [идафа при идафе]
-                                    </RuSentence>
-                                </Paragraph>
-                                <img src={soglasOprImg3} style={{ width: '100%' }} />
-                            </Paper>
+                            <div className="BL1">
+                                <h4 className={classes.title}>3) сочетанием предлога родительного падежа и имени:</h4>
+                                <div className="SS1">
+                                    <ArSentence>التّلميذُ فى المدرسةِ</ArSentence>
+                                    <RuSentence>Ученик в школе</RuSentence>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
