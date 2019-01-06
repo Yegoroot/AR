@@ -36,7 +36,7 @@ class JumlatuIsmPage extends React.Component {
                     {...rest}
                 />
 
-                <Parallax small filter image={require('assets/img/mosque/mosque4.jpg')} />
+                <Parallax small filter image={require('assets/img/mosque/mosque5.jpg')} />
                 <div className={classNames(classes.main, classes.mainRaised)}>
                     <div className={classes.container}>
                         <div className={classes.navWrapper}>

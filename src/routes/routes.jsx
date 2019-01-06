@@ -10,8 +10,10 @@ import AdwatulDjazmPage from 'views/AdwatulDjazmPage/AdwatulDjazmPage'
 import IdafaPage from 'views/IdafaPage/IdafaPage'
 import SoglasovOprPage from 'views/SoglasovOprPage/SoglasovOprPage'
 import JumlatuIsmPage from 'views/JumlatuIsmPage/JumlatuIsmPage'
+import TricksWithVerbsPage from 'views/TricksWithVerbsPage/TricksWithVerbsPage'
 
 var indexRoutes = [
+    { path: '/tricksverbs', name: 'TricksWithVerbsPage', component: TricksWithVerbsPage },
     { path: '/jumlatuism', name: 'JumlatuIsmPage', component: JumlatuIsmPage },
     { path: '/soglasopr', name: 'SoglasovOprPage', component: SoglasovOprPage },
     { path: '/idafa', name: 'IdafaPage', component: IdafaPage },
