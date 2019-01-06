@@ -127,6 +127,7 @@ class JumlatuHaalPage extends React.Component {
                                     <div>
                                         Пил чай и кофе
                                         <ContrastWord red>
+                                            {' '}
                                             когда был на работе (в состоянии нахождения на работе)
                                         </ContrastWord>
                                     </div>

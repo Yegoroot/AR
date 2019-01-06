@@ -76,10 +76,26 @@ function HeaderLinks({ ...props }) {
                 />
             </ListItem>
             <ListItem className={classes.listItem}>
-                <Link to="/jumlatuhaal" className={classes.navLink} style={{ fontSize: 27 }}>
-                    جملة الحال
-                </Link>
+                <CustomDropdown
+                    noLiPadding
+                    buttonText="جملة"
+                    FSAr
+                    buttonProps={{
+                        className: classes.navLink,
+                        color: 'transparent',
+                    }}
+                    buttonIcon={Waves}
+                    dropdownList={[
+                        <Link to="/jumlatuhaal" className={classes.navLink} style={{ fontSize: 27 }}>
+                            جملة الحال
+                        </Link>,
+                        <Link to="/jumlatuism" className={classes.navLink} style={{ fontSize: 27 }}>
+                            جملة الاِسميَة
+                        </Link>,
+                    ]}
+                />
             </ListItem>
+
             <ListItem className={classes.listItem}>
                 <Link to="/adwatuldjazm" className={classes.navLink} style={{ fontSize: 27 }}>
                     أدْوَات الجَزْم
