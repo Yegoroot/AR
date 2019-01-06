@@ -22,7 +22,7 @@ import Parallax from 'components/Parallax/Parallax.jsx'
 
 import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
 
-class MasdarPage extends React.Component {
+class AbjectDegrees extends React.Component {
     render() {
         const { classes, ...rest } = this.props
 
@@ -30,8 +30,8 @@ class MasdarPage extends React.Component {
             <div>
                 <Header
                     color="transparent"
-                    brand="Масдар"
-                    isBrandAr
+                    brand="Степени прилагательного"
+                    // isBrandAr
                     rightLinks={<HeaderLinks />}
                     fixed
                     changeColorOnScroll={{
@@ -42,12 +42,15 @@ class MasdarPage extends React.Component {
                     {...rest}
                 />
 
-                <Parallax small filter image={require('assets/img/mosque/mosque8.jpg')} />
+                <Parallax small filter image={require('assets/img/mosque/mosque9.jpg')} />
                 <div className={classNames(classes.main, classes.mainRaised)}>
                     <div className={classes.container}>
                         <div className={classes.navWrapper}>
-                            <h1 className={classes.title}>Масдар</h1>
-                            <h3 className={classes.title}>Отвечает на вопрос "Что делать?", "Что сделать?"</h3>
+                            <h1 className={classes.title}>Превосходная и сравнительная степень</h1>
+
+                            <h2 className={classes.title}>
+                                Сравнительная степень <ContrastWord> أفْعَل مِنْهُ</ContrastWord>
+                            </h2>
                             <p>
                                 АльМасдар это аргументы между людьми (была курица первой или яйцо) (глагол был или
                                 масдар). Масдар существительное и потому принимает артикль, танвин, та марбуту и иногда
@@ -108,4 +111,4 @@ class MasdarPage extends React.Component {
     }
 }
 
-export default withStyles(arabicPageStyle)(MasdarPage)
+export default withStyles(arabicPageStyle)(AbjectDegrees)

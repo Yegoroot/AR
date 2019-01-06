@@ -1,10 +1,11 @@
+import { title } from 'assets/jss/material-kit-react.jsx'
 // import { container, title, titleAr, paperStandart } from 'assets/jss/material-kit-react.jsx'
 
 // import tooltipsStyle from 'assets/jss/material-kit-react/tooltipsStyle.jsx'
 
 const tricksWithVerbs = {
     // container,
-    // title,
+    title,
     // titleAr,
     // paperStandart,
     // main: {

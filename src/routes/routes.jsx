@@ -1,9 +1,9 @@
+// import AdminPage from 'views/AdminPage'
 import Components from 'views/Components/Components.jsx'
 import Home from 'views/Home/Home.jsx'
 import LandingPage from 'views/LandingPage/LandingPage.jsx'
 import ProfilePage from 'views/ProfilePage/ProfilePage.jsx'
 import LoginPage from 'views/LoginPage/LoginPage.jsx'
-// import AdminPage from 'views/AdminPage'
 import WeakLettersPage from 'views/WeakLettersPage/WeakLettersPage'
 import JumlatuHaalPage from 'views/JumlatuHaalPage/JumlatuHaalPage'
 import AdwatulDjazmPage from 'views/AdwatulDjazmPage/AdwatulDjazmPage'
@@ -13,8 +13,10 @@ import JumlatuIsmPage from 'views/JumlatuIsmPage/JumlatuIsmPage'
 import TricksWithVerbsPage from 'views/TricksWithVerbsPage/TricksWithVerbsPage'
 import TypeHarfLya from 'views/TypeHarfLya/TypeHarfLya'
 import MasdarPage from 'views/MasdarPage/MasdarPage'
+import AbjectDegrees from 'views/AbjectDegrees/AbjectDegrees'
 
 var indexRoutes = [
+    { path: '/abjectivedegrees', name: 'AbjectDegrees', component: AbjectDegrees },
     { path: '/masdar', name: 'MasdarPage', component: MasdarPage },
     { path: '/typeharflya', name: 'TypeHarfLya', component: TypeHarfLya },
     { path: '/tricksverbs', name: 'TricksWithVerbsPage', component: TricksWithVerbsPage },

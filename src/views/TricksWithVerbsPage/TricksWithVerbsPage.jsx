@@ -33,7 +33,7 @@ class SoglasovOpr extends React.Component {
                 <div className={classNames(classes.main, classes.mainRaised)}>
                     <div className={classes.container}>
                         <div className={classes.navWrapper}>
-                            <h1 className={classes.titleAr}>Трюки с глаголами</h1>
+                            <h1 className={classes.title}>Трюки с глаголами</h1>
                             <LiWithVerb />
                             <Admiration />
                         </div>

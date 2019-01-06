@@ -19,7 +19,7 @@ class LyaNahia extends React.Component {
         return (
             <div className={classes.section} id="liWithVerbs">
                 <div className={classes.container}>
-                    <h2 className={classes.titleAr}>لا الناهية</h2>
+                    <h3 className={classes.title}>لا الناهية</h3>
                     <Paper>
                         <div className="wrap1">
                             <p>
