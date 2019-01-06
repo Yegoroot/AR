@@ -19,7 +19,7 @@ class LyaNafia extends React.Component {
         return (
             <div className={classes.section} id="liWithVerbs">
                 <div className={classes.container}>
-                    <h3 className={classes.title}>لا النافية</h3>
+                    <h2 className={classes.title}>لا النافية</h2>
                     <Paper>
                         <div className="wrap1">
                             <p>Частица абсолютного отрицания</p>

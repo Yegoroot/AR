@@ -46,13 +46,13 @@ class IdafaPage extends React.Component {
                 <div className={classNames(classes.main, classes.mainRaised)}>
                     <div className={classes.container}>
                         <div className={classes.navWrapper}>
-                            <h1 className={classes.titleAr}>Не согласованное определение</h1>
+                            <h1 className={classes.title}>Не согласованное определение</h1>
 
-                            <h3>
+                            <p>
                                 Термин "идафа", который означает буквально "присоединение", можно перевести на русский
                                 язык как "несогласованное определение". Иногда этот термин переводят как "изафетная
                                 связка" например:
-                            </h3>
+                            </p>
 
                             <ArSentence translate="Карандаш ученика">قلم تِلمِيذٍ</ArSentence>
 

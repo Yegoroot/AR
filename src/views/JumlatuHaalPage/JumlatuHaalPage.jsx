@@ -45,13 +45,13 @@ class JumlatuHaalPage extends React.Component {
                     <div className={classes.container}>
                         <div className={classes.navWrapper}>
                             <h1 className={classes.titleAr}>جملة الحال</h1>
-                            <h4>
+                            <p>
                                 Отвечает на вопрос "как?" - является образом действия слово الحال буквально означает
                                 "ситуация" или "положение. В каком положении пребывает объект, в каком состоянии.
                                 <br />
                                 Перед جملة الحال приходит глагольное предложение в то время как جملة الحال именное
-                            </h4>
-                            <h3 className={classes.titleAr}> :الحال</h3>
+                            </p>
+                            <h2 className={classes.titleAr}> :الحال</h2>
                             <Paper className={classes.paperStandart}>
                                 <Paragraph>
                                     <ArSentence
@@ -81,12 +81,14 @@ class JumlatuHaalPage extends React.Component {
 
                                 <Paragraph>
                                     <ArSentence>شرب اِبني الماء الصافِي</ArSentence>
-                                    Если же мы хотим сказать что вода И была чистой, то используем простое
-                                    прилагательное
+                                    <p>
+                                        Если же мы хотим сказать что вода И была чистой, то используем простое
+                                        прилагательное
+                                    </p>
                                 </Paragraph>
                             </Paper>
 
-                            <h3 className={classes.titleAr}> :جملة الحال </h3>
+                            <h2 className={classes.titleAr}> :جملة الحال </h2>
                             <Paper className={classes.paperStandart}>
                                 <Paragraph>
                                     <ArSentence

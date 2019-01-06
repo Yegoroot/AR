@@ -45,13 +45,13 @@ class SoglasovOpr extends React.Component {
                 <div className={classNames(classes.main, classes.mainRaised)}>
                     <div className={classes.container}>
                         <div className={classes.navWrapper}>
-                            <h1 className={classes.titleAr}>Согласованное определение</h1>
+                            <h1 className={classes.title}>Согласованное определение</h1>
 
-                            <h3>
+                            <p>
                                 Согласованное определение ставится после определяемого и полностью согласуется в роде,
                                 числе, падеже, состоянии. Чаще всего в роде согласованного определения выступает
                                 прилагательное
-                            </h3>
+                            </p>
 
                             <Paragraph>
                                 <ArSentence

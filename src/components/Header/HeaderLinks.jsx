@@ -9,7 +9,7 @@ import ListItem from '@material-ui/core/ListItem'
 // import Tooltip from '@material-ui/core/Tooltip'
 
 // @material-ui/icons
-import { Apps, Waves } from '@material-ui/icons'
+import { Waves, Apps } from '@material-ui/icons'
 
 // core components
 import CustomDropdown from 'components/CustomDropdown/CustomDropdown.jsx'
@@ -22,7 +22,11 @@ function HeaderLinks({ ...props }) {
     return (
         <List className={classes.list}>
             <ListItem className={classes.listItem}>
-                <CustomDropdown
+                <Link to="/" className={classes.navLink}>
+                    Главная
+                </Link>
+
+                {/* <CustomDropdown
                     noLiPadding
                     buttonText="Default"
                     buttonProps={{
@@ -31,25 +35,9 @@ function HeaderLinks({ ...props }) {
                     }}
                     buttonIcon={Apps}
                     dropdownList={[
-                        <Link to="/" className={classes.dropdownLink}>
-                            Главная
-                        </Link>,
-                        <Link to="/components" className={classes.dropdownLink}>
-                            Все компоненты
-                        </Link>,
-
-                        // <Link to="/landing" className={classes.navLink}>
-                        //     Лэндинг
-                        // </Link>,
-
-                        // <Link to="/profile" className={classes.navLink}>
-                        //     Персонал
-                        // </Link>,
-                        <Link to="/login" className={classes.dropdownLink}>
-                            Login
-                        </Link>,
+                     
                     ]}
-                />
+                /> */}
             </ListItem>
 
             <ListItem className={classes.listItem}>
@@ -80,7 +68,7 @@ function HeaderLinks({ ...props }) {
                         className: classes.navLink,
                         color: 'transparent',
                     }}
-                    buttonIcon={Waves}
+                    buttonIcon={Apps}
                     dropdownList={[
                         <Link to="/jumlatuhaal" className={classes.dropdownLink} style={{ fontSize: 20 }}>
                             جملة الحال
@@ -125,6 +113,9 @@ function HeaderLinks({ ...props }) {
                     dropdownList={[
                         <Link to="/masdar" className={classes.dropdownLink}>
                             Масдар
+                        </Link>,
+                        <Link to="/abjectivedegrees" className={classes.dropdownLink}>
+                            Степени прилагательного
                         </Link>,
 
                         // <Link to="/weakLetters" className={classes.navLink}>

@@ -55,9 +55,11 @@ class MasdarPage extends React.Component {
                                 "надежда". Масдар это факт, утверждение
                             </p>
                             <h4>
-                                Я <ContrastWord red>пойду (глагол)</ContrastWord> на море следующим летом
+                                Я <ContrastWord red>пойду</ContrastWord> на море следующим летом{' '}
+                                <ContrastWord red>(глагол)</ContrastWord>
                                 <br />
-                                Интересно <ContrastWord red>ходить (масдар)</ContrastWord> на море
+                                Интересно <ContrastWord red>ходить </ContrastWord> на море{' '}
+                                <ContrastWord red> (масдар)</ContrastWord>
                             </h4>
 
                             <p>Проанализируйте следующие примеры</p>

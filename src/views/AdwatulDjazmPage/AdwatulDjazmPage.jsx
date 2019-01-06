@@ -46,15 +46,15 @@ class AdwatulDjazmPage extends React.Component {
                         <div className={classes.navWrapper}>
                             <h1 className={classes.titleAr}> لمْ - لَمّا - لا - لامْ الأمر </h1>
 
+                            <h2 className={classes.title}>
+                                Отрицательная частица{' '}
+                                <ContrastWord red inRu>
+                                    لَمْ
+                                </ContrastWord>{' '}
+                            </h2>
                             <Paper className={classes.paperStandart}>
                                 <Paragraph>
-                                    <h3 className={classes.title}>
-                                        Отрицательная частица{' '}
-                                        <ContrastWord red inRu>
-                                            لَمْ
-                                        </ContrastWord>{' '}
-                                    </h3>
-                                    <h5>Приходит перед глаголами настоящего времени у ней две роли</h5>
+                                    <p>Приходит перед глаголами настоящего времени у ней две роли</p>
                                     <ul>
                                         <li>Отрицает</li>
                                         <li>Меняет время на прошедшее</li>
@@ -71,44 +71,44 @@ class AdwatulDjazmPage extends React.Component {
                                 <ArSentence> هم لَمْ يَذهبُوا - هنّ لَمْ يذهَبْن</ArSentence>
                             </Paper>
 
+                            <h2 className={classes.title}>
+                                Частица{' '}
+                                <ContrastWord red inRu>
+                                    لَمّا
+                                </ContrastWord>{' '}
+                                (пока еще не, еще не)
+                            </h2>
                             <Paper className={classes.paperStandart}>
-                                <h3 className={classes.title}>
-                                    Частица{' '}
-                                    <ContrastWord red inRu>
-                                        لَمّا
-                                    </ContrastWord>{' '}
-                                    (пока еще не, еще не)
-                                </h3>
-                                <h5>
+                                <p>
                                     Отрицает и прошлый и настоящий момент, у لمّا есть высокий уровень возможности
                                     свершения
-                                </h5>
+                                </p>
                             </Paper>
 
+                            <h2 className={classes.title}>
+                                Частица отрицания
+                                <ContrastWord red inRu>
+                                    {' '}
+                                    لا النّاهية{' '}
+                                </ContrastWord>
+                            </h2>
                             <Paper className={classes.paperStandart}>
-                                <h3 className={classes.title}>
-                                    Частица отрицания
-                                    <ContrastWord red inRu>
-                                        {' '}
-                                        لا النّاهية{' '}
-                                    </ContrastWord>
-                                </h3>
-                                <h5>Приходит только ко второму лицу настоящего времени!</h5>
+                                <p>Приходит только ко второму лицу настоящего времени!</p>
                                 <ArSentence translate="Не ходите в школу">
                                     {' '}
                                     <ContrastWord red>لا</ContrastWord> تَ‍‍ذهب‍‍وا الي المدرسة{' '}
                                 </ArSentence>
                             </Paper>
 
+                            <h2 className={classes.title}>
+                                Частица приказа
+                                <ContrastWord red inRu>
+                                    {' '}
+                                    لمْ الأمر{' '}
+                                </ContrastWord>
+                            </h2>
                             <Paper className={classes.paperStandart}>
-                                <h3 className={classes.title}>
-                                    Частица приказа
-                                    <ContrastWord red inRu>
-                                        {' '}
-                                        لمْ الأمر{' '}
-                                    </ContrastWord>
-                                </h3>
-                                <h5>Может прийти к любому лицу (Пусть он, пусть она)</h5>
+                                <p>Может прийти к любому лицу (Пусть он, пусть она)</p>
                                 <ArSentence translate={<span>Пойдёмте в школу</span>}>
                                     {' '}
                                     <Word prefix="لِ" root="نَذْهَب" /> الي المدرسة

@@ -24,6 +24,8 @@ h4, h5, h6 {
 h1 {
     font-size: 2.9rem;
     line-height: 1.15em;
+    margin-top: 2.3rem !important;
+    margin-bottom: 2.1rem !important;
     @media screen and (max-width: 1040px) {
       font-size: 2.4rem;
       line-height: 1;
@@ -34,7 +36,7 @@ h1 {
     }
 }
 h2 {
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   line-height: 1.5em;
 }
 h3 {
@@ -55,8 +57,9 @@ h6 {
   font-weight: 500;
 }
 p {
-    font-size: 16px;
-    margin: 0 0 10px;
+    font-size: 20px;
+    margin: 0 0 15px;
+    line-height: 1.5;
 }
 html {
   font-family: sans-serif;

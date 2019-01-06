@@ -39,13 +39,13 @@ class JumlatuIsmPage extends React.Component {
                 <div className={classNames(classes.main, classes.mainRaised)}>
                     <div className={classes.container}>
                         <div className={classes.navWrapper}>
-                            <h1 className={classes.titleAr}>Именное предложение</h1>
+                            <h1 className={classes.title}>Именное предложение</h1>
 
-                            <h3>
+                            <p>
                                 Именное предложение – это предложение, которое начинается с имени. Например: الطالِب
                                 مجتهد Студент прилежен Подлежащее именного предложения (المُبْتَدَأُ) ставится, как
                                 правило, в определённом состоянии, а сказуемое (الخَبَرُ) - в неопределённом.
-                            </h3>
+                            </p>
 
                             <p>
                                 Если сказуемое именного предложения является именем, то оно согласуется с подлежащим в
