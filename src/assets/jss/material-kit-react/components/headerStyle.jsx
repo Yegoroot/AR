@@ -64,6 +64,9 @@ const headerStyle = {
     },
     isBrandAr: {
         fontSize: '50px',
+        '@media (max-width: 960px)': {
+            fontSize: '30px',
+        },
     },
     appResponsive: {
         margin: '20px 10px',

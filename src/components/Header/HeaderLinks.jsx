@@ -51,11 +51,7 @@ function HeaderLinks({ ...props }) {
                     ]}
                 />
             </ListItem>
-            <ListItem className={classes.listItem}>
-                <Link to="/weakLetters" className={classes.navLink}>
-                    Слабая коренная
-                </Link>
-            </ListItem>
+
             <ListItem className={classes.listItem}>
                 <CustomDropdown
                     noLiPadding
@@ -91,6 +87,27 @@ function HeaderLinks({ ...props }) {
                         </Link>,
                         <Link to="/jumlatuism" className={classes.navLink} style={{ fontSize: 27 }}>
                             جملة الاِسميَة
+                        </Link>,
+                    ]}
+                />
+            </ListItem>
+            <ListItem className={classes.listItem}>
+                <CustomDropdown
+                    noLiPadding
+                    buttonText="Глаголы"
+                    // FSAr
+                    buttonProps={{
+                        className: classes.navLink,
+                        color: 'transparent',
+                    }}
+                    buttonIcon={Waves}
+                    dropdownList={[
+                        <Link to="/tricksverbs" className={classes.navLink}>
+                            Трюки с глаголами
+                        </Link>,
+
+                        <Link to="/weakLetters" className={classes.navLink}>
+                            Слабая коренная
                         </Link>,
                     ]}
                 />
