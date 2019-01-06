@@ -25,9 +25,13 @@ class LyaNahia extends React.Component {
                             <p>
                                 Частица запрета, употребляется <ContrastWord red>только во втором лице</ContrastWord>.
                             </p>
+                            <ArSentence translate="Не бей меня">
+                                <ContrastWord red> لا </ContrastWord> تضربْنِي
+                            </ArSentence>
                             <ArSentence translate="Умар, ни пей кофе!">
                                 يا عمر <ContrastWord red> لا </ContrastWord> يشربْ القهوة
                             </ArSentence>
+
                             <ArSentence translate="Не учите французкий язык">
                                 أنتم <ContrastWord red> لا </ContrastWord> تدرسوُا اللغة الفرنسية
                             </ArSentence>
@@ -35,14 +39,6 @@ class LyaNahia extends React.Component {
                                 Как вы заметели ن множественного числа пропала, потому что это одна из частиц{' '}
                                 <Link to="/adwatuldjazm"> أدْوَات الجَزْم</Link>
                             </p>
-                            <p>
-                                لا Частица настоящего времени, кроме случая, если в одном предложениии два глагола
-                                которые мы хоти отрицать. Действия прошедшего времени. Например:
-                            </p>
-                            <ArSentence translate="Не пил и не кушал">
-                                <ContrastWord red> لا </ContrastWord> أكلتُ <ContrastWord red> و </ContrastWord>{' '}
-                                <ContrastWord red> لا </ContrastWord> شربتُ
-                            </ArSentence>
                         </div>
                     </Paper>
                 </div>

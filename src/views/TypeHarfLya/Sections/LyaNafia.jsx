@@ -29,6 +29,9 @@ class LyaNafia extends React.Component {
                             <ArSentence translate="Вы не учите французкий язык">
                                 أنتم <ContrastWord red> لا </ContrastWord> تدرسونَ اللغة الفرنسية
                             </ArSentence>
+                            <ArSentence translate="Не бил ты меня">
+                                <ContrastWord red> لا </ContrastWord> تضربُنِي
+                            </ArSentence>
                         </div>
                     </Paper>
                 </div>

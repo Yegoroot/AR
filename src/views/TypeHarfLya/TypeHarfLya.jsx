@@ -8,6 +8,7 @@ import Parallax from 'components/Parallax/Parallax.jsx'
 
 import LyaNafia from './Sections/LyaNafia'
 import LyaNahia from './Sections/LyaNahia'
+import LyaInPast from './Sections/LyaInPast'
 
 import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
 
@@ -37,6 +38,7 @@ class SoglasovOpr extends React.Component {
                             <h1 className={classes.titleAr}>لا الناهية - لا النافية</h1>
                             <LyaNafia />
                             <LyaNahia />
+                            <LyaInPast />
                         </div>
                     </div>
                 </div>
