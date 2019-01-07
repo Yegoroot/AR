@@ -43,27 +43,7 @@ function HeaderLinks({ ...props }) {
             <ListItem className={classes.listItem}>
                 <CustomDropdown
                     noLiPadding
-                    buttonText="Определение"
-                    buttonProps={{
-                        className: classes.navLink,
-                        color: 'transparent',
-                    }}
-                    buttonIcon={Waves}
-                    dropdownList={[
-                        <Link to="/idafa" className={classes.dropdownLink}>
-                            Не согласованное определение
-                        </Link>,
-                        <Link to="/soglasopr" className={classes.dropdownLink}>
-                            Согласованное определение
-                        </Link>,
-                    ]}
-                />
-            </ListItem>
-            <ListItem className={classes.listItem}>
-                <CustomDropdown
-                    noLiPadding
-                    buttonText="جملة"
-                    FSAr
+                    buttonText="Грамматика"
                     buttonProps={{
                         className: classes.navLink,
                         color: 'transparent',
@@ -117,10 +97,12 @@ function HeaderLinks({ ...props }) {
                         <Link to="/abjectivedegrees" className={classes.dropdownLink}>
                             Степени прилагательного
                         </Link>,
-
-                        // <Link to="/weakLetters" className={classes.navLink}>
-                        //     Слабая коренная
-                        // </Link>,
+                        <Link to="/idafa" className={classes.dropdownLink}>
+                            Не согласованное определение
+                        </Link>,
+                        <Link to="/soglasopr" className={classes.dropdownLink}>
+                            Согласованное определение
+                        </Link>,
                     ]}
                 />
             </ListItem>
@@ -143,8 +125,32 @@ function HeaderLinks({ ...props }) {
                             Частица لا
                         </Link>,
                         <Link to="/harfmaplus" className={classes.dropdownLink}>
-                            Частица ما с друзьями
+                            Частица ما
                         </Link>,
+                    ]}
+                />
+            </ListItem>
+            <ListItem className={classes.listItem}>
+                <CustomDropdown
+                    noLiPadding
+                    buttonText="Разное"
+                    // FSAr
+                    buttonProps={{
+                        className: classes.navLink,
+                        color: 'transparent',
+                    }}
+                    buttonIcon={Waves}
+                    dropdownList={[
+                        <Link to="/accent" className={classes.dropdownLink}>
+                            Акцент на объекте
+                        </Link>,
+
+                        // <Link to="/typeharflya" className={classes.dropdownLink}>
+                        //     Частица لا
+                        // </Link>,
+                        // <Link to="/harfmaplus" className={classes.dropdownLink}>
+                        //     Частица ما
+                        // </Link>,
                     ]}
                 />
             </ListItem>

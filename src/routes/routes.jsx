@@ -15,8 +15,10 @@ import HarfLyaPage from 'views/HarfLyaPage/HarfLyaPage'
 import MasdarPage from 'views/MasdarPage/MasdarPage'
 import AbjectDegrees from 'views/AbjectDegrees/AbjectDegrees'
 import HarfMaPlusPage from 'views/HarfMaPlusPage/HarfMaPlusPage'
+import AccentPage from 'views/AccentPage/AccentPage'
 
 var indexRoutes = [
+    { path: '/accent', name: 'AccentPage', component: AccentPage },
     { path: '/harfmaplus', name: 'HarfMaPlusPage', component: HarfMaPlusPage },
     { path: '/abjectivedegrees', name: 'AbjectDegrees', component: AbjectDegrees },
     { path: '/masdar', name: 'MasdarPage', component: MasdarPage },
