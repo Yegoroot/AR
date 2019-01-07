@@ -20,7 +20,10 @@ const typographyOtherStyle = {
     },
     // арабские буквы очень маленьки на фоне других
     arFonts: {
-        fontSize: '32px',
+        fontSize: 30,
+        '@media (max-width: 540px)': {
+            fontSize: '27px',
+        },
     },
     defaultParagraphMargins: {
         marginBottom: '1rem',

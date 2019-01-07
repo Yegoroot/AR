@@ -24,9 +24,15 @@ const styles = theme => ({
         // color: theme.palette.text.secondary,
         fontSize: 45,
         padding: 20,
+        '@media (max-width: 540px)': {
+            fontSize: 30,
+            padding: 10,
+        },
         marginLeft: 'auto',
+        lineHeight: 1,
     },
     ExpansionPanelDetails: {
+        padding: '8px 0px 0px',
         display: 'flex',
         flexWrap: 'wrap',
     },

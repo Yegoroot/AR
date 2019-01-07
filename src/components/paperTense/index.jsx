@@ -12,7 +12,15 @@ const styles = theme => ({
         '& h4': {
             marginBottom: 30,
             fontSize: 40,
+            '@media (max-width: 540px)': {
+                fontSize: 30,
+            },
             textAlign: 'right',
+        },
+        '@media (max-width: 540px)': {
+            marginRight: 0,
+            fontSize: 27,
+            width: '100%',
         },
         // ...theme.arabicFont,
     },
@@ -21,7 +29,9 @@ const styles = theme => ({
         '& > li': {
             display: 'flex',
             '& > *': {
-                paddingLeft: 25,
+                '@media (min-width: 540px)': {
+                    paddingLeft: 25,
+                },
             },
         },
         lineHeight: 2,
