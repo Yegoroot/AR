@@ -15,6 +15,7 @@ import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
 import WeakLetters from 'components/weakLetters'
 
 import { shadda } from 'api/verbs/shadda'
+import shaddaamr from 'assets/img/content/harf/shaddaamr.png'
 
 class ShaddaVerbPage extends React.Component {
     state = {
@@ -27,15 +28,6 @@ class ShaddaVerbPage extends React.Component {
 
     render() {
         const { classes, ...rest } = this.props
-
-        console.log('فِرِّ'.charCodeAt(0))
-        console.log('فِرِّ'.charCodeAt(1))
-        console.log('فِرِّ'.charCodeAt(2))
-        console.log('فِرِّ'.charCodeAt(3))
-        console.log('فِرِّ'.charCodeAt(4))
-
-        console.log('فِرِّ'.length)
-        console.log('عِدِ'.length)
         return (
             <div>
                 <Header
@@ -58,6 +50,11 @@ class ShaddaVerbPage extends React.Component {
                     </div>
 
                     <WeakLetters templates={shadda} />
+                    <div className={classes.container}>
+                        <h2 className={classes.title}>Глагол с шаддой и لا الناهية </h2>
+                        <p>Если с глаголомШадды приходит لا الناهية то видоизменяется конечная огласовка. Например:</p>
+                    </div>
+                    <img src={shaddaamr} style={{ width: '100%' }} alt="Схема 1" />
                 </div>
                 <Footer />
             </div>
