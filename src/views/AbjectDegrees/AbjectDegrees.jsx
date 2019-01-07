@@ -20,6 +20,8 @@ import HeaderLinks from 'components/Header/HeaderLinks.jsx'
 
 import Parallax from 'components/Parallax/Parallax.jsx'
 
+import Word from 'components/word'
+
 import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
 
 class AbjectDegrees extends React.Component {
@@ -48,60 +50,36 @@ class AbjectDegrees extends React.Component {
                         <div className={classes.navWrapper}>
                             <h1 className={classes.title}>Превосходная и сравнительная степень</h1>
 
+                            <p>
+                                Прилагательные можно разделить на три группы Сравнительные Превосходные и Обыкновенные
+                            </p>
                             <h2 className={classes.title}>
                                 Сравнительная степень <ContrastWord> أفْعَل مِنْهُ</ContrastWord>
                             </h2>
-                            <p>
-                                АльМасдар это аргументы между людьми (была курица первой или яйцо) (глагол был или
-                                масдар). Масдар существительное и потому принимает артикль, танвин, та марбуту и иногда
-                                ставится во множественное число. Он не привязан ко времени, как например слово "любовь",
-                                "надежда". Масдар это факт, утверждение
-                            </p>
-                            <h4>
-                                Я <ContrastWord red>пойду (глагол)</ContrastWord> на море следующим летом
-                                <br />
-                                Интересно <ContrastWord red>ходить (масдар)</ContrastWord> на море
-                            </h4>
 
-                            <p>Проанализируйте следующие примеры</p>
                             <ArSentence
                                 translate={
                                     <div>
-                                        Хочу <ContrastWord red>пойти </ContrastWord> к ...
+                                        Хашим высокий, но Хамид <ContrastWord red>выше его </ContrastWord>
                                     </div>
                                 }>
-                                ... أريدٌ أن <ContrastWord red> أذْهبُ </ContrastWord> الي
+                                هاشم طويل و حامد <ContrastWord red>أطْوَلُ </ContrastWord>
+                                <Word prefix="مِنْ" root="هُ" />
                             </ArSentence>
+
+                            <h2 className={classes.title}>Превосходная степень</h2>
+                            <p>"Один из сАмых". Изофетная связка</p>
                             <ArSentence
                                 translate={
                                     <div>
-                                        Хочу <ContrastWord red>ходить </ContrastWord> к ...
+                                        Мухаммад <ContrastWord red>сАамый лучший</ContrastWord>{' '}
+                                        <ContrastWord blue>студент</ContrastWord> в классе{' '}
+                                        <ContrastWord blue>( Идафа )</ContrastWord>
                                     </div>
                                 }>
-                                ... أريدٌ أن <ContrastWord red> الَّذهاب </ContrastWord> الي
+                                محمد <ContrastWord red> أحْسَنُ </ContrastWord>{' '}
+                                <ContrastWord blue> طَالِبٍ </ContrastWord> في الفصلِ
                             </ArSentence>
-
-                            <Paper>
-                                <div className="wrap1">
-                                    <p>Еще примеры с масдаром</p>
-                                    <ArSentence
-                                        translate={
-                                            <div>
-                                                Должен <ContrastWord red>обучаться</ContrastWord> ребенок плаванию
-                                            </div>
-                                        }>
-                                        يَجِبُ <ContrastWord red> تَعلِيم </ContrastWord> الطّفل السِباحة
-                                    </ArSentence>
-                                    <ArSentence
-                                        translate={
-                                            <div>
-                                                <ContrastWord red>Чтение </ContrastWord> книг полезно для ума
-                                            </div>
-                                        }>
-                                        <ContrastWord red> قِرَاءَة </ContrastWord> الكُتُب مُفيدَة لِلعَقل
-                                    </ArSentence>
-                                </div>
-                            </Paper>
                         </div>
                     </div>
                 </div>

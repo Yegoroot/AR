@@ -13,6 +13,7 @@ const styleArSentence = {
 const styleArSentenceTranslate = {
     fontSize: 16,
     marginLeft: 10,
+    lineHeight: 1.3,
 }
 
 function ArSentence({ ...props }) {
