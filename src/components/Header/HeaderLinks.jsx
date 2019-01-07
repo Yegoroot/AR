@@ -142,6 +142,9 @@ function HeaderLinks({ ...props }) {
                         <Link to="/typeharflya" className={classes.dropdownLink}>
                             Частица لا
                         </Link>,
+                        <Link to="/harfmaplus" className={classes.dropdownLink}>
+                            Частица ما с друзьями
+                        </Link>,
                     ]}
                 />
             </ListItem>

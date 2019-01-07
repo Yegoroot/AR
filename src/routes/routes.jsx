@@ -11,14 +11,16 @@ import IdafaPage from 'views/IdafaPage/IdafaPage'
 import SoglasovOprPage from 'views/SoglasovOprPage/SoglasovOprPage'
 import JumlatuIsmPage from 'views/JumlatuIsmPage/JumlatuIsmPage'
 import TricksWithVerbsPage from 'views/TricksWithVerbsPage/TricksWithVerbsPage'
-import TypeHarfLya from 'views/TypeHarfLya/TypeHarfLya'
+import HarfLyaPage from 'views/HarfLyaPage/HarfLyaPage'
 import MasdarPage from 'views/MasdarPage/MasdarPage'
 import AbjectDegrees from 'views/AbjectDegrees/AbjectDegrees'
+import HarfMaPlusPage from 'views/HarfMaPlusPage/HarfMaPlusPage'
 
 var indexRoutes = [
+    { path: '/harfmaplus', name: 'HarfMaPlusPage', component: HarfMaPlusPage },
     { path: '/abjectivedegrees', name: 'AbjectDegrees', component: AbjectDegrees },
     { path: '/masdar', name: 'MasdarPage', component: MasdarPage },
-    { path: '/typeharflya', name: 'TypeHarfLya', component: TypeHarfLya },
+    { path: '/typeharflya', name: 'HarfLyaPage', component: HarfLyaPage },
     { path: '/tricksverbs', name: 'TricksWithVerbsPage', component: TricksWithVerbsPage },
     { path: '/jumlatuism', name: 'JumlatuIsmPage', component: JumlatuIsmPage },
     { path: '/soglasopr', name: 'SoglasovOprPage', component: SoglasovOprPage },

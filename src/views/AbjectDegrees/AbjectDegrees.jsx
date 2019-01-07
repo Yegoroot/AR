@@ -2,7 +2,6 @@ import React from 'react'
 // nodejs library that concatenates classes
 import classNames from 'classnames'
 
-import { Paper /*Tooltip, Button */ } from '@material-ui/core'
 // @material-ui/core components
 import withStyles from '@material-ui/core/styles/withStyles'
 
@@ -44,7 +43,7 @@ class AbjectDegrees extends React.Component {
                     {...rest}
                 />
 
-                <Parallax small filter image={require('assets/img/mosque/mosque9.jpg')} />
+                <Parallax small filter image={require('assets/img/mosque/mosque11.jpg')} />
                 <div className={classNames(classes.main, classes.mainRaised)}>
                     <div className={classes.container}>
                         <div className={classes.navWrapper}>
