@@ -36,6 +36,8 @@ const checkHarf = char => {
             return true // zay
         case 1608:
             return true // waw
+        // case 1616:
+        //     return true // Кясра
 
         default:
             return false
@@ -47,7 +49,8 @@ const word = ({ root, suffix, prefix, classes }) => {
     let pr, sf // ЕСЛИ ПЕРВЫЙ СИМВОЛ НЕ СОДЕРЖИТ أ то присвоить соеденитель_пустой_ширины
     if (prefix) {
         let sym = prefix.charCodeAt(0)
-        pr = sym !== 1571 && sym !== 1575 ? zmj : ''
+        // pr = sym !== 1571 && sym !== 1575 ? zmj : ''
+        pr = checkHarf(sym) ? '' : zmj
     } else pr = ''
 
     if (suffix) {

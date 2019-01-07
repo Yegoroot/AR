@@ -20,8 +20,8 @@ class SoglasovOpr extends React.Component {
             <div>
                 <Header
                     color="transparent"
-                    brand="لا الناهية - لا النافية"
-                    isBrandAr
+                    brand="Частица لا"
+                    // isBrandAr
                     rightLinks={<HeaderLinks />}
                     fixed
                     changeColorOnScroll={{
@@ -35,7 +35,7 @@ class SoglasovOpr extends React.Component {
                 <div className={classNames(classes.main, classes.mainRaised)}>
                     <div className={classes.container}>
                         <div className={classes.navWrapper}>
-                            <h1 className={classes.titleAr}>لا الناهية - لا النافية</h1>
+                            <h1 className={classes.titleAr}>Частица لا</h1>
                             <LyaNafia />
                             <LyaNahia />
                             <LyaInPast />
