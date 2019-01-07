@@ -107,6 +107,9 @@ function HeaderLinks({ ...props }) {
                         <Link to="/soglasopr" className={classes.dropdownLink}>
                             Согласованное определение
                         </Link>,
+                        <Link to="/affectionateword" className={classes.dropdownLink}>
+                            Уменьшительно ласкательные
+                        </Link>,
                     ]}
                 />
             </ListItem>

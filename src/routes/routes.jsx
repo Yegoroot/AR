@@ -19,8 +19,10 @@ import AccentPage from 'views/AccentPage/AccentPage'
 import HarfDenyPage from 'views/HarfDenyPage/HarfDenyPage'
 import HarfWaPage from 'views/HarfWaPage/HarfWaPage'
 import ShaddaVerbPage from 'views/ShaddaVerbPage/ShaddaVerbPage'
+import AffectionateWordPage from 'views/AffectionateWordPage/AffectionateWordPage'
 
 var indexRoutes = [
+    { path: '/affectionateword', name: 'AffectionateWordPage', component: AffectionateWordPage },
     { path: '/shaddaverb', name: 'ShaddaVerbPage', component: ShaddaVerbPage },
     { path: '/harfwa', name: 'HarfWaPage', component: HarfWaPage },
     { path: '/harfdeny', name: 'HarfDenyPage', component: HarfDenyPage },
