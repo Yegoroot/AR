@@ -27,8 +27,8 @@ class HarfWaPage extends React.Component {
             <div>
                 <Header
                     color="transparent"
-                    brand="لا الناهية - لا النافية"
-                    isBrandAr
+                    brand="Виды واو"
+                    // isBrandAr
                     rightLinks={<HeaderLinks />}
                     fixed
                     changeColorOnScroll={{

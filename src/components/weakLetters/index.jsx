@@ -12,7 +12,7 @@ import PaperTense from 'components/paperTense'
 const styles = theme => ({
     root: {
         width: '100%',
-        padding: 14,
+        // padding: 14,
         ...theme.typography.body1,
         //             ...theme.typography.h1,
     },

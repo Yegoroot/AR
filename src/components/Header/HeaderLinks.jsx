@@ -77,6 +77,10 @@ function HeaderLinks({ ...props }) {
                         <Link to="/weakLetters" className={classes.dropdownLink}>
                             Слабая коренная
                         </Link>,
+
+                        <Link to="/shaddaverb" className={classes.dropdownLink}>
+                            Глагол с шаддой
+                        </Link>,
                     ]}
                 />
             </ListItem>
