@@ -2,7 +2,6 @@ import React from 'react'
 // nodejs library that concatenates classes
 import classNames from 'classnames'
 
-import { Paper /*Tooltip, Button */ } from '@material-ui/core'
 // @material-ui/core components
 import withStyles from '@material-ui/core/styles/withStyles'
 
