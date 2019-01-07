@@ -1,6 +1,6 @@
 export default {
     id: -3,
-    name: 'بَاعَ - يَبِيعُ',
+    name: 'عَضَّ - يَعَضُّ',
     content: [
         {
             name: 'الماضى', // ПРОШЕДШЕЕ ВРЕМЯ
@@ -10,13 +10,13 @@ export default {
                     words: [
                         {
                             prefix: '',
-                            root: 'بِعْ',
+                            root: 'عَضَضْ',
                             suffix: 'تُ',
                         },
                         {
                             prefix: '', // приставка
-                            root: 'بِعْ', // корень
-                            suffix: 'نَا', // суфикс
+                            root: 'عَضَضْ', // корень
+                            suffix: 'نا', // суфикс
                         },
                     ],
                 },
@@ -25,23 +25,23 @@ export default {
                     words: [
                         {
                             prefix: '',
-                            root: 'بِعْ',
+                            root: 'عَضَضْ',
                             suffix: 'تَ',
                         },
                         {
                             prefix: '',
-                            root: 'بِعْ',
+                            root: 'عَضَضْ',
                             suffix: 'تِ',
                         },
                         {
                             prefix: '',
-                            root: 'بِعْ',
-                            suffix: 'تُمْ',
+                            root: 'عَضَضْ',
+                            suffix: 'تم',
                         },
                         {
                             prefix: '',
-                            root: 'بِعْ',
-                            suffix: 'تُنَّ',
+                            root: 'عَضَضْ',
+                            suffix: 'تنّ',
                         },
                     ],
                 },
@@ -50,22 +50,22 @@ export default {
                     words: [
                         {
                             prefix: '',
-                            root: 'بَاعَ',
+                            root: 'عَضَّ',
                             suffix: '',
                         },
                         {
                             prefix: '',
-                            root: 'بَاعَ',
+                            root: 'عَضَّ',
                             suffix: 'تْ',
                         },
                         {
                             prefix: '',
-                            root: 'بَاعُ',
+                            root: 'عَضُّ',
                             suffix: 'وا',
                         },
                         {
                             prefix: '',
-                            root: 'بِعْ',
+                            root: 'عَضَضْ',
                             suffix: 'نَ',
                         },
                     ],
@@ -79,13 +79,13 @@ export default {
                     name: 'first', // ПЕРВОЕ ЛИЦО
                     words: [
                         {
-                            prefix: 'أ',
-                            root: 'بِيعُ',
+                            prefix: 'أَ',
+                            root: 'عَضُّ',
                             suffix: '',
                         },
                         {
                             prefix: 'نَ',
-                            root: 'بِيعُ',
+                            root: 'عَضُّ',
                             suffix: '',
                         },
                     ],
@@ -95,22 +95,22 @@ export default {
                     words: [
                         {
                             prefix: 'تَ',
-                            root: 'بِيعُ',
+                            root: 'عَضُّ',
                             suffix: '',
                         },
                         {
                             prefix: 'تَ',
-                            root: 'بِيعِ',
-                            suffix: 'نَ',
+                            root: 'عَضِّ',
+                            suffix: 'ينَ',
                         },
                         {
                             prefix: 'تَ',
-                            root: 'بِعُ',
+                            root: 'عَضُّ',
                             suffix: 'ونَ',
                         },
                         {
                             prefix: 'تَ',
-                            root: 'بِعْ',
+                            root: 'عَضَضْ',
                             suffix: 'نَ',
                         },
                     ],
@@ -120,22 +120,22 @@ export default {
                     words: [
                         {
                             prefix: 'يَ',
-                            root: 'بِيعُ',
+                            root: 'عَضُّ',
                             suffix: '',
                         },
                         {
                             prefix: 'تَ',
-                            root: 'بِيعُ',
+                            root: 'عَضُّ',
                             suffix: '',
                         },
                         {
                             prefix: 'يَ',
-                            root: 'بِعُ',
-                            suffix: 'ونَ',
+                            root: 'عَضُّ',
+                            suffix: 'ون',
                         },
                         {
                             prefix: 'يَ',
-                            root: 'بِعْ',
+                            root: 'عْضَضْ',
                             suffix: 'نَ',
                         },
                     ],
@@ -150,22 +150,22 @@ export default {
                     words: [
                         {
                             prefix: '',
-                            root: 'بِعْ',
+                            root: 'عَضَّ',
                             suffix: '',
                         },
                         {
                             prefix: '',
-                            root: 'بِيعِ',
+                            root: 'عَضِّ',
                             suffix: 'ي',
                         },
                         {
                             prefix: '',
-                            root: 'بِيعُ',
+                            root: 'عَضُّ',
                             suffix: 'وا',
                         },
                         {
-                            prefix: '',
-                            root: 'بِعْ',
+                            prefix: 'اِ',
+                            root: 'عْضَضْ',
                             suffix: 'نَ',
                         },
                     ],

@@ -18,6 +18,7 @@ Ducks позволяет нам:
 - redux-form  https://redux-form.com/8.0.4/docs/gettingstarted.md/
 - immutable
 - connected-react-router - для хранения роутов в redux
+- четкая библиотека classNames
 
 ## Затем 
 подключена тема триал [material-UI](#https://demos.creative-tim.com/material-kit-react/#/)
@@ -42,3 +43,7 @@ a так же в __package.json__  "homepage": "https://domen.com/ar",
 
 
 https://demos.creative-tim.com/material-kit-react/?_ga=2.258220812.7221223.1546690794-784790524.1546690794#/
+
+
+
+## Разобраться с ي во втором шаблоне /shaddaverb (Приказ)

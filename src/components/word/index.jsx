@@ -49,14 +49,15 @@ const word = ({ root, suffix, prefix, classes }) => {
     let pr, sf // ЕСЛИ ПЕРВЫЙ СИМВОЛ НЕ СОДЕРЖИТ أ то присвоить соеденитель_пустой_ширины
     if (prefix) {
         let sym = prefix.charCodeAt(0)
-        // pr = sym !== 1571 && sym !== 1575 ? zmj : ''
-        pr = checkHarf(sym) ? '' : zmj
+        pr = checkHarf(sym) ? '' : zmj // pr = sym !== 1571 && sym !== 1575 ? zmj : ''
     } else pr = ''
 
     if (suffix) {
         //* ОБЪЯСНЕНИЕ НИЖЕ
-        let sym = root.charCodeAt(root.length - 2)
-        // sf = (sym >= 1583 && sym <= 1586) || sym === 1608 ? "" : zmj;
+        let sym = root.charCodeAt(root.length - 2) // sf = (sym >= 1583 && sym <= 1586) || sym === 1608 ? "" : zmj;
+        // глаголах с шаддой чтоб дотянуться до последней буквы нужно минус три (-1 символ огласока, -2 шадда, -3 сама буква)
+        if (sym === 1617) sym = root.charCodeAt(root.length - 3)
+
         sf = checkHarf(sym) ? '' : zmj
     } else {
         sf = ''
@@ -75,7 +76,7 @@ export default withStyles(styles)(word)
 
 //** СНАЧАЛО МЫ ПРОВЕЕРИЛИ ЕСТЬ ЛИ СУФФИКС
 /**
- * root.charCodeAt(root.length - 2); - ПОСЛЕДНЯЯ БУКВА - ПРЕДПОСЛЕДНИЙ СИМВОЛ (огласовка обязательна)
+ * root.charCodeAt(root.length - 2); - ПОСЛЕДНЯЯ БУКВА -1 это огласовка -2 это ПРЕДПОСЛЕДНИЙ СИМВОЛ  (огласовка обязательна чтоб читалось норм)
  * если он есть то проверяем корень
  * если последняя буква корня (не равняеться ДАЛЬ/ ЗАЛЬ/ РА/ ЗА/ ВАВ ) то ставим пробел нулевой ширины
  * root.charCodeAt(root.length - 2); - это грамотно сработает только если над последней буквой огласовки

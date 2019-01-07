@@ -1,6 +1,6 @@
 export default {
-    id: -4,
-    name: 'قَالَ - يَقُولُ',
+    id: -2,
+    name: 'فَرَّ - يَفِرُّ',
     content: [
         {
             name: 'الماضى', // ПРОШЕДШЕЕ ВРЕМЯ
@@ -10,13 +10,13 @@ export default {
                     words: [
                         {
                             prefix: '',
-                            root: 'قُلْ',
+                            root: 'فَرَرْ',
                             suffix: 'تُ',
                         },
                         {
                             prefix: '', // приставка
-                            root: 'قُلْ', // корень
-                            suffix: 'نَا', // суфикс
+                            root: 'فَرَرْ', // корень
+                            suffix: 'نا', // суфикс
                         },
                     ],
                 },
@@ -25,23 +25,23 @@ export default {
                     words: [
                         {
                             prefix: '',
-                            root: 'قُلْ',
+                            root: 'فَرَرْ',
                             suffix: 'تَ',
                         },
                         {
                             prefix: '',
-                            root: 'قُلْ',
+                            root: 'فَرَرْ',
                             suffix: 'تِ',
                         },
                         {
                             prefix: '',
-                            root: 'قُلْ',
-                            suffix: 'تُمْ',
+                            root: 'فَرَرْ',
+                            suffix: 'تم',
                         },
                         {
                             prefix: '',
-                            root: 'قُلْ',
-                            suffix: 'تُنَّ',
+                            root: 'فَرَرْ',
+                            suffix: 'تنّ',
                         },
                     ],
                 },
@@ -50,22 +50,22 @@ export default {
                     words: [
                         {
                             prefix: '',
-                            root: 'قَالَ',
+                            root: 'فَرَّ',
                             suffix: '',
                         },
                         {
                             prefix: '',
-                            root: 'قَالَ',
+                            root: 'فَرَّ',
                             suffix: 'تْ',
                         },
                         {
                             prefix: '',
-                            root: 'قَالُ',
+                            root: 'فَرَّ',
                             suffix: 'وا',
                         },
                         {
                             prefix: '',
-                            root: 'قُلْ',
+                            root: 'فَرَرْ',
                             suffix: 'نَ',
                         },
                     ],
@@ -80,12 +80,12 @@ export default {
                     words: [
                         {
                             prefix: 'أ',
-                            root: 'قُولُ',
+                            root: 'فِرُّ',
                             suffix: '',
                         },
                         {
                             prefix: 'نَ',
-                            root: 'قُولُ',
+                            root: 'فِرُّ',
                             suffix: '',
                         },
                     ],
@@ -95,23 +95,23 @@ export default {
                     words: [
                         {
                             prefix: 'تَ',
-                            root: 'قُولُ',
+                            root: 'فِرُّ',
                             suffix: '',
                         },
                         {
                             prefix: 'تَ',
-                            root: 'قُولِ',
-                            suffix: 'ينَ',
+                            root: 'فِرِّ',
+                            suffix: 'ين',
                         },
                         {
                             prefix: 'تَ',
-                            root: 'قُولُ',
-                            suffix: 'وتَ',
+                            root: 'فِرُّ',
+                            suffix: 'ونَ',
                         },
                         {
                             prefix: 'تَ',
-                            root: 'قُلْ',
-                            suffix: 'نَ',
+                            root: 'فِرِرْ',
+                            suffix: 'ن',
                         },
                     ],
                 },
@@ -119,24 +119,24 @@ export default {
                     name: 'third', // ТРЕТЬЕ ЛИЦО
                     words: [
                         {
-                            prefix: 'يَ',
-                            root: 'قُولُ',
+                            prefix: 'ي',
+                            root: 'فِرُّ',
                             suffix: '',
                         },
                         {
                             prefix: 'تَ',
-                            root: 'قُولُ',
+                            root: 'فِرُّ',
                             suffix: '',
                         },
                         {
-                            prefix: 'يَ',
-                            root: 'قُولُ',
+                            prefix: 'ي',
+                            root: 'فِرُّ',
                             suffix: 'ونَ',
                         },
                         {
-                            prefix: 'ي',
-                            root: 'قُلْ',
-                            suffix: 'نَ',
+                            prefix: 'يَ',
+                            root: 'فْرِرْ',
+                            suffix: 'ن',
                         },
                     ],
                 },
@@ -150,23 +150,23 @@ export default {
                     words: [
                         {
                             prefix: '',
-                            root: 'قُلْ',
+                            root: 'فِرِّ',
                             suffix: '',
                         },
                         {
                             prefix: '',
-                            root: 'قُولِ',
+                            root: 'فِرِّ',
                             suffix: 'ي',
                         },
                         {
                             prefix: '',
-                            root: 'قُولُ',
+                            root: 'فِرُّ',
                             suffix: 'وا',
                         },
                         {
-                            prefix: '',
-                            root: 'قُلْ',
-                            suffix: 'نَ',
+                            prefix: 'اِ',
+                            root: 'فْرِرْ',
+                            suffix: 'ن',
                         },
                     ],
                 },
