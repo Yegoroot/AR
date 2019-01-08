@@ -20,8 +20,10 @@ import HarfDenyPage from 'views/HarfDenyPage/HarfDenyPage'
 import HarfWaPage from 'views/HarfWaPage/HarfWaPage'
 import ShaddaVerbPage from 'views/ShaddaVerbPage/ShaddaVerbPage'
 import AffectionateWordPage from 'views/AffectionateWordPage/AffectionateWordPage'
+import Ism5Page from 'views/Ism5Page/Ism5Page'
 
 var indexRoutes = [
+    { path: '/ism5', name: 'Ism5Page', component: Ism5Page },
     { path: '/affectionateword', name: 'AffectionateWordPage', component: AffectionateWordPage },
     { path: '/shaddaverb', name: 'ShaddaVerbPage', component: ShaddaVerbPage },
     { path: '/harfwa', name: 'HarfWaPage', component: HarfWaPage },
