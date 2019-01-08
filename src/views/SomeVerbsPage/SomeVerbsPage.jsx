@@ -6,10 +6,7 @@ import Footer from 'components/Footer/Footer.jsx'
 import HeaderLinks from 'components/Header/HeaderLinks.jsx'
 import Parallax from 'components/Parallax/Parallax.jsx'
 
-import LiWithVerb from './Sections/LiWithVerb'
-import Admiration from './Sections/Admiration'
-import DualIsm from './Sections/DualIsm'
-import StartHamza from './Sections/StartHamza'
+import Munthu from './Sections/Munthu'
 
 import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
 
@@ -21,7 +18,7 @@ class SomeVerbsPage extends React.Component {
             <div>
                 <Header
                     color="transparent"
-                    brand="Tricks with verb"
+                    brand="Некоторые глаголы"
                     rightLinks={<HeaderLinks />}
                     fixed
                     changeColorOnScroll={{
@@ -35,11 +32,8 @@ class SomeVerbsPage extends React.Component {
                 <div className={classNames(classes.main, classes.mainRaised)}>
                     <div className={classes.container}>
                         <div className={classes.navWrapper}>
-                            <h1 className={classes.title}>Трюки с глаголами</h1>
-                            <LiWithVerb />
-                            <Admiration />
-                            <DualIsm />
-                            <StartHamza />
+                            <h1 className={classes.title}>Некоторые из глаголов</h1>
+                            <Munthu />
                         </div>
                     </div>
                 </div>
