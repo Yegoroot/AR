@@ -10,6 +10,7 @@ import Munthu from './Sections/Munthu'
 import Samaha from './Sections/Samaha'
 import KanaLaYazalu from './Sections/KanaLaYazalu'
 import Uridu from './Sections/Uridu'
+import Wajaba from './Sections/Wajaba'
 import OtherVerbs from './Sections/OtherVerbs'
 
 import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
@@ -40,6 +41,7 @@ class SomeVerbsPage extends React.Component {
                             <Munthu />
                             <Samaha />
                             <Uridu />
+                            <Wajaba />
                             <OtherVerbs />
                             <KanaLaYazalu />
                         </div>
