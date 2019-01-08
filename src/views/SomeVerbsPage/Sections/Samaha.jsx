@@ -19,12 +19,12 @@ class Samaha extends React.Component {
         return (
             <div className={classes.section} id="samaha">
                 <div className={classes.container}>
-                    <h3 className={classes.title}>
+                    <h2 className={classes.title}>
                         Глагол{' '}
                         <ContrastWord inRu red>
                             سَمَحَ
                         </ContrastWord>
-                    </h3>
+                    </h2>
 
                     <Paper>
                         <div className="wrap1">

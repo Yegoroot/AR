@@ -22,7 +22,7 @@ class KanaLaYazalu extends React.Component {
         return (
             <div className={classes.section} id="samaha">
                 <div className={classes.container}>
-                    <h3 className={classes.title}>
+                    <h2 className={classes.title}>
                         Глаголы бытия{' '}
                         <ContrastWord inRu red>
                             كان
@@ -31,7 +31,7 @@ class KanaLaYazalu extends React.Component {
                         <ContrastWord inRu red>
                             يزَالُ
                         </ContrastWord>
-                    </h3>
+                    </h2>
 
                     <Paper>
                         <div className="wrap1">

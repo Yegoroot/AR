@@ -18,12 +18,12 @@ class Munthu extends React.Component {
         return (
             <div className={classes.section} id="munzu">
                 <div className={classes.container}>
-                    <h3 className={classes.title}>
+                    <h2 className={classes.title}>
                         Глагол{' '}
                         <ContrastWord inRu red>
                             مُنْذُ
                         </ContrastWord>
-                    </h3>
+                    </h2>
 
                     <Paper>
                         <div className="wrap1">
