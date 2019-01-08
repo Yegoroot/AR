@@ -1,33 +1,72 @@
 export default {
-    id: -1,
-    name: '--',
-    words: [], //  рассекает, думает, соединяет-собирает, опрокидывает
+    id: -4,
+    name: '2 слабая 1 шаблон',
     content: [
         {
             name: 'الماضى', // ПРОШЕДШЕЕ ВРЕМЯ
             faces: [
                 {
-                    name: 'first', // ВТОРОЕ ЛИЦО
+                    name: 'first', // ПЕРВОЕ ЛИЦО
                     words: [
                         {
                             prefix: '',
-                            root: 'ذهبْ',
-                            suffix: 'تُما',
+                            root: 'أرَدْ',
+                            suffix: 'تُ',
+                        },
+                        {
+                            prefix: '', // приставка
+                            root: 'أرَدْ', // корень
+                            suffix: 'نا', // суфикс
                         },
                     ],
                 },
                 {
-                    name: 'second', // ТРЕТЬЕ ЛИЦО
+                    name: 'second', // ВТОРОЕ ЛИЦО
                     words: [
                         {
                             prefix: '',
-                            root: 'ذهب',
-                            suffix: 'ا',
+                            root: 'أرَدْ',
+                            suffix: 'تَ',
                         },
                         {
                             prefix: '',
-                            root: 'ذهبَ',
-                            suffix: 'تَا',
+                            root: 'أرَدْ',
+                            suffix: 'تِ',
+                        },
+                        {
+                            prefix: '',
+                            root: 'أرَدْ',
+                            suffix: 'تم',
+                        },
+                        {
+                            prefix: '',
+                            root: 'أرَدْ',
+                            suffix: 'تنّ',
+                        },
+                    ],
+                },
+                {
+                    name: 'third', // ТРЕТЬЕ ЛИЦО
+                    words: [
+                        {
+                            prefix: '',
+                            root: 'أرَادَ',
+                            suffix: '',
+                        },
+                        {
+                            prefix: '',
+                            root: 'أرَادَ',
+                            suffix: 'تْ',
+                        },
+                        {
+                            prefix: '',
+                            root: 'أرَادُ',
+                            suffix: 'وا',
+                        },
+                        {
+                            prefix: '',
+                            root: 'أرَادْ',
+                            suffix: 'نَ',
                         },
                     ],
                 },
@@ -37,12 +76,42 @@ export default {
             name: 'المضارع', // НАСТОЯЩЕЕ ВРЕМЯ
             faces: [
                 {
+                    name: 'first', // ПЕРВОЕ ЛИЦО
+                    words: [
+                        {
+                            prefix: 'أ',
+                            root: 'رِيدُ',
+                            suffix: '',
+                        },
+                        {
+                            prefix: 'نُ',
+                            root: 'رِيدُ',
+                            suffix: '',
+                        },
+                    ],
+                },
+                {
                     name: 'second', // ВТОРОЕ ЛИЦО
                     words: [
                         {
-                            prefix: 'تَ',
-                            root: 'ذهبَ',
-                            suffix: 'انِ',
+                            prefix: 'تُ',
+                            root: 'رِيدُ',
+                            suffix: '',
+                        },
+                        {
+                            prefix: 'تُ',
+                            root: 'رِيدِ',
+                            suffix: 'ينَ',
+                        },
+                        {
+                            prefix: 'تُ',
+                            root: 'رِيدُ',
+                            suffix: 'ونَ',
+                        },
+                        {
+                            prefix: 'تُ',
+                            root: 'رِدْ',
+                            suffix: 'نَ',
                         },
                     ],
                 },
@@ -50,23 +119,23 @@ export default {
                     name: 'third', // ТРЕТЬЕ ЛИЦО
                     words: [
                         {
-                            prefix: 'ي',
-                            root: 'مُدُّ',
+                            prefix: 'يُ',
+                            root: 'رِيدُ',
                             suffix: '',
                         },
                         {
-                            prefix: 'تَ',
-                            root: 'مُدُّ',
+                            prefix: 'تُ',
+                            root: 'رِيدُ',
                             suffix: '',
                         },
                         {
-                            prefix: 'ي',
-                            root: 'مُدُّ',
-                            suffix: 'ون',
+                            prefix: 'يُ',
+                            root: 'رِيدُ',
+                            suffix: 'ونَ',
                         },
                         {
-                            prefix: 'ي',
-                            root: 'مْدُدْ',
+                            prefix: 'يُ',
+                            root: 'رِدْ',
                             suffix: 'نَ',
                         },
                     ],
@@ -80,23 +149,23 @@ export default {
                     name: 'second', // ВТОРОЕ ЛИЦО
                     words: [
                         {
-                            prefix: '',
-                            root: 'مُدَّ',
+                            prefix: 'أَ',
+                            root: 'رِدْ',
                             suffix: '',
                         },
                         {
-                            prefix: '',
-                            root: 'مُدِّ',
-                            suffix: '',
+                            prefix: 'أَ',
+                            root: 'رِدِ',
+                            suffix: 'ي',
                         },
                         {
-                            prefix: '',
-                            root: 'مُدُّ',
+                            prefix: 'أَ',
+                            root: 'رِدُ',
                             suffix: 'وا',
                         },
                         {
-                            prefix: 'اُ',
-                            root: 'مْدُدْ',
+                            prefix: 'أَ',
+                            root: 'رِدْ',
                             suffix: 'نَ',
                         },
                     ],

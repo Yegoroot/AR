@@ -34,6 +34,15 @@ function Footer({ ...props }) {
                                 Переводчик онлайн
                             </a>
                         </ListItem>
+                        <ListItem className={classes.inlineBlock}>
+                            <a
+                                href="http://glagol.reverso.net"
+                                rel="noopener noreferrer"
+                                className={classes.block}
+                                target="_blank">
+                                Спрягать слова
+                            </a>
+                        </ListItem>
                         {/* <ListItem className={classes.inlineBlock}>
                             <a href="/" className={classes.block} rel="noopener noreferrer" target="_blank">
                                 About us

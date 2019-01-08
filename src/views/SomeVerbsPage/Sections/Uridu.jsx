@@ -20,7 +20,8 @@ class KanaLaYazalu extends React.Component {
                         Глагол{' '}
                         <ContrastWord inRu red>
                             أراد - يُريدُ
-                        </ContrastWord>
+                        </ContrastWord>{' '}
+                        (Хочу, желаю)
                     </h3>
                     <Pills data={arada} />
                 </div>
