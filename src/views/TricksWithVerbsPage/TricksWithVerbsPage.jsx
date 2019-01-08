@@ -8,6 +8,7 @@ import Parallax from 'components/Parallax/Parallax.jsx'
 
 import LiWithVerb from './Sections/LiWithVerb'
 import Admiration from './Sections/Admiration'
+import DualIsm from './Sections/DualIsm'
 
 import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
 
@@ -36,6 +37,7 @@ class SoglasovOpr extends React.Component {
                             <h1 className={classes.title}>Трюки с глаголами</h1>
                             <LiWithVerb />
                             <Admiration />
+                            <DualIsm />
                         </div>
                     </div>
                 </div>

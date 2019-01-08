@@ -29,9 +29,8 @@ const styles = theme => ({
         '& > li': {
             display: 'flex',
             '& > *': {
-                '@media (min-width: 540px)': {
-                    paddingLeft: 25,
-                },
+                paddingLeft: 25,
+                // '@media (min-width: 540px)': {},
             },
         },
         lineHeight: 2,

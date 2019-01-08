@@ -16,7 +16,7 @@ class Admiration extends React.Component {
     render() {
         const { classes } = this.props
         return (
-            <div className={classes.section} id="liWithVerbs">
+            <div className={classes.section} id="admiration">
                 <div className={classes.container}>
                     <h3 className={classes.title}>Глагол восхищения, удивления</h3>
                     <Paper>
