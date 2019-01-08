@@ -6,7 +6,7 @@ import withStyles from '@material-ui/core/styles/withStyles'
 import { Paper } from '@material-ui/core'
 import ContrastWord from 'components/Typography/ContrastWord.jsx'
 import ArSentence from 'components/Typography/ArSentence.jsx'
-import Word from 'components/word'
+
 // core components
 // import SnackbarContent from 'components/Snackbar/SnackbarContent.jsx'
 import Clearfix from 'components/Clearfix/Clearfix.jsx'
@@ -16,7 +16,7 @@ class Munthu extends React.Component {
     render() {
         const { classes } = this.props
         return (
-            <div className={classes.section} id="admiration">
+            <div className={classes.section} id="munzu">
                 <div className={classes.container}>
                     <h3 className={classes.title}>
                         Глагол{' '}

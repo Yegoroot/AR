@@ -7,6 +7,7 @@ import HeaderLinks from 'components/Header/HeaderLinks.jsx'
 import Parallax from 'components/Parallax/Parallax.jsx'
 
 import Munthu from './Sections/Munthu'
+import Samaha from './Sections/Samaha'
 
 import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
 
@@ -34,6 +35,7 @@ class SomeVerbsPage extends React.Component {
                         <div className={classes.navWrapper}>
                             <h1 className={classes.title}>Некоторые из глаголов</h1>
                             <Munthu />
+                            <Samaha />
                         </div>
                     </div>
                 </div>
