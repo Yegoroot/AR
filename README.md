@@ -46,4 +46,6 @@ https://demos.creative-tim.com/material-kit-react/?_ga=2.258220812.7221223.15466
 
 
 
-## Разобраться с ي во втором шаблоне /shaddaverb (Приказ)
+## НУЖНО
+- привести все к правой стороне
+- поиенять ArSentence на ArSent
