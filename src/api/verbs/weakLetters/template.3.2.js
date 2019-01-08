@@ -150,7 +150,7 @@ export default {
                     words: [
                         {
                             prefix: 'اِ',
-                            root: 'رمٍ',
+                            root: 'رمِ',
                             suffix: '',
                         },
                         {

@@ -13,7 +13,7 @@ import StartHamza from './Sections/StartHamza'
 
 import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
 
-class TricksWithVerbsPage extends React.Component {
+class SomeVerbsPage extends React.Component {
     render() {
         const { classes, ...rest } = this.props
 
@@ -31,7 +31,7 @@ class TricksWithVerbsPage extends React.Component {
                     {...rest}
                 />
 
-                <Parallax small filter image={require('assets/img/mosque/mosque6.jpg')} />
+                <Parallax small filter image={require('assets/img/mosque/mosque18.jpg')} />
                 <div className={classNames(classes.main, classes.mainRaised)}>
                     <div className={classes.container}>
                         <div className={classes.navWrapper}>
@@ -49,4 +49,4 @@ class TricksWithVerbsPage extends React.Component {
     }
 }
 
-export default withStyles(arabicPageStyle)(TricksWithVerbsPage)
+export default withStyles(arabicPageStyle)(SomeVerbsPage)

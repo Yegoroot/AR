@@ -81,6 +81,9 @@ function HeaderLinks({ ...props }) {
                         <Link to="/shaddaverb" className={classes.dropdownLink}>
                             Глагол с шаддой
                         </Link>,
+                        <Link to="/someverbs" className={classes.dropdownLink}>
+                            Некоторые глаголы
+                        </Link>,
                     ]}
                 />
             </ListItem>
