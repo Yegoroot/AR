@@ -10,7 +10,7 @@ import ArSentence from 'components/Typography/ArSentence.jsx'
 // core components
 // import SnackbarContent from 'components/Snackbar/SnackbarContent.jsx'
 import Clearfix from 'components/Clearfix/Clearfix.jsx'
-import tricksWithVerbs from 'assets/jss/material-kit-react/views/tricksWithVerbs.jsx'
+import arabicPage from 'assets/jss/material-kit-react/views/arabicPage.jsx'
 
 class Munthu extends React.Component {
     render() {
@@ -71,4 +71,4 @@ class Munthu extends React.Component {
     }
 }
 
-export default withStyles(tricksWithVerbs)(Munthu)
+export default withStyles(arabicPage)(Munthu)

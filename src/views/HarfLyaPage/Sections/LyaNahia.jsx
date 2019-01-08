@@ -10,7 +10,7 @@ import ArSentence from 'components/Typography/ArSentence.jsx'
 // core components
 // import SnackbarContent from 'components/Snackbar/SnackbarContent.jsx'
 import Clearfix from 'components/Clearfix/Clearfix.jsx'
-import tricksWithVerbs from 'assets/jss/material-kit-react/views/tricksWithVerbs.jsx'
+import arabicPage from 'assets/jss/material-kit-react/views/arabicPage.jsx'
 import { Link } from 'react-router-dom'
 
 class LyaNahia extends React.Component {
@@ -49,4 +49,4 @@ class LyaNahia extends React.Component {
     }
 }
 
-export default withStyles(tricksWithVerbs)(LyaNahia)
+export default withStyles(arabicPage)(LyaNahia)

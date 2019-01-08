@@ -9,6 +9,7 @@ import Parallax from 'components/Parallax/Parallax.jsx'
 import Munthu from './Sections/Munthu'
 import Samaha from './Sections/Samaha'
 import KanaLaYazalu from './Sections/KanaLaYazalu'
+import Uridu from './Sections/Uridu'
 
 import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
 
@@ -37,6 +38,7 @@ class SomeVerbsPage extends React.Component {
                             <h1 className={classes.title}>Некоторые из глаголов</h1>
                             <Munthu />
                             <Samaha />
+                            <Uridu />
                             <KanaLaYazalu />
                         </div>
                     </div>

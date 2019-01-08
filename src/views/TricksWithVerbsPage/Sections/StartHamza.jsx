@@ -5,7 +5,7 @@ import withStyles from '@material-ui/core/styles/withStyles'
 
 import { Paper } from '@material-ui/core'
 import Clearfix from 'components/Clearfix/Clearfix.jsx'
-import tricksWithVerbs from 'assets/jss/material-kit-react/views/tricksWithVerbs.jsx'
+import arabicPage from 'assets/jss/material-kit-react/views/arabicPage.jsx'
 
 import ArSentence from 'components/Typography/ArSentence.jsx'
 import Word from 'components/word'
@@ -45,4 +45,4 @@ class StartHamza extends React.Component {
     }
 }
 
-export default withStyles(tricksWithVerbs)(StartHamza)
+export default withStyles(arabicPage)(StartHamza)

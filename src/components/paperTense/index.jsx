@@ -2,6 +2,7 @@ import React from 'react'
 import { withStyles } from '@material-ui/core/styles'
 import Paper from '@material-ui/core/Paper'
 import Word from 'components/word'
+import { ulAr } from 'assets/jss/material-kit-react/arabic.jsx'
 
 const styles = theme => ({
     arParagraph: {
@@ -22,19 +23,8 @@ const styles = theme => ({
             fontSize: 27,
             width: '100%',
         },
-        // ...theme.arabicFont,
     },
-    ulAr: {
-        paddingRight: 0,
-        '& > li': {
-            display: 'flex',
-            '& > *': {
-                paddingLeft: 25,
-                // '@media (min-width: 540px)': {},
-            },
-        },
-        lineHeight: 2,
-    },
+    ulAr,
 })
 
 const PaperTense = ({ data, classes }) =>

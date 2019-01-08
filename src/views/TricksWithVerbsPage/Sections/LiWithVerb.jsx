@@ -10,7 +10,7 @@ import Word from 'components/word'
 // core components
 // import SnackbarContent from 'components/Snackbar/SnackbarContent.jsx'
 import Clearfix from 'components/Clearfix/Clearfix.jsx'
-import tricksWithVerbs from 'assets/jss/material-kit-react/views/tricksWithVerbs.jsx'
+import arabicPage from 'assets/jss/material-kit-react/views/arabicPage.jsx'
 
 class LiWithVerb extends React.Component {
     render() {
@@ -36,4 +36,4 @@ class LiWithVerb extends React.Component {
     }
 }
 
-export default withStyles(tricksWithVerbs)(LiWithVerb)
+export default withStyles(arabicPage)(LiWithVerb)
