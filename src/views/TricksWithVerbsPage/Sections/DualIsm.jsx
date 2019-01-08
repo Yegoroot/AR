@@ -15,7 +15,7 @@ const gridStyle = {
     padding: '0 18px',
 }
 
-class Admiration extends React.Component {
+class DualIsm extends React.Component {
     render() {
         const { classes } = this.props
         return (
@@ -64,4 +64,4 @@ class Admiration extends React.Component {
     }
 }
 
-export default withStyles(tricksWithVerbs)(Admiration)
+export default withStyles(tricksWithVerbs)(DualIsm)
