@@ -24,8 +24,10 @@ import Ism5Page from 'views/Ism5Page/Ism5Page'
 import SomeVerbsPage from 'views/SomeVerbsPage/SomeVerbsPage'
 import Asmaulafal from 'views/Asmaulafal/Asmaulafal'
 import DuaPage from 'views/DuaPage/DuaPage'
+import HarfManAzzoidatuPage from 'views/HarfManAzzoidatuPage/HarfManAzzoidatuPage'
 
 var indexRoutes = [
+    { path: '/harfazzoidatu', name: 'HarfManAzzoidatuPage', component: HarfManAzzoidatuPage },
     { path: '/dua', name: 'DuaPage', component: DuaPage },
     { path: '/asmaulafal', name: 'Asmaulafal', component: Asmaulafal },
     { path: '/someverbs', name: 'SomeVerbsPage', component: SomeVerbsPage },

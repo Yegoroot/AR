@@ -146,6 +146,9 @@ function HeaderLinks({ ...props }) {
                         <Link to="/harfwa" className={classes.dropdownLink}>
                             Частица و
                         </Link>,
+                        <Link to="/harfazzoidatu" className={classes.dropdownLink} style={{ fontSize: 20 }}>
+                            مِن الزّائِدَة
+                        </Link>,
                         <Link to="/harfdeny" className={classes.dropdownLink}>
                             Отрицательные частицы
                         </Link>,
@@ -165,6 +168,9 @@ function HeaderLinks({ ...props }) {
                     dropdownList={[
                         <Link to="/accent" className={classes.dropdownLink}>
                             Акцент на объекте
+                        </Link>,
+                        <Link to="/dua" className={classes.dropdownLink}>
+                            Дуа
                         </Link>,
 
                         // <Link to="/typeharflya" className={classes.dropdownLink}>
