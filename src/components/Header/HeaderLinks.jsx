@@ -102,7 +102,7 @@ function HeaderLinks({ ...props }) {
                             Масдар
                         </Link>,
                         <Link to="/asmaulafal" className={classes.dropdownLink} style={{ fontSize: 20 }}>
-                            أسْماءُ الأفْعَال
+                            أسْماءُ الأفِعْل
                         </Link>,
                         <Link to="/abjectivedegrees" className={classes.dropdownLink}>
                             Степени прилагательного

@@ -6,6 +6,7 @@ import {
     // warningColor,
     dangerColor,
 } from 'assets/jss/material-kit-react.jsx'
+import tooltipsStyle from 'assets/jss/material-kit-react/tooltipsStyle.jsx'
 
 const typographyOtherStyle = {
     defaultFontStyle: {
@@ -46,6 +47,7 @@ const typographyOtherStyle = {
         paddingLeft: 15,
         borderLeft: `solid 3px ${primaryColor}`,
     },
+    ...tooltipsStyle,
 }
 
 export default typographyOtherStyle

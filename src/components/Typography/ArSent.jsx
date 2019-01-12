@@ -24,7 +24,9 @@ function ArSentence({ ...props }) {
             style={styleArSentence}
             className={classes.defaultFontStyle + ' ' + classes.arFonts + ' ' + classes.arSentence}>
             <span>{children}</span>
-            <span style={styleArSentenceTranslate}>{translate}</span>
+            <span dir="auto" style={styleArSentenceTranslate}>
+                {translate}
+            </span>
         </div>
     )
 }

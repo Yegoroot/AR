@@ -29,7 +29,7 @@ class Asmaulafal extends React.Component {
             <div>
                 <Header
                     color="transparent"
-                    brand="أسْماءُ الأفْعَال"
+                    brand="أسْماءُ الأفِعْل"
                     isBrandAr
                     rightLinks={<HeaderLinks />}
                     fixed
@@ -45,7 +45,7 @@ class Asmaulafal extends React.Component {
                 <div className={classNames(classes.main, classes.mainRaised)}>
                     <div className={classes.container}>
                         <div className={classes.navWrapper}>
-                            <h1 className={classes.titleAr}>أسْماءُ الأفْعَال</h1>
+                            <h1 className={classes.titleAr}>أسْماءُ الأفِعْل</h1>
 
                             <p>
                                 Не является глаголом, но смысл глагола, не склоняется во временах. Бывает некоторые
