@@ -25,8 +25,12 @@ import SomeVerbsPage from 'views/SomeVerbsPage/SomeVerbsPage'
 import Asmaulafal from 'views/Asmaulafal/Asmaulafal'
 import DuaPage from 'views/DuaPage/DuaPage'
 import HarfManAzzoidatuPage from 'views/HarfManAzzoidatuPage/HarfManAzzoidatuPage'
+import LadayyaPage from 'views/LadayyaPage/LadayyaPage'
+import FialMabniLilmajhun from 'views/FialMabniLilmajhun/FialMabniLilmajhun'
 
 var indexRoutes = [
+    { path: '/fialmabnililmajhun', name: 'FialMabniLilmajhun', component: FialMabniLilmajhun },
+    { path: '/ladayya', name: 'LadayyaPage', component: LadayyaPage },
     { path: '/harfazzoidatu', name: 'HarfManAzzoidatuPage', component: HarfManAzzoidatuPage },
     { path: '/dua', name: 'DuaPage', component: DuaPage },
     { path: '/asmaulafal', name: 'Asmaulafal', component: Asmaulafal },

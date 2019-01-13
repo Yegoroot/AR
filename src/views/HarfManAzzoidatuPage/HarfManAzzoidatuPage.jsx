@@ -57,7 +57,8 @@ class HarfManAzzoidatuPage extends React.Component {
                                 <ContrastWord inRu blue translate="Корана">
                                     القران
                                 </ContrastWord>{' '}
-                                Кораном ?]
+                                Кораном ?]. Употребляется только если перед ней стоит отрицательная частица, запрет или
+                                частица вопроса
                             </p>
 
                             <h4 className={classes.titleAr}>
@@ -81,6 +82,18 @@ class HarfManAzzoidatuPage extends React.Component {
                                     مِنْ
                                 </ContrastWord>{' '}
                                 أحَدٍ إِلى المدرسة
+                            </ArSent>
+                            <ArSent
+                                translate={
+                                    <div>
+                                        У тебя есть <ContrastWord red> хоть какие нибудь</ContrastWord> вопросы?
+                                    </div>
+                                }>
+                                هلْ{' '}
+                                <ContrastWord inRu red>
+                                    مِنْ
+                                </ContrastWord>{' '}
+                                سُؤَلٍ
                             </ArSent>
 
                             <h4 className={classes.titleAr}>

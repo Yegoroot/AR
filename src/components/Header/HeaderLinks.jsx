@@ -70,19 +70,21 @@ function HeaderLinks({ ...props }) {
                     }}
                     buttonIcon={Waves}
                     dropdownList={[
-                        <Link to="/tricksverbs" className={classes.dropdownLink}>
-                            Трюки с глаголами
-                        </Link>,
-
-                        <Link to="/weakLetters" className={classes.dropdownLink}>
-                            Слабая коренная
-                        </Link>,
-
                         <Link to="/shaddaverb" className={classes.dropdownLink}>
                             Глагол с шаддой
                         </Link>,
+
+                        <Link to="/tricksverbs" className={classes.dropdownLink}>
+                            Трюки с глаголами
+                        </Link>,
                         <Link to="/someverbs" className={classes.dropdownLink}>
                             Некоторые глаголы
+                        </Link>,
+                        <Link to="/weakLetters" className={classes.dropdownLink}>
+                            Слабая коренная
+                        </Link>,
+                        <Link to="/fialmabnililmajhun" className={classes.dropdownLink}>
+                            Глагол страдательного залога
                         </Link>,
                     ]}
                 />
@@ -118,6 +120,9 @@ function HeaderLinks({ ...props }) {
                         </Link>,
                         <Link to="/ism5" className={classes.dropdownLink}>
                             Спряжение 5 имён
+                        </Link>,
+                        <Link to="/ladayya" className={classes.dropdownLink} style={{ fontSize: 20 }}>
+                            لَدَى
                         </Link>,
                     ]}
                 />

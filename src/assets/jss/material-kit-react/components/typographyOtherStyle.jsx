@@ -48,6 +48,16 @@ const typographyOtherStyle = {
         borderLeft: `solid 3px ${primaryColor}`,
     },
     ...tooltipsStyle,
+
+    btnInContrastWord: {
+        padding: '0px 10px',
+        lineHeight: 1,
+    },
+    btnInContrastWordInArSentence: {
+        padding: '0px 0px',
+        minWidth: 'initial',
+        fontSize: 30,
+    },
 }
 
 export default typographyOtherStyle

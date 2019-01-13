@@ -10,7 +10,7 @@ import typographyOtherStyle from 'assets/jss/material-kit-react/components/typog
 import classNames from 'classnames'
 
 function ContrastWord({ ...props }) {
-    const { classes, children, inRu, blue, red, translate } = props
+    const { classes, children, inRu, blue, red, translate, inAr } = props
     const classContrastWord = classNames({
         [classes.defaultFontStyle]: true,
         [classes.contrastWord]: true,
@@ -18,16 +18,13 @@ function ContrastWord({ ...props }) {
         [classes.colorBlue]: blue,
         [classes.colorRed]: red,
     })
-    const buttonStyle = {
-        padding: '0px 10px',
-        lineHeight: 1,
-    }
-
+    const buttonStyle = classNames({
+        [classes.btnInContrastWord]: true,
+        [classes.btnInContrastWordInArSentence]: inAr,
+    })
     const WordWithTranslate = (
         <Tooltip title={translate} placement="top" classes={{ tooltip: classes.tooltip }}>
-            <Button style={buttonStyle} className={classContrastWord}>
-                {children}
-            </Button>
+            <Button className={classNames(classContrastWord, buttonStyle)}>{children}</Button>
         </Tooltip>
     )
 
