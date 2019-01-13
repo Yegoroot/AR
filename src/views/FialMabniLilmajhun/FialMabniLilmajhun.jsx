@@ -9,9 +9,10 @@ import withStyles from '@material-ui/core/styles/withStyles'
 import Header from 'components/Header/Header.jsx'
 import Footer from 'components/Footer/Footer.jsx'
 
-// import Word from 'components/word'
+import Word from 'components/word'
 // import AdditionalInfo from 'components/Typography/AdditionalInfo.jsx'
 import ContrastWord from 'components/Typography/ContrastWord.jsx'
+import Warning from 'components/Typography/Warning.jsx'
 import ArSent from 'components/Typography/ArSent.jsx'
 
 // import Paragraph from 'components/Typography/Paragraph.jsx'
@@ -31,7 +32,7 @@ class FialMabniLilmajhun extends React.Component {
             <div>
                 <Header
                     color="transparent"
-                    brand="لَدَى"
+                    brand="الفِعْل المَبْنِي لِلمَجْهُول"
                     isBrandAr
                     rightLinks={<HeaderLinks />}
                     fixed
@@ -51,6 +52,12 @@ class FialMabniLilmajhun extends React.Component {
                             <p>
                                 Глагол страдательного залога, это действие с необозначенным лицом, бывает два варианта,
                                 лицо неизвестно вовсе, или из контекста понятно кто совершил
+                                <p>Пассивный залог обычно встречается в новостях</p>
+                            </p>
+                            <h3 className={classes.titleAr}>Пример активного залога (الفِعْل المَبْنِي لِلمَعْلُم)</h3>
+                            <p>
+                                В этом случае есть фокус на деятеле, деятель Хамид, обратите внимание на огласовку
+                                прямого дополнения (مفعول به)
                             </p>
                             <ArSent translate={'Хамид есть хлеб'}>
                                 <ContrastWord blue inAr translate="فعل (глагол)">
@@ -63,6 +70,42 @@ class FialMabniLilmajhun extends React.Component {
                                     الجُبْزَ
                                 </ContrastWord>
                             </ArSent>
+                            <h3 className={classes.titleAr}>
+                                Пример пассивного залога (الفِعْل المَبْنِي لِلمَجْهُول)
+                            </h3>
+                            <p>
+                                В случае с пассивным залогом деятель неивестен (или известен из контекста), фокус на
+                                результате.
+                            </p>
+                            <ArSent translate={'[Собака была побита, побили собаку]'}>
+                                <ContrastWord blue inAr translate="فعل (глагол)">
+                                    ضُرِبَ
+                                </ContrastWord>{' '}
+                                <ContrastWord blue inAr translate="نَائِبُ الفاعِل (с огласовкой дамма)">
+                                    الكلبُ
+                                </ContrastWord>
+                            </ArSent>
+                            <ArSent translate={<div>[Двери открыли] </div>}>
+                                <ContrastWord blue inAr translate="فعل (глагол)">
+                                    <Word root="َفُتِح" suffix="تْ" />
+                                </ContrastWord>{' '}
+                                <ContrastWord blue inAr translate="نَائِبُ الفاعِل (с огласовкой дамма)">
+                                    <Word root="النّافِذَ" suffix="ةُ" />
+                                </ContrastWord>
+                            </ArSent>
+                            <p>
+                                Подразумеваемое прямое дополнения مفعول به ("окна" мн.ч неразумное) повлиял на глагол
+                                (глагол стал женского рода). Ведь из правил мы знаем что с точки зрения грамматики
+                                множественное число нерахумное расцениваеся как единственное число женского рода
+                            </p>
+
+                            <p>
+                                {' '}
+                                <Warning>
+                                    Чтоб образовать пассивный залог, необходимо первую огласовку поставить в дамму,
+                                    предпоследюю в кясру
+                                </Warning>
+                            </p>
                         </div>
                     </div>
                 </div>
