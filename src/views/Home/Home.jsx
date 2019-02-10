@@ -14,6 +14,8 @@ import Parallax from 'components/Parallax/Parallax.jsx'
 // sections for this page
 import HeaderLinks from 'components/Header/HeaderLinks.jsx'
 
+import { Link } from 'react-router-dom'
+
 // import Footer from 'components/Footer/Footer.jsx'
 // import Card from './Sections/Card.jsx'
 
@@ -49,6 +51,17 @@ class Components extends React.Component {
                         </GridContainer>
                     </div>
                 </Parallax>
+
+                <div className="temp">
+                    <h4>Третий Том Мединского Курса</h4>
+
+                    <ul>
+                        <li>
+                            <Link to="/asd">Собирательная частица [4 урок, нахв]</Link>
+                        </li>
+                        <li />
+                    </ul>
+                </div>
 
                 <div
                     className={classNames(classes.main, classes.mainRaised)}

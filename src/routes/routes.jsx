@@ -27,8 +27,19 @@ import DuaPage from 'views/DuaPage/DuaPage'
 import HarfManAzzoidatuPage from 'views/HarfManAzzoidatuPage/HarfManAzzoidatuPage'
 import LadayyaPage from 'views/LadayyaPage/LadayyaPage'
 import FialMabniLilmajhun from 'views/FialMabniLilmajhun/FialMabniLilmajhun'
+/** new level 3 tom */
+import SobiratelnayaHarf from 'views/3tom/harf/SobiratelnayaHarf/SobiratelnayaHarf'
+import Page from 'views/Page/Page'
+
+/**  */
 
 var indexRoutes = [
+    /** new level 3 tom */
+    { path: '/page', name: 'Page', component: Page },
+
+    { path: '/sobiratelnayaharf', name: 'SobiratelnayaHarf', component: SobiratelnayaHarf },
+
+    /** */
     { path: '/fialmabnililmajhun', name: 'FialMabniLilmajhun', component: FialMabniLilmajhun },
     { path: '/ladayya', name: 'LadayyaPage', component: LadayyaPage },
     { path: '/harfazzoidatu', name: 'HarfManAzzoidatuPage', component: HarfManAzzoidatuPage },
