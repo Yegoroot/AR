@@ -28,7 +28,6 @@ import HarfManAzzoidatuPage from 'views/HarfManAzzoidatuPage/HarfManAzzoidatuPag
 import LadayyaPage from 'views/LadayyaPage/LadayyaPage'
 import FialMabniLilmajhun from 'views/FialMabniLilmajhun/FialMabniLilmajhun'
 /** new level 3 tom */
-import SobiratelnayaHarf from 'views/3tom/harf/SobiratelnayaHarf/SobiratelnayaHarf'
 import Page from 'views/Page/Page'
 
 /**  */
@@ -36,8 +35,6 @@ import Page from 'views/Page/Page'
 var indexRoutes = [
     /** new level 3 tom */
     { path: '/page', name: 'Page', component: Page },
-
-    { path: '/sobiratelnayaharf', name: 'SobiratelnayaHarf', component: SobiratelnayaHarf },
 
     /** */
     { path: '/fialmabnililmajhun', name: 'FialMabniLilmajhun', component: FialMabniLilmajhun },
