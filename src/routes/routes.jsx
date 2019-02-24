@@ -30,6 +30,7 @@ import FialMabniLilmajhun from 'views/FialMabniLilmajhun/FialMabniLilmajhun'
 /** new level 3 tom */
 import HarfSobirPage from 'views/HarfSobirPage/HarfSobirPage'
 import HarfHalPage from 'views/HarfHalPage/HarfHalPage'
+import IsmChislitelPage from 'views/IsmChislitelPage/IsmChislitelPage'
 import Page from 'views/Page/Page'
 
 /**  */
@@ -39,6 +40,7 @@ var indexRoutes = [
     { path: '/page', name: 'Page', component: Page },
     { path: '/harfsobir', name: 'HarfSobirPage', component: HarfSobirPage },
     { path: '/harfhal', name: 'HarfHalPage', component: HarfHalPage },
+    { path: '/chislitel100', name: 'IsmChislitelPage', component: IsmChislitelPage },
 
     /** */
     { path: '/fialmabnililmajhun', name: 'FialMabniLilmajhun', component: FialMabniLilmajhun },

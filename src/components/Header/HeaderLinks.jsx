@@ -124,6 +124,9 @@ function HeaderLinks({ ...props }) {
                         <Link to="/ladayya" className={classes.dropdownLink} style={{ fontSize: 20 }}>
                             لَدَى
                         </Link>,
+                        <Link to="/chislitel100" className={classes.dropdownLink}>
+                            Числительные с 100
+                        </Link>,
                     ]}
                 />
             </ListItem>
