@@ -6,7 +6,6 @@ import withStyles from '@material-ui/core/styles/withStyles'
 import Header from 'components/Header/Header.jsx'
 import Footer from 'components/Footer/Footer.jsx'
 
-import ContrastWord from 'components/Typography/ContrastWord.jsx'
 import ArSentence from 'components/Typography/ArSentence.jsx'
 import HeaderLinks from 'components/Header/HeaderLinks.jsx'
 import Parallax from 'components/Parallax/Parallax.jsx'

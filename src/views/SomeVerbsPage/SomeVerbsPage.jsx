@@ -10,6 +10,7 @@ import Munthu from './Sections/Munthu'
 import Samaha from './Sections/Samaha'
 import KanaLaYazalu from './Sections/KanaLaYazalu'
 import Uridu from './Sections/Uridu'
+import Harf5 from './Sections/Harf5'
 import Wajaba from './Sections/Wajaba'
 import OtherVerbs from './Sections/OtherVerbs'
 
@@ -41,6 +42,7 @@ class SomeVerbsPage extends React.Component {
                             <Munthu />
                             <Samaha />
                             <Uridu />
+                            <Harf5 />
                             <Wajaba />
                             <OtherVerbs />
                             <KanaLaYazalu />
