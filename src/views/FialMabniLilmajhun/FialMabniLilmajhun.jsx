@@ -143,6 +143,7 @@ class FialMabniLilmajhun extends React.Component {
                             <ArSent>
                                 <Word root="يَقُولُ" /> - <Word negative prefix="يُقَ" root="ا" suffix="لُ" />
                             </ArSent>
+
                             {/**------------ */}
                             <h3 className={classes.titleAr}>Пассивный залог с больной ПОСЛЕДНЕЙ</h3>
                             <ArSent>
@@ -151,6 +152,11 @@ class FialMabniLilmajhun extends React.Component {
                             <ArSent>
                                 <Word root="يَنْجُو" /> - <Word root="يُنْجَ" suffix="ى" />
                             </ArSent>
+
+                            <p>
+                                А теперь сами :) جَرَى / سار / نَالَ / بَنى / دَعا / سعى / نَسِيَ / صام / ساق / زار /
+                                خاف
+                            </p>
                         </div>
                     </div>
                 </div>
