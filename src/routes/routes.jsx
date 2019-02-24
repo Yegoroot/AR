@@ -31,6 +31,7 @@ import FialMabniLilmajhun from 'views/FialMabniLilmajhun/FialMabniLilmajhun'
 import HarfSobirPage from 'views/HarfSobirPage/HarfSobirPage'
 import HarfHalPage from 'views/HarfHalPage/HarfHalPage'
 import IsmChislitelPage from 'views/IsmChislitelPage/IsmChislitelPage'
+import SimilarityMaful from 'views/SimilarityMaful/SimilarityMaful'
 import Page from 'views/Page/Page'
 
 /**  */
@@ -41,6 +42,7 @@ var indexRoutes = [
     { path: '/harfsobir', name: 'HarfSobirPage', component: HarfSobirPage },
     { path: '/harfhal', name: 'HarfHalPage', component: HarfHalPage },
     { path: '/chislitel100', name: 'IsmChislitelPage', component: IsmChislitelPage },
+    { path: '/similarity', name: 'SimilarityMaful', component: SimilarityMaful },
 
     /** */
     { path: '/fialmabnililmajhun', name: 'FialMabniLilmajhun', component: FialMabniLilmajhun },

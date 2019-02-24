@@ -186,6 +186,9 @@ function HeaderLinks({ ...props }) {
                         <Link to="/dua" className={classes.dropdownLink}>
                             Дуа
                         </Link>,
+                        <Link to="/similarity" className={classes.dropdownLink}>
+                            Различия страдательного залога и мафъуль
+                        </Link>,
 
                         // <Link to="/typeharflya" className={classes.dropdownLink}>
                         //     Частица لا
