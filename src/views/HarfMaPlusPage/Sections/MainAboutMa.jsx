@@ -22,33 +22,35 @@ class MainAboutMa extends React.Component {
                     <Paper>
                         <div className="wrap1">
                             <p>Частица ما приходит в разных ситуациях</p>
-                            <Grid container>
-                                <Grid item xs={12} sm={6}>
-                                    <h3 className={classes.title}>Отрицание</h3>
-                                    <ArSentence translate="Я не видел...">... ما رأيْتُ</ArSentence>
-                                    <p>ما может отрицать и настоящее время, но только если текущий момент (online)</p>
-                                    <ArSentence
-                                        translate={
-                                            <div>
-                                                Я <ContrastWord red>сейчас не</ContrastWord> пью кофе
-                                            </div>
-                                        }>
-                                        <ContrastWord red>ما </ContrastWord> أشْربُ القهوة الان
-                                    </ArSentence>
-                                    <h3 className={classes.title}>Вопрос</h3>
-                                    <ArSentence translate="Что это?">ما هذا؟</ArSentence>
-                                </Grid>
-                                <Grid item xs={12} sm={6}>
-                                    <h3 className={classes.title}>Восклицание</h3>
-                                    <ArSentence translate="Какое красивое ...!">! ... ما أجْمَلُ</ArSentence>
 
-                                    <h3 className={classes.title}>Что (и)</h3>
-                                    <ArSentence translate="Кушаю то, ЧТО И ты">أكُل ما تاكل</ArSentence>
-                                    <ArSentence translate="Я видел ЧТО Мухаммад делает...">
-                                        ...شَهدتُ ما فعل محمد
-                                    </ArSentence>
-                                </Grid>
-                            </Grid>
+                            <h3 className={classes.title}>Отрицание</h3>
+                            <ArSentence translate="Я не видел...">... ما رأيْتُ</ArSentence>
+                            <p>ما может отрицать и настоящее время, но только если текущий момент (online)</p>
+                            <ArSentence
+                                translate={
+                                    <div>
+                                        Я <ContrastWord red>сейчас не</ContrastWord> пью кофе
+                                    </div>
+                                }>
+                                <ContrastWord red>ما </ContrastWord> أشْربُ القهوة الان
+                            </ArSentence>
+                            <h3 className={classes.title}>Отрицание именных предложений ما الحِجَازِية</h3>
+                            <ArSentence translate="Мусульмане не лгут">ما المسلمُ كَذَّابًا</ArSentence>
+                            <p>где المسلمُ это اسم а كَذَّابًا это خبر (в насб)</p>
+                            <p>Чтоб усилить отрицание можно добавить частицу ب</p>
+                            <ArSentence translate="Мусульмане вообще никогда не лгут!">
+                                ما المسلمُ بِكَذَّابٍ
+                            </ArSentence>
+
+                            <h3 className={classes.title}>Вопрос</h3>
+                            <ArSentence translate="Что это?">ما هذا؟</ArSentence>
+
+                            <h3 className={classes.title}>Восклицание</h3>
+                            <ArSentence translate="Какое красивое ...!">! ... ما أجْمَلُ</ArSentence>
+
+                            <h3 className={classes.title}>Что (и)</h3>
+                            <ArSentence translate="Кушаю то, ЧТО И ты">أكُل ما تاكل</ArSentence>
+                            <ArSentence translate="Я видел ЧТО Мухаммад делает...">...شَهدتُ ما فعل محمد</ArSentence>
                         </div>
                     </Paper>
                 </div>
