@@ -157,6 +157,9 @@ function HeaderLinks({ ...props }) {
                         <Link to="/harfdeny" className={classes.dropdownLink}>
                             Отрицательные частицы
                         </Link>,
+                        <Link to="/harfsobir" className={classes.dropdownLink}>
+                            Собирательная частица
+                        </Link>,
                     ]}
                 />
             </ListItem>
