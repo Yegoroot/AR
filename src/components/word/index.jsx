@@ -1,23 +1,14 @@
 import React from 'react'
 import { withStyles } from '@material-ui/core/styles'
+import classNames from 'classnames'
 
 const styles = theme => ({
     wrapper: {
-        // '&:hover .suffix': {
-        //     color: theme.palette.secondary.light
-        // },
         ...theme.arabicFont,
-        '& .suffix, .prefix': {
-            color: '#f44336',
-            // color: theme.palette.secondary.light,
-        },
     },
-    // rootWord: {
-
-    // },
-    // suffix: {
-
-    // }
+    color: {
+        color: '#f44336',
+    },
 })
 
 const checkHarf = char => {
@@ -44,7 +35,7 @@ const checkHarf = char => {
     }
 }
 
-const word = ({ root, suffix, prefix, classes }) => {
+const word = ({ root, suffix, prefix, classes, negative }) => {
     let zmj = `\u{200d}` // Zero Width Joiner	U+200D	&#8205;	&zwj;
     let pr, sf // ЕСЛИ ПЕРВЫЙ СИМВОЛ НЕ СОДЕРЖИТ أ то присвоить соеденитель_пустой_ширины
     if (prefix) {
@@ -63,11 +54,19 @@ const word = ({ root, suffix, prefix, classes }) => {
         sf = ''
     }
 
+    // выделение цветом
+    const hightlightRoot = classNames({
+        [classes.color]: negative,
+    })
+    const hightlightPerefer = classNames({
+        [classes.color]: !negative,
+    })
+
     return (
         <span className={classes.wrapper}>
-            {prefix ? <span className="prefix">{`${prefix}${pr}`}</span> : null}
-            <span className="root">{`${pr}${root}${sf}`}</span>
-            {suffix ? <span className="suffix">{`${sf}${suffix}`}</span> : null}
+            {prefix ? <span className={hightlightPerefer}>{`${prefix}${pr}`}</span> : null}
+            <span className={hightlightRoot}>{`${pr}${root}${sf}`}</span>
+            {suffix ? <span className={hightlightPerefer}>{`${sf}${suffix}`}</span> : null}
         </span>
     )
 }

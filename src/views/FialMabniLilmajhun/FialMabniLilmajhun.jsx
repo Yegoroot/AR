@@ -12,7 +12,7 @@ import Footer from 'components/Footer/Footer.jsx'
 import Word from 'components/word'
 // import AdditionalInfo from 'components/Typography/AdditionalInfo.jsx'
 import ContrastWord from 'components/Typography/ContrastWord.jsx'
-import Warning from 'components/Typography/Warning.jsx'
+import Danger from 'components/Typography/Danger.jsx'
 import ArSent from 'components/Typography/ArSent.jsx'
 
 // import Paragraph from 'components/Typography/Paragraph.jsx'
@@ -80,7 +80,7 @@ class FialMabniLilmajhun extends React.Component {
                                 </ContrastWord>
                             </ArSent>
                             <h3 className={classes.titleAr}>
-                                Пример пассивного залога (الفِعْل المَبْنِي لِلمَجْهُول)
+                                Пример пассивного (страдательный) залога (الفِعْل المَبْنِي لِلمَجْهُول)
                             </h3>
                             <p>
                                 В случае с пассивным залогом деятель неизвестен (или известен из контекста), фокус на
@@ -120,20 +120,37 @@ class FialMabniLilmajhun extends React.Component {
 
                             <p>
                                 {' '}
-                                <Warning>
+                                <Danger>
                                     В прошедшем времени чтоб образовать пассивный залог, необходимо над первой буквой
                                     поставить дамму, над предпоследей в кясру{' '}
                                     <ContrastWord blue inAr translate="Основная форма ضَرَبَ - يَضْرِبُ">
                                         ضُرِبَ
                                     </ContrastWord>{' '}
-                                </Warning>
-                                <Warning>
+                                </Danger>
+                                <Danger>
                                     В настоящем времени поставить дамму над первой и фатху над предпоследней буквой{' '}
                                     <ContrastWord blue inAr translate="Основная форма كَتَبَ - يَكْتُبُ">
                                         <Word root="يُكْتَبَ" />
                                     </ContrastWord>
-                                </Warning>
+                                </Danger>
                             </p>
+                            {/**------------ */}
+                            <h3 className={classes.titleAr}>Пассивный залог с больной СРЕДНЕЙ</h3>
+                            <ArSent>
+                                <Word negative prefix="قَ" root="ا" suffix="لَ" /> -{' '}
+                                <Word negative prefix="قِ" root="يِ" suffix="لَ" />
+                            </ArSent>
+                            <ArSent>
+                                <Word root="يَقُولُ" /> - <Word negative prefix="يُقَ" root="ا" suffix="لُ" />
+                            </ArSent>
+                            {/**------------ */}
+                            <h3 className={classes.titleAr}>Пассивный залог с больной ПОСЛЕДНЕЙ</h3>
+                            <ArSent>
+                                <Word root="نَج" suffix="ا" /> - <Word root="نُجِ" suffix="يَ" />
+                            </ArSent>
+                            <ArSent>
+                                <Word root="يَنْجُو" /> - <Word root="يُنْجَ" suffix="ى" />
+                            </ArSent>
                         </div>
                     </div>
                 </div>
