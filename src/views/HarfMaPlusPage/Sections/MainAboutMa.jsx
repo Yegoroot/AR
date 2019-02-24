@@ -3,7 +3,7 @@ import React from 'react'
 // @material-ui/core components
 import withStyles from '@material-ui/core/styles/withStyles'
 // @material-ui/icons
-import { Paper, Grid } from '@material-ui/core'
+import { Paper } from '@material-ui/core'
 import ContrastWord from 'components/Typography/ContrastWord.jsx'
 import ArSentence from 'components/Typography/ArSentence.jsx'
 // import Word from 'components/word'
