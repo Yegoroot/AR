@@ -33,6 +33,7 @@ import HarfHalPage from 'views/HarfHalPage/HarfHalPage'
 import IsmChislitelPage from 'views/IsmChislitelPage/IsmChislitelPage'
 import SimilarityMaful from 'views/SimilarityMaful/SimilarityMaful'
 import IsmaMaful from 'views/IsmaMaful/IsmaMaful'
+import IsmaFial from 'views/IsmaFial/IsmaFial'
 import Page from 'views/Page/Page'
 
 /**  */
@@ -45,6 +46,7 @@ var indexRoutes = [
     { path: '/chislitel100', name: 'IsmChislitelPage', component: IsmChislitelPage },
     { path: '/similarity', name: 'SimilarityMaful', component: SimilarityMaful },
     { path: '/ismumaful', name: 'IsmaMaful', component: IsmaMaful },
+    { path: '/ismafial', name: 'IsmaFial', component: IsmaFial },
 
     /** */
     { path: '/fialmabnililmajhun', name: 'FialMabniLilmajhun', component: FialMabniLilmajhun },
