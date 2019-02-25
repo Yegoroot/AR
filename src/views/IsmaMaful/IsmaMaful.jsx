@@ -46,7 +46,7 @@ class IsmaMaful extends React.Component {
                     <div className={classes.container}>
                         <div className={classes.navWrapper}>
                             <h1 className={classes.titleAr}>اسم المَفْول</h1>
-
+                            <h2>Основная форма</h2>
                             <p>
                                 Лицо или предметы на которых падает действие <br /> Например
                             </p>
@@ -83,6 +83,39 @@ class IsmaMaful extends React.Component {
                             </ArSent>
                             <ArSent translate="Понятно, понятый">
                                 <ContrastWord red> المَفْهُول </ContrastWord> (فهِم)
+                            </ArSent>
+
+                            <h2>اسم المَفْول со слабой средней </h2>
+                            <h3 className={classes.titleAr}>1 шаблон</h3>
+                            <ArSent translate="То что сказанно">
+                                قال - <strike> مَقْوُول </strike> - <ContrastWord red> مَقُول </ContrastWord>
+                            </ArSent>
+                            <ArSent translate="порицаемый">
+                                لام - <ContrastWord red> مَلُوم </ContrastWord>
+                            </ArSent>
+                            <h3 className={classes.titleAr}>2 шаблон</h3>
+                            <ArSent translate="то что проданно">
+                                باع - <strike>مبْيُوع</strike> - <ContrastWord red> مَبِيع </ContrastWord>
+                            </ArSent>
+                            <ArSent translate="то что измерено">
+                                كال - <ContrastWord red> مَكِيل </ContrastWord>
+                            </ArSent>
+
+                            <h2>اسم المَفْول со слабой последней </h2>
+                            <h3 className={classes.titleAr}>1 шаблон</h3>
+                            <ArSent translate="призванный, приглашенный">
+                                دَعا - <ContrastWord red> مَدْعُوٌّ </ContrastWord>
+                            </ArSent>
+                            <ArSent translate="то чему следуют">
+                                تلا - <ContrastWord red> متلُوٌّ </ContrastWord>
+                            </ArSent>
+
+                            <h3 className={classes.titleAr}>2 шаблон</h3>
+                            <ArSent translate="построенный">
+                                بنى - <ContrastWord red> مبنِيٌّ </ContrastWord>
+                            </ArSent>
+                            <ArSent translate="пожаренный">
+                                قلى - <ContrastWord red> مَقْلِيٌّ </ContrastWord>
                             </ArSent>
                         </div>
                     </div>
