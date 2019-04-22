@@ -14,7 +14,7 @@ import Parallax from 'components/Parallax/Parallax.jsx'
 // sections for this page
 import HeaderLinks from 'components/Header/HeaderLinks.jsx'
 
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 
 // import Footer from 'components/Footer/Footer.jsx'
 // import Card from './Sections/Card.jsx'
