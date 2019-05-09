@@ -1,3 +1,3 @@
 import { createBrowserHistory } from 'history'
-const history = createBrowserHistory({basename: '/ar'})
+const history = createBrowserHistory()
 export default history
