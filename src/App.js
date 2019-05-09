@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import store from './redux'
 import { Provider } from 'react-redux'
 import { ConnectedRouter } from 'connected-react-router'
-import './_general/config.firebase'
+// import './_general/config.firebase'
 import history from './history'
 import Routes from './routes'
 

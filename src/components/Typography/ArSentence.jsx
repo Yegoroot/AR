@@ -9,6 +9,7 @@ const styleArSentence = {
     display: 'flex',
     alignItems: 'center',
     flexWrap: 'wrap',
+    'justify-content': 'flex-end'
 }
 const styleArSentenceTranslate = {
     fontSize: 16,

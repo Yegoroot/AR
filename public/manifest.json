@@ -1,8 +1,9 @@
 {
-  "name": "AR",
+  "name": "في منامي",
+  "short_name": "AR",
   "theme_color": "#2196f3",
   "background_color": "#2196f3",
-  "display": "browser",
+  "display": "standalone",
   "Scope": "/",
   "start_url": "./index.html",
   "icons": [
