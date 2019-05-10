@@ -1,24 +1,12 @@
 import React from 'react'
-// nodejs library that concatenates classes
 import classNames from 'classnames'
-
-// @material-ui/core components
 import withStyles from '@material-ui/core/styles/withStyles'
-
-// core components
 import Header from 'components/Header/Header.jsx'
 import Footer from 'components/Footer/Footer.jsx'
-
-// import Word from 'components/word'
-// import AdditionalInfo from 'components/Typography/AdditionalInfo.jsx'
 import ContrastWord from 'components/Typography/ContrastWord.jsx'
 import ArSent from 'components/Typography/ArSent.jsx'
-
-// import Paragraph from 'components/Typography/Paragraph.jsx'
 import HeaderLinks from 'components/Header/HeaderLinks.jsx'
-
 import Parallax from 'components/Parallax/Parallax.jsx'
-
 import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
 
 class IsmaMaful extends React.Component {
@@ -116,6 +104,11 @@ class IsmaMaful extends React.Component {
                             </ArSent>
                             <ArSent translate="пожаренный">
                                 قلى - <ContrastWord red> مَقْلِيٌّ </ContrastWord>
+                            </ArSent>
+
+                            <h2>اسم المَفْول с шаддой </h2>
+                            <ArSent translate="радовать">
+                                <span>سَرَّ</span> - <ContrastWord red>مَسرُور</ContrastWord>
                             </ArSent>
                         </div>
                     </div>
