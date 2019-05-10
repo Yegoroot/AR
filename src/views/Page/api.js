@@ -15,5 +15,7 @@ export default {
         filter: true,
         image: require('assets/img/mosque/mosque21.jpg'),
     },
-    content: {},
+    description: '',
+    content:
+        "<p> Эта частица усиливает мысль в предложении, часто используется в Коране, одна из многих частиц показывающих описательную точность{' '} <ContrastWord inRu blue translate='Корана'> القران </ContrastWord>, [ обычно такие нюансы опускают в переводах, а разве есть те кто считает перевод{' '} <ContrastWord inRu blue translate='Корана'> القران </ContrastWord>{' '}  Кораном ?]. Употребляется только если перед ней стоит отрицательная частица, запрет или частица вопроса</p>",
 }
