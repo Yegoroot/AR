@@ -1,9 +1,19 @@
 html * {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -ms-overflow-style: scrollbar;
+    -webkit-tap-highlight-color: transparent;
 }
 body{
-  font-size: 1rem;
+  font-size: 19px;
+  text-align: right;
+  background-color: #E5E5E5;
+  color: $black-color;
+  margin: 0;
 }
 body, h1, h2, h3, h4, h5, h6 {
     font-family: "Roboto", "Helvetica", "Arial", sans-serif;
@@ -35,7 +45,7 @@ h1 {
       line-height: 1;
     }
   }
-  h2 {
+h2 {
     font-size: 2.3rem;
     line-height: 1.5em;
     @media screen and (max-width: 960px) {
@@ -63,21 +73,6 @@ p {
     font-size: 20px;
     margin: 0 0 15px;
     line-height: 1.5;
-}
-html {
-  font-family: sans-serif;
-  line-height: 1.15;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -ms-overflow-style: scrollbar;
-  -webkit-tap-highlight-color: transparent;
-}
-body{
-    background-color: #E5E5E5;
-    color: $black-color;
-    margin: 0;
-    font-size: 1rem;
-    text-align: left;
 }
 
 legend {
@@ -123,3 +118,18 @@ img {
 form {
   margin-bottom: 1.125rem;
 }
+
+
+// WRAPPERS
+.wrap1 {
+    padding: 20px 20px 10px
+}
+// // BLOCKS
+// .BL1 {
+//     margin-bottom: 15px
+// }
+
+
+// p + h4 {
+//     margin-top: 20px;
+// }
