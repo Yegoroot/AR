@@ -1,22 +1,22 @@
 export default {
-    header: {
-        color: 'transparent',
-        brand: 'مِن الزّائِدَة', // название страницы
-        isBrandAr: true, // крупный шрифт или мелий (для арабского текста нужен крупный)
-        rightLinks: 'HeaderLinks', // какие ссылки меню показывать
-        fixed: true,
-        changeColorOnScroll: {
-            height: 200,
-            color: 'white',
-        },
-    },
-    paralax: {
-        small: true,
-        filter: true,
-        image: require('assets/img/mosque/mosque21.jpg'),
-    },
-    description: '',
-    content: `<p>
+  header: {
+    color: "transparent",
+    brand: "مِن الزّائِدَة", // название страницы
+    isBrandAr: true, // крупный шрифт или мелий (для арабского текста нужен крупный)
+    rightLinks: "HeaderLinks", // какие ссылки меню показывать
+    fixed: true,
+    changeColorOnScroll: {
+      height: 200,
+      color: "white"
+    }
+  },
+  paralax: {
+    small: true,
+    filter: true,
+    image: require("assets/img/mosque/mosque21.jpg")
+  },
+  description: "",
+  content: `<p>
             Эта частица усиливает мысль в предложении, часто используется в Коране, одна из многих
             частиц показывающих описательную точность{' '}
             <ContrastWord inRu blue translate="Корана">
@@ -30,7 +30,7 @@ export default {
             частица вопроса
         </p>
 
-        <h4 className={classes.titleAr}>
+        <h4 className={classes.title}>
             Расмотрим наглядно как{' '}
             <ContrastWord blue> с этой частицой закрывается дверь сомнений</ContrastWord>
         </h4>
@@ -65,7 +65,7 @@ export default {
             سُؤَلٍ
         </ArSent>
 
-        <h4 className={classes.titleAr}>
+        <h4 className={classes.title}>
             Расмотрим пример из{' '}
             <ContrastWord inRu blue translate="Корана">
                 القران
@@ -94,5 +94,5 @@ export default {
             وَمَا <ContrastWord red> مِن </ContrastWord> دَابَّةٍ فِي الأَرْضِ إِلاَّ عَلَى اللّهِ
             رِزْقُهَا
         </ArSent>
-    `,
-}
+    `
+};
