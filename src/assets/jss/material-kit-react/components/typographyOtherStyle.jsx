@@ -31,9 +31,6 @@ const typographyOtherStyle = {
   },
   // ВЫДЕЛИТЬ СЛОВО
   // выделить слово красным
-  contrastWord: {
-    // color: dangerColor,
-  },
   colorRed: {
     color: dangerColor
   },

@@ -160,14 +160,13 @@ const title = {
   margin: "1.75rem 0 0.875rem",
   textDecoration: "none",
   fontWeight: "700",
-  fontFamily: `"Roboto Slab", "Times New Roman", serif`
+  fontFamily: `"Amiri", "Roboto", serif`
 };
 
 const cardTitle = {
   ...title,
   marginTop: ".625rem"
 };
-
 const cardLink = {
   "& + $cardLink": {
     marginLeft: "1.25rem"
