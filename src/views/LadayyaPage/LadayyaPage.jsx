@@ -13,7 +13,7 @@ import PaperTense from "components/paperTense";
 // import Word from 'components/word'
 // import AdditionalInfo from 'components/Typography/AdditionalInfo.jsx'
 import ContrastWord from "components/Typography/ContrastWord.jsx";
-// import ArSentence from 'components/Typography/ArSentence.jsx'
+// import ArSent from 'components/Typography/ArSent.jsx'
 
 // import Paragraph from 'components/Typography/Paragraph.jsx'
 import HeaderLinks from "components/Header/HeaderLinks.jsx";

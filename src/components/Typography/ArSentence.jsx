@@ -17,13 +17,13 @@ const styleArSentenceTranslate = {
   lineHeight: 1.3
 };
 
-function ArSentence({ ...props }) {
+function ArSent({ ...props }) {
   const { classes, children, translate } = props;
   return (
     <React.Fragment>
       <span
         style={styleArSentence}
-        className={classes.defaultFontStyle + " " + classes.arFonts + " " + classes.arSentence}
+        className={classes.defaultFontStyle + " " + classes.arFonts + " " + classes.ArSent}
       >
         {children}
       </span>
@@ -32,8 +32,8 @@ function ArSentence({ ...props }) {
   );
 }
 
-ArSentence.propTypes = {
+ArSent.propTypes = {
   classes: PropTypes.object.isRequired
 };
 
-export default withStyles(typographyOtherStyle)(ArSentence);
+export default withStyles(typographyOtherStyle)(ArSent);

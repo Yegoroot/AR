@@ -11,7 +11,7 @@ import { Paper } from "@material-ui/core";
 
 import Word from "components/word";
 import ContrastWord from "components/Typography/ContrastWord.jsx";
-import ArSentence from "components/Typography/ArSentence.jsx";
+import ArSent from "components/Typography/ArSent.jsx";
 // import LyaNafia from './Sections/LyaNafia'
 // import LyaNahia from './Sections/LyaNahia'
 // import LyaInPast from './Sections/LyaInPast'
@@ -47,7 +47,7 @@ class HarfWaPage extends React.Component {
               <h2 className={classes.title}>واو العَطْف</h2>
               <Paper>
                 <div className="wrap1">
-                  <ArSentence
+                  <ArSent
                     translate={
                       <div>
                         Вышли Зубайр <ContrastWord red> и </ContrastWord> Хамид
@@ -55,7 +55,7 @@ class HarfWaPage extends React.Component {
                     }
                   >
                     خرج الزّبير <ContrastWord red> و </ContrastWord> حامد
-                  </ArSentence>
+                  </ArSent>
                 </div>
               </Paper>
 
@@ -66,9 +66,9 @@ class HarfWaPage extends React.Component {
                     Клятвенная вав, относится к حرف الجزم (предлоги родительного падежа) и поэтому
                     дает кясру слову
                   </p>
-                  <ArSentence translate={"Клянусь Аллахом"}>
+                  <ArSent translate={"Клянусь Аллахом"}>
                     <Word root="اللهِ" prefix="و" />
-                  </ArSentence>
+                  </ArSent>
                 </div>
               </Paper>
 
@@ -79,7 +79,7 @@ class HarfWaPage extends React.Component {
                     واو состояния,{" "}
                     <Link to="/jumlatuhaal"> пример использования можете посмотреть тут</Link>
                   </p>
-                  <ArSentence
+                  <ArSent
                     translate={
                       <div>
                         Отец мой умер{" "}
@@ -92,7 +92,7 @@ class HarfWaPage extends React.Component {
                   >
                     ماتَ أبي <ContrastWord red> و </ContrastWord>{" "}
                     <ContrastWord blue> أنا صغير </ContrastWord>
-                  </ArSentence>
+                  </ArSent>
                 </div>
               </Paper>
             </div>

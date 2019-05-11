@@ -11,7 +11,7 @@ import Header from "components/Header/Header.jsx";
 import Footer from "components/Footer/Footer.jsx";
 
 import ContrastWord from "components/Typography/ContrastWord.jsx";
-import ArSentence from "components/Typography/ArSentence.jsx";
+import ArSent from "components/Typography/ArSent.jsx";
 import Paragraph from "components/Typography/Paragraph.jsx";
 
 import HeaderLinks from "components/Header/HeaderLinks.jsx";
@@ -54,7 +54,7 @@ class JumlatuHaalPage extends React.Component {
               <h2 className={classes.title}> :الحال</h2>
               <Paper className={classes.paperStandart}>
                 <Paragraph>
-                  <ArSentence
+                  <ArSent
                     translate={
                       <div>
                         Пришел учитель в класс{" "}
@@ -63,11 +63,11 @@ class JumlatuHaalPage extends React.Component {
                     }
                   >
                     دخل المدرس الفصل <ContrastWord red>غَضِبًا </ContrastWord>
-                  </ArSentence>
+                  </ArSent>
                 </Paragraph>
 
                 <Paragraph>
-                  <ArSentence
+                  <ArSent
                     translate={
                       <div>
                         Мой сын пил воду{" "}
@@ -76,11 +76,11 @@ class JumlatuHaalPage extends React.Component {
                     }
                   >
                     شرب اِبني الماء <ContrastWord red>صافِيًا </ContrastWord>
-                  </ArSentence>
+                  </ArSent>
                 </Paragraph>
 
                 <Paragraph>
-                  <ArSentence>شرب اِبني الماء الصافِي</ArSentence>
+                  <ArSent>شرب اِبني الماء الصافِي</ArSent>
                   <p>
                     Если же мы хотим сказать что вода И была чистой, то используем простое
                     прилагательное
@@ -91,7 +91,7 @@ class JumlatuHaalPage extends React.Component {
               <h2 className={classes.title}> :جملة الحال </h2>
               <Paper className={classes.paperStandart}>
                 <Paragraph>
-                  <ArSentence
+                  <ArSent
                     translate={
                       <div>
                         Читал книгу
@@ -110,11 +110,11 @@ class JumlatuHaalPage extends React.Component {
                       </Tooltip>{" "}
                       أنا جالِس{" "}
                     </ContrastWord>
-                  </ArSentence>
+                  </ArSent>
                 </Paragraph>
 
                 <Paragraph>
-                  <ArSentence
+                  <ArSent
                     translate={
                       <div>
                         Пил чай и кофе
@@ -144,11 +144,11 @@ class JumlatuHaalPage extends React.Component {
                       </Tooltip>{" "}
                       أنا في العَمل{" "}
                     </ContrastWord>
-                  </ArSentence>
+                  </ArSent>
                 </Paragraph>
 
                 <Paragraph>
-                  <ArSentence
+                  <ArSent
                     translate={
                       <div>
                         Мой брат ел яблоки{" "}
@@ -167,7 +167,7 @@ class JumlatuHaalPage extends React.Component {
                       </Tooltip>{" "}
                       أنا نائِم{" "}
                     </ContrastWord>
-                  </ArSentence>
+                  </ArSent>
                 </Paragraph>
               </Paper>
             </div>

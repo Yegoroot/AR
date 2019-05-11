@@ -8,7 +8,7 @@ import withStyles from "@material-ui/core/styles/withStyles";
 import Footer from "components/Footer/Footer.jsx";
 import Header from "components/Header/Header.jsx";
 
-import ArSentence from "components/Typography/ArSentence.jsx";
+import ArSent from "components/Typography/ArSent.jsx";
 
 import HeaderLinks from "components/Header/HeaderLinks.jsx";
 
@@ -53,12 +53,12 @@ class JumlatuIsmPage extends React.Component {
               </p>
 
               <div className="BL1">
-                <ArSentence translate="Ученик активен">التّلميذُ نشيط</ArSentence>
-                <ArSentence translate="Ученица активна">التّلميذةُ نشيطة</ArSentence>
-                <ArSentence translate="Два ученика активны">التِّلميذَان نشيطانِ</ArSentence>
-                <ArSentence translate="Две ученицы активны">التّلميذتانِ نشيطتانِ </ArSentence>
-                <ArSentence translate="Ученики активны">التَّلاميذُ نِشَاط </ArSentence>
-                <ArSentence translate="Ученицы активны">التلميذَات نشِيطَات </ArSentence>
+                <ArSent translate="Ученик активен">التّلميذُ نشيط</ArSent>
+                <ArSent translate="Ученица активна">التّلميذةُ نشيطة</ArSent>
+                <ArSent translate="Два ученика активны">التِّلميذَان نشيطانِ</ArSent>
+                <ArSent translate="Две ученицы активны">التّلميذتانِ نشيطتانِ </ArSent>
+                <ArSent translate="Ученики активны">التَّلاميذُ نِشَاط </ArSent>
+                <ArSent translate="Ученицы активны">التلميذَات نشِيطَات </ArSent>
               </div>
               <p>
                 В именных предложениях, приведенных выше, сказуемым являлось имя, но часто сказуемое
@@ -66,21 +66,21 @@ class JumlatuIsmPage extends React.Component {
               </p>
               <div className="BL1">
                 <h4 className={classes.title}>{"1)"} глаголом:</h4>
-                <ArSentence translate="Зейд открыл дверь">زيدٌ فتح الباب</ArSentence>
+                <ArSent translate="Зейд открыл дверь">زيدٌ فتح الباب</ArSent>
               </div>
 
               <div className="BL1">
                 <h4 className={classes.title}>
                   {"2)"} изафетным сочетанием обстоятельства и имени:
                 </h4>
-                <ArSentence translate="Машина перед домом">السّيّارةُ أَمامَ البيتِ</ArSentence>
+                <ArSent translate="Машина перед домом">السّيّارةُ أَمامَ البيتِ</ArSent>
               </div>
 
               <div className="BL1">
                 <h4 className={classes.title}>
                   {"3)"} сочетанием предлога родительного падежа и имени:
                 </h4>
-                <ArSentence translate="Ученик в школе">التّلميذُ فى المدرسةِ</ArSentence>
+                <ArSent translate="Ученик в школе">التّلميذُ فى المدرسةِ</ArSent>
               </div>
             </div>
           </div>

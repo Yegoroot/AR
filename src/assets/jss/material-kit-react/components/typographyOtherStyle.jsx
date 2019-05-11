@@ -16,7 +16,7 @@ const typographyOtherStyle = {
     // color: primaryColor,
     color: "#676767"
   },
-  arSentence: {
+  ArSent: {
     marginBottom: 10
   },
   // арабские буквы очень маленьки на фоне других

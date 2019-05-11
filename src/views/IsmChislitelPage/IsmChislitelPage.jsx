@@ -1,52 +1,52 @@
-import React from 'react'
-import classNames from 'classnames'
+import React from "react";
+import classNames from "classnames";
 
-import withStyles from '@material-ui/core/styles/withStyles'
+import withStyles from "@material-ui/core/styles/withStyles";
 // core components
-import Header from 'components/Header/Header.jsx'
-import Footer from 'components/Footer/Footer.jsx'
+import Header from "components/Header/Header.jsx";
+import Footer from "components/Footer/Footer.jsx";
 
-import ArSentence from 'components/Typography/ArSentence.jsx'
-import HeaderLinks from 'components/Header/HeaderLinks.jsx'
-import Parallax from 'components/Parallax/Parallax.jsx'
+import ArSent from "components/Typography/ArSent.jsx";
+import HeaderLinks from "components/Header/HeaderLinks.jsx";
+import Parallax from "components/Parallax/Parallax.jsx";
 
-import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
+import arabicPageStyle from "assets/jss/material-kit-react/views/arabicPage.jsx";
 
 class IsmChislitelPage extends React.Component {
-    render() {
-        const { classes, ...rest } = this.props
+  render() {
+    const { classes, ...rest } = this.props;
 
-        return (
-            <div>
-                <Header
-                    color="transparent"
-                    brand="Числительные с 100"
-                    rightLinks={<HeaderLinks />}
-                    fixed
-                    changeColorOnScroll={{
-                        height: 200,
+    return (
+      <div>
+        <Header
+          color="transparent"
+          brand="Числительные с 100"
+          rightLinks={<HeaderLinks />}
+          fixed
+          changeColorOnScroll={{
+            height: 200,
 
-                        color: 'white',
-                    }}
-                    {...rest}
-                />
+            color: "white"
+          }}
+          {...rest}
+        />
 
-                <Parallax small filter image={require('assets/img/mosque/mosque12.jpg')} />
-                <div className={classNames(classes.main, classes.mainRaised)}>
-                    <div className={classes.container}>
-                        <div className={classes.navWrapper}>
-                            <h1 className={classes.title}>Числительные с 100</h1>
-                            <ArSentence>
-                                مِئَةُ - مِئَتَانِ - ثَلاثُمِئَةَ - أرْبَعُمِئَةَ - خَمْسُمِئَةَ - سِتُّمِئَةَ -
-                                سَبعُمِئَةَ - ثَمانمِئَةَ - تِسْعُمِئة
-                            </ArSentence>
-                        </div>
-                    </div>
-                </div>
-                <Footer />
+        <Parallax small filter image={require("assets/img/mosque/mosque12.jpg")} />
+        <div className={classNames(classes.main, classes.mainRaised)}>
+          <div className={classes.container}>
+            <div className={classes.navWrapper}>
+              <h1 className={classes.title}>Числительные с 100</h1>
+              <ArSent>
+                مِئَةُ - مِئَتَانِ - ثَلاثُمِئَةَ - أرْبَعُمِئَةَ - خَمْسُمِئَةَ - سِتُّمِئَةَ -
+                سَبعُمِئَةَ - ثَمانمِئَةَ - تِسْعُمِئة
+              </ArSent>
             </div>
-        )
-    }
+          </div>
+        </div>
+        <Footer />
+      </div>
+    );
+  }
 }
 
-export default withStyles(arabicPageStyle)(IsmChislitelPage)
+export default withStyles(arabicPageStyle)(IsmChislitelPage);

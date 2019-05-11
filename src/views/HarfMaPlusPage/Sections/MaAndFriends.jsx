@@ -5,7 +5,7 @@ import withStyles from "@material-ui/core/styles/withStyles";
 // @material-ui/icons
 import { Paper } from "@material-ui/core";
 import ContrastWord from "components/Typography/ContrastWord.jsx";
-import ArSentence from "components/Typography/ArSentence.jsx";
+import ArSent from "components/Typography/ArSent.jsx";
 // import Word from 'components/word'
 // core components
 // import SnackbarContent from 'components/Snackbar/SnackbarContent.jsx'
@@ -29,7 +29,7 @@ class MaAndFriends extends React.Component {
                 مِنْ + ما = <ContrastWord red>مِمَّ</ContrastWord>؟
               </h3>
 
-              <ArSentence
+              <ArSent
                 translate={
                   <div>
                     <ContrastWord red>Из чего </ContrastWord> создал Аллахъ человека?
@@ -37,13 +37,13 @@ class MaAndFriends extends React.Component {
                 }
               >
                 <ContrastWord red>مِمَّ </ContrastWord> خَلَقَ اللّه الانسان؟
-              </ArSentence>
+              </ArSent>
 
               <h3 className={classes.title}>
                 بِ + ما = <ContrastWord red>بِمَ</ContrastWord>؟
               </h3>
 
-              <ArSentence
+              <ArSent
                 translate={
                   <div>
                     <ContrastWord red>(С помощью чего) Чем </ContrastWord> ты убил змею?
@@ -51,13 +51,13 @@ class MaAndFriends extends React.Component {
                 }
               >
                 <ContrastWord red>بِمَ </ContrastWord> قتلتُ الحَيَّة؟
-              </ArSentence>
+              </ArSent>
 
               <h3 className={classes.title}>
                 لِ + ما = <ContrastWord red>لِمَ</ContrastWord>؟
               </h3>
 
-              <ArSentence
+              <ArSent
                 translate={
                   <div>
                     <ContrastWord red>(Почему?, Для чего?, За чем?) Для какой цели </ContrastWord>{" "}
@@ -66,13 +66,13 @@ class MaAndFriends extends React.Component {
                 }
               >
                 <ContrastWord red>لِمَ </ContrastWord> خَرجُْتُ مِن الفصلِ؟
-              </ArSentence>
+              </ArSent>
 
               <h3 className={classes.title}>
                 عَنْ + ما = <ContrastWord red>عَمَّ</ContrastWord>؟
               </h3>
 
-              <ArSentence
+              <ArSent
                 translate={
                   <div>
                     <ContrastWord red>Что </ContrastWord> ты искал в школе? ( ... بَحثَ عن )
@@ -80,8 +80,8 @@ class MaAndFriends extends React.Component {
                 }
               >
                 <ContrastWord red>عَمَّ </ContrastWord> بَحثْتَ في المدرسةِ؟
-              </ArSentence>
-              <ArSentence
+              </ArSent>
+              <ArSent
                 translate={
                   <div>
                     <ContrastWord red>О чем </ContrastWord> спросил учитель?
@@ -89,7 +89,7 @@ class MaAndFriends extends React.Component {
                 }
               >
                 <ContrastWord red>عَمَّ </ContrastWord> سألْتَ المدرسَ؟
-              </ArSentence>
+              </ArSent>
             </div>
           </Paper>
         </div>

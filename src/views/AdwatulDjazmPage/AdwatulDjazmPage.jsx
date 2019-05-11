@@ -11,7 +11,7 @@ import Header from "components/Header/Header.jsx";
 import Footer from "components/Footer/Footer.jsx";
 import Word from "components/word";
 
-import ArSentence from "components/Typography/ArSentence.jsx";
+import ArSent from "components/Typography/ArSent.jsx";
 import ContrastWord from "components/Typography/ContrastWord.jsx";
 import Paragraph from "components/Typography/Paragraph.jsx";
 import HeaderLinks from "components/Header/HeaderLinks.jsx";
@@ -59,16 +59,16 @@ class AdwatulDjazmPage extends React.Component {
                     <li>Отрицает</li>
                     <li>Меняет время на прошедшее</li>
                   </ul>
-                  <ArSentence>
+                  <ArSent>
                     <ContrastWord red>لمْ</ContrastWord> أذهَبْ = ما ذهبتُ
-                  </ArSentence>
+                  </ArSent>
                 </Paragraph>
 
-                <ArSentence> لَمْ أذهبْ - لَمْ نَذهبْ</ArSentence>
-                <ArSentence> أنتَ لَمْ تَذهبْ - أنتِ لَمْ نَذهبِي</ArSentence>
-                <ArSentence> أنتُم لَمْ تَذهبُوا - أنتنّ لَمْ نَذهبْن</ArSentence>
-                <ArSentence> هو لَمْ يَذهبْ - هي لَمْ تَذهَبْ</ArSentence>
-                <ArSentence> هم لَمْ يَذهبُوا - هنّ لَمْ يذهَبْن</ArSentence>
+                <ArSent> لَمْ أذهبْ - لَمْ نَذهبْ</ArSent>
+                <ArSent> أنتَ لَمْ تَذهبْ - أنتِ لَمْ نَذهبِي</ArSent>
+                <ArSent> أنتُم لَمْ تَذهبُوا - أنتنّ لَمْ نَذهبْن</ArSent>
+                <ArSent> هو لَمْ يَذهبْ - هي لَمْ تَذهَبْ</ArSent>
+                <ArSent> هم لَمْ يَذهبُوا - هنّ لَمْ يذهَبْن</ArSent>
               </Paper>
 
               <h2 className={classes.title}>
@@ -94,10 +94,10 @@ class AdwatulDjazmPage extends React.Component {
               </h2>
               <Paper className={classes.paperStandart}>
                 <p>Приходит только ко второму лицу настоящего времени!</p>
-                <ArSentence translate="Не ходите в школу">
+                <ArSent translate="Не ходите в школу">
                   {" "}
                   <ContrastWord red>لا</ContrastWord> تَ‍‍ذهب‍‍وا الي المدرسة{" "}
-                </ArSentence>
+                </ArSent>
               </Paper>
 
               <h2 className={classes.title}>
@@ -109,15 +109,15 @@ class AdwatulDjazmPage extends React.Component {
               </h2>
               <Paper className={classes.paperStandart}>
                 <p>Может прийти к любому лицу (Пусть он, пусть она)</p>
-                <ArSentence translate={<span>Пойдёмте в школу</span>}>
+                <ArSent translate={<span>Пойдёмте в школу</span>}>
                   {" "}
                   <Word prefix="لِ" root="نَذْهَب" /> الي المدرسة
-                </ArSentence>
+                </ArSent>
 
-                <ArSentence translate={<span>Пусть он идёт в школу</span>}>
+                <ArSent translate={<span>Пусть он идёт в школу</span>}>
                   {" "}
                   <Word prefix="لِ" root="يَذهَبْ" /> الي المدرسة
-                </ArSentence>
+                </ArSent>
               </Paper>
             </div>
           </div>
