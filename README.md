@@ -1,4 +1,10 @@
-https://coursehunters.net/course/prodvinutyy-kurs-po-react-js // первый урок установки от сюда
+## Before
+
+// первый урок установки от сюда
+https://coursehunters.net/course/prodvinutyy-kurs-po-react-js
+
+// тема
+https://demos.creative-tim.com/material-kit-react/?_ga=2.258220812.7221223.1546690794-784790524.1546690794#/
 
 ## About
 
@@ -37,8 +43,6 @@ https://coursehunters.net/course/prodvinutyy-kurs-po-react-js // первый у
 Что касаеться роутов то я выложил у себя на сайте в директорию domen.com/ar
 и соответсвенно добавил в **history** basename={'/ar'}> а если не в connected-react-router то <BrowserRouter basename={'/ar'}> И index.jsx и **<Redirect to='/'/>** в switcher in App.js
 a так же в **package.json** "homepage": "https://domen.com/ar",
-
-https://demos.creative-tim.com/material-kit-react/?_ga=2.258220812.7221223.1546690794-784790524.1546690794#/
 
 ## Ducks используется как концепция для Redux
 
