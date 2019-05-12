@@ -9,8 +9,6 @@ import withStyles from "@material-ui/core/styles/withStyles";
 import Header from "components/Header/Header.jsx";
 import Footer from "components/Footer/Footer.jsx";
 
-// import Word from 'components/word'
-// import AdditionalInfo from 'components/Typography/AdditionalInfo.jsx'
 import ContrastWord from "components/Typography/ContrastWord.jsx";
 import ArSent from "components/Typography/ArSent.jsx";
 

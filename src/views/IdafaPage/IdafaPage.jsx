@@ -11,7 +11,6 @@ import Header from "components/Header/Header.jsx";
 import Footer from "components/Footer/Footer.jsx";
 
 import Word from "components/word";
-import AdditionalInfo from "components/Typography/AdditionalInfo.jsx";
 import ContrastWord from "components/Typography/ContrastWord.jsx";
 import ArSent from "components/Typography/ArSent.jsx";
 
@@ -88,13 +87,12 @@ class IdafaPage extends React.Component {
                   دفتر<ContrastWord red> الطالبٍ </ContrastWord>
                 </ArSent>
               </Paper>
-              <AdditionalInfo>
-                <p>Притяжательное местоимение является вторым членом идафы</p>
-                <ArSent>
-                  <Word root="بيت" suffix="ه" /> <Word root="بيت" suffix="ها" />{" "}
-                  <Word root="بيت" suffix="كم" />
-                </ArSent>
-              </AdditionalInfo>
+
+              <p>Притяжательное местоимение является вторым членом идафы</p>
+              <ArSent>
+                <Word root="بيت" suffix="ه" /> <Word root="بيت" suffix="ها" />{" "}
+                <Word root="بيت" suffix="كم" />
+              </ArSent>
             </div>
           </div>
         </div>

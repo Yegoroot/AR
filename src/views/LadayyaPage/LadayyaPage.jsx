@@ -11,7 +11,6 @@ import Footer from "components/Footer/Footer.jsx";
 
 import PaperTense from "components/paperTense";
 // import Word from 'components/word'
-// import AdditionalInfo from 'components/Typography/AdditionalInfo.jsx'
 import ContrastWord from "components/Typography/ContrastWord.jsx";
 // import ArSent from 'components/Typography/ArSent.jsx'
 

@@ -1,6 +1,5 @@
 import {
   defaultFont,
-  primaryColor,
   infoColor,
   // successColor,
   // warningColor,
@@ -13,7 +12,6 @@ const typographyOtherStyle = {
     ...defaultFont
   },
   primaryText: {
-    // color: primaryColor,
     color: "#676767"
   },
   ArSent: {
@@ -39,11 +37,6 @@ const typographyOtherStyle = {
     color: infoColor
   },
 
-  // блок дополнительно  информации
-  additionalInfo: {
-    paddingLeft: 15,
-    borderLeft: `solid 3px ${primaryColor}`
-  },
   ...tooltipsStyle,
 
   btnInContrastWord: {

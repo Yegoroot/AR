@@ -10,7 +10,6 @@ import Header from "components/Header/Header.jsx";
 import Footer from "components/Footer/Footer.jsx";
 
 // import Word from 'components/word'
-// import AdditionalInfo from 'components/Typography/AdditionalInfo.jsx'
 
 import ArSent from "components/Typography/ArSent.jsx";
 
