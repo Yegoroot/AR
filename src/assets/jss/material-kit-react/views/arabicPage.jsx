@@ -12,9 +12,6 @@ const simpleArticle = {
     position: "relative",
     zIndex: "3"
   },
-  description: {
-    color: "#989898"
-  },
   mainRaised: {
     margin: "-60px 30px 0px",
     "@media (max-width: 520px)": {

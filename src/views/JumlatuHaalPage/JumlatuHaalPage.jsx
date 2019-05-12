@@ -2,16 +2,11 @@ import React from "react";
 // nodejs library that concatenates classes
 import classNames from "classnames";
 
-import { Tooltip, Button } from "@material-ui/core";
-// @material-ui/core components
 import withStyles from "@material-ui/core/styles/withStyles";
 
 // core components
 import Header from "components/Header/Header.jsx";
 import Footer from "components/Footer/Footer.jsx";
-
-import ContrastWord from "components/Typography/ContrastWord.jsx";
-import ArSent from "components/Typography/ArSent.jsx";
 
 import HeaderLinks from "components/Header/HeaderLinks.jsx";
 
@@ -44,102 +39,78 @@ class JumlatuHaalPage extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className={classes.title}>جملة الحال</h1>
-              <p className={classes.description}>
-                Отвечает на вопрос "как?" - является образом действия слово الحال буквально означает
-                "ситуация" или "положение. В каком положении пребывает объект, в каком состоянии.
-                <p>
-                  Перед جملة الحال приходит глагольное предложение в то время как جملة الحال именное{" "}
-                </p>
+              <p className="desc">
+                Отвечает на вопрос "как?" - является образом действия слово{" "}
+                <span className="desc__ar">الحال</span> буквально означает "ситуация" или
+                "положение. В каком положении пребывает объект, в каком состоянии. Перед{" "}
+                <span className="desc__ar">جملة الحال</span> приходит глагольное предложение в то
+                время как само оно именное{" "}
               </p>
-              <h2 className={classes.title}> :الحال</h2>
+              <h2 className="h2ar">الحال</h2>
+              <div className="arsent">
+                <div className="arsent__original">
+                  دخل المدرس الفصل <span className="contrast">غَضِبًا </span>
+                </div>
+                <div className="arsent__translate">
+                  Пришел учитель в класс <span className="contrast">злым </span>(пришёл в состоянии
+                  злости)
+                </div>
+              </div>
 
-              <ArSent
-                translate={
-                  <div>
-                    Пришел учитель в класс{" "}
-                    <ContrastWord red>злым (пришёл в состоянии злости)</ContrastWord>
-                  </div>
-                }
-              >
-                دخل المدرس الفصل <ContrastWord red>غَضِبًا </ContrastWord>
-              </ArSent>
+              <div className="arsent">
+                <div className="arsent__original">
+                  شرب اِبني الماء <span className="contrast">صافِيًا </span>
+                </div>
+                <div className="arsent__translate">
+                  Мой сын пил воду <span className="contrast"> чистую </span> (в момент пития вода
+                  была чистой)
+                </div>
+              </div>
 
-              <ArSent
-                translate={
-                  <div>
-                    Мой сын пил воду{" "}
-                    <ContrastWord red>чистую (в момент пития вода была чистой)</ContrastWord>
-                  </div>
-                }
-              >
-                شرب اِبني الماء <ContrastWord red>صافِيًا </ContrastWord>
-              </ArSent>
+              <div className="arsent">
+                <div className="arsent__original">شرب اِبني الماء الصافِي</div>
+                <div className="arsent__translate">
+                  [** Если же мы хотим сказать что вода И была чистой, то используем простое
+                  прилагательное **]
+                </div>
+              </div>
 
-              <ArSent>شرب اِبني الماء الصافِي</ArSent>
-              <p>
-                Если же мы хотим сказать что вода И была чистой, то используем простое
-                прилагательное
-              </p>
+              <h2 className="h2ar">جملة الحال </h2>
+              <div className="desc">
+                <span className="desc__ar">جملة الحال</span> соединяется с помощью
+                <span className="desc__ar"> واو الحال </span>
+              </div>
+              <div className="arsent">
+                <div className="arsent__original">
+                  قرأ الكتاب
+                  <span className="contrast">و أنا جالِس </span>
+                </div>
+                <div className="arsent__translate">
+                  Читал книгу
+                  <span className="contrast"> сидя </span>(в состоянии сидения)
+                </div>
+              </div>
 
-              <h2 className={classes.title}> :جملة الحال </h2>
+              <div className="arsent">
+                <div className="arsent__original">
+                  شربت الشاي و القهوة <span className="contrast">و أنا في العَمل </span>
+                </div>
+                <div className="arsent__translate">
+                  Пил чай и кофе
+                  <span className="contrast"> когда был на работе</span> (в состоянии нахождения на
+                  работе)
+                </div>
+              </div>
 
-              <ArSent
-                translate={
-                  <div>
-                    Читал книгу
-                    <ContrastWord red> сидя (в состоянии сидения)</ContrastWord>
-                  </div>
-                }
-              >
-                قرأ الكتاب{" "}
-                <ContrastWord red>
-                  <Tooltip title="واو الحال" placement="top" classes={{ tooltip: classes.tooltip }}>
-                    <Button className={classes.tooltipButton}>و</Button>
-                  </Tooltip>{" "}
-                  أنا جالِس{" "}
-                </ContrastWord>
-              </ArSent>
-
-              <ArSent
-                translate={
-                  <div>
-                    Пил чай и кофе
-                    <ContrastWord red>
-                      {" "}
-                      когда был на работе (в состоянии нахождения на работе)
-                    </ContrastWord>
-                  </div>
-                }
-              >
-                شربت الشاي{" "}
-                <Tooltip title="واو العَطْف" placement="top" classes={{ tooltip: classes.tooltip }}>
-                  <Button className={classes.tooltipButton}>و</Button>
-                </Tooltip>{" "}
-                القهوة{" "}
-                <ContrastWord red>
-                  <Tooltip title="واو الحال" placement="top" classes={{ tooltip: classes.tooltip }}>
-                    <Button className={classes.tooltipButton}>و</Button>
-                  </Tooltip>{" "}
-                  أنا في العَمل{" "}
-                </ContrastWord>
-              </ArSent>
-
-              <ArSent
-                translate={
-                  <div>
-                    Мой брат ел яблоки{" "}
-                    <ContrastWord red>пока я спал (был в состоянии сна)</ContrastWord>
-                  </div>
-                }
-              >
-                أكل أخي تفاحتي{" "}
-                <ContrastWord red>
-                  <Tooltip title="واو الحال" placement="top" classes={{ tooltip: classes.tooltip }}>
-                    <Button className={classes.tooltipButton}>و</Button>
-                  </Tooltip>{" "}
-                  أنا نائِم{" "}
-                </ContrastWord>
-              </ArSent>
+              <div className="arsent">
+                <div className="arsent__original">
+                  أكل أخي تفاحتي <span className="contrast"> و أنا نائِم </span>
+                </div>
+                <div className="arsent__translate">
+                  Мой брат ел яблоки
+                  <span className="contrast"> пока я спал </span> (был в состоянии сна)
+                </div>
+              </div>
             </div>
           </div>
         </div>
