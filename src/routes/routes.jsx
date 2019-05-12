@@ -4,43 +4,43 @@ import Home from "views/Home/Home.jsx";
 import LandingPage from "views/LandingPage/LandingPage.jsx";
 import ProfilePage from "views/ProfilePage/ProfilePage.jsx";
 import LoginPage from "views/LoginPage/LoginPage.jsx";
-import WeakLettersPage from "views/WeakLettersPage/WeakLettersPage";
-import JumlatuHaalPage from "views/JumlatuHaalPage/JumlatuHaalPage";
-import AdwatulDjazmPage from "views/AdwatulDjazmPage/AdwatulDjazmPage";
-import IdafaPage from "views/IdafaPage/IdafaPage";
-import SoglasovOprPage from "views/SoglasovOprPage/SoglasovOprPage";
-import JumlatuIsmPage from "views/JumlatuIsmPage/JumlatuIsmPage";
-import TricksWithVerbsPage from "views/TricksWithVerbsPage/TricksWithVerbsPage";
-import HarfLyaPage from "views/HarfLyaPage/HarfLyaPage";
-import MasdarPage from "views/MasdarPage/MasdarPage";
-import AbjectDegrees from "views/AbjectDegrees/AbjectDegrees";
-import HarfMaPlusPage from "views/HarfMaPlusPage/HarfMaPlusPage";
-import AccentPage from "views/AccentPage/AccentPage";
-import HarfDenyPage from "views/HarfDenyPage/HarfDenyPage";
-import HarfWaPage from "views/HarfWaPage/HarfWaPage";
-import ShaddaVerbPage from "views/ShaddaVerbPage/ShaddaVerbPage";
-import AffectionateWordPage from "views/AffectionateWordPage/AffectionateWordPage";
-import Ism5Page from "views/Ism5Page/Ism5Page";
-import SomeVerbsPage from "views/SomeVerbsPage/SomeVerbsPage";
-import Asmaulafal from "views/Asmaulafal/Asmaulafal";
-import DuaPage from "views/DuaPage/DuaPage";
-import HarfManAzzoidatuPage from "views/HarfManAzzoidatuPage/HarfManAzzoidatuPage";
-import LadayyaPage from "views/LadayyaPage/LadayyaPage";
-import FialMabniLilmajhun from "views/FialMabniLilmajhun/FialMabniLilmajhun";
+// --------------------
+import WeakLettersPage from "views/arBefore7less3Tom/WeakLettersPage/WeakLettersPage";
+import JumlatuHaalPage from "views/arBefore7less3Tom/JumlatuHaalPage/JumlatuHaalPage";
+import AdwatulDjazmPage from "views/arBefore7less3Tom/AdwatulDjazmPage/AdwatulDjazmPage";
+import IdafaPage from "views/arBefore7less3Tom/IdafaPage/IdafaPage";
+import SoglasovOprPage from "views/arBefore7less3Tom/SoglasovOprPage/SoglasovOprPage";
+import JumlatuIsmPage from "views/arBefore7less3Tom/JumlatuIsmPage/JumlatuIsmPage";
+import TricksWithVerbsPage from "views/arBefore7less3Tom/TricksWithVerbsPage/TricksWithVerbsPage";
+import HarfLyaPage from "views/arBefore7less3Tom/HarfLyaPage/HarfLyaPage";
+import MasdarPage from "views/arBefore7less3Tom/MasdarPage/MasdarPage";
+import AbjectDegrees from "views/arBefore7less3Tom/AbjectDegrees/AbjectDegrees";
+import HarfMaPlusPage from "views/arBefore7less3Tom/HarfMaPlusPage/HarfMaPlusPage";
+import AccentPage from "views/arBefore7less3Tom/AccentPage/AccentPage";
+import HarfDenyPage from "views/arBefore7less3Tom/HarfDenyPage/HarfDenyPage";
+import HarfWaPage from "views/arBefore7less3Tom/HarfWaPage/HarfWaPage";
+import ShaddaVerbPage from "views/arBefore7less3Tom/ShaddaVerbPage/ShaddaVerbPage";
+import AffectionateWordPage from "views/arBefore7less3Tom/AffectionateWordPage/AffectionateWordPage";
+import Ism5Page from "views/arBefore7less3Tom/Ism5Page/Ism5Page";
+import SomeVerbsPage from "views/arBefore7less3Tom/SomeVerbsPage/SomeVerbsPage";
+import Asmaulafal from "views/arBefore7less3Tom/Asmaulafal/Asmaulafal";
+import DuaPage from "views/arBefore7less3Tom/DuaPage/DuaPage";
+import HarfManAzzoidatuPage from "views/arBefore7less3Tom/HarfManAzzoidatuPage/HarfManAzzoidatuPage";
+import LadayyaPage from "views/arBefore7less3Tom/LadayyaPage/LadayyaPage";
+import FialMabniLilmajhun from "views/arBefore7less3Tom/FialMabniLilmajhun/FialMabniLilmajhun";
+//
+import Pages from "views/Pages/Pages";
 /** new level 3 tom */
-import HarfSobirPage from "views/HarfSobirPage/HarfSobirPage";
-import HarfHalPage from "views/HarfHalPage/HarfHalPage";
-import IsmChislitelPage from "views/IsmChislitelPage/IsmChislitelPage";
-import SimilarityMaful from "views/SimilarityMaful/SimilarityMaful";
-import IsmaMaful from "views/IsmaMaful/IsmaMaful";
-import IsmaFial from "views/IsmaFial/IsmaFial";
-import Page from "views/Page/Page";
-
-/**  */
+import HarfSobirPage from "views/arBefore7less3Tom/HarfSobirPage/HarfSobirPage";
+import HarfHalPage from "views/arBefore7less3Tom/HarfHalPage/HarfHalPage";
+import IsmChislitelPage from "views/arBefore7less3Tom/IsmChislitelPage/IsmChislitelPage";
+import SimilarityMaful from "views/arBefore7less3Tom/SimilarityMaful/SimilarityMaful";
+import IsmaMaful from "views/arBefore7less3Tom/IsmaMaful/IsmaMaful";
+import IsmaFial from "views/arBefore7less3Tom/IsmaFial/IsmaFial";
 
 var indexRoutes = [
   /** new level 3 tom */
-  { path: "/page", name: "Page", component: Page },
+  { path: "/pages/:id", name: "Pages", component: Pages },
   { path: "/harfsobir", name: "HarfSobirPage", component: HarfSobirPage },
   { path: "/harfhal", name: "HarfHalPage", component: HarfHalPage },
   { path: "/chislitel100", name: "IsmChislitelPage", component: IsmChislitelPage },
@@ -77,7 +77,6 @@ var indexRoutes = [
   { path: "/login", name: "LoginPage", component: LoginPage },
   { path: "/components", name: "Components", component: Components },
   { path: "/", name: "Home", component: Home }
-  // { path: '/admin', name: 'AdminPage', component: AdminPage, isWrapp: true },
 ];
 
 export default indexRoutes;
