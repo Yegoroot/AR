@@ -13,7 +13,6 @@ import Word from "components/word";
 
 import ArSent from "components/Typography/ArSent.jsx";
 import ContrastWord from "components/Typography/ContrastWord.jsx";
-import Paragraph from "components/Typography/Paragraph.jsx";
 import HeaderLinks from "components/Header/HeaderLinks.jsx";
 
 import Parallax from "components/Parallax/Parallax.jsx";
@@ -53,16 +52,14 @@ class AdwatulDjazmPage extends React.Component {
                 </ContrastWord>{" "}
               </h2>
               <Paper className={classes.paperStandart}>
-                <Paragraph>
-                  <p>Приходит перед глаголами настоящего времени у ней две роли</p>
-                  <ul>
-                    <li>Отрицает</li>
-                    <li>Меняет время на прошедшее</li>
-                  </ul>
-                  <ArSent>
-                    <ContrastWord red>لمْ</ContrastWord> أذهَبْ = ما ذهبتُ
-                  </ArSent>
-                </Paragraph>
+                <p>Приходит перед глаголами настоящего времени у ней две роли</p>
+                <ul>
+                  <li>Отрицает</li>
+                  <li>Меняет время на прошедшее</li>
+                </ul>
+                <ArSent>
+                  <ContrastWord red>لمْ</ContrastWord> أذهَبْ = ما ذهبتُ
+                </ArSent>
 
                 <ArSent> لَمْ أذهبْ - لَمْ نَذهبْ</ArSent>
                 <ArSent> أنتَ لَمْ تَذهبْ - أنتِ لَمْ نَذهبِي</ArSent>

@@ -13,7 +13,6 @@ import Footer from "components/Footer/Footer.jsx";
 import ContrastWord from "components/Typography/ContrastWord.jsx";
 import ArSent from "components/Typography/ArSent.jsx";
 
-// import Paragraph from 'components/Typography/Paragraph.jsx'
 import HeaderLinks from "components/Header/HeaderLinks.jsx";
 
 import Parallax from "components/Parallax/Parallax.jsx";

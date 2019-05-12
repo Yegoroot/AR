@@ -2,7 +2,7 @@ import React from "react";
 // nodejs library that concatenates classes
 import classNames from "classnames";
 
-import { Paper, Tooltip, Button } from "@material-ui/core";
+import { Tooltip, Button } from "@material-ui/core";
 // @material-ui/core components
 import withStyles from "@material-ui/core/styles/withStyles";
 
@@ -12,7 +12,6 @@ import Footer from "components/Footer/Footer.jsx";
 
 import ContrastWord from "components/Typography/ContrastWord.jsx";
 import ArSent from "components/Typography/ArSent.jsx";
-import Paragraph from "components/Typography/Paragraph.jsx";
 
 import HeaderLinks from "components/Header/HeaderLinks.jsx";
 
@@ -45,131 +44,102 @@ class JumlatuHaalPage extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className={classes.title}>جملة الحال</h1>
-              <p>
+              <p className={classes.description}>
                 Отвечает на вопрос "как?" - является образом действия слово الحال буквально означает
                 "ситуация" или "положение. В каком положении пребывает объект, в каком состоянии.
-                <br />
-                Перед جملة الحال приходит глагольное предложение в то время как جملة الحال именное
+                <p>
+                  Перед جملة الحال приходит глагольное предложение в то время как جملة الحال именное{" "}
+                </p>
               </p>
               <h2 className={classes.title}> :الحال</h2>
-              <Paper className={classes.paperStandart}>
-                <Paragraph>
-                  <ArSent
-                    translate={
-                      <div>
-                        Пришел учитель в класс{" "}
-                        <ContrastWord red>злым (пришёл в состоянии злости)</ContrastWord>
-                      </div>
-                    }
-                  >
-                    دخل المدرس الفصل <ContrastWord red>غَضِبًا </ContrastWord>
-                  </ArSent>
-                </Paragraph>
 
-                <Paragraph>
-                  <ArSent
-                    translate={
-                      <div>
-                        Мой сын пил воду{" "}
-                        <ContrastWord red>чистую (в момент пития вода была чистой)</ContrastWord>
-                      </div>
-                    }
-                  >
-                    شرب اِبني الماء <ContrastWord red>صافِيًا </ContrastWord>
-                  </ArSent>
-                </Paragraph>
+              <ArSent
+                translate={
+                  <div>
+                    Пришел учитель в класс{" "}
+                    <ContrastWord red>злым (пришёл в состоянии злости)</ContrastWord>
+                  </div>
+                }
+              >
+                دخل المدرس الفصل <ContrastWord red>غَضِبًا </ContrastWord>
+              </ArSent>
 
-                <Paragraph>
-                  <ArSent>شرب اِبني الماء الصافِي</ArSent>
-                  <p>
-                    Если же мы хотим сказать что вода И была чистой, то используем простое
-                    прилагательное
-                  </p>
-                </Paragraph>
-              </Paper>
+              <ArSent
+                translate={
+                  <div>
+                    Мой сын пил воду{" "}
+                    <ContrastWord red>чистую (в момент пития вода была чистой)</ContrastWord>
+                  </div>
+                }
+              >
+                شرب اِبني الماء <ContrastWord red>صافِيًا </ContrastWord>
+              </ArSent>
+
+              <ArSent>شرب اِبني الماء الصافِي</ArSent>
+              <p>
+                Если же мы хотим сказать что вода И была чистой, то используем простое
+                прилагательное
+              </p>
 
               <h2 className={classes.title}> :جملة الحال </h2>
-              <Paper className={classes.paperStandart}>
-                <Paragraph>
-                  <ArSent
-                    translate={
-                      <div>
-                        Читал книгу
-                        <ContrastWord red> сидя (в состоянии сидения)</ContrastWord>
-                      </div>
-                    }
-                  >
-                    قرأ الكتاب{" "}
-                    <ContrastWord red>
-                      <Tooltip
-                        title="واو الحال"
-                        placement="top"
-                        classes={{ tooltip: classes.tooltip }}
-                      >
-                        <Button className={classes.tooltipButton}>و</Button>
-                      </Tooltip>{" "}
-                      أنا جالِس{" "}
-                    </ContrastWord>
-                  </ArSent>
-                </Paragraph>
 
-                <Paragraph>
-                  <ArSent
-                    translate={
-                      <div>
-                        Пил чай и кофе
-                        <ContrastWord red>
-                          {" "}
-                          когда был на работе (в состоянии нахождения на работе)
-                        </ContrastWord>
-                      </div>
-                    }
-                  >
-                    شربت الشاي{" "}
-                    <Tooltip
-                      title="واو العَطْف"
-                      placement="top"
-                      classes={{ tooltip: classes.tooltip }}
-                    >
-                      <Button className={classes.tooltipButton}>و</Button>
-                    </Tooltip>{" "}
-                    القهوة{" "}
-                    <ContrastWord red>
-                      <Tooltip
-                        title="واو الحال"
-                        placement="top"
-                        classes={{ tooltip: classes.tooltip }}
-                      >
-                        <Button className={classes.tooltipButton}>و</Button>
-                      </Tooltip>{" "}
-                      أنا في العَمل{" "}
-                    </ContrastWord>
-                  </ArSent>
-                </Paragraph>
+              <ArSent
+                translate={
+                  <div>
+                    Читал книгу
+                    <ContrastWord red> сидя (в состоянии сидения)</ContrastWord>
+                  </div>
+                }
+              >
+                قرأ الكتاب{" "}
+                <ContrastWord red>
+                  <Tooltip title="واو الحال" placement="top" classes={{ tooltip: classes.tooltip }}>
+                    <Button className={classes.tooltipButton}>و</Button>
+                  </Tooltip>{" "}
+                  أنا جالِس{" "}
+                </ContrastWord>
+              </ArSent>
 
-                <Paragraph>
-                  <ArSent
-                    translate={
-                      <div>
-                        Мой брат ел яблоки{" "}
-                        <ContrastWord red>пока я спал (был в состоянии сна)</ContrastWord>
-                      </div>
-                    }
-                  >
-                    أكل أخي تفاحتي{" "}
+              <ArSent
+                translate={
+                  <div>
+                    Пил чай и кофе
                     <ContrastWord red>
-                      <Tooltip
-                        title="واو الحال"
-                        placement="top"
-                        classes={{ tooltip: classes.tooltip }}
-                      >
-                        <Button className={classes.tooltipButton}>و</Button>
-                      </Tooltip>{" "}
-                      أنا نائِم{" "}
+                      {" "}
+                      когда был на работе (в состоянии нахождения на работе)
                     </ContrastWord>
-                  </ArSent>
-                </Paragraph>
-              </Paper>
+                  </div>
+                }
+              >
+                شربت الشاي{" "}
+                <Tooltip title="واو العَطْف" placement="top" classes={{ tooltip: classes.tooltip }}>
+                  <Button className={classes.tooltipButton}>و</Button>
+                </Tooltip>{" "}
+                القهوة{" "}
+                <ContrastWord red>
+                  <Tooltip title="واو الحال" placement="top" classes={{ tooltip: classes.tooltip }}>
+                    <Button className={classes.tooltipButton}>و</Button>
+                  </Tooltip>{" "}
+                  أنا في العَمل{" "}
+                </ContrastWord>
+              </ArSent>
+
+              <ArSent
+                translate={
+                  <div>
+                    Мой брат ел яблоки{" "}
+                    <ContrastWord red>пока я спал (был в состоянии сна)</ContrastWord>
+                  </div>
+                }
+              >
+                أكل أخي تفاحتي{" "}
+                <ContrastWord red>
+                  <Tooltip title="واو الحال" placement="top" classes={{ tooltip: classes.tooltip }}>
+                    <Button className={classes.tooltipButton}>و</Button>
+                  </Tooltip>{" "}
+                  أنا نائِم{" "}
+                </ContrastWord>
+              </ArSent>
             </div>
           </div>
         </div>

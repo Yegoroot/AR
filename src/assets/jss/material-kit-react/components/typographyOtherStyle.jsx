@@ -24,9 +24,6 @@ const typographyOtherStyle = {
       fontSize: "27px"
     }
   },
-  defaultParagraphMargins: {
-    marginBottom: "1rem"
-  },
   // ВЫДЕЛИТЬ СЛОВО
   // выделить слово красным
   colorRed: {

@@ -1,17 +1,19 @@
-import { container, title, paperStandart } from "assets/jss/material-kit-react.jsx";
+import { container, title } from "assets/jss/material-kit-react.jsx";
 
 import tooltipsStyle from "assets/jss/material-kit-react/tooltipsStyle.jsx";
 
-const JumlatuHaalPage = {
+const simpleArticle = {
   container,
   title,
-  paperStandart,
   main: {
     paddingTop: 20,
     paddingBottom: 30,
     background: "#FFFFFF",
     position: "relative",
     zIndex: "3"
+  },
+  description: {
+    color: "#989898"
   },
   mainRaised: {
     margin: "-60px 30px 0px",
@@ -25,4 +27,4 @@ const JumlatuHaalPage = {
   ...tooltipsStyle
 };
 
-export default JumlatuHaalPage;
+export default simpleArticle;
