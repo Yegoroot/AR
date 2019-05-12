@@ -82,12 +82,14 @@ class JumlatuHaalPage extends React.Component {
 
               <div className="desc">
                 <span className="desc__ar">جملة الحال</span> соединяется с помощью
-                <span className="desc__ar"> واو الحال </span>
+                <span className="desc__ar contrast_2"> واو الحال </span>
               </div>
               <div className="arsent">
                 <div className="arsent__original">
                   قرأ الكتاب
-                  <span className="contrast">و أنا جالِس </span>
+                  <span className="contrast">
+                    <span className="contrast_2"> و </span> أنا جالِس
+                  </span>
                 </div>
                 <div className="arsent__translate">
                   Читал книгу
@@ -97,7 +99,10 @@ class JumlatuHaalPage extends React.Component {
 
               <div className="arsent">
                 <div className="arsent__original">
-                  شربت الشاي و القهوة <span className="contrast">و أنا في العَمل </span>
+                  شربت الشاي و القهوة
+                  <span className="contrast">
+                    <span className="contrast_2"> و </span> أنا في العَمل
+                  </span>
                 </div>
                 <div className="arsent__translate">
                   Пил чай и кофе
@@ -108,7 +113,10 @@ class JumlatuHaalPage extends React.Component {
 
               <div className="arsent">
                 <div className="arsent__original">
-                  أكل أخي تفاحتي <span className="contrast"> و أنا نائِم </span>
+                  أكل أخي تفاحتي
+                  <span className="contrast">
+                    <span className="contrast_2"> و </span> أنا نائِم
+                  </span>
                 </div>
                 <div className="arsent__translate">
                   Мой брат ел мои яблоки

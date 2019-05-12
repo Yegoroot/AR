@@ -8,8 +8,6 @@ import withStyles from "@material-ui/core/styles/withStyles";
 import Footer from "components/Footer/Footer.jsx";
 import Header from "components/Header/Header.jsx";
 
-import ArSent from "components/Typography/ArSent.jsx";
-
 import HeaderLinks from "components/Header/HeaderLinks.jsx";
 
 import Parallax from "components/Parallax/Parallax.jsx";
@@ -41,46 +39,66 @@ class JumlatuIsmPage extends React.Component {
             <div className={classes.navWrapper}>
               <h1 className={classes.title}>Именное предложение</h1>
 
-              <p>
-                Именное предложение – это предложение, которое начинается с имени. Например: الطالِب
-                مجتهد Студент прилежен Подлежащее именного предложения (المُبْتَدَأُ) ставится, как
-                правило, в определённом состоянии, а сказуемое (الخَبَرُ) - в неопределённом.
+              <p className="desc">
+                Именное предложение – это предложение, которое начинается с имени. Например:{" "}
+                <span className="desc__ar"> الطالِب مجتهد </span> Студент прилежен Подлежащее
+                именного предложения <span className="desc__ar"> (المُبْتَدَأُ) </span> ставится,
+                как правило, в определённом состоянии, а сказуемое{" "}
+                <span className="desc__ar"> (الخَبَرُ) </span> - в неопределённом.
               </p>
 
-              <p>
+              <h3>Сказуемое выраженное именем</h3>
+              <p className="desc">
                 Если сказуемое именного предложения является именем, то оно согласуется с подлежащим
                 в числе и роде:
               </p>
-
-              <div className="BL1">
-                <ArSent translate="Ученик активен">التّلميذُ نشيط</ArSent>
-                <ArSent translate="Ученица активна">التّلميذةُ نشيطة</ArSent>
-                <ArSent translate="Два ученика активны">التِّلميذَان نشيطانِ</ArSent>
-                <ArSent translate="Две ученицы активны">التّلميذتانِ نشيطتانِ </ArSent>
-                <ArSent translate="Ученики активны">التَّلاميذُ نِشَاط </ArSent>
-                <ArSent translate="Ученицы активны">التلميذَات نشِيطَات </ArSent>
+              <div className="arsent">
+                <div className="arsent__original">
+                  التّلميذُ <span className="contrast"> نشيط </span>
+                </div>
+                <div className="arsent__translate">Ученик активен</div>
               </div>
-              <p>
-                В именных предложениях, приведенных выше, сказуемым являлось имя, но часто сказуемое
-                выражается также
-              </p>
-              <div className="BL1">
-                <h4 className={classes.title}>{"1)"} глаголом:</h4>
-                <ArSent translate="Зейд открыл дверь">زيدٌ فتح الباب</ArSent>
+              <div className="arsent">
+                <div className="arsent__original">
+                  التّلميذةُ <span className="contrast"> نشيطة </span>
+                </div>
+                <div className="arsent__translate">Ученица активна</div>
+              </div>
+              <div className="arsent">
+                <div className="arsent__original">
+                  التَّلاميذُ <span className="contrast"> نِشَاط </span>
+                </div>
+                <div className="arsent__translate">Ученики активны</div>
+              </div>
+              <div className="arsent">
+                <div className="arsent__original">
+                  التلميذَات <span className="contrast"> نشِيطَات </span>
+                </div>
+                <div className="arsent__translate">Ученицы активны</div>
               </div>
 
-              <div className="BL1">
-                <h4 className={classes.title}>
-                  {"2)"} изафетным сочетанием обстоятельства и имени:
-                </h4>
-                <ArSent translate="Машина перед домом">السّيّارةُ أَمامَ البيتِ</ArSent>
+              <h3>Сказуемое выраженное глаголом</h3>
+              <div className="arsent">
+                <div className="arsent__original">
+                  زيدٌ <span className="contrast"> فتح </span> الباب
+                </div>
+                <div className="arsent__translate">Зейд открыл дверь</div>
               </div>
 
-              <div className="BL1">
-                <h4 className={classes.title}>
-                  {"3)"} сочетанием предлога родительного падежа и имени:
-                </h4>
-                <ArSent translate="Ученик в школе">التّلميذُ فى المدرسةِ</ArSent>
+              <h3>Сказумеое выраженное идафой обстоятельства и имени</h3>
+              <div className="arsent">
+                <div className="arsent__original">
+                  السّيّارةُ <span className="contrast"> أَمامَ البيتِ </span>
+                </div>
+                <div className="arsent__translate">Машина перед домом</div>
+              </div>
+
+              <h3>Сказуемое выраженое сочетанием предлога родительного падежа и имени</h3>
+              <div className="arsent">
+                <div className="arsent__original">
+                  التّلميذُ <span className="contrast"> فى المدرسةِ </span>
+                </div>
+                <div className="arsent__translate">Ученик в школе</div>
               </div>
             </div>
           </div>

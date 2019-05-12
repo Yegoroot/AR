@@ -2,8 +2,6 @@ import React from "react";
 // nodejs library that concatenates classes
 import classNames from "classnames";
 
-import { Paper /*Tooltip, Button*/ } from "@material-ui/core";
-// @material-ui/core components
 import withStyles from "@material-ui/core/styles/withStyles";
 
 // core components
@@ -51,22 +49,21 @@ class AdwatulDjazmPage extends React.Component {
                   لَمْ
                 </ContrastWord>{" "}
               </h2>
-              <Paper className={classes.paperStandart}>
-                <p>Приходит перед глаголами настоящего времени у ней две роли</p>
-                <ul>
-                  <li>Отрицает</li>
-                  <li>Меняет время на прошедшее</li>
-                </ul>
-                <ArSent>
-                  <ContrastWord red>لمْ</ContrastWord> أذهَبْ = ما ذهبتُ
-                </ArSent>
 
-                <ArSent> لَمْ أذهبْ - لَمْ نَذهبْ</ArSent>
-                <ArSent> أنتَ لَمْ تَذهبْ - أنتِ لَمْ نَذهبِي</ArSent>
-                <ArSent> أنتُم لَمْ تَذهبُوا - أنتنّ لَمْ نَذهبْن</ArSent>
-                <ArSent> هو لَمْ يَذهبْ - هي لَمْ تَذهَبْ</ArSent>
-                <ArSent> هم لَمْ يَذهبُوا - هنّ لَمْ يذهَبْن</ArSent>
-              </Paper>
+              <p>Приходит перед глаголами настоящего времени у ней две роли</p>
+              <ul>
+                <li>Отрицает</li>
+                <li>Меняет время на прошедшее</li>
+              </ul>
+              <ArSent>
+                <ContrastWord red>لمْ</ContrastWord> أذهَبْ = ما ذهبتُ
+              </ArSent>
+
+              <ArSent> لَمْ أذهبْ - لَمْ نَذهبْ</ArSent>
+              <ArSent> أنتَ لَمْ تَذهبْ - أنتِ لَمْ نَذهبِي</ArSent>
+              <ArSent> أنتُم لَمْ تَذهبُوا - أنتنّ لَمْ نَذهبْن</ArSent>
+              <ArSent> هو لَمْ يَذهبْ - هي لَمْ تَذهَبْ</ArSent>
+              <ArSent> هم لَمْ يَذهبُوا - هنّ لَمْ يذهَبْن</ArSent>
 
               <h2 className={classes.title}>
                 Частица{" "}
@@ -75,12 +72,11 @@ class AdwatulDjazmPage extends React.Component {
                 </ContrastWord>{" "}
                 (пока еще не, еще не)
               </h2>
-              <Paper className={classes.paperStandart}>
-                <p>
-                  Отрицает и прошлый и настоящий момент, у لمّا есть высокий уровень возможности
-                  свершения
-                </p>
-              </Paper>
+
+              <p>
+                Отрицает и прошлый и настоящий момент, у لمّا есть высокий уровень возможности
+                свершения
+              </p>
 
               <h2 className={classes.title}>
                 Частица отрицания
@@ -89,13 +85,12 @@ class AdwatulDjazmPage extends React.Component {
                   لا النّاهية{" "}
                 </ContrastWord>
               </h2>
-              <Paper className={classes.paperStandart}>
-                <p>Приходит только ко второму лицу настоящего времени!</p>
-                <ArSent translate="Не ходите в школу">
-                  {" "}
-                  <ContrastWord red>لا</ContrastWord> تَ‍‍ذهب‍‍وا الي المدرسة{" "}
-                </ArSent>
-              </Paper>
+
+              <p>Приходит только ко второму лицу настоящего времени!</p>
+              <ArSent translate="Не ходите в школу">
+                {" "}
+                <ContrastWord red>لا</ContrastWord> تَ‍‍ذهب‍‍وا الي المدرسة{" "}
+              </ArSent>
 
               <h2 className={classes.title}>
                 Частица приказа
@@ -104,18 +99,17 @@ class AdwatulDjazmPage extends React.Component {
                   لمْ الأمر{" "}
                 </ContrastWord>
               </h2>
-              <Paper className={classes.paperStandart}>
-                <p>Может прийти к любому лицу (Пусть он, пусть она)</p>
-                <ArSent translate={<span>Пойдёмте в школу</span>}>
-                  {" "}
-                  <Word prefix="لِ" root="نَذْهَب" /> الي المدرسة
-                </ArSent>
 
-                <ArSent translate={<span>Пусть он идёт в школу</span>}>
-                  {" "}
-                  <Word prefix="لِ" root="يَذهَبْ" /> الي المدرسة
-                </ArSent>
-              </Paper>
+              <p>Может прийти к любому лицу (Пусть он, пусть она)</p>
+              <ArSent translate={<span>Пойдёмте в школу</span>}>
+                {" "}
+                <Word prefix="لِ" root="نَذْهَب" /> الي المدرسة
+              </ArSent>
+
+              <ArSent translate={<span>Пусть он идёт в школу</span>}>
+                {" "}
+                <Word prefix="لِ" root="يَذهَبْ" /> الي المدرسة
+              </ArSent>
             </div>
           </div>
         </div>
