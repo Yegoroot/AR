@@ -39,14 +39,17 @@ class JumlatuHaalPage extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className={classes.title}>جملة الحال</h1>
+
               <p className="desc">
-                Отвечает на вопрос "как?" - является образом действия слово{" "}
-                <span className="desc__ar">الحال</span> буквально означает "ситуация" или
-                "положение. В каком положении пребывает объект, в каком состоянии. Перед{" "}
-                <span className="desc__ar">جملة الحال</span> приходит глагольное предложение в то
-                время как само оно именное{" "}
+                Отвечает на вопрос "как?" - является образом действия слово
+                <span className="desc__ar"> الحال </span> буквально означает "ситуация" или
+                "положение. В каком положении пребывает объект, в каком состоянии. Перед
+                <span className="desc__ar"> جملة الحال </span> приходит глагольное предложение в то
+                время как само оно именное
               </p>
+
               <h2 className="h2ar">الحال</h2>
+
               <div className="arsent">
                 <div className="arsent__original">
                   دخل المدرس الفصل <span className="contrast">غَضِبًا </span>
@@ -76,6 +79,7 @@ class JumlatuHaalPage extends React.Component {
               </div>
 
               <h2 className="h2ar">جملة الحال </h2>
+
               <div className="desc">
                 <span className="desc__ar">جملة الحال</span> соединяется с помощью
                 <span className="desc__ar"> واو الحال </span>
@@ -107,7 +111,7 @@ class JumlatuHaalPage extends React.Component {
                   أكل أخي تفاحتي <span className="contrast"> و أنا نائِم </span>
                 </div>
                 <div className="arsent__translate">
-                  Мой брат ел яблоки
+                  Мой брат ел мои яблоки
                   <span className="contrast"> пока я спал </span> (был в состоянии сна)
                 </div>
               </div>
