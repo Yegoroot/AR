@@ -133,7 +133,7 @@ class IsmaAlatiPage extends React.Component {
               <div className="arsent">
                 <div className="arsent__original">
                   غَرَفَ يَغْرِفُ
-                  <span className="contrast_2"> مِغْرَفٌ </span>
+                  <span className="contrast_2"> مِغْرَفَةٌ </span>
                 </div>
               </div>
             </div>
