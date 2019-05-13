@@ -1,32 +1,32 @@
-import React from 'react'
+import React from "react";
 // react components for routing our app without refresh
-import { Link } from 'react-router-dom'
+import { Link } from "react-router-dom";
 
 // @material-ui/core components
-import withStyles from '@material-ui/core/styles/withStyles'
-import List from '@material-ui/core/List'
-import ListItem from '@material-ui/core/ListItem'
+import withStyles from "@material-ui/core/styles/withStyles";
+import List from "@material-ui/core/List";
+import ListItem from "@material-ui/core/ListItem";
 // import Tooltip from '@material-ui/core/Tooltip'
 
 // @material-ui/icons
-import { Waves, Apps } from '@material-ui/icons'
+import { Waves, Apps } from "@material-ui/icons";
 
 // core components
-import CustomDropdown from 'components/CustomDropdown/CustomDropdown.jsx'
+import CustomDropdown from "components/CustomDropdown/CustomDropdown.jsx";
 // import Button from 'components/CustomButtons/Button.jsx'
 
-import headerLinksStyle from 'assets/jss/material-kit-react/components/headerLinksStyle.jsx'
+import headerLinksStyle from "assets/jss/material-kit-react/components/headerLinksStyle.jsx";
 
 function HeaderLinks({ ...props }) {
-    const { classes } = props
-    return (
-        <List className={classes.list}>
-            <ListItem className={classes.listItem}>
-                <Link to="/" className={classes.navLink}>
-                    Главная
-                </Link>
+  const { classes } = props;
+  return (
+    <List className={classes.list}>
+      <ListItem className={classes.listItem}>
+        <Link to="/" className={classes.navLink}>
+          Главная
+        </Link>
 
-                {/* <CustomDropdown
+        {/* <CustomDropdown
                     noLiPadding
                     buttonText="Default"
                     buttonProps={{
@@ -38,175 +38,178 @@ function HeaderLinks({ ...props }) {
                      
                     ]}
                 /> */}
-            </ListItem>
+      </ListItem>
 
-            <ListItem className={classes.listItem}>
-                <CustomDropdown
-                    noLiPadding
-                    buttonText="Грамматика"
-                    buttonProps={{
-                        className: classes.navLink,
-                        color: 'transparent',
-                    }}
-                    buttonIcon={Apps}
-                    dropdownList={[
-                        <Link to="/jumlatuhaal" className={classes.dropdownLink} style={{ fontSize: 20 }}>
-                            جملة الحال
-                        </Link>,
-                        <Link to="/jumlatuism" className={classes.dropdownLink} style={{ fontSize: 20 }}>
-                            جملة الاِسميَة
-                        </Link>,
-                    ]}
-                />
-            </ListItem>
-            <ListItem className={classes.listItem}>
-                <CustomDropdown
-                    noLiPadding
-                    buttonText="Глагол"
-                    // FSAr
-                    buttonProps={{
-                        className: classes.navLink,
-                        color: 'transparent',
-                    }}
-                    buttonIcon={Waves}
-                    dropdownList={[
-                        <Link to="/shaddaverb" className={classes.dropdownLink}>
-                            Глагол с шаддой
-                        </Link>,
+      <ListItem className={classes.listItem}>
+        <CustomDropdown
+          noLiPadding
+          buttonText="Грамматика"
+          buttonProps={{
+            className: classes.navLink,
+            color: "transparent"
+          }}
+          buttonIcon={Apps}
+          dropdownList={[
+            <Link to="/jumlatuhaal" className={classes.dropdownLink} style={{ fontSize: 20 }}>
+              جملة الحال
+            </Link>,
+            <Link to="/jumlatuism" className={classes.dropdownLink} style={{ fontSize: 20 }}>
+              جملة الاِسميَة
+            </Link>
+          ]}
+        />
+      </ListItem>
+      <ListItem className={classes.listItem}>
+        <CustomDropdown
+          noLiPadding
+          buttonText="Глагол"
+          // FSAr
+          buttonProps={{
+            className: classes.navLink,
+            color: "transparent"
+          }}
+          buttonIcon={Waves}
+          dropdownList={[
+            <Link to="/shaddaverb" className={classes.dropdownLink}>
+              Глагол с шаддой
+            </Link>,
 
-                        <Link to="/tricksverbs" className={classes.dropdownLink}>
-                            Трюки с глаголами
-                        </Link>,
-                        <Link to="/someverbs" className={classes.dropdownLink}>
-                            Некоторые глаголы
-                        </Link>,
-                        <Link to="/weakLetters" className={classes.dropdownLink}>
-                            Слабая коренная
-                        </Link>,
-                        <Link to="/fialmabnililmajhun" className={classes.dropdownLink}>
-                            Глагол страдательного залога
-                        </Link>,
-                    ]}
-                />
-            </ListItem>
-            <ListItem className={classes.listItem}>
-                <CustomDropdown
-                    noLiPadding
-                    buttonText="Имя"
-                    // FSAr
-                    buttonProps={{
-                        className: classes.navLink,
-                        color: 'transparent',
-                    }}
-                    buttonIcon={Waves}
-                    dropdownList={[
-                        <Link to="/masdar" className={classes.dropdownLink}>
-                            Масдар
-                        </Link>,
-                        <Link to="/asmaulafal" className={classes.dropdownLink} style={{ fontSize: 20 }}>
-                            أسْماءُ الأفِعْل
-                        </Link>,
-                        <Link to="/ismumaful" className={classes.dropdownLink} style={{ fontSize: 20 }}>
-                            اسم المَفْول
-                        </Link>,
-                        <Link to="/ismafial" className={classes.dropdownLink} style={{ fontSize: 20 }}>
-                            اسم الفاعِل
-                        </Link>,
-                        <Link to="/abjectivedegrees" className={classes.dropdownLink}>
-                            Степени прилагательного
-                        </Link>,
-                        <Link to="/idafa" className={classes.dropdownLink}>
-                            Не согласованное определение
-                        </Link>,
-                        <Link to="/soglasopr" className={classes.dropdownLink}>
-                            Согласованное определение
-                        </Link>,
-                        <Link to="/affectionateword" className={classes.dropdownLink}>
-                            Уменьшительно ласкательные
-                        </Link>,
-                        <Link to="/ism5" className={classes.dropdownLink}>
-                            Спряжение 5 имён
-                        </Link>,
-                        <Link to="/ladayya" className={classes.dropdownLink} style={{ fontSize: 20 }}>
-                            لَدَى
-                        </Link>,
-                        <Link to="/chislitel100" className={classes.dropdownLink}>
-                            Числительные с 100
-                        </Link>,
-                    ]}
-                />
-            </ListItem>
-            <ListItem className={classes.listItem}>
-                <CustomDropdown
-                    noLiPadding
-                    buttonText="Частицы"
-                    // FSAr
-                    buttonProps={{
-                        className: classes.navLink,
-                        color: 'transparent',
-                    }}
-                    buttonIcon={Waves}
-                    dropdownList={[
-                        <Link to="/adwatuldjazm" className={classes.dropdownLink} style={{ fontSize: 20 }}>
-                            أدْوَات الجَزْم
-                        </Link>,
+            <Link to="/tricksverbs" className={classes.dropdownLink}>
+              Трюки с глаголами
+            </Link>,
+            <Link to="/someverbs" className={classes.dropdownLink}>
+              Некоторые глаголы
+            </Link>,
+            <Link to="/weakLetters" className={classes.dropdownLink}>
+              Слабая коренная
+            </Link>,
+            <Link to="/fialmabnililmajhun" className={classes.dropdownLink}>
+              Глагол страдательного залога
+            </Link>
+          ]}
+        />
+      </ListItem>
+      <ListItem className={classes.listItem}>
+        <CustomDropdown
+          noLiPadding
+          buttonText="Имя"
+          // FSAr
+          buttonProps={{
+            className: classes.navLink,
+            color: "transparent"
+          }}
+          buttonIcon={Waves}
+          dropdownList={[
+            <Link to="/masdar" className={classes.dropdownLink}>
+              Масдар
+            </Link>,
+            <Link to="/asmaulafal" className={classes.dropdownLink} style={{ fontSize: 20 }}>
+              أسْماءُ الأفِعْل
+            </Link>,
+            <Link to="/ismumaful" className={classes.dropdownLink} style={{ fontSize: 20 }}>
+              اسم المَفْول
+            </Link>,
+            <Link to="/ismafial" className={classes.dropdownLink} style={{ fontSize: 20 }}>
+              اسم الفاعِل
+            </Link>,
+            <Link to="/ismulmakanwazaman" className={classes.dropdownLink} style={{ fontSize: 20 }}>
+              اسم مكان و زمان
+            </Link>,
+            <Link to="/abjectivedegrees" className={classes.dropdownLink}>
+              Степени прилагательного
+            </Link>,
+            <Link to="/idafa" className={classes.dropdownLink}>
+              Не согласованное определение
+            </Link>,
+            <Link to="/soglasopr" className={classes.dropdownLink}>
+              Согласованное определение
+            </Link>,
+            <Link to="/affectionateword" className={classes.dropdownLink}>
+              Уменьшительно ласкательные
+            </Link>,
+            <Link to="/ism5" className={classes.dropdownLink}>
+              Спряжение 5 имён
+            </Link>,
+            <Link to="/ladayya" className={classes.dropdownLink} style={{ fontSize: 20 }}>
+              لَدَى
+            </Link>,
+            <Link to="/chislitel100" className={classes.dropdownLink}>
+              Числительные с 100
+            </Link>
+          ]}
+        />
+      </ListItem>
+      <ListItem className={classes.listItem}>
+        <CustomDropdown
+          noLiPadding
+          buttonText="Частицы"
+          // FSAr
+          buttonProps={{
+            className: classes.navLink,
+            color: "transparent"
+          }}
+          buttonIcon={Waves}
+          dropdownList={[
+            <Link to="/adwatuldjazm" className={classes.dropdownLink} style={{ fontSize: 20 }}>
+              أدْوَات الجَزْم
+            </Link>,
 
-                        <Link to="/typeharflya" className={classes.dropdownLink}>
-                            Частица لا
-                        </Link>,
-                        <Link to="/harfmaplus" className={classes.dropdownLink}>
-                            Частица ما
-                        </Link>,
-                        <Link to="/harfwa" className={classes.dropdownLink}>
-                            Частица و
-                        </Link>,
-                        <Link to="/harfazzoidatu" className={classes.dropdownLink} style={{ fontSize: 20 }}>
-                            مِن الزّائِدَة
-                        </Link>,
-                        <Link to="/harfdeny" className={classes.dropdownLink}>
-                            Отрицательные частицы
-                        </Link>,
-                        <Link to="/harfsobir" className={classes.dropdownLink}>
-                            Собирательная частица
-                        </Link>,
-                        <Link to="/harfHal" className={classes.dropdownLink}>
-                            Частица هل
-                        </Link>,
-                    ]}
-                />
-            </ListItem>
-            <ListItem className={classes.listItem}>
-                <CustomDropdown
-                    noLiPadding
-                    buttonText="Разное"
-                    // FSAr
-                    buttonProps={{
-                        className: classes.navLink,
-                        color: 'transparent',
-                    }}
-                    buttonIcon={Waves}
-                    dropdownList={[
-                        <Link to="/accent" className={classes.dropdownLink}>
-                            Акцент на объекте
-                        </Link>,
-                        <Link to="/dua" className={classes.dropdownLink}>
-                            Дуа
-                        </Link>,
-                        <Link to="/similarity" className={classes.dropdownLink}>
-                            Различия страдательного залога и мафъуль
-                        </Link>,
+            <Link to="/typeharflya" className={classes.dropdownLink}>
+              Частица لا
+            </Link>,
+            <Link to="/harfmaplus" className={classes.dropdownLink}>
+              Частица ما
+            </Link>,
+            <Link to="/harfwa" className={classes.dropdownLink}>
+              Частица و
+            </Link>,
+            <Link to="/harfazzoidatu" className={classes.dropdownLink} style={{ fontSize: 20 }}>
+              مِن الزّائِدَة
+            </Link>,
+            <Link to="/harfdeny" className={classes.dropdownLink}>
+              Отрицательные частицы
+            </Link>,
+            <Link to="/harfsobir" className={classes.dropdownLink}>
+              Собирательная частица
+            </Link>,
+            <Link to="/harfHal" className={classes.dropdownLink}>
+              Частица هل
+            </Link>
+          ]}
+        />
+      </ListItem>
+      <ListItem className={classes.listItem}>
+        <CustomDropdown
+          noLiPadding
+          buttonText="Разное"
+          // FSAr
+          buttonProps={{
+            className: classes.navLink,
+            color: "transparent"
+          }}
+          buttonIcon={Waves}
+          dropdownList={[
+            <Link to="/accent" className={classes.dropdownLink}>
+              Акцент на объекте
+            </Link>,
+            <Link to="/dua" className={classes.dropdownLink}>
+              Дуа
+            </Link>,
+            <Link to="/similarity" className={classes.dropdownLink}>
+              Страдательный залог и мафъуль
+            </Link>
 
-                        // <Link to="/typeharflya" className={classes.dropdownLink}>
-                        //     Частица لا
-                        // </Link>,
-                        // <Link to="/harfmaplus" className={classes.dropdownLink}>
-                        //     Частица ما
-                        // </Link>,
-                    ]}
-                />
-            </ListItem>
+            // <Link to="/typeharflya" className={classes.dropdownLink}>
+            //     Частица لا
+            // </Link>,
+            // <Link to="/harfmaplus" className={classes.dropdownLink}>
+            //     Частица ما
+            // </Link>,
+          ]}
+        />
+      </ListItem>
 
-            {/* <ListItem className={classes.listItem}>
+      {/* <ListItem className={classes.listItem}>
 				<Link to="/login" className={classes.navLink}>
 					Регистрация
 				</Link>
@@ -217,7 +220,7 @@ function HeaderLinks({ ...props }) {
 					Auth
 				</Link>
 			</ListItem> */}
-            {/* <ListItem className={classes.listItem}>
+      {/* <ListItem className={classes.listItem}>
 				<Tooltip
 					id="instagram-twitter"
 					title="Follow us on twitter"
@@ -262,8 +265,8 @@ function HeaderLinks({ ...props }) {
 					</Button>
 				</Tooltip>
 			</ListItem> */}
-        </List>
-    )
+    </List>
+  );
 }
 
-export default withStyles(headerLinksStyle)(HeaderLinks)
+export default withStyles(headerLinksStyle)(HeaderLinks);

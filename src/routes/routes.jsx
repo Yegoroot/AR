@@ -28,8 +28,10 @@ import DuaPage from "views/arBefore7less3Tom/DuaPage/DuaPage";
 import HarfManAzzoidatuPage from "views/arBefore7less3Tom/HarfManAzzoidatuPage/HarfManAzzoidatuPage";
 import LadayyaPage from "views/arBefore7less3Tom/LadayyaPage/LadayyaPage";
 import FialMabniLilmajhun from "views/arBefore7less3Tom/FialMabniLilmajhun/FialMabniLilmajhun";
-//
+
+// недоделанный (начатый эпизод)
 import Pages from "views/Pages/Pages";
+
 /** new level 3 tom */
 import HarfSobirPage from "views/arBefore7less3Tom/HarfSobirPage/HarfSobirPage";
 import HarfHalPage from "views/arBefore7less3Tom/HarfHalPage/HarfHalPage";
@@ -38,7 +40,13 @@ import SimilarityMaful from "views/arBefore7less3Tom/SimilarityMaful/SimilarityM
 import IsmaMaful from "views/arBefore7less3Tom/IsmaMaful/IsmaMaful";
 import IsmaFial from "views/arBefore7less3Tom/IsmaFial/IsmaFial";
 
+/**  after 3 tom 5lesson  */
+import IsmulMakanWaZamanPage from "views/arAfter5less3Tom/IsmulMakanWaZamanPage/IsmulMakanWaZamanPage";
+
 var indexRoutes = [
+  /** after 3 tom 5lesson */
+  { path: "/ismulmakanwazaman", name: "IsmulMakanWaZamanPage", component: IsmulMakanWaZamanPage },
+
   /** new level 3 tom */
   { path: "/pages/:id", name: "Pages", component: Pages },
   { path: "/harfsobir", name: "HarfSobirPage", component: HarfSobirPage },
