@@ -115,6 +115,9 @@ function HeaderLinks({ ...props }) {
             <Link to="/ismulmakanwazaman" className={classes.dropdownLink} style={{ fontSize: 20 }}>
               اسم مكان و زمان
             </Link>,
+            <Link to="/ismaalati" className={classes.dropdownLink} style={{ fontSize: 20 }}>
+              اِسْمَ آلَةٍ
+            </Link>,
             <Link to="/abjectivedegrees" className={classes.dropdownLink}>
               Степени прилагательного
             </Link>,

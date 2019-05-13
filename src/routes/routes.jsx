@@ -42,10 +42,12 @@ import IsmaFial from "views/arBefore7less3Tom/IsmaFial/IsmaFial";
 
 /**  after 3 tom 5lesson  */
 import IsmulMakanWaZamanPage from "views/arAfter5less3Tom/IsmulMakanWaZamanPage/IsmulMakanWaZamanPage";
+import IsmaAlatiPage from "views/arAfter5less3Tom/IsmaAlatiPage/IsmaAlatiPage";
 
 var indexRoutes = [
   /** after 3 tom 5lesson */
   { path: "/ismulmakanwazaman", name: "IsmulMakanWaZamanPage", component: IsmulMakanWaZamanPage },
+  { path: "/ismaalati", name: "IsmaAlatiPage", component: IsmaAlatiPage },
 
   /** new level 3 tom */
   { path: "/pages/:id", name: "Pages", component: Pages },
