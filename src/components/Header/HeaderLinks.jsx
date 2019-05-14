@@ -135,9 +135,6 @@ function HeaderLinks({ ...props }) {
             </Link>,
             <Link to="/ladayya" className={classes.dropdownLink} style={{ fontSize: 20 }}>
               لَدَى
-            </Link>,
-            <Link to="/chislitel100" className={classes.dropdownLink}>
-              Числительные с 100
             </Link>
           ]}
         />
@@ -200,14 +197,13 @@ function HeaderLinks({ ...props }) {
             </Link>,
             <Link to="/similarity" className={classes.dropdownLink}>
               Страдательный залог и мафъуль
+            </Link>,
+            <Link to="/chislitel100" className={classes.dropdownLink}>
+              Числительные с 100
+            </Link>,
+            <Link to="/puraldual" className={classes.dropdownLink}>
+              Мн. и дв. число
             </Link>
-
-            // <Link to="/typeharflya" className={classes.dropdownLink}>
-            //     Частица لا
-            // </Link>,
-            // <Link to="/harfmaplus" className={classes.dropdownLink}>
-            //     Частица ما
-            // </Link>,
           ]}
         />
       </ListItem>

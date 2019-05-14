@@ -47,7 +47,7 @@ class OtherVerbs extends React.Component {
                 }
               >
                 {" "}
-                <ContrastWord red>أرجو</ContrastWord>
+                <ContrastWord red> أرجو </ContrastWord>
                 أن تَرْجَعُ الي البيت مبكراً
               </ArSent>
               <h3>

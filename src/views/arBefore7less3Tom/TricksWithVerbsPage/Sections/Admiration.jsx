@@ -23,10 +23,10 @@ class Admiration extends React.Component {
             <div className="wrap1">
               <p>Модель образования أفْعَل</p>
               <ArSent>
-                <ContrastWord red> ما أسْهَلَ</ContrastWord> هذا <Word root="الدرس" suffix="َ" />
+                <ContrastWord red> ما أسْهَلَ</ContrastWord> هذا <Word root="الدرس" />
               </ArSent>
               <ArSent>
-                <ContrastWord red> ما أطْوَلَ</ContrastWord> هذا <Word root="الرجال" suffix="َ" />
+                <ContrastWord red> ما أطْوَلَ</ContrastWord> هذا <Word root="الرجل" />
               </ArSent>
               <p>Как вы заметили ن ушла</p>
             </div>
