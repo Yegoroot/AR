@@ -43,18 +43,15 @@ class AdwatulDjazmPage extends React.Component {
             <div className={classes.navWrapper}>
               <h1 className={classes.title}> لمْ - لَمّا - لا - لامْ الأمر </h1>
 
-              <h2 className={classes.title}>
-                Отрицательная частица{" "}
-                <ContrastWord red inRu>
-                  لَمْ
-                </ContrastWord>{" "}
+              <h2>
+                Отрицательная частица <span className="contrast"> لَمْ </span>
               </h2>
 
-              <p>Приходит перед глаголами настоящего времени у ней две роли</p>
-              <ul>
-                <li>Отрицает</li>
-                <li>Меняет время на прошедшее</li>
-              </ul>
+              <p>
+                Приходит перед глаголами настоящего времени у ней две роли: <b> отрицает </b> и{" "}
+                <b>меняет время на прошедшее</b>{" "}
+              </p>
+
               <ArSent>
                 <ContrastWord red>لمْ</ContrastWord> أذهَبْ = ما ذهبتُ
               </ArSent>

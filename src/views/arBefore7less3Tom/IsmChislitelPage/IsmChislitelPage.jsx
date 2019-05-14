@@ -6,7 +6,6 @@ import withStyles from "@material-ui/core/styles/withStyles";
 import Header from "components/Header/Header.jsx";
 import Footer from "components/Footer/Footer.jsx";
 
-import ArSent from "components/Typography/ArSent.jsx";
 import HeaderLinks from "components/Header/HeaderLinks.jsx";
 import Parallax from "components/Parallax/Parallax.jsx";
 
@@ -36,10 +35,12 @@ class IsmChislitelPage extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className={classes.title}>Числительные с 100</h1>
-              <ArSent>
-                مِئَةُ - مِئَتَانِ - ثَلاثُمِئَةَ - أرْبَعُمِئَةَ - خَمْسُمِئَةَ - سِتُّمِئَةَ -
-                سَبعُمِئَةَ - ثَمانمِئَةَ - تِسْعُمِئة
-              </ArSent>
+              <div className="arsent">
+                <div className="arsent__original">
+                  مِئَةُ - مِئَتَانِ - ثَلاثُمِئَةَ - أرْبَعُمِئَةَ - خَمْسُمِئَةَ - سِتُّمِئَةَ -
+                  سَبعُمِئَةَ - ثَمانمِئَةَ - تِسْعُمِئة
+                </div>
+              </div>
             </div>
           </div>
         </div>

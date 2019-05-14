@@ -6,8 +6,6 @@ import withStyles from "@material-ui/core/styles/withStyles";
 import Header from "components/Header/Header.jsx";
 import Footer from "components/Footer/Footer.jsx";
 
-import ContrastWord from "components/Typography/ContrastWord.jsx";
-import ArSent from "components/Typography/ArSent.jsx";
 import HeaderLinks from "components/Header/HeaderLinks.jsx";
 import Parallax from "components/Parallax/Parallax.jsx";
 
@@ -38,45 +36,47 @@ class AccentPage extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className={classes.title}>Более точно задать вопрос</h1>
-              <p>В зависимости от того что хотим спросить и расставляем [акцентируем] слова</p>
-              <ArSent
-                translate={
-                  <div>
-                    А <ContrastWord red> ты </ContrastWord>(или другой) убил скорпиона к классе?
-                  </div>
-                }
-              >
-                <span>أ</span> <ContrastWord red>أنتَ </ContrastWord>
-                <span> قتلتَ العقربُ في الفصلِ؟</span>
-              </ArSent>
-              <ArSent
-                translate={
-                  <div>
-                    А <ContrastWord red> убил ты </ContrastWord>(или он жив) скорпиона к классе?
-                  </div>
-                }
-              >
-                أ <ContrastWord red> قتلتَ </ContrastWord> أنتَ العقربُ في الفصلِ؟
-              </ArSent>
-              <ArSent
-                translate={
-                  <div>
-                    А <ContrastWord red> скорпиона </ContrastWord>(или другое) ты убил в классе?{" "}
-                  </div>
-                }
-              >
-                أ <ContrastWord red> عقربُ </ContrastWord>قتلتَ أنتَ في الفصلِ؟
-              </ArSent>
-              <ArSent
-                translate={
-                  <div>
-                    А <ContrastWord red> в классе </ContrastWord>(или в другом месте) ты убил
-                    скорпиона?{" "}
-                  </div>
-                }
-              >
-                أ <ContrastWord red> في الفصلِ </ContrastWord>قتلتَ أنتَ عقربُ ؟
-              </ArSent>
+              <p className="desc">
+                В зависимости от того что хотим спросить и расставляем [акцентируем] слова
+              </p>
+
+              <div className="arsent">
+                <div className="arsent__original">
+                  <span>أ</span> <span className="contrast"> أنتَ </span>
+                  <span> قتلتَ العقربُ في الفصلِ؟ </span>
+                </div>
+                <div className="arsent__translate">
+                  А <span className="contrast"> ты </span>(или другой) убил скорпиона к классе?
+                </div>
+              </div>
+
+              <div className="arsent">
+                <div className="arsent__original">
+                  أ <span className="contrast"> قتلتَ </span> أنتَ العقربُ في الفصلِ؟
+                </div>
+                <div className="arsent__translate">
+                  А <span className="contrast"> убил ты </span>(или он жив) скорпиона к классе?
+                </div>
+              </div>
+
+              <div className="arsent">
+                <div className="arsent__original">
+                  أ <span className="contrast"> عقربُ </span>قتلتَ أنتَ في الفصلِ؟
+                </div>
+                <div className="arsent__translate">
+                  А <span className="contrast"> скорпиона </span>(или другое) ты убил в классе?
+                </div>
+              </div>
+
+              <div className="arsent">
+                <div className="arsent__original">
+                  أ <span className="contrast"> في الفصلِ </span>قتلتَ أنتَ عقربُ ؟
+                </div>
+                <div className="arsent__translate">
+                  А <span className="contrast"> в классе </span>(или в другом месте) ты убил
+                  скорпиона?
+                </div>
+              </div>
             </div>
           </div>
         </div>
