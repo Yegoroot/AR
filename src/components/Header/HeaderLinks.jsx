@@ -209,6 +209,9 @@ function HeaderLinks({ ...props }) {
             </Link>,
             <Link to="/almafulufihi" style={{ fontSize: 20 }} className={classes.dropdownLink}>
               المَفْعُول فيه
+            </Link>,
+            <Link to="/minqoblu" style={{ fontSize: 20 }} className={classes.dropdownLink}>
+              مِن قبلُ
             </Link>
           ]}
         />
