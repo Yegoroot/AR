@@ -3,16 +3,26 @@
   padding: 20px 20px 10px
 
 // заголовки
+.h1ar
+  font-size: 3.4rem
+  @media screen and (max-width: 992px)
+    // font-size: 45px
+    font-weight: bold
 .h2ar
   font-size: 50px
+  @media screen and (max-width: 992px)
+    // font-size: 40px
+.h2ru
+  font-size: 40px
+
 
 // описние материала
 .desc
   margin-bottom: 30px
   color: $gray-600
   padding-bottom: 10px
-  &:first-child
-    padding-bottom: 0
+  // &:first-child
+  //   padding-bottom: 0
   &__ar
     font-size: 1.5rem
     color: #3c4858
@@ -26,12 +36,33 @@
 
 // Арабское предложение с переводом
 .arsent
-  margin-bottom: 25px
+  margin-bottom: 35px
+  margin-top: 20px
+  @media screen and (max-width: 992px)
+    margin-bottom: 30px
   &__original
     line-height: 1.5
     font-size: 30px
   &__translate
     font-size: 0.9rem
-    padding-top: 7px
+    padding-top: 3px
 
     
+
+.arsent
+  display: flex
+  flex-direction: row-reverse
+  align-items: center
+  justify-content: flex-start
+  flex-wrap: wrap
+  &__original
+    padding-left: 20px
+
+
+h2
+  margin-top: 4rem
+h3 
+  margin-top: 3rem
+
+.title
+  font-weight: bold

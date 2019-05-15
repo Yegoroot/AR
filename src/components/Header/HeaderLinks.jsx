@@ -203,6 +203,9 @@ function HeaderLinks({ ...props }) {
             </Link>,
             <Link to="/puraldual" className={classes.dropdownLink}>
               Мн. и дв. число
+            </Link>,
+            <Link to="/almafulufihi" style={{ fontSize: 20 }} className={classes.dropdownLink}>
+              المَفْعُول فيه
             </Link>
           ]}
         />
