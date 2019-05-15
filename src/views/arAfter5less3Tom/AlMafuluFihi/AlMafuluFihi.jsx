@@ -43,7 +43,7 @@ class AlMafuluFihi extends React.Component {
                 <span className="contrast_2 desc__ar"> (ي) </span> */}
               </div>
 
-              <div className="arsent">
+              <div className="arsent arsent_rule">
                 <div className="arsent__original">
                   <span className="contrast_2"> وَصَلْتُ يوْم الثُلاثاءِ </span>.<span> هنا </span>
                   <span className="contrast_2"> يوم </span>

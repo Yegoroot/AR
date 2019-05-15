@@ -40,7 +40,7 @@ class IsmaAlatiPage extends React.Component {
             <div className={classes.navWrapper}>
               <h1 className={classes.title}>اِسْمَ آلَةٍ</h1>
 
-              <div className="arsent">
+              <div className="arsent arsent_rule">
                 <div className="arsent__original">
                   كلمةُ <span className="contrast_2"> مِفْتَاح </span> مأخوذةٌ من مصدر
                   <span className="contrast_2"> فَتَحَ يَفْتحُ </span> للدلالة على آلة الفَتْحِ, و
@@ -55,7 +55,7 @@ class IsmaAlatiPage extends React.Component {
                 </div>
               </div>
 
-              <div className="arsent">
+              <div className="arsent arsent_rule">
                 <div className="arsent__original">
                   اِسْمُ الآلة اسمٌ مَصُوغ من الفعل الثلاثي للدلالة على ما وقعَ الفعلُ بِواسِطَتِه
                 </div>
@@ -65,7 +65,7 @@ class IsmaAlatiPage extends React.Component {
                 </div>
               </div>
 
-              <div className="arsent">
+              <div className="arsent arsent_rule">
                 <div className="arsent__original">
                   <span className=""> لِاسْمُ الآلة </span> ثلاثةُ أوزانٍ
                   <span className="contrast"> مِفْعَالٌ </span> , و

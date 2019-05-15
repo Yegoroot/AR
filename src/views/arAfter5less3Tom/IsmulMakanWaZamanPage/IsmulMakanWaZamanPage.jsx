@@ -48,7 +48,7 @@ class IsmulMakanWaZamanPage extends React.Component {
                 <span className="desc__ar"> مَدْرَسَة, مَحْكَمَة </span> .
               </p>
 
-              <div className="arsent">
+              <div className="arsent arsent_rule">
                 <div className="arsent__original">
                   كَلِمة <span className="contrast_2"> مَوْعِد </span> مأْخُوذَة من
                   <span className="contrast_2"> وَعَدَ يَعِدُ </span> للدَّلالة على زَمانِ
@@ -68,7 +68,7 @@ class IsmulMakanWaZamanPage extends React.Component {
                 </div>
               </div>
 
-              <div className="arsent">
+              <div className="arsent arsent_rule">
                 <div className="arsent__original">
                   اِسما الزمانِ و المكانِ اسْمانِ مَصُوغَانِ للدَّﻻلة على زمانِ الفِعْلِ أو مكانِه.
                   و يُصاغانِ من الفعل الثلاثِيَّ المُجَرَّدِ على وزن
