@@ -45,6 +45,7 @@ import IsmulMakanWaZamanPage from "views/arAfter5less3Tom/IsmulMakanWaZamanPage/
 import IsmaAlatiPage from "views/arAfter5less3Tom/IsmaAlatiPage/IsmaAlatiPage";
 import PuralDualPage from "views/arAfter5less3Tom/PuralDualPage/PuralDualPage";
 import AlMafuluFihi from "views/arAfter5less3Tom/AlMafuluFihi/AlMafuluFihi";
+import HarfulAw from "views/arAfter5less3Tom/HarfulAw/HarfulAw";
 
 var indexRoutes = [
   /** after 3 tom 5lesson */
@@ -52,6 +53,7 @@ var indexRoutes = [
   { path: "/ismaalati", name: "IsmaAlatiPage", component: IsmaAlatiPage },
   { path: "/puraldual", name: "PuralDualPage", component: PuralDualPage },
   { path: "/almafulufihi", name: "AlMafuluFihi", component: AlMafuluFihi },
+  { path: "/harfulaw", name: "HarfulAw", component: HarfulAw },
 
   /** new level 3 tom */
   { path: "/pages/:id", name: "Pages", component: Pages },

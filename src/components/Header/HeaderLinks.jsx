@@ -154,14 +154,14 @@ function HeaderLinks({ ...props }) {
               أدْوَات الجَزْم
             </Link>,
 
-            <Link to="/typeharflya" className={classes.dropdownLink}>
-              Частица لا
+            <Link to="/typeharflya" style={{ fontSize: 20 }} className={classes.dropdownLink}>
+              حرف لا
             </Link>,
-            <Link to="/harfmaplus" className={classes.dropdownLink}>
-              Частица ما
+            <Link to="/harfmaplus" style={{ fontSize: 20 }} className={classes.dropdownLink}>
+              حرف ما
             </Link>,
-            <Link to="/harfwa" className={classes.dropdownLink}>
-              Частица و
+            <Link to="/harfwa" style={{ fontSize: 20 }} className={classes.dropdownLink}>
+              حرف و
             </Link>,
             <Link to="/harfazzoidatu" className={classes.dropdownLink} style={{ fontSize: 20 }}>
               مِن الزّائِدَة
@@ -172,8 +172,11 @@ function HeaderLinks({ ...props }) {
             <Link to="/harfsobir" className={classes.dropdownLink}>
               Собирательная частица
             </Link>,
-            <Link to="/harfHal" className={classes.dropdownLink}>
-              Частица هل
+            <Link to="/harfHal" style={{ fontSize: 20 }} className={classes.dropdownLink}>
+              حرف هل
+            </Link>,
+            <Link to="/harfulaw" style={{ fontSize: 20 }} className={classes.dropdownLink}>
+              حرف لو
             </Link>
           ]}
         />
