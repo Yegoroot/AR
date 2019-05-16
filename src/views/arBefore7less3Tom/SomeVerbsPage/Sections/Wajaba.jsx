@@ -11,7 +11,7 @@ function Wajaba() {
       <h3 className="title">Структура 1</h3>
 
       <div className="arsent">
-        <div className="arsent__original">يَجِبُ + أن + الفعْل في الماضارع</div>
+        <div className="arsent__original contrast_2">يَجِبُ + أن + الفعْل في الماضارع</div>
       </div>
 
       <p>Например:</p>
@@ -26,7 +26,7 @@ function Wajaba() {
 
       <h3 className="title">Структура 2 (более популярная)</h3>
       <div className="arsent">
-        <div className="arsent__original">
+        <div className="arsent__original contrast_2">
           يَجِبُ + على (ي - كَ - كِ - ..) + أن + الفعْل في الماضارع
         </div>
       </div>
