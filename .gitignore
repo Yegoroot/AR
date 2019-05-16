@@ -9,8 +9,9 @@
 # production
 /build
 
-
+# this doesnt work
 .firebase
+/.firebase
 
 # misc
 .DS_Store
