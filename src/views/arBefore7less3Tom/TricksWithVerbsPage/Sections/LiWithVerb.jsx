@@ -1,36 +1,26 @@
 import React from "react";
-
-// @material-ui/core components
 import withStyles from "@material-ui/core/styles/withStyles";
-// @material-ui/icons
-import { Paper } from "@material-ui/core";
-
-import ArSent from "components/Typography/ArSent.jsx";
 import Word from "components/word";
-// core components
-// import SnackbarContent from 'components/Snackbar/SnackbarContent.jsx'
-import Clearfix from "components/Clearfix/Clearfix.jsx";
 import arabicPage from "assets/jss/material-kit-react/views/arabicPage.jsx";
 
 class LiWithVerb extends React.Component {
   render() {
-    const { classes } = this.props;
     return (
-      <div className={classes.section} id="liWithVerbs">
-        <div className={classes.container}>
-          <h3 className={classes.title}>Частица لِ с глаголами</h3>
-          <Paper className="wrap1">
-            <div>
-              <p>Отвечает на вопрос "Для чего?", "Почему?", "По какой причине?"</p>
-              <ArSent>
-                خرجتِ <Word root="تشربي" prefix="لِ" /> الماء
-              </ArSent>
-              <p>Как вы заметили ن ушла</p>
-            </div>
-          </Paper>
-        </div>
+      <div id="liWithVerbs">
+        <h2 className="title">Частица لِ с глаголами</h2>
 
-        <Clearfix />
+        <div className="desc">
+          Отвечает на вопрос "Для чего?", "Почему?", "По какой причине?". И так же убирает
+          <span className="desc__ar"> ن </span>
+        </div>
+        <div className="arsent">
+          <div className="arsent__original">
+            خرجتِ <Word root="تشربي" prefix="لِ" /> الماء
+          </div>
+          <div className="arsent__translate">
+            Вышел <span className="contrast"> для того чтоб </span> попить воды
+          </div>
+        </div>
       </div>
     );
   }

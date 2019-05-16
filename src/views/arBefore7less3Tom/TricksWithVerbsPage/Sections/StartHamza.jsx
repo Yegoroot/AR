@@ -3,43 +3,38 @@ import React from "react";
 // @material-ui/core components
 import withStyles from "@material-ui/core/styles/withStyles";
 
-import { Paper } from "@material-ui/core";
-import Clearfix from "components/Clearfix/Clearfix.jsx";
 import arabicPage from "assets/jss/material-kit-react/views/arabicPage.jsx";
 
-import ArSent from "components/Typography/ArSent.jsx";
 import Word from "components/word";
-import ContrastWord from "components/Typography/ContrastWord.jsx";
 
 class StartHamza extends React.Component {
   render() {
-    const { classes } = this.props;
     return (
-      <div className={classes.section} id="dual">
-        <div className={classes.container}>
-          <h3 className={classes.title}>Глагол начинается с хамзы</h3>
-          <Paper>
-            <div className="wrap1">
-              <p>
-                Если глагол начинается с хамзы, например <ContrastWord inRu>أكَلَ</ContrastWord>,{" "}
-                <ContrastWord inRu>أخَذَ</ContrastWord>, то в настоящем времени добавляем васла "~"
-              </p>
-              <ArSent>
-                <Word root="كُلُ" prefix="آ" />
-                {", "}
-                <Word root="خُذُ" prefix="آ" />
-              </ArSent>
-              <p>А в повелительном</p>
-              <ArSent>
-                <Word root="كُلْ" />
-                {", "}
-                <Word root="خُذْ" />
-              </ArSent>
-            </div>
-          </Paper>
+      <div id="dual">
+        <h2 className="title">Глагол начинается с хамзы</h2>
+
+        <div className="desc">
+          Если глагол начинается с хамзы, например <span className="contrast"> أكَلَ </span>,
+          <span className="contrast"> أخَذَ </span>, то в настоящем времени добавляем васла "~"
         </div>
 
-        <Clearfix />
+        <div className="arsent">
+          <div className="arsent__original">
+            <Word root="كُلُ" prefix="آ" />
+            <span>, </span>
+            <Word root="خُذُ" prefix="آ" />
+          </div>
+          <div className="arsent__translate">Я кушаю, я беру</div>
+        </div>
+
+        <div className="arsent">
+          <div className="arsent__original">
+            كُلْ
+            <span>, </span>
+            خُذْ
+          </div>
+          <div className="arsent__translate">Ешь, возьми</div>
+        </div>
       </div>
     );
   }

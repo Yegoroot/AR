@@ -1,8 +1,10 @@
-// WRAPPERS
-.wrap1
-  padding: 20px 20px 10px
-
 // заголовки
+h2
+  margin-top: 4rem
+h3 
+  margin-top: 3rem
+.title
+  font-weight: bold
 .h1ar
   font-size: 3.4rem
   @media screen and (max-width: 992px)
@@ -14,6 +16,7 @@
     // font-size: 40px
 .h2ru
   font-size: 40px
+
 
 
 // описние материала
@@ -75,10 +78,12 @@
       line-height: initial
 
 
-h2
-  margin-top: 4rem
-h3 
-  margin-top: 3rem
 
-.title
-  font-weight: bold
+.items
+  display: flex
+  flex-direction: row-reverse
+  flex-wrap: wrap
+.item
+  box-shadow: $bmd-shadow-3dp
+  padding: 20px
+  margin: 10px

@@ -1,64 +1,50 @@
 import React from "react";
-
-// @material-ui/core components
 import withStyles from "@material-ui/core/styles/withStyles";
-
-import { Paper, Grid } from "@material-ui/core";
-import Clearfix from "components/Clearfix/Clearfix.jsx";
 import arabicPage from "assets/jss/material-kit-react/views/arabicPage.jsx";
 
-import ArSent from "components/Typography/ArSent.jsx";
 import Word from "components/word";
-import ContrastWord from "components/Typography/ContrastWord.jsx";
-
-const gridStyle = {
-  padding: "0 18px"
-};
-
 class DualIsm extends React.Component {
   render() {
-    const { classes } = this.props;
     return (
-      <div className={classes.section} id="dual">
-        <div className={classes.container}>
-          <h3 className={classes.title}>Глаголы для двойственных чисел</h3>
-          <Paper>
-            <div className="wrap1">
-              <Grid container>
-                <Grid item xs="12" sm="4" style={gridStyle}>
-                  <ContrastWord inRu>الماضى</ContrastWord>
-                  <ArSent>
-                    <Word root="ذهبْ" suffix="تُما" />
-                    <br />
-                    <Word root="ذهب" suffix="ا" />
-                    {" - "}
-                    <Word root="ذهبَ" suffix="تَا" />
-                  </ArSent>
-                </Grid>
+      <div id="dual">
+        <h2 className="title">Глаголы для двойственных чисел</h2>
 
-                <Grid item xs="12" sm="4" style={gridStyle}>
-                  <ContrastWord inRu>المضارع</ContrastWord>
-                  <ArSent>
-                    <Word prefix="تَ" root="ذْهبَ" suffix="انِ" />
-                    <br />
-                    <Word prefix="يَ" root="ذْهبَ" suffix="انِ" />
-                    {" - "}
-                    <Word prefix="تَ" root="ذْهبَ" suffix="انِ" />
-                  </ArSent>
-                </Grid>
-
-                <Grid item xs="12" sm="4" style={gridStyle}>
-                  <ContrastWord inRu>الأمر</ContrastWord>
-                  <ArSent>
-                    <Word prefix="اِ" root="ذْهَبَ" suffix="ا" />
-                  </ArSent>
-                </Grid>
-              </Grid>
+        <div className="items">
+          <div className="item">
+            <h3>الماضى</h3>
+            <div className="arsent">
+              <div className="arsent__original">
+                <Word root="ذهبْ" suffix="تُما" />
+                <br />
+                <Word root="ذهب" suffix="ا" />
+                <span> - </span>
+                <Word root="ذهبَ" suffix="تَا" />
+              </div>
             </div>
-          </Paper>
-        </div>
+          </div>
 
-        <Clearfix />
+          <div className="item">
+            <h3>المضارع</h3>
+            <div className="arsent">
+              <div className="arsent__original">
+                <Word prefix="تَ" root="ذْهبَ" suffix="انِ" />
+                <br />
+                <Word prefix="يَ" root="ذْهبَ" suffix="انِ" />
+                <span> - </span>
+                <Word prefix="تَ" root="ذْهبَ" suffix="انِ" />
+              </div>
+            </div>
+          </div>
+
+          <div className="item">
+            <h3>الأمر</h3>
+            <div className="arsent">
+              <div className="arsent__original">
+                <Word prefix="اِ" root="ذْهَبَ" suffix="ا" />
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     );
   }

@@ -10,6 +10,7 @@ import LiWithVerb from "./Sections/LiWithVerb";
 import Admiration from "./Sections/Admiration";
 import DualIsm from "./Sections/DualIsm";
 import StartHamza from "./Sections/StartHamza";
+import ConcOfCond from "./Sections/ConcOfCond";
 
 import arabicPageStyle from "assets/jss/material-kit-react/views/arabicPage.jsx";
 
@@ -21,7 +22,7 @@ class TricksWithVerbsPage extends React.Component {
       <div>
         <Header
           color="transparent"
-          brand="Tricks with verb"
+          brand="Нюансы с глаголами"
           rightLinks={<HeaderLinks />}
           fixed
           changeColorOnScroll={{
@@ -35,11 +36,12 @@ class TricksWithVerbsPage extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className={classes.title}>Трюки с глаголами</h1>
+              <h1 className="title">Нюансы с глаголами</h1>
               <LiWithVerb />
               <Admiration />
               <DualIsm />
               <StartHamza />
+              <ConcOfCond />
             </div>
           </div>
         </div>

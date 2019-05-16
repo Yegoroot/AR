@@ -73,9 +73,8 @@ function HeaderLinks({ ...props }) {
             <Link to="/shaddaverb" className={classes.dropdownLink}>
               Глагол с шаддой
             </Link>,
-
             <Link to="/tricksverbs" className={classes.dropdownLink}>
-              Трюки с глаголами
+              Нюансы с глаголами
             </Link>,
             <Link to="/someverbs" className={classes.dropdownLink}>
               Некоторые глаголы
