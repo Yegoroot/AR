@@ -9,8 +9,6 @@ import Header from "components/Header/Header.jsx";
 import Footer from "components/Footer/Footer.jsx";
 import Word from "components/word";
 
-import ArSent from "components/Typography/ArSent.jsx";
-import ContrastWord from "components/Typography/ContrastWord.jsx";
 import HeaderLinks from "components/Header/HeaderLinks.jsx";
 
 import Parallax from "components/Parallax/Parallax.jsx";
@@ -41,72 +39,128 @@ class AdwatulDjazmPage extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className={classes.title}> لمْ - لَمّا - لا - لامْ الأمر </h1>
+              <h1 className="title h1ar"> لمْ - لَمّا - لا - لامْ الأمر </h1>
 
-              <h2>
+              <h2 className="title">
                 Отрицательная частица <span className="contrast"> لَمْ </span>
               </h2>
+              <div className="desc">
+                Приходит перед глаголами настоящего времени у ней две роли: <b> отрицает </b> и
+                <b> меняет время на прошедшее</b>
+              </div>
+              <div className="arsent">
+                <div className="arsent__original">
+                  <span className="contrast"> لمْ </span> أذهَبْ = ما ذهبتُ
+                </div>
+              </div>
 
-              <p>
-                Приходит перед глаголами настоящего времени у ней две роли: <b> отрицает </b> и{" "}
-                <b>меняет время на прошедшее</b>{" "}
-              </p>
-
-              <ArSent>
-                <ContrastWord red>لمْ</ContrastWord> أذهَبْ = ما ذهبتُ
-              </ArSent>
-
-              <ArSent> لَمْ أذهبْ - لَمْ نَذهبْ</ArSent>
-              <ArSent> أنتَ لَمْ تَذهبْ - أنتِ لَمْ نَذهبِي</ArSent>
-              <ArSent> أنتُم لَمْ تَذهبُوا - أنتنّ لَمْ نَذهبْن</ArSent>
-              <ArSent> هو لَمْ يَذهبْ - هي لَمْ تَذهَبْ</ArSent>
-              <ArSent> هم لَمْ يَذهبُوا - هنّ لَمْ يذهَبْن</ArSent>
-
-              <h2 className={classes.title}>
-                Частица{" "}
-                <ContrastWord red inRu>
-                  لَمّا
-                </ContrastWord>{" "}
+              <h2 className="title">
+                Частица
+                <span className="contrast"> لَمّا </span>
                 (пока еще не, еще не)
               </h2>
 
-              <p>
+              <div className="desc">
                 Отрицает и прошлый и настоящий момент, у لمّا есть высокий уровень возможности
                 свершения
-              </p>
+              </div>
+              <div className="arsent">
+                <div className="arsent__original">
+                  <span> وَ </span>
+                  <span className="contrast"> لمَّا </span> يَدْخُلِْ اﻹيْمانُ في قُلُوبِكُمْ
+                </div>
+                <div className="arsent__translate">Еще пока не зашла вера в их сердца</div>
+              </div>
 
-              <h2 className={classes.title}>
+              <h2 className="title">
                 Частица отрицания
-                <ContrastWord red inRu>
-                  {" "}
-                  لا النّاهية{" "}
-                </ContrastWord>
+                <span className="contrast"> لا النّاهية </span>
               </h2>
+              <div className="desc">Приходит только ко второму лицу настоящего времени!</div>
+              <div className="arsent">
+                <div className="arsent__original">
+                  <span className="contrast"> لا </span> تَ‍‍ذهب‍‍وا الي المدرسة
+                </div>
+                <div className="arsent__translate">Не ходите в школу</div>
+              </div>
+              <div className="arsent">
+                <div className="arsent__original">
+                  <span className="contrast"> لا </span> تَحْزَنْ إنَّ الله معنا
+                </div>
+                <div className="arsent__translate">Не печалься, Аллахъ с нами</div>
+              </div>
 
-              <p>Приходит только ко второму лицу настоящего времени!</p>
-              <ArSent translate="Не ходите в школу">
-                {" "}
-                <ContrastWord red>لا</ContrastWord> تَ‍‍ذهب‍‍وا الي المدرسة{" "}
-              </ArSent>
-
-              <h2 className={classes.title}>
+              <h2 className="title">
                 Частица приказа
-                <ContrastWord red inRu>
-                  {" "}
-                  لمْ الأمر{" "}
-                </ContrastWord>
+                <span className="contrast"> لامُ الأمر </span>
               </h2>
+              <div className="desc">Может прийти к любому лицу (Пусть он, пусть она)</div>
 
-              <p>Может прийти к любому лицу (Пусть он, пусть она)</p>
-              <ArSent translate={<span>Пойдёмте в школу</span>}>
-                {" "}
-                <Word prefix="لِ" root="نَذْهَب" /> الي المدرسة
-              </ArSent>
+              <div className="arsent arsent_rule">
+                <div className="arsent__original">
+                  لامُ اﻷمرِ مَكْسورَةٌ, و تُسَكَّنُ بعدَ الواوِ, و الفاءِ, و ثُمَّ.
+                </div>
+                <div className="arsent__translate">
+                  Частица приказа приходит с кясрой, но после
+                  <span className="contrast"> و, ف, ثمَّ </span> сукунизируется
+                </div>
+              </div>
 
-              <ArSent translate={<span>Пусть он идёт в школу</span>}>
-                {" "}
-                <Word prefix="لِ" root="يَذهَبْ" /> الي المدرسة
-              </ArSent>
+              <div className="arsent">
+                <div className="arsent__original">
+                  <Word prefix="لِ" root="يَذهَبْ" /> الي المدرسة
+                </div>
+                <div className="arsent__translate">Пусть он идёт в школу</div>
+              </div>
+
+              <div className="arsent">
+                <div className="arsent__original">
+                  <Word prefix="فَلْ" root="يَنْظُرِْ" />
+                  <span> اﻹِنْسانُ إلى طَعَامِه </span>
+                </div>
+                <div className="arsent__translate">Пусть посмотрит человек на свою еду</div>
+              </div>
+
+              <div className="arsent">
+                <div className="arsent__original">
+                  <Word prefix="لِ" root="يَذهَب" />
+                  <span> الطلابُ الجددُ إلى المديرِ, </span>
+                  <span className="contrast_2"> و </span>
+                  <Word prefix="لْ" root="يَرجِعوا" />
+                  <span> بعد مُقَابَلَتِهِ </span>
+                </div>
+                <div className="arsent__translate">
+                  Пусть новые студенты идут к директору и возвращаются после встречи с ним
+                </div>
+              </div>
+
+              <div className="arsent">
+                <div className="arsent__original">
+                  <Word prefix="لِ" root="نَجْلسِ" />
+                  <span> الآن في الحَديقَة, </span>
+                  <span className="contrast_2"> ثُمّ </span>
+                  <Word prefix="لْ" root="نَذهب" />
+                  <span> إلى المسجدِ</span>
+                </div>
+                <div className="arsent__translate">
+                  Давайте сейчас присядем в парке, затем пойдём в мечеть
+                </div>
+              </div>
+
+              <h2>Пример того как джазмируется окончание</h2>
+              <div className="arsent">
+                <div className="arsent__original">
+                  لَمْ أذهبْ - لَمْ نَذهبْ
+                  <br />
+                  أنتَ لَمْ تَذهبْ - أنتِ لَمْ نَذهبِي
+                  <br />
+                  أنتُم لَمْ تَذهبُوا - أنتنّ لَمْ نَذهبْن
+                  <br />
+                  هو لَمْ يَذهبْ - هي لَمْ تَذهَبْ
+                  <br />
+                  هم لَمْ يَذهبُوا - هنّ لَمْ يذهَبْن
+                </div>
+              </div>
             </div>
           </div>
         </div>
