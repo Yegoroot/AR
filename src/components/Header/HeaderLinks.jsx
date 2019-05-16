@@ -9,7 +9,7 @@ import ListItem from "@material-ui/core/ListItem";
 // import Tooltip from '@material-ui/core/Tooltip'
 
 // @material-ui/icons
-import { Waves, Apps } from "@material-ui/icons";
+import { Waves, Apps, Bookmarks, Book, Assignment } from "@material-ui/icons";
 
 // core components
 import CustomDropdown from "components/CustomDropdown/CustomDropdown.jsx";
@@ -25,19 +25,6 @@ function HeaderLinks({ ...props }) {
         <Link to="/" className={classes.navLink}>
           Главная
         </Link>
-
-        {/* <CustomDropdown
-                    noLiPadding
-                    buttonText="Default"
-                    buttonProps={{
-                        className: classes.navLink,
-                        color: 'transparent',
-                    }}
-                    buttonIcon={Apps}
-                    dropdownList={[
-                     
-                    ]}
-                /> */}
       </ListItem>
 
       <ListItem className={classes.listItem}>
@@ -68,7 +55,7 @@ function HeaderLinks({ ...props }) {
             className: classes.navLink,
             color: "transparent"
           }}
-          buttonIcon={Waves}
+          buttonIcon={Bookmarks}
           dropdownList={[
             <Link to="/shaddaverb" className={classes.dropdownLink}>
               Глагол с шаддой
@@ -97,7 +84,7 @@ function HeaderLinks({ ...props }) {
             className: classes.navLink,
             color: "transparent"
           }}
-          buttonIcon={Waves}
+          buttonIcon={Book}
           dropdownList={[
             <Link to="/masdar" className={classes.dropdownLink}>
               Масдар
@@ -147,7 +134,7 @@ function HeaderLinks({ ...props }) {
             className: classes.navLink,
             color: "transparent"
           }}
-          buttonIcon={Waves}
+          buttonIcon={Assignment}
           dropdownList={[
             <Link to="/adwatuldjazm" className={classes.dropdownLink} style={{ fontSize: 20 }}>
               أدْوَات الجَزْم

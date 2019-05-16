@@ -1,75 +1,49 @@
 import React from "react";
-
-// @material-ui/core components
 import withStyles from "@material-ui/core/styles/withStyles";
-// @material-ui/icons
-import { Paper } from "@material-ui/core";
-import ContrastWord from "components/Typography/ContrastWord.jsx";
-import ArSent from "components/Typography/ArSent.jsx";
-
-// core components
-// import SnackbarContent from 'components/Snackbar/SnackbarContent.jsx'
-import Clearfix from "components/Clearfix/Clearfix.jsx";
 import arabicPage from "assets/jss/material-kit-react/views/arabicPage.jsx";
 
 class Munthu extends React.Component {
   render() {
-    const { classes } = this.props;
     return (
-      <div className={classes.section} id="munzu">
-        <div className={classes.container}>
-          <h2 className={classes.title}>
-            Глагол{" "}
-            <ContrastWord inRu red>
-              مُنْذُ
-            </ContrastWord>
-          </h2>
+      <div id="munzu">
+        <h2 className="title h2ar contrast">مُنْذُ</h2>
+        <div className="desc">Главные смыслы "тому назад", "до тех пор", "уже", "с (времени)"</div>
 
-          <Paper>
-            <div className="wrap1">
-              <p>Главные смыслы "тому назад", "до тех пор", "уже", "с (времени)"</p>
-              <ArSent
-                translate={
-                  <div>
-                    Не ел <ContrastWord red>с</ContrastWord> утра
-                  </div>
-                }
-              >
-                ما أكَلتُ <ContrastWord red>مُنْذُ </ContrastWord> الصاباح
-              </ArSent>
-              <ArSent
-                translate={
-                  <div>
-                    Не видел Мухаммада <ContrastWord red> уже как </ContrastWord> месяц
-                  </div>
-                }
-              >
-                ما رأيتُ محمحد <ContrastWord red>مُنْذُ </ContrastWord> شهر
-              </ArSent>
-              <ArSent
-                translate={
-                  <div>
-                    <ContrastWord red> Уже </ContrastWord> давно не пил кофе
-                  </div>
-                }
-              >
-                ما شربتُ القهوة <ContrastWord red>مُنْذُ </ContrastWord> زمن
-              </ArSent>
-              <ArSent
-                translate={
-                  <div>
-                    Не разговаривал с Отцом <ContrastWord red> с тех пор как </ContrastWord> он
-                    вернулся из Египта
-                  </div>
-                }
-              >
-                ما تَكَلّمتُ معَ أبِي <ContrastWord red>مُنْذُ </ContrastWord> رَجَعَهُ من مصرِ
-              </ArSent>
-            </div>
-          </Paper>
+        <div className="arsent">
+          <div className="arsent__original">
+            ما أكَلتُ <span className="contrast"> مُنْذُ </span> الصاباح
+          </div>
+          <div className="arsent__translate">
+            Не ел <span className="contrast">с</span> утра
+          </div>
+        </div>
+        <div className="arsent">
+          <div className="arsent__original">
+            ما رأيتُ محمحد <span className="contrast"> مُنْذُ </span> شهر
+          </div>
+          <div className="arsent__translate">
+            Не видел Мухаммада <span className="contrast"> уже как </span> месяц
+          </div>
         </div>
 
-        <Clearfix />
+        <div className="arsent">
+          <div className="arsent__original">
+            ما شربتُ القهوة <span className="contrast"> مُنْذُ </span> زمن
+          </div>
+          <div className="arsent__translate">
+            <span className="contrast"> Уже </span> давно не пил кофе
+          </div>
+        </div>
+
+        <div className="arsent">
+          <div className="arsent__original">
+            ما تَكَلّمتُ معَ أبِي <span className="contrast"> مُنْذُ </span> رَجَعَهُ من مصرِ
+          </div>
+          <div className="arsent__translate">
+            Не разговаривал с Отцом <span className="contrast"> с тех пор как </span> он вернулся из
+            Египта
+          </div>
+        </div>
       </div>
     );
   }

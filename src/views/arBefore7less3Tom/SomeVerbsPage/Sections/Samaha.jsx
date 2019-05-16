@@ -1,70 +1,48 @@
 import React from "react";
-
-// @material-ui/core components
 import withStyles from "@material-ui/core/styles/withStyles";
-// @material-ui/icons
-import { Paper } from "@material-ui/core";
-import { Link } from "react-router-dom";
-import ContrastWord from "components/Typography/ContrastWord.jsx";
-import ArSent from "components/Typography/ArSent.jsx";
 import Word from "components/word";
-// core components
-// import SnackbarContent from 'components/Snackbar/SnackbarContent.jsx'
-import Clearfix from "components/Clearfix/Clearfix.jsx";
+
 import arabicPage from "assets/jss/material-kit-react/views/arabicPage.jsx";
 
 class Samaha extends React.Component {
   render() {
-    const { classes } = this.props;
     return (
-      <div className={classes.section} id="samaha">
-        <div className={classes.container}>
-          <h2 className={classes.title}>
-            Глагол{" "}
-            <ContrastWord inRu red>
-              سَمَحَ
-            </ContrastWord>
-          </h2>
+      <div id="samaha">
+        <h2 className="title h2ar contrast">سَمَحَ</h2>
 
-          <Paper>
-            <div className="wrap1">
-              <p>
-                Это фразовый глагол, который требует два условия. ПЕРВОЕ тот кто разрешает, ВТОРОЕ
-                что разрешают, а то что разрешают является <Link to="/masdar">масдаром</Link>
-              </p>
-              <ArSent
-                translate={
-                  <div>
-                    Мой отец <ContrastWord red>разрешил </ContrastWord> мне
-                    <ContrastWord blue> играть </ContrastWord> с моими друзьями
-                  </div>
-                }
-              >
-                أبِي <ContrastWord red>سَمَحَ </ContrastWord> <Word prefix="لِ" root="ي" />{" "}
-                <ContrastWord blue>
-                  <Word prefix="بِ" root="اذهاب" />
-                </ContrastWord>{" "}
-                مع الصْدِقَائي
-              </ArSent>
-              <ArSent
-                translate={
-                  <div>
-                    Учитель <ContrastWord red>разрешил </ContrastWord> студентам
-                    <ContrastWord blue> писать </ContrastWord> красной ручкой
-                  </div>
-                }
-              >
-                المدرّس <ContrastWord red>سَمَحَ </ContrastWord> <Word prefix="لِ" root="الطلاب" />{" "}
-                <ContrastWord blue>
-                  <Word prefix="بِ" root="كِتَابَة" />
-                </ContrastWord>{" "}
-                بِقلمِ أحْمرِ
-              </ArSent>
-            </div>
-          </Paper>
+        <div className="desc">
+          Это фразовый глагол, который требует два условия: <b> Первое </b> тот кто разрешает,
+          <b> Второе </b> что разрешают, а то что разрешают является масдаром
+        </div>
+        <div className="arsent">
+          <div className="arsent__original">
+            أبِي <span className="contrast"> سَمَحَ </span> <Word prefix="لِ" root="ي" />
+            &nbsp;
+            <span className="contrast_2">
+              <Word prefix="بِ" root="اذهاب" />
+            </span>
+            <span> مع الصْدِقَائي </span>
+          </div>
+          <div className="arsent__translate">
+            Мой отец <span className="contrast"> разрешил </span> мне
+            <span className="contrast_2"> играть </span> с моими друзьями
+          </div>
         </div>
 
-        <Clearfix />
+        <div className="arsent">
+          <div className="arsent__original">
+            المدرّس <span className="contrast"> سَمَحَ </span> <Word prefix="لِ" root="الطلاب" />
+            &nbsp;
+            <span className="contrast_2">
+              <Word prefix="بِ" root="كِتَابَة" />
+            </span>
+            <span> بِقلمِ أحْمرِ </span>
+          </div>
+          <div className="arsent__translate">
+            Учитель <span className="contrast"> разрешил </span> студентам
+            <span className="contrast_2"> писать </span> красной ручкой
+          </div>
+        </div>
       </div>
     );
   }
