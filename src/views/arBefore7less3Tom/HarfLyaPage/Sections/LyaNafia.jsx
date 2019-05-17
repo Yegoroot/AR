@@ -1,45 +1,34 @@
-import React from "react";
+import React from 'react'
 
-// @material-ui/core components
-import withStyles from "@material-ui/core/styles/withStyles";
-// @material-ui/icons
-import { Paper } from "@material-ui/core";
+function LyaNafia() {
+  return (
+    <>
+      <h2 className="title h2ar">لا النافية</h2>
 
-import ContrastWord from "components/Typography/ContrastWord.jsx";
-import ArSent from "components/Typography/ArSent.jsx";
-// import Word from 'components/word'
-// core components
-// import SnackbarContent from 'components/Snackbar/SnackbarContent.jsx'
-import Clearfix from "components/Clearfix/Clearfix.jsx";
-import arabicPage from "assets/jss/material-kit-react/views/arabicPage.jsx";
+      <div className="desc">Частица абсолютного отрицания</div>
 
-class LyaNafia extends React.Component {
-  render() {
-    const { classes } = this.props;
-    return (
-      <div className={classes.section} id="liWithVerbs">
-        <div className={classes.container}>
-          <h2 className={classes.title}>لا النافية</h2>
-          <Paper>
-            <div className="wrap1">
-              <p>Частица абсолютного отрицания</p>
-              <ArSent translate="Умар ни когда не пьёт кофе">
-                عمر <ContrastWord red> لا </ContrastWord> يشربُ القهوة
-              </ArSent>
-              <ArSent translate="Вы не учите французкий язык">
-                أنتم <ContrastWord red> لا </ContrastWord> تدرسونَ اللغة الفرنسية
-              </ArSent>
-              <ArSent translate="Не бил ты меня">
-                <ContrastWord red> لا </ContrastWord> تضربُنِي
-              </ArSent>
-            </div>
-          </Paper>
+      <div className="arsent">
+        <div className="arsent__original">
+          عمر <span className="contrast"> لا </span> يشربُ القهوة
         </div>
-
-        <Clearfix />
+        <div className="arsent__translate">Умар ни когда не пьёт кофе</div>
       </div>
-    );
-  }
+
+      <div className="arsent">
+        <div className="arsent__original">
+          أنتم <span className="contrast"> لا </span> تدرسونَ اللغة الفرنسية
+        </div>
+        <div className="arsent__translate">Вы не учите французкий язык</div>
+      </div>
+
+      <div className="arsent">
+        <div className="arsent__original">
+          <span className="contrast"> لا </span> تضربُنِي
+        </div>
+        <div className="arsent__translate">Не бил ты меня</div>
+      </div>
+    </>
+  )
 }
 
-export default withStyles(arabicPage)(LyaNafia);
+export default LyaNafia

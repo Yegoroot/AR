@@ -1,103 +1,79 @@
-import React from "react";
+import React from 'react'
 
-// @material-ui/core components
-import withStyles from "@material-ui/core/styles/withStyles";
-// @material-ui/icons
-import { Paper } from "@material-ui/core";
-import ContrastWord from "components/Typography/ContrastWord.jsx";
-import ArSent from "components/Typography/ArSent.jsx";
-// import Word from 'components/word'
-// core components
-// import SnackbarContent from 'components/Snackbar/SnackbarContent.jsx'
-import Clearfix from "components/Clearfix/Clearfix.jsx";
-import arabicPageStyle from "assets/jss/material-kit-react/views/arabicPage.jsx";
+function MaAndFriends() {
+  return (
+    <>
+      <h2 className="title">ما с друзьями</h2>
 
-class MaAndFriends extends React.Component {
-  render() {
-    const { classes } = this.props;
-    return (
-      <div className={classes.section} id="liWithVerbs">
-        <div className={classes.container}>
-          <h2 className={classes.title}>ما с друзьями</h2>
-          <Paper>
-            <div className="wrap1">
-              <p>
-                Скажи кто твой друг и тебе скажут кто ты, частица ما не является исключением, и в
-                зависимоти от того с кем она дружит, ведет себя по разному
-              </p>
-              <h3 className={classes.title}>
-                مِنْ + ما = <ContrastWord red>مِمَّ</ContrastWord>؟
-              </h3>
-
-              <ArSent
-                translate={
-                  <div>
-                    <ContrastWord red>Из чего </ContrastWord> создал Аллахъ человека?
-                  </div>
-                }
-              >
-                <ContrastWord red>مِمَّ </ContrastWord> خَلَقَ اللّه الانسان؟
-              </ArSent>
-
-              <h3 className={classes.title}>
-                بِ + ما = <ContrastWord red>بِمَ</ContrastWord>؟
-              </h3>
-
-              <ArSent
-                translate={
-                  <div>
-                    <ContrastWord red>(С помощью чего) Чем </ContrastWord> ты убил змею?
-                  </div>
-                }
-              >
-                <ContrastWord red>بِمَ </ContrastWord> قتلتُ الحَيَّة؟
-              </ArSent>
-
-              <h3 className={classes.title}>
-                لِ + ما = <ContrastWord red>لِمَ</ContrastWord>؟
-              </h3>
-
-              <ArSent
-                translate={
-                  <div>
-                    <ContrastWord red>(Почему?, Для чего?, За чем?) Для какой цели </ContrastWord>{" "}
-                    ты вышел из класса?
-                  </div>
-                }
-              >
-                <ContrastWord red>لِمَ </ContrastWord> خَرجُْتُ مِن الفصلِ؟
-              </ArSent>
-
-              <h3 className={classes.title}>
-                عَنْ + ما = <ContrastWord red>عَمَّ</ContrastWord>؟
-              </h3>
-
-              <ArSent
-                translate={
-                  <div>
-                    <ContrastWord red>Что </ContrastWord> ты искал в школе? ( ... بَحثَ عن )
-                  </div>
-                }
-              >
-                <ContrastWord red>عَمَّ </ContrastWord> بَحثْتَ في المدرسةِ؟
-              </ArSent>
-              <ArSent
-                translate={
-                  <div>
-                    <ContrastWord red>О чем </ContrastWord> спросил учитель?
-                  </div>
-                }
-              >
-                <ContrastWord red>عَمَّ </ContrastWord> سألْتَ المدرسَ؟
-              </ArSent>
-            </div>
-          </Paper>
-        </div>
-
-        <Clearfix />
+      <div className="desc">
+        Скажи кто твой друг и тебе скажут кто ты, частица ما не является исключением, и в зависимоти от того с кем она дружит, ведет себя по
+        разному
       </div>
-    );
-  }
+
+      <div className="items">
+        <div className="item">
+          <h3 className="title">
+            مِنْ + ما = <span className="contrast">مِمَّ</span>؟
+          </h3>
+          <div className="arsent">
+            <div className="arsent__original">
+              <span className="contrast">مِمَّ </span> خَلَقَ اللّه الانسان؟
+            </div>
+            <div className="arsent__translate">
+              <span className="contrast">Из чего </span> создал Аллахъ человека?
+            </div>
+          </div>
+        </div>
+        <div className="item">
+          <h3 className="title">
+            بِ + ما = <span className="contrast">بِمَ</span>؟
+          </h3>
+          <div className="arsent">
+            <div className="arsent__original">
+              <span className="contrast">بِمَ </span> قتلتُ الحَيَّة؟
+            </div>
+            <div className="arsent__translate">
+              <span className="contrast">(С помощью чего) Чем </span> ты убил змею?
+            </div>
+          </div>
+        </div>
+        <div className="item">
+          <h3 className="title">
+            لِ + ما = <span className="contrast"> لِمَ </span>؟
+          </h3>
+          <div className="arsent">
+            <div className="arsent__original">
+              <span className="contrast">لِمَ </span> خَرجُْتَ مِن الفصلِ؟
+            </div>
+            <div className="arsent__translate">
+              <span className="contrast">(Почему?, Для чего?, За чем?) Для какой цели </span> ты вышел из класса?
+            </div>
+          </div>
+        </div>
+        <div className="item">
+          <h3 className="title">
+            عَنْ + ما = <span className="contrast"> عَمَّ </span>؟
+          </h3>
+          <div className="arsent">
+            <div className="arsent__original">
+              <span className="contrast"> عَمَّ </span> بَحثْتَ في المدرسةِ؟
+            </div>
+            <div className="arsent__translate">
+              <span className="contrast"> Что </span> ты искал в школе? ( ... بَحثَ عن )
+            </div>
+          </div>
+          <div className="arsent">
+            <div className="arsent__original">
+              <span className="contrast"> عَمَّ </span> سألْتَ المدرسَ؟
+            </div>
+            <div className="arsent__translate">
+              <span className="contrast"> О чем </span> спросил учитель?
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  )
 }
 
-export default withStyles(arabicPageStyle)(MaAndFriends);
+export default MaAndFriends

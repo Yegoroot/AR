@@ -1,53 +1,37 @@
-import React from "react";
+import React from 'react'
 
-// @material-ui/core components
-import withStyles from "@material-ui/core/styles/withStyles";
-// @material-ui/icons
-import { Paper } from "@material-ui/core";
-import ContrastWord from "components/Typography/ContrastWord.jsx";
-import ArSent from "components/Typography/ArSent.jsx";
-// import Word from 'components/word'
-// core components
-// import SnackbarContent from 'components/Snackbar/SnackbarContent.jsx'
-import Clearfix from "components/Clearfix/Clearfix.jsx";
-import arabicPage from "assets/jss/material-kit-react/views/arabicPage.jsx";
-import { Link } from "react-router-dom";
+function LyaNahia() {
+  return (
+    <div id="liWithVerbs">
+      <h2 className="title h2ar">لا الناهية</h2>
 
-class LyaNahia extends React.Component {
-  render() {
-    const { classes } = this.props;
-    return (
-      <div className={classes.section} id="liWithVerbs">
-        <div className={classes.container}>
-          <h2 className={classes.title}>لا الناهية</h2>
-          <Paper>
-            <div className="wrap1">
-              <p>
-                Частица запрета, употребляется{" "}
-                <ContrastWord red>только во втором лице</ContrastWord>.
-              </p>
-              <ArSent translate="Не бей меня">
-                <ContrastWord red> لا </ContrastWord> تضربْنِي
-              </ArSent>
-              <ArSent translate="Умар, ни пей кофе!">
-                يا عمر <ContrastWord red> لا </ContrastWord> يشربْ القهوة
-              </ArSent>
-
-              <ArSent translate="Не учите французкий язык">
-                أنتم <ContrastWord red> لا </ContrastWord> تدرسوُا اللغة الفرنسية
-              </ArSent>
-              <p>
-                Как вы заметели ن множественного числа пропала, потому что это одна из частиц{" "}
-                <Link to="/adwatuldjazm"> أدْوَات الجَزْم</Link>
-              </p>
-            </div>
-          </Paper>
-        </div>
-
-        <Clearfix />
+      <div className="desc">
+        Частица запрета, употребляется <span className="contrast">только во втором лице</span>.
       </div>
-    );
-  }
+      <div className="arsent">
+        <div className="arsent__original">
+          <span className="contrast"> لا </span> تضربْنِي
+        </div>
+        <div className="arsent__translate">Не бей меня</div>
+      </div>
+
+      <div className="arsent">
+        <div className="arsent__original">
+          يا عمر <span className="contrast"> لا </span> يشربْ القهوة
+        </div>
+        <div className="arsent__translate">Умар, ни пей кофе!</div>
+      </div>
+
+      <div className="arsent">
+        <div className="arsent__original">
+          أنتم <span className="contrast"> لا </span> تدرسوُا اللغة الفرنسية
+        </div>
+        <div className="arsent__translate">Не учите французкий язык</div>
+      </div>
+
+      <p className="desc">Как вы заметели ن множественного числа пропала, потому что это одна из частиц أدْوَات الجَزْم</p>
+    </div>
+  )
 }
 
-export default withStyles(arabicPage)(LyaNahia);
+export default LyaNahia

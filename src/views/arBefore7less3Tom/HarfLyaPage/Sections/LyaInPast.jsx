@@ -1,48 +1,34 @@
-import React from "react";
+import React from 'react'
 
-// @material-ui/core components
-import withStyles from "@material-ui/core/styles/withStyles";
-// @material-ui/icons
-import { Paper } from "@material-ui/core";
+function LyaNafia() {
+  return (
+    <div id="liWithVerbs">
+      <h2 className="title">لا в прошедшем времени</h2>
 
-import ContrastWord from "components/Typography/ContrastWord.jsx";
-import ArSent from "components/Typography/ArSent.jsx";
-// import Word from 'components/word'
-// core components
-// import SnackbarContent from 'components/Snackbar/SnackbarContent.jsx'
-import Clearfix from "components/Clearfix/Clearfix.jsx";
-import arabicPage from "assets/jss/material-kit-react/views/arabicPage.jsx";
-
-class LyaNafia extends React.Component {
-  render() {
-    const { classes } = this.props;
-    return (
-      <div className={classes.section} id="liWithVerbs">
-        <div className={classes.container}>
-          <h2 className={classes.title}>لا в прошедшем времени</h2>
-          <Paper>
-            <div className="wrap1">
-              <p>
-                Частица لا настоящего времени, кроме случая, если в одном предложениии два глагола
-                которые мы хоти отрицать. Действия прошедшего времени. Например:
-              </p>
-              <ArSent translate="Не пил и не кушал">
-                <ContrastWord red> لا </ContrastWord> أكلتُ <ContrastWord red> و </ContrastWord>{" "}
-                <ContrastWord red> لا </ContrastWord> شربتُ
-              </ArSent>
-              <p>Необходимое условие: два глагола, две لا и между ними و</p>
-              <ArSent translate="Он не бил меня и я его не бил">
-                <ContrastWord red> لا </ContrastWord> ضَرَبَنِي <ContrastWord red> و </ContrastWord>{" "}
-                <ContrastWord red> لا </ContrastWord> ضَرَبْتُهُ
-              </ArSent>
-            </div>
-          </Paper>
-        </div>
-
-        <Clearfix />
+      <div className="desc">
+        Частица لا настоящего времени, кроме случая, если в одном предложениии два глагола которые мы хоти отрицать. Действия прошедшего
+        времени. Например:
       </div>
-    );
-  }
+      <div className="arsent">
+        <div className="arsent__original">
+          <span className="contrast"> لا </span> أكلتُ <span className="contrast"> و </span> <span className="contrast"> لا </span> شربتُ
+        </div>
+        <div className="arsent__translate">Не пил и не кушал</div>
+      </div>
+
+      <div className="desc">Необходимое условие: два глагола, две لا и между ними و</div>
+      <div className="arsent">
+        <div className="arsent__original">
+          <span pan className="contrast">
+            لا
+          </span>
+          ضَرَبَنِي <span className="contrast"> و </span> <span className="contrast"> لا </span>
+          ضَرَبْتُهُ
+        </div>
+        <div className="arsent__translate">Он не бил меня и я его не бил</div>
+      </div>
+    </div>
+  )
 }
 
-export default withStyles(arabicPage)(LyaNafia);
+export default LyaNafia
