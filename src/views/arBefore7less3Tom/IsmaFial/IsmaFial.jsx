@@ -1,18 +1,18 @@
-import React from "react";
-import classNames from "classnames";
-import withStyles from "@material-ui/core/styles/withStyles";
-import Header from "components/Header/Header.jsx";
-import Footer from "components/Footer/Footer.jsx";
-import ContrastWord from "components/Typography/ContrastWord.jsx";
-import ArSent from "components/Typography/ArSent.jsx";
-import HeaderLinks from "components/Header/HeaderLinks.jsx";
-import Parallax from "components/Parallax/Parallax.jsx";
-import arabicPageStyle from "assets/jss/material-kit-react/views/arabicPage.jsx";
-import ismfial from "assets/img/content/ismfial.PNG";
+import React from 'react'
+import classNames from 'classnames'
+import withStyles from '@material-ui/core/styles/withStyles'
+import Header from 'components/Header/Header.jsx'
+import Footer from 'components/Footer/Footer.jsx'
+import ContrastWord from 'components/Typography/ContrastWord.jsx'
+import ArSent from 'components/Typography/ArSent.jsx'
+import HeaderLinks from 'components/Header/HeaderLinks.jsx'
+import Parallax from 'components/Parallax/Parallax.jsx'
+import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
+import ismfial from 'assets/img/content/ismfial.PNG'
 
 class IsmaFial extends React.Component {
   render() {
-    const { classes, ...rest } = this.props;
+    const { classes, ...rest } = this.props
 
     return (
       <div>
@@ -25,25 +25,24 @@ class IsmaFial extends React.Component {
           changeColorOnScroll={{
             height: 200,
 
-            color: "white"
+            color: 'white'
           }}
           {...rest}
         />
 
-        <Parallax small filter image={require("assets/img/mosque/mosque19.jpg")} />
+        <Parallax small filter image={require('assets/img/mosque/mosque19.jpg')} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className={classes.title}>اسم الفاعِل</h1>
               <h2>Основная форма</h2>
               <p>
-                <b>Лицо деятель</b> можно перевести как "действительное причастие" это имя
-                существительное указывает на того кто выполняет действие и образуется от 3ёх
-                буквенного глагола по шаблону{" "}
+                <b>Лицо деятель</b> можно перевести как "действительное причастие" это имя существительное указывает на того кто выполняет
+                действие и образуется от 3ёх буквенного глагола по шаблону{' '}
                 <ContrastWord red inRu>
                   الفاعِل
                 </ContrastWord>
-                ,{" "}
+                ,{' '}
               </p>
 
               <ArSent translate="Тот кто бъет">
@@ -68,30 +67,30 @@ class IsmaFial extends React.Component {
 
               <h2>اسم الفاعِل у глаголов с шаддой</h2>
               <p>
-                Не смотря на то что حَاجٌَ и ему подобные не похожи на اسم الفاعِل, мы чётко видим
-                по каким принципам образуется это лицо деятель
+                Не смотря на то что حَاجٌَ и ему подобные не похожи на اسم الفاعِل, мы чётко видим по каким принципам образуется это лицо
+                деятель
               </p>
               <ArSent>
-                حجّ - حَجْجَ - حاجِج ={" "}
+                حجّ - حَجْجَ - حاجِج ={' '}
                 <ContrastWord inRu translate="Тот кто в хадже" red>
-                  {" "}
-                  حَاجٌَ{" "}
+                  {' '}
+                  حَاجٌَ{' '}
                 </ContrastWord>
               </ArSent>
               <ArSent>
-                مًرَّ -{" "}
+                مًرَّ -{' '}
                 <ContrastWord inRu translate="приходящий" red>
                   مارٌّ
                 </ContrastWord>
               </ArSent>
               <ArSent>
-                ضَلَّ -{" "}
+                ضَلَّ -{' '}
                 <ContrastWord inRu translate="заблудший" red>
                   ضالّ
                 </ContrastWord>
               </ArSent>
               <ArSent>
-                دَلّ -{" "}
+                دَلّ -{' '}
                 <ContrastWord inRu translate="указывающий" red>
                   دالّ
                 </ContrastWord>
@@ -99,24 +98,21 @@ class IsmaFial extends React.Component {
               {/* -------- */}
 
               <h2>اسم الفاعِل у глаголов со слабой средней</h2>
-              <p>
-                Когда мы хотим образовать اسم الفاعِل со средней больной, то меняем коренной алиф на
-                хамзу
-              </p>
+              <p>Когда мы хотим образовать اسم الفاعِل со средней больной, то меняем коренной алиф на хамзу</p>
               <ArSent>
-                قَال -{" "}
+                قَال -{' '}
                 <ContrastWord inRu translate="говорящий" red>
                   قائِل
                 </ContrastWord>
               </ArSent>
               <ArSent>
-                صام -{" "}
+                صام -{' '}
                 <ContrastWord inRu translate="постящийся" red>
                   صَائِم
                 </ContrastWord>
               </ArSent>
               <ArSent>
-                نَام -{" "}
+                نَام -{' '}
                 <ContrastWord inRu translate="спящий" red>
                   نائِم
                 </ContrastWord>
@@ -151,18 +147,15 @@ class IsmaFial extends React.Component {
 
               {/* -------- */}
               <h2>С точки зрения сарф и нахв</h2>
-              <p>
-                На картинке показаны подходы с точки зрения сарфа и нахв, три разных предложения и
-                три разных роли у одного слова
-              </p>
-              <img src={ismfial} style={{ width: "100%" }} alt="Схема 1" />
+              <p>На картинке показаны подходы с точки зрения сарфа и нахв, три разных предложения и три разных роли у одного слова</p>
             </div>
+            <img src={ismfial} style={{ width: '100%' }} alt="Схема 1" />
           </div>
         </div>
         <Footer />
       </div>
-    );
+    )
   }
 }
 
-export default withStyles(arabicPageStyle)(IsmaFial);
+export default withStyles(arabicPageStyle)(IsmaFial)

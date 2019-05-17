@@ -1,15 +1,13 @@
-import React from "react";
+import React from 'react'
 
-import Word from "components/word";
-import kanaImg from "assets/img/content/verb/kana.png";
+import Word from 'components/word'
+import kanaImg from 'assets/img/content/verb/kana.png'
 
 function KanaLaYazalu() {
   return (
     <div id="samaha">
       <h2 className="title h2ar contrast">كان - يزَالُ</h2>
-      <div className="desc">
-        Глаголы бытия ставят в винительный падеж дополнения (то о чем речь)
-      </div>
+      <div className="desc">Глаголы бытия ставят в винительный падеж дополнения (то о чем речь)</div>
 
       <div className="items">
         <div className="item">
@@ -30,7 +28,7 @@ function KanaLaYazalu() {
           </div>
         </div>
         <div className="item">
-          <span className="contrast title">لا يَزَالُ - لا تَزالُ</span>
+          <h3 className="contrast title">لا يَزَالُ - لا تَزالُ</h3>
           <div className="arsent">
             <div className="arsent__original">إبرهيم نائِم</div>
             <div className="arsent__translate">Ибрахим спит</div>
@@ -47,12 +45,12 @@ function KanaLaYazalu() {
       </div>
       <h3>كان не полноценный глагол</h3>
       <div className="desc">
-        Глагол كان не является полноценным глаголом (предложение остаётся именным), но из за его
-        внешних сходств, предложение похоже на глагольное, а происходит следующее
+        Глагол كان не является полноценным глаголом (предложение остаётся именным), но из за его внешних сходств, предложение похоже на
+        глагольное, а происходит следующее
       </div>
-      <img src={kanaImg} style={{ width: "100%" }} alt="Схема 1" />
+      <img src={kanaImg} style={{ width: '100%' }} alt="Схема 1" />
     </div>
-  );
+  )
 }
 
-export default KanaLaYazalu;
+export default KanaLaYazalu
