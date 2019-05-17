@@ -12,6 +12,8 @@
 # this doesnt work
 .firebase
 /.firebase
+hosting\..*\.cache
+*.cache
 
 # misc
 .DS_Store
