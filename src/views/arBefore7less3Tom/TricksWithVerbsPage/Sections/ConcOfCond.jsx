@@ -1,7 +1,8 @@
-import React from "react";
-import withStyles from "@material-ui/core/styles/withStyles";
-import Word from "components/word";
-import arabicPage from "assets/jss/material-kit-react/views/arabicPage.jsx";
+import React from 'react'
+import withStyles from '@material-ui/core/styles/withStyles'
+import Word from 'components/word'
+import arabicPage from 'assets/jss/material-kit-react/views/arabicPage.jsx'
+import AnimateCard from 'components/AnimateCard/AnimateCard'
 
 class ConcOfCond extends React.Component {
   render() {
@@ -49,36 +50,38 @@ class ConcOfCond extends React.Component {
             <span className="contrast_2"> رواه الترمذي </span>
           </div>
           <div className="arsent__translate">
-            Храни Аллахъа (исполняя его приказы) и Он сохранит тебя. Храни Аллахъа и ты найдешь его
-            перед собой
+            Храни Аллахъа (исполняя его приказы) и Он сохранит тебя. Храни Аллахъа и ты найдешь его перед собой
           </div>
         </div>
-        <div className="arsent arsent_rule">
-          <div className="arsent__original">
-            هنا <span className="contrast_2"> (تفهَمْ) </span> مجزومٌ لأنه وَقَعَ جواباً للطَلَبِ
+        <AnimateCard>
+          <div className="arsent arsent_rule">
+            <div className="arsent__original">
+              هنا <span className="contrast_2"> (تفهَمْ) </span> مجزومٌ لأنه وَقَعَ جواباً للطَلَبِ
+            </div>
+            <div className="arsent__translate">
+              Здесь глагол <span className="contrast_2 desc__ar"> (تفهَمْ) </span> в усеченном наклонении потому что он пришёл как следствие
+              требованию
+            </div>
           </div>
-          <div className="arsent__translate">
-            Здесь глагол <span className="contrast_2 desc__ar"> (تفهَمْ) </span> в усеченном
-            наклонении потому что он пришёл как следствие требованию
+        </AnimateCard>
+        <AnimateCard>
+          <div className="arsent arsent_rule">
+            <div className="arsent__original">
+              إذا وَقَعَ المضارعُ جواباً للطَّلبِ جَزمَ. و من أنواع الطَّلَبِ: الأمْرُ و النَّهْيُ, نحو: اِعْملْ عَمَلاً صالِحاً{' '}
+              <span className="contrast_2"> تَدْخُلِْ </span>
+              الجَنَّةَ. لا تَكْسَلْ <span className="contrast_2"> تَنْجَحْ </span> .
+            </div>
+            <div className="arsent__translate">
+              Когда глагол настоящего времени приходит как следствие (какого либо условия), то он джахмируется (усекается). А разновидностью
+              требования считается: Приказ и Запрет. Например: Совершай праведные дела
+              <span className="contrast_2 "> войдешь </span> в рай. Не ленись
+              <span className="contrast_2 "> добъешься успеха </span>
+            </div>
           </div>
-        </div>
-        <div className="arsent arsent_rule">
-          <div className="arsent__original">
-            إذا وَقَعَ المضارعُ جواباً للطَّلبِ جَزمَ. و من أنواع الطَّلَبِ: الأمْرُ و النَّهْيُ,
-            نحو: اِعْملْ عَمَلاً صالِحاً <span className="contrast_2"> تَدْخُلِْ </span>
-            الجَنَّةَ. لا تَكْسَلْ <span className="contrast_2"> تَنْجَحْ </span> .
-          </div>
-          <div className="arsent__translate">
-            Когда глагол настоящего времени приходит как следствие (какого либо условия), то он
-            джахмируется (усекается). А разновидностью требования считается: Приказ и Запрет.
-            Например: Совершай праведные дела
-            <span className="contrast_2 "> войдешь </span> в рай. Не ленись
-            <span className="contrast_2 "> добъешься успеха </span>
-          </div>
-        </div>
+        </AnimateCard>
       </div>
-    );
+    )
   }
 }
 
-export default withStyles(arabicPage)(ConcOfCond);
+export default withStyles(arabicPage)(ConcOfCond)

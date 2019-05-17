@@ -6,7 +6,7 @@ import Footer from 'components/Footer/Footer.jsx'
 import HeaderLinks from 'components/Header/HeaderLinks.jsx'
 import Parallax from 'components/Parallax/Parallax.jsx'
 import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
-
+import AnimateCard from 'components/AnimateCard/AnimateCard'
 /** ОБСТОЯТЕЛЬСТВО МЕСТО И ВРЕМЕНИ
  *
  * группы: [level_3, разное]
@@ -43,21 +43,24 @@ class AlMafuluFihi extends React.Component {
                 <span className="contrast_2 desc__ar"> (ي) </span> */}
               </div>
 
-              <div className="arsent arsent_rule">
-                <div className="arsent__original">
-                  <span className="contrast_2"> وَصَلْتُ يوْم الثُلاثاءِ </span>.<span> هنا </span>
-                  <span className="contrast_2"> يوم </span>
-                  <span className="contrast"> مَفْعُول فيه </span>.
-                  <span>المَفْعول فيه اسمٌ مَنْصوبٌ يُذْكَرُ لِبَيانِ زمانِ الفِعْلِ أو مكانهِ, و يسمَّى أيضاً ظَرْفاً.</span>
+              <AnimateCard>
+                <div className="arsent arsent_rule">
+                  <div className="arsent__original">
+                    <span className="contrast_2"> وَصَلْتُ يوْم الثُلاثاءِ </span>.<span> هنا </span>
+                    <span className="contrast_2"> يوم </span>
+                    <span className="contrast"> مَفْعُول فيه </span>.
+                    <span>المَفْعول فيه اسمٌ مَنْصوبٌ يُذْكَرُ لِبَيانِ زمانِ الفِعْلِ أو مكانهِ, و يسمَّى أيضاً ظَرْفاً.</span>
+                  </div>
+                  <div className="arsent__translate">
+                    <span className="contrast_2"> Я прибыл во вторник </span> тут
+                    <span className="contrast_2 desc__ar"> يوم </span> является обстоятельством времени.
+                    <span className="contrast desc__ar"> المَفْعُول فيه </span> это имя стоящее в насбе (винительном падеже) которое
+                    упоминается для объяснения времени совершения действия или его места. Так же он называется
+                    <span className="contrast desc__ar"> ظَرْف </span>
+                  </div>
                 </div>
-                <div className="arsent__translate">
-                  <span className="contrast_2"> Я прибыл во вторник </span> тут
-                  <span className="contrast_2 desc__ar"> يوم </span> является обстоятельством времени.
-                  <span className="contrast desc__ar"> المَفْعُول فيه </span> это имя стоящее в насбе (винительном падеже) которое
-                  упоминается для объяснения времени совершения действия или его места. Так же он называется
-                  <span className="contrast desc__ar"> ظَرْف </span>
-                </div>
-              </div>
+              </AnimateCard>
+
               <h2 className="h2ar">ظَرْف زمان</h2>
               <div className="arsent">
                 <div className="arsent__original">

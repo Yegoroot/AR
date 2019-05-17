@@ -1,23 +1,24 @@
-import React from "react";
+import React from 'react'
 // nodejs library that concatenates classes
-import classNames from "classnames";
+import classNames from 'classnames'
 
-import withStyles from "@material-ui/core/styles/withStyles";
+import withStyles from '@material-ui/core/styles/withStyles'
 
 // core components
-import Header from "components/Header/Header.jsx";
-import Footer from "components/Footer/Footer.jsx";
-import Word from "components/word";
+import Header from 'components/Header/Header.jsx'
+import Footer from 'components/Footer/Footer.jsx'
+import Word from 'components/word'
 
-import HeaderLinks from "components/Header/HeaderLinks.jsx";
+import HeaderLinks from 'components/Header/HeaderLinks.jsx'
 
-import Parallax from "components/Parallax/Parallax.jsx";
+import Parallax from 'components/Parallax/Parallax.jsx'
 
-import arabicPageStyle from "assets/jss/material-kit-react/views/arabicPage.jsx";
+import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
+import AnimateCard from 'components/AnimateCard/AnimateCard'
 
 class AdwatulDjazmPage extends React.Component {
   render() {
-    const { classes, ...rest } = this.props;
+    const { classes, ...rest } = this.props
 
     return (
       <div>
@@ -30,12 +31,12 @@ class AdwatulDjazmPage extends React.Component {
           changeColorOnScroll={{
             height: 200,
 
-            color: "white"
+            color: 'white'
           }}
           {...rest}
         />
 
-        <Parallax small filter image={require("assets/img/bg4.jpg")} />
+        <Parallax small filter image={require('assets/img/bg4.jpg')} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
@@ -45,8 +46,7 @@ class AdwatulDjazmPage extends React.Component {
                 Отрицательная частица <span className="contrast"> لَمْ </span>
               </h2>
               <div className="desc">
-                Приходит перед глаголами настоящего времени у ней две роли: <b> отрицает </b> и
-                <b> меняет время на прошедшее</b>
+                Приходит перед глаголами настоящего времени у ней две роли: <b> отрицает </b> и<b> меняет время на прошедшее</b>
               </div>
               <div className="arsent">
                 <div className="arsent__original">
@@ -60,10 +60,7 @@ class AdwatulDjazmPage extends React.Component {
                 (пока еще не, еще не)
               </h2>
 
-              <div className="desc">
-                Отрицает и прошлый и настоящий момент, у لمّا есть высокий уровень возможности
-                свершения
-              </div>
+              <div className="desc">Отрицает и прошлый и настоящий момент, у لمّا есть высокий уровень возможности свершения</div>
               <div className="arsent">
                 <div className="arsent__original">
                   <span> وَ </span>
@@ -96,15 +93,15 @@ class AdwatulDjazmPage extends React.Component {
               </h2>
               <div className="desc">Может прийти к любому лицу (Пусть он, пусть она)</div>
 
-              <div className="arsent arsent_rule">
-                <div className="arsent__original">
-                  لامُ اﻷمرِ مَكْسورَةٌ, و تُسَكَّنُ بعدَ الواوِ, و الفاءِ, و ثُمَّ.
+              <AnimateCard>
+                <div className="arsent arsent_rule">
+                  <div className="arsent__original">لامُ اﻷمرِ مَكْسورَةٌ, و تُسَكَّنُ بعدَ الواوِ, و الفاءِ, و ثُمَّ.</div>
+                  <div className="arsent__translate">
+                    Частица приказа приходит с кясрой, но после
+                    <span className="contrast"> و, ف, ثمَّ </span> сукунизируется
+                  </div>
                 </div>
-                <div className="arsent__translate">
-                  Частица приказа приходит с кясрой, но после
-                  <span className="contrast"> و, ف, ثمَّ </span> сукунизируется
-                </div>
-              </div>
+              </AnimateCard>
 
               <div className="arsent">
                 <div className="arsent__original">
@@ -129,9 +126,7 @@ class AdwatulDjazmPage extends React.Component {
                   <Word prefix="لْ" root="يَرجِعوا" />
                   <span> بعد مُقَابَلَتِهِ </span>
                 </div>
-                <div className="arsent__translate">
-                  Пусть новые студенты идут к директору и возвращаются после встречи с ним
-                </div>
+                <div className="arsent__translate">Пусть новые студенты идут к директору и возвращаются после встречи с ним</div>
               </div>
 
               <div className="arsent">
@@ -142,9 +137,7 @@ class AdwatulDjazmPage extends React.Component {
                   <Word prefix="لْ" root="نَذهب" />
                   <span> إلى المسجدِ</span>
                 </div>
-                <div className="arsent__translate">
-                  Давайте сейчас присядем в парке, затем пойдём в мечеть
-                </div>
+                <div className="arsent__translate">Давайте сейчас присядем в парке, затем пойдём в мечеть</div>
               </div>
 
               <h2>Пример того как джазмируется окончание</h2>
@@ -166,8 +159,8 @@ class AdwatulDjazmPage extends React.Component {
         </div>
         <Footer />
       </div>
-    );
+    )
   }
 }
 
-export default withStyles(arabicPageStyle)(AdwatulDjazmPage);
+export default withStyles(arabicPageStyle)(AdwatulDjazmPage)

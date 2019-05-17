@@ -7,7 +7,7 @@ import HeaderLinks from 'components/Header/HeaderLinks.jsx'
 import Parallax from 'components/Parallax/Parallax.jsx'
 import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
 import Word from 'components/word'
-
+import AnimateCard from 'components/AnimateCard/AnimateCard'
 class Page extends React.Component {
   render() {
     const { classes, ...rest } = this.props
@@ -62,34 +62,37 @@ class Page extends React.Component {
 
               <h2 className="title"> Важное правило </h2>
 
-              <div className="arsent arsent_rule">
-                <div className="arsent__original">
-                  <span> يَجِبُ اقْتِرانُ جوابِ الشرط بالفاء </span>
-                  <span className="contrast"> بالفاء </span>
-                  <span> في مواضِعَ, منها </span>
+              <AnimateCard>
+                <div className="arsent arsent_rule">
+                  <div className="arsent__original">
+                    <span> يَجِبُ اقْتِرانُ جوابِ الشرط بالفاء </span>
+                    <span className="contrast"> بالفاء </span>
+                    <span> في مواضِعَ, منها </span>
+                  </div>
+                  <div className="arsent__translate">
+                    Обязательно использование союза <span className="contrast desc__ar"> ف </span> в следующих случаях
+                  </div>
+
+                  <div className="arsent__original" style={{ paddingTop: 20 }}>
+                    <span> أن يكون الجوابُ </span>
+                    <span className="contrast_2"> جملةً اسميّةً </span>
+                  </div>
+                  <div className="arsent__translate">
+                    <span> (1) </span>
+                    Если جَوَابُ الشَّرْطِ является
+                    <span className="contrast_2"> именным предложением </span>
+                  </div>
+                  <div className="arsent__original" style={{ paddingTop: 20 }}>
+                    <span> أن يكون الجوابُ </span>
+                    <span className="contrast_2"> فعلاً طلبيّا </span>
+                    <span> (و من أنواع الطلب: الأمرُ و النَّاهْيُ و الاسْتِفْهَامُ) </span>
+                  </div>
+                  <div className="arsent__translate">
+                    <span> (2) </span>
+                    Если глагол условия является требованием. Разновидности Требования являются: Приказ, Запрет, Вопрос
+                  </div>
                 </div>
-                <div className="arsent__translate">
-                  Обязательно использование союза <span className="contrast desc__ar"> ف </span> в следующих случаях
-                </div>
-                <div className="arsent__original" style={{ paddingTop: 20 }}>
-                  <span> أن يكون الجوابُ </span>
-                  <span className="contrast_2"> جملةً اسميّةً </span>
-                </div>
-                <div className="arsent__translate">
-                  <span> (1) </span>
-                  Если جَوَابُ الشَّرْطِ является
-                  <span className="contrast_2"> именным предложением </span>
-                </div>
-                <div className="arsent__original" style={{ paddingTop: 20 }}>
-                  <span> أن يكون الجوابُ </span>
-                  <span className="contrast_2"> فعلاً طلبيّا </span>
-                  <span> (و من أنواع الطلب: الأمرُ و النَّاهْيُ و الاسْتِفْهَامُ) </span>
-                </div>
-                <div className="arsent__translate">
-                  <span> (2) </span>
-                  Если глагол условия является требованием. Разновидности Требования являются: Приказ, Запрет, Вопрос
-                </div>
-              </div>
+              </AnimateCard>
 
               <div className="arsent">
                 <div className="arsent__original">
@@ -148,7 +151,7 @@ class Page extends React.Component {
                 </div>
               </div>
 
-              <h2 className="title"> Другой пример с إذا </h2>
+              <h2 className="title"> Другие примеры с إذا </h2>
 
               <div className="arsent">
                 <div className="arsent__original">
@@ -161,6 +164,19 @@ class Page extends React.Component {
                 <div className="arsent__translate">
                   Душа она жаждет (чего то), <span className="contrast"> если </span> ты ее провоцируешь (на это). А{' '}
                   <span className="contrast"> если </span> даешь ей мало (ограничиваешь её) она удовлетворяется малым
+                </div>
+              </div>
+
+              <div className="arsent">
+                <div className="arsent__original">
+                  <span className="contrast"> إذا </span>
+                  <span> لَمْ تَسْتَطِعْ شيئاً </span>
+                  <Word prefix="فَ" root="دَعْهُ" />
+                  <span> وجاوِزْهُ إلى ما تَسْتَطِيعُ </span>
+                </div>
+                <div className="arsent__translate">
+                  <span className="contrast"> Если </span> ты что то не можешь (например учишся, учишся, а тебя ступор),{' '}
+                  <span className="contrast"> то </span> оставь это. И приступи к тому что ты можешь осилить
                 </div>
               </div>
 
