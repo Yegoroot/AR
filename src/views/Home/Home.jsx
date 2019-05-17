@@ -17,7 +17,7 @@ import HeaderLinks from 'components/Header/HeaderLinks.jsx'
 // import { Link } from 'react-router-dom'
 
 // import Footer from 'components/Footer/Footer.jsx'
-import Card from './Sections/Card.jsx'
+// import Card from './Sections/Card.jsx'
 
 import componentsStyle from 'assets/jss/material-kit-react/views/components.jsx'
 
@@ -68,12 +68,12 @@ class Components extends React.Component {
         <div
           className={classNames(classes.main, classes.mainRaised)}
           style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}>
+          {/* <Card />
           <Card />
           <Card />
           <Card />
           <Card />
-          <Card />
-          <Card />
+          <Card /> */}
         </div>
         {/* <Footer /> */}
       </div>
