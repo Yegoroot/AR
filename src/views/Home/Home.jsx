@@ -1,20 +1,34 @@
 import React from 'react'
-// nodejs library that concatenates classes
+
 import withStyles from '@material-ui/core/styles/withStyles'
 import Header from 'components/Header/Header.jsx'
 import Parallax from 'components/Parallax/Parallax.jsx'
 import HeaderLinks from 'components/Header/HeaderLinks.jsx'
-
-// import { Link } from 'react-router-dom'
-
-// import Footer from "components/Footer/Footer.jsx";
-// import Card from './Sections/Card.jsx'
-
+// import { useSpring, animated } from 'react-spring'
+// import './s  tyle.css' // // Icons made by Freepik from www.flaticon.com
+//
 import componentsStyle from 'assets/jss/material-kit-react/views/components.jsx'
 
+// const calc = (x, y) => [x - window.innerWidth / 2, y - window.innerHeight / 2]
+// const trans1 = (x, y) => `translate3d(${x / 10}px,${y / 10}px,0)`
+// const trans2 = (x, y) => `translate3d(${x / 8 + 35}px,${y / 8 - 230}px,0)`
+// const trans3 = (x, y) => `translate3d(${x / 6 - 250}px,${y / 6 - 200}px,0)`
+// const trans4 = (x, y) => `translate3d(${x / 3.5}px,${y / 3.5}px,0)`
+// function Card() {
+//   const [props, set] = useSpring(() => ({ xy: [0, 0], config: { mass: 10, tension: 550, friction: 140 } }))
+//   return (
+//     <div class="animateContainer" onMouseMove={({ clientX: x, clientY: y }) => set({ xy: calc(x, y) })}>
+//       <animated.div class="card1" style={{ transform: props.xy.interpolate(trans1) }} />
+//       <animated.div class="card2" style={{ transform: props.xy.interpolate(trans2) }} />
+//       <animated.div class="card3" style={{ transform: props.xy.interpolate(trans3) }} />
+//       <animated.div class="card4" style={{ transform: props.xy.interpolate(trans4) }} />
+//     </div>
+//   )
+// }
 class Components extends React.Component {
   render() {
     const { classes, ...rest } = this.props
+
     return (
       <div>
         <Header
@@ -29,7 +43,6 @@ class Components extends React.Component {
           }}
           {...rest}
         />
-
         <Parallax style={{ height: '100vh' }} image={require('assets/img/bg4.jpg')}>
           <div className={classes.container}>
             <div className={classes.brand}>
@@ -39,32 +52,7 @@ class Components extends React.Component {
             </div>
           </div>
         </Parallax>
-
-        {/* <div className="temp">
-          <h4>Третий Том Мединского Курса</h4>
-                    Нахв это определение ролей у слов в предложении в то время как сарф это изучение самого слова (морфология)
-                    Другими словами Нахв разбирает связи между словами, какмие между слвоами отношения, но сарф это разбор слов индивидуально
-                    как будто других слов нет т.е вне зависимости от других слов
-                    <ul>
-                        <li>
-                            <Link to="/asd">Собирательная частица [4 урок, нахв]</Link>
-                        </li>
-                        <li />
-                    </ul>
-        </div> */}
-
-        {/* <div
-          className={classNames(classes.main, classes.mainRaised)}
-          style={{ display: "flex", flexWrap: "wrap", justifyContent: "center" }}
-        >
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-        </div> */}
-        {/* <Footer /> */}
+        {/* <Card />, */}
       </div>
     )
   }

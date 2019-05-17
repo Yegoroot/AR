@@ -6,7 +6,7 @@ import classNames from 'classnames'
 import { List, ListItem, withStyles } from '@material-ui/core'
 // import { Link } from "react-router-dom";
 // @material-ui/icons
-import Favorite from '@material-ui/icons/Favorite'
+// import Favorite from '@material-ui/icons/Favorite'
 
 import footerStyle from 'assets/jss/material-kit-react/components/footerStyle.jsx'
 
@@ -52,10 +52,10 @@ function Footer({ ...props }) {
                         </ListItem> */}
           </List>
         </div>
-        <div className={classes.right}>
-          {/* Создано с <Favorite className={classes.icon} /> для улучшения запомониания |{" "} */}
+        {/* <div className={classes.right}>
+          Создано с <Favorite className={classes.icon} /> для улучшения запомониания |{" "}
           С <Favorite className={classes.icon} /> {1900 + new Date().getYear()}
-        </div>
+        </div> */}
       </div>
     </footer>
   )
