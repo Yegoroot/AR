@@ -67,7 +67,7 @@ class ConcOfCond extends React.Component {
         <AnimateCard>
           <div className="arsent arsent_rule">
             <div className="arsent__original">
-              إذا وَقَعَ المضارعُ جواباً للطَّلبِ جَزمَ. و من أنواع الطَّلَبِ: الأمْرُ و النَّهْيُ, نحو: اِعْملْ عَمَلاً صالِحاً{' '}
+              إذا وَقَعَ المضارعُ جواباً للطَّلبِ جَزمَ. و من أنواع الطَّلَبِ: الأمْرُ و النَّهْيُ, نحو: اِعْملْ عَمَلاً صالِحاً
               <span className="contrast_2"> تَدْخُلِْ </span>
               الجَنَّةَ. لا تَكْسَلْ <span className="contrast_2"> تَنْجَحْ </span> .
             </div>
