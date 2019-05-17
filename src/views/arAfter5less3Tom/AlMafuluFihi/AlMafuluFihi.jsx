@@ -1,11 +1,11 @@
-import React from "react";
-import classNames from "classnames";
-import withStyles from "@material-ui/core/styles/withStyles";
-import Header from "components/Header/Header.jsx";
-import Footer from "components/Footer/Footer.jsx";
-import HeaderLinks from "components/Header/HeaderLinks.jsx";
-import Parallax from "components/Parallax/Parallax.jsx";
-import arabicPageStyle from "assets/jss/material-kit-react/views/arabicPage.jsx";
+import React from 'react'
+import classNames from 'classnames'
+import withStyles from '@material-ui/core/styles/withStyles'
+import Header from 'components/Header/Header.jsx'
+import Footer from 'components/Footer/Footer.jsx'
+import HeaderLinks from 'components/Header/HeaderLinks.jsx'
+import Parallax from 'components/Parallax/Parallax.jsx'
+import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
 
 /** ОБСТОЯТЕЛЬСТВО МЕСТО И ВРЕМЕНИ
  *
@@ -14,28 +14,28 @@ import arabicPageStyle from "assets/jss/material-kit-react/views/arabicPage.jsx"
  */
 class AlMafuluFihi extends React.Component {
   render() {
-    const { classes, ...rest } = this.props;
+    const { classes, ...rest } = this.props
 
     return (
       <div>
         <Header
           color="transparent"
-          brand="المَفْعُول فيه"
+          brand="ظَرْف. المَفْعُول فيه"
           isBrandAr
           rightLinks={<HeaderLinks />}
           fixed
           changeColorOnScroll={{
             height: 200,
-            color: "white"
+            color: 'white'
           }}
           {...rest}
         />
 
-        <Parallax small filter image={require("assets/img/mosque/mosque16.jpg")} />
+        <Parallax small filter image={require('assets/img/mosque/mosque23.jpg')} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="h1ar">المَفْعُول فيه</h1>
+              <h1 className="h1ar">ظَرْف. المَفْعُول فيه</h1>
 
               <div className="desc">
                 Обстоятельство места и времени
@@ -48,18 +48,13 @@ class AlMafuluFihi extends React.Component {
                   <span className="contrast_2"> وَصَلْتُ يوْم الثُلاثاءِ </span>.<span> هنا </span>
                   <span className="contrast_2"> يوم </span>
                   <span className="contrast"> مَفْعُول فيه </span>.
-                  <span>
-                    المَفْعول فيه اسمٌ مَنْصوبٌ يُذْكَرُ لِبَيانِ زمانِ الفِعْلِ أو مكانهِ, و يسمَّى
-                    أيضاً ظَرْفاً.
-                  </span>
+                  <span>المَفْعول فيه اسمٌ مَنْصوبٌ يُذْكَرُ لِبَيانِ زمانِ الفِعْلِ أو مكانهِ, و يسمَّى أيضاً ظَرْفاً.</span>
                 </div>
                 <div className="arsent__translate">
                   <span className="contrast_2"> Я прибыл во вторник </span> тут
-                  <span className="contrast_2 desc__ar"> يوم </span> является обстоятельством
-                  времени.
-                  <span className="contrast desc__ar"> المَفْعُول فيه </span> это имя стоящее в
-                  насбе (винительном падеже) которое упоминается для объяснения времени совершения
-                  действия или его места. Так же он называется
+                  <span className="contrast_2 desc__ar"> يوم </span> является обстоятельством времени.
+                  <span className="contrast desc__ar"> المَفْعُول فيه </span> это имя стоящее в насбе (винительном падеже) которое
+                  упоминается для объяснения времени совершения действия или его места. Так же он называется
                   <span className="contrast desc__ar"> ظَرْف </span>
                 </div>
               </div>
@@ -113,8 +108,7 @@ class AlMafuluFihi extends React.Component {
               </div>
               <h2 className="h2ar">بعضُ الظروف مَبْنِيَّةُ منها</h2>
               <div className="desc">
-                Некоторые <span className="desc__ar"> الظروف </span> Которые имеют не изменяемые
-                окончания
+                Некоторые <span className="desc__ar"> الظروف </span> Которые имеют не изменяемые окончания
               </div>
               <div className="arsent">
                 <div className="arsent__original">
@@ -168,12 +162,10 @@ class AlMafuluFihi extends React.Component {
               </div>
               <h2 className="h2ar">هناك أسماءُ تَنُوبُ عنِ الظرف</h2>
               <div className="desc">
-                Существуют имена заменяющие <span className="desc__ar"> الظرف </span>. Ниже будут
-                представлены несколько типов этих имён
+                Существуют имена заменяющие <span className="desc__ar"> الظرف </span>. Ниже будут представлены несколько типов этих имён
               </div>
               <h3 className="title">
-                1. Слово присоединенное к الظرف для указания на охват полного времени или места или
-                на его часть. Например:
+                1. Слово присоединенное к الظرف для указания на охват полного времени или места или на его часть. Например:
               </h3>
               <div className="arsent">
                 <div className="arsent__original">
@@ -202,8 +194,7 @@ class AlMafuluFihi extends React.Component {
                   Сидел долго. А в основе подразумевается
                   <span className="desc__ar"> وقتاً طويلاً, </span> Где
                   <span className="contrast desc__ar"> طَويلاً </span> определение
-                  <span className="desc__ar"> (صفةُ) </span> к обстоятельству места и времени. [и мы
-                  можем этот للظرف и не упоминать]
+                  <span className="desc__ar"> (صفةُ) </span> к обстоятельству места и времени. [и мы можем этот للظرف и не упоминать]
                 </div>
               </div>
               <h3 className="title">3. اسمُ الإِشارة так же может заменять للظرف </h3>
@@ -229,8 +220,8 @@ class AlMafuluFihi extends React.Component {
         </div>
         <Footer />
       </div>
-    );
+    )
   }
 }
 
-export default withStyles(arabicPageStyle)(AlMafuluFihi);
+export default withStyles(arabicPageStyle)(AlMafuluFihi)

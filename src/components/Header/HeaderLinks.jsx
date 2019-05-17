@@ -1,24 +1,24 @@
-import React from "react";
+import React from 'react'
 // react components for routing our app without refresh
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom'
 
 // @material-ui/core components
-import withStyles from "@material-ui/core/styles/withStyles";
-import List from "@material-ui/core/List";
-import ListItem from "@material-ui/core/ListItem";
+import withStyles from '@material-ui/core/styles/withStyles'
+import List from '@material-ui/core/List'
+import ListItem from '@material-ui/core/ListItem'
 // import Tooltip from '@material-ui/core/Tooltip'
 
 // @material-ui/icons
-import { Waves, Apps, Bookmarks, Book, Assignment } from "@material-ui/icons";
+import { Waves, Apps, Bookmarks, Book, Assignment } from '@material-ui/icons'
 
 // core components
-import CustomDropdown from "components/CustomDropdown/CustomDropdown.jsx";
+import CustomDropdown from 'components/CustomDropdown/CustomDropdown.jsx'
 // import Button from 'components/CustomButtons/Button.jsx'
 
-import headerLinksStyle from "assets/jss/material-kit-react/components/headerLinksStyle.jsx";
+import headerLinksStyle from 'assets/jss/material-kit-react/components/headerLinksStyle.jsx'
 
 function HeaderLinks({ ...props }) {
-  const { classes } = props;
+  const { classes } = props
   return (
     <List className={classes.list}>
       <ListItem className={classes.listItem}>
@@ -33,7 +33,7 @@ function HeaderLinks({ ...props }) {
           buttonText="Грамматика"
           buttonProps={{
             className: classes.navLink,
-            color: "transparent"
+            color: 'transparent'
           }}
           buttonIcon={Apps}
           dropdownList={[
@@ -53,7 +53,7 @@ function HeaderLinks({ ...props }) {
           // FSAr
           buttonProps={{
             className: classes.navLink,
-            color: "transparent"
+            color: 'transparent'
           }}
           buttonIcon={Bookmarks}
           dropdownList={[
@@ -82,7 +82,7 @@ function HeaderLinks({ ...props }) {
           // FSAr
           buttonProps={{
             className: classes.navLink,
-            color: "transparent"
+            color: 'transparent'
           }}
           buttonIcon={Book}
           dropdownList={[
@@ -132,7 +132,7 @@ function HeaderLinks({ ...props }) {
           // FSAr
           buttonProps={{
             className: classes.navLink,
-            color: "transparent"
+            color: 'transparent'
           }}
           buttonIcon={Assignment}
           dropdownList={[
@@ -174,7 +174,7 @@ function HeaderLinks({ ...props }) {
           // FSAr
           buttonProps={{
             className: classes.navLink,
-            color: "transparent"
+            color: 'transparent'
           }}
           buttonIcon={Waves}
           dropdownList={[
@@ -194,7 +194,10 @@ function HeaderLinks({ ...props }) {
               Мн. и дв. число
             </Link>,
             <Link to="/almafulufihi" style={{ fontSize: 20 }} className={classes.dropdownLink}>
-              المَفْعُول فيه
+              ظَرْف. المَفْعُول فيه
+            </Link>,
+            <Link to="/thorfitha" style={{ fontSize: 20 }} className={classes.dropdownLink}>
+              ظَرْف إذا
             </Link>,
             <Link to="/minqoblu" style={{ fontSize: 20 }} className={classes.dropdownLink}>
               مِن قبلُ
@@ -260,7 +263,7 @@ function HeaderLinks({ ...props }) {
 				</Tooltip>
 			</ListItem> */}
     </List>
-  );
+  )
 }
 
-export default withStyles(headerLinksStyle)(HeaderLinks);
+export default withStyles(headerLinksStyle)(HeaderLinks)
