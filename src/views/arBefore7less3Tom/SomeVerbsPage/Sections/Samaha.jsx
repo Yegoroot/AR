@@ -1,14 +1,14 @@
-import React from "react";
-import withStyles from "@material-ui/core/styles/withStyles";
-import Word from "components/word";
+import React from 'react'
+import withStyles from '@material-ui/core/styles/withStyles'
+import Word from 'components/word'
 
-import arabicPage from "assets/jss/material-kit-react/views/arabicPage.jsx";
+import arabicPage from 'assets/jss/material-kit-react/views/arabicPage.jsx'
 
 class Samaha extends React.Component {
   render() {
     return (
       <div id="samaha">
-        <h2 className="title h2ar contrast">سَمَحَ</h2>
+        <h2 className="title h2ar">سَمَحَ</h2>
 
         <div className="desc">
           Это фразовый глагол, который требует два условия: <b> Первое </b> тот кто разрешает,
@@ -44,8 +44,8 @@ class Samaha extends React.Component {
           </div>
         </div>
       </div>
-    );
+    )
   }
 }
 
-export default withStyles(arabicPage)(Samaha);
+export default withStyles(arabicPage)(Samaha)

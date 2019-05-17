@@ -1,12 +1,12 @@
-import React from "react";
-import withStyles from "@material-ui/core/styles/withStyles";
-import arabicPage from "assets/jss/material-kit-react/views/arabicPage.jsx";
+import React from 'react'
+import withStyles from '@material-ui/core/styles/withStyles'
+import arabicPage from 'assets/jss/material-kit-react/views/arabicPage.jsx'
 
 class Munthu extends React.Component {
   render() {
     return (
       <div id="munzu">
-        <h2 className="title h2ar contrast">مُنْذُ</h2>
+        <h2 className="title h2ar">مُنْذُ</h2>
         <div className="desc">Главные смыслы "тому назад", "до тех пор", "уже", "с (времени)"</div>
 
         <div className="arsent">
@@ -40,13 +40,12 @@ class Munthu extends React.Component {
             ما تَكَلّمتُ معَ أبِي <span className="contrast"> مُنْذُ </span> رَجَعَهُ من مصرِ
           </div>
           <div className="arsent__translate">
-            Не разговаривал с Отцом <span className="contrast"> с тех пор как </span> он вернулся из
-            Египта
+            Не разговаривал с Отцом <span className="contrast"> с тех пор как </span> он вернулся из Египта
           </div>
         </div>
       </div>
-    );
+    )
   }
 }
 
-export default withStyles(arabicPage)(Munthu);
+export default withStyles(arabicPage)(Munthu)

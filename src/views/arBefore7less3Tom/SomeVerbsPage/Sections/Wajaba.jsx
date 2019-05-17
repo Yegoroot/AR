@@ -1,12 +1,10 @@
-import React from "react";
+import React from 'react'
 
 function Wajaba() {
   return (
     <div id="Wajaba">
-      <h2 className="title h2ar contrast">وَجَبَ - يَجِبُ</h2>
-      <div className="desc">
-        Имеет вид ТОЛЬКО в 3 лице, мужском роде, прошедшем или настоящем времени
-      </div>
+      <h2 className="title h2ar">وَجَبَ - يَجِبُ</h2>
+      <div className="desc">Имеет вид ТОЛЬКО в 3 лице, мужском роде, прошедшем или настоящем времени</div>
 
       <h3 className="title">Структура 1</h3>
 
@@ -26,12 +24,10 @@ function Wajaba() {
 
       <h3 className="title">Структура 2 (более популярная)</h3>
       <div className="arsent">
-        <div className="arsent__original contrast_2">
-          يَجِبُ + على (ي - كَ - كِ - ..) + أن + الفعْل في الماضارع
-        </div>
+        <div className="arsent__original contrast_2">يَجِبُ + على (ي - كَ - كِ - ..) + أن + الفعْل في الماضارع</div>
       </div>
     </div>
-  );
+  )
 }
 
-export default Wajaba;
+export default Wajaba
