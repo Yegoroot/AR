@@ -44,11 +44,11 @@ h3
   @media screen and (max-width: 992px)
     margin-bottom: 30px
   &__original
-    line-height: 1.5
+    line-height: 1.9
     font-size: 30px
   &__translate
+    line-height: 1.5
     font-size: 0.9rem
-    padding-top: 3px
 
     
 // FLEXABILITY
@@ -64,6 +64,7 @@ h3
 // THEME
 .arsent
   &_rule
+    display: inline-block /// ------------------------
     box-shadow: $bmd-shadow-8dp
     background: $gray-900
     color: $white
@@ -80,8 +81,8 @@ h3
         color: $cyan
     .arsent__translate
       font-size: 19px
-      padding-top: 13px
-      line-height: initial
+      // padding-top: 13px
+      line-height: inherit
 
 
 
@@ -95,8 +96,22 @@ h3
   padding: 20px
   margin: 10px
   transition: .3s
+  .arsent
+    flex-direction: column
+    align-items: flex-end
   h2, h3
     margin-top: inherit
   &:hover
     box-shadow: $bmd-shadow-4dp
 
+.items
+  &_noborder
+    .item
+      box-shadow: none
+      margin: 0
+      &:hover
+        box-shadow: none
+
+
+.animate-card
+   display: inline-block

@@ -65,7 +65,7 @@ class Page extends React.Component {
               <AnimateCard>
                 <div className="arsent arsent_rule">
                   <div className="arsent__original">
-                    <span> يَجِبُ اقْتِرانُ جوابِ الشرط بالفاء </span>
+                    <span> يَجِبُ اقْتِرانُ جوابِ الشرط </span>
                     <span className="contrast"> بالفاء </span>
                     <span> في مواضِعَ, منها </span>
                   </div>

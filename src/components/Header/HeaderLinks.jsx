@@ -190,18 +190,23 @@ function HeaderLinks({ ...props }) {
             <Link to="/chislitel100" className={classes.dropdownLink}>
               Числительные с 100
             </Link>,
+            <Link to="/minqoblu" style={{ fontSize: 20 }} className={classes.dropdownLink}>
+              مِن قبلُ
+            </Link>,
             <Link to="/puraldual" className={classes.dropdownLink}>
               Мн. и дв. число
             </Link>,
             <Link to="/almafulufihi" style={{ fontSize: 20 }} className={classes.dropdownLink}>
-              ظَرْف. المَفْعُول فيه
+              المَفْعُول فيه. ظَرْف
             </Link>,
+            // <Link className={classes.dropdownLink}>---- эти темы связаны --------</Link>,
             <Link to="/thorfitha" style={{ fontSize: 20 }} className={classes.dropdownLink}>
-              ظَرْف إذا
+              شَرْط. ظَرْف إذا
             </Link>,
-            <Link to="/minqoblu" style={{ fontSize: 20 }} className={classes.dropdownLink}>
-              مِن قبلُ
+            <Link to="/adatushart" style={{ fontSize: 20 }} className={classes.dropdownLink}>
+              شَرْط. إنْ
             </Link>
+            // <Link className={classes.dropdownLink}>------- эти темы связаны -----</Link>
           ]}
         />
       </ListItem>

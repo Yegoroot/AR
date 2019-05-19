@@ -48,6 +48,7 @@ import AlMafuluFihi from 'views/arAfter5less3Tom/AlMafuluFihi/AlMafuluFihi'
 import HarfulAw from 'views/arAfter5less3Tom/HarfulAw/HarfulAw'
 import MinQoblu from 'views/arAfter5less3Tom/MinQoblu/MinQoblu'
 import ThorfItha from 'views/arAfter5less3Tom/ThorfItha/ThorfItha'
+import AdatuShart from 'views/arAfter5less3Tom/AdatuShart/AdatuShart'
 
 var indexRoutes = [
   /** after 3 tom 5lesson */
@@ -58,6 +59,7 @@ var indexRoutes = [
   { path: '/harfulaw', name: 'HarfulAw', component: HarfulAw },
   { path: '/minqoblu', name: 'MinQoblu', component: MinQoblu },
   { path: '/thorfitha', name: 'ThorfItha', component: ThorfItha },
+  { path: '/adatushart', name: 'AdatuShart', component: AdatuShart },
 
   /** new level 3 tom */
   { path: '/pages/:id', name: 'Pages', component: Pages },
