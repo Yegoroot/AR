@@ -81,7 +81,6 @@ h3
         color: $cyan
     .arsent__translate
       font-size: 19px
-      // padding-top: 13px
       line-height: inherit
 
 
@@ -93,9 +92,13 @@ h3
 .item
   box-shadow: $bmd-shadow-2dp
   border-radius: 10px
-  padding: 20px
-  margin: 10px
+  padding: 40px
+  margin-bottom: 30px
+  margin-left: 40px
   transition: .3s
+  @media screen and (max-width: 480px)
+    padding: 20
+    margin-left: 0px
   .arsent
     flex-direction: column
     align-items: flex-end
@@ -113,5 +116,8 @@ h3
         box-shadow: none
 
 
+/**
+  animate-card
+  *****/
 .animate-card
    display: inline-block

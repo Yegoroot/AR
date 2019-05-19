@@ -50,7 +50,7 @@ class IdafaPage extends React.Component {
                 <div className="arsent__translate">Карандаш ученика</div>
               </div>
 
-              <h2> Первая часть идафы </h2>
+              <h2 className="title"> Первая часть идафы </h2>
               <div className="desc">
                 Не принимает ни танвина ни определенного артикля т.е стоит в так называемом "сопряженном состоянии". В зависимости от
                 местоположения может быть в любом падеже
@@ -71,7 +71,7 @@ class IdafaPage extends React.Component {
                 </div>
               </div>
 
-              <h2>Вторая часть идафы</h2>
+              <h2 className="title">Вторая часть идафы</h2>
 
               <div className="desc">
                 Может стоять как в определенном состоянии так и в не определенном состоянии
@@ -92,7 +92,7 @@ class IdafaPage extends React.Component {
                 <div className="arsent__translate">Тетрадь (известного) студента</div>
               </div>
 
-              <h2>Притяжательное местоимение является второй частью идафы</h2>
+              <h2 className="title">Притяжательное местоимение является второй частью идафы</h2>
               <div className="arsent">
                 <div className="arsent__original">
                   <Word root="بيت" suffix="ه" /> <Word root="بيت" suffix="ها" /> <Word root="بيت" suffix="كم" />

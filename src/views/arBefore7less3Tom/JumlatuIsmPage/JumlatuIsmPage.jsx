@@ -1,22 +1,22 @@
-import React from "react";
+import React from 'react'
 // nodejs library that concatenates classes
-import classNames from "classnames";
+import classNames from 'classnames'
 // @material-ui/core components
-import withStyles from "@material-ui/core/styles/withStyles";
+import withStyles from '@material-ui/core/styles/withStyles'
 
 // core components
-import Footer from "components/Footer/Footer.jsx";
-import Header from "components/Header/Header.jsx";
+import Footer from 'components/Footer/Footer.jsx'
+import Header from 'components/Header/Header.jsx'
 
-import HeaderLinks from "components/Header/HeaderLinks.jsx";
+import HeaderLinks from 'components/Header/HeaderLinks.jsx'
 
-import Parallax from "components/Parallax/Parallax.jsx";
+import Parallax from 'components/Parallax/Parallax.jsx'
 
-import arabicPageStyle from "assets/jss/material-kit-react/views/arabicPage.jsx";
+import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
 
 class JumlatuIsmPage extends React.Component {
   render() {
-    const { classes, ...rest } = this.props;
+    const { classes, ...rest } = this.props
 
     return (
       <div>
@@ -28,30 +28,26 @@ class JumlatuIsmPage extends React.Component {
           fixed
           changeColorOnScroll={{
             height: 200,
-            color: "white"
+            color: 'white'
           }}
           {...rest}
         />
 
-        <Parallax small filter image={require("assets/img/mosque/mosque5.jpg")} />
+        <Parallax small filter image={require('assets/img/mosque/mosque5.jpg')} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className={classes.title}>Именное предложение</h1>
+              <h1 className="title">Именное предложение</h1>
 
               <p className="desc">
-                Именное предложение – это предложение, которое начинается с имени. Например:{" "}
-                <span className="desc__ar"> الطالِب مجتهد </span> Студент прилежен Подлежащее
-                именного предложения <span className="desc__ar"> (المُبْتَدَأُ) </span> ставится,
-                как правило, в определённом состоянии, а сказуемое{" "}
+                Именное предложение – это предложение, которое начинается с имени. Например:
+                <span className="desc__ar"> الطالِب مجتهد </span> Студент прилежен Подлежащее именного предложения{' '}
+                <span className="desc__ar"> (المُبْتَدَأُ) </span> ставится, как правило, в определённом состоянии, а сказуемое
                 <span className="desc__ar"> (الخَبَرُ) </span> - в неопределённом.
               </p>
 
-              <h3>Сказуемое выраженное именем</h3>
-              <p className="desc">
-                Если сказуемое именного предложения является именем, то оно согласуется с подлежащим
-                в числе и роде:
-              </p>
+              <h3 className="title">Сказуемое выраженное именем</h3>
+              <p className="desc">Если сказуемое именного предложения является именем, то оно согласуется с подлежащим в числе и роде:</p>
               <div className="arsent">
                 <div className="arsent__original">
                   التّلميذُ <span className="contrast"> نشيط </span>
@@ -77,7 +73,7 @@ class JumlatuIsmPage extends React.Component {
                 <div className="arsent__translate">Ученицы активны</div>
               </div>
 
-              <h3>Сказуемое выраженное глаголом</h3>
+              <h3 className="title">Сказуемое выраженное глаголом</h3>
               <div className="arsent">
                 <div className="arsent__original">
                   زيدٌ <span className="contrast"> فتح </span> الباب
@@ -85,7 +81,7 @@ class JumlatuIsmPage extends React.Component {
                 <div className="arsent__translate">Зейд открыл дверь</div>
               </div>
 
-              <h3>Сказумеое выраженное идафой обстоятельства и имени</h3>
+              <h3 className="title">Сказумеое выраженное идафой обстоятельства и имени</h3>
               <div className="arsent">
                 <div className="arsent__original">
                   السّيّارةُ <span className="contrast"> أَمامَ البيتِ </span>
@@ -93,7 +89,7 @@ class JumlatuIsmPage extends React.Component {
                 <div className="arsent__translate">Машина перед домом</div>
               </div>
 
-              <h3>Сказуемое выраженое сочетанием предлога родительного падежа и имени</h3>
+              <h3 className="title">Сказуемое выраженое сочетанием предлога родительного падежа и имени</h3>
               <div className="arsent">
                 <div className="arsent__original">
                   التّلميذُ <span className="contrast"> فى المدرسةِ </span>
@@ -105,8 +101,8 @@ class JumlatuIsmPage extends React.Component {
         </div>
         <Footer />
       </div>
-    );
+    )
   }
 }
 
-export default withStyles(arabicPageStyle)(JumlatuIsmPage);
+export default withStyles(arabicPageStyle)(JumlatuIsmPage)
