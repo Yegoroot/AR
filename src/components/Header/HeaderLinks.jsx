@@ -37,6 +37,12 @@ function HeaderLinks({ ...props }) {
           }}
           buttonIcon={Apps}
           dropdownList={[
+            <Link to="/idafa" className={classes.dropdownLink}>
+              Не согласованное определение
+            </Link>,
+            <Link to="/soglasopr" className={classes.dropdownLink}>
+              Согласованное определение
+            </Link>,
             <Link to="/jumlatuhaal" className={classes.dropdownLink} style={{ fontSize: 20 }}>
               جملة الحال
             </Link>,
@@ -107,20 +113,14 @@ function HeaderLinks({ ...props }) {
             <Link to="/abjectivedegrees" className={classes.dropdownLink}>
               Степени прилагательного
             </Link>,
-            <Link to="/idafa" className={classes.dropdownLink}>
-              Не согласованное определение
-            </Link>,
-            <Link to="/soglasopr" className={classes.dropdownLink}>
-              Согласованное определение
-            </Link>,
             <Link to="/affectionateword" className={classes.dropdownLink}>
               Уменьшительно ласкательные
             </Link>,
             <Link to="/ism5" className={classes.dropdownLink}>
               Спряжение 5 имён
             </Link>,
-            <Link to="/ladayya" className={classes.dropdownLink} style={{ fontSize: 20 }}>
-              لَدَى
+            <Link to="/someism" className={classes.dropdownLink}>
+              Некоторые имена
             </Link>
           ]}
         />

@@ -26,7 +26,6 @@ import SomeVerbsPage from 'views/arBefore7less3Tom/SomeVerbsPage/SomeVerbsPage'
 import Asmaulafal from 'views/arBefore7less3Tom/Asmaulafal/Asmaulafal'
 import DuaPage from 'views/arBefore7less3Tom/DuaPage/DuaPage'
 import HarfManAzzoidatuPage from 'views/arBefore7less3Tom/HarfManAzzoidatuPage/HarfManAzzoidatuPage'
-import LadayyaPage from 'views/arBefore7less3Tom/LadayyaPage/LadayyaPage'
 import FialMabniLilmajhun from 'views/arBefore7less3Tom/FialMabniLilmajhun/FialMabniLilmajhun'
 
 // недоделанный (начатый эпизод)
@@ -49,6 +48,7 @@ import HarfulAw from 'views/arAfter5less3Tom/HarfulAw/HarfulAw'
 import MinQoblu from 'views/arAfter5less3Tom/MinQoblu/MinQoblu'
 import ThorfItha from 'views/arAfter5less3Tom/ThorfItha/ThorfItha'
 import AdatuShart from 'views/arAfter5less3Tom/AdatuShart/AdatuShart'
+import SomeIsm from 'views/arAfter5less3Tom/SomeIsm/SomeIsm'
 
 var indexRoutes = [
   /** after 3 tom 5lesson */
@@ -60,6 +60,7 @@ var indexRoutes = [
   { path: '/minqoblu', name: 'MinQoblu', component: MinQoblu },
   { path: '/thorfitha', name: 'ThorfItha', component: ThorfItha },
   { path: '/adatushart', name: 'AdatuShart', component: AdatuShart },
+  { path: '/someism', name: 'SomeIsm', component: SomeIsm },
 
   /** new level 3 tom */
   { path: '/pages/:id', name: 'Pages', component: Pages },
@@ -72,7 +73,6 @@ var indexRoutes = [
 
   /** */
   { path: '/fialmabnililmajhun', name: 'FialMabniLilmajhun', component: FialMabniLilmajhun },
-  { path: '/ladayya', name: 'LadayyaPage', component: LadayyaPage },
   { path: '/harfazzoidatu', name: 'HarfManAzzoidatuPage', component: HarfManAzzoidatuPage },
   { path: '/dua', name: 'DuaPage', component: DuaPage },
   { path: '/asmaulafal', name: 'Asmaulafal', component: Asmaulafal },
