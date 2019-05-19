@@ -1,115 +1,98 @@
-import React from "react";
+import React from 'react'
 // nodejs library that concatenates classes
-import classNames from "classnames";
+import classNames from 'classnames'
 
-import { Paper /*Tooltip, Button */ } from "@material-ui/core";
-// @material-ui/core components
-import withStyles from "@material-ui/core/styles/withStyles";
+import withStyles from '@material-ui/core/styles/withStyles'
 
 // core components
-import Header from "components/Header/Header.jsx";
-import Footer from "components/Footer/Footer.jsx";
+import Header from 'components/Header/Header.jsx'
+import Footer from 'components/Footer/Footer.jsx'
+import HeaderLinks from 'components/Header/HeaderLinks.jsx'
 
-// import Word from 'components/word'
-import ContrastWord from "components/Typography/ContrastWord.jsx";
-import ArSent from "components/Typography/ArSent.jsx";
+import Parallax from 'components/Parallax/Parallax.jsx'
 
-import HeaderLinks from "components/Header/HeaderLinks.jsx";
-
-import Parallax from "components/Parallax/Parallax.jsx";
-
-import arabicPageStyle from "assets/jss/material-kit-react/views/arabicPage.jsx";
+import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
 
 class MasdarPage extends React.Component {
   render() {
-    const { classes, ...rest } = this.props;
+    const { classes, ...rest } = this.props
 
     return (
       <div>
         <Header
           color="transparent"
           brand="Масдар"
-          isBrandAr
           rightLinks={<HeaderLinks />}
           fixed
           changeColorOnScroll={{
             height: 200,
 
-            color: "white"
+            color: 'white'
           }}
           {...rest}
         />
 
-        <Parallax small filter image={require("assets/img/mosque/mosque8.jpg")} />
+        <Parallax small filter image={require('assets/img/mosque/mosque8.jpg')} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className={classes.title}>Масдар</h1>
-              <h3 className={classes.title}>Отвечает на вопрос "Что делать?", "Что сделать?"</h3>
-              <p>
-                АльМасдар это аргументы между людьми (была курица первой или яйцо) (глагол был или
-                масдар). Масдар существительное и потому принимает артикль, танвин, та марбуту и
-                иногда ставится во множественное число. Он не привязан ко времени, как например
-                слово "любовь", "надежда". Масдар это факт, утверждение
-              </p>
-              <h4>
-                Я <ContrastWord red>пойду</ContrastWord> на море следующим летом{" "}
-                <ContrastWord red>(глагол)</ContrastWord>
-                <br />
-                Интересно <ContrastWord red>ходить </ContrastWord> на море{" "}
-                <ContrastWord red> (масдар)</ContrastWord>
-              </h4>
+              <h1 className="title">Масдар</h1>
 
-              <p>Проанализируйте следующие примеры</p>
-              <ArSent
-                translate={
-                  <div>
-                    Хочу <ContrastWord red>пойти </ContrastWord> к ...
-                  </div>
-                }
-              >
-                ... أريدٌ أن <ContrastWord red> أذْهبُ </ContrastWord> الي
-              </ArSent>
-              <ArSent
-                translate={
-                  <div>
-                    Хочу <ContrastWord red>ходить </ContrastWord> к ...
-                  </div>
-                }
-              >
-                ... أريدٌ أن <ContrastWord red> الَّذهاب </ContrastWord> الي
-              </ArSent>
+              <div className="desc">
+                Масдар существительное и потому принимает артикль, танвин, та марбуту и иногда ставится во множественное число. Он не
+                привязан ко времени, как например слово "любовь", "надежда". Масдар это выражение глагола через существительное
+              </div>
 
-              <Paper>
-                <div className="wrap1">
-                  <p>Еще примеры с масдаром</p>
-                  <ArSent
-                    translate={
-                      <div>
-                        Должен <ContrastWord red>обучаться</ContrastWord> ребенок плаванию
-                      </div>
-                    }
-                  >
-                    يَجِبُ <ContrastWord red> تَعلِيم </ContrastWord> الطّفل السِباحة
-                  </ArSent>
-                  <ArSent
-                    translate={
-                      <div>
-                        <ContrastWord red>Чтение </ContrastWord> книг полезно для ума
-                      </div>
-                    }
-                  >
-                    <ContrastWord red> قِرَاءَة </ContrastWord> الكُتُب مُفيدَة لِلعَقل
-                  </ArSent>
+              <h3 className="title">Глагол и масдар</h3>
+
+              <div className="arsent">
+                <div className="arsent__original">
+                  <span> أريدٌ أن </span>
+                  <span className="contrast"> أذْهبُ </span>
+                  <span> الي </span>
                 </div>
-              </Paper>
+                <div className="arsent__translate">
+                  Хочу <span className="contrast">пойти </span> к ...
+                </div>
+              </div>
+
+              <div className="arsent">
+                <div className="arsent__original">
+                  <span> أريدٌ أن </span>
+                  <span className="contrast"> الَّذهاب </span>
+                  <span> الي </span>
+                </div>
+                <div className="arsent__translate">
+                  Хочу <span className="contrast">ходить </span> к ...
+                </div>
+              </div>
+
+              <h3 className="title">Дополнительные примеры с масдаром</h3>
+
+              <div className="arsent">
+                <div className="arsent__original">
+                  يَجِبُ <span className="contrast"> تَعلِيم </span> الطّفل السِباحة
+                </div>
+                <div className="arsent__translate">
+                  Должен <span className="contrast">обучаться</span> ребенок плаванию
+                </div>
+              </div>
+
+              <div className="arsent">
+                <div className="arsent__original">
+                  <span className="contrast"> قِرَاءَة </span> الكُتُب مُفيدَة لِلعَقل
+                </div>
+                <div className="arsent__translate">
+                  <span className="contrast">Чтение </span> книг полезно для ума
+                </div>
+              </div>
             </div>
           </div>
         </div>
         <Footer />
       </div>
-    );
+    )
   }
 }
 
-export default withStyles(arabicPageStyle)(MasdarPage);
+export default withStyles(arabicPageStyle)(MasdarPage)

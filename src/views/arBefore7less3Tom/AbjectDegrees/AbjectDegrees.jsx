@@ -1,28 +1,25 @@
-import React from "react";
+import React from 'react'
 // nodejs library that concatenates classes
-import classNames from "classnames";
+import classNames from 'classnames'
 
 // @material-ui/core components
-import withStyles from "@material-ui/core/styles/withStyles";
+import withStyles from '@material-ui/core/styles/withStyles'
 
 // core components
-import Header from "components/Header/Header.jsx";
-import Footer from "components/Footer/Footer.jsx";
+import Header from 'components/Header/Header.jsx'
+import Footer from 'components/Footer/Footer.jsx'
 
-import ContrastWord from "components/Typography/ContrastWord.jsx";
-import ArSent from "components/Typography/ArSent.jsx";
+import HeaderLinks from 'components/Header/HeaderLinks.jsx'
 
-import HeaderLinks from "components/Header/HeaderLinks.jsx";
+import Parallax from 'components/Parallax/Parallax.jsx'
 
-import Parallax from "components/Parallax/Parallax.jsx";
+import Word from 'components/word'
 
-import Word from "components/word";
-
-import arabicPageStyle from "assets/jss/material-kit-react/views/arabicPage.jsx";
+import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
 
 class AbjectDegrees extends React.Component {
   render() {
-    const { classes, ...rest } = this.props;
+    const { classes, ...rest } = this.props
 
     return (
       <div>
@@ -35,57 +32,50 @@ class AbjectDegrees extends React.Component {
           changeColorOnScroll={{
             height: 200,
 
-            color: "white"
+            color: 'white'
           }}
           {...rest}
         />
 
-        <Parallax small filter image={require("assets/img/mosque/mosque11.jpg")} />
+        <Parallax small filter image={require('assets/img/mosque/mosque11.jpg')} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className={classes.title}>Превосходная и сравнительная степень</h1>
+              <h1 className="title">Превосходная и сравнительная степень</h1>
 
-              <p>
-                Прилагательные можно разделить на три группы Сравнительные Превосходные и
-                Обыкновенные
-              </p>
-              <h2 className={classes.title}>
-                Сравнительная степень <ContrastWord> أفْعَل مِنْهُ</ContrastWord>
-              </h2>
+              <div className="desc">
+                Прилагательные можно разделить на три группы <b>сравнительные</b>, <b>превосходные</b> и обыкновенные
+              </div>
+              <h2 className="title">Сравнительная степень أفْعَل مِنْهُ</h2>
 
-              <ArSent
-                translate={
-                  <div>
-                    Хашим высокий, но Хамид <ContrastWord red>выше его </ContrastWord>
-                  </div>
-                }
-              >
-                هاشم طويل و حامد <ContrastWord red>أطْوَلُ </ContrastWord>
-                <Word prefix="مِنْ" root="هُ" />
-              </ArSent>
+              <div className="arsent">
+                <div className="arsent__original">
+                  هاشم طويل و حامد <span className="contrast"> أطْوَلُ </span>
+                  <Word prefix="مِنْ" root="هُ" />
+                </div>
+                <div className="arsent__translate">
+                  Хашим высокий, но Хамид <span className="contrast">выше его </span>
+                </div>
+              </div>
 
-              <h2 className={classes.title}>Превосходная степень</h2>
-              <p>"Один из сАмых". Изофетная связка</p>
-              <ArSent
-                translate={
-                  <div>
-                    Мухаммад <ContrastWord red>сАамый лучший</ContrastWord>{" "}
-                    <ContrastWord blue>студент</ContrastWord> в классе{" "}
-                    <ContrastWord blue>( Идафа )</ContrastWord>
-                  </div>
-                }
-              >
-                محمد <ContrastWord red> أحْسَنُ </ContrastWord>{" "}
-                <ContrastWord blue> طَالِبٍ </ContrastWord> في الفصلِ
-              </ArSent>
+              <h2 className="title">Превосходная степень</h2>
+              <div className="desc">"Один из сАмых". Изофетная связка</div>
+              <div className="arsent">
+                <div className="arsent__original">
+                  محمد <span className="contrast"> أحْسَنُ </span> <span className="contrast_2"> طَالِبٍ </span> في الفصلِ
+                </div>
+                <div className="arsent__translate">
+                  Мухаммад <span className="contrast"> сАамый лучший</span> <span className="contrast_2">студент</span> в классе
+                  <span className="contrast_2">( Идафа )</span>
+                </div>
+              </div>
             </div>
           </div>
         </div>
         <Footer />
       </div>
-    );
+    )
   }
 }
 
-export default withStyles(arabicPageStyle)(AbjectDegrees);
+export default withStyles(arabicPageStyle)(AbjectDegrees)
