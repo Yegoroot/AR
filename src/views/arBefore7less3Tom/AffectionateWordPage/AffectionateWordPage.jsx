@@ -1,26 +1,23 @@
-import React from "react";
+import React from 'react'
 // nodejs library that concatenates classes
-import classNames from "classnames";
+import classNames from 'classnames'
 
 // @material-ui/core components
-import withStyles from "@material-ui/core/styles/withStyles";
+import withStyles from '@material-ui/core/styles/withStyles'
 
 // core components
-import Header from "components/Header/Header.jsx";
-import Footer from "components/Footer/Footer.jsx";
+import Header from 'components/Header/Header.jsx'
+import Footer from 'components/Footer/Footer.jsx'
 
-import ContrastWord from "components/Typography/ContrastWord.jsx";
-import ArSent from "components/Typography/ArSent.jsx";
+import HeaderLinks from 'components/Header/HeaderLinks.jsx'
 
-import HeaderLinks from "components/Header/HeaderLinks.jsx";
+import Parallax from 'components/Parallax/Parallax.jsx'
 
-import Parallax from "components/Parallax/Parallax.jsx";
-
-import arabicPageStyle from "assets/jss/material-kit-react/views/arabicPage.jsx";
+import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
 
 class AffectionateWordPage extends React.Component {
   render() {
-    const { classes, ...rest } = this.props;
+    const { classes, ...rest } = this.props
 
     return (
       <div>
@@ -32,33 +29,81 @@ class AffectionateWordPage extends React.Component {
           changeColorOnScroll={{
             height: 200,
 
-            color: "white"
+            color: 'white'
           }}
           {...rest}
         />
 
-        <Parallax small filter image={require("assets/img/mosque/mosque16.jpg")} />
+        <Parallax small filter image={require('assets/img/mosque/mosque18.jpg')} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className={classes.title}>Уменьшительно ласкательные</h1>
+              <h1 className="title">Уменьшительно ласкательные</h1>
 
-              <ArSent translate={"Мальчёнка, мальчишка"}>
-                <ContrastWord red> وُلَيْدُ </ContrastWord>: وَلَدُ صَغِير
-              </ArSent>
-              <ArSent translate={"Горка"}>
-                <ContrastWord red> جُبَيْلُ </ContrastWord>: جَبَلُ صَغِير
-              </ArSent>
-              <ArSent translate={"Речка"}>
-                <ContrastWord red> نُهَيْرُ </ContrastWord>: نَهْرُ صَغِير
-              </ArSent>
+              <div className="desc">Существуют три модели уменьшительно ласкательных имён</div>
+              <h2 className="title h2ar"> فُعَيْلُ </h2>
+
+              <div className="arsent">
+                <div className="arsent__original">
+                  <span className="contrast"> وُلَيْدُ </span>: وَلَدُ صَغِير
+                </div>
+                <div className="arsent__translate">Мальчёнка, мальчишка</div>
+              </div>
+              <div className="arsent">
+                <div className="arsent__original">
+                  <span className="contrast"> جُبَيْلُ </span>: جَبَلُ صَغِير
+                </div>
+                <div className="arsent__translate">Горка</div>
+              </div>
+              <div className="arsent">
+                <div className="arsent__original">
+                  <span className="contrast"> نُهَيْرُ </span>: نَهْرُ صَغِير
+                </div>
+                <div className="arsent__translate">Речка</div>
+              </div>
+
+              <h2 className="title h2ar"> فُعَيْعِل </h2>
+
+              <div className="arsent">
+                <div className="arsent__original">
+                  <span className="contrast"> فُنَيْدِق </span> من فُنْدُق
+                </div>
+                <div className="arsent__translate">Отельчик</div>
+              </div>
+              <div className="arsent">
+                <div className="arsent__original">
+                  <span className="contrast"> كُتَيِّب </span> من كتاب
+                </div>
+                <div className="arsent__translate">Книжечка</div>
+              </div>
+              <div className="arsent">
+                <div className="arsent__original">
+                  <span className="contrast"> شُدَيِّد </span> من شَدِيْد
+                </div>
+                <div className="arsent__translate">от слова Сильный )</div>
+              </div>
+
+              <h2 className="title h2ar"> فُعَيْعِيل </h2>
+
+              <div className="arsent">
+                <div className="arsent__original">
+                  <span className="contrast"> مُفَيْتِيحُ </span> من مِفْتاح
+                </div>
+                <div className="arsent__translate">Ключик</div>
+              </div>
+              <div className="arsent">
+                <div className="arsent__original">
+                  <span className="contrast"> فُنَيْجِين </span> من فِنْجان
+                </div>
+                <div className="arsent__translate">Чашечка</div>
+              </div>
             </div>
           </div>
         </div>
         <Footer />
       </div>
-    );
+    )
   }
 }
 
-export default withStyles(arabicPageStyle)(AffectionateWordPage);
+export default withStyles(arabicPageStyle)(AffectionateWordPage)
