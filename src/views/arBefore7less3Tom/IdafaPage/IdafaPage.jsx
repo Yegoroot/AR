@@ -1,28 +1,22 @@
-import React from "react";
-// nodejs library that concatenates classes
-import classNames from "classnames";
+import React from 'react'
 
-import { Paper /*Tooltip, Button */ } from "@material-ui/core";
-// @material-ui/core components
-import withStyles from "@material-ui/core/styles/withStyles";
+import classNames from 'classnames'
+import withStyles from '@material-ui/core/styles/withStyles'
 
-// core components
-import Header from "components/Header/Header.jsx";
-import Footer from "components/Footer/Footer.jsx";
+import Header from 'components/Header/Header.jsx'
+import Footer from 'components/Footer/Footer.jsx'
 
-import Word from "components/word";
-import ContrastWord from "components/Typography/ContrastWord.jsx";
-import ArSent from "components/Typography/ArSent.jsx";
+import Word from 'components/word'
 
-import HeaderLinks from "components/Header/HeaderLinks.jsx";
+import HeaderLinks from 'components/Header/HeaderLinks.jsx'
 
-import Parallax from "components/Parallax/Parallax.jsx";
+import Parallax from 'components/Parallax/Parallax.jsx'
 
-import arabicPageStyle from "assets/jss/material-kit-react/views/arabicPage.jsx";
+import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
 
 class IdafaPage extends React.Component {
   render() {
-    const { classes, ...rest } = this.props;
+    const { classes, ...rest } = this.props
 
     return (
       <div>
@@ -35,70 +29,82 @@ class IdafaPage extends React.Component {
           changeColorOnScroll={{
             height: 200,
 
-            color: "white"
+            color: 'white'
           }}
           {...rest}
         />
 
-        <Parallax small filter image={require("assets/img/mosque/mosque1.jpg")} />
+        <Parallax small filter image={require('assets/img/mosque/mosque1.jpg')} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className={classes.title}>Не согласованное определение</h1>
+              <h1 className="title">Не согласованное определение</h1>
 
-              <p>
-                Термин "идафа", который означает буквально "присоединение", можно перевести на
-                русский язык как "несогласованное определение". Иногда этот термин переводят как
-                "изафетная связка" например:
-              </p>
+              <div className="desc">
+                Термин "идафа", который означает буквально "присоединение", можно перевести на русский язык как "несогласованное
+                определение". Иногда этот термин переводят как "изафетная связка" например:
+              </div>
 
-              <ArSent translate="Карандаш ученика">قلم تِلمِيذٍ</ArSent>
+              <div className="arsent">
+                <div className="arsent__original">قلم تِلمِيذٍ</div>
+                <div className="arsent__translate">Карандаш ученика</div>
+              </div>
 
-              <Paper className={classes.paperStandart}>
-                <p>
-                  <ContrastWord red>Первый член идафы</ContrastWord> не принимает ни танвина ни
-                  определенного артикля т.е стоит в так называемом "сопряженном состоянии". В
-                  зависимости от местоположения может быть в любом падеже
-                </p>
-                <ArSent>
-                  <ContrastWord red> قلمُ </ContrastWord> تِلميذ
-                </ArSent>
-                <ArSent>
-                  قرأتُ من <ContrastWord red> كتابِ </ContrastWord> الطّالب
-                </ArSent>
-                <ArSent>
-                  رأيتُ <ContrastWord red> كتابَ </ContrastWord> الطّالب
-                </ArSent>
-              </Paper>
-              <Paper className={classes.paperStandart}>
-                <p>
-                  <ContrastWord red>Второй член идафы</ContrastWord> может стоять как в определенном
-                  состоянии так и в не определенном состоянии
-                  <ContrastWord red> Всегда пребывает в родительном падеже</ContrastWord> и является
-                  владельцем (как бы владельцем) того, на что указывает первый член
-                </p>
+              <h2> Первая часть идафы </h2>
+              <div className="desc">
+                Не принимает ни танвина ни определенного артикля т.е стоит в так называемом "сопряженном состоянии". В зависимости от
+                местоположения может быть в любом падеже
+              </div>
+              <div className="arsent">
+                <div className="arsent__original">
+                  <span className="contrast"> قلمُ </span> تِلميذ
+                </div>
+              </div>
+              <div className="arsent">
+                <div className="arsent__original">
+                  قرأتُ من <span className="contrast"> كتابِ </span> الطّالب
+                </div>
+              </div>
+              <div className="arsent">
+                <div className="arsent__original">
+                  رأيتُ <span className="contrast"> كتابَ </span> الطّالب
+                </div>
+              </div>
 
-                <ArSent translate="Тетрадь (какого то) студента">
-                  دفتر<ContrastWord red> طالبٍ </ContrastWord>
-                </ArSent>
+              <h2>Вторая часть идафы</h2>
 
-                <ArSent translate="Тетрадь (известного) студента">
-                  دفتر<ContrastWord red> الطالبٍ </ContrastWord>
-                </ArSent>
-              </Paper>
+              <div className="desc">
+                Может стоять как в определенном состоянии так и в не определенном состоянии
+                <span className="contrast"> всегда пребывает в родительном падеже</span> и является владельцем (как бы владельцем) того, на
+                что указывает первая часть
+              </div>
 
-              <p>Притяжательное местоимение является вторым членом идафы</p>
-              <ArSent>
-                <Word root="بيت" suffix="ه" /> <Word root="بيت" suffix="ها" />{" "}
-                <Word root="بيت" suffix="كم" />
-              </ArSent>
+              <div className="arsent">
+                <div className="arsent__original">
+                  دفتر<span className="contrast"> طالبٍ </span>
+                </div>
+                <div className="arsent__translate">Тетрадь (какого то) студента</div>
+              </div>
+              <div className="arsent">
+                <div className="arsent__original">
+                  دفتر<span className="contrast"> الطالبٍ </span>
+                </div>
+                <div className="arsent__translate">Тетрадь (известного) студента</div>
+              </div>
+
+              <h2>Притяжательное местоимение является второй частью идафы</h2>
+              <div className="arsent">
+                <div className="arsent__original">
+                  <Word root="بيت" suffix="ه" /> <Word root="بيت" suffix="ها" /> <Word root="بيت" suffix="كم" />
+                </div>
+              </div>
             </div>
           </div>
         </div>
         <Footer />
       </div>
-    );
+    )
   }
 }
 
-export default withStyles(arabicPageStyle)(IdafaPage);
+export default withStyles(arabicPageStyle)(IdafaPage)
