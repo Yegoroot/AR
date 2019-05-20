@@ -40,6 +40,11 @@ function Footer({ ...props }) {
                 По скайпу с носителем
               </a>
             </ListItem>
+            <ListItem className={classes.inlineBlock}>
+              <a href="mailto:dont.repeat.yourself.ram@gmail.com" rel="noopener noreferrer" className={classes.block} target="_blank">
+                Обратная связь
+              </a>
+            </ListItem>
             {/* <ListItem className={classes.inlineBlock}>
                             <Link to="/login" className={classes.block}>
                                 Login

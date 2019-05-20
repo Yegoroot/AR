@@ -11,7 +11,7 @@ function KanaLaYazalu() {
 
       <div className="items">
         <div className="item">
-          <h3 className="contrast title">كَان - كانَتْ</h3>
+          <h3 className=" title h2ar">كَان - كانَتْ</h3>
 
           <div className="arsent">
             <div className="arsent__original">حامد مرِيض الأنَ</div>
@@ -28,7 +28,7 @@ function KanaLaYazalu() {
           </div>
         </div>
         <div className="item">
-          <h3 className="contrast title">لا يَزَالُ - لا تَزالُ</h3>
+          <h3 className=" title h2ar">لا يَزَالُ - لا تَزالُ</h3>
           <div className="arsent">
             <div className="arsent__original">إبرهيم نائِم</div>
             <div className="arsent__translate">Ибрахим спит</div>
