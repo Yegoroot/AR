@@ -60,15 +60,6 @@ class AlMafuluFihi extends React.Component {
                   </div>
                 </div>
               </AnimateCard>
-              <AnimateCard>
-                <div className="arsent arsent_rule">
-                  <div className="arsent__translate">
-                    <span className="contrast_2">Масдары </span> для трёхбуквенных глаголов основываются на усных традициях. А что касается{' '}
-                    <span className="contrast_2">производных глаголов</span> то у них есть
-                    <span className="contrast"> определенные шаблоны </span>
-                  </div>
-                </div>
-              </AnimateCard>
 
               <div className="items items_islabel">
                 <div className="item">
