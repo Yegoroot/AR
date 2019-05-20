@@ -49,6 +49,7 @@ import MinQoblu from 'views/arAfter5less3Tom/MinQoblu/MinQoblu'
 import ThorfItha from 'views/arAfter5less3Tom/ThorfItha/ThorfItha'
 import AdatuShart from 'views/arAfter5less3Tom/AdatuShart/AdatuShart'
 import SomeIsm from 'views/arAfter5less3Tom/SomeIsm/SomeIsm'
+import LamIbtidaa from 'views/arAfter5less3Tom/LamIbtidaa/LamIbtidaa'
 import Breed2 from 'views/arAfter5less3Tom/BreedsOfVerb/Breed2/Breed2'
 import Breed4 from 'views/arAfter5less3Tom/BreedsOfVerb/Breed4/Breed4'
 
@@ -73,6 +74,7 @@ var indexRoutes = [
   { path: '/thorfitha', name: 'ThorfItha', component: ThorfItha },
   { path: '/adatushart', name: 'AdatuShart', component: AdatuShart },
   { path: '/someism', name: 'SomeIsm', component: SomeIsm },
+  { path: '/lamibtidaa', name: 'LamIbtidaa', component: LamIbtidaa },
 
   /****************************
    *

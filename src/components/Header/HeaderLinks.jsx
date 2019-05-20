@@ -149,6 +149,9 @@ function HeaderLinks({ ...props }) {
             <Link to="/typeharflya" style={{ fontSize: 20 }} className={classes.dropdownLink}>
               حرف لا
             </Link>,
+            <Link to="/lamibtidaa" style={{ fontSize: 20 }} className={classes.dropdownLink}>
+              لَام الاِبْتِداءِ
+            </Link>,
             <Link to="/harfmaplus" style={{ fontSize: 20 }} className={classes.dropdownLink}>
               حرف ما
             </Link>,
