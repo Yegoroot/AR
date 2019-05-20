@@ -86,6 +86,46 @@ class MasdarPage extends React.Component {
                   <span className="contrast">Чтение </span> книг полезно для ума
                 </div>
               </div>
+
+              <h3 className="title">Некоторые шаблоны</h3>
+              <div className="items">
+                <div className="item">
+                  <h2 className="h2ar">فَعْلٌ </h2>
+
+                  <div className="arsent">
+                    <div className="arsent__original">
+                      <span> دَرَسَ </span> -<span className="contrast"> دَرْسٌ </span>
+                    </div>
+                    <div className="arsent__original">
+                      <span> ضَرَبَ </span> -<span className="contrast"> ضَرْبٌ </span>
+                    </div>
+                    <div className="arsent__original">
+                      <span> قَتَلَ </span> -<span className="contrast"> قَتْلٌ </span>
+                    </div>
+                    <div className="arsent__original">
+                      <span> فَتَحَ </span> -<span className="contrast"> فَتْحٌ </span>
+                    </div>
+                  </div>
+                </div>
+                <div className="item">
+                  <h2 className="h2ar">فِعَال </h2>
+
+                  <div className="arsent">
+                    <div className="arsent__original">
+                      <span> قامَ </span> - <span> يَقُومُ </span> -<span className="contrast"> قِيَامٌ </span>
+                    </div>
+                    <div className="arsent__original">
+                      <span> صامَ </span> - <span> يَصُومُ </span> -<span className="contrast"> صِيامٌ </span>
+                    </div>
+                    <div className="arsent__original">
+                      <span> لَقِي </span> - <span> يَلقَى </span> - <span className="contrast"> لِقاءٌ </span>
+                    </div>
+                    <div className="arsent__original">
+                      <span> شَفَى </span> - <span> يَشْفِي </span> -<span className="contrast"> شِفَاءٌ </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
