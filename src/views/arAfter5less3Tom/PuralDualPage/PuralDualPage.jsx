@@ -1,23 +1,23 @@
-import React from "react";
+import React from 'react'
 // nodejs library that concatenates classes
-import classNames from "classnames";
+import classNames from 'classnames'
 
-import withStyles from "@material-ui/core/styles/withStyles";
-import Word from "components/word";
+import withStyles from '@material-ui/core/styles/withStyles'
+import Word from 'components/word'
 
 // core components
-import Header from "components/Header/Header.jsx";
-import Footer from "components/Footer/Footer.jsx";
+import Header from 'components/Header/Header.jsx'
+import Footer from 'components/Footer/Footer.jsx'
 
-import HeaderLinks from "components/Header/HeaderLinks.jsx";
+import HeaderLinks from 'components/Header/HeaderLinks.jsx'
 
-import Parallax from "components/Parallax/Parallax.jsx";
+import Parallax from 'components/Parallax/Parallax.jsx'
 
-import arabicPageStyle from "assets/jss/material-kit-react/views/arabicPage.jsx";
+import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
 
 class PuralDualPage extends React.Component {
   render() {
-    const { classes, ...rest } = this.props;
+    const { classes, ...rest } = this.props
 
     return (
       <div>
@@ -29,20 +29,19 @@ class PuralDualPage extends React.Component {
           changeColorOnScroll={{
             height: 200,
 
-            color: "white"
+            color: 'white'
           }}
           {...rest}
         />
 
-        <Parallax small filter image={require("assets/img/mosque/mosque15.jpg")} />
+        <Parallax small filter image={require('assets/img/mosque/mosque15.jpg')} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className={classes.title}>Мн. и дв. число</h1>
+              <h1 className="title">Мн. и дв. число</h1>
 
               <div className="desc">
-                Если на двойственное число или на правильное множественное падает действие (если
-                становится в насб), то алиф двойственного или вав множественного
+                Если на правильное множественное или двойственное падает действие (становится в насб), то слабая буква
                 <span className="contrast_2 desc__ar"> (ا / و) </span> заменяется на
                 <span className="contrast_2 desc__ar"> (ي) </span>
               </div>
@@ -95,8 +94,7 @@ class PuralDualPage extends React.Component {
               <div className="arsent">
                 <div className="arsent__original">
                   <span> أبْحَثُ عن </span>
-                  <Word root="المدرِّس" suffix="ين" />
-                  <span> أبْحَثُ عن </span>
+                  <Word root="المدرِّس" suffix="ين" /> -<span> أبْحَثُ عن </span>
                   <Word root="المدرِّس" suffix="ي" />
                   <span> الفِقْهِ </span>
                 </div>
@@ -119,13 +117,57 @@ class PuralDualPage extends React.Component {
                 </div>
                 <div className="arsent__translate">Видели две ручки? - Видели две мои ручки?</div>
               </div>
+
+              <h2 className="title">Неправильное множественое число</h2>
+              <div className="desc">Есть некоторые модели у ломанных (неправильных) множественных</div>
+              <div className="items">
+                {/* <div className="item">
+                  <h2 className="h2ar">فِعَال</h2>
+                  <div className="arsent">
+                    <div className="arsent__original">
+                      <span> كَبِير </span> -<span className="contrast"> كِبَار </span>
+                    </div>
+                    <div className="arsent__original">
+                      <span> صَغِير </span> -<span className="contrast"> صِغَار </span>
+                    </div>
+                  </div>
+                </div> */}
+                <div className="item">
+                  <h2 className="h2ar">فَعَلَةٌ</h2>
+                  <div className="arsent">
+                    <div className="arsent__original">
+                      <span> طالِب </span> -<span className="contrast"> طَلَبَةٌ </span>
+                    </div>
+                    <div className="arsent__original">
+                      <span> كافِر </span> -<span className="contrast"> كَفَرَةٌ </span>
+                    </div>
+                    <div className="arsent__original">
+                      <span> فاجِر </span> -<span className="contrast"> فَجَرَةٌ </span>
+                    </div>
+                  </div>
+                </div>
+                <div className="item">
+                  <h2 className="h2ar">فُعَلٌ</h2>
+                  <div className="arsent">
+                    <div className="arsent__original">
+                      <span> نُسْخَةٌ </span> -<span className="contrast"> نُسَخٌ </span>
+                    </div>
+                    <div className="arsent__original">
+                      <span> صُورَةٌ </span> -<span className="contrast"> صُوَرٌ </span>
+                    </div>
+                    <div className="arsent__original">
+                      <span> غُرْفَةٌ </span> -<span className="contrast"> غُرَفٌ </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
         <Footer />
       </div>
-    );
+    )
   }
 }
 
-export default withStyles(arabicPageStyle)(PuralDualPage);
+export default withStyles(arabicPageStyle)(PuralDualPage)
