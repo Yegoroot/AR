@@ -35,3 +35,13 @@
     </div>
 </div>
 </AnimateCard>
+
+<AnimateCard>
+<div className="arsent arsent_rule">
+    <div className="arsent__translate">
+    <span className="contrast_2">Приставки </span> настоящего времени в{' '}
+    <span className="contrast_2">четырёх буквенных </span> глаголах ВСЕГДА
+    <span className="contrast"> приходят с Даммой </span>
+    </div>
+</div>
+</AnimateCard>

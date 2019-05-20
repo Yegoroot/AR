@@ -50,11 +50,13 @@ import ThorfItha from 'views/arAfter5less3Tom/ThorfItha/ThorfItha'
 import AdatuShart from 'views/arAfter5less3Tom/AdatuShart/AdatuShart'
 import SomeIsm from 'views/arAfter5less3Tom/SomeIsm/SomeIsm'
 import Breed2 from 'views/arAfter5less3Tom/BreedsOfVerb/Breed2/Breed2'
+import Breed4 from 'views/arAfter5less3Tom/BreedsOfVerb/Breed4/Breed4'
 
 var indexRoutes = [
   /** after 16 less 3tom and 4tom
    */
   { path: '/breed2', name: 'Breed2', component: Breed2 },
+  { path: '/breed4', name: 'Breed4', component: Breed4 },
 
   /**
    *
