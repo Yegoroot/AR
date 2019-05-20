@@ -28,7 +28,7 @@ h3
   //   padding-bottom: 0
   &__ar
     font-size: 1.5rem
-    color: #3c4858
+    // color: #3c4858
   
 
 // Выделение слов
@@ -85,27 +85,50 @@ h3
 
 
 
+
 .items
   display: flex
   flex-direction: row-reverse
   flex-wrap: wrap
-.item
-  box-shadow: $bmd-shadow-2dp
-  border-radius: 10px
-  padding: 40px
-  margin-bottom: 30px
-  margin-left: 40px
-  transition: .3s
-  @media screen and (max-width: 480px)
-    padding: 20
-    margin-left: 0px
-  .arsent
-    flex-direction: column
-    align-items: flex-end
-  h2, h3
-    margin-top: inherit
-  &:hover
-    box-shadow: $bmd-shadow-4dp
+  .item
+    box-shadow: $bmd-shadow-2dp
+    border-radius: 10px
+    padding: 40px
+    margin-bottom: 30px
+    margin-left: 40px
+    transition: .3s
+    @media screen and (max-width: 480px)
+      padding-right: 20px
+      padding-left: 20px
+      padding-bottom: 0px
+      margin-left: 0px
+    .arsent
+      flex-direction: column
+      align-items: flex-end
+    h2, h3
+      margin-top: inherit
+    &:hover
+      box-shadow: $bmd-shadow-4dp
+
+.items
+  &_islabel
+    .item
+      position: relative
+      margin-left: 50px
+      @media screen and (max-width: 480px)
+        margin-left: 40px
+        padding-right: 15px
+      &__label
+        position: absolute
+        left: -43px
+        top: 7px
+        color:  $red
+        border-radius: 10px
+        font-size: 33px
+        padding: 4px 10px 4px 10px
+        background: #ffffff
+        transform: rotate(-60deg) translate(-20%)
+
 
 .items
   &_noborder

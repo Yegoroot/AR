@@ -49,8 +49,18 @@ import MinQoblu from 'views/arAfter5less3Tom/MinQoblu/MinQoblu'
 import ThorfItha from 'views/arAfter5less3Tom/ThorfItha/ThorfItha'
 import AdatuShart from 'views/arAfter5less3Tom/AdatuShart/AdatuShart'
 import SomeIsm from 'views/arAfter5less3Tom/SomeIsm/SomeIsm'
+import Breed2 from 'views/arAfter5less3Tom/BreedsOfVerb/Breed2/Breed2'
 
 var indexRoutes = [
+  /** after 16 less 3tom and 4tom
+   */
+  { path: '/breed2', name: 'Breed2', component: Breed2 },
+
+  /**
+   *
+   *
+   *
+   */
   /** after 3 tom 5lesson */
   { path: '/ismulmakanwazaman', name: 'IsmulMakanWaZamanPage', component: IsmulMakanWaZamanPage },
   { path: '/ismaalati', name: 'IsmaAlatiPage', component: IsmaAlatiPage },
@@ -62,6 +72,12 @@ var indexRoutes = [
   { path: '/adatushart', name: 'AdatuShart', component: AdatuShart },
   { path: '/someism', name: 'SomeIsm', component: SomeIsm },
 
+  /****************************
+   *
+   *
+   *
+   *
+   */
   /** new level 3 tom */
   { path: '/pages/:id', name: 'Pages', component: Pages },
   { path: '/harfsobir', name: 'HarfSobirPage', component: HarfSobirPage },
@@ -71,7 +87,8 @@ var indexRoutes = [
   { path: '/ismumaful', name: 'IsmaMaful', component: IsmaMaful },
   { path: '/ismafial', name: 'IsmaFial', component: IsmaFial },
 
-  /** */
+  /** 2 tom and 1  в ОСНОВЕ //
+   *  и чуть чуть из третьего (незначительно)  */
   { path: '/fialmabnililmajhun', name: 'FialMabniLilmajhun', component: FialMabniLilmajhun },
   { path: '/harfazzoidatu', name: 'HarfManAzzoidatuPage', component: HarfManAzzoidatuPage },
   { path: '/dua', name: 'DuaPage', component: DuaPage },
