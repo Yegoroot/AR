@@ -1,21 +1,19 @@
-import React from "react";
-import classNames from "classnames";
+import React from 'react'
+import classNames from 'classnames'
 
-import withStyles from "@material-ui/core/styles/withStyles";
+import withStyles from '@material-ui/core/styles/withStyles'
 // core components
-import Header from "components/Header/Header.jsx";
-import Footer from "components/Footer/Footer.jsx";
+import Header from 'components/Header/Header.jsx'
+import Footer from 'components/Footer/Footer.jsx'
 
-import ContrastWord from "components/Typography/ContrastWord.jsx";
-import ArSent from "components/Typography/ArSent.jsx";
-import HeaderLinks from "components/Header/HeaderLinks.jsx";
-import Parallax from "components/Parallax/Parallax.jsx";
+import HeaderLinks from 'components/Header/HeaderLinks.jsx'
+import Parallax from 'components/Parallax/Parallax.jsx'
 
-import arabicPageStyle from "assets/jss/material-kit-react/views/arabicPage.jsx";
+import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
 
 class HarfDenyPage extends React.Component {
   render() {
-    const { classes, ...rest } = this.props;
+    const { classes, ...rest } = this.props
 
     return (
       <div>
@@ -27,55 +25,47 @@ class HarfDenyPage extends React.Component {
           fixed
           changeColorOnScroll={{
             height: 200,
-
-            color: "white"
+            color: 'white'
           }}
           {...rest}
         />
 
-        <Parallax small filter image={require("assets/img/mosque/mosque12.jpg")} />
+        <Parallax small filter image={require('assets/img/mosque/mosque12.jpg')} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className={classes.title}>Отрицательные частицы</h1>
-              <p>
-                Частица{" "}
-                <ContrastWord inRu red>
-                  قَطُّ
-                </ContrastWord>{" "}
-                - для прошедшего времени (не делал никогда до этого момента)
-                <br />
-                Частица{" "}
-                <ContrastWord inRu red>
-                  أبدٌا
-                </ContrastWord>{" "}
-                - для настоящего времени (никогда не делал и не буду делать)
-              </p>
-              <ArSent
-                translate={
-                  <div>
-                    <ContrastWord red> Не </ContrastWord> пил вино никогда (до этого момента)
-                  </div>
-                }
-              >
-                ما شربتُ الخَامر <ContrastWord red>قَطُّ </ContrastWord>
-              </ArSent>
-              <ArSent
-                translate={
-                  <div>
-                    Не пил <ContrastWord red> никогда</ContrastWord> вино и не буду!
-                  </div>
-                }
-              >
-                لنْ أشرب الخمر <ContrastWord red> أبدٌا </ContrastWord>
-              </ArSent>
+              <h1 className="title">Отрицательные частицы</h1>
+              <div className="desc">
+                Частица
+                <span className="desc__ar contrast"> قَطُّ </span>- для прошедшего времени (не делал никогда до этого момента). В то время
+                как частица
+                <span className="contrast desc__ar"> أبدٌا </span>- для настоящего времени (никогда не делал и не буду делать)
+              </div>
+
+              <div className="arsent">
+                <div className="arsent__original">
+                  ما شربتُ الخَامر <span className="contrast"> قَطُّ </span>
+                </div>
+                <div className="arsent__translate">
+                  <span className="contrast"> Не </span> пил вино никогда (до этого момента)
+                </div>
+              </div>
+
+              <div className="arsent">
+                <div className="arsent__original">
+                  لنْ أشرب الخمر <span className="contrast"> أبدٌا </span>
+                </div>
+                <div className="arsent__translate">
+                  Не пил <span className="contrast"> никогда</span> вино и не буду!
+                </div>
+              </div>
             </div>
           </div>
         </div>
         <Footer />
       </div>
-    );
+    )
   }
 }
 
-export default withStyles(arabicPageStyle)(HarfDenyPage);
+export default withStyles(arabicPageStyle)(HarfDenyPage)

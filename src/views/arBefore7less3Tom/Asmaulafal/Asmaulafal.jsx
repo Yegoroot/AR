@@ -1,26 +1,23 @@
-import React from "react";
+import React from 'react'
 // nodejs library that concatenates classes
-import classNames from "classnames";
+import classNames from 'classnames'
 
 // @material-ui/core components
-import withStyles from "@material-ui/core/styles/withStyles";
+import withStyles from '@material-ui/core/styles/withStyles'
 
 // core components
-import Header from "components/Header/Header.jsx";
-import Footer from "components/Footer/Footer.jsx";
+import Header from 'components/Header/Header.jsx'
+import Footer from 'components/Footer/Footer.jsx'
 
-import ContrastWord from "components/Typography/ContrastWord.jsx";
-import ArSent from "components/Typography/ArSent.jsx";
+import HeaderLinks from 'components/Header/HeaderLinks.jsx'
 
-import HeaderLinks from "components/Header/HeaderLinks.jsx";
+import Parallax from 'components/Parallax/Parallax.jsx'
 
-import Parallax from "components/Parallax/Parallax.jsx";
-
-import arabicPageStyle from "assets/jss/material-kit-react/views/arabicPage.jsx";
+import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
 
 class Asmaulafal extends React.Component {
   render() {
-    const { classes, ...rest } = this.props;
+    const { classes, ...rest } = this.props
 
     return (
       <div>
@@ -33,55 +30,82 @@ class Asmaulafal extends React.Component {
           changeColorOnScroll={{
             height: 200,
 
-            color: "white"
+            color: 'white'
           }}
           {...rest}
         />
 
-        <Parallax small filter image={require("assets/img/mosque/mosque19.jpg")} />
+        <Parallax small filter image={require('assets/img/mosque/mosque19.jpg')} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className={classes.title}>أسْماءُ الأفِعْل</h1>
+              <h1 className="title">أسْماءُ الأفِعْل</h1>
 
-              <p>
-                Не является глаголом, но смысл глагола, не склоняется во временах. Бывает некоторые
-                существуют в одном времени, но не существуют в другом, т.е имя может существовать в
-                повелительном но не существовать в прошедшем и т.п
-              </p>
+              <div className="desc">
+                Не является глаголом, но смысл глагола, не склоняется во временах. Бывает некоторые существуют в одном времени, но не
+                существуют в другом, т.е имя может существовать в повелительном но не существовать в прошедшем и т.п. Например
+              </div>
 
-              <p>Например</p>
-              <ArSent translate="Иди сюда">
-                <ContrastWord red> تَعَالَ </ContrastWord> (الى هنا)
-              </ArSent>
-              <ArSent translate="Молчи">
-                <ContrastWord red> صَهْ </ContrastWord> (أُسْكُتْ)
-              </ArSent>
-              <ArSent translate="Ты должен">
-                <ContrastWord red> عَلَيْكَ </ContrastWord> (اِلْزَمْ)
-              </ArSent>
-              <ArSent translate="Не торопись">
-                <ContrastWord red> رُوَيْدَكَ </ContrastWord> (تَمَهَّلْ)
-              </ArSent>
-              <ArSent translate="Быстрей">
-                <ContrastWord red> هَيَّا </ContrastWord> (أسْرِعْ)
-              </ArSent>
-              <ArSent translate="Спешите">
-                <ContrastWord red> حَيَّ </ContrastWord>(أقْبِلْ)
-              </ArSent>
-              <ArSent translate="Возьми">
-                <ContrastWord red> إلَيْكَ </ContrastWord>(خُذْ)
-              </ArSent>
-              <ArSent translate="Отвечай">
-                <ContrastWord red> آمين </ContrastWord>(إستجب)
-              </ArSent>
+              <div className="arsent">
+                <div className="arsent__original" dir="rtl">
+                  <span className="contrast"> تَعَالَ </span> (الى هنا)
+                </div>
+                <div className="arsent__translate">Иди сюда</div>
+              </div>
+
+              <div className="arsent">
+                <div className="arsent__original" dir="rtl">
+                  <span className="contrast"> صَهْ </span> (أُسْكُتْ)
+                </div>
+                <div className="arsent__translate">Молчи</div>
+              </div>
+
+              <div className="arsent">
+                <div className="arsent__original" dir="rtl">
+                  <span className="contrast"> عَلَيْكَ </span> (اِلْزَمْ)
+                </div>
+                <div className="arsent__translate">Ты должен</div>
+              </div>
+
+              <div className="arsent">
+                <div className="arsent__original" dir="rtl">
+                  <span className="contrast"> رُوَيْدَكَ </span> (تَمَهَّلْ)
+                </div>
+                <div className="arsent__translate">Не торопись</div>
+              </div>
+
+              <div className="arsent">
+                <div className="arsent__original" dir="rtl">
+                  <span className="contrast"> هَيَّا </span> (أسْرِعْ)
+                </div>
+                <div className="arsent__translate">Быстрей</div>
+              </div>
+
+              <div className="arsent">
+                <div className="arsent__original" dir="rtl">
+                  <span className="contrast"> حَيَّ </span>(أقْبِلْ)
+                </div>
+                <div className="arsent__translate">Спешите</div>
+              </div>
+              <div className="arsent">
+                <div className="arsent__original" dir="rtl">
+                  <span className="contrast"> إلَيْكَ </span>(خُذْ)
+                </div>
+                <div className="arsent__translate">Возьми</div>
+              </div>
+              <div className="arsent">
+                <div className="arsent__original" dir="rtl">
+                  <span className="contrast"> آمين </span>(إستجب)
+                </div>
+                <div className="arsent__translate">Отвечай</div>
+              </div>
             </div>
           </div>
         </div>
         <Footer />
       </div>
-    );
+    )
   }
 }
 
-export default withStyles(arabicPageStyle)(Asmaulafal);
+export default withStyles(arabicPageStyle)(Asmaulafal)

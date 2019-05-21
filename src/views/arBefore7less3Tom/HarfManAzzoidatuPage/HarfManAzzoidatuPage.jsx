@@ -1,27 +1,23 @@
-import React from "react";
+import React from 'react'
 // nodejs library that concatenates classes
-import classNames from "classnames";
+import classNames from 'classnames'
 
 // @material-ui/core components
-import withStyles from "@material-ui/core/styles/withStyles";
+import withStyles from '@material-ui/core/styles/withStyles'
 
 // core components
-import Header from "components/Header/Header.jsx";
-import Footer from "components/Footer/Footer.jsx";
+import Header from 'components/Header/Header.jsx'
+import Footer from 'components/Footer/Footer.jsx'
 
-// import Word from 'components/word'
-import ContrastWord from "components/Typography/ContrastWord.jsx";
-import ArSent from "components/Typography/ArSent.jsx";
+import HeaderLinks from 'components/Header/HeaderLinks.jsx'
 
-import HeaderLinks from "components/Header/HeaderLinks.jsx";
+import Parallax from 'components/Parallax/Parallax.jsx'
 
-import Parallax from "components/Parallax/Parallax.jsx";
-
-import arabicPageStyle from "assets/jss/material-kit-react/views/arabicPage.jsx";
+import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
 
 class HarfManAzzoidatuPage extends React.Component {
   render() {
-    const { classes, ...rest } = this.props;
+    const { classes, ...rest } = this.props
 
     return (
       <div>
@@ -34,106 +30,78 @@ class HarfManAzzoidatuPage extends React.Component {
           changeColorOnScroll={{
             height: 200,
 
-            color: "white"
+            color: 'white'
           }}
           {...rest}
         />
 
-        <Parallax small filter image={require("assets/img/mosque/mosque21.jpg")} />
+        <Parallax small filter image={require('assets/img/mosque/mosque21.jpg')} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className={classes.title}>مِن الزّائِدَة</h1>
+              <h1 className="title h1ar">مِن الزّائِدَة</h1>
 
-              <p>
-                Эта частица усиливает мысль в предложении, часто используется в Коране, одна из
-                многих частиц показывающих описательную точность{" "}
-                <ContrastWord inRu blue translate="Корана">
-                  القران
-                </ContrastWord>
-                , [ обычно такие нюансы опускают в переводах, а разве есть те кто считает перевод{" "}
-                <ContrastWord inRu blue translate="Корана">
-                  القران
-                </ContrastWord>{" "}
-                Кораном ?]. Употребляется только если перед ней стоит отрицательная частица, запрет
-                или частица вопроса
-              </p>
+              <div className="desc">
+                Эта частица усиливает мысль в предложении, часто используется в Коране, одна из частиц показывающих его описательную
+                точность. Употребляется только если перед ней стоит отрицательная частица, запрет или частица вопроса
+              </div>
 
-              <h4 className={classes.title}>
-                Расмотрим наглядно как{" "}
-                <ContrastWord blue> с этой частицой закрывается дверь сомнений</ContrastWord>
-              </h4>
+              <h3 className="title">Расмотрим разницу</h3>
 
-              <ArSent translate={"Никто не пришел в школу"}>ما أتَى أحَدَ إِلى المدرسة</ArSent>
-              <ArSent
-                translate={
-                  <div>
-                    <ContrastWord red>
-                      Вообще никто [ни кошка, ни учителя, ни директор, ни пришельцев с соседней
-                      галактики, ни кого]{" "}
-                    </ContrastWord>{" "}
-                    не были в школе
-                  </div>
-                }
-              >
-                ما أتَى{" "}
-                <ContrastWord inRu red>
-                  مِنْ
-                </ContrastWord>{" "}
-                أحَدٍ إِلى المدرسة
-              </ArSent>
-              <ArSent
-                translate={
-                  <div>
-                    У тебя есть <ContrastWord red> хоть какие нибудь</ContrastWord> вопросы?
-                  </div>
-                }
-              >
-                هلْ{" "}
-                <ContrastWord inRu red>
-                  مِنْ
-                </ContrastWord>{" "}
-                سُؤَلٍ
-              </ArSent>
+              <div className="arsent">
+                <div className="arsent__original">ما أتَى أحَدَ إِلى المدرسة</div>
+                <div className="arsent__translate">Никто не пришел в школу</div>
+              </div>
 
-              <h4 className={classes.title}>
-                Расмотрим пример из{" "}
-                <ContrastWord inRu blue translate="Корана">
-                  القران
-                </ContrastWord>{" "}
-              </h4>
-              <ArSent
-                translate={
-                  <div>
-                    Не падает{" "}
-                    <ContrastWord red>
-                      каким бы не был маленьким и незаметным, в любом месте и времени
-                    </ContrastWord>{" "}
-                    листочек без Его ведома
-                  </div>
-                }
-              >
-                مَا تَسْقُطُ <ContrastWord red> مِن </ContrastWord>وَرَقَةٍ إِلاَّ يَعْلَمُهَا
-              </ArSent>
-              <ArSent
-                translate={
-                  <div>
-                    И нет{" "}
-                    <ContrastWord red>ничего и некого подобного, [усиленное значени]</ContrastWord>{" "}
-                    на земле и небесах ( слои атомосферы, галактики ) приятнее Аллаха
-                  </div>
-                }
-              >
-                وَمَا <ContrastWord red> مِن </ContrastWord> دَابَّةٍ فِي الأَرْضِ إِلاَّ عَلَى
-                اللّهِ رِزْقُهَا
-              </ArSent>
+              <div className="arsent">
+                <div className="arsent__original">
+                  ما أتَى
+                  <span className="contrast"> مِنْ </span>
+                  أحَدٍ إِلى المدرسة
+                </div>
+                <div className="arsent__translate">
+                  <span className="contrast">Вообще никто</span> [ни кошка, ни учителя, ни директор, ни пришельцев с соседней галактики, ни
+                  кого] не были в школе
+                </div>
+              </div>
+
+              <div className="arsent">
+                <div className="arsent__original">
+                  هلْ <span className="contrast"> مِنْ </span> سُؤَلٍ
+                </div>
+                <div className="arsent__translate">
+                  У тебя есть <span className="contrast"> хоть какие нибудь</span> вопросы?
+                </div>
+              </div>
+
+              <h3 className="title">Пример из القران</h3>
+
+              <div className="arsent">
+                <div className="arsent__original">
+                  مَا تَسْقُطُ <span className="contrast"> مِن </span>وَرَقَةٍ إِلاَّ يَعْلَمُهَا
+                </div>
+                <div className="arsent__translate">
+                  Не падает <span className="contrast">каким бы не был маленьким и незаметным, в любом месте и времени</span> листочек без
+                  Его ведома
+                </div>
+              </div>
+
+              <div className="arsent">
+                <div className="arsent__original">
+                  وَمَا <span className="contrast"> مِن </span> دَابَّةٍ فِي الأَرْضِ إِلاَّ عَلَى اللّهِ رِزْقُهَا
+                </div>
+                <div className="arsent__translate">
+                  И нет <span className="contrast">ничего и некого подобного, [усиленное значени]</span> на земле и небесах ( слои
+                  атомосферы, галактики ) приятнее Аллаха
+                </div>
+              </div>
             </div>
           </div>
         </div>
         <Footer />
       </div>
-    );
+    )
   }
 }
 
-export default withStyles(arabicPageStyle)(HarfManAzzoidatuPage);
+export default withStyles(arabicPageStyle)(HarfManAzzoidatuPage)

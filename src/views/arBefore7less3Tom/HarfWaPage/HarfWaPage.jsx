@@ -1,107 +1,79 @@
-import React from "react";
-import classNames from "classnames";
-import withStyles from "@material-ui/core/styles/withStyles";
-import Header from "components/Header/Header.jsx";
-import Footer from "components/Footer/Footer.jsx";
-import HeaderLinks from "components/Header/HeaderLinks.jsx";
-import Parallax from "components/Parallax/Parallax.jsx";
-import { Link } from "react-router-dom";
+import React from 'react'
+import classNames from 'classnames'
+import withStyles from '@material-ui/core/styles/withStyles'
+import Header from 'components/Header/Header.jsx'
+import Footer from 'components/Footer/Footer.jsx'
+import HeaderLinks from 'components/Header/HeaderLinks.jsx'
+import Parallax from 'components/Parallax/Parallax.jsx'
 
-import { Paper } from "@material-ui/core";
+import Word from 'components/word'
 
-import Word from "components/word";
-import ContrastWord from "components/Typography/ContrastWord.jsx";
-import ArSent from "components/Typography/ArSent.jsx";
-// import LyaNafia from './Sections/LyaNafia'
-// import LyaNahia from './Sections/LyaNahia'
-// import LyaInPast from './Sections/LyaInPast'
-
-import arabicPageStyle from "assets/jss/material-kit-react/views/arabicPage.jsx";
+import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
 
 class HarfWaPage extends React.Component {
   render() {
-    let a = "ِ".charCodeAt(0);
-    console.log(a);
-    const { classes, ...rest } = this.props;
+    const { classes, ...rest } = this.props
     return (
       <div>
         <Header
           color="transparent"
-          brand="Виды واو"
-          // isBrandAr
+          brand="واو"
+          isBrandAr
           rightLinks={<HeaderLinks />}
           fixed
           changeColorOnScroll={{
             height: 200,
-            color: "white"
+            color: 'white'
           }}
           {...rest}
         />
 
-        <Parallax small filter image={require("assets/img/mosque/mosque14.jpg")} />
+        <Parallax small filter image={require('assets/img/mosque/mosque14.jpg')} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className={classes.title}>Виды واو</h1>
+              <h1 className="title h1ar">واو</h1>
 
-              <h2 className={classes.title}>واو العَطْف</h2>
-              <Paper>
-                <div className="wrap1">
-                  <ArSent
-                    translate={
-                      <div>
-                        Вышли Зубайр <ContrastWord red> и </ContrastWord> Хамид
-                      </div>
-                    }
-                  >
-                    خرج الزّبير <ContrastWord red> و </ContrastWord> حامد
-                  </ArSent>
+              <h2 className="title h2ar">واو العَطْف</h2>
+              <div className="arsent">
+                <div className="arsent__original">
+                  خرج الزّبير <span className="contrast"> و </span> حامد
                 </div>
-              </Paper>
+                <div className="arsent__translate">
+                  Вышли Зубайр <span className="contrast"> и </span> Хамид
+                </div>
+              </div>
 
-              <h2 className={classes.title}>واو القسم</h2>
-              <Paper>
-                <div className="wrap1">
-                  <p>
-                    Клятвенная вав, относится к حرف الجزم (предлоги родительного падежа) и поэтому
-                    дает кясру слову
-                  </p>
-                  <ArSent translate={"Клянусь Аллахом"}>
-                    <Word root="اللهِ" prefix="و" />
-                  </ArSent>
+              <h2 className="title h2ar">ٌواو القَسَم</h2>
+              <div className="desc">Клятвенная вав, относится к предлогам родительного падежа и поэтому дает кясру слову</div>
+              <div className="arsent">
+                <div className="arsent__original">
+                  <Word root="اللهِ" prefix="و" />
                 </div>
-              </Paper>
+                <div className="arsent__translate">Клянусь Аллахом</div>
+              </div>
 
-              <h2 className={classes.title}>واو الحَال</h2>
-              <Paper>
-                <div className="wrap1">
-                  <p>
-                    واو состояния,{" "}
-                    <Link to="/jumlatuhaal"> пример использования можете посмотреть тут</Link>
-                  </p>
-                  <ArSent
-                    translate={
-                      <div>
-                        Отец мой умер{" "}
-                        <ContrastWord blue>
-                          {" "}
-                          [когда я был в состоянии "маленький"] маленьким{" "}
-                        </ContrastWord>
-                      </div>
-                    }
-                  >
-                    ماتَ أبي <ContrastWord red> و </ContrastWord>{" "}
-                    <ContrastWord blue> أنا صغير </ContrastWord>
-                  </ArSent>
+              <h2 className="title h2ar">واو الحَال</h2>
+
+              <div className="desc">
+                Это <span className="desc__ar"> واو </span> состояния. В дополнение можно посмотреть урок про
+                <b className="desc__ar"> جملة الحال </b>
+              </div>
+              <div className="arsent">
+                <div className="arsent__original">
+                  ماتَ أبي <span className="contrast"> و </span> <span className="contrast"> أنا صغير </span>
                 </div>
-              </Paper>
+                <div className="arsent__translate">
+                  Отец мой умер <span className="contrast"> маленьким </span> [когда я был в состоянии "маленький"]
+                </div>
+              </div>
             </div>
           </div>
         </div>
         <Footer />
       </div>
-    );
+    )
   }
 }
 
-export default withStyles(arabicPageStyle)(HarfWaPage);
+export default withStyles(arabicPageStyle)(HarfWaPage)
