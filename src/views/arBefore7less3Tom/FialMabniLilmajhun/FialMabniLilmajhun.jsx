@@ -1,26 +1,13 @@
 import React from 'react'
-// nodejs library that concatenates classes
 import classNames from 'classnames'
-
-// @material-ui/core components
 import withStyles from '@material-ui/core/styles/withStyles'
-
-// core components
 import Header from 'components/Header/Header.jsx'
 import Footer from 'components/Footer/Footer.jsx'
-
 import Word from 'components/word'
-import ContrastWord from 'components/Typography/ContrastWord.jsx'
-import Danger from 'components/Typography/Danger.jsx'
-import ArSent from 'components/Typography/ArSent.jsx'
-
 import HeaderLinks from 'components/Header/HeaderLinks.jsx'
-
 import Parallax from 'components/Parallax/Parallax.jsx'
-
-// import Word from 'components/word'
-
 import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
+import AnimateCard from 'components/AnimateCard/AnimateCard'
 
 class FialMabniLilmajhun extends React.Component {
   render() {
@@ -46,99 +33,112 @@ class FialMabniLilmajhun extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className={classes.title}>الفِعْل المَبْنِي لِلمَجْهُول</h1>
-              <p>
-                Глагол страдательного залога, это действие с необозначенным лицом, бывает два варианта, лицо неизвестно вовсе, или из
-                контекста понятно кто совершил
-                <p>Употребляется в том случае если не имеет значение кто совершает действие, когда акцент идет на результат</p>
-                <p>
-                  Если стоит в прошлом времени то подразумеватся часто что действие происходило один раз, если мы добавили дополнительную
-                  информацию, а в настоящем если употребляется то смысл ФАКТ, ИНСТРУКЦИЯ, ПРЕДПИСАНИЕ, ПРАВИЛО{' '}
-                </p>
-                <p>Пассивный залог часто встречается в новостях</p>
-              </p>
-              <h3 className={classes.title}>Пример активного залога (الفِعْل المَبْنِي لِلمَعْلُم)</h3>
-              <p>В этом случае есть фокус на деятеле, деятель Хамид, обратите внимание на огласовку прямого дополнения (مفعول به)</p>
-              <ArSent translate={'Хамид есть хлеб'}>
-                <ContrastWord blue inAr translate="فعل (глагол)">
-                  أَكَلَ
-                </ContrastWord>{' '}
-                <ContrastWord blue inAr translate="فاعل (деятель)">
-                  حَامِد
-                </ContrastWord>{' '}
-                <ContrastWord blue inAr translate="مفعول به (прямое дополнение)">
-                  الخُبْزَ
-                </ContrastWord>
-              </ArSent>
-              <h3 className={classes.title}>Пример пассивного (страдательный) залога (الفِعْل المَبْنِي لِلمَجْهُول)</h3>
-              <p>В случае с пассивным залогом деятель неизвестен (или известен из контекста), фокус на результате.</p>
-              <ArSent translate={'[Собака была побита, побили собаку]'}>
-                <ContrastWord blue inAr translate="فعل (глагол)">
-                  ضُرِبَ
-                </ContrastWord>{' '}
-                <ContrastWord blue inAr translate="نَائِبُ الفاعِل (с огласовкой дамма)">
-                  الكلبُ
-                </ContrastWord>
-              </ArSent>
-              <ArSent translate={<div>[Двери открыли] </div>}>
-                <ContrastWord blue inAr translate="فعل (глагол)">
-                  <Word root="َفُتِح" suffix="تْ" />
-                </ContrastWord>{' '}
-                <ContrastWord blue inAr translate="نَائِبُ الفاعِل (с огласовкой дамма)">
+              <h1 className="title">الفِعْل المَبْنِي لِلمَجْهُول</h1>
+              <div className="desc">
+                Глагол страдательного залога, это действие с необозначенным лицом, бывает два варианта, <b> лицо неизвестно вовсе</b> , или
+                <b> из контекста понятно кто совершил </b>. Употребляется в том случае если не имеет значение кто совершает действие, когда
+                акцент идет на сам результат. Часто встречается в новостях.
+                <br /> <br />
+                Часто, если стоит в прошедшем времени то подразумеватся что действие происходило один раз, если не добавили дополнительную
+                информацию, а в настоящем если употребляется то смысл <b> факт, инструкцаия, предписание, правило </b>
+              </div>
+              <h2 className="title">Активный залог</h2>
+              <div className="desc">
+                Рассмотрим пример ниже. Заметьте фокус на деятеле, деятель Хамид, обратите внимание на огласовку прямого дополнения (مفعول
+                به)
+              </div>
+              <div className="arsent">
+                <div className="arsent__original">
+                  <span className="contrast_2">أَكَلَ حَامِد الخُبْزَ</span>
+                </div>
+                <div className="arsent__translate">
+                  <span className="contrast_2">Хамид</span> (فاعل - деятель) <span className="contrast_2"> ест </span> (فعل - глагол)
+                  <span className="contrast_2"> хлеб </span> (مفعول به - прямое дополнение)
+                </div>
+              </div>
+              <h2 className="title">Пример пассивного залога</h2>
+              <div className="desc">В случае с пассивным залогом деятель неизвестен (или известен из контекста), фокус на результате.</div>
+              <div className="arsent">
+                <div className="arsent__original">
+                  <span className="contrast"> ضُرِبَ </span>
+                  <span> الكلبُ </span>
+                </div>
+                <div className="arsent__translate">
+                  <span className="contrast_2">Побили </span> (فعل-глагол) <span className="contrast_2"> собаку </span> (نَائِبُ الفاعِل (с
+                  огласовкой дамма)) // Собака была побита
+                </div>
+              </div>
+
+              <div className="arsent">
+                <div className="arsent__original">
+                  <span> يَجِبُ أن </span>
+                  <span className="contrast"> يُكْتَبَ </span>
+                  <span> العُنْوانُ بِخَطٍّ واضِحٍ</span>
+                </div>
+                <div className="arsent__translate">Писать адрес нужно разборчивым почерком</div>
+              </div>
+              <div className="arsent">
+                <div className="arsent__original">
+                  <Word root="َفُتِح" suffix="تْ" /> &nbsp;
                   <Word root="النّافِذَ" suffix="ةُ" />
-                </ContrastWord>
-              </ArSent>
-              <ArSent translate={<div>Писать адрес нужно разборчивым почерком</div>}>
-                <ContrastWord inAr translate="Этот глагол употребляется только в этой форме">
-                  يَجِبُ
-                </ContrastWord>{' '}
-                أن{' '}
-                <ContrastWord blue inAr translate="писать">
-                  يُكْتَبَ
-                </ContrastWord>{' '}
-                العُنْوانُ بِخَطٍّ واضِحٍ
-              </ArSent>
-              <p>
-                Подразумеваемое прямое дополнения مفعول به ("окна" мн.ч неразумное) повлиял на глагол (глагол стал женского рода). Ведь из
-                правил мы знаем что с точки зрения грамматики множественное число неразумное расцениваеся как единственное число женского
-                рода
-              </p>
+                </div>
+                <div className="arsent__translate">Окна открыли</div>
+              </div>
+              <div className="desc">
+                В примере выше подразумеваемое прямое дополнения مفعول به ("окна" мн.ч неразумное) повлиял на глагол (глагол стал женского
+                рода) т.к с точки зрения грамматики множественное число неразумное расцениваеся как единственное число женского рода
+              </div>
+              <AnimateCard>
+                <div className="arsent arsent_rule">
+                  <div className="arsent__translate">
+                    В прошедшем времени чтоб образовать пассивный залог, необходимо над первой буквой поставить дамму, над предпоследей
+                    кясру
+                    <br />
+                    <br />
+                    <span className="contrast_2 desc__ar"> ضُرِبَ </span>
+                  </div>
+                </div>
+              </AnimateCard>
+              <AnimateCard>
+                <div className="arsent arsent_rule">
+                  <div className="arsent__translate">
+                    В настоящем времени поставить дамму над первой и фатху над предпоследней
+                    <br />
+                    <br />
+                    <span className="contrast_2 desc__ar"> يُكْتَبَ </span>
+                  </div>
+                </div>
+              </AnimateCard>
 
-              <p>
-                {' '}
-                <Danger>
-                  В прошедшем времени чтоб образовать пассивный залог, необходимо над первой буквой поставить дамму, над предпоследей в
-                  кясру{' '}
-                  <ContrastWord blue inAr translate="Основная форма ضَرَبَ - يَضْرِبُ">
-                    ضُرِبَ
-                  </ContrastWord>{' '}
-                </Danger>
-                <Danger>
-                  В настоящем времени поставить дамму над первой и фатху над предпоследней буквой{' '}
-                  <ContrastWord blue inAr translate="Основная форма كَتَبَ - يَكْتُبُ">
-                    <Word root="يُكْتَبَ" />
-                  </ContrastWord>
-                </Danger>
-              </p>
-              {/**------------ */}
-              <h3 className={classes.title}>Пассивный залог с больной СРЕДНЕЙ</h3>
-              <ArSent>
-                <Word negative prefix="قَ" root="ا" suffix="لَ" /> - <Word negative prefix="قِ" root="يِ" suffix="لَ" />
-              </ArSent>
-              <ArSent>
-                <Word root="يَقُولُ" /> - <Word negative prefix="يُقَ" root="ا" suffix="لُ" />
-              </ArSent>
+              <h2 className="title">Пассивный залог со средней больной </h2>
 
-              {/**------------ */}
-              <h3 className={classes.title}>Пассивный залог с больной ПОСЛЕДНЕЙ</h3>
-              <ArSent>
-                <Word root="نَج" suffix="ا" /> - <Word root="نُجِ" suffix="يَ" />
-              </ArSent>
-              <ArSent>
-                <Word root="يَنْجُو" /> - <Word root="يُنْجَ" suffix="ى" />
-              </ArSent>
+              <div className="arsent">
+                <div className="arsent__original">
+                  <Word negative prefix="قَ" root="ا" suffix="لَ" /> - <Word negative prefix="قِ" root="يِ" suffix="لَ" />
+                </div>
+              </div>
+              <div className="arsent">
+                <div className="arsent__original">
+                  <Word root="يَقُولُ" /> - <Word negative prefix="يُقَ" root="ا" suffix="لُ" />
+                </div>
+              </div>
 
-              <p>А теперь сами :) جَرَى / سار / نَالَ / بَنى / دَعا / سعى / نَسِيَ / صام / ساق / زار / خاف</p>
+              <h2 className="title">Пассивный залог с последней больной</h2>
+              <div className="arsent">
+                <div className="arsent__original">
+                  <Word root="نَج" suffix="ا" /> - <Word root="نُجِ" suffix="يَ" />
+                </div>
+              </div>
+              <div className="arsent">
+                <div className="arsent__original">
+                  <Word root="يَنْجُو" /> - <Word root="يُنْجَ" suffix="ى" />
+                </div>
+              </div>
+
+              <div className="desc">Для практики можите перевести данные глаголы в пассивный залог прошедшего и настоящего времени </div>
+              <div className="arsent">
+                <div className="arsent__original">جَرَى / سار / نَالَ / بَنى / دَعا / سعى / نَسِيَ / صام / ساق / زار / خاف</div>
+              </div>
             </div>
           </div>
         </div>

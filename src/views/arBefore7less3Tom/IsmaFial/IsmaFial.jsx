@@ -3,8 +3,6 @@ import classNames from 'classnames'
 import withStyles from '@material-ui/core/styles/withStyles'
 import Header from 'components/Header/Header.jsx'
 import Footer from 'components/Footer/Footer.jsx'
-import ContrastWord from 'components/Typography/ContrastWord.jsx'
-import ArSent from 'components/Typography/ArSent.jsx'
 import HeaderLinks from 'components/Header/HeaderLinks.jsx'
 import Parallax from 'components/Parallax/Parallax.jsx'
 import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
@@ -34,120 +32,139 @@ class IsmaFial extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className={classes.title}>اسم الفاعِل</h1>
-              <h2>Основная форма</h2>
-              <p>
+              <h1 className="title h1ar">اسم الفاعِل</h1>
+              <h2 className="title">Основная форма</h2>
+              <div className="desc">
                 <b>Лицо деятель</b> можно перевести как "действительное причастие" это имя существительное указывает на того кто выполняет
-                действие и образуется от 3ёх буквенного глагола по шаблону{' '}
-                <ContrastWord red inRu>
-                  الفاعِل
-                </ContrastWord>
-                ,{' '}
-              </p>
+                действие. Деятель трёх буквенного глагола образуется по шаблону
+                <span className="contrast desc__ar"> الفاعِل </span>
+              </div>
 
-              <ArSent translate="Тот кто бъет">
-                <ContrastWord red> الضارِب </ContrastWord> (ضَرَبَ)
-              </ArSent>
-              <ArSent translate="Убица">
-                <ContrastWord red> القاتِل </ContrastWord> (قتل)
-              </ArSent>
-              <ArSent translate="Сидящий">
-                <ContrastWord red> الجالِس </ContrastWord> (جلس)
-              </ArSent>
-              <ArSent translate="Писатель">
-                <ContrastWord red> الكاتِب </ContrastWord> (كتب)
-              </ArSent>
-              <ArSent translate="Раб">
-                <ContrastWord red> العابِد </ContrastWord> (عبد)
-              </ArSent>
-              <ArSent translate="Советующий">
-                <ContrastWord red> الناصِح </ContrastWord> (نصح)
-              </ArSent>
+              <div className="arsent">
+                <div className="arsent__original" dir="rtl">
+                  <span className="contrast"> الضارِب </span> (ضَرَبَ)
+                </div>
+                <div className="arsent__translate">Тот кто бъет</div>
+              </div>
+
+              <div className="arsent">
+                <div className="arsent__original" dir="rtl">
+                  <span className="contrast"> القاتِل </span> (قتل)
+                </div>
+                <div className="arsent__translate">Убица</div>
+              </div>
+
+              <div className="arsent">
+                <div className="arsent__original" dir="rtl">
+                  <span className="contrast"> الجالِس </span> (جلس)
+                </div>
+                <div className="arsent__translate">Сидящий</div>
+              </div>
+
+              <div className="arsent">
+                <div className="arsent__original" dir="rtl">
+                  <span className="contrast"> الكاتِب </span> (كتب)
+                </div>
+                <div className="arsent__translate">Писатель</div>
+              </div>
+
+              <div className="arsent">
+                <div className="arsent__original" dir="rtl">
+                  <span className="contrast"> العابِد </span> (عبد)
+                </div>
+                <div className="arsent__translate">Раб</div>
+              </div>
+
+              <div className="arsent">
+                <div className="arsent__original" dir="rtl">
+                  <span className="contrast"> الناصِح </span> (نصح)
+                </div>
+                <div className="arsent__translate">Советующий</div>
+              </div>
+
               {/* ------ */}
 
-              <h2>اسم الفاعِل у глаголов с шаддой</h2>
-              <p>
+              <h2 className="title">اسم الفاعِل у глаголов с шаддой</h2>
+              <div className="desc">
                 Не смотря на то что حَاجٌَ и ему подобные не похожи на اسم الفاعِل, мы чётко видим по каким принципам образуется это лицо
                 деятель
-              </p>
-              <ArSent>
-                حجّ - حَجْجَ - حاجِج ={' '}
-                <ContrastWord inRu translate="Тот кто в хадже" red>
-                  {' '}
-                  حَاجٌَ{' '}
-                </ContrastWord>
-              </ArSent>
-              <ArSent>
-                مًرَّ -{' '}
-                <ContrastWord inRu translate="приходящий" red>
-                  مارٌّ
-                </ContrastWord>
-              </ArSent>
-              <ArSent>
-                ضَلَّ -{' '}
-                <ContrastWord inRu translate="заблудший" red>
-                  ضالّ
-                </ContrastWord>
-              </ArSent>
-              <ArSent>
-                دَلّ -{' '}
-                <ContrastWord inRu translate="указывающий" red>
-                  دالّ
-                </ContrastWord>
-              </ArSent>
-              {/* -------- */}
+              </div>
 
-              <h2>اسم الفاعِل у глаголов со слабой средней</h2>
-              <p>Когда мы хотим образовать اسم الفاعِل со средней больной, то меняем коренной алиф на хамзу</p>
-              <ArSent>
-                قَال -{' '}
-                <ContrastWord inRu translate="говорящий" red>
-                  قائِل
-                </ContrastWord>
-              </ArSent>
-              <ArSent>
-                صام -{' '}
-                <ContrastWord inRu translate="постящийся" red>
-                  صَائِم
-                </ContrastWord>
-              </ArSent>
-              <ArSent>
-                نَام -{' '}
-                <ContrastWord inRu translate="спящий" red>
-                  نائِم
-                </ContrastWord>
-              </ArSent>
-
-              {/* -------- */}
-              <h2>اسم الفاعِل у глаголов со слабой последней</h2>
-              <ArSent>
-                <div>
-                  <span>هَدى</span> -
-                  <ContrastWord inRu translate="(не определенный) руководитель" red>
-                    هادٍ
-                  </ContrastWord>
-                  -
-                  <ContrastWord inRu translate="(конкретный) руководитель" red>
-                    الهادِي
-                  </ContrastWord>
+              <div className="arsent">
+                <div className="arsent__original">
+                  حجّ - حَجْجَ - حاجِج =<span className="contrast"> حَاجٌَ </span>
                 </div>
-              </ArSent>
-              <ArSent>
-                <div>
-                  <span>بَنَى</span>-
-                  <ContrastWord inRu translate="(не определенный) строитель" red>
-                    بانٍ
-                  </ContrastWord>
-                  -
-                  <ContrastWord inRu translate="(конкретный) строитель" red>
-                    البانِي
-                  </ContrastWord>
+                <div className="arsent__translate">Тот кто в хадже</div>
+              </div>
+
+              <div className="arsent">
+                <div className="arsent__original">
+                  مًرَّ -<span className="contrast"> مارٌّ </span>
                 </div>
-              </ArSent>
+                <div className="arsent__translate">Приходящий</div>
+              </div>
+
+              <div className="arsent">
+                <div className="arsent__original">
+                  ضَلَّ -<span className="contrast"> ضالّ </span>
+                </div>
+                <div className="arsent__translate">Заблудший</div>
+              </div>
+
+              <div className="arsent">
+                <div className="arsent__original">
+                  دَلّ -<span className="contrast"> دالّ </span>
+                </div>
+                <div className="arsent__translate">Указывающий</div>
+              </div>
 
               {/* -------- */}
-              <h2>С точки зрения сарф и нахв</h2>
-              <p>На картинке показаны подходы с точки зрения сарфа и нахв, три разных предложения и три разных роли у одного слова</p>
+
+              <h2 className="title">اسم الفاعِل у глаголов со средней слабой</h2>
+              <div className="desc">Когда мы хотим образовать اسم الفاعِل со средней больной, то меняем коренной алиф на хамзу</div>
+              <div className="arsent">
+                <div className="arsent__original">
+                  قَال -<span className="contrast"> قائِل </span>
+                </div>
+                <div className="arsent__translate">Говорящий</div>
+              </div>
+
+              <div className="arsent">
+                <div className="arsent__original">
+                  صام -<span className="contrast"> صَائِم </span>
+                </div>
+                <div className="arsent__translate">Постящийся</div>
+              </div>
+
+              <div className="arsent">
+                <div className="arsent__original">
+                  نَام -<span className="contrast"> نائِم </span>
+                </div>
+                <div className="arsent__translate">Спящий</div>
+              </div>
+
+              {/* -------- */}
+              <h2 className="title">اسم الفاعِل у глаголов со слабой последней</h2>
+
+              <div className="arsent">
+                <div className="arsent__original">
+                  <span> هَدى </span> -<span className="contrast"> هادٍ </span>-<span className="contrast"> الهادِي </span>
+                </div>
+                <div className="arsent__translate">Руководитель (не определенный и определенный)</div>
+              </div>
+
+              <div className="arsent">
+                <div className="arsent__original">
+                  <span> بَنَى </span>-<span className="contrast"> بانٍ </span>-<span className="contrast"> البانِي </span>
+                </div>
+                <div className="arsent__translate">Строитель (не определенный и определенный)</div>
+              </div>
+
+              {/* -------- */}
+              <h2 className="title">С точки зрения сарф и нахв</h2>
+              <div className="desc">
+                На картинке показаны подходы с точки зрения сарфа и нахв, три разных предложения и три разных роли у одного слова
+              </div>
             </div>
             <img src={ismfial} style={{ width: '100%' }} alt="Схема 1" />
           </div>

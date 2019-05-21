@@ -40,7 +40,7 @@ class IsmulMakanWaZamanPage extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className={classes.title}>اسم مكان و زمان</h1>
+              <h1 className="title h1ar">اسم مكان و زمان</h1>
 
               <p className="desc">
                 В грамматическом правиле для примера возьмем слово

@@ -1,18 +1,18 @@
-import React from "react";
+import React from 'react'
 // nodejs library that concatenates classes
-import classNames from "classnames";
+import classNames from 'classnames'
 // @material-ui/core components
-import withStyles from "@material-ui/core/styles/withStyles";
+import withStyles from '@material-ui/core/styles/withStyles'
 // core components
-import Header from "components/Header/Header.jsx";
-import Footer from "components/Footer/Footer.jsx";
-import ContrastWord from "components/Typography/ContrastWord.jsx";
-import ArSent from "components/Typography/ArSent.jsx";
-import HeaderLinks from "components/Header/HeaderLinks.jsx";
-import Parallax from "components/Parallax/Parallax.jsx";
-import arabicPageStyle from "assets/jss/material-kit-react/views/arabicPage.jsx";
+import Header from 'components/Header/Header.jsx'
+import Footer from 'components/Footer/Footer.jsx'
+import ContrastWord from 'components/Typography/ContrastWord.jsx'
+import ArSent from 'components/Typography/ArSent.jsx'
+import HeaderLinks from 'components/Header/HeaderLinks.jsx'
+import Parallax from 'components/Parallax/Parallax.jsx'
+import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
 
-import JsxParser from "react-jsx-parser";
+import JsxParser from 'react-jsx-parser'
 // https://www.npmjs.com/package/react-jsx-parser
 // https://www.npmjs.com/package/react-html-parser может лучше этот???
 
@@ -22,28 +22,28 @@ import JsxParser from "react-jsx-parser";
  *
  **/
 // import api from "./api/jumlatuhaal.js";
-import allApi from "./api/api.js";
+import allApi from './api/api.js'
 
 class Page extends React.Component {
-  state = { api: {} };
+  state = { api: {} }
   componentDidMount() {
-    const api = allApi[this.props.match.params.id];
+    const api = allApi[this.props.match.params.id]
 
     this.setState(function(state, props) {
       return {
         api
-      };
-    });
+      }
+    })
   }
 
   render() {
-    const { classes, ...rest } = this.props;
-    const { header, paralax, content } = this.state.api;
+    const { classes, ...rest } = this.props
+    const { header, paralax, content } = this.state.api
 
-    console.log(this.state.api);
+    console.log(this.state.api)
 
     if (!this.state.api.header) {
-      return null;
+      return null
     }
 
     return (
@@ -52,7 +52,7 @@ class Page extends React.Component {
           color={header.color}
           brand={header.brand}
           isBrandAr={header.isBrandAr}
-          rightLinks={header.rightLinks === "HeaderLinks" ? <HeaderLinks /> : null}
+          rightLinks={header.rightLinks === 'HeaderLinks' ? <HeaderLinks /> : null}
           fixed={header.fixed}
           changeColorOnScroll={{
             ...header.changeColorOnScroll
@@ -60,15 +60,11 @@ class Page extends React.Component {
           {...rest}
         />
 
-        <Parallax
-          small={paralax.small}
-          filter={paralax.filter}
-          image={require("assets/img/mosque/mosque2.jpg")}
-        />
+        <Parallax small={paralax.small} filter={paralax.filter} image={require('assets/img/mosque/mosque2.jpg')} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className={classes.title}>{header.brand}</h1>
+              <h1 className="title">{header.brand}</h1>
 
               <JsxParser components={{ ContrastWord, ArSent }} jsx={content} />
             </div>
@@ -76,8 +72,8 @@ class Page extends React.Component {
         </div>
         <Footer />
       </div>
-    );
+    )
   }
 }
 
-export default withStyles(arabicPageStyle)(Page);
+export default withStyles(arabicPageStyle)(Page)

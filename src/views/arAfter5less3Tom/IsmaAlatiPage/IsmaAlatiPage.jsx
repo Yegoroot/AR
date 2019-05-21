@@ -39,7 +39,7 @@ class IsmaAlatiPage extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className={classes.title}>اِسْمَ آلَةٍ</h1>
+              <h1 className="title h1ar">اِسْمَ آلَةٍ</h1>
 
               <AnimateCard>
                 <div className="arsent arsent_rule">

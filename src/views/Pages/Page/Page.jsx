@@ -1,25 +1,25 @@
-import React from "react";
+import React from 'react'
 // nodejs library that concatenates classes
-import classNames from "classnames";
+import classNames from 'classnames'
 // @material-ui/core components
-import withStyles from "@material-ui/core/styles/withStyles";
+import withStyles from '@material-ui/core/styles/withStyles'
 // core components
-import Header from "components/Header/Header.jsx";
-import Footer from "components/Footer/Footer.jsx";
-import ContrastWord from "components/Typography/ContrastWord.jsx";
-import ArSent from "components/Typography/ArSent.jsx";
-import HeaderLinks from "components/Header/HeaderLinks.jsx";
-import Parallax from "components/Parallax/Parallax.jsx";
-import arabicPageStyle from "assets/jss/material-kit-react/views/arabicPage.jsx";
+import Header from 'components/Header/Header.jsx'
+import Footer from 'components/Footer/Footer.jsx'
+import ContrastWord from 'components/Typography/ContrastWord.jsx'
+import ArSent from 'components/Typography/ArSent.jsx'
+import HeaderLinks from 'components/Header/HeaderLinks.jsx'
+import Parallax from 'components/Parallax/Parallax.jsx'
+import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
 
-import api from "./api";
+import api from './api'
 
-import JsxParser from "react-jsx-parser";
+import JsxParser from 'react-jsx-parser'
 
 class Page extends React.Component {
   render() {
-    const { classes, ...rest } = this.props;
-    const { header, paralax, content } = api;
+    const { classes, ...rest } = this.props
+    const { header, paralax, content } = api
 
     return (
       <div>
@@ -27,7 +27,7 @@ class Page extends React.Component {
           color={header.color}
           brand={header.brand}
           isBrandAr={header.isBrandAr}
-          rightLinks={header.rightLinks === "HeaderLinks" ? <HeaderLinks /> : null}
+          rightLinks={header.rightLinks === 'HeaderLinks' ? <HeaderLinks /> : null}
           fixed={header.fixed}
           changeColorOnScroll={{
             ...header.changeColorOnScroll
@@ -39,7 +39,7 @@ class Page extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className={classes.title}>{header.brand}</h1>
+              <h1 className="title">{header.brand}</h1>
 
               <JsxParser components={{ ContrastWord, ArSent }} jsx={content} />
             </div>
@@ -47,8 +47,8 @@ class Page extends React.Component {
         </div>
         <Footer />
       </div>
-    );
+    )
   }
 }
 
-export default withStyles(arabicPageStyle)(Page);
+export default withStyles(arabicPageStyle)(Page)
