@@ -19,7 +19,7 @@ class SomeIsm extends React.Component {
       <div>
         <Header
           color="transparent"
-          brand="لَدَى"
+          brand="Некоторые имена"
           isBrandAr
           rightLinks={<HeaderLinks />}
           fixed

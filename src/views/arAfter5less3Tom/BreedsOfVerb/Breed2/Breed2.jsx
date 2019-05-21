@@ -35,10 +35,11 @@ class AlMafuluFihi extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="h1ar">II порода (فَعَّلَ)</h1>
+              <h1 className="h1ar">(II) فَعَّلَ</h1>
 
               <div className="desc">
                 Прибавлена одна служебная буква.
+                <br />
                 <b className="desc__ar">
                   <span className="contrast"> فَعَّلَ </span>
                   <span> = </span>

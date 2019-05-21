@@ -31,7 +31,7 @@ class Breed4 extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="h1ar">IV порода (أَفْعَلَ)</h1>
+              <h1 className="h1ar">(IV) أَفْعَلَ</h1>
 
               <div className="desc">
                 Добавлена одна служебная буква <span className="desc__ar"> (ء) </span> в начале
@@ -181,20 +181,6 @@ class Breed4 extends React.Component {
                 </div>
               </div>
 
-              <h2 className="h2ar"> اسم مكان و زمان </h2>
-
-              <div className="desc">
-                Что касается
-                <span className="desc__ar"> اسم مكان و زمان </span> то он образуется от <span className="desc__ar"> اسم المَفْول </span>.
-                Например:
-              </div>
-
-              <div className="arsent">
-                <div className="arsent__original">
-                  صلَّى - يُصَلِّي -<span className="contrast"> مُصَلًّى </span>
-                </div>
-                <div className="arsent__translate">молился - молится - место молитвы</div>
-              </div>
               {/* -------------------------------- */}
             </div>
           </div>

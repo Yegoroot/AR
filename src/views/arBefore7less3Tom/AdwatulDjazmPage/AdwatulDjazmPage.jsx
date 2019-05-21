@@ -40,13 +40,12 @@ class AdwatulDjazmPage extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="title h1ar"> لمْ - لَمّا - لا - لامْ الأمر </h1>
+              <h1 className="title h1ar">لمْ, لَمّا, لا, لامْ الأمر</h1>
 
-              <h2 className="title">
-                Отрицательная частица <span className="contrast"> لَمْ </span>
-              </h2>
+              <h2 className="title h2ar">لَمْ</h2>
               <div className="desc">
-                Приходит перед глаголами настоящего времени у ней две роли: <b> отрицает </b> и<b> меняет время на прошедшее</b>
+                <b> Отрицательная частица </b> приходит перед глаголами настоящего времени у ней две роли: <b> отрицает </b> и
+                <b> меняет время на прошедшее</b>
               </div>
               <div className="arsent">
                 <div className="arsent__original">
@@ -54,13 +53,11 @@ class AdwatulDjazmPage extends React.Component {
                 </div>
               </div>
 
-              <h2 className="title">
-                Частица
-                <span className="contrast"> لَمّا </span>
-                (пока еще не, еще не)
-              </h2>
-
-              <div className="desc">Отрицает и прошлый и настоящий момент, у لمّا есть высокий уровень возможности свершения</div>
+              <h2 className="title h2ar">لَمّا</h2>
+              <div className="desc">
+                <b> Частица (пока еще не, еще не) </b>. Отрицает и прошлый и настоящий момент, у <span className="desc__ar"> لمَّا </span>
+                есть высокий уровень возможности свершения
+              </div>
               <div className="arsent">
                 <div className="arsent__original">
                   <span> وَ </span>
@@ -69,11 +66,10 @@ class AdwatulDjazmPage extends React.Component {
                 <div className="arsent__translate">Еще пока не зашла вера в их сердца</div>
               </div>
 
-              <h2 className="title">
-                Частица отрицания
-                <span className="contrast"> لا النّاهية </span>
-              </h2>
-              <div className="desc">Приходит только ко второму лицу настоящего времени!</div>
+              <h2 className="title h2ar">لا النّاهية</h2>
+              <div className="desc">
+                <b>Частица отрицания</b> приходит только ко второму лицу настоящего времени!
+              </div>
               <div className="arsent">
                 <div className="arsent__original">
                   <span className="contrast"> لا </span> تَ‍‍ذهب‍‍وا الي المدرسة
@@ -87,11 +83,10 @@ class AdwatulDjazmPage extends React.Component {
                 <div className="arsent__translate">Не печалься, Аллахъ с нами</div>
               </div>
 
-              <h2 className="title">
-                Частица приказа
-                <span className="contrast"> لامُ الأمر </span>
-              </h2>
-              <div className="desc">Может прийти к любому лицу (Пусть он, пусть она)</div>
+              <h2 className="title h2ar">لامُ الأمر</h2>
+              <div className="desc">
+                <b>Частица приказа</b> может прийти к любому лицу (Пусть он, пусть она)
+              </div>
 
               <AnimateCard>
                 <div className="arsent arsent_rule">
@@ -140,7 +135,7 @@ class AdwatulDjazmPage extends React.Component {
                 <div className="arsent__translate">Давайте сейчас присядем в парке, затем пойдём в мечеть</div>
               </div>
 
-              <h2>Пример того как джазмируется окончание</h2>
+              <h2 className="title">Пример того как джазмируется окончание</h2>
               <div className="arsent">
                 <div className="arsent__original">
                   لَمْ أذهبْ - لَمْ نَذهبْ

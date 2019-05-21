@@ -35,7 +35,7 @@ class HarfSobirPage extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="title">Собирательная частица (اسم الجنس الجَمْعِ )</h1>
+              <h1 className="title  h1ar">اسم الجنس الجَمْعِ </h1>
               <div className="desc">
                 Собирательная частица есть двух типов: для людей и для не людей. Например у человека есть вид (племя) турки, русские, арабы,
                 эстонцы .У животных и растений тоже есть виды (семейства), например львы, финики, яблоки

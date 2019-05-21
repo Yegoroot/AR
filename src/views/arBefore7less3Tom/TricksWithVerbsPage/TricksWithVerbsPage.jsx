@@ -1,22 +1,22 @@
-import React from "react";
-import classNames from "classnames";
-import withStyles from "@material-ui/core/styles/withStyles";
-import Header from "components/Header/Header.jsx";
-import Footer from "components/Footer/Footer.jsx";
-import HeaderLinks from "components/Header/HeaderLinks.jsx";
-import Parallax from "components/Parallax/Parallax.jsx";
+import React from 'react'
+import classNames from 'classnames'
+import withStyles from '@material-ui/core/styles/withStyles'
+import Header from 'components/Header/Header.jsx'
+import Footer from 'components/Footer/Footer.jsx'
+import HeaderLinks from 'components/Header/HeaderLinks.jsx'
+import Parallax from 'components/Parallax/Parallax.jsx'
 
-import LiWithVerb from "./Sections/LiWithVerb";
-import Admiration from "./Sections/Admiration";
-import DualIsm from "./Sections/DualIsm";
-import StartHamza from "./Sections/StartHamza";
-import ConcOfCond from "./Sections/ConcOfCond";
+import LiWithVerb from './Sections/LiWithVerb'
+import Admiration from './Sections/Admiration'
+import DualIsm from './Sections/DualIsm'
+import StartHamza from './Sections/StartHamza'
+import ConcOfCond from './Sections/ConcOfCond'
 
-import arabicPageStyle from "assets/jss/material-kit-react/views/arabicPage.jsx";
+import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
 
 class TricksWithVerbsPage extends React.Component {
   render() {
-    const { classes, ...rest } = this.props;
+    const { classes, ...rest } = this.props
 
     return (
       <div>
@@ -27,16 +27,16 @@ class TricksWithVerbsPage extends React.Component {
           fixed
           changeColorOnScroll={{
             height: 200,
-            color: "white"
+            color: 'white'
           }}
           {...rest}
         />
 
-        <Parallax small filter image={require("assets/img/mosque/mosque6.jpg")} />
+        <Parallax small filter image={require('assets/img/mosque/mosque6.jpg')} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="title">Нюансы с глаголами</h1>
+              {/* <h1 className="title">Нюансы с глаголами</h1> */}
               <LiWithVerb />
               <Admiration />
               <DualIsm />
@@ -47,8 +47,8 @@ class TricksWithVerbsPage extends React.Component {
         </div>
         <Footer />
       </div>
-    );
+    )
   }
 }
 
-export default withStyles(arabicPageStyle)(TricksWithVerbsPage);
+export default withStyles(arabicPageStyle)(TricksWithVerbsPage)
