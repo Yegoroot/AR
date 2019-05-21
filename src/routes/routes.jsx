@@ -49,6 +49,7 @@ import MinQoblu from 'views/arAfter5less3Tom/MinQoblu/MinQoblu'
 import ThorfItha from 'views/arAfter5less3Tom/ThorfItha/ThorfItha'
 import AdatuShart from 'views/arAfter5less3Tom/AdatuShart/AdatuShart'
 import SomeIsm from 'views/arAfter5less3Tom/SomeIsm/SomeIsm'
+import SomeHarf from 'views/arAfter5less3Tom/SomeHarf/SomeHarf'
 import LamIbtidaa from 'views/arAfter5less3Tom/LamIbtidaa/LamIbtidaa'
 import VerbTransitiveAndNo from 'views/arAfter5less3Tom/VerbTransitiveAndNo/VerbTransitiveAndNo'
 import Breed2 from 'views/arAfter5less3Tom/BreedsOfVerb/Breed2/Breed2'
@@ -75,6 +76,7 @@ var indexRoutes = [
   { path: '/thorfitha', name: 'ThorfItha', component: ThorfItha },
   { path: '/adatushart', name: 'AdatuShart', component: AdatuShart },
   { path: '/someism', name: 'SomeIsm', component: SomeIsm },
+  { path: '/someharf', name: 'SomeHarf', component: SomeHarf },
   { path: '/lamibtidaa', name: 'LamIbtidaa', component: LamIbtidaa },
   { path: '/verbtransitive', name: 'VerbTransitiveAndNo', component: VerbTransitiveAndNo },
 

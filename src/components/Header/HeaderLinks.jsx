@@ -175,6 +175,9 @@ function HeaderLinks({ ...props }) {
             </Link>,
             <Link to="/harfulaw" style={{ fontSize: 20 }} className={classes.dropdownLink}>
               حرف لو
+            </Link>,
+            <Link to="/someharf" className={classes.dropdownLink}>
+              Некоторые частицы
             </Link>
           ]}
         />
