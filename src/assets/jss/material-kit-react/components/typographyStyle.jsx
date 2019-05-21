@@ -1,24 +1,17 @@
-import {
-  defaultFont,
-  primaryColor,
-  infoColor,
-  successColor,
-  warningColor,
-  dangerColor
-} from "assets/jss/material-kit-react.jsx";
+import { defaultFont, primaryColor, infoColor, successColor, warningColor, dangerColor } from 'assets/jss/material-kit-react.jsx'
 
 const typographyStyle = {
   defaultFontStyle: {
     ...defaultFont,
-    fontSize: "16px"
+    fontSize: '16px'
   },
   defaultHeaderMargins: {
-    marginTop: "20px",
-    marginBottom: "10px"
+    marginTop: '20px',
+    marginBottom: '10px'
   },
 
   mutedText: {
-    color: "#777"
+    color: '#777'
   },
   primaryText: {
     color: primaryColor
@@ -36,11 +29,11 @@ const typographyStyle = {
     color: dangerColor
   },
   smallText: {
-    fontSize: "65%",
-    fontWeight: "400",
-    lineHeight: "1",
-    color: "#777"
+    fontSize: '65%',
+    fontWeight: '400',
+    lineHeight: '1',
+    color: '#777'
   }
-};
+}
 
-export default typographyStyle;
+export default typographyStyle

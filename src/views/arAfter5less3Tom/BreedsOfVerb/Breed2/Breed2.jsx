@@ -40,6 +40,7 @@ class AlMafuluFihi extends React.Component {
               <div className="desc">
                 Прибавлена одна служебная буква.
                 <br />
+                <br />
                 <b className="desc__ar">
                   <span className="contrast"> فَعَّلَ </span>
                   <span> = </span>

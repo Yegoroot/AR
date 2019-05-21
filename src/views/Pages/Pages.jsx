@@ -6,11 +6,11 @@ import withStyles from '@material-ui/core/styles/withStyles'
 // core components
 import Header from 'components/Header/Header.jsx'
 import Footer from 'components/Footer/Footer.jsx'
-import ContrastWord from 'components/Typography/ContrastWord.jsx'
-import ArSent from 'components/Typography/ArSent.jsx'
 import HeaderLinks from 'components/Header/HeaderLinks.jsx'
 import Parallax from 'components/Parallax/Parallax.jsx'
 import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
+import AnimateCard from 'components/AnimateCard/AnimateCard'
+import Word from 'components/word'
 
 import JsxParser from 'react-jsx-parser'
 // https://www.npmjs.com/package/react-jsx-parser
@@ -66,7 +66,7 @@ class Page extends React.Component {
             <div className={classes.navWrapper}>
               <h1 className="title">{header.brand}</h1>
 
-              <JsxParser components={{ ContrastWord, ArSent }} jsx={content} />
+              <JsxParser components={{ Word, AnimateCard }} jsx={content} />
             </div>
           </div>
         </div>

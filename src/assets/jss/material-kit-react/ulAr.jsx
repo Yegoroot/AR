@@ -1,18 +1,18 @@
 const ulAr = {
   fontSize: 35,
   padding: 0,
-  textAlign: "right",
-  listStyle: "none",
+  textAlign: 'right',
+  listStyle: 'none',
   marginTop: 0,
   marginBottom: 0,
-  "& > li": {
+  '& > li': {
     lineHeight: 1.9,
     paddingBottom: 10,
-    "& > *": {
+    '& > *': {
       paddingLeft: 25
     }
   },
-  "@media (max-width: 540px)": { fontSize: 27 }
-};
+  '@media (max-width: 540px)': { fontSize: 27 }
+}
 
-export { ulAr };
+export { ulAr }
