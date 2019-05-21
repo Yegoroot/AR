@@ -50,16 +50,6 @@ class AlMafuluFihi extends React.Component {
                 </b>
               </div>
 
-              {/* <AnimateCard>
-                <div className="arsent arsent_rule">
-                  <div className="arsent__translate">
-                    <span className="contrast">Приставки </span> настоящего времени в{' '}
-                    <span className="contrast">четырёх буквенных </span> глаголах ВСЕГДА
-                    <span className="contrast"> приходят с Даммой </span>
-                  </div>
-                </div>
-              </AnimateCard> */}
-
               <div className="items items_islabel">
                 <div className="item">
                   <h2 className="h2ar ">فَعَّلَ</h2>
@@ -171,9 +161,31 @@ class AlMafuluFihi extends React.Component {
                 <div className="arsent__original">
                   صلَّى - يُصَلِّي -<span className="contrast"> مُصَلًّى </span>
                 </div>
-                <div className="arsent__translate">молился - молится - место молитвы</div>
+                <div className="arsent__translate">
+                  молился - молится - <span className="contrast"> место молитвы </span>
+                </div>
               </div>
-              {/* -------------------------------- */}
+
+              <h2 className="title"> Примеры</h2>
+
+              <div className="arsent">
+                <div className="arsent__original">
+                  <span> فَرِحَ </span> -<span className="contrast"> فَرَّحَ </span>
+                </div>
+                <div className="arsent__translate">
+                  Радовался - <span className="contrast"> Обрадовал </span>
+                </div>
+              </div>
+
+              <div className="arsent">
+                <div className="arsent__original">
+                  <span> أظُنّ أنّني </span>
+                  <span className="contrast"> فَهَّمتُكُمْ </span>
+                </div>
+                <div className="arsent__translate">
+                  Думаю что <span className="contrast"> заставил </span> вас <span className="contrast"> понять </span>
+                </div>
+              </div>
             </div>
           </div>
         </div>

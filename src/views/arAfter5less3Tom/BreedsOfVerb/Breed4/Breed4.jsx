@@ -181,6 +181,26 @@ class Breed4 extends React.Component {
                 </div>
               </div>
 
+              <h2 className="title"> Примеры</h2>
+
+              <div className="arsent">
+                <div className="arsent__original">
+                  <span> لِما </span>
+                  <span className="contrast"> أَخْرَجْتَ </span>
+                  <span> السبّور يا أسامةُ؟ </span>
+                  <span className="contrast"> أَدْخِلْهَا </span>
+                  <span> بِسُرْعَةٍ </span>
+                </div>
+                <div className="arsent__translate"> Зачем ты вытащил доску? Затащи ее обратно, быстро </div>
+              </div>
+              <div className="arsent">
+                <div className="arsent__original">
+                  <span> و ما </span>
+                  <span className="contrast"> أَدْراكَ </span>
+                  <span> أَنّهُ يَكْذِب؟ </span>
+                </div>
+                <div className="arsent__translate"> Что заставило тебя знать что он врёт? </div>
+              </div>
               {/* -------------------------------- */}
             </div>
           </div>

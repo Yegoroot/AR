@@ -78,6 +78,9 @@ function HeaderLinks({ ...props }) {
             <Link to="/fialmabnililmajhun" className={classes.dropdownLink}>
               Глагол страдательного залога
             </Link>,
+            <Link to="/verbtransitive" className={classes.dropdownLink}>
+              Переходность глагола
+            </Link>,
             <Link to="/breed2" className={classes.dropdownLink}>
               II порода глагола
             </Link>,

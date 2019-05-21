@@ -56,7 +56,7 @@ class FialMabniLilmajhun extends React.Component {
                   <span className="contrast_2"> хлеб </span> (مفعول به - прямое дополнение)
                 </div>
               </div>
-              <h2 className="title">Пример пассивного залога</h2>
+              <h2 className="title">Пример пассивного залога فُعِلَ - يُفْعَلُ</h2>
               <div className="desc">В случае с пассивным залогом деятель неизвестен (или известен из контекста), фокус на результате.</div>
               <div className="arsent">
                 <div className="arsent__original">
@@ -72,7 +72,7 @@ class FialMabniLilmajhun extends React.Component {
               <div className="arsent">
                 <div className="arsent__original">
                   <span> يَجِبُ أن </span>
-                  <span className="contrast"> يُكْتَبَ </span>
+                  <span className="contrast"> يُكْتَبُ </span>
                   <span> العُنْوانُ بِخَطٍّ واضِحٍ</span>
                 </div>
                 <div className="arsent__translate">Писать адрес нужно разборчивым почерком</div>
