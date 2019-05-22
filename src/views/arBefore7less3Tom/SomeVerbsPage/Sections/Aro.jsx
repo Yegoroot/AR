@@ -61,6 +61,15 @@ export default function() {
         </div>
         <div className="arsent__translate"> Показал нам учитель новую книгу по грамматике </div>
       </div>
+
+      <div className="arsent">
+        <div className="arsent__original">
+          <span> وَلَقَدْ </span>
+          <Word root="أَرَيْ" suffix="ناهُ" negative />
+          <span> آياتِنا كُلَّها فَكَذَّبَ وَأَبَى </span>
+        </div>
+        <div className="arsent__translate"> Мы показали ему наши знамения, но он посчитал их ложью и отвернулся [20/56]</div>
+      </div>
     </div>
   )
 }
