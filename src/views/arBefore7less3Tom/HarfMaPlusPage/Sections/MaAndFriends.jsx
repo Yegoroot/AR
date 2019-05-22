@@ -12,9 +12,9 @@ function MaAndFriends() {
 
       <div className="items">
         <div className="item">
-          <h3 className="title">
+          <h2 className="title">
             مِنْ + ما = <span className="contrast">مِمَّ</span>؟
-          </h3>
+          </h2>
           <div className="arsent">
             <div className="arsent__original">
               <span className="contrast">مِمَّ </span> خَلَقَ اللّه الانسان؟
@@ -25,9 +25,9 @@ function MaAndFriends() {
           </div>
         </div>
         <div className="item">
-          <h3 className="title">
+          <h2 className="title">
             بِ + ما = <span className="contrast">بِمَ</span>؟
-          </h3>
+          </h2>
           <div className="arsent">
             <div className="arsent__original">
               <span className="contrast">بِمَ </span> قتلتُ الحَيَّة؟
@@ -38,9 +38,9 @@ function MaAndFriends() {
           </div>
         </div>
         <div className="item">
-          <h3 className="title">
+          <h2 className="title">
             لِ + ما = <span className="contrast"> لِمَ </span>؟
-          </h3>
+          </h2>
           <div className="arsent">
             <div className="arsent__original">
               <span className="contrast">لِمَ </span> خَرجُْتَ مِن الفصلِ؟
@@ -51,9 +51,9 @@ function MaAndFriends() {
           </div>
         </div>
         <div className="item">
-          <h3 className="title">
+          <h2 className="title">
             عَنْ + ما = <span className="contrast"> عَمَّ </span>؟
-          </h3>
+          </h2>
           <div className="arsent">
             <div className="arsent__original">
               <span className="contrast"> عَمَّ </span> بَحثْتَ في المدرسةِ؟

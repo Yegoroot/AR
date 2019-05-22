@@ -38,17 +38,50 @@ class AlMafuluFihi extends React.Component {
               <h1 className="h1ar">(II) فَعَّلَ</h1>
 
               <div className="desc">
-                Прибавлена одна служебная буква.
-                <br />
-                <br />
-                <b className="desc__ar">
-                  <span className="contrast"> فَعَّلَ </span>
-                  <span> = </span>
-                  <span> فَ </span>
-                  <span className="contrast"> عْ </span>
-                  <span> عَ لَ </span>
-                </b>
+                Прибавлена одна служебная буква. Имеет значения: <b> Учащение </b> <b className="desc__ar"> (التَكْثِيرُ) </b> или
+                <b> Усиление </b> <b className="desc__ar"> (المُبَالَغَةُ) </b>. Так же используем раздел второй породы для того чтоб
+                сообщить <b> переходность глаголам непереходным </b> или
+                <b> двойную переходность глаголам переходным </b> и сообщаем ему принудительное значение, но об этом смотрите в разделе
+                "Переходность глаголов"
               </div>
+
+              <div className="arsent">
+                <div className="arsent__original">
+                  <span className="contrast"> جَوَّلَ </span>
+                  <span> - أي جَال كَثِيراً </span>
+                </div>
+                <div className="arsent__translate">Тот кто мнооого путешествует</div>
+              </div>
+
+              <div className="arsent">
+                <div className="arsent__original">
+                  <span className="contrast"> قَتَّلَ </span>
+                  <span> - أي بَالَغَ فِي القتْلِ </span>
+                </div>
+                <div className="arsent__translate">Тот кто мнооого убивал (геноцид совершал)</div>
+              </div>
+
+              <div className="arsent">
+                <div className="arsent__original">
+                  <span className="contrast"> كَسَّرَتُ </span>
+                  <span> الأقْلامَ </span>
+                </div>
+                <div className="arsent__translate">
+                  Ломал мнооого ручек. <b className=""> (учащение)</b>
+                </div>
+              </div>
+
+              <div className="arsent">
+                <div className="arsent__original">
+                  <span className="contrast"> كَسَّرَتُ </span>
+                  <span> القَلَمَ </span>
+                </div>
+                <div className="arsent__translate">
+                  Ручку сломал в дребезги. <b className=""> (усиление) </b>
+                </div>
+              </div>
+
+              <h2 className="title"> Шаблоны </h2>
 
               <div className="items items_islabel">
                 <div className="item">

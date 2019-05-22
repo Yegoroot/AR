@@ -20,7 +20,6 @@ class SomeIsm extends React.Component {
         <Header
           color="transparent"
           brand="Некоторые имена"
-          isBrandAr
           rightLinks={<HeaderLinks />}
           fixed
           changeColorOnScroll={{
