@@ -59,10 +59,10 @@ class VerbTransitiveAndNo extends React.Component {
 
               <div className="arsent">
                 <div className="arsent__original">
-                  <span className="contrast_2"> بَنَى </span>
-                  <span className="contrast"> إبراهيمُ </span>
+                  <span className="contrast"> بَنَى </span>
+                  <span className="contrast_2"> إبراهيمُ </span>
                   <span> عليه السلام </span>
-                  <span className="contrast"> الكَعَبَةَ </span>
+                  <span className="contrast_2"> الكَعَبَةَ </span>
                 </div>
                 <div className="arsent__translate">Построил Ибрахим (Мир Ему) Каабу</div>
               </div>
@@ -74,10 +74,10 @@ class VerbTransitiveAndNo extends React.Component {
 
               <div className="arsent">
                 <div className="arsent__original">
-                  <span className="contrast_2"> قَرَأَ </span>
-                  <span className="contrast"> الدرسَ </span>
+                  <span className="contrast"> قَرَأَ </span>
+                  <span className="contrast_2"> الدرسَ </span>
                   <span> و </span>
-                  <Word root="قَهِمَ" suffix="هُ" />
+                  <Word root="قَهِمَ" suffix="هُ" color2 />
                 </div>
                 <div className="arsent__translate">Он читал урок и понял его (урок)</div>
               </div>
@@ -88,7 +88,7 @@ class VerbTransitiveAndNo extends React.Component {
 
               <div className="arsent">
                 <div className="arsent__original">
-                  <span className="contrast_2"> خَرَجَ </span>
+                  <span className="contrast"> خَرَجَ </span>
                   <span> الطلابُ </span>
                 </div>
                 <div className="arsent__translate"> Суденты вышли </div>
@@ -96,7 +96,7 @@ class VerbTransitiveAndNo extends React.Component {
 
               <div className="arsent">
                 <div className="arsent__original">
-                  <span className="contrast_2"> فَرِحَ </span>
+                  <span className="contrast"> فَرِحَ </span>
                   <span> المُدَرِّس </span>
                 </div>
                 <div className="arsent__translate"> Учитель обрадовался </div>
@@ -109,12 +109,130 @@ class VerbTransitiveAndNo extends React.Component {
 
               <div className="arsent">
                 <div className="arsent__original">
-                  <span className="contrast_2"> غَضِبَ </span>
-                  <span className="contrast"> المدرس </span>
+                  <span className="contrast"> غَضِبَ </span>
+                  <span className="contrast_2"> المدرس </span>
                   <span> على </span>
-                  <span className="contrast"> الطالِب الكسلانِ </span>
+                  <span className="contrast_2"> الطالِب الكسلانِ </span>
                 </div>
                 <div className="arsent__translate">Разгневан учитель на ленивых студентов </div>
+              </div>
+
+              <h2 className="title">Из непереходного в переходный </h2>
+              <div className="desc">
+                <b className="desc__ar">Не</b>переходный становится переходным когда он из первой породы переносится в
+                <b className="desc__ar"> فَعَّلَ </b> (II) или
+                <b className="desc__ar"> أَفْعَلَ </b> (IV)
+              </div>
+
+              <h3 className="title"> По модели (IV) </h3>
+              <div className="arsent">
+                <div className="arsent__original">
+                  <span className="contrast"> خَرَجَ </span>
+                  <span> حامِدٌ من الفصلِ </span>
+                </div>
+                <div className="arsent__translate">Вышел Хамид из класса </div>
+              </div>
+
+              <div className="arsent">
+                <div className="arsent__original">
+                  <span className="contrast"> أخْرَجَ </span>
+                  <span> المدرِّسُ </span>
+                  <span className="contrast_2"> حامِداً </span>
+                  <span> من الفصلِ </span>
+                </div>
+                <div className="arsent__translate">Учитель вывел Хамида из класса </div>
+              </div>
+
+              <div className="arsent">
+                <div className="arsent__original">
+                  <span className="contrast"> نَزَل </span>
+                  <span> الجَرِيْحُ من سيَّارة الإسْعافِ </span>
+                </div>
+                <div className="arsent__translate">Спустился раненый с кареты скорой помощи </div>
+              </div>
+
+              <div className="arsent">
+                <div className="arsent__original">
+                  <span className="contrast"> أنْزَلَ </span>
+                  <span> المُمَرِّضُونَ </span>
+                  <span className="contrast_2"> الجريْحَ </span>
+                  <span> من سيارة الإسْعافِ </span>
+                </div>
+                <div className="arsent__translate">Спустилия медбратья раненного с кареты скорой помощи </div>
+              </div>
+
+              <h3 className="title"> По модели (II) </h3>
+
+              <div className="arsent">
+                <div className="arsent__original">
+                  <span className="contrast"> نَزَلَ </span>
+                  <span> الطِفلُ من الطائِرة </span>
+                </div>
+                <div className="arsent__translate"> Спустился ребёнок с самолета </div>
+              </div>
+              <div className="arsent">
+                <div className="arsent__original">
+                  <span className="contrast"> نَزَّلتُ </span>
+                  <span className="contrast_2"> الطِفْلَ </span>
+                  <span> من الطائِرة </span>
+                </div>
+                <div className="arsent__translate"> Спустил я ребёнка с самолёта </div>
+              </div>
+
+              <div className="arsent">
+                <div className="arsent__original">
+                  <span className="contrast"> نَامَ </span>
+                  <span> المَرِيضُ </span>
+                </div>
+                <div className="arsent__translate"> Больной заснул </div>
+              </div>
+              <div className="arsent">
+                <div className="arsent__original">
+                  <span className="contrast"> نَوَّمَ </span>
+                  <span> الحواءُ </span>
+                  <span className="contrast_2"> المَرِيضَ </span>
+                </div>
+                <div className="arsent__translate"> Лекарства усыпили больного </div>
+              </div>
+
+              <h2 className="title"> В двойне переходный </h2>
+              <div className="desc">
+                {' '}
+                Если первообразный (изначальный трёхбуквенный) глагол является переходным, то он станет вдвойне переходным. Например{' '}
+              </div>
+
+              <div className="arsent">
+                <div className="arsent__original">
+                  <span className="contrast"> سَمِعَ </span>
+                  <span> المُدرِّسُ </span>
+                  <span className="contrast_2"> القرآنَ </span>
+                </div>
+                <div className="arsent__translate"> Слушал учитель Коран </div>
+              </div>
+              <div className="arsent">
+                <div className="arsent__original">
+                  <span className="contrast"> أسْمَعَ </span>
+                  <span> الطلابُ </span>
+                  <span className="contrast_2"> المدرسَ القرآنَ </span>
+                </div>
+                <div className="arsent__translate"> Заставили студенты слушать Учителя Коран </div>
+              </div>
+
+              <div className="arsent">
+                <div className="arsent__original">
+                  <span className="contrast"> فَهِمَ </span>
+                  <span> الطالِبُ </span>
+                  <span className="contrast_2"> الدرسَ </span>
+                </div>
+                <div className="arsent__translate"> Понял студент урок </div>
+              </div>
+              <div className="arsent">
+                <div className="arsent__original">
+                  <span className="contrast"> فَهَّمَ </span>
+                  <span> المدرِّس </span>
+                  <span className="contrast_2"> الطالبَ الدرسَ</span>
+                </div>
+                <div className="arsent__translate"> Заставил учитель студента понять урок (ох уж эти учителя) </div>
               </div>
 
               {/* --------------------- */}
