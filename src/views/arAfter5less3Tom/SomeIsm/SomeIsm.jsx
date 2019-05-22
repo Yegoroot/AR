@@ -10,6 +10,7 @@ import Parallax from 'components/Parallax/Parallax.jsx'
 import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
 import Ladayya from './sections/Ladayya'
 import Kam from './sections/Kam'
+import Iyyaka from './sections/Iyyaka'
 
 class SomeIsm extends React.Component {
   render() {
@@ -37,6 +38,7 @@ class SomeIsm extends React.Component {
               <h1>Некоторые имена</h1>
               <Ladayya />
               <Kam />
+              <Iyyaka />
             </div>
           </div>
         </div>
