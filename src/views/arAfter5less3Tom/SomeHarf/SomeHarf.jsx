@@ -9,6 +9,7 @@ import HeaderLinks from 'components/Header/HeaderLinks.jsx'
 import Parallax from 'components/Parallax/Parallax.jsx'
 import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
 import Qad from './sections/Qad'
+import Innama from './sections/Innama'
 
 class SomeIsm extends React.Component {
   render() {
@@ -35,6 +36,7 @@ class SomeIsm extends React.Component {
             <div className={classes.navWrapper}>
               <h1 className="title">Некоторые частицы</h1>
               <Qad />
+              <Innama />
             </div>
           </div>
         </div>
