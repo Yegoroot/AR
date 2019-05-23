@@ -59,7 +59,7 @@ class AccentPage extends React.Component {
 
               <div className="arsent">
                 <div className="arsent__original">
-                  أ <span className="contrast"> عقربُ </span>قتلتَ أنتَ في الفصلِ؟
+                  أ <span className="contrast"> عقربَ </span>قتلتَ أنتَ في الفصلِ؟
                 </div>
                 <div className="arsent__translate">
                   А <span className="contrast"> скорпиона </span>(или другое) ты убил в классе?
