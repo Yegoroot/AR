@@ -16,6 +16,7 @@ import OtherVerbs from './Sections/OtherVerbs'
 import Asbaha from './Sections/Asbaha'
 import Avshaka from './Sections/Avshaka'
 import Aro from './Sections/Aro'
+import Asma from './Sections/Asma'
 
 import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
 
@@ -50,6 +51,7 @@ class SomeVerbsPage extends React.Component {
               <OtherVerbs />
               <KanaLaYazalu />
               <Asbaha />
+              <Asma />
               <Avshaka />
               <Aro />
             </div>
