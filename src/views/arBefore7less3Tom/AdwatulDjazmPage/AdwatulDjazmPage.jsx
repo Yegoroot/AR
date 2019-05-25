@@ -65,6 +65,19 @@ class AdwatulDjazmPage extends React.Component {
                 </div>
                 <div className="arsent__translate">Еще пока не зашла вера в их сердца</div>
               </div>
+              <div className="desc">
+                Если приходит после этой частицы глагол прошедшего времени,то другое значение у этой частицы
+                <b className="desc__ar"> اسم الزمان </b>. Но это уже не
+                <b className="desc__ar"> أدْوَات الجَزْم </b>
+              </div>
+              <div className="arsent">
+                <div className="arsent__original">
+                  <span className="contrast"> لمَّا </span> سَمِعْتُ الأذانَ تَوضَّأْت وَتَوجَّهتُ إلى المسجد
+                </div>
+                <div className="arsent__translate">
+                  <span className="contrast"> Когда </span> услышал Азан, принял омовение, и направился к мечети
+                </div>
+              </div>
 
               <h2 className="title h2ar">لا النّاهية</h2>
               <div className="desc">
