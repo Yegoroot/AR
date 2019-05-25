@@ -55,6 +55,7 @@ import VerbTransitiveAndNo from 'views/arAfter5less3Tom/VerbTransitiveAndNo/Verb
 import Breed2 from 'views/arAfter5less3Tom/BreedsOfVerb/Breed2/Breed2'
 import Breed3 from 'views/arAfter5less3Tom/BreedsOfVerb/Breed3/Breed3'
 import Breed4 from 'views/arAfter5less3Tom/BreedsOfVerb/Breed4/Breed4'
+import Breed5 from 'views/arAfter5less3Tom/BreedsOfVerb/Breed5/Breed5'
 
 var indexRoutes = [
   /** after 16 less 3tom and 4tom
@@ -62,6 +63,7 @@ var indexRoutes = [
   { path: '/breed2', name: 'Breed2', component: Breed2 },
   { path: '/breed3', name: 'Breed3', component: Breed3 },
   { path: '/breed4', name: 'Breed4', component: Breed4 },
+  { path: '/breed5', name: 'Breed5', component: Breed5 },
 
   /**
    *
