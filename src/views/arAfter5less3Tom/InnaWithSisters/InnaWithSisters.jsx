@@ -9,7 +9,11 @@ import HeaderLinks from 'components/Header/HeaderLinks.jsx'
 import Parallax from 'components/Parallax/Parallax.jsx'
 import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
 
+import Inna from './sections/Inna'
+import Kaanna from './sections/Kaanna'
+import Lakinna from './sections/Lakinna'
 import Layta from './sections/Layta'
+import Lyaallya from './sections/Lyaallya'
 
 class InnaWithSisters extends React.Component {
   render() {
@@ -19,7 +23,7 @@ class InnaWithSisters extends React.Component {
       <div>
         <Header
           color="transparent"
-          brand="Частица Инна и ее сестры"
+          brand="Частица إِنَّ и ее сестры"
           rightLinks={<HeaderLinks />}
           fixed
           changeColorOnScroll={{
@@ -33,8 +37,18 @@ class InnaWithSisters extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="title">Частица Инна и ее сестры</h1>
+              <h1 className="title">Частица إِنَّ и ее сестры</h1>
+              <div className="desc">
+                Эти предлоги внедряются в именное предложение перед подлежащим (<span className="desc__ar"> المُبْتَدأ </span>) и сказуемым
+                (<span className="desc__ar"> الخَبَر </span>). Ставят (<span className="desc__ar"> المُبْتَدأ </span>) в винительный падеж (
+                <span className="desc__ar"> النصب </span>) и после этого <span className="desc__ar"> المُبْتَدأ </span> называется
+                <span className="desc__ar"> اسم إنَّ </span>
+              </div>
+              <Inna />
+              <Kaanna />
+              <Lakinna />
               <Layta />
+              <Lyaallya />
             </div>
           </div>
         </div>
