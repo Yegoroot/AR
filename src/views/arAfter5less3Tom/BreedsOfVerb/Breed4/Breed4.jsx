@@ -110,7 +110,7 @@ class Breed4 extends React.Component {
                 </div>
 
                 <div className="item">
-                  <h2 className="h2ar ">مَفْعَلٌ</h2>
+                  <h2 className="h2ar ">مُفْعَلٌ</h2>
                   <div className="arsent">
                     <div className="arsent__original">
                       <span> يُرْسِلُ </span>-<span className="contrast"> مُرْسَلٌ </span>

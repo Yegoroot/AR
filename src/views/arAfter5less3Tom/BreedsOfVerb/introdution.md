@@ -45,3 +45,11 @@
     </div>
 </div>
 </AnimateCard>
+
+<AnimateCard>
+<div className="arsent arsent_rule">
+    <div className="arsent__translate">
+        У производных глаголов имя деятеля (причастие действительного залога) и мафъуль (причастие страдательного залога) образуються по одному принципу
+    </div>
+</div>
+</AnimateCard>

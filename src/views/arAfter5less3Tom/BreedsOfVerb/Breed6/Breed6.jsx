@@ -31,155 +31,80 @@ class Breed6 extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="h1ar">(VI) أَفْعَلَ</h1>
+              <h1 className="h1ar">(VI) تَفَاعَلَ</h1>
 
               <div className="desc">
                 Его основные значения - <b> взаимность действия </b>; <b> взаимное чередование </b>; Так же имеет значение
-                <b> притвориться чем либо </b>
-                <span className="desc__ar"> (ء) </span> в начале
+                <b> притвориться чем либо </b>. Образуется от третей породы при помощи приставки <b classname="desc__ar"> ت </b>. В третьей
+                породе действие было направлено к какому то субъекту, в шестой породе приставка
+                <b classname="desc__ar"> ت </b> приводит к полной взаимности действий. (<b classname="desc__ar"> ت </b> возвратная)
               </div>
 
               <div className="items items_islabel">
                 <div className="item">
-                  <h2 className="h2ar ">أَفْعَلَ</h2>
-                  <div className="arsent">
-                    <div className="arsent__original contrast">أَرْسَلَ</div>
-                    <div className="arsent__translate">Отправил</div>
-                  </div>
-                  <div className="arsent mobile-hid">
-                    <div className="arsent__original contrast">أَجَابَ</div>
-                    <div className="arsent__translate">Ответил</div>
-                  </div>
-                  <div className="arsent">
-                    <div className="arsent__original contrast">أَلْقَى</div>
-                    <div className="arsent__translate">Бросил</div>
-                  </div>
-                  <div className="arsent">
-                    <div className="arsent__original contrast">آمَنَ</div>
-                    <div className="arsent__translate">Уверовал</div>
-                  </div>
+                  <h2 className="h2ar ">تَفَاعَلَ</h2>
                   <span className="item__label">الماضي</span>
+                  <div className="arsent">
+                    <div className="arsent__original contrast">تَعَاوَنَ</div>
+                    <div className="arsent__translate">Сотрудничали</div>
+                  </div>
+                  <div className="arsent">
+                    <div className="arsent__original contrast">تَبَاكَىَ</div>
+                    <div className="arsent__translate">Притворялся плачущим</div>
+                  </div>
                 </div>
 
                 <div className="item">
-                  <h2 className="h2ar ">يُفْعِلَ</h2>
-                  <div className="arsent">
-                    <div className="arsent__original contrast">يُرْسِلُ</div>
-                    <div className="arsent__translate">Отправляет</div>
-                  </div>
-                  <div className="arsent mobile-hid">
-                    <div className="arsent__original contrast">يُجِيبُ</div>
-                    <div className="arsent__translate">Отвечает</div>
-                  </div>
-                  <div className="arsent">
-                    <div className="arsent__original contrast">يُلْقِي</div>
-                    <div className="arsent__translate">Бросает</div>
-                  </div>
-                  <div className="arsent">
-                    <div className="arsent__original contrast">يُؤمِنُ</div>
-                    <div className="arsent__translate">Верит</div>
-                  </div>
+                  <h2 className="h2ar ">يَتَفَاعَلُ</h2>
                   <span className="item__label">المُضارِع</span>
+                  <div className="arsent">
+                    <div className="arsent__original contrast">يَتَعَاوَنُ</div>
+                    <div className="arsent__translate">Сотрудничают</div>
+                  </div>
+                  <div className="arsent">
+                    <div className="arsent__original contrast">يَتَباكى</div>
+                    <div className="arsent__translate">Притворяется плачущим</div>
+                  </div>
                 </div>
 
                 <div className="item">
-                  <h2 className="h2ar ">مُفْعِلٌ</h2>
-                  <div className="arsent">
-                    <div className="arsent__original">
-                      <span> يُرْسِلُ </span>-<span className="contrast"> مُرْسِلٌ </span>
-                    </div>
-                    <div className="arsent__translate">Отправитель</div>
-                  </div>
-                  <div className="arsent mobile-hid">
-                    <div className="arsent__original">
-                      <span> يُجِيبُ </span>-<span className="contrast"> مُجِيبٌ </span>
-                    </div>
-                    <div className="arsent__translate">Отвечающий</div>
-                  </div>
-                  <div className="arsent">
-                    <div className="arsent__original">
-                      <span> يُلْقِي </span>-<span className="contrast"> مُلْقِي </span>
-                    </div>
-                    <div className="arsent__translate">Бросающий</div>
-                  </div>
-                  <div className="arsent">
-                    <div className="arsent__original">
-                      <span> يُسْلِمُ </span>-<span className="contrast"> مُسْلِمٌ </span>
-                    </div>
-                    <div className="arsent__translate">Мусульманин</div>
-                  </div>
-                  <span className="item__label"> اسم الفَاعِل </span>
-                </div>
-
-                <div className="item">
-                  <h2 className="h2ar ">مَفْعَلٌ</h2>
-                  <div className="arsent">
-                    <div className="arsent__original">
-                      <span> يُرْسِلُ </span>-<span className="contrast"> مُرْسَلٌ </span>
-                    </div>
-                    <div className="arsent__translate">Посланный</div>
-                  </div>
-                  <div className="arsent">
-                    <div className="arsent__original">
-                      <span> يُلْقِي </span>-<span className="contrast"> مُلْقًى </span>
-                    </div>
-                    <div className="arsent__translate">Брошенный</div>
-                  </div>
-                  <span className="item__label"> اسم المَفْعُول </span>
-                </div>
-
-                <div className="item">
-                  <h2 className="h2ar ">إِفْعَالٌ</h2>
-                  <div className="arsent">
-                    <span className="arsent__original">
-                      أَرْسَلَ - <span className="contrast"> إِرْسَالٌ </span>
-                    </span>
-                    <div className="arsent__translate">Отправление</div>
-                  </div>
-                  <div className="arsent mobile-hid">
-                    <span className="arsent__original">
-                      أَجابَ - <span className="contrast"> إِجابةٌ </span>
-                    </span>
-                    <div className="arsent__translate">Ответ</div>
-                  </div>
-
-                  <div className="arsent">
-                    <span className="arsent__original">
-                      أَلْقَى - <span className="contrast"> إِلْقَاءٌ </span>
-                    </span>
-                    <div className="arsent__translate">Бросание</div>
-                  </div>
-                  <div className="arsent">
-                    <span className="arsent__original">
-                      آمَنَ - <span className="contrast"> إِيمَانٌ </span>
-                    </span>
-                    <div className="arsent__translate">Вера</div>
-                  </div>
-
-                  <span className="item__label">المصدر</span>
-                </div>
-
-                <div className="item">
-                  <h2 className="h2ar ">أفْعِلْ</h2>
-                  <div className="arsent">
-                    <div className="arsent__original">
-                      <span> تُرْسِلُ </span>- <span> أصْلِهُ تُأَرْسِلُ </span>- <span className="contrast"> أَرْسِلْ </span>
-                    </div>
-                    <div className="arsent__translate">Отправь</div>
-                  </div>
-                  <div className="arsent">
-                    <div className="arsent__original">
-                      <span> تُجِيبُ </span>- <span> أصْلِهُ تُأَجِيبُ </span>- <span className="contrast"> أَجِبْ </span>
-                    </div>
-                    <div className="arsent__translate">Ответь (из за двух сукунов ушла слабая буква)</div>
-                  </div>
-                  <div className="arsent">
-                    <div className="arsent__original">
-                      <span> تُؤْمِنُ </span>- <span className="contrast"> آمِنْ </span>
-                    </div>
-                    <div className="arsent__translate">Верь</div>
-                  </div>
+                  <h2 className="h2ar ">تَفَاعَلْ</h2>
                   <span className="item__label">الأمر</span>
+                  <div className="arsent">
+                    <div className="arsent__original contrast">تَعَاوَنْ</div>
+                    <div className="arsent__translate">Сотрудничайте</div>
+                  </div>
+                  <div className="arsent">
+                    <div className="arsent__original contrast">تَبَاكىْ</div>
+                    <div className="arsent__translate">Притворись плачущим</div>
+                  </div>
+                </div>
+
+                <div className="item">
+                  <h2 className="h2ar ">تَفَاعُلٌ</h2>
+                  <span className="item__label">المصدر</span>
+                  <div className="arsent">
+                    <div className="arsent__original contrast">تَعَاوُنُ</div>
+                    <div className="arsent__translate">Взаимная помощь, сотрудничество</div>
+                  </div>
+                  <div className="arsent">
+                    <div className="arsent__original contrast">تَبَاكٍ</div>
+                    <div className="arsent__translate">Притворство плачущим</div>
+                  </div>
+                </div>
+
+                <div className="item">
+                  <h2 className="h2ar ">مُتَفَاعِلٌ</h2>
+                  <span className="item__label"> اسم الفَاعِل </span>
+                  <div className="arsent">
+                    <div className="arsent__original contrast">مُتَفَائِلٌ</div>
+                    <div className="arsent__translate">Оптимист</div>
+                  </div>
+                </div>
+
+                <div className="item">
+                  <h2 className="h2ar ">مُتَفَاعَلٌ</h2>
+                  <span className="item__label"> اسم المَفْعُول </span>
                 </div>
               </div>
 
@@ -187,23 +112,43 @@ class Breed6 extends React.Component {
 
               <div className="arsent">
                 <div className="arsent__original">
-                  <span> لِما </span>
-                  <span className="contrast"> أَخْرَجْتَ </span>
-                  <span> السبّور يا أسامةُ؟ </span>
-                  <span className="contrast"> أَدْخِلْهَا </span>
-                  <span> بِسُرْعَةٍ </span>
+                  <span className="contrast"> تَعَاوَنَ </span>
+                  <span> الطلابُ </span>
                 </div>
-                <div className="arsent__translate"> Зачем ты вытащил доску? Затащи ее обратно, быстро </div>
+                <div className="arsent__translate"> Помогали студенты друг другу </div>
+              </div>
+
+              <div className="arsent">
+                <div className="arsent__original">
+                  <span className="contrast"> تَمَارَضَ </span>
+                  <span> الطَّالبُ </span>
+                </div>
+                <div className="arsent__translate"> Притворился студент больным </div>
+              </div>
+
+              <div className="arsent">
+                <div className="arsent__original">
+                  <span> أ تَبْكي أم تَتََبَاكى ياوَلَد؟ </span>
+                </div>
+                <div className="arsent__translate"> Ты плачешь (по настоящему) или притворяешся? </div>
+              </div>
+
+              <div className="arsent">
+                <div className="arsent__original">
+                  <span className="contrast"> تَشَاجَر </span>
+                  <span> هؤلاء و </span>
+                  <span className="contrast"> تَضَارَبُوا </span>
+                </div>
+                <div className="arsent__translate"> Поругались и подрались </div>
               </div>
               <div className="arsent">
                 <div className="arsent__original">
-                  <span> و ما </span>
-                  <span className="contrast"> أَدْراكَ </span>
-                  <span> أَنّهُ يَكْذِب؟ </span>
+                  <span> ذاك الرجل ليس بأَعْمى. إنَّما </span>
+                  <span className="contrast"> يَتَعامى </span>
+                  <span> حتى يَتَصَدَّقَ عليه الناس</span>
                 </div>
-                <div className="arsent__translate"> Что заставило тебя знать что он врёт? </div>
+                <div className="arsent__translate"> Тот мужчина притворяется слепым, Чтоб люди давали ему милостыню </div>
               </div>
-              {/* -------------------------------- */}
             </div>
           </div>
         </div>
