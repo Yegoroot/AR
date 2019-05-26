@@ -52,6 +52,7 @@ import SomeIsm from 'views/arAfter5less3Tom/SomeIsm/SomeIsm'
 import SomeHarf from 'views/arAfter5less3Tom/SomeHarf/SomeHarf'
 import LamIbtidaa from 'views/arAfter5less3Tom/LamIbtidaa/LamIbtidaa'
 import VerbTransitiveAndNo from 'views/arAfter5less3Tom/VerbTransitiveAndNo/VerbTransitiveAndNo'
+import InnaWithSisters from 'views/arAfter5less3Tom/InnaWithSisters/InnaWithSisters'
 import Breed2 from 'views/arAfter5less3Tom/BreedsOfVerb/Breed2/Breed2'
 import Breed3 from 'views/arAfter5less3Tom/BreedsOfVerb/Breed3/Breed3'
 import Breed4 from 'views/arAfter5less3Tom/BreedsOfVerb/Breed4/Breed4'
@@ -85,6 +86,7 @@ var indexRoutes = [
   { path: '/someharf', name: 'SomeHarf', component: SomeHarf },
   { path: '/lamibtidaa', name: 'LamIbtidaa', component: LamIbtidaa },
   { path: '/verbtransitive', name: 'VerbTransitiveAndNo', component: VerbTransitiveAndNo },
+  { path: '/innawithsisters', name: 'InnaWithSisters', component: InnaWithSisters },
 
   /****************************
    *

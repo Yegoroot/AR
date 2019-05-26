@@ -8,9 +8,10 @@ import Footer from 'components/Footer/Footer.jsx'
 import HeaderLinks from 'components/Header/HeaderLinks.jsx'
 import Parallax from 'components/Parallax/Parallax.jsx'
 import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
-import Qad from './sections/Qad'
-import Innama from './sections/Innama'
-class SomeIsm extends React.Component {
+
+import Layta from './sections/Layta'
+
+class InnaWithSisters extends React.Component {
   render() {
     const { classes, ...rest } = this.props
 
@@ -18,12 +19,11 @@ class SomeIsm extends React.Component {
       <div>
         <Header
           color="transparent"
-          brand="Некоторые частицы"
+          brand="Частица Инна и ее сестры"
           rightLinks={<HeaderLinks />}
           fixed
           changeColorOnScroll={{
             height: 200,
-
             color: 'white'
           }}
           {...rest}
@@ -33,9 +33,8 @@ class SomeIsm extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="title">Некоторые частицы</h1>
-              <Qad />
-              <Innama />
+              <h1 className="title">Частица Инна и ее сестры</h1>
+              <Layta />
             </div>
           </div>
         </div>
@@ -45,4 +44,4 @@ class SomeIsm extends React.Component {
   }
 }
 
-export default withStyles(arabicPageStyle)(SomeIsm)
+export default withStyles(arabicPageStyle)(InnaWithSisters)

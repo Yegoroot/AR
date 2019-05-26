@@ -7,7 +7,22 @@ export default function() {
       <h2 className="h2ar title">إِيَّكَ</h2>
       <div className="desc">
         Это слово указывает на <b>предостережение</b>, предостерегаем собеседника от какого то момента. В предложении скрыт глагол
-        <span className="desc__ar"> اِتَّقِ </span>, его не следует произносить потому что он явно следует из контекста
+        <span className="desc__ar"> اِتَّقِ </span>, его не следует произносить потому что он явно следует из контекста. <br /> <br />
+        Связывать Иййака и то от чего предостерегаем при помощи
+        <span className="desc__ar"> و </span> обязательно, за исключением если приходит подразумеваемый масдар
+      </div>
+
+      <div className="arsent">
+        <div className="arsent__original">
+          <span className="contrast"> إِيَّكَ </span>
+          <span>
+            <Word prefix="و" root="الكَذِ" />
+            <span>ب</span>
+            <span className="contrast">َ </span>
+          </span>
+          <span> - إيَّاك أن تَكْذِبَ </span>
+        </div>
+        <div className="arsent__translate">Бойся обманов - Не надо врать (подразумеваемый масдар)</div>
       </div>
 
       <div className="arsent">
