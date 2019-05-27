@@ -94,7 +94,7 @@ class Breed3 extends React.Component {
                     <div className="arsent__original contrast">قَابَلَ</div>
                     <div className="arsent__translate">Встречал, принимал </div>
                   </div>
-                  <span className="item__label">المُضارِع</span>
+                  <span className="item__label">الماضي</span>
                 </div>
                 <div className="item">
                   <h2 className="h2ar ">يُفَاعِلُ</h2>
