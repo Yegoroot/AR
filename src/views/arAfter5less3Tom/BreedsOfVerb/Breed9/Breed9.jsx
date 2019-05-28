@@ -27,68 +27,64 @@ class Breed4 extends React.Component {
           {...rest}
         />
 
-        <Parallax small filter image={require('assets/img/mosque/mosque10.jpg')} />
+        <Parallax small filter image={require('assets/img/mosque/mosque9.jpg')} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="h1ar"> </h1>
+              <h1 className="h1ar"> اِفْعَلَّ </h1>
 
               <div className="desc">
-                <span className="desc__ar"> </span>
+                Перед первой коренной приходит хамза, а третья кореная удваивается. По своему значению эта порода указывает на
+                <b> цвета </b> или какие либо <b> недостатки </b>. И передает эта порода становление этих качеств
+              </div>
+
+              <div className="desc">
+                Так же можно указать и 11 породу <span className="desc__ar"> اِفْعَالَّ </span>, но в отличии от 9 эта парода указывает
+                только
+                <b> цвета </b>. Этот алиф указывает на усиление 9 породы (Например не просто почернел а сильно почернел)
+              </div>
+
+              <div className="arsent">
+                <div className="arsent__original">
+                  <span> أحْمَر </span> -<span className="contrast"> اِحْمَرَّ </span>
+                </div>
+                <div className="arsent__translate"> Красный - покраснел </div>
               </div>
 
               <div className="items items_islabel">
                 <div className="item">
-                  <h2 className="h2ar "> </h2>
+                  {/* <h2 className="h2ar "> اِفْعَلَّ </h2> */}
                   <span className="item__label">الماضي</span>
                   <div className="arsent">
-                    <div className="arsent__original contrast"> </div>
-                    <div className="arsent__translate"> </div>
+                    <div className="arsent__original contrast"> اِحْمَرَّ </div>
+                    <div className="arsent__translate"> Покраснел </div>
                   </div>
                 </div>
 
                 <div className="item">
-                  <h2 className="h2ar "> </h2>
+                  {/* <h2 className="h2ar "> يَفْعَلُّ </h2>*/}
                   <span className="item__label">المُضارِع</span>
                   <div className="arsent">
-                    <div className="arsent__original contrast"> </div>
-                    <div className="arsent__translate"> </div>
+                    <div className="arsent__original contrast"> يَحْمَرُّ </div>
+                    <div className="arsent__translate"> Краснеет </div>
                   </div>
                 </div>
 
                 <div className="item">
-                  <h2 className="h2ar "> </h2>
-                  <span className="item__label"> اسم الفَاعِل </span>
-                  <div className="arsent">
-                    <div className="arsent__original contrast"> </div>
-                    <div className="arsent__translate"> </div>
-                  </div>
-                </div>
-
-                <div className="item">
-                  <h2 className="h2ar "> </h2>
-                  <span className="item__label"> اسم المَفْعُول </span>
-                  <div className="arsent">
-                    <div className="arsent__original contrast"> </div>
-                    <div className="arsent__translate"> </div>
-                  </div>
-                </div>
-
-                <div className="item">
-                  <h2 className="h2ar "> </h2>
+                  {/* <h2 className="h2ar "> اِفْعِلالٌ </h2>  */}
                   <span className="item__label">المصدر</span>
                   <div className="arsent">
-                    <div className="arsent__original contrast"> </div>
-                    <div className="arsent__translate"> </div>
+                    <div className="arsent__original contrast"> اِحْمِرَارٌ </div>
+                    <div className="arsent__translate"> Покраснение </div>
                   </div>
                 </div>
 
                 <div className="item">
-                  <h2 className="h2ar "> </h2>
-                  <span className="item__label">الأمر</span>
+                  {/* <h2 className="h2ar "> </h2> */}
+                  <span className="item__label"> اسم الفَاعِل </span>
                   <div className="arsent">
-                    <div className="arsent__original contrast"> </div>
-                    <div className="arsent__translate"> </div>
+                    <div className="arsent__original contrast"> مُحْمَرٌ </div>
+                    <div className="arsent__translate"> Покрасневший </div>
                   </div>
                 </div>
               </div>
@@ -97,12 +93,16 @@ class Breed4 extends React.Component {
 
               <div className="arsent">
                 <div className="arsent__original">
-                  <span> </span>
-                  <span className="contrast"> </span>
-                  <span> </span>
-                  <span className="contrast"> </span>
+                  <span> اِحْتَرَقَ الخَشَبَ واسْوَدَّ </span>
                 </div>
-                <div className="arsent__translate"> </div>
+                <div className="arsent__translate"> Дерево сгорело и почернело </div>
+              </div>
+
+              <div className="arsent">
+                <div className="arsent__original">
+                  <span> غَسَلْتُ الثّوبَ الوَسِخَ بالصابون فَابْيَضَّ </span>
+                </div>
+                <div className="arsent__translate"> Постирал грязное платье мылом и оно побелело </div>
               </div>
 
               {/* -------------------------------- */}

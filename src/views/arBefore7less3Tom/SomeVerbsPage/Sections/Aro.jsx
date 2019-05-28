@@ -4,13 +4,25 @@ import Word from 'components/word'
 export default function() {
   return (
     <div id="samaha">
-      <h2 className="title h2ar"> أَرى </h2>
+      <h2 className="title h2ar"> رَأَى </h2>
+      <div className="desc">
+        Этот глагол может прийти со смыслом <b> знал, подумал, видел сердцем </b> <span className="desc__ar "> رَأَى القَلبيّة </span> .
+        Ставит в винительный падеж два прямых дополнения
+      </div>
       <div className="desc">
         Глагол <span className="desc__ar contrast"> أَرى </span> (показал) это глагол из четвертой породы образованный от глагола
         <span className="desc__ar contrast_2"> رَأَى </span> (смотрел). Глагол этот должен быть как
         <span className="desc__ar"> أَرْأَى </span>, но вторая коренная удалена. В настоящем времени
         <span className="desc__ar contrast"> يُرِى </span> (покажет). В приказе
         <span className="desc__ar contrast"> أَرِ </span>
+      </div>
+
+      <div className="arsent">
+        <div className="arsent__original">
+          <Word root="أَرا" suffix="كَ" negative />
+          <span> ضَعِيفاً </span>
+        </div>
+        <div className="arsent__translate">Я считаю тебя слабым</div>
       </div>
 
       <div className="arsent">
