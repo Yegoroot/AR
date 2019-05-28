@@ -59,6 +59,9 @@ import Breed4 from 'views/arAfter5less3Tom/BreedsOfVerb/Breed4/Breed4'
 import Breed5 from 'views/arAfter5less3Tom/BreedsOfVerb/Breed5/Breed5'
 import Breed6 from 'views/arAfter5less3Tom/BreedsOfVerb/Breed6/Breed6'
 import Breed7 from 'views/arAfter5less3Tom/BreedsOfVerb/Breed7/Breed7'
+import Breed8 from 'views/arAfter5less3Tom/BreedsOfVerb/Breed8/Breed8'
+import Breed9 from 'views/arAfter5less3Tom/BreedsOfVerb/Breed9/Breed9'
+import Breed10 from 'views/arAfter5less3Tom/BreedsOfVerb/Breed10/Breed10'
 
 var indexRoutes = [
   /** after 16 less 3tom and 4tom
@@ -69,6 +72,9 @@ var indexRoutes = [
   { path: '/breed5', name: 'Breed5', component: Breed5 },
   { path: '/breed6', name: 'Breed6', component: Breed6 },
   { path: '/breed7', name: 'Breed7', component: Breed7 },
+  { path: '/breed8', name: 'Breed8', component: Breed8 },
+  { path: '/breed9', name: 'Breed9', component: Breed9 },
+  { path: '/breed10', name: 'Breed10', component: Breed10 },
 
   /**
    *
