@@ -11,6 +11,7 @@ import Footer from 'components/Footer/Footer.jsx'
 import HeaderLinks from 'components/Header/HeaderLinks.jsx'
 
 import Parallax from 'components/Parallax/Parallax.jsx'
+import AnimateCard from 'components/AnimateCard/AnimateCard.jsx'
 
 import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
 
@@ -78,8 +79,47 @@ class JumlatuHaalPage extends React.Component {
 
               <div className="desc">
                 <span className="desc__ar">جملة الحال</span> соединяется с помощью
-                <span className="desc__ar contrast_2"> واو الحال </span>
+                <span className="desc__ar contrast_2"> واو الحال </span>. <br />
+                Но если в предложении глагол прошедшего времени в утвердительной форме то нужно ставить с
+                <span className="desc__ar"> واو الحال </span> частицу
+                <span className="desc__ar contrast_2"> قد </span>.
               </div>
+
+              <AnimateCard>
+                <div className="arsent arsent_rule">
+                  <div className="arsent__original">
+                    <span className="contrast"> واو الحال </span>
+                    <span> + </span>
+                    <span> الجملة الاسمية </span>
+                    <br />
+                    <span className="contrast"> واو الحال </span>
+                    <span> + </span>
+                    <span className="contrast_2"> قَدْ </span>
+                    <span> + </span>
+                    <span> الجملة الفعلية فعلها ماضٍ مُثْبَتٌ </span>
+                  </div>
+                  <div className="arsent__translate"> </div>
+                </div>
+              </AnimateCard>
+
+              <div className="arsent">
+                <div className="arsent__original">
+                  دخلتُ المسجد
+                  <span className="contrast_2"> و </span>
+                  <span className="contrast"> الإمام يُسَلِّمُ </span>
+                </div>
+                <div className="arsent__translate">Я зашел в мечеть в то время когда имам давал салям</div>
+              </div>
+
+              <div className="arsent">
+                <div className="arsent__original">
+                  دخلتُ المسجد
+                  <span className="contrast_2"> وقد </span>
+                  <span className="contrast"> سَلَّمَ الإمامُ </span>
+                </div>
+                <div className="arsent__translate">Я зашел в мечеть когда имам уже дал салям</div>
+              </div>
+
               <div className="arsent">
                 <div className="arsent__original">
                   قرأ الكتاب

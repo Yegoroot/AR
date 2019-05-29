@@ -46,13 +46,29 @@ class TricksWithVerbsPage extends React.Component {
               <h2 className="title">Два прямых дополнения</h2>
               <div className="desc">
                 Некоторые глаголы могут ставить в винительный падеж два прямых дополнения. Например глаголы
-                <span className="desc__ar"> ظَنَّ</span>,<span className="desc__ar"> رَأى </span> (если رَأى со смыслом "видел сердцем,
-                знал")
+                <span className="desc__ar"> ظَنَّ</span>,<span className="desc__ar"> جَعَلَ </span>,<span className="desc__ar"> رَأى </span>
+                (если رَأى со смыслом "видел сердцем, знал")
+              </div>
+              <div className="arsent">
+                <div className="arsent__original">
+                  <span className="contrast"> جَعَلَ </span>
+                  <span> الله </span>
+                  <span>الخمر</span>
+                  <span className="contrast">َ</span>
+                  <span> </span>
+                  <span>
+                    <Word root="حرام" suffix="اً" />
+                  </span>
+                </div>
+                <div className="arsent__translate">Я считаю тебя слабым</div>
               </div>
               <div className="arsent">
                 <div className="arsent__original">
                   <Word root="أَرا" suffix="كَ" negative />
-                  <span> ضَعِيفاً </span>
+                  <span> </span>
+                  <span>
+                    <Word root="حرضَعِيفام" suffix="اً" />
+                  </span>
                 </div>
                 <div className="arsent__translate">Я считаю тебя слабым</div>
               </div>
