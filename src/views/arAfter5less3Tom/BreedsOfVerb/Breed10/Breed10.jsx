@@ -17,7 +17,7 @@ class Breed4 extends React.Component {
       <div>
         <Header
           color="transparent"
-          brand="  "
+          brand="X порода"
           rightLinks={<HeaderLinks />}
           fixed
           changeColorOnScroll={{
@@ -27,11 +27,11 @@ class Breed4 extends React.Component {
           {...rest}
         />
 
-        <Parallax small filter image={require('assets/img/mosque/mosque10.jpg')} />
+        <Parallax small filter image={require('assets/img/mosque/mosque8.jpg')} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="h1ar"> </h1>
+              <h1 className="h1ar">(X) اِسْتَفْعَلَ</h1>
 
               <div className="desc">
                 <span className="desc__ar"> </span>
@@ -39,24 +39,58 @@ class Breed4 extends React.Component {
 
               <div className="items items_islabel">
                 <div className="item">
-                  <h2 className="h2ar "> </h2>
+                  {/* <h2 className="h2ar "> اِسْتَفْعَلَ </h2> */}
                   <span className="item__label">الماضي</span>
                   <div className="arsent">
-                    <div className="arsent__original contrast"> </div>
-                    <div className="arsent__translate"> </div>
+                    <div className="arsent__original contrast"> اِسْتَقْبَلَ </div>
+                    <div className="arsent__translate"> Встретил </div>
+                  </div>
+                  <div className="arsent">
+                    <div className="arsent__original contrast"> اِسْتَقَالَ </div>
+                    <div className="arsent__translate"> Просил об уволнении </div>
                   </div>
                 </div>
 
                 <div className="item">
-                  <h2 className="h2ar "> </h2>
+                  {/* <h2 className="h2ar "> يَسْتَفْعِلُ </h2> */}
                   <span className="item__label">المُضارِع</span>
                   <div className="arsent">
-                    <div className="arsent__original contrast"> </div>
-                    <div className="arsent__translate"> </div>
+                    <div className="arsent__original contrast"> يَسْتَقْبِلُ </div>
+                    <div className="arsent__translate"> Встречает </div>
+                  </div>
+                  <div className="arsent">
+                    <div className="arsent__original contrast"> يَسْتَقِيلُ </div>
+                    <div className="arsent__translate"> Просит об уволнении </div>
                   </div>
                 </div>
 
                 <div className="item">
+                  {/* <h2 className="h2ar ">اِسْتَفْعِلْ </h2> */}
+                  <span className="item__label">الأمر</span>
+                  <div className="arsent">
+                    <div className="arsent__original contrast"> اِسْتَقْبِلْ </div>
+                    <div className="arsent__translate"> Встречай </div>
+                  </div>
+                  <div className="arsent">
+                    <div className="arsent__original contrast"> اِسْتَقِلْ </div>
+                    <div className="arsent__translate"> Проси об уволнении </div>
+                  </div>
+                </div>
+
+                <div className="item">
+                  {/* <h2 className="h2ar "> اِسْتِفْعَالٌ </h2> */}
+                  <span className="item__label">المصدر</span>
+                  <div className="arsent">
+                    <div className="arsent__original contrast"> اِسْتِفْعَالٌ </div>
+                    <div className="arsent__translate"> Встреча, приём </div>
+                  </div>
+                  <div className="arsent">
+                    <div className="arsent__original contrast"> اِسْتِقَالةٌ </div>
+                    <div className="arsent__translate"> Просьба об уволнении </div>
+                  </div>
+                </div>
+
+                {/* <div className="item">
                   <h2 className="h2ar "> </h2>
                   <span className="item__label"> اسم الفَاعِل </span>
                   <div className="arsent">
@@ -72,37 +106,41 @@ class Breed4 extends React.Component {
                     <div className="arsent__original contrast"> </div>
                     <div className="arsent__translate"> </div>
                   </div>
-                </div>
-
-                <div className="item">
-                  <h2 className="h2ar "> </h2>
-                  <span className="item__label">المصدر</span>
-                  <div className="arsent">
-                    <div className="arsent__original contrast"> </div>
-                    <div className="arsent__translate"> </div>
-                  </div>
-                </div>
-
-                <div className="item">
-                  <h2 className="h2ar "> </h2>
-                  <span className="item__label">الأمر</span>
-                  <div className="arsent">
-                    <div className="arsent__original contrast"> </div>
-                    <div className="arsent__translate"> </div>
-                  </div>
-                </div>
+                </div> */}
               </div>
 
               <h2 className="title"> Примеры</h2>
 
               <div className="arsent">
                 <div className="arsent__original">
-                  <span> </span>
-                  <span className="contrast"> </span>
-                  <span> </span>
-                  <span className="contrast"> </span>
+                  <span className="contrast"> أَسْتَحِمُّ </span>
+                  <span> كلَّ صَباح </span>
                 </div>
-                <div className="arsent__translate"> </div>
+                <div className="arsent__translate"> Принимаю ванную каждое утро </div>
+              </div>
+
+              <div className="arsent">
+                <div className="arsent__original">
+                  <span className="contrast"> يَسْتَمِرُّ </span>
+                  <span> الامتحانُ يومين </span>
+                </div>
+                <div className="arsent__translate"> Экзамен продолжается два дня </div>
+              </div>
+
+              <div className="arsent">
+                <div className="arsent__original">
+                  <span className="contrast"> اِسْتَعِدّوا </span>
+                  <span> لِلامتحان فإنه قريب جِداً </span>
+                </div>
+                <div className="arsent__translate"> Готовтись к экзамену он очень близко </div>
+              </div>
+
+              <div className="arsent">
+                <div className="arsent__original">
+                  <span className="contrast"> اِسْتَسْلَمَ </span>
+                  <span> المُجرِمُ لِلشُّرْطَة </span>
+                </div>
+                <div className="arsent__translate"> Преступник капитулировал (сдался) полицейскому </div>
               </div>
 
               {/* -------------------------------- */}

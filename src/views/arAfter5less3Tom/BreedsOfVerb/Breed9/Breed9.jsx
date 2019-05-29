@@ -17,7 +17,7 @@ class Breed4 extends React.Component {
       <div>
         <Header
           color="transparent"
-          brand="  "
+          brand="IX порода"
           rightLinks={<HeaderLinks />}
           fixed
           changeColorOnScroll={{
@@ -31,7 +31,7 @@ class Breed4 extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="h1ar"> اِفْعَلَّ </h1>
+              <h1 className="h1ar">(IX) اِفْعَلَّ </h1>
 
               <div className="desc">
                 Перед первой коренной приходит хамза, а третья кореная удваивается. По своему значению эта порода указывает на
