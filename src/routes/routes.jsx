@@ -63,8 +63,15 @@ import Breed8 from 'views/arAfter5less3Tom/BreedsOfVerb/Breed8/Breed8'
 import Breed9 from 'views/arAfter5less3Tom/BreedsOfVerb/Breed9/Breed9'
 import Breed10 from 'views/arAfter5less3Tom/BreedsOfVerb/Breed10/Breed10'
 
+import Letter4 from 'views/_arAfter8less4Tom/Letter4/Letter4'
+
 var indexRoutes = [
-  /** after 16 less 3tom and 4tom
+  /** after 8 less 4tom
+   *
+   */
+  { path: '/letter4', name: 'Letter4', component: Letter4 },
+
+  /** after 16 less 3tom
    */
   { path: '/breed2', name: 'Breed2', component: Breed2 },
   { path: '/breed3', name: 'Breed3', component: Breed3 },
@@ -77,11 +84,8 @@ var indexRoutes = [
   { path: '/breed10', name: 'Breed10', component: Breed10 },
 
   /**
-   *
-   *
-   *
    */
-  /** after 3 tom 5lesson */
+  /** after 5 less 3tom*/
   { path: '/ismulmakanwazaman', name: 'IsmulMakanWaZamanPage', component: IsmulMakanWaZamanPage },
   { path: '/ismaalati', name: 'IsmaAlatiPage', component: IsmaAlatiPage },
   { path: '/puraldual', name: 'PuralDualPage', component: PuralDualPage },
@@ -97,8 +101,6 @@ var indexRoutes = [
   { path: '/innawithsisters', name: 'InnaWithSisters', component: InnaWithSisters },
 
   /****************************
-   *
-   *
    *
    *
    */
