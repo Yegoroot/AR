@@ -64,12 +64,14 @@ import Breed9 from 'views/arAfter5less3Tom/BreedsOfVerb/Breed9/Breed9'
 import Breed10 from 'views/arAfter5less3Tom/BreedsOfVerb/Breed10/Breed10'
 
 import Letter4 from 'views/_arAfter8less4Tom/Letter4/Letter4'
+import Separator from 'views/_arAfter8less4Tom/Separator/Separator'
 
 var indexRoutes = [
   /** after 8 less 4tom
    *
    */
   { path: '/letter4', name: 'Letter4', component: Letter4 },
+  { path: '/separator', name: 'Separator', component: Separator },
 
   /** after 16 less 3tom
    */

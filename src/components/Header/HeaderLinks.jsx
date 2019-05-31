@@ -48,6 +48,9 @@ function HeaderLinks({ ...props }) {
             </Link>,
             <Link to="/jumlatuism" className={classes.dropdownLink} style={{ fontSize: 20 }}>
               جملة الاِسميَة
+            </Link>,
+            <Link to="/separator" style={{ fontSize: 20 }} className={classes.dropdownLink}>
+              ضَمِيرُ فَصْلٍ
             </Link>
           ]}
         />
@@ -248,6 +251,7 @@ function HeaderLinks({ ...props }) {
             <Link to="/adatushart" style={{ fontSize: 20 }} className={classes.dropdownLink}>
               شَرْط. إنْ
             </Link>
+
             // <Link className={classes.dropdownLink}>------- эти темы связаны -----</Link>
           ]}
         />
