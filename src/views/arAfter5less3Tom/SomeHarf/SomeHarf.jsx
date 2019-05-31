@@ -11,6 +11,7 @@ import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
 import Qad from './sections/Qad'
 import Innama from './sections/Innama'
 import IthaFujaiya from './sections/IthaFujaiya'
+import Min from './sections/Min'
 class SomeIsm extends React.Component {
   render() {
     const { classes, ...rest } = this.props
@@ -38,6 +39,7 @@ class SomeIsm extends React.Component {
               <Qad />
               <Innama />
               <IthaFujaiya />
+              <Min />
             </div>
           </div>
         </div>
