@@ -37,7 +37,7 @@ class Page extends React.Component {
                 Кто поймет этот урок, тот поймёт многие другие, в том числе и связанные с методологией фикха. Некоторые правила этого урока
                 является продолжением урока про <span className="desc__ar"> ظَرْف إذا </span>. А именно в предыдущем уроке мы разобрали два
                 случая когда ставиться союз Фа между <span className="desc__ar"> الشرط </span> и
-                <span className="desc__ar"> جواب الشرط </span>. В этом уроке разберем остальные случаи
+                <span className="desc__ar"> جواب الشرط </span>, а в конце этого урока разберем остальные случаи
               </div>
 
               <h2 className="h2ar">
@@ -112,7 +112,7 @@ class Page extends React.Component {
               </div>
 
               <h2 className="title h2ar "> أسماء تَجزِم فعلَيْن </h2>
-              <div className="desc">Существуют так же имена, которые джазмируют два глагола</div>
+              <h3 className="title">Существуют так же имена, которые джазмируют два глагола</h3>
 
               <div className="items items_noborder">
                 <div className="item">
@@ -214,109 +214,118 @@ class Page extends React.Component {
                   </div>
                 </div>
               </div>
-              <h2 className=" h2ar"> جوابَ الشرطِ يَقْتَرِنُ بالفاء في مَواضِعَ </h2>
-              <AnimateCard>
-                <div className="arsent arsent_rule">
-                  <div className="arsent__original">
-                    <span className="contrast"> لا تُجْزَمُ </span>
-                    <span> جوابُ الشرط إذا اقتَرَنَ </span>
-                    <span className="contrast_2"> بالفَاء </span>
+
+              <div className="items">
+                <div className="item">
+                  <h2 className=" h2ar"> جوابَ الشرطِ يَقْتَرِنُ بالفاء في مَواضِعَ </h2>
+                  <AnimateCard>
+                    <div className="arsent arsent_rule">
+                      <div className="arsent__original">
+                        <span className="contrast"> لا تُجْزَمُ </span>
+                        <span> جوابُ الشرط إذا اقتَرَنَ </span>
+                        <span className="contrast_2"> بالفَاء </span>
+                      </div>
+                      <div className="arsent__translate">
+                        <span className="contrast"> Не джазмируется </span> следствие условия если приходит
+                        <span className="contrast_2"> Фа </span>
+                      </div>
+                    </div>
+                  </AnimateCard>
+
+                  <div className="desc">
+                    Следствие условия связывается с условием при помощи союза Фа. <b>Если جوابَ الشرطِ (следствие условия) содержит:</b>
                   </div>
-                  <div className="arsent__translate">
-                    <span className="contrast"> Не джазмируется </span> следствие условия если приходит
-                    <span className="contrast_2"> Фа </span>
+                  <h3 className="title">1) Именное предложение</h3>
+                  <div className="desc">
+                    Но если там приходит <span className="desc__ar"> إذا الفُجَائِيَّةُ </span> <b> ИЗА неожиданности</b> то она заменяет Фа
+                  </div>
+
+                  <h3 className="title">2) Требование: Приказ, Запрет, Вопрос</h3>
+
+                  <h3 className="title">3) Застывший глагол</h3>
+                  <div className="arsent">
+                    <div className="arsent__original">
+                      <span className="contrast"> منْ </span>
+                      <span> غشَّنا </span>
+                      <Word root="لَيْسَ" prefix="فَ" />
+                      <span> مِنَّا </span>
+                    </div>
+                    <div className="arsent__translate">Кто обманывает, тот не из нас</div>
+                  </div>
+
+                  <h3 className="title">4) Содержит قَد</h3>
+                  <div className="arsent">
+                    <div className="arsent__original">
+                      <span> و </span>
+                      <span className="contrast"> منْ </span>
+                      <span> يُطِعِْ الله و رسولَه </span>
+                      <Word root="قَدْ" prefix="فَ" />
+                      <span> فازَ فوزاً عظِيم </span>
+                    </div>
+                    <div className="arsent__translate">
+                      А тот кто повинуется Аллахъу и Его Посланнику тот уже достиг великого успеха [Сура Союзники, 71 Аят]
+                    </div>
+                  </div>
+
+                  <h3 className="title">5) Содержит ما</h3>
+                  <div className="arsent">
+                    <div className="arsent__original">
+                      <span className="contrast"> مَهما </span>
+                      <span> تَكُنْ الظُّروفُ </span>
+                      <Word root="ما" prefix="فَ" />
+                      <span> أَكْذِبُ </span>
+                    </div>
+                    <div className="arsent__translate">Какие бы не сложились обстоятельства, то я не буду обманывать</div>
+                  </div>
+
+                  <h3 className="title">6) Содержит لَنْ</h3>
+                  <div className="arsent">
+                    <div className="arsent__original">
+                      <span className="contrast"> مَنْ </span>
+                      <span> لَبِسَ الحَرير في الدُّنيا </span>
+                      <Word root="لَنْ" prefix="فَ" />
+                      <span> يَلْبَسَهُ في الآخرة </span>
+                    </div>
+                    <div className="arsent__translate">Кто наденет шёлковую одежду в этом мире, тот не оденет в следующем</div>
+                  </div>
+
+                  <h3 className="title">7) Приставку настоящего س</h3>
+                  <div className="arsent">
+                    <div className="arsent__original">
+                      <span className="contrast"> إنْ </span>
+                      <span> تُسافِرْ </span>
+                      <Word root="سَأُسافِرُ" prefix="فَ" />
+                    </div>
+                  </div>
+
+                  <h3 className="title">8) Содержит سوف</h3>
+                  <div className="arsent">
+                    <div className="arsent__original">
+                      <span> و </span>
+                      <span className="contrast"> إنْ </span>
+                      <span> خِفْتُم عيلَةً </span>
+                      <Word root="سَوفَ" prefix="فَ" />
+                      <span> يُغْنِيكُمُ الله مِنْ فَضْلِهِ إنَّ شاءَ</span>
+                    </div>
+                    <div className="arsent__translate">[Сура Покаяние Аят 28]</div>
+                  </div>
+
+                  <h3 className="title">9) Содержит كأَنَّما</h3>
+                  <div className="arsent">
+                    <div className="arsent__original">
+                      <span> أنَّه </span>
+                      <span className="contrast"> مَنْ </span>
+                      <span> قَتَلَ نَفْساً بِغَيْرِ نَفْسٍ, أوْ فَسادٍ في الأرض </span>
+                      <Word root="كأَنَّما" prefix="فَ" />
+                      <span> قَتَلَ الناسَ جَميعاً </span>
+                    </div>
+                    <div className="arsent__translate">
+                      Кто убил душу не за душу, и не за порчу на земле, тот как будто убил все человечество. [Сура Трапеза 32 Аят]
+                    </div>
                   </div>
                 </div>
-              </AnimateCard>
-
-              <div className="desc">
-                Следствие условия связывается с условием при помощи союза Фа. <b>Если جوابَ الشرطِ (следствие условия) содержит:</b>
-              </div>
-              <h3 className="title">Именное предложение</h3>
-
-              <h3 className="title">Требование: Приказ, Запрет, Вопрос</h3>
-
-              <h3 className="title">Застывший глагол</h3>
-              <div className="arsent">
-                <div className="arsent__original">
-                  <span className="contrast"> منْ </span>
-                  <span> غشَّنا </span>
-                  <Word root="لَيْسَ" prefix="فَ" />
-                  <span> مِنَّا </span>
-                </div>
-                <div className="arsent__translate">Кто обманывает, тот не из нас</div>
               </div>
 
-              <h3 className="title">Содержит قَد</h3>
-              <div className="arsent">
-                <div className="arsent__original">
-                  <span> و </span>
-                  <span className="contrast"> منْ </span>
-                  <span> يُطِعِْ الله و رسولَه </span>
-                  <Word root="قَدْ" prefix="فَ" />
-                  <span> فازَ فوزاً عظِيم </span>
-                </div>
-                <div className="arsent__translate">
-                  А тот кто повинуется Аллахъу и Его Посланнику тот уже достиг великого успеха [Сура Союзники, 71 Аят]
-                </div>
-              </div>
-
-              <h3 className="title">Содержит ما</h3>
-              <div className="arsent">
-                <div className="arsent__original">
-                  <span className="contrast"> مَهما </span>
-                  <span> تَكُنْ الظُّروفُ </span>
-                  <Word root="ما" prefix="فَ" />
-                  <span> أَكْذِبُ </span>
-                </div>
-                <div className="arsent__translate">Какие бы не сложились обстоятельства, то я не буду обманывать</div>
-              </div>
-
-              <h3 className="title">Содержит لَنْ</h3>
-              <div className="arsent">
-                <div className="arsent__original">
-                  <span className="contrast"> مَنْ </span>
-                  <span> لَبِسَ الحَرير في الدُّنيا </span>
-                  <Word root="لَنْ" prefix="فَ" />
-                  <span> يَلْبَسَهُ في الآخرة </span>
-                </div>
-                <div className="arsent__translate">Кто наденет шёлковую одежду в этом мире, тот не оденет в следующем</div>
-              </div>
-
-              <h3 className="title">Приставку настоящего س</h3>
-              <div className="arsent">
-                <div className="arsent__original">
-                  <span className="contrast"> إنْ </span>
-                  <span> تُسافِرْ </span>
-                  <Word root="سَأُسافِرُ" prefix="فَ" />
-                </div>
-              </div>
-
-              <h3 className="title">Содержит سوف</h3>
-              <div className="arsent">
-                <div className="arsent__original">
-                  <span> و </span>
-                  <span className="contrast"> إنْ </span>
-                  <span> خِفْتُم عيلَةً </span>
-                  <Word root="سَوفَ" prefix="فَ" />
-                  <span> يُغْنِيكُمُ الله مِنْ فَضْلِهِ إنَّ شاءَ</span>
-                </div>
-                <div className="arsent__translate">[Сура Покаяние Аят 28]</div>
-              </div>
-
-              <h3 className="title">Содержит كأَنَّما</h3>
-              <div className="arsent">
-                <div className="arsent__original">
-                  <span> أنَّه </span>
-                  <span className="contrast"> مَنْ </span>
-                  <span> قَتَلَ نَفْساً بِغَيْرِ نَفْسٍ, أوْ فَسادٍ في الأرض </span>
-                  <Word root="كأَنَّما" prefix="فَ" />
-                  <span> قَتَلَ الناسَ جَميعاً </span>
-                </div>
-                <div className="arsent__translate">
-                  Кто убил душу не за душу, и не за порчу на земле, тот как будто убил все человечество. [Сура Трапеза 32 Аят]
-                </div>
-              </div>
               {/* ----------------------------------------------------------- */}
             </div>
           </div>

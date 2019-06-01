@@ -7,8 +7,9 @@ function MainAboutMa() {
         Частица <span className="desc__ar"> ما </span> приходит в разных ситуациях
       </div>
 
-      <h2 className="title">Отрицание глаголов</h2>
+      <h2 className="title">Отрицание</h2>
 
+      <h3 className="title"> Отрицание глаголов </h3>
       <div className="arsent">
         <div className="arsent__original">
           ... <span className="contrast"> ما </span> رأيْتُ
@@ -28,7 +29,7 @@ function MainAboutMa() {
         </div>
       </div>
 
-      <h2 className="title">Отрицание именных предложений ما الحِجَازِية</h2>
+      <h3 className="title">Отрицание именных предложений ما الحِجَازِية</h3>
       <div className="arsent">
         <div className="arsent__original">
           <span className="contrast"> ما </span> المسلمُ كَذَّابًا
@@ -67,7 +68,7 @@ function MainAboutMa() {
         <div className="arsent__translate">Какое красивое ...!</div>
       </div>
 
-      <h2 className="title">Что (и)</h2>
+      <h2 className="title">Относительная "что (и)"</h2>
       <div className="arsent">
         <div className="arsent__original">
           أكُل <span className="contrast"> ما </span> تاكل

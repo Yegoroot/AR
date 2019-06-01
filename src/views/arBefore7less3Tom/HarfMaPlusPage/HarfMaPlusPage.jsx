@@ -9,6 +9,7 @@ import Footer from 'components/Footer/Footer.jsx'
 import MainAboutMa from './Sections/MainAboutMa'
 import MaAndFriends from './Sections/MaAndFriends'
 import MaAttama from './Sections/MaAttama'
+import MaThorf from './Sections/MaThorf'
 
 import HeaderLinks from 'components/Header/HeaderLinks.jsx'
 import Parallax from 'components/Parallax/Parallax.jsx'
@@ -41,6 +42,7 @@ class HarfMaPlusPage extends React.Component {
               <h1 className="title h1ar">حرف ما</h1>
               <MainAboutMa />
               <MaAttama />
+              <MaThorf />
               <MaAndFriends />
             </div>
           </div>

@@ -3,7 +3,7 @@ import React from 'react'
 function MaAndFriends() {
   return (
     <>
-      <h2 className="title">ما с друзьями</h2>
+      <h2 className="title">Частица ما с другими частицами</h2>
 
       <div className="desc">
         Скажи кто твой друг и тебе скажут кто ты, частица ما не является исключением, и в зависимоти от того с кем она дружит, ведет себя по
