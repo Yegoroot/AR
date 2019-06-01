@@ -38,11 +38,12 @@ class Breed5 extends React.Component {
               <h1 className="h1ar">(V) تَفَعَّلَ</h1>
 
               <div className="desc">
-                К глаголу <b> второй породы (Усиление, Учащение или переходность) </b> прибавили <b className="desc__ar"> ت </b>.
+                К глаголу второй породы <b> (усиление, учащение или переходность) </b> прибавили <b className="desc__ar"> ت </b>. Так же
+                значит <b> постепенность </b> (брал знания шаг за шагом)
                 <br />
                 <br />
                 <b className="desc__ar"> تَفَعَّلَ = ت + فَعَّلَ </b> и эта <b className="desc__ar"> ت </b> указывает на возвратность на сам
-                субъект (<span className="desc__ar"> فاعل</span> ).
+                субъект (<span className="desc__ar"> فاعِل</span> ).
               </div>
 
               <div className="arsent">

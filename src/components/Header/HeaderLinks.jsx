@@ -81,6 +81,9 @@ function HeaderLinks({ ...props }) {
             <Link to="/fialmabnililmajhun" className={classes.dropdownLink}>
               Глагол страдательного залога
             </Link>,
+            <Link to="/verbsarf" className={classes.dropdownLink}>
+              Сарф глаголов
+            </Link>,
             <Link to="/verbtransitive" className={classes.dropdownLink}>
               Переходность глагола
             </Link>,
