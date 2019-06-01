@@ -9,7 +9,7 @@ export default function() {
         <span className="desc__ar" dir="rtl">
           مِن التَّبْعِيضِيَّةُ
         </span>
-        &nbsp; которая приходит со значением <b> Из </b> (часть) .
+        &nbsp; которая приходит со значением <b> из, часть, некоторые </b> (часть) .
       </div>
 
       <div className="arsent">

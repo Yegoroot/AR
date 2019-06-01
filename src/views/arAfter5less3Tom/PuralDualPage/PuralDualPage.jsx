@@ -160,6 +160,20 @@ class PuralDualPage extends React.Component {
                     </div>
                   </div>
                 </div>
+                <div className="item">
+                  <h2 className="h2ar">فَعْلَى</h2>
+                  <div className="arsent">
+                    <div className="arsent__original">
+                      <span> مَرِيضٌ </span> -<span className="contrast"> مَرْضَى </span>
+                    </div>
+                    <div className="arsent__original">
+                      <span> قَتِيلٌ </span> -<span className="contrast"> قَتْلَى </span>
+                    </div>
+                    <div className="arsent__original">
+                      <span> جَرِيحٌ </span> -<span className="contrast"> جَرْحَى </span>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

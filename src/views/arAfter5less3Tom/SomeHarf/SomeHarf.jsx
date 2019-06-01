@@ -12,6 +12,7 @@ import Qad from './sections/Qad'
 import Innama from './sections/Innama'
 import IthaFujaiya from './sections/IthaFujaiya'
 import Min from './sections/Min'
+import Ya from './sections/Ya'
 class SomeIsm extends React.Component {
   render() {
     const { classes, ...rest } = this.props
@@ -40,6 +41,7 @@ class SomeIsm extends React.Component {
               <Innama />
               <IthaFujaiya />
               <Min />
+              <Ya />
             </div>
           </div>
         </div>
