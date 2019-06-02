@@ -18,7 +18,7 @@ class Intr extends React.Component {
       <div>
         <Header
           color="transparent"
-          brand="22 раздела сарфа"
+          brand="Сарф для глагола"
           rightLinks={<HeaderLinks />}
           fixed
           changeColorOnScroll={{
