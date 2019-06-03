@@ -27,7 +27,7 @@ function Footer({ ...props }) {
           <List className={classes.list}>
             <ListItem className={classes.inlineBlock}>
               <a href="http://dict.arabera.org/" rel="noopener noreferrer" className={classes.block} target="_blank">
-                Онлайн словарь
+                Словарь онлайн
               </a>
             </ListItem>
             <ListItem className={classes.inlineBlock}>
@@ -39,14 +39,39 @@ function Footer({ ...props }) {
                 Спрягать онлайн
               </a>
             </ListItem>
+            &nbsp; | &nbsp;
+            <ListItem className={classes.inlineBlock}>
+              <a href="https://arabic-school.org/" rel="noopener noreferrer" className={classes.block} target="_blank">
+                Школа арабского
+              </a>
+            </ListItem>
             <ListItem className={classes.inlineBlock}>
               <a href="https://vk.com/arabskiyazik" rel="noopener noreferrer" className={classes.block} target="_blank">
                 По скайпу с носителем
               </a>
             </ListItem>
             <ListItem className={classes.inlineBlock}>
+              <a
+                href="https://www.youtube.com/channel/UCa6GjWb8qEKQQCimkEWbTLQ"
+                rel="noopener noreferrer"
+                className={classes.block}
+                target="_blank">
+                Арабский с арабом
+              </a>
+            </ListItem>
+            <ListItem className={classes.inlineBlock}>
+              <a
+                href="https://drive.google.com/file/d/13OTkM3n16ce4kDNobxPheUFVTnA4GCZp/view?usp=sharing"
+                rel="noopener noreferrer"
+                className={classes.block}
+                target="_blank">
+                Учебник "Асмия"
+              </a>
+            </ListItem>
+            &nbsp; |
+            <ListItem className={classes.inlineBlock}>
               <a href="mailto:dont.repeat.yourself.ram@gmail.com" rel="noopener noreferrer" className={classes.block} target="_blank">
-                Обратная связь
+                Обратная связь с разработчиком
               </a>
             </ListItem>
             {/* <ListItem className={classes.inlineBlock}>
@@ -62,8 +87,8 @@ function Footer({ ...props }) {
           </List>
         </div>
         {/* <div className={classes.right}>
-          Создано с <Favorite className={classes.icon} /> для улучшения запомониания |{" "}
-          С <Favorite className={classes.icon} /> {1900 + new Date().getYear()}
+          Создано с <Favorite className={classes.icon} /> для улучшения запомониания | С <Favorite className={classes.icon} />{' '}
+          {1900 + new Date().getYear()}
         </div> */}
       </div>
     </footer>
