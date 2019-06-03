@@ -48,7 +48,7 @@ class Components extends React.Component {
             <div className={classes.brand}>
               {/* <h1 className={classes.title}>Заметки Арабского</h1> */}
               <h1 className={classes.title}>في منامي</h1>
-              <h2 className={classes.subTitle}>Заметки, запсиси, уроки, правила и исключения.</h2>
+              <h2 className={classes.subTitle}>Заметки, запсиси, уроки, правила и исключения основанных на Мединском курсе</h2>
             </div>
           </div>
         </Parallax>

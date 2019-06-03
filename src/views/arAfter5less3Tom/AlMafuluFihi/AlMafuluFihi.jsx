@@ -35,7 +35,7 @@ class AlMafuluFihi extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="h1ar">ظَرْف. المَفْعُول فيه</h1>
+              <h1 className="h1ar"> المَفْعُول فيه. ظَرْف </h1>
 
               <div className="desc">
                 Обстоятельство места и времени

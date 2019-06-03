@@ -51,6 +51,18 @@ function HeaderLinks({ ...props }) {
             </Link>,
             <Link to="/separator" style={{ fontSize: 20 }} className={classes.dropdownLink}>
               ضَمِيرُ فَصْلٍ
+            </Link>,
+            <Link to="/additional" className={classes.dropdownLink}>
+              Виды дополнений
+            </Link>,
+            <Link to="/almafulufihi" style={{ fontSize: 20 }} className={classes.dropdownLink}>
+              المَفْعُول فيه. ظَرْف
+            </Link>,
+            <Link to="/thorfitha" style={{ fontSize: 20 }} className={classes.dropdownLink}>
+              ظَرْف إذا. شَرْط
+            </Link>,
+            <Link to="/adatushart" style={{ fontSize: 20 }} className={classes.dropdownLink}>
+              شَرْط إنْ
             </Link>
           ]}
         />
@@ -243,19 +255,7 @@ function HeaderLinks({ ...props }) {
             </Link>,
             <Link to="/puraldual" className={classes.dropdownLink}>
               Мн. и дв. число
-            </Link>,
-            <Link to="/almafulufihi" style={{ fontSize: 20 }} className={classes.dropdownLink}>
-              المَفْعُول فيه. ظَرْف
-            </Link>,
-            // <Link className={classes.dropdownLink}>---- эти темы связаны --------</Link>,
-            <Link to="/thorfitha" style={{ fontSize: 20 }} className={classes.dropdownLink}>
-              شَرْط. ظَرْف إذا
-            </Link>,
-            <Link to="/adatushart" style={{ fontSize: 20 }} className={classes.dropdownLink}>
-              شَرْط. إنْ
             </Link>
-
-            // <Link className={classes.dropdownLink}>------- эти темы связаны -----</Link>
           ]}
         />
       </ListItem>
