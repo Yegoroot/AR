@@ -18,7 +18,7 @@ import Parallax from 'components/Parallax/Parallax.jsx'
 import AboutPageStyle from 'assets/jss/material-kit-react/views/AboutPage.jsx'
 import InfoArea from 'components/InfoArea/InfoArea.jsx'
 
-import { Language, Brightness3, VerifiedUser, Book } from '@material-ui/icons'
+import { Language, Brightness3, VerifiedUser, Book, Today } from '@material-ui/icons'
 
 class Page extends React.Component {
   render() {
@@ -64,10 +64,14 @@ class Page extends React.Component {
           <div className={classes.container}>
             <h1 clssName="title"> Дополнительная информация </h1>
             <div className="desc">
+              Так как этот ресурс <b>не является учебником</b>, но является некиим <b>справочником Мединского Курса</b>, то к нему возможно
+              обращатся в процессе обучения самому Мединскому Курсу
+            </div>
+            <div className="desc">
               Ниже будет представлена дополнительная информация по изучению арабского языка или ссылки на тех, через кого вы можете узнать
-              об этом прекрасном языке. Данные ссылки не являются рекламой, это контакты мусульман преподователей. С кем и как заниматься
-              решайте сами, всё сугубо индивидуально, у учителей разные подходы. Уникальной технологии для обучения не существует. Пробуйте,
-              решайте, изучайте, узнавайте. Самое главное это брать и делать (практика все решает)
+              об этом прекрасном языке. Данные ссылки не являются рекламой, это <b>контакты мусульман преподователей</b>. С кем и как
+              заниматься решайте сами, всё сугубо индивидуально, у учителей разные подходы. Уникальной технологии для обучения не
+              существует. Пробуйте, решайте, изучайте, узнавайте. Самое главное это брать и делать (практика все решает)
             </div>
             <div className={classes.section}>
               <GridContainer>
@@ -125,6 +129,22 @@ class Page extends React.Component {
                     link={() => (
                       <a href="https://drive.google.com/file/d/13OTkM3n16ce4kDNobxPheUFVTnA4GCZp/view?usp=sharing" target="blank">
                         Ссылка на учебник
+                      </a>
+                    )}
+                  />
+                </GridItem>
+                <GridItem xs={12} sm={12} md={4}>
+                  <InfoArea
+                    title="Культурно-Просветительский Центр"
+                    description="Преподование арабского языка и других языков в Культурно-Просветительском Центре"
+                    icon={Today}
+                    iconColor="gray"
+                    vertical
+                    link={() => (
+                      <a
+                        href="http://tenishcenter.ru/%D0%B0%D1%80%D0%B0%D0%B1%D1%81%D0%BA%D0%B8%D0%B9-%D1%8F%D0%B7%D1%8B%D0%BA/"
+                        target="blank">
+                        Ссылка на программу центра
                       </a>
                     )}
                   />
