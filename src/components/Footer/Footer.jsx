@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 // nodejs library that concatenates classes
 import classNames from 'classnames'
 import { List, ListItem, withStyles } from '@material-ui/core'
-// import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom'
 // @material-ui/icons
 // import Favorite from '@material-ui/icons/Favorite'
 
@@ -41,32 +41,9 @@ function Footer({ ...props }) {
             </ListItem>
             &nbsp; | &nbsp;
             <ListItem className={classes.inlineBlock}>
-              <a href="https://arabic-school.org/" rel="noopener noreferrer" className={classes.block} target="_blank">
-                Школа арабского
-              </a>
-            </ListItem>
-            <ListItem className={classes.inlineBlock}>
-              <a href="https://vk.com/arabskiyazik" rel="noopener noreferrer" className={classes.block} target="_blank">
-                По скайпу с носителем
-              </a>
-            </ListItem>
-            <ListItem className={classes.inlineBlock}>
-              <a
-                href="https://www.youtube.com/channel/UCa6GjWb8qEKQQCimkEWbTLQ"
-                rel="noopener noreferrer"
-                className={classes.block}
-                target="_blank">
-                Арабский с арабом
-              </a>
-            </ListItem>
-            <ListItem className={classes.inlineBlock}>
-              <a
-                href="https://drive.google.com/file/d/13OTkM3n16ce4kDNobxPheUFVTnA4GCZp/view?usp=sharing"
-                rel="noopener noreferrer"
-                className={classes.block}
-                target="_blank">
-                Учебник "Асмия"
-              </a>
+              <Link className={classes.block} to="/about">
+                Ресурсы
+              </Link>
             </ListItem>
             &nbsp; |
             <ListItem className={classes.inlineBlock}>
@@ -74,20 +51,10 @@ function Footer({ ...props }) {
                 Обратная связь с разработчиком
               </a>
             </ListItem>
-            {/* <ListItem className={classes.inlineBlock}>
-                            <Link to="/login" className={classes.block}>
-                                Login
-                            </Link>
-                        </ListItem>
-                        <ListItem className={classes.inlineBlock}>
-                            <Link to="/components" className={classes.block}>
-                                For Develop
-                            </Link>
-                        </ListItem> */}
           </List>
         </div>
         {/* <div className={classes.right}>
-          Создано с <Favorite className={classes.icon} /> для улучшения запомониания | С <Favorite className={classes.icon} />{' '}
+          Создано с <Favorite className={classes.icon} /> для улучшения запомониания | С <Favorite className={classes.icon} />
           {1900 + new Date().getYear()}
         </div> */}
       </div>

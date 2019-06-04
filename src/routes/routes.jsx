@@ -1,7 +1,7 @@
 // import AdminPage from 'views/AdminPage'
 import Components from 'views/Components/Components.jsx'
 import Home from 'views/Home/Home.jsx'
-import LandingPage from 'views/LandingPage/LandingPage.jsx'
+import AboutPage from 'views/AboutPage/AboutPage.jsx'
 import ProfilePage from 'views/ProfilePage/ProfilePage.jsx'
 import LoginPage from 'views/LoginPage/LoginPage.jsx'
 // --------------------
@@ -143,7 +143,7 @@ var indexRoutes = [
   { path: '/adwatuldjazm', name: 'AdwatulDjazmPage', component: AdwatulDjazmPage },
   { path: '/jumlatuhaal', name: 'JumlatuHaalPage', component: JumlatuHaalPage },
   { path: '/weakLetters', name: 'WeakLettersPage', component: WeakLettersPage },
-  { path: '/landing', name: 'LandingPage', component: LandingPage },
+  { path: '/about', name: 'AboutPage', component: AboutPage },
   { path: '/profile', name: 'ProfilePage', component: ProfilePage },
   { path: '/login', name: 'LoginPage', component: LoginPage },
   { path: '/components', name: 'Components', component: Components },
