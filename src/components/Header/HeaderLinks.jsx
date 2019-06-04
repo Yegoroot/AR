@@ -143,7 +143,7 @@ function HeaderLinks({ ...props }) {
               Масдар
             </Link>,
             <Link to="/asmaulafal" className={classes.dropdownLink} style={{ fontSize: 20 }}>
-              أسْماءُ الأفِعْل
+              اسْماءُ الافعال
             </Link>,
             <Link to="/ismumaful" className={classes.dropdownLink} style={{ fontSize: 20 }}>
               اسم المَفْول

@@ -17,7 +17,7 @@ class FialMabniLilmajhun extends React.Component {
       <div>
         <Header
           color="transparent"
-          brand="الفِعْل المَبْنِي لِلمَجْهُول"
+          brand="الفعل المبني لِلمجهول"
           isBrandAr
           rightLinks={<HeaderLinks />}
           fixed

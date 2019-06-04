@@ -23,7 +23,7 @@ class Asmaulafal extends React.Component {
       <div>
         <Header
           color="transparent"
-          brand="أسْماءُ الأفِعْل"
+          brand="اسْماءُ الافعال"
           isBrandAr
           rightLinks={<HeaderLinks />}
           fixed
@@ -39,7 +39,7 @@ class Asmaulafal extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="title">أسْماءُ الأفِعْل</h1>
+              <h1 className="title">اسْماءُ الافِعال</h1>
 
               <div className="desc">
                 Не является глаголом, но смысл глагола, не склоняется во временах. Бывает некоторые существуют в одном времени, но не

@@ -3,7 +3,7 @@ import React from 'react'
 export default function() {
   return (
     <>
-      <h2 className="h2ar title"> المفعول المطلق </h2>
+      <h2 className="h2ar title"> المفعول المُطْلَق </h2>
 
       <div className="desc">
         <b> Абсолютное дополнение </b> (المفعول المطلق) называется так как не обусловлено предлогом как другие. Приходит масдаром в

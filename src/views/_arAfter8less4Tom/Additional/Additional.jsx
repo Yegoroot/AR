@@ -39,11 +39,11 @@ class Page extends React.Component {
                 (المفعول) Виды дополнений
               </h1>
               <div className="desc">
-                Существует как миниум 4 вида дополнения:
+                Существует 5 видов дополнения:
                 <b> абсолютное дополнение </b> (<span className="desc__ar"> المفعول المطلق </span>), <b> прямое дополнение </b> (
-                <span className="desc__ar"> المفعول به </span> ), <b> дополнение соучастия </b> (
-                <span className="desc__ar"> المفعول معه </span> ),
-                <b> обстоятельство времени или места </b>(<span className="desc__ar"> المفعول فيه </span>)
+                <span className="desc__ar"> المفعول به </span> ), <b> обстоятельство времени или места </b>(
+                <span className="desc__ar"> المفعول فيه </span>), <b> дополнение цели </b> (<span className="desc__ar"> المفعول له </span>
+                ), <b> дополнение соучастия </b> (<span className="desc__ar"> المفعول معه </span> )
               </div>
 
               <h2 className="title h2ar"> المَفعول بِه</h2>
