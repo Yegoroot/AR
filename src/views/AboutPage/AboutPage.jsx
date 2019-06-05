@@ -18,7 +18,7 @@ import Parallax from 'components/Parallax/Parallax.jsx'
 import AboutPageStyle from 'assets/jss/material-kit-react/views/AboutPage.jsx'
 import InfoArea from 'components/InfoArea/InfoArea.jsx'
 
-import { Language, Brightness3, VerifiedUser, Book, Today } from '@material-ui/icons'
+import { Language, Brightness3, VerifiedUser, Book, Today, Explore } from '@material-ui/icons'
 
 class Page extends React.Component {
   render() {
@@ -75,6 +75,20 @@ class Page extends React.Component {
             </div>
             <div className={classes.section}>
               <GridContainer>
+                <GridItem xs={12} sm={12} md={4}>
+                  <InfoArea
+                    title="Школа арабского языка"
+                    description="Эта школа на каторую ссылается плэйлист в YouTube, с которого я брал материлы"
+                    icon={Explore}
+                    iconColor="info"
+                    vertical
+                    link={() => (
+                      <a target="blank" href="http://nuruliman.ru/">
+                        Ссылка на сайт
+                      </a>
+                    )}
+                  />
+                </GridItem>
                 <GridItem xs={12} sm={12} md={4}>
                   <InfoArea
                     title="Изучение Арабского с Носителем"
