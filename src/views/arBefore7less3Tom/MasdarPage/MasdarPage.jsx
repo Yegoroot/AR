@@ -10,7 +10,9 @@ import Footer from 'components/Footer/Footer.jsx'
 import HeaderLinks from 'components/Header/HeaderLinks.jsx'
 
 import Parallax from 'components/Parallax/Parallax.jsx'
-
+import MasdarMarratin from './sections/MasdarMarratin'
+import MasdarHayyati from './sections/MasdarHayyati'
+import MasdarMimiy from './sections/MasdarMimiy'
 import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
 
 class MasdarPage extends React.Component {
@@ -127,7 +129,8 @@ class MasdarPage extends React.Component {
                   </div>
                 </div>
               </div>
-              <h3 className="title">Имя масдара</h3>
+
+              <h2 className="title">Имя масдара</h2>
               <div className="desc">
                 <b>Имя масдара</b> это имя которое указывает на то, что указывает масдар, однако букв в нём меньше. Например
               </div>
@@ -138,6 +141,10 @@ class MasdarPage extends React.Component {
                 <br /> <br /> <span className="desc__ar"> التَّقْبِيل </span>"Поцелуй" (Масдар для 2 породы ) <br />
                 <span className="desc__ar"> القُبْلَةُ </span>"Поцелуй" (Имя Масдара, которое чаще используется )
               </p>
+
+              <MasdarMarratin />
+              <MasdarHayyati />
+              <MasdarMimiy />
             </div>
           </div>
         </div>
