@@ -10,8 +10,6 @@ import HeaderLinks from 'components/Header/HeaderLinks.jsx'
 import Parallax from 'components/Parallax/Parallax.jsx'
 import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
 
-import AbsolutnoeDop from './sections/AbsolutnoeDop'
-
 class Page extends React.Component {
   render() {
     const { classes, ...rest } = this.props
@@ -71,7 +69,10 @@ class Page extends React.Component {
                 Про <b> обстоятельство места или времени </b> можно посмотреть <Link to={'/almafulufihi'}> в этом разделе </Link>
               </div>
 
-              <AbsolutnoeDop />
+              <h2 className="h2ar title"> المفعول المُطْلَق </h2>
+              <div className="desc">
+                Про <b> абсолютное дополнение </b> можно посмотреть <Link to={'/addabsolute'}> в этом разделе </Link>
+              </div>
             </div>
           </div>
         </div>

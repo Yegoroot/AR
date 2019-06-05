@@ -19,7 +19,7 @@ function HeaderLinks({ ...props }) {
     <List className={classes.list}>
       <ListItem className={classes.listItem}>
         <Link to="/" className={classes.navLink}>
-          <Home className={classes.icons} />
+          <Home className={classes.icons} /> <span className={classes.navLinkHideDesc}>Главная</span>
         </Link>
       </ListItem>
 
@@ -43,22 +43,25 @@ function HeaderLinks({ ...props }) {
               جملة الحال
             </Link>,
             <Link to="/jumlatuism" className={classes.dropdownLink} style={{ fontSize: 20 }}>
-              جملة الاِسميَة
+              جملة الاسمية
             </Link>,
             <Link to="/separator" style={{ fontSize: 20 }} className={classes.dropdownLink}>
-              ضَمِيرُ فَصْلٍ
+              ضمير فصل
             </Link>,
             <Link to="/additional" className={classes.dropdownLink}>
               Виды дополнений
             </Link>,
+            <Link to="/addabsolute" style={{ fontSize: 20 }} className={classes.dropdownLink}>
+              المفعول المطلق
+            </Link>,
             <Link to="/almafulufihi" style={{ fontSize: 20 }} className={classes.dropdownLink}>
-              المَفْعُول فيه. ظَرْف
+              المفعول فيه. ظرف
             </Link>,
             <Link to="/thorfitha" style={{ fontSize: 20 }} className={classes.dropdownLink}>
-              ظَرْف إذا. شَرْط
+              ظرف إذا. شرط
             </Link>,
             <Link to="/adatushart" style={{ fontSize: 20 }} className={classes.dropdownLink}>
-              شَرْط إنْ
+              شرط إنْ
             </Link>
           ]}
         />
@@ -143,19 +146,19 @@ function HeaderLinks({ ...props }) {
               Масдар
             </Link>,
             <Link to="/asmaulafal" className={classes.dropdownLink} style={{ fontSize: 20 }}>
-              اسْماءُ الافعال
+              اسماء الافعال
             </Link>,
             <Link to="/ismumaful" className={classes.dropdownLink} style={{ fontSize: 20 }}>
-              اسم المَفْول
+              اسم المَفول
             </Link>,
             <Link to="/ismafial" className={classes.dropdownLink} style={{ fontSize: 20 }}>
-              اسم الفاعِل
+              اسم الفاعل
             </Link>,
             <Link to="/ismulmakanwazaman" className={classes.dropdownLink} style={{ fontSize: 20 }}>
               اسم مكان و زمان
             </Link>,
             <Link to="/ismaalati" className={classes.dropdownLink} style={{ fontSize: 20 }}>
-              اِسْمَ آلَةٍ
+              اسم آلَة
             </Link>,
             <Link to="/abjectivedegrees" className={classes.dropdownLink}>
               Степени прилагательного
@@ -184,14 +187,14 @@ function HeaderLinks({ ...props }) {
           buttonIcon={Assignment}
           dropdownList={[
             <Link to="/adwatuldjazm" className={classes.dropdownLink} style={{ fontSize: 20 }}>
-              أدْوَات الجَزْم
+              أدوَات الجزم
             </Link>,
 
             <Link to="/typeharflya" style={{ fontSize: 20 }} className={classes.dropdownLink}>
               حرف لا
             </Link>,
             <Link to="/lamibtidaa" style={{ fontSize: 20 }} className={classes.dropdownLink}>
-              لَام الاِبْتِداءِ
+              لَام الابتداء
             </Link>,
             <Link to="/harfmaplus" style={{ fontSize: 20 }} className={classes.dropdownLink}>
               حرف ما
@@ -200,7 +203,7 @@ function HeaderLinks({ ...props }) {
               حرف و
             </Link>,
             <Link to="/harfazzoidatu" className={classes.dropdownLink} style={{ fontSize: 20 }}>
-              مِن الزّائِدَة
+              مِن الزّائدة
             </Link>,
             <Link to="/harfdeny" className={classes.dropdownLink}>
               Отрицательные частицы

@@ -3,6 +3,12 @@ import { defaultFont } from 'assets/jss/material-kit-react.jsx'
 import tooltip from 'assets/jss/material-kit-react/tooltipsStyle.jsx'
 
 const headerLinksStyle = theme => ({
+  navLinkHideDesc: {
+    paddingTop: 5,
+    [theme.breakpoints.up('md')]: {
+      display: 'none'
+    }
+  },
   list: {
     ...defaultFont,
     fontSize: '14px',
@@ -40,6 +46,7 @@ const headerLinksStyle = theme => ({
   listItemText: {
     padding: '0 !important'
   },
+
   navLink: {
     color: 'inherit',
     position: 'relative',
