@@ -40,7 +40,8 @@ class Page extends React.Component {
                 Существует 5 видов дополнения:
                 <b> абсолютное дополнение </b> (<span className="desc__ar"> المفعول المطلق </span>), <b> прямое дополнение </b> (
                 <span className="desc__ar"> المفعول به </span> ), <b> обстоятельство времени или места </b>(
-                <span className="desc__ar"> المفعول فيه </span>), <b> дополнение цели </b> (<span className="desc__ar"> المفعول له </span>
+                <span className="desc__ar"> المفعول فيه </span>), <b> дополнение причины, цели </b> (
+                <span className="desc__ar"> المفعول له </span>
                 ), <b> дополнение соучастия </b> (<span className="desc__ar"> المفعول معه </span> )
               </div>
 
@@ -72,6 +73,42 @@ class Page extends React.Component {
               <h2 className="h2ar title"> المفعول المُطْلَق </h2>
               <div className="desc">
                 Про <b> абсолютное дополнение </b> можно посмотреть <Link to={'/addabsolute'}> в этом разделе </Link>
+              </div>
+
+              <h2 className="h2ar title" dir="rtl">
+                المَفعول لَه (المَفعول لأَجْلِه)
+              </h2>
+              <div className="desc">
+                <b> Дополнение причины, цели </b> это масдар, который упоминается для разъяснения причины действия или поступков
+              </div>
+
+              <div className="arsent">
+                <div className="arsent__original">
+                  <span> و لا تَقْتُلوا أولادَكم </span>
+                  <span className="contrast"> خَشْيَةَ </span>
+                  <span> إمْلاقٍ </span>
+                </div>
+                <div className="arsent__translate"> Не убивайте ваших детей (по причине ?) из за страха бедности </div>
+              </div>
+
+              <div className="arsent">
+                <div className="arsent__original">
+                  <span> أتَغَاضَ عن هَفَواتِ أَصْدقائِي </span>
+                  <span className="contrast"> اسْتِبْقاءً </span>
+                  <span> لِمَوَدَّتِهِم </span>
+                </div>
+                <div className="arsent__translate">
+                  Я закрываю глаза на промохи моих друзей (по причине ?) в надежде сохранить привязанность
+                </div>
+              </div>
+
+              <div className="arsent">
+                <div className="arsent__original">
+                  <span> لَمْ أخرجْ مِن البيتِ اليوم </span>
+                  <span className="contrast"> خَوفً </span>
+                  <span> مِن الحارّ </span>
+                </div>
+                <div className="arsent__translate">Не вышел из дома сегодня (по какой причине?) из за страха жары</div>
               </div>
             </div>
           </div>
