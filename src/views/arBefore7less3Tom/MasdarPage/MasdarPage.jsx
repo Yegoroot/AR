@@ -128,6 +128,25 @@ class MasdarPage extends React.Component {
                     </div>
                   </div>
                 </div>
+
+                <div className="item">
+                  <h2 className="h2ar"> فُعْل </h2>
+
+                  <div className="arsent">
+                    <div className="arsent__original">
+                      <span> شَرِبَ </span> -<span className="contrast"> شُرْبٌ </span>
+                    </div>
+                    <div className="arsent__original">
+                      <span> شَكَرَ </span> -<span className="contrast"> شُكْرٌ </span>
+                    </div>
+                    <div className="arsent__original">
+                      <span> وَدَّ </span> -<span className="contrast"> وُدٌّ </span>
+                    </div>
+                    <div className="arsent__original">
+                      <span> زَهِدَ </span> -<span className="contrast"> زُهْدٌ </span>
+                    </div>
+                  </div>
+                </div>
               </div>
 
               <h2 className="title">Имя масдара</h2>
