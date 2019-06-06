@@ -162,6 +162,22 @@ class Page extends React.Component {
                 Обязательно ставить <b> в винительный падеж</b>.
               </div>
 
+              <h2 className="title "> Дополнительные примеры </h2>
+              <div className="arsent">
+                <div className="arsent__original">
+                  <span> أنا أكْبَر مِنْكَ </span>
+                  <span className="contrast"> سِنّاً </span>
+                </div>
+                <div className="arsent__translate">Я больше тебя возрастом (старше)</div>
+              </div>
+              <div className="arsent">
+                <div className="arsent__original">
+                  <span> اِشتَرِ كيلوغراماً </span>
+                  <span className="contrast"> سُكَّراً </span>,<span> ولِتْرينِ </span>
+                  <span className="contrast"> لَبَناً </span>
+                </div>
+                <div className="arsent__translate">Купи киллограмм сахара и два литра молока</div>
+              </div>
               {/* ------------------ */}
             </div>
           </div>
