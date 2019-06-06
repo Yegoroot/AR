@@ -257,6 +257,9 @@ function HeaderLinks({ ...props }) {
             </Link>,
             <Link to="/puraldual" className={classes.dropdownLink}>
               Мн. и дв. число
+            </Link>,
+            <Link to="/surprise" className={classes.dropdownLink}>
+              Формы удивления
             </Link>
           ]}
         />

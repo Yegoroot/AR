@@ -60,12 +60,13 @@ function MainAboutMa() {
         </div>
       </div>
 
-      <h2 className="title">Восклицание</h2>
+      <h2 className="title">Восклицание, удивление</h2>
       <div className="arsent">
-        <div className="arsent__original">
-          ! ... <span className="contrast"> ما </span> أجْمَلُ
+        <div className="arsent__original" dir="rtl">
+          <span className="contrast"> ما </span>
+          <span> أجْمَلَ السيارةَ </span> !
         </div>
-        <div className="arsent__translate">Какое красивое ...!</div>
+        <div className="arsent__translate">Какая красивая машина!</div>
       </div>
 
       <h2 className="title">Относительная "что (и)"</h2>
