@@ -68,6 +68,7 @@ import Letter4 from 'views/_arAfter8less4Tom/Letter4/Letter4'
 import Separator from 'views/_arAfter8less4Tom/Separator/Separator'
 import Discriminator from 'views/_arAfter8less4Tom/Discriminator/Discriminator'
 import Additional from 'views/_arAfter8less4Tom/Additional/Additional'
+import AdditionalProperty from 'views/_arAfter8less4Tom/Additional/AdditionalProperty'
 import Surprise from 'views/_arAfter8less4Tom/Surprise/Surprise'
 import AdditionalAbsolut from 'views/_arAfter8less4Tom/Additional/AdditionalAbsolut'
 
@@ -80,6 +81,7 @@ var indexRoutes = [
   { path: '/discriminator', name: 'Discriminator', component: Discriminator },
   { path: '/surprise', name: 'Surprise', component: Surprise },
   { path: '/additional', name: 'Additional', component: Additional },
+  { path: '/additionalprop', name: 'AdditionalProperty', component: AdditionalProperty },
   { path: '/addabsolute', name: 'AdditionalAbsolut', component: AdditionalAbsolut },
 
   /** after 16 less 3tom

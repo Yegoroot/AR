@@ -39,9 +39,6 @@ function HeaderLinks({ ...props }) {
             <Link to="/soglasopr" className={classes.dropdownLink}>
               Согласованное определение
             </Link>,
-            <Link to="/jumlatuhaal" className={classes.dropdownLink} style={{ fontSize: 20 }}>
-              جملة الحال
-            </Link>,
             <Link to="/jumlatuism" className={classes.dropdownLink} style={{ fontSize: 20 }}>
               جملة الاسمية
             </Link>,
@@ -50,6 +47,9 @@ function HeaderLinks({ ...props }) {
             </Link>,
             <Link to="/discriminator" style={{ fontSize: 20 }} className={classes.dropdownLink}>
               التمييز
+            </Link>,
+            <Link to="/jumlatuhaal" className={classes.dropdownLink} style={{ fontSize: 20 }}>
+              الحال
             </Link>,
             <Link to="/additional" className={classes.dropdownLink}>
               Виды дополнений
