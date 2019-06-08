@@ -46,7 +46,7 @@ function HeaderLinks({ ...props }) {
               ضمير فصل
             </Link>,
             <Link to="/exceptions" className={classes.dropdownLink}>
-              Исключители
+              Выражение исключения
             </Link>,
             <Link to="/discriminator" style={{ fontSize: 20 }} className={classes.dropdownLink}>
               التمييز
