@@ -66,6 +66,7 @@ import Breed10 from 'views/arAfter5less3Tom/BreedsOfVerb/Breed10/Breed10'
 
 import Letter4 from 'views/_arAfter8less4Tom/Letter4/Letter4'
 import Separator from 'views/_arAfter8less4Tom/Separator/Separator'
+import Exceptions from 'views/_arAfter8less4Tom/Exceptions/Exceptions'
 import Discriminator from 'views/_arAfter8less4Tom/Discriminator/Discriminator'
 import Additional from 'views/_arAfter8less4Tom/Additional/Additional'
 import AdditionalProperty from 'views/_arAfter8less4Tom/Additional/AdditionalProperty'
@@ -77,6 +78,7 @@ var indexRoutes = [
    *
    */
   { path: '/letter4', name: 'Letter4', component: Letter4 },
+  { path: '/exceptions', name: 'Exceptions', component: Exceptions },
   { path: '/separator', name: 'Separator', component: Separator },
   { path: '/discriminator', name: 'Discriminator', component: Discriminator },
   { path: '/surprise', name: 'Surprise', component: Surprise },
