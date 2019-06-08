@@ -13,6 +13,7 @@ import Innama from './sections/Innama'
 import IthaFujaiya from './sections/IthaFujaiya'
 import Min from './sections/Min'
 import Ya from './sections/Ya'
+import Ala from './sections/Ala'
 import Halya from './sections/Halya'
 class SomeIsm extends React.Component {
   render() {
@@ -44,6 +45,7 @@ class SomeIsm extends React.Component {
               <Min />
               <Ya />
               <Halya />
+              <Ala />
             </div>
           </div>
         </div>
