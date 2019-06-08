@@ -133,6 +133,9 @@ function HeaderLinks({ ...props }) {
             </Link>,
             <Link to="/letter4" className={classes.dropdownLink}>
               Четырёхбуквенный глагол
+            </Link>,
+            <Link to="/strongverb" className={classes.dropdownLink}>
+              Усиление глагола
             </Link>
           ]}
         />

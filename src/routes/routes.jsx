@@ -66,6 +66,7 @@ import Breed10 from 'views/arAfter5less3Tom/BreedsOfVerb/Breed10/Breed10'
 
 import Letter4 from 'views/_arAfter8less4Tom/Letter4/Letter4'
 import Separator from 'views/_arAfter8less4Tom/Separator/Separator'
+import StrongVerb from 'views/_arAfter8less4Tom/StrongVerb/StrongVerb'
 import Exceptions from 'views/_arAfter8less4Tom/Exceptions/Exceptions'
 import Discriminator from 'views/_arAfter8less4Tom/Discriminator/Discriminator'
 import Additional from 'views/_arAfter8less4Tom/Additional/Additional'
@@ -85,6 +86,7 @@ var indexRoutes = [
   { path: '/additional', name: 'Additional', component: Additional },
   { path: '/additionalprop', name: 'AdditionalProperty', component: AdditionalProperty },
   { path: '/addabsolute', name: 'AdditionalAbsolut', component: AdditionalAbsolut },
+  { path: '/strongverb', name: 'StrongVerb', component: StrongVerb },
 
   /** after 16 less 3tom
    */
