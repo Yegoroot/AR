@@ -99,17 +99,17 @@ class Page extends React.Component {
                 </div>
               </div>
 
-              <h3 className="title"> На месте масдара </h3>
+              <h2 className="title"> На месте масдара </h2>
 
               <div className="desc">
                 Иногда хлебное место Масдара заменяет то, что указывает на него и то что заменило Масдар будет принимать винительный падеж
                 <br />
               </div>
 
-              <div className="items">
+              <div className="items items_islabel items_islabel_number">
                 <div className="item">
+                  <span class="item__label"> 1 </span>
                   <h3 className="title">
-                    1.
                     <span className=""> كُلُّ </span> و <span className=""> بَعْض </span> و <span className=""> أيّ مُضَافَةً </span>
                   </h3>
                   <div className="arsent">
@@ -135,7 +135,8 @@ class Page extends React.Component {
                   </div>
                 </div>
                 <div className="item">
-                  <h3 className="title">2. عَدَدُه (Мислительным)</h3>
+                  <span class="item__label"> 2 </span>
+                  <h3 className="title"> عَدَدُه (Числительным)</h3>
                   <div className="arsent">
                     <div className="arsent__original">
                       <span> زُرتُهُ </span>
@@ -146,7 +147,8 @@ class Page extends React.Component {
                   </div>
                 </div>
                 <div className="item">
-                  <h3 className="title">3. صِفَتُهُ (Своё Прилагательное)</h3>
+                  <span class="item__label"> 3 </span>
+                  <h3 className="title"> صِفَتُهُ (Своё Прилагательное)</h3>
                   <div className="arsent">
                     <div className="arsent__original" dir="rtl">
                       <span> فَهِمْتُ الدَّرسَ</span>
@@ -157,7 +159,8 @@ class Page extends React.Component {
                   </div>
                 </div>
                 <div className="item">
-                  <h3 className="title">4. اسم المصدر (имя масдара)</h3>
+                  <span class="item__label"> 4 </span>
+                  <h3 className="title"> اسم المصدر (имя масдара)</h3>
                   <div className="arsent">
                     <div className="arsent__original" dir="rtl">
                       <span> كَلَّمْتُ </span>
@@ -167,7 +170,8 @@ class Page extends React.Component {
                   </div>
                 </div>
                 <div className="item">
-                  <h3 className="title">5. Приблежённый масдар</h3>
+                  <span class="item__label"> 5 </span>
+                  <h3 className="title"> Приблежённый масдар</h3>
                   <div className="arsent">
                     <div className="arsent__original" dir="rtl">
                       <span> و تَبَتَّلْ إليْهِ </span>
@@ -179,7 +183,8 @@ class Page extends React.Component {
                   </div>
                 </div>
                 <div className="item">
-                  <h3 className="title">6. اسم الإشارة (Указательное местоимение)</h3>
+                  <span class="item__label"> 6 </span>
+                  <h3 className="title"> اسم الإشارة (Указательное местоимение)</h3>
                   <div className="arsent">
                     <div className="arsent__original" dir="rtl">
                       <span> أتَسْتَقْبِلُنِي </span>
@@ -189,7 +194,8 @@ class Page extends React.Component {
                   </div>
                 </div>
                 <div className="item">
-                  <h3 className="title">7. ضَميرُهُ العائِدُ إليه (Местоимение которое возвращается на него)</h3>
+                  <span class="item__label"> 7 </span>
+                  <h3 className="title"> ضَميرُهُ العائِدُ إليه (Местоимение которое возвращается на него)</h3>
                   <div className="arsent">
                     <div className="arsent__original" dir="rtl">
                       <span> اِجْتَهَدتُ اجْتِهاداً لمْ </span>
@@ -201,7 +207,8 @@ class Page extends React.Component {
                   </div>
                 </div>
                 <div className="item">
-                  <h3 className="title">8. مُرَادِفُه (Синоним)</h3>
+                  <span class="item__label"> 8 </span>
+                  <h3 className="title"> مُرَادِفُه (Синоним)</h3>
                   <div className="arsent">
                     <div className="arsent__original" dir="rtl">
                       <span> عِشْتُ </span>

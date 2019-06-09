@@ -22,7 +22,7 @@ class JumlatuIsmPage extends React.Component {
       <div>
         <Header
           color="transparent"
-          brand="جملة الاِسمِيّة"
+          brand="جملة الاسميّة"
           isBrandAr
           rightLinks={<HeaderLinks />}
           fixed
@@ -40,8 +40,9 @@ class JumlatuIsmPage extends React.Component {
               <h1 className="title">Именное предложение</h1>
 
               <p className="desc">
-                Именное предложение – это предложение, которое начинается с имени. Например:
-                <span className="desc__ar"> الطالِب مجتهد </span> Студент прилежен Подлежащее именного предложения{' '}
+                Именное предложение <span className="desc__ar"> (جملة الاِسمِيّة) </span> – это предложение, которое
+                <b>начинается с имени</b>. Например:
+                <span className="desc__ar"> الطالِب مجتهد </span> (студент прилежен). Подлежащее именного предложения
                 <span className="desc__ar"> (المُبْتَدَأُ) </span> ставится, как правило, в определённом состоянии, а сказуемое
                 <span className="desc__ar"> (الخَبَرُ) </span> - в неопределённом.
               </p>

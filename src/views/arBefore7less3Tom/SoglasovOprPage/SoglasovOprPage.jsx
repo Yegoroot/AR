@@ -32,15 +32,16 @@ class SoglasovOpr extends React.Component {
           {...rest}
         />
 
-        <Parallax small filter image={require('assets/img/mosque/mosque4.jpg')} />
+        <Parallax small filter image={require('assets/img/mosque/minaret.jpg')} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title">Согласованное определение</h1>
 
               <div className="desc">
-                Согласованное определение ставится после определяемого и полностью согласуется в роде, числе, падеже, состоянии. Чаще всего
-                в роде согласованного определения выступает прилагательное
+                <b> Согласованное определение </b> ставится после определяемого и
+                <b> полностью согласуется в роде, числе, падеже, состоянии </b> . Чаще всего в роде согласованного определения выступает
+                прилагательное
               </div>
 
               <div className="arsent">
@@ -51,20 +52,20 @@ class SoglasovOpr extends React.Component {
                 </div>
                 <div className="arsent__translate">
                   Аббас
-                  <span className=""> торговец </span> [определяемое слово]
-                  <span className="contrast"> богатый </span> [определение]
+                  <span className=""> торговец </span> (определяемое слово)
+                  <span className="contrast"> богатый </span> (определение)
                 </div>
               </div>
 
               <div className="desc">
-                Определяемое может иметь при себе одновременно как несогласованное определение так и согласованное; В таком случае с начала
+                Определяемое может иметь при себе одновременно как несогласованное определение так и согласованное, в таком случае с начала
                 за определяемым следует несогласованное определение (идафа) затем согласованное <br /> <br />
-                <b>Определяемое -> Не согласованное -> Согласованное</b>
+                <b className="contrast_2">Определяемое -> Не согласованное -> Согласованное</b>
               </div>
 
-              <h3 className="title">
+              <h4 className="title">
                 Если несогласованное определение (идафа) стоит в неопределенном состоянии, то и имя определяемое считается неопределенным
-              </h3>
+              </h4>
 
               <div className="arsent">
                 <div className="arsent__original">
@@ -79,16 +80,26 @@ class SoglasovOpr extends React.Component {
                 </div>
               </div>
 
-              <div className="desc">
-                <span className="desc__ar"> دفترُ </span> - тетерадь [определяемое] <br />
-                <span className="contrast desc__ar"> طالبةٍ </span> - <span className="contrast"> студентки </span> (какой то) [идафа при
-                определяемом]
-                <br />
-                <span className=" contrast_2 desc__ar"> نظيفٌ </span> - <span className="contrast_2"> чистая </span> [согласованное
-                определение при определяемом]
+              <div className="arsent">
+                <div>
+                  <span className="arsent__original"> دفترُ </span>
+                  <span className="arsent__translate">- тетерадь [определяемое]</span>
+                </div>
+                <div>
+                  <span className="arsent__original contrast"> طالبةٍ </span>
+                  <span className="arsent__translate">
+                    - (какой то) <span className="contrast"> студентки </span> [идафа при определяемом]
+                  </span>
+                </div>
+                <div>
+                  <span className="arsent__original contrast_2"> نظيفٌ </span>
+                  <span className="arsent__translate">
+                    - <span className="contrast_2"> чистая </span> [согласованное определение при определяемом]
+                  </span>
+                </div>
               </div>
 
-              <h3 className="title">Если же идафа в определенном состоянии, то и определяемое считается в определенном состоянии</h3>
+              <h4 className="title">Если же идафа в определенном состоянии, то и определяемое считается в определенном состоянии</h4>
 
               <div className="arsent">
                 <div className="arsent__original">
@@ -103,18 +114,29 @@ class SoglasovOpr extends React.Component {
                 </div>
               </div>
 
-              <div className="desc">
-                <span className="desc__ar"> مفتاحُ </span> - ключ [определяемое] <br />
-                <span className="contrast desc__ar"> البابِ </span> - <span className="contrast"> двери </span> [идафа при определяемом]
-                <br />
-                <span className=" contrast_2 desc__ar"> الكبيرِ </span> - <span className="contrast_2"> большой </span> [согласованное
-                определение при идафе]
+              <div className="arsent">
+                <div>
+                  <span className="arsent__original"> مفتاحُ </span>
+                  <span className="arsent__translate">- ключ [определяемое]</span>
+                </div>
+                <div>
+                  <span className="arsent__original contrast"> البابِ </span>
+                  <span className="arsent__translate">
+                    - <span className="contrast"> двери </span> [идафа при определяемом]
+                  </span>
+                </div>
+                <div>
+                  <span className="arsent__original contrast_2"> الكبيرِ </span>
+                  <span className="arsent__translate">
+                    - <span className="contrast_2"> большой </span> [согласованное определение при идафе]
+                  </span>
+                </div>
               </div>
 
-              <h3 className="title">
+              <h4 className="title">
                 В данном случае когда определение в идафе имеет собственную идафу, то само определение (второй идафы) пишется без танвина и
                 без определенного артикля, только лишь идафА идафЫ получает артикль
-              </h3>
+              </h4>
 
               <div className="arsent">
                 <div className="arsent__original">
@@ -129,11 +151,23 @@ class SoglasovOpr extends React.Component {
                 </div>
               </div>
 
-              <div className="desc">
-                <span className="desc__ar"> مفتاحُ </span> - ключ [определяемое] <br />
-                <span className="contrast desc__ar"> بابِ </span> - <span className="contrast"> двери </span> [идафа при определяемом]
-                <br />
-                <span className=" contrast_2 desc__ar"> البيتِ </span> - <span className="contrast_2"> дома </span> [идафа при идафе]
+              <div className="arsent">
+                <div>
+                  <span className="arsent__original"> مفتاحُ </span>
+                  <span className="arsent__translate">- ключ [определяемое]</span>
+                </div>
+                <div>
+                  <span className="arsent__original contrast"> بابِ </span>
+                  <span className="arsent__translate">
+                    - <span className="contrast"> двери </span> [идафа при определяемом]
+                  </span>
+                </div>
+                <div>
+                  <span className="arsent__original contrast_2"> البيتِ </span>
+                  <span className="arsent__translate">
+                    - <span className="contrast_2"> дома </span> [идафа при идафе]
+                  </span>
+                </div>
               </div>
             </div>
           </div>

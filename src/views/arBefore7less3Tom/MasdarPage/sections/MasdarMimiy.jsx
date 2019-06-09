@@ -21,31 +21,25 @@ export default function() {
       <h4 className="title"> От трёхбуквенного первообразного </h4>
 
       <div className="arsent">
-        <div className="arsent__original" dir="rtl">
-          <span className="contrast"> مَمات </span>
+        <div>
+          <span className="arsent__original contrast"> مَمات </span>
+          <span className="arsent__translate"> Смерть </span>
         </div>
-        <div className="arsent__translate">Смерть</div>
-      </div>
 
-      <div className="arsent">
-        <div className="arsent__original" dir="rtl">
-          <span className="contrast"> مَعْرِفَة </span>
+        <div>
+          <span className="arsent__original contrast"> مَعْرِفَة </span>
+          <span className="arsent__translate"> Познание </span>
         </div>
-        <div className="arsent__translate">Познание</div>
-      </div>
 
-      <div className="arsent">
-        <div className="arsent__original" dir="rtl">
-          <span className="contrast"> مَقْدِرَة </span>
+        <div>
+          <span className="arsent__original contrast"> مَقْدِرَة </span>
+          <span className="arsent__translate"> Возможности </span>
         </div>
-        <div className="arsent__translate">Возможности</div>
-      </div>
 
-      <div className="arsent">
-        <div className="arsent__original" dir="rtl">
-          <span className="contrast"> مَوْعِد </span>
+        <div>
+          <span className="arsent__original contrast"> مَوْعِد </span>
+          <span className="arsent__translate"> Обещание </span>
         </div>
-        <div className="arsent__translate">Обещание</div>
       </div>
 
       <h4 className="title"> Не от трёхбуквенного первообразного по модели اسم المفعول </h4>

@@ -35,7 +35,7 @@ class SomeIsm extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1>Некоторые имена</h1>
+              <h1 className="title">Некоторые имена</h1>
               <Ladayya />
               <Kam />
               <Iyyaka />

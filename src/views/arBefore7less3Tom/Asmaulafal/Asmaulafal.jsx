@@ -39,10 +39,10 @@ class Asmaulafal extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="title">اسْماءُ الافِعال</h1>
+              <h1 className="title h1ar">اسْماءُ الافِعال</h1>
 
               <div className="desc">
-                Не является глаголом, но смысл глагола, не склоняется во временах. Бывает некоторые существуют в одном времени, но не
+                <b>Не является глаголом, но смысл глагола</b>, не склоняется во временах. Бывает некоторые существуют в одном времени, но не
                 существуют в другом, т.е имя может существовать в повелительном но не существовать в прошедшем и т.п. Например
               </div>
 

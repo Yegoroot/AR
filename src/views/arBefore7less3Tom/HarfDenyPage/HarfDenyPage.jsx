@@ -37,9 +37,9 @@ class HarfDenyPage extends React.Component {
               <h1 className="title">Отрицательные частицы</h1>
               <div className="desc">
                 Частица
-                <span className="desc__ar contrast"> قَطُّ </span>- для прошедшего времени (не делал никогда до этого момента). В то время
-                как частица
-                <span className="contrast desc__ar"> أبدٌا </span>- для настоящего времени (никогда не делал и не буду делать)
+                <span className="desc__ar contrast"> قَطُّ </span>- для прошедшего времени ( <b> не делал никогда до этого момента </b> ). В
+                то время как частица
+                <span className="contrast desc__ar"> أبدٌا </span>- для настоящего времени ( <b> никогда не делал и не буду делать </b> )
               </div>
 
               <div className="arsent">

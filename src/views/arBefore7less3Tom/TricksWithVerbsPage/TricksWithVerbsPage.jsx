@@ -45,7 +45,7 @@ class TricksWithVerbsPage extends React.Component {
               <ConcOfCond />
               <h2 className="title">Два прямых дополнения</h2>
               <div className="desc">
-                Некоторые глаголы могут ставить в винительный падеж два прямых дополнения. Например глаголы
+                Некоторые глаголы могут <b> ставить в винительный падеж два прямых дополнения </b> . Например глаголы
                 <span className="desc__ar"> ظَنَّ</span>,<span className="desc__ar"> جَعَلَ </span>,<span className="desc__ar"> رَأى </span>
                 (если رَأى со смыслом "видел сердцем, знал")
               </div>

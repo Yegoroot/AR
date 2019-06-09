@@ -22,7 +22,7 @@ class IdafaPage extends React.Component {
       <div>
         <Header
           color="transparent"
-          brand="الإَضَافَةُ"
+          brand="الإضافة"
           isBrandAr
           rightLinks={<HeaderLinks />}
           fixed
@@ -38,22 +38,23 @@ class IdafaPage extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="title">Не согласованное определение</h1>
+              <h1 className="title">Несогласованное определение</h1>
 
               <div className="desc">
-                Термин "идафа", который означает буквально "присоединение", можно перевести на русский язык как "несогласованное
-                определение". Иногда этот термин переводят как "изафетная связка" например:
+                Термин <span className="desc__ar"> الإَضَافَةُ </span> "идафа", который означает буквально <b>"присоединение"</b>, можно
+                перевести на русский язык как
+                <b> "несогласованное определение" </b>. Иногда этот термин переводят как "изафетная связка" например:
               </div>
 
               <div className="arsent">
-                <div className="arsent__original">قلم تِلمِيذٍ</div>
+                <div className="arsent__original"> قلم تِلمِيذٍ </div>
                 <div className="arsent__translate">Карандаш ученика</div>
               </div>
 
               <h2 className="title"> Первая часть идафы </h2>
               <div className="desc">
-                Не принимает ни танвина ни определенного артикля т.е стоит в так называемом "сопряженном состоянии". В зависимости от
-                местоположения может быть в любом падеже
+                <b> Не принимает ни танвина ни определенного артикля </b> т.е стоит в так называемом "сопряженном состоянии". В зависимости
+                от местоположения может быть в любом падеже
               </div>
               <div className="arsent">
                 <div className="arsent__original">
@@ -75,8 +76,7 @@ class IdafaPage extends React.Component {
 
               <div className="desc">
                 Может стоять как в определенном состоянии так и в не определенном состоянии
-                <span className="contrast"> всегда пребывает в родительном падеже</span> и является владельцем (как бы владельцем) того, на
-                что указывает первая часть
+                <b> всегда пребывает в родительном падеже </b> и является владельцем (как бы владельцем) того, на что указывает первая часть
               </div>
 
               <div className="arsent">
@@ -92,7 +92,7 @@ class IdafaPage extends React.Component {
                 <div className="arsent__translate">Тетрадь (известного) студента</div>
               </div>
 
-              <h2 className="title">Притяжательное местоимение является второй частью идафы</h2>
+              <h3 className="title">Притяжательное местоимение является второй частью идафы</h3>
               <div className="arsent">
                 <div className="arsent__original">
                   <Word root="بيت" suffix="ه" /> <Word root="بيت" suffix="ها" /> <Word root="بيت" suffix="كم" />

@@ -30,8 +30,7 @@ class IsmaMaful extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="title">اسم المَفْول</h1>
-              <h2 className="title">Основная форма</h2>
+              <h1 className="title h1ar">اسم المَفْول</h1>
               <div className="desc">Лицо или предметы на которых падает действие. Например</div>
 
               <div className="arsent">
@@ -46,53 +45,63 @@ class IsmaMaful extends React.Component {
                 <span className="desc__ar"> كَتَبَ </span>, то есть это письмо, запись, это то что написано
               </div>
 
+              <h2 className="title"> Примеры </h2>
               <div className="arsent">
-                <div className="arsent__original" dir="rtl">
-                  <span className="contrast"> المَضْرُوب </span> (ضَرَبَ)
+                <div>
+                  <span className="arsent__original" dir="rtl">
+                    <span className="contrast"> المَضْرُوب </span>
+                    <span className="desc__ar"> (ضَرَبَ) </span>
+                  </span>
+                  <span className="arsent__translate"> &nbsp; Побитый &nbsp;</span>
                 </div>
-                <div className="arsent__translate">Побитый</div>
-              </div>
 
-              <div className="arsent">
-                <div className="arsent__original" dir="rtl">
-                  <span className="contrast"> المقْتُول </span> (قتل)
+                <div>
+                  <span className="arsent__original" dir="rtl">
+                    <span className="contrast"> المقْتُول </span>
+                    <span className="desc__ar"> (قتل) </span>
+                  </span>
+                  <span className="arsent__translate"> &nbsp; Убитый &nbsp;</span>
                 </div>
-                <div className="arsent__translate">Убитый</div>
-              </div>
 
-              <div className="arsent">
-                <div className="arsent__original" dir="rtl">
-                  <span className="contrast"> المجْهول </span> (جهل)
+                <div>
+                  <span className="arsent__original" dir="rtl">
+                    <span className="contrast"> المجْهول </span>
+                    <span className="desc__ar"> (جهل) </span>
+                  </span>
+                  <span className="arsent__translate"> &nbsp; Неизвестный &nbsp;</span>
                 </div>
-                <div className="arsent__translate">Неизвестный</div>
-              </div>
 
-              <div className="arsent">
-                <div className="arsent__original" dir="rtl">
-                  <span className="contrast"> المعلوم </span> (علم)
+                <div>
+                  <span className="arsent__original" dir="rtl">
+                    <span className="contrast"> المعلوم </span>
+                    <span className="desc__ar"> (علم) </span>
+                  </span>
+                  <span className="arsent__translate"> &nbsp; Известный &nbsp;</span>
                 </div>
-                <div className="arsent__translate">Известный</div>
-              </div>
 
-              <div className="arsent">
-                <div className="arsent__original" dir="rtl">
-                  <span className="contrast"> المسروق </span> (سرق)
+                <div>
+                  <span className="arsent__original" dir="rtl">
+                    <span className="contrast"> المسروق </span>
+                    <span className="desc__ar"> (سرق) </span>
+                  </span>
+                  <span className="arsent__translate"> &nbsp; Украденный &nbsp;</span>
                 </div>
-                <div className="arsent__translate">Украденный</div>
-              </div>
 
-              <div className="arsent">
-                <div className="arsent__original" dir="rtl">
-                  <span className="contrast"> المفتُوح </span> (فتح)
+                <div>
+                  <span className="arsent__original" dir="rtl">
+                    <span className="contrast"> المفتُوح </span>
+                    <span className="desc__ar"> (فتح) </span>
+                  </span>
+                  <span className="arsent__translate"> &nbsp; Открытый &nbsp;</span>
                 </div>
-                <div className="arsent__translate">Открытый</div>
-              </div>
 
-              <div className="arsent">
-                <div className="arsent__original" dir="rtl">
-                  <span className="contrast"> المَفْهُول </span> (فهِم)
+                <div>
+                  <span className="arsent__original" dir="rtl">
+                    <span className="contrast"> المَفْهُول </span>
+                    <span className="desc__ar"> (فهِم) </span>
+                  </span>
+                  <span className="arsent__translate"> &nbsp; Понятно, понятый &nbsp;</span>
                 </div>
-                <div className="arsent__translate">Понятно, понятый</div>
               </div>
 
               <h2 className="title">اسم المَفْول со слабой средней </h2>

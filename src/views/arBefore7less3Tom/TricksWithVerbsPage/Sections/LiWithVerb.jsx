@@ -1,7 +1,7 @@
-import React from "react";
-import withStyles from "@material-ui/core/styles/withStyles";
-import Word from "components/word";
-import arabicPage from "assets/jss/material-kit-react/views/arabicPage.jsx";
+import React from 'react'
+import withStyles from '@material-ui/core/styles/withStyles'
+import Word from 'components/word'
+import arabicPage from 'assets/jss/material-kit-react/views/arabicPage.jsx'
 
 class LiWithVerb extends React.Component {
   render() {
@@ -10,7 +10,7 @@ class LiWithVerb extends React.Component {
         <h2 className="title">Частица لِ с глаголами</h2>
 
         <div className="desc">
-          Отвечает на вопрос "Для чего?", "Почему?", "По какой причине?". И так же убирает
+          Отвечает на вопрос <b>"для чего?", "почему?", "по какой причине?"</b> . И так же убирает
           <span className="desc__ar"> ن </span>
         </div>
         <div className="arsent">
@@ -22,8 +22,8 @@ class LiWithVerb extends React.Component {
           </div>
         </div>
       </div>
-    );
+    )
   }
 }
 
-export default withStyles(arabicPage)(LiWithVerb);
+export default withStyles(arabicPage)(LiWithVerb)

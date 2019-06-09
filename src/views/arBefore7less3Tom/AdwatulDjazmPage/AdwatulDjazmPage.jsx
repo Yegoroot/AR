@@ -24,7 +24,7 @@ class AdwatulDjazmPage extends React.Component {
       <div>
         <Header
           color="transparent"
-          brand="أدْوَات الجَزْم"
+          brand="أدوات الجزم"
           isBrandAr
           rightLinks={<HeaderLinks />}
           fixed

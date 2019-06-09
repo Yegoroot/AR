@@ -78,8 +78,8 @@ function Ladayya() {
       <h2 className="h2ar title">لَدَى</h2>
 
       <div className="desc">
-        Приходит с тем же значением что и<span className="contrast desc__ar"> عِنْدَ </span>
-        (у, при; близ, около; во время; тогда; и т.д)
+        Приходит с тем же значением что и<span className="contrast desc__ar"> عِنْدَ </span>( <b>у, при; близ, около; во время; тогда;</b> и
+        т.д)
       </div>
       <PaperTense data={arr} />
     </>

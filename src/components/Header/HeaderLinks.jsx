@@ -34,7 +34,7 @@ function HeaderLinks({ ...props }) {
           buttonIcon={Apps}
           dropdownList={[
             <Link to="/idafa" className={classes.dropdownLink}>
-              Не согласованное определение
+              Несогласованное определение
             </Link>,
             <Link to="/soglasopr" className={classes.dropdownLink}>
               Согласованное определение
@@ -224,7 +224,7 @@ function HeaderLinks({ ...props }) {
               Собирательная частица
             </Link>,
             <Link to="/innawithsisters" className={classes.dropdownLink}>
-              Частица Inna и её сестры
+              Частица инна и её сестры
             </Link>,
             <Link to="/harfHal" style={{ fontSize: 20 }} className={classes.dropdownLink}>
               حرف هل

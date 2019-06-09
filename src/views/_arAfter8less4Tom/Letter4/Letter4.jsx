@@ -210,76 +210,78 @@ class Letter4 extends React.Component {
               <h2 className="title"> Мини словарь</h2>
 
               <div className="arsent">
-                <div className="arsent__original">تَرْجَمَ</div>
-                <div className="arsent__translate"> Первёл </div>
-              </div>
-              <div className="arsent">
-                <div className="arsent__original">بَعْثَرَ</div>
-                <div className="arsent__translate"> Расыпал, раскидал в разные стороны</div>
-              </div>
-              <div className="arsent">
-                <div className="arsent__original">هَرْوَلَ</div>
-                <div className="arsent__translate"> Бежал очень быстро (стремительно) </div>
-              </div>
-              <div className="arsent">
-                <div className="arsent__original">دَحْرَجَ</div>
-                <div className="arsent__translate"> Катил </div>
-              </div>
-              <div className="arsent">
-                <div className="arsent__original">فَرْقَعَ</div>
-                <div className="arsent__translate"> Взрывал, щёлкал </div>
-              </div>
-              <div className="arsent">
-                <div className="arsent__original">فَرْقَعَ</div>
-                <div className="arsent__translate"> Взрывал, щёлкал </div>
-              </div>
-              <div className="arsent">
-                <div className="arsent__original">زَلْزَلَ</div>
-                <div className="arsent__translate"> Тряс </div>
-              </div>
-              <div className="arsent">
-                <div className="arsent__original">وَسْوَسَ</div>
-                <div className="arsent__translate"> Наущал </div>
-              </div>
-              <div className="arsent">
-                <div className="arsent__original">وَسْوَسَ</div>
-                <div className="arsent__translate"> Наущал </div>
-              </div>
-              <div className="arsent">
-                <div className="arsent__original">قَهْقَهَ</div>
-                <div className="arsent__translate"> Хохотал </div>
-              </div>
-              <h3 className="title"> Производные 1 шаблона </h3>
-              <div className="arsent">
-                <div className="arsent__original">تَدَحْرَجَ</div>
-                <div className="arsent__translate"> Катился </div>
-              </div>
-              <div className="arsent">
-                <div className="arsent__original">تَدَحْرَجَ</div>
-                <div className="arsent__translate"> Катился </div>
-              </div>
-              <div className="arsent">
-                <div className="arsent__original">تَرَعْرَعَ</div>
-                <div className="arsent__translate"> Вырос </div>
-              </div>
-              <div className="arsent">
-                <div className="arsent__original">تَمَضْمَضَ</div>
-                <div className="arsent__translate"> Полоскал рот </div>
-              </div>
-              <div className="arsent">
-                <div className="arsent__original">اِشْمَأَزَّ</div>
-                <div className="arsent__translate"> Ненавидил </div>
-              </div>
-              <div className="arsent">
-                <div className="arsent__original">اِقْشَعَرَّ</div>
-                <div className="arsent__translate"> По коже бежали мурашки </div>
-              </div>
-              <div className="arsent">
-                <div className="arsent__original">
-                  <span className=""> اِفْرَنْقَعَ </span>
+                <div>
+                  <span className="arsent__original">تَرْجَمَ</span>
+                  <span className="arsent__translate"> Первёл </span>
                 </div>
-                <div className="arsent__translate"> Разлетался в стороны, разбегался</div>
+
+                <div>
+                  <span className="arsent__original">بَعْثَرَ</span>
+                  <span className="arsent__translate"> Расыпал, раскидал в разные стороны</span>
+                </div>
+                <div>
+                  <span className="arsent__original">هَرْوَلَ</span>
+                  <span className="arsent__translate"> Бежал очень быстро (стремительно) </span>
+                </div>
+                <div>
+                  <span className="arsent__original">دَحْرَجَ</span>
+                  <span className="arsent__translate"> Катил </span>
+                </div>
+                <div>
+                  <span className="arsent__original">فَرْقَعَ</span>
+                  <span className="arsent__translate"> Взрывал, щёлкал </span>
+                </div>
+                <div>
+                  <span className="arsent__original">فَرْقَعَ</span>
+                  <span className="arsent__translate"> Взрывал, щёлкал </span>
+                </div>
+                <div>
+                  <span className="arsent__original">زَلْزَلَ</span>
+                  <span className="arsent__translate"> Тряс </span>
+                </div>
+                <div>
+                  <span className="arsent__original">وَسْوَسَ</span>
+                  <span className="arsent__translate"> Наущал </span>
+                </div>
+                <div>
+                  <span className="arsent__original">وَسْوَسَ</span>
+                  <span className="arsent__translate"> Наущал </span>
+                </div>
+                <div>
+                  <span className="arsent__original">قَهْقَهَ</span>
+                  <span className="arsent__translate"> Хохотал </span>
+                </div>
               </div>
+
+              <h3 className="title"> Производные 1 шаблона </h3>
+
+              <div className="arsent">
+                <div>
+                  <span className="arsent__original">تَدَحْرَجَ</span>
+                  <span className="arsent__translate"> Катился </span>
+                </div>
+                <div>
+                  <span className="arsent__original">تَرَعْرَعَ</span>
+                  <span className="arsent__translate"> Вырос </span>
+                </div>
+                <div>
+                  <span className="arsent__original">تَمَضْمَضَ</span>
+                  <span className="arsent__translate"> Полоскал рот </span>
+                </div>
+                <div>
+                  <span className="arsent__original">اِشْمَأَزَّ</span>
+                  <span className="arsent__translate"> Ненавидил </span>
+                </div>
+                <div>
+                  <span className="arsent__original">اِقْشَعَرَّ</span>
+                  <span className="arsent__translate"> По коже бежали мурашки </span>
+                </div>
+                <div>
+                  <span className="arsent__original"> اِفْرَنْقَعَ </span>
+                  <span className="arsent__translate"> Разлетался в стороны, разбегался</span>
+                </div>
+              </div>
+
               {/* -------------------------------- */}
             </div>
           </div>

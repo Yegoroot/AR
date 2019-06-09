@@ -7,7 +7,9 @@ class Munthu extends React.Component {
     return (
       <div id="munzu">
         <h2 className="title h2ar">مُنْذُ</h2>
-        <div className="desc">Главные смыслы "тому назад", "до тех пор", "уже", "с (времени)"</div>
+        <div className="desc">
+          Главные смыслы <b>"тому назад", "до тех пор", "уже", "с (времени)"</b>
+        </div>
 
         <div className="arsent">
           <div className="arsent__original">

@@ -110,6 +110,51 @@ class Page extends React.Component {
                 </div>
                 <div className="arsent__translate">Не вышел из дома сегодня (по какой причине?) из за страха жары</div>
               </div>
+
+              <h2 className="h2ar title" dir="rtl">
+                المفعول مَعَهُ
+              </h2>
+              <div className="desc">
+                <b className="desc__ar"> المَفْعُولُ مَعَهُ </b> – это имя в винительном падеже, которое стоит после предлога
+                <b className="desc__ar"> وَ </b> и указывает на то, что <b> "сопутствует" </b> действующему лицу во время выполнения
+                действия. На русский язык المفعول معه следует переводить в соответствии с контекстом предложения.
+              </div>
+
+              <div className="arsent">
+                <div className="arsent__original">
+                  <span> سَارَ زَيْدٌ </span>
+                  <span className="contrast_2"> وَ </span>
+                  <span className="contrast"> النَّهْرَ </span>
+                </div>
+                <div className="arsent__translate">Зейд шёл и (рядом была) река</div>
+              </div>
+
+              <div className="arsent">
+                <div className="arsent__original">
+                  <span> سَافَرَ أَبِي </span>
+                  <span className="contrast_2"> وَ </span>
+                  <span className="contrast"> اللَّيْلَ </span>
+                </div>
+                <div className="arsent__translate">Мой отец уехал и (была) ночь</div>
+              </div>
+
+              <div className="arsent">
+                <div className="arsent__original">
+                  <span> رَجَعَ سَعِيدٌ </span>
+                  <span className="contrast_2"> وَ </span>
+                  <span className="contrast"> الشَّمْسَ </span>
+                </div>
+                <div className="arsent__translate">Вернулся Саид и (светило) солнцеь</div>
+              </div>
+
+              <div className="desc">
+                То есть река, ночь и солнце как бы <b>"сопутствовали"</b> действующему лицу во время выполнения действия.
+              </div>
+              <div className="desc">
+                Предлог <b className="desc__ar">وَ</b>, носящий смысл <b className="desc__ar"> مَعَ </b> "с, вместе" и предшествующий
+                <b className="desc__ar"> المفعول معه </b>, в арабской терминологии называют <b className="desc__ar"> واوُ المعيّة </b>
+                (вав сопутствия).
+              </div>
             </div>
           </div>
         </div>
