@@ -16,7 +16,6 @@ import Parallax from 'components/Parallax/Parallax.jsx'
 // import Word from 'components/word'
 
 import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
-import { spawn } from '@redux-saga/core/effects'
 
 class AbjectDegrees extends React.Component {
   render() {
@@ -106,11 +105,11 @@ class AbjectDegrees extends React.Component {
                   <span className="arsent__translate"> (Пациенты) </span>
                 </div>
                 <div>
-                  <spawn className="arsent__original"> دُنْيا </spawn>
+                  <span className="arsent__original"> دُنْيا </span>
                   <span className="arsent__translate"> (Дунья) </span>
                 </div>
                 <div>
-                  <spawn className="arsent__original"> عُلَمَاءُ </spawn>
+                  <span className="arsent__original"> عُلَمَاءُ </span>
                   <span className="arsent__translate"> (Ученые) </span>
                 </div>
               </div>
@@ -130,23 +129,23 @@ class AbjectDegrees extends React.Component {
               </div>
               <div className="arsent">
                 <div>
-                  <spawn className="arsent__original"> زَيْنَبُ </spawn>
+                  <span className="arsent__original"> زَيْنَبُ </span>
                   <span className="arsent__translate"> (жен) </span>
                 </div>
                 <div>
-                  <spawn className="arsent__original"> فَاطِمَةُ </spawn>
+                  <span className="arsent__original"> فَاطِمَةُ </span>
                   <span className="arsent__translate"> (жен) </span>
                 </div>
                 <div>
-                  <spawn className="arsent__original"> هِنْدٌ </spawn>
+                  <span className="arsent__original"> هِنْدٌ </span>
                   <span className="arsent__translate"> (жен) </span>
                 </div>
                 <div>
-                  <spawn className="arsent__original"> حَمْزَةُ </spawn>
+                  <span className="arsent__original"> حَمْزَةُ </span>
                   <span className="arsent__translate"> (муж) </span>
                 </div>
                 <div>
-                  <spawn className="arsent__original"> طَلْحَةُ </spawn>
+                  <span className="arsent__original"> طَلْحَةُ </span>
                   <span className="arsent__translate"> (муж) </span>
                 </div>
               </div>
@@ -158,19 +157,19 @@ class AbjectDegrees extends React.Component {
               </div>
               <div className="arsent">
                 <div>
-                  <spawn className="arsent__original"> إِبْرَاهِيمُ </spawn>
+                  <span className="arsent__original"> إِبْرَاهِيمُ </span>
                   <span className="arsent__translate"> (Ибрахим) </span>
                 </div>
                 <div>
-                  <spawn className="arsent__original"> وَاشِنْطُونُ </spawn>
+                  <span className="arsent__original"> وَاشِنْطُونُ </span>
                   <span className="arsent__translate"> (Вашингтон) </span>
                 </div>
                 <div>
-                  <spawn className="arsent__original"> لُوطٌ </spawn>
+                  <span className="arsent__original"> لُوطٌ </span>
                   <span className="arsent__translate"> (Лют) </span>
                 </div>
                 <div>
-                  <spawn className="arsent__original"> نِيسُ </spawn>
+                  <span className="arsent__original"> نِيسُ </span>
                   <span className="arsent__translate"> (город во Франции) </span>
                 </div>
               </div>
@@ -181,7 +180,7 @@ class AbjectDegrees extends React.Component {
               </div>
               <div className="arsent">
                 <div>
-                  <spawn className="arsent__original"> عُمَرُ </spawn>
+                  <span className="arsent__original"> عُمَرُ </span>
                   <span className="arsent__translate"> (Умар) </span>
                 </div>
               </div>
@@ -190,15 +189,15 @@ class AbjectDegrees extends React.Component {
               <div className="desc">(А у прилагательных в этой модели فَعْلانُ женский род образуется по модели فَعْلَى )</div>
               <div className="arsent">
                 <div>
-                  <spawn className="arsent__original"> كَسْلانُ </spawn>
+                  <span className="arsent__original"> كَسْلانُ </span>
                   <span className="arsent__translate"> (Ленивый) </span>
                 </div>
                 <div>
-                  <spawn className="arsent__original"> عِمْرَانَ </spawn>
+                  <span className="arsent__original"> عِمْرَانَ </span>
                   <span className="arsent__translate"> (Имран) </span>
                 </div>
                 <div>
-                  <spawn className="arsent__original"> رَمَضَانُ </spawn>
+                  <span className="arsent__original"> رَمَضَانُ </span>
                   <span className="arsent__translate"> (Рамадан) </span>
                 </div>
               </div>
@@ -207,15 +206,15 @@ class AbjectDegrees extends React.Component {
 
               <div className="arsent">
                 <div>
-                  <spawn className="arsent__original"> أَحْمَدُ </spawn>
+                  <span className="arsent__original"> أَحْمَدُ </span>
                   <span className="arsent__translate"> (Ахмад "я восхваляю") </span>
                 </div>
                 <div>
-                  <spawn className="arsent__original"> يَزِيدُ </spawn>
+                  <span className="arsent__original"> يَزِيدُ </span>
                   <span className="arsent__translate"> (Язид "он увеличивается") </span>
                 </div>
                 <div>
-                  <spawn className="arsent__original"> يَشْكُرُ </spawn>
+                  <span className="arsent__original"> يَشْكُرُ </span>
                   <span className="arsent__translate"> (Яшкур "он благодарит") </span>
                 </div>
               </div>
@@ -224,11 +223,11 @@ class AbjectDegrees extends React.Component {
               <div className="desc">Слова состоящие из двух слов, как в русском "самовар", "паравоз"</div>
               <div className="arsent">
                 <div>
-                  <spawn className="arsent__original"> حَضْرَمَوتُ </spawn>
+                  <span className="arsent__original"> حَضْرَمَوتُ </span>
                   <span className="arsent__translate"> () </span>
                 </div>
                 <div>
-                  <spawn className="arsent__original"> مَعْدَكَرِبُ </spawn>
+                  <span className="arsent__original"> مَعْدَكَرِبُ </span>
                   <span className="arsent__translate"> () </span>
                 </div>
               </div>
