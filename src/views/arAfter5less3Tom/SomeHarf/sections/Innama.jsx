@@ -7,7 +7,7 @@ export default function() {
       <div className="desc">
         Предлог винительного падежа <span className="desc__ar"> إِنَّ </span> к нему прибавлена &nbsp;
         <span className="desc__ar" dir="rtl">
-          ما الزَائِدة (ما الكَافَّةَ)
+          ما الزَائِدة
         </span>
         &nbsp; и эта <span className="desc__ar"> ما </span> останавливает действие предлога <span className="desc__ar"> إِنَّ </span>.
         Смысл:

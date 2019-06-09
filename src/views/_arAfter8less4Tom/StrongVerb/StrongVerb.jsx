@@ -198,9 +198,8 @@ class Page extends React.Component {
 
               <h2 className="title">Усиление близко к обязательному</h2>
               <div className="desc" dir="rtl">
-                Усиление становится близким к обязательному, если глагол настоящего времени приходит перед Имма-Условия которая состоит из
-                двух частей это Ин и Ма <br />(<b className="desc contrast_2">إمَّا</b>) <span className="desc"> الشَّرْطِيَّة </span> =
-                <span className="desc"> وهي إِنْ أُكِّدَتْ + ما الزائدة </span>
+                Усиление становится близким к обязательному, если глагол настоящего времени приходит перед Имма-Условия <br />(
+                <b className="desc contrast_2">إمَّا</b>) <span className="desc"> الشَّرْطِيَّة </span>
               </div>
               <div className="arsent">
                 <div className="arsent__original">
