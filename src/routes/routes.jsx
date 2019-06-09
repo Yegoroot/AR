@@ -73,6 +73,7 @@ import Additional from 'views/_arAfter8less4Tom/Additional/Additional'
 import AdditionalProperty from 'views/_arAfter8less4Tom/Additional/AdditionalProperty'
 import Surprise from 'views/_arAfter8less4Tom/Surprise/Surprise'
 import AdditionalAbsolut from 'views/_arAfter8less4Tom/Additional/AdditionalAbsolut'
+import TwoCase from 'views/_arAfter8less4Tom/TwoCase/TwoCase'
 
 var indexRoutes = [
   /** after 8 less 4tom
@@ -105,6 +106,7 @@ var indexRoutes = [
    */
   /** after 5 less 3tom*/
   { path: '/ismulmakanwazaman', name: 'IsmulMakanWaZamanPage', component: IsmulMakanWaZamanPage },
+  { path: '/twocase', name: 'TwoCase', component: TwoCase },
   { path: '/ismaalati', name: 'IsmaAlatiPage', component: IsmaAlatiPage },
   { path: '/puraldual', name: 'PuralDualPage', component: PuralDualPage },
   { path: '/almafulufihi', name: 'AlMafuluFihi', component: AlMafuluFihi },

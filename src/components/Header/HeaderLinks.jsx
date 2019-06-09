@@ -178,6 +178,9 @@ function HeaderLinks({ ...props }) {
             <Link to="/ism5" className={classes.dropdownLink}>
               Спряжение 5 имён
             </Link>,
+            <Link to="/twocase" className={classes.dropdownLink}>
+              Двухпадежность имён
+            </Link>,
             <Link to="/someism" className={classes.dropdownLink}>
               Некоторые имена
             </Link>
