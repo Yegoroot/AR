@@ -40,7 +40,7 @@ class AdwatulDjazmPage extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="title h1ar">لمْ, لَمّا, لا, لامْ الأمر 🌴</h1>
+              <h1 className="title h1ar">أدوات الجزم 🌴</h1>
 
               <h2 className="title h2ar">لَمْ ✍️ </h2>
               <div className="desc">

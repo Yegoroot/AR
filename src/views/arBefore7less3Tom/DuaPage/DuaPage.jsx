@@ -38,7 +38,7 @@ class DuaPage extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className={classes.title}>الدُّعاء 🤲</h1>
+              <h1 className={classes.title}>الدُّعاء 🌴</h1>
 
               <p className="desc">
                 Дуа (мольба) в арабском языке с точки зрения грамматики стоит в прошедшем времени, например
