@@ -34,7 +34,7 @@ class Page extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="title">Выражение исключения 📌</h1>
+              <h1 className="title">Выражение исключения 🌴</h1>
               <div className="desc">
                 Имеется восемь частиц исключения со смыслом <b>кроме, исключая</b>.<span className="desc__ar"> إِلَّا </span>(частица),
                 <span className="desc__ar"> غَيْرُ سِوَى سُوَى سَوَاءٌ خَلَا عَدَا حَاشَا </span> (имена)

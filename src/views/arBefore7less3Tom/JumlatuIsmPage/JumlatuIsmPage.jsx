@@ -37,7 +37,7 @@ class JumlatuIsmPage extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="title">Именное предложение 🌴</h1>
+              <h1 className="title h2ar">جملة الاسميّة 🌴</h1>
 
               <p className="desc">
                 Именное предложение <span className="desc__ar"> (جملة الاِسمِيّة) </span> – это предложение, которое
