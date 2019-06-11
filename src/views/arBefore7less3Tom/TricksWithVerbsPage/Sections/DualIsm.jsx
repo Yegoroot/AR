@@ -1,13 +1,13 @@
-import React from "react";
-import withStyles from "@material-ui/core/styles/withStyles";
-import arabicPage from "assets/jss/material-kit-react/views/arabicPage.jsx";
+import React from 'react'
+import withStyles from '@material-ui/core/styles/withStyles'
+import arabicPage from 'assets/jss/material-kit-react/views/arabicPage.jsx'
 
-import Word from "components/word";
+import Word from 'components/word'
 class DualIsm extends React.Component {
   render() {
     return (
       <div id="dual">
-        <h2 className="title">Глаголы для двойственных чисел</h2>
+        <h2 className="title">Глаголы для двойственных чисел ✍️ </h2>
 
         <div className="items">
           <div className="item">
@@ -46,8 +46,8 @@ class DualIsm extends React.Component {
           </div>
         </div>
       </div>
-    );
+    )
   }
 }
 
-export default withStyles(arabicPage)(DualIsm);
+export default withStyles(arabicPage)(DualIsm)

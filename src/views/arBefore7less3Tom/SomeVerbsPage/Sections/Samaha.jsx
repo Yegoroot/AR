@@ -8,7 +8,7 @@ class Samaha extends React.Component {
   render() {
     return (
       <div id="samaha">
-        <h2 className="title h2ar">سَمَحَ</h2>
+        <h2 className="title h2ar">سَمَحَ ✍️ </h2>
 
         <div className="desc">
           Это фразовый глагол, который требует два условия: Первое <b> тот кто разрешает</b>, второе <b> что разрешают</b>, и то что

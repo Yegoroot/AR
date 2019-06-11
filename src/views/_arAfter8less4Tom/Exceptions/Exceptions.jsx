@@ -34,13 +34,13 @@ class Page extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="title">Выражение исключения</h1>
+              <h1 className="title">Выражение исключения 📌</h1>
               <div className="desc">
                 Имеется восемь частиц исключения со смыслом <b>кроме, исключая</b>.<span className="desc__ar"> إِلَّا </span>(частица),
                 <span className="desc__ar"> غَيْرُ سِوَى سُوَى سَوَاءٌ خَلَا عَدَا حَاشَا </span> (имена)
               </div>
 
-              <h2 className="title"> Полное утвердительное предложение </h2>
+              <h2 className="title"> Полное утвердительное предложение ✍️ </h2>
               <div className="desc">
                 Если предложение утвердительное, то исключаемое имя после частицы <span className="desc__ar"> إِلَّا </span> обязательно
                 ставится в винительный падеж,
@@ -66,7 +66,7 @@ class Page extends React.Component {
                 <div className="arsent__translate">Люди вышли, исключая Амра</div>
               </div>
 
-              <h2 className="title"> Полное отрицательное предложение </h2>
+              <h2 className="title"> Полное отрицательное предложение ✍️ </h2>
               <div className="desc">
                 В отрицательном предложениях или вопросительных <b>исключаемое слово либо согласуется</b> с тем понятием, из которого оно
                 исключается, <b>либо ставится в винительный падеж</b>
@@ -84,79 +84,79 @@ class Page extends React.Component {
                   <span className="contrast">ٌ</span>
                 </div>
                 <div className="arsent__translate"> Не прибыл из студентов никто, кроме Хамида </div>
-                <div className="arsent">
-                  <div className="arsent__original">
-                    <span className="contrast_2"> لا </span>
-                    <span>تَتَّصِلْ بأحد</span>
-                    <span className="contrast">ٍ</span>
-                    <span className="contrast_2"> إِلَّا </span>
-                    <span>حامِدا</span>
-                    <span className="contrast">ً</span>
-                    <span> / </span>
-                    <span>حامِد</span>
-                    <span className="contrast">ٍ</span>
-                  </div>
-                  <div className="arsent__translate"> Не звоните никому, кроме Хамида </div>
+              </div>
+              <div className="arsent">
+                <div className="arsent__original">
+                  <span className="contrast_2"> لا </span>
+                  <span>تَتَّصِلْ بأحد</span>
+                  <span className="contrast">ٍ</span>
+                  <span className="contrast_2"> إِلَّا </span>
+                  <span>حامِدا</span>
+                  <span className="contrast">ً</span>
+                  <span> / </span>
+                  <span>حامِد</span>
+                  <span className="contrast">ٍ</span>
                 </div>
+                <div className="arsent__translate"> Не звоните никому, кроме Хамида </div>
+              </div>
 
-                <h2 className="title"> Неполное отрицательное предложение </h2>
-                <div className="desc">
-                  Если (отрицательное) предложение неполное (то есть, не указано то, из чего исключают), то исключаемое ставится в тот
-                  падеж, в котором оно бы стояло бы без частицы <span className="desc__ar"> إِلَّا </span>
+              <h2 className="title"> Неполное отрицательное предложение ✍️ </h2>
+              <div className="desc">
+                Если (отрицательное) предложение неполное (то есть, не указано то, из чего исключают), то исключаемое ставится в тот падеж,
+                в котором оно бы стояло бы без частицы <span className="desc__ar"> إِلَّا </span>
+              </div>
+              <div className="arsent">
+                <div className="arsent__original">
+                  <span className="contrast_2"> مَا </span>
+                  <span> قَامَ </span>
+                  <span className="contrast_2"> إِلَّا </span>
+                  <span>زَيْد</span>
+                  <span className="contrast">ٌ</span>
                 </div>
-                <div className="arsent">
-                  <div className="arsent__original">
-                    <span className="contrast_2"> مَا </span>
-                    <span> قَامَ </span>
-                    <span className="contrast_2"> إِلَّا </span>
-                    <span>زَيْد</span>
-                    <span className="contrast">ٌ</span>
-                  </div>
-                  <div className="arsent__translate"> Никто, кроме Зейда, не встал </div>
+                <div className="arsent__translate"> Никто, кроме Зейда, не встал </div>
+              </div>
+              <div className="arsent">
+                <div className="arsent__original">
+                  <span className="contrast_2"> مَا </span>
+                  <span> ضَرَبْتُ </span>
+                  <span className="contrast_2"> إِلَّا </span>
+                  <span>زَيْدا</span>
+                  <span className="contrast">ً</span>
                 </div>
-                <div className="arsent">
-                  <div className="arsent__original">
-                    <span className="contrast_2"> مَا </span>
-                    <span> ضَرَبْتُ </span>
-                    <span className="contrast_2"> إِلَّا </span>
-                    <span>زَيْدا</span>
-                    <span className="contrast">ً</span>
-                  </div>
-                  <div className="arsent__translate"> Никого, кроме Зейда, я не побил </div>
+                <div className="arsent__translate"> Никого, кроме Зейда, я не побил </div>
+              </div>
+              <div className="arsent">
+                <div className="arsent__original">
+                  <span className="contrast_2"> مَا </span>
+                  <span> مَرَرْتُ </span>
+                  <span className="contrast_2"> إِلَّا </span>
+                  <span>بِزَيْد</span>
+                  <span className="contrast">ٍ</span>
                 </div>
-                <div className="arsent">
-                  <div className="arsent__original">
-                    <span className="contrast_2"> مَا </span>
-                    <span> مَرَرْتُ </span>
-                    <span className="contrast_2"> إِلَّا </span>
-                    <span>بِزَيْد</span>
-                    <span className="contrast">ٍ</span>
-                  </div>
-                  <div className="arsent__translate"> Я прошёл рядом, только с Зейдом </div>
-                </div>
+                <div className="arsent__translate"> Я прошёл рядом, только с Зейдом </div>
+              </div>
 
-                <h2 className="title"> Слова исключения, кроме إِلَّا </h2>
-                <div className="desc">
-                  После слов: <span className="desc__ar"> غَيْر, سِوَى, سُوَى, سَوَاء </span> исключаемое ставится в родительный падеж, так
-                  как они являются именами, с которыми исключаемое имя <b> образует несогласованное определение </b> (идафу).
-                </div>
+              <h2 className="title"> Слова исключения, кроме إِلَّا ✍️ </h2>
+              <div className="desc">
+                После слов: <span className="desc__ar"> غَيْر, سِوَى, سُوَى, سَوَاء </span> исключаемое ставится в родительный падеж, так
+                как они являются именами, с которыми исключаемое имя <b> образует несогласованное определение </b> (идафу).
+              </div>
 
-                <div className="desc">
-                  После слов: <span className="desc__ar"> خَلَا, عَدَا, حَاشَا </span> исключаемое имя можно поставить как в винительный
-                  падеж, так и в родительный
+              <div className="desc">
+                После слов: <span className="desc__ar"> خَلَا, عَدَا, حَاشَا </span> исключаемое имя можно поставить как в винительный
+                падеж, так и в родительный
+              </div>
+              <div className="arsent">
+                <div className="arsent__original">
+                  <span> قَامَ اَلْقَوْمُ </span>
+                  <span className="contrast_2"> خَلَا </span>
+                  <span>زَيْدا</span>
+                  <span className="contrast">ً</span>
+                  <span className="contrast"> / </span>
+                  <span>وَزَيْد</span>
+                  <span className="contrast">ٍ</span>
                 </div>
-                <div className="arsent">
-                  <div className="arsent__original">
-                    <span> قَامَ اَلْقَوْمُ </span>
-                    <span className="contrast_2"> خَلَا </span>
-                    <span>زَيْدا</span>
-                    <span className="contrast">ً</span>
-                    <span className="contrast"> / </span>
-                    <span>وَزَيْد</span>
-                    <span className="contrast">ٍ</span>
-                  </div>
-                  <div className="arsent__translate"> Все встали, кроме Зейда </div>
-                </div>
+                <div className="arsent__translate"> Все встали, кроме Зейда </div>
               </div>
             </div>
           </div>

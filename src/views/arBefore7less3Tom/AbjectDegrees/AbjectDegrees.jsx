@@ -41,12 +41,12 @@ class AbjectDegrees extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="title">Превосходная и сравнительная степень</h1>
+              <h1 className="title">Превосходная и сравнительная степень 🌴</h1>
 
               <div className="desc">
                 Прилагательные можно разделить на три группы <b>сравнительные</b>, <b>превосходные</b> и обыкновенные
               </div>
-              <h2 className="title">Сравнительная степень أفْعَل مِنْهُ</h2>
+              <h2 className="title">Сравнительная степень أفْعَل مِنْهُ ✍️ </h2>
 
               <div className="arsent">
                 <div className="arsent__original">
@@ -58,7 +58,7 @@ class AbjectDegrees extends React.Component {
                 </div>
               </div>
 
-              <h2 className="title">Превосходная степень</h2>
+              <h2 className="title">Превосходная степень ✍️ </h2>
               <div className="desc">"Один из сАмых". Изофетная связка</div>
               <div className="arsent">
                 <div className="arsent__original">

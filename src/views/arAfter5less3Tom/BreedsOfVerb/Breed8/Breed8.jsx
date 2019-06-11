@@ -31,7 +31,7 @@ class Breed8 extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="h1ar">(VIII) اِفْتَعَلَ</h1>
+              <h1 className="h1ar">(VIII) اِفْتَعَلَ 🌴</h1>
 
               <div className="desc">
                 Добавлен алиф <span className="desc__ar"> ا </span> перед первой буквой и <span className="desc__ar"> ت </span>
@@ -105,10 +105,10 @@ class Breed8 extends React.Component {
                 </div>
               </div>
 
-              <h2 className="title"> Шаблоны </h2>
+              <h2 className="title"> Шаблоны ✍️ </h2>
               <div className="items items_islabel">
                 <div className="item">
-                  <h2 className="h2ar ">اِفْتَعَلَ</h2>
+                  <h2 className="h2ar ">اِفْتَعَلَ </h2>
                   <span className="item__label">الماضي</span>
                   <div className="arsent">
                     <div className="arsent__original contrast">اِنْتَظَر</div>
@@ -117,7 +117,7 @@ class Breed8 extends React.Component {
                 </div>
 
                 <div className="item">
-                  <h2 className="h2ar ">يَفْتَعِلُ</h2>
+                  <h2 className="h2ar ">يَفْتَعِلُ </h2>
                   <span className="item__label">المُضارِع</span>
                   <div className="arsent">
                     <div className="arsent__original contrast">يَنْتَظِرُ</div>
@@ -126,7 +126,7 @@ class Breed8 extends React.Component {
                 </div>
 
                 <div className="item">
-                  <h2 className="h2ar ">اِفْتَعِلْ</h2>
+                  <h2 className="h2ar ">اِفْتَعِلْ </h2>
                   <span className="item__label">الأمر</span>
                   <div className="arsent">
                     <div className="arsent__original">
@@ -137,7 +137,7 @@ class Breed8 extends React.Component {
                 </div>
 
                 <div className="item">
-                  <h2 className="h2ar ">مُفْتَعِلٌ</h2>
+                  <h2 className="h2ar ">مُفْتَعِلٌ </h2>
                   <span className="item__label"> اسم الفَاعِل </span>
                   <div className="arsent">
                     <div className="arsent__original">
@@ -148,7 +148,7 @@ class Breed8 extends React.Component {
                 </div>
 
                 <div className="item">
-                  <h2 className="h2ar ">اِفْتِعَالٌ</h2>
+                  <h2 className="h2ar ">اِفْتِعَالٌ </h2>
                   <span className="item__label">المصدر</span>
                   <div className="arsent">
                     <div className="arsent__original">
@@ -159,7 +159,7 @@ class Breed8 extends React.Component {
                 </div>
               </div>
 
-              <h2 className="title"> Примеры</h2>
+              <h2 className="title"> Примеры ✍️ </h2>
 
               <div className="arsent">
                 <div className="arsent__original">

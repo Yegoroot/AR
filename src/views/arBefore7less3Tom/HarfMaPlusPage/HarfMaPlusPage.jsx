@@ -39,7 +39,7 @@ class HarfMaPlusPage extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="title h1ar">حرف ما</h1>
+              <h1 className="title h1ar">حرف ما 🌴</h1>
               <MainAboutMa />
               <MaAttama />
               <MaThorf />

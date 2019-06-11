@@ -3,7 +3,7 @@ import React from 'react'
 export default function() {
   return (
     <>
-      <h2 className="h2ar title">قَدْ</h2>
+      <h2 className="h2ar title">قَدْ ✍️ </h2>
       <div className="desc">
         Если приходит перед глаголом настоящего времени то означает:
         <b> изредко, иногда (неуверенность, уменьшение)</b>. Если перед глаголом прошедшего времени, то совершённость (усиление, то что оно

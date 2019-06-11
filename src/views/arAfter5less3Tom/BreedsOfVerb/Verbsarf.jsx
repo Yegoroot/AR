@@ -33,7 +33,7 @@ class Intr extends React.Component {
           <img src={verbsarf} style={{ width: '100%' }} alt="Схема глаголов" />
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="title">Сарф глаголов</h1>
+              <h1 className="title">Сарф глаголов 🌴</h1>
 
               <div className="desc">
                 В арабскоя языке есть <b>трёхбуквенные</b> глаголы и <b>четырёхбуквенные</b> (некоторые ученые утверждают что 81% приходится
@@ -54,7 +54,7 @@ class Intr extends React.Component {
                 или <b> состояния </b>.
               </div>
 
-              <h2 className="title"> Трехбуквенные </h2>
+              <h2 className="title"> Трехбуквенные ✍️ </h2>
               <h3 className="title"> Первообразный </h3>
 
               <div className="arsent">
@@ -138,7 +138,7 @@ class Intr extends React.Component {
                 </div>
               </AnimateCard>
 
-              <h2 className="title"> Четырёхбуквенные </h2>
+              <h2 className="title"> Четырёхбуквенные ✍️ </h2>
               <div className="desc">Смотрите раздел "Четырёхбуквенный глагол"</div>
 
               {/* -------------------------------- */}

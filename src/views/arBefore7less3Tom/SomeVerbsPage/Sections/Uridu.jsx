@@ -6,7 +6,7 @@ class Uridu extends React.Component {
   render() {
     return (
       <div id="uridu">
-        <h2 className="title h2ar"> أراد - يُريدُ </h2>
+        <h2 className="title h2ar"> أراد - يُريدُ ✍️ </h2>
         <Pills data={arada} />
       </div>
     )

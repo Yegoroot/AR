@@ -4,7 +4,7 @@ import Word from 'components/word'
 export default function() {
   return (
     <>
-      <h2 className="title h2ar"> أَمْسَى </h2>
+      <h2 className="title h2ar"> أَمْسَى ✍️ </h2>
       <div className="desc">
         Глагол <span className="desc__ar"> أَمْسَى </span> относится к сестрам <span className="desc__ar"> كان </span>
       </div>

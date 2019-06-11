@@ -3,7 +3,7 @@ import React from 'react'
 function LyaNafia() {
   return (
     <>
-      <h2 className="title h2ar">لا النافية</h2>
+      <h2 className="title h2ar">لا النافية ✍️ </h2>
 
       <div className="desc">Частица абсолютного отрицания</div>
 

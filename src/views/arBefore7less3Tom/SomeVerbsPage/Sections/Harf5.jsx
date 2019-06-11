@@ -6,7 +6,7 @@ class Harf5 extends React.Component {
   render() {
     return (
       <div id="uridu">
-        <h2 className="title h2ar">اِشترَى - يَشتَري</h2>
+        <h2 className="title h2ar">اِشترَى - يَشتَري ✍️ </h2>
         <Pills data={data} />
       </div>
     )

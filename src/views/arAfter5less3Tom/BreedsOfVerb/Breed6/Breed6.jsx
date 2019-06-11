@@ -31,7 +31,7 @@ class Breed6 extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="h1ar">(VI) تَفَاعَلَ</h1>
+              <h1 className="h1ar">(VI) تَفَاعَلَ 🌴</h1>
 
               <div className="desc">
                 Его основные значения - <b> взаимность действия </b>; <b> взаимное чередование </b>; Так же имеет значение
@@ -42,7 +42,7 @@ class Breed6 extends React.Component {
 
               <div className="items items_islabel">
                 <div className="item">
-                  <h2 className="h2ar ">تَفَاعَلَ</h2>
+                  <h2 className="h2ar ">تَفَاعَلَ </h2>
                   <span className="item__label">الماضي</span>
                   <div className="arsent">
                     <div className="arsent__original contrast">تَعَاوَنَ</div>
@@ -55,7 +55,7 @@ class Breed6 extends React.Component {
                 </div>
 
                 <div className="item">
-                  <h2 className="h2ar ">يَتَفَاعَلُ</h2>
+                  <h2 className="h2ar ">يَتَفَاعَلُ </h2>
                   <span className="item__label">المُضارِع</span>
                   <div className="arsent">
                     <div className="arsent__original contrast">يَتَعَاوَنُ</div>
@@ -68,7 +68,7 @@ class Breed6 extends React.Component {
                 </div>
 
                 <div className="item">
-                  <h2 className="h2ar ">تَفَاعَلْ</h2>
+                  <h2 className="h2ar ">تَفَاعَلْ </h2>
                   <span className="item__label">الأمر</span>
                   <div className="arsent">
                     <div className="arsent__original contrast">تَعَاوَنْ</div>
@@ -81,7 +81,7 @@ class Breed6 extends React.Component {
                 </div>
 
                 <div className="item">
-                  <h2 className="h2ar ">تَفَاعُلٌ</h2>
+                  <h2 className="h2ar ">تَفَاعُلٌ </h2>
                   <span className="item__label">المصدر</span>
                   <div className="arsent">
                     <div className="arsent__original contrast">تَعَاوُنُ</div>
@@ -94,21 +94,16 @@ class Breed6 extends React.Component {
                 </div>
 
                 <div className="item">
-                  <h2 className="h2ar ">مُتَفَاعِلٌ</h2>
+                  <h2 className="h2ar ">مُتَفَاعِلٌ </h2>
                   <span className="item__label"> اسم الفَاعِل </span>
                   <div className="arsent">
                     <div className="arsent__original contrast">مُتَفَائِلٌ</div>
                     <div className="arsent__translate">Оптимист</div>
                   </div>
                 </div>
-
-                <div className="item">
-                  <h2 className="h2ar ">مُتَفَاعَلٌ</h2>
-                  <span className="item__label"> اسم المَفْعُول </span>
-                </div>
               </div>
 
-              <h2 className="title"> Примеры</h2>
+              <h2 className="title"> Примеры ✍️ </h2>
 
               <div className="arsent">
                 <div className="arsent__original">

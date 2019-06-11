@@ -39,7 +39,7 @@ class HarfManAzzoidatuPage extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="title h1ar">مِن الزّائِدَة</h1>
+              <h1 className="title h1ar">مِن الزّائِدَة 🌴</h1>
 
               <div className="desc">
                 Эта частица <b>усиливает мысль</b> в предложении, часто используется в Коране, одна из частиц показывающих его описательную

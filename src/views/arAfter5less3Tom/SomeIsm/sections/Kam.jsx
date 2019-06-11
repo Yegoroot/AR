@@ -4,7 +4,7 @@ import Word from 'components/word'
 function Kam() {
   return (
     <>
-      <h2 className="h2ar title">كَمْ</h2>
+      <h2 className="h2ar title">كَمْ ✍️ </h2>
       <div className="desc">
         Приходит как вопрос и как восклицание. <br />
         <br />

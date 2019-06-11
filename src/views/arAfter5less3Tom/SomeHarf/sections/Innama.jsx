@@ -3,7 +3,7 @@ import React from 'react'
 export default function() {
   return (
     <>
-      <h2 className="h2ar title">إِنَّما</h2>
+      <h2 className="h2ar title">إِنَّما ✍️ </h2>
       <div className="desc">
         Предлог винительного падежа <span className="desc__ar"> إِنَّ </span> к нему прибавлена &nbsp;
         <span className="desc__ar" dir="rtl">

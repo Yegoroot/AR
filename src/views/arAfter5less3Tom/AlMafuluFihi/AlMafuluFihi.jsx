@@ -35,7 +35,7 @@ class AlMafuluFihi extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="h1ar"> المَفْعُول فيه. ظَرْف </h1>
+              <h1 className="h1ar"> المَفْعُول فيه. ظَرْف 🌴</h1>
 
               <div className="desc">
                 Обстоятельство места и времени
@@ -61,7 +61,7 @@ class AlMafuluFihi extends React.Component {
                 </div>
               </AnimateCard>
 
-              <h2 className="h2ar">ظَرْف زمان</h2>
+              <h2 className="h2ar">ظَرْف زمان ✍️ </h2>
               <div className="arsent">
                 <div className="arsent__original">
                   <span> خَرَجْتُ </span>
@@ -85,7 +85,7 @@ class AlMafuluFihi extends React.Component {
                 </div>
                 <div className="arsent__translate">Я заснул после того как ты заснул</div>
               </div>
-              <h2 className="h2ar">ظَرْف مَكَان</h2>
+              <h2 className="h2ar">ظَرْف مَكَان ✍️ </h2>
               <div className="arsent">
                 <div className="arsent__original">
                   <span> مَشَيْتُ </span>
@@ -109,7 +109,7 @@ class AlMafuluFihi extends React.Component {
                 </div>
                 <div className="arsent__translate">Я заснул под деревом</div>
               </div>
-              <h2 className="h2ar">بعضُ الظروف مَبْنِيَّةُ منها</h2>
+              <h2 className="h2ar">بعضُ الظروف مَبْنِيَّةُ منها ✍️ </h2>
               <div className="desc">
                 Некоторые <span className="desc__ar"> الظروف </span> Которые имеют не изменяемые окончания
               </div>
@@ -163,7 +163,7 @@ class AlMafuluFihi extends React.Component {
                 </div>
                 <div className="arsent__translate"> Садись Где хочешь </div>
               </div>
-              <h2 className="h2ar">هناك أسماءُ تَنُوبُ عنِ الظرف</h2>
+              <h2 className="h2ar">هناك أسماءُ تَنُوبُ عنِ الظرف ✍️ </h2>
               <div className="desc">
                 Существуют имена заменяющие <span className="desc__ar"> الظرف </span>. Ниже будут представлены несколько типов этих имён
               </div>

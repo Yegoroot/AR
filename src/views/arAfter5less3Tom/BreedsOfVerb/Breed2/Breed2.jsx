@@ -35,7 +35,7 @@ class AlMafuluFihi extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="h1ar">(II) فَعَّلَ</h1>
+              <h1 className="h1ar">(II) فَعَّلَ 🌴</h1>
 
               <div className="desc">
                 Прибавлена одна служебная буква. Имеет значения: <b> Учащение </b> <b className="desc__ar"> (التَكْثِيرُ) </b> или
@@ -81,11 +81,11 @@ class AlMafuluFihi extends React.Component {
                 </div>
               </div>
 
-              <h2 className="title"> Шаблоны </h2>
+              <h2 className="title"> Шаблоны ✍️ </h2>
 
               <div className="items items_islabel">
                 <div className="item">
-                  <h2 className="h2ar ">فَعَّلَ</h2>
+                  <h2 className="h2ar ">فَعَّلَ </h2>
                   <div className="arsent">
                     <div className="arsent__original">
                       <span className="contrast">عَلَّمَ</span>
@@ -98,10 +98,10 @@ class AlMafuluFihi extends React.Component {
                     </div>
                     <div className="arsent__translate">Давал салям</div>
                   </div>
-                  <span className="item__label">الماضي</span>
+                  <span className="item__label">الماضي </span>
                 </div>
                 <div className="item">
-                  <h2 className="h2ar ">يُفَعِّلُ</h2>
+                  <h2 className="h2ar ">يُفَعِّلُ </h2>
                   <div className="arsent">
                     <div className="arsent__original contrast">يُعَلِّمُ</div>
                     <div className="arsent__translate">Обучает</div>
@@ -110,11 +110,11 @@ class AlMafuluFihi extends React.Component {
                     <div className="arsent__original contrast">يُدَرِّسُ</div>
                     <div className="arsent__translate">Учит</div>
                   </div>
-                  <span className="item__label">المُضارِع</span>
+                  <span className="item__label">المُضارِع </span>
                 </div>
 
                 <div className="item">
-                  <h2 className="h2ar ">مُفَعِّلٌ</h2>
+                  <h2 className="h2ar ">مُفَعِّلٌ </h2>
                   <div className="arsent">
                     <div className="arsent__original">
                       <span> عَلَّمَ </span>-<span> يُعَلِّمُ </span>-<span className="contrast"> مُعَلِّمٌ </span>
@@ -131,7 +131,7 @@ class AlMafuluFihi extends React.Component {
                 </div>
 
                 <div className="item">
-                  <h2 className="h2ar ">مُفَعَّلٌ</h2>
+                  <h2 className="h2ar ">مُفَعَّلٌ </h2>
                   <div className="arsent">
                     <div className="arsent__original">
                       <span> سَجَّلَ </span>-<span className="contrast"> مُسَجَّلٌ </span>
@@ -148,15 +148,15 @@ class AlMafuluFihi extends React.Component {
                 </div>
 
                 <div className="item">
-                  <h2 className="h2ar ">فَعَّلْ</h2>
+                  <h2 className="h2ar ">فَعَّلْ </h2>
                   <div className="arsent">
                     <div className="arsent__original contrast">سَلِّمْ</div>
                     <div className="arsent__translate">Дай салям!</div>
                   </div>
-                  <span className="item__label">الأمر</span>
+                  <span className="item__label">الأمر </span>
                 </div>
                 <div className="item">
-                  <h2 className="h2ar ">تَفْعِيلٌ</h2>
+                  <h2 className="h2ar ">تَفْعِيلٌ </h2>
                   <div className="arsent">
                     <span className="arsent__original">
                       سَلِّمَ - <span className="contrast"> تَسْلِيْمٌ </span>
@@ -178,11 +178,11 @@ class AlMafuluFihi extends React.Component {
                       букву в конце ]
                     </span>
                   </div>
-                  <span className="item__label">المصدر</span>
+                  <span className="item__label">المصدر </span>
                 </div>
               </div>
 
-              <h2 className="h2ar"> اسم مكان و زمان </h2>
+              <h2 className="h2ar"> اسم مكان و زمان ✍️ </h2>
 
               <div className="desc">
                 Что касается
@@ -199,7 +199,7 @@ class AlMafuluFihi extends React.Component {
                 </div>
               </div>
 
-              <h2 className="title"> Примеры</h2>
+              <h2 className="title"> Примеры ✍️ </h2>
 
               <div className="arsent">
                 <div className="arsent__original">

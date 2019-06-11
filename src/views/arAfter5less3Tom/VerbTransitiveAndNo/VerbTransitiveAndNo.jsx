@@ -39,14 +39,14 @@ class VerbTransitiveAndNo extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="title">Переходной и непереходной глагол</h1>
+              <h1 className="title">Переходной и непереходной глагол 🌴</h1>
 
               <div className="desc">
                 Глагол бывает <b> переходным </b> <span className="desc__ar"> فَالْمُتَعَدِّي </span> и <b> непереходным </b>
                 <span className="desc__ar"> الَازِمُ </span> .
               </div>
 
-              <h2 className="title">Переходной</h2>
+              <h2 className="title">Переходной ✍️ </h2>
 
               <div className="desc">
                 Переходной можно назвать "заразный" это такой глагол <b>действия которого от </b>
@@ -82,7 +82,7 @@ class VerbTransitiveAndNo extends React.Component {
                 <div className="arsent__translate">Он читал урок и понял его (урок)</div>
               </div>
 
-              <h2 className="title">Непереходной </h2>
+              <h2 className="title">Непереходной ✍️ </h2>
 
               <div className="desc"> Это такой глаго чъе действие остаётся в самом глаголе </div>
 
@@ -117,7 +117,7 @@ class VerbTransitiveAndNo extends React.Component {
                 <div className="arsent__translate">Разгневан учитель на ленивых студентов </div>
               </div>
 
-              <h2 className="title">Из непереходного в переходный </h2>
+              <h2 className="title">Из непереходного в переходный ✍️ </h2>
               <div className="desc">
                 <b className="desc__ar">Не</b>переходный становится переходным когда он из первой породы переносится в
                 <b className="desc__ar"> فَعَّلَ </b> (II) или
@@ -195,7 +195,7 @@ class VerbTransitiveAndNo extends React.Component {
                 <div className="arsent__translate"> Лекарства усыпили больного </div>
               </div>
 
-              <h2 className="title"> В двойне переходный </h2>
+              <h2 className="title"> В двойне переходный ✍️ </h2>
               <div className="desc">
                 {' '}
                 Если первообразный (изначальный трёхбуквенный) глагол является переходным, то он станет вдвойне переходным. Например{' '}

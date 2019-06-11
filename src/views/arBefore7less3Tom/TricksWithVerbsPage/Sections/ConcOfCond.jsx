@@ -8,7 +8,7 @@ class ConcOfCond extends React.Component {
   render() {
     return (
       <div id="liWithVerbs">
-        <h2 className="title">Следствие требованию</h2>
+        <h2 className="title">Следствие требованию ✍️ </h2>
         <div className="arsent">
           <div className="arsent__original">
             <span> اِقْرأْهُ مَرَّةً أُخرى </span>

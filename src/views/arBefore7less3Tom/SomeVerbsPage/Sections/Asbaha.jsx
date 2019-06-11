@@ -4,7 +4,7 @@ import Word from 'components/word'
 function Asbaha() {
   return (
     <div id="samaha">
-      <h2 className="title h2ar"> أصْبَحَ من أخَوَاتِ كان</h2>
+      <h2 className="title h2ar"> أصْبَحَ من أخَوَاتِ كان ✍️ </h2>
       <div className="desc">
         Глагол <span className="desc__ar"> أصْبَحَ </span> (утром) относится к сестрам <span className="desc__ar"> كان </span> иногда этот
         глагол приходит со значением <span className="desc__ar"> صَارَ </span> (стал)

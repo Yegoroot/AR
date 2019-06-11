@@ -3,7 +3,7 @@ import React from 'react'
 export default function() {
   return (
     <>
-      <h2 className="h2ar title"> إِنَّ و أنَّ</h2>
+      <h2 className="h2ar title"> إِنَّ و أنَّ ✍️ </h2>
       <div className="desc">
         Частица
         <span className="desc__ar"> إِنَّ </span> обозначает усиление

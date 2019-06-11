@@ -3,7 +3,7 @@ import React from 'react'
 function MaAndFriends() {
   return (
     <>
-      <h2 className="title">Частица ما с другими частицами</h2>
+      <h2 className="title">Частица ما с другими частицами ✍️ </h2>
 
       <div className="desc">
         Скажи кто твой друг и тебе скажут кто ты, частица ما не является исключением, и в зависимоти от того с кем она дружит, ведет себя по
@@ -13,7 +13,7 @@ function MaAndFriends() {
       <div className="items">
         <div className="item">
           <h2 className="title">
-            مِنْ + ما = <span className="contrast">مِمَّ</span>؟
+            مِنْ + ما = <span className="contrast">مِمَّ</span>؟ 💡
           </h2>
           <div className="arsent">
             <div className="arsent__original">
@@ -26,7 +26,7 @@ function MaAndFriends() {
         </div>
         <div className="item">
           <h2 className="title">
-            بِ + ما = <span className="contrast">بِمَ</span>؟
+            بِ + ما = <span className="contrast">بِمَ</span>؟ 💡
           </h2>
           <div className="arsent">
             <div className="arsent__original">
@@ -39,7 +39,7 @@ function MaAndFriends() {
         </div>
         <div className="item">
           <h2 className="title">
-            لِ + ما = <span className="contrast"> لِمَ </span>؟
+            لِ + ما = <span className="contrast"> لِمَ </span>؟ 💡
           </h2>
           <div className="arsent">
             <div className="arsent__original">
@@ -52,7 +52,7 @@ function MaAndFriends() {
         </div>
         <div className="item">
           <h2 className="title">
-            عَنْ + ما = <span className="contrast"> عَمَّ </span>؟
+            عَنْ + ما = <span className="contrast"> عَمَّ </span>؟ 💡
           </h2>
           <div className="arsent">
             <div className="arsent__original">

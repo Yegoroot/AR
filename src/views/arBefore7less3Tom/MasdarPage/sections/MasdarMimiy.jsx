@@ -4,7 +4,7 @@ import React from 'react'
 export default function() {
   return (
     <>
-      <h2 className="title h2ar"> مصدر الميمي </h2>
+      <h2 className="title h2ar"> مصدر الميمي ✍️ </h2>
 
       <div className="desc">
         Масдар у которого первая <span className="desc__ar"> م </span> служебная. В зависимости от контекста эта модель так же может

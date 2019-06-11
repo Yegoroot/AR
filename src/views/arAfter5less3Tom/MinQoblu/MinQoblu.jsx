@@ -38,7 +38,7 @@ class MinQoblu extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="h1ar">مِن قبلُ</h1>
+              <h1 className="h1ar">مِن قبلُ 🌴</h1>
 
               <div className="desc">
                 По идее мы должны сказать <span className="desc__ar contrast_2"> من قبلِ </span>, но мы так не употребляем, а говорим

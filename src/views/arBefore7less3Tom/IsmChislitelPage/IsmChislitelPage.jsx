@@ -34,7 +34,7 @@ class IsmChislitelPage extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="title">Числительные с 100</h1>
+              <h1 className="title">Числительные с 100 🌴</h1>
               <div className="arsent">
                 <div className="arsent__original">
                   مِئَةُ - مِئَتَانِ - ثَلاثُمِئَةَ - أرْبَعُمِئَةَ - خَمْسُمِئَةَ - سِتُّمِئَةَ - سَبعُمِئَةَ - ثَمانمِئَةَ - تِسْعُمِئة

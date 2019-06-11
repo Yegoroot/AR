@@ -31,7 +31,7 @@ class Breed4 extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="h1ar">(IV) أَفْعَلَ</h1>
+              <h1 className="h1ar">(IV) أَفْعَلَ 🌴</h1>
 
               <div className="desc">
                 Добавлена одна служебная буква <span className="desc__ar"> (ء) </span> в начале, может делать глагол переходным, а может
@@ -41,7 +41,7 @@ class Breed4 extends React.Component {
 
               <div className="items items_islabel">
                 <div className="item">
-                  <h2 className="h2ar ">أَفْعَلَ</h2>
+                  <h2 className="h2ar ">أَفْعَلَ </h2>
                   <div className="arsent">
                     <div className="arsent__original contrast">أَرْسَلَ</div>
                     <div className="arsent__translate">Отправил</div>
@@ -62,7 +62,7 @@ class Breed4 extends React.Component {
                 </div>
 
                 <div className="item">
-                  <h2 className="h2ar ">يُفْعِلَ</h2>
+                  <h2 className="h2ar ">يُفْعِلَ </h2>
                   <div className="arsent">
                     <div className="arsent__original contrast">يُرْسِلُ</div>
                     <div className="arsent__translate">Отправляет</div>
@@ -83,7 +83,7 @@ class Breed4 extends React.Component {
                 </div>
 
                 <div className="item">
-                  <h2 className="h2ar ">مُفْعِلٌ</h2>
+                  <h2 className="h2ar ">مُفْعِلٌ </h2>
                   <div className="arsent">
                     <div className="arsent__original">
                       <span> يُرْسِلُ </span>-<span className="contrast"> مُرْسِلٌ </span>
@@ -112,7 +112,7 @@ class Breed4 extends React.Component {
                 </div>
 
                 <div className="item">
-                  <h2 className="h2ar ">مُفْعَلٌ</h2>
+                  <h2 className="h2ar ">مُفْعَلٌ </h2>
                   <div className="arsent">
                     <div className="arsent__original">
                       <span> يُرْسِلُ </span>-<span className="contrast"> مُرْسَلٌ </span>
@@ -129,7 +129,7 @@ class Breed4 extends React.Component {
                 </div>
 
                 <div className="item">
-                  <h2 className="h2ar ">إِفْعَالٌ</h2>
+                  <h2 className="h2ar ">إِفْعَالٌ </h2>
                   <div className="arsent">
                     <span className="arsent__original">
                       أَرْسَلَ - <span className="contrast"> إِرْسَالٌ </span>
@@ -160,7 +160,7 @@ class Breed4 extends React.Component {
                 </div>
 
                 <div className="item">
-                  <h2 className="h2ar ">أفْعِلْ</h2>
+                  <h2 className="h2ar ">أفْعِلْ </h2>
                   <div className="arsent">
                     <div className="arsent__original">
                       <span> تُرْسِلُ </span>- <span> أصْلِهُ تُأَرْسِلُ </span>- <span className="contrast"> أَرْسِلْ </span>
@@ -183,7 +183,7 @@ class Breed4 extends React.Component {
                 </div>
               </div>
 
-              <h2 className="title"> Примеры</h2>
+              <h2 className="title"> Примеры ✍️ </h2>
 
               <div className="arsent">
                 <div className="arsent__original">

@@ -3,9 +3,7 @@ import React from 'react'
 export default function() {
   return (
     <>
-      <h2 className="title h2ar" dir="rtl">
-        "ما" المَصْدريَّةُ الظرفيَّةُ
-      </h2>
+      <h2 className="title h2ar">ما المَصْدريَّةُ الظرفيَّةُ ✍️ </h2>
 
       <div className="desc">
         (

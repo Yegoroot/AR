@@ -3,7 +3,7 @@ import React from 'react'
 function Wajaba() {
   return (
     <div id="Wajaba">
-      <h2 className="title h2ar">وَجَبَ - يَجِبُ</h2>
+      <h2 className="title h2ar">وَجَبَ - يَجِبُ ✍️ </h2>
       <div className="desc">Имеет вид ТОЛЬКО в 3 лице, мужском роде, прошедшем или настоящем времени</div>
 
       <h3 className="title">Структура 1</h3>

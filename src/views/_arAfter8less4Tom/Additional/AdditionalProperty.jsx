@@ -34,7 +34,7 @@ class Page extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="title h1ar">المفعول المُطْلَق</h1>
+              <h1 className="title h1ar">المفعول المُطْلَق 🌴</h1>
 
               <div className="desc">
                 <b> Абсолютное дополнение </b> (المفعول المطلق) упоминается масдаром в после глагола и состоит обычно из тех же букв что и

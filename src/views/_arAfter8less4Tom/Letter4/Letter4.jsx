@@ -31,7 +31,7 @@ class Letter4 extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="title"> Четырёхбуквенный глагол</h1>
+              <h1 className="title"> Четырёхбуквенный глагол 🌴</h1>
 
               <div className="desc">
                 Четырёхбуквенных глаголов в арабском языке не много. Так же как и в трёхбуквенном существуют <b>первообразные</b>
@@ -39,7 +39,7 @@ class Letter4 extends React.Component {
                 один шаблон, у производных три
               </div>
 
-              <h2 className="title"> Первообразный فَعْلَلَ</h2>
+              <h2 className="title"> Первообразный فَعْلَلَ ✍️ </h2>
 
               <div className="arsent">
                 <div className="arsent__original">
@@ -72,7 +72,7 @@ class Letter4 extends React.Component {
                 </div>
               </div>
 
-              <h2 className="title"> Производный 1 تَفَعْلَلَ</h2>
+              <h2 className="title"> Производный 1 تَفَعْلَلَ ✍️ </h2>
 
               <div className="arsent">
                 <div className="arsent__original">
@@ -105,7 +105,7 @@ class Letter4 extends React.Component {
                 </div>
               </div>
 
-              <h2 className="title"> Производный 2 اِفْعَلَلَّ</h2>
+              <h2 className="title"> Производный 2 اِفْعَلَلَّ ✍️ </h2>
 
               <div className="arsent">
                 <div className="arsent__original">
@@ -137,7 +137,7 @@ class Letter4 extends React.Component {
                 </div>
               </div>
 
-              <h2 className="title"> Производный 3 اِفْعَنْلَلَ</h2>
+              <h2 className="title"> Производный 3 اِفْعَنْلَلَ ✍️ </h2>
 
               <div className="arsent">
                 <div className="arsent__original">
@@ -169,7 +169,7 @@ class Letter4 extends React.Component {
                 </div>
               </div>
 
-              <h2 className="title"> Примеры</h2>
+              <h2 className="title"> Примеры ✍️ </h2>
 
               <div className="arsent">
                 <div className="arsent__original">
@@ -207,7 +207,7 @@ class Letter4 extends React.Component {
 
               {/* -------------------------------- */}
 
-              <h2 className="title"> Мини словарь</h2>
+              <h2 className="title"> Мини словарь ✍️ </h2>
 
               <div className="arsent">
                 <div>

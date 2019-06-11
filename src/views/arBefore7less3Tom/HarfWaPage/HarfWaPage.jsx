@@ -32,9 +32,9 @@ class HarfWaPage extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="title h1ar">واو</h1>
+              <h1 className="title h1ar">واو 🌴</h1>
 
-              <h2 className="title h2ar">واو العَطْف</h2>
+              <h2 className="title h2ar">واو العَطْف ✍️ </h2>
               <div className="arsent">
                 <div className="arsent__original">
                   خرج الزّبير <span className="contrast"> و </span> حامد
@@ -44,7 +44,7 @@ class HarfWaPage extends React.Component {
                 </div>
               </div>
 
-              <h2 className="title h2ar">ٌواو القَسَم</h2>
+              <h2 className="title h2ar">ٌواو القَسَم ✍️ </h2>
               <div className="desc">Клятвенная вав, относится к предлогам родительного падежа и поэтому дает кясру слову</div>
               <div className="arsent">
                 <div className="arsent__original">
@@ -53,7 +53,7 @@ class HarfWaPage extends React.Component {
                 <div className="arsent__translate">Клянусь Аллахом</div>
               </div>
 
-              <h2 className="title h2ar">واو الحَال</h2>
+              <h2 className="title h2ar">واو الحَال ✍️ </h2>
 
               <div className="desc">
                 Это <span className="desc__ar"> واو </span> состояния. В дополнение можно посмотреть урок про

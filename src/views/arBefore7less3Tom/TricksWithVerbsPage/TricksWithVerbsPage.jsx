@@ -37,13 +37,13 @@ class TricksWithVerbsPage extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              {/* <h1 className="title">Нюансы с глаголами</h1> */}
+              {/* <h1 className="title">Нюансы с глаголами  🌴</h1> */}
               <LiWithVerb />
               <Admiration />
               <DualIsm />
               <StartHamza />
               <ConcOfCond />
-              <h2 className="title">Два прямых дополнения</h2>
+              <h2 className="title">Два прямых дополнения ✍️ </h2>
               <div className="desc">
                 Некоторые глаголы могут <b> ставить в винительный падеж два прямых дополнения </b> . Например глаголы
                 <span className="desc__ar"> ظَنَّ</span>,<span className="desc__ar"> جَعَلَ </span>,<span className="desc__ar"> رَأى </span>

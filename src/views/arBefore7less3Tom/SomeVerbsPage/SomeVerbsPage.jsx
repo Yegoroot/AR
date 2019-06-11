@@ -44,7 +44,7 @@ class SomeVerbsPage extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="title">Некоторые из глаголов</h1>
+              <h1 className="title">Некоторые из глаголов 🌴</h1>
               <Munthu />
               <Samaha />
               <Uridu />

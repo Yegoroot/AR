@@ -40,9 +40,9 @@ class AdwatulDjazmPage extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="title h1ar">لمْ, لَمّا, لا, لامْ الأمر</h1>
+              <h1 className="title h1ar">لمْ, لَمّا, لا, لامْ الأمر 🌴</h1>
 
-              <h2 className="title h2ar">لَمْ</h2>
+              <h2 className="title h2ar">لَمْ ✍️ </h2>
               <div className="desc">
                 <b> Отрицательная частица </b> приходит перед глаголами настоящего времени у ней две роли: <b> отрицает </b> и
                 <b> меняет время на прошедшее</b>
@@ -53,7 +53,7 @@ class AdwatulDjazmPage extends React.Component {
                 </div>
               </div>
 
-              <h2 className="title h2ar">لَمّا</h2>
+              <h2 className="title h2ar">لَمّا ✍️ </h2>
               <div className="desc">
                 <b> Частица (пока еще не, еще не) </b>. Отрицает и прошлый и настоящий момент, у <span className="desc__ar"> لمَّا </span>
                 есть высокий уровень возможности свершения
@@ -79,7 +79,7 @@ class AdwatulDjazmPage extends React.Component {
                 </div>
               </div>
 
-              <h2 className="title h2ar">لا النّاهية</h2>
+              <h2 className="title h2ar">لا النّاهية ✍️ </h2>
               <div className="desc">
                 <b>Частица отрицания</b> приходит только ко второму лицу настоящего времени!
               </div>
@@ -96,7 +96,7 @@ class AdwatulDjazmPage extends React.Component {
                 <div className="arsent__translate">Не печалься, Аллахъ с нами</div>
               </div>
 
-              <h2 className="title h2ar">لامُ الأمر</h2>
+              <h2 className="title h2ar">لامُ الأمر ✍️ </h2>
               <div className="desc">
                 <b>Частица приказа</b> может прийти к любому лицу (Пусть он, пусть она)
               </div>
@@ -148,7 +148,7 @@ class AdwatulDjazmPage extends React.Component {
                 <div className="arsent__translate">Давайте сейчас присядем в парке, затем пойдём в мечеть</div>
               </div>
 
-              <h2 className="title">Пример того как джазмируется окончание</h2>
+              <h2 className="title">Пример того как джазмируется окончание ☝️</h2>
               <div className="arsent">
                 <div className="arsent__original">
                   لَمْ أذهبْ - لَمْ نَذهبْ

@@ -6,7 +6,7 @@ import kanaImg from 'assets/img/content/verb/kana.png'
 function KanaLaYazalu() {
   return (
     <div id="samaha">
-      <h2 className="title h2ar">كان - يزَالُ</h2>
+      <h2 className="title h2ar">كان - يزَالُ ✍️ </h2>
       <div className="desc">Глаголы бытия ставят в винительный падеж дополнения (то о чем речь)</div>
 
       <div className="items">

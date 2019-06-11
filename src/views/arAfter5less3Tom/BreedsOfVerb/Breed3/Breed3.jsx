@@ -29,7 +29,7 @@ class Breed3 extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="h1ar">(III) فَاعَلَ</h1>
+              <h1 className="h1ar">(III) فَاعَلَ 🌴</h1>
 
               <div className="desc">
                 Значений у этого глагола не много, основное значение <b> Направленность </b> (направление действия в сторону какого то лица
@@ -81,11 +81,11 @@ class Breed3 extends React.Component {
                 </div>
               </div>
 
-              <h2 className="title"> Шаблоны </h2>
+              <h2 className="title"> Шаблоны ✍️ </h2>
 
               <div className="items items_islabel">
                 <div className="item">
-                  <h2 className="h2ar ">فَاعَلَ</h2>
+                  <h2 className="h2ar ">فَاعَلَ </h2>
                   <div className="arsent">
                     <div className="arsent__original contrast">شَاهَدَ</div>
                     <div className="arsent__translate">Наблюдал, смотрел (направленность)</div>
@@ -94,22 +94,22 @@ class Breed3 extends React.Component {
                     <div className="arsent__original contrast">قَابَلَ</div>
                     <div className="arsent__translate">Встречал, принимал </div>
                   </div>
-                  <span className="item__label">الماضي</span>
+                  <span className="item__label">الماضي </span>
                 </div>
                 <div className="item">
-                  <h2 className="h2ar ">يُفَاعِلُ</h2>
+                  <h2 className="h2ar "> &nbsp; &nbsp;&nbsp; يُفَاعِلُ </h2>
                   <div className="arsent">
                     <div className="arsent__original contrast">يُشَهِدُ</div>
-                    <div className="arsent__translate">Смотрит</div>
+                    <div className="arsent__translate">Смотрит </div>
                   </div>
                   <div className="arsent">
                     <div className="arsent__original contrast">يُقَابِدُ</div>
                     <div className="arsent__translate">Встречает</div>
                   </div>
-                  <span className="item__label">المُضارِع</span>
+                  <span className="item__label">المُضارِع </span>
                 </div>
                 <div className="item">
-                  <h2 className="h2ar ">فَاعِلْ</h2>
+                  <h2 className="h2ar ">فَاعِلْ </h2>
                   <div className="arsent">
                     <div className="arsent__original contrast">شَاهِدْ</div>
                     <div className="arsent__translate">Наблюдай, смотри, свидетельствуй</div>
@@ -118,10 +118,10 @@ class Breed3 extends React.Component {
                     <div className="arsent__original contrast">قَابِدْ</div>
                     <div className="arsent__translate">Встречай</div>
                   </div>
-                  <span className="item__label">الأمر</span>
+                  <span className="item__label">الأمر </span>
                 </div>
                 <div className="item">
-                  <h2 className="h2ar ">مُفَاعَلةٌ</h2>
+                  <h2 className="h2ar ">مُفَاعَلةٌ </h2>
                   <div className="arsent">
                     <div className="arsent__original contrast">مُشاهَدةٌ</div>
                     <div className="arsent__translate">Наблюдение</div>
@@ -130,10 +130,10 @@ class Breed3 extends React.Component {
                     <div className="arsent__original contrast">مُقَابَلَةٌ</div>
                     <div className="arsent__translate">Встреча, Свидание</div>
                   </div>
-                  <span className="item__label">المصدر</span>
+                  <span className="item__label">المصدر </span>
                 </div>
                 <div className="item">
-                  <h2 className="h2ar ">فِعَالٌ</h2>
+                  <h2 className="h2ar ">فِعَالٌ </h2>
                   <div className="arsent">
                     <div className="arsent__original contrast">قِتَالٌ</div>
                     <div className="arsent__translate">Сражение</div>
@@ -142,11 +142,11 @@ class Breed3 extends React.Component {
                     <div className="arsent__original contrast">جِهَاد</div>
                     <div className="arsent__translate">Борьба, Усилия, Усердие</div>
                   </div>
-                  <span className="item__label">2 المصدر</span>
+                  <span className="item__label">2 المصدر </span>
                 </div>
 
                 <div className="item">
-                  <h2 className="h2ar ">مُفَاعِلٌ</h2>
+                  <h2 className="h2ar ">مُفَاعِلٌ </h2>
                   <div className="arsent">
                     <div className="arsent__original">
                       <span> يُشَاهِدُ </span>-<span className="contrast"> مُشَاهِدٌ </span>
@@ -160,6 +160,7 @@ class Breed3 extends React.Component {
                     <div className="arsent__translate">Помошник</div>
                   </div>
                   <span className="item__label"> اسم الفَاعِل </span>
+
                   <div className="arsent">
                     <div className="arsent__original">
                       <span> يُجاهِدُ </span>-<span className="contrast"> مُجَاهِدٌ </span>
@@ -171,7 +172,7 @@ class Breed3 extends React.Component {
 
                 <div className="item">
                   <span className="item__label"> اسم المَفْعُول </span>
-                  <h2 className="h2ar ">مُفَاعَلٌ</h2>
+                  <h2 className="h2ar ">مُفَاعَلٌ </h2>
                   <div className="arsent">
                     <div className="arsent__original">
                       <span> خَاطَبَ </span>-<span className="contrast"> مُخَاطَبُ </span>

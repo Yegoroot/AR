@@ -34,7 +34,7 @@ class Page extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="title h1ar">ضَمِيرُ فَصْلٍ</h1>
+              <h1 className="title h1ar">ضَمِيرُ فَصْلٍ 🌴</h1>
               <p className="desc">
                 Разберем <b> разделитель </b> <span className="desc__ar"> هو </span>. Местоимение разделитель обязательно должно быть личным
                 местоимением выражающим именительный падеж (он, она, они, мы).
@@ -44,7 +44,7 @@ class Page extends React.Component {
                 <b> не перепутать сказуемое с каким либо приложением </b> (заменителем или определением к определяемому слову)
               </p>
 
-              <h2 className="title"> Чтоб не спутать с заменителем </h2>
+              <h2 className="title"> Чтоб не спутать с заменителем ✍️ </h2>
               <div className="arsent">
                 <div className="arsent__original">
                   <span> هذا </span>
@@ -77,7 +77,7 @@ class Page extends React.Component {
                 не законченным) Получится как будто мы хотим сказать продолжение "Этот новый инспектор ..."
               </div>
 
-              <h2 className="title"> Чтоб не спутать с определением </h2>
+              <h2 className="title"> Чтоб не спутать с определением ✍️ </h2>
               <div className="arsent">
                 <div className="arsent__original">
                   <span> حامد </span>
@@ -94,7 +94,7 @@ class Page extends React.Component {
                 <span className="desc__ar"> حامد </span>
               </div>
 
-              <h3 className="title"> Еще примеры </h3>
+              <h2 className="title"> Другие примеры ✍️</h2>
               <div className="arsent">
                 <div className="arsent__original">
                   <span> هذه </span>

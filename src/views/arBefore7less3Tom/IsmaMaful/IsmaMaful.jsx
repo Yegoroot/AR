@@ -30,7 +30,7 @@ class IsmaMaful extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="title h1ar">اسم المَفْول</h1>
+              <h1 className="title h1ar">اسم المَفْول 🌴</h1>
               <div className="desc">Лицо или предметы на которых падает действие. Например</div>
 
               <div className="arsent">
@@ -45,7 +45,7 @@ class IsmaMaful extends React.Component {
                 <span className="desc__ar"> كَتَبَ </span>, то есть это письмо, запись, это то что написано
               </div>
 
-              <h2 className="title"> Примеры </h2>
+              <h2 className="title"> Примеры ✍️ </h2>
               <div className="arsent">
                 <div>
                   <span className="arsent__original" dir="rtl">
@@ -104,7 +104,7 @@ class IsmaMaful extends React.Component {
                 </div>
               </div>
 
-              <h2 className="title">اسم المَفْول со слабой средней </h2>
+              <h2 className="title">اسم المَفْول со слабой средней ✍️ </h2>
               <h3 className="title">1 шаблон</h3>
 
               <div className="arsent">
@@ -135,7 +135,7 @@ class IsmaMaful extends React.Component {
                 <div className="arsent__translate">То что измерено</div>
               </div>
 
-              <h2 className="title">اسم المَفْول со слабой последней </h2>
+              <h2 className="title">اسم المَفْول со слабой последней ✍️ </h2>
               <h3 className="title">1 шаблон</h3>
 
               <div className="arsent">
@@ -167,7 +167,7 @@ class IsmaMaful extends React.Component {
                 <div className="arsent__translate">Пожаренный</div>
               </div>
 
-              <h2 className="title">اسم المَفْول с шаддой </h2>
+              <h2 className="title">اسم المَفْول с шаддой ✍️ </h2>
               <div className="arsent">
                 <div className="arsent__original" dir="rtl">
                   <span>سَرَّ</span> - <span className="contrast">مَسرُور</span>

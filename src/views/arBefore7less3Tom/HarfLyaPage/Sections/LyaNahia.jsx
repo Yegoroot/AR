@@ -3,7 +3,7 @@ import React from 'react'
 function LyaNahia() {
   return (
     <div id="liWithVerbs">
-      <h2 className="title h2ar">لا الناهية</h2>
+      <h2 className="title h2ar">لا الناهية ✍️ </h2>
 
       <div className="desc">
         Частица запрета, употребляется <span className="contrast">только во втором лице</span>.

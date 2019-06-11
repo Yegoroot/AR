@@ -34,7 +34,7 @@ class HarfHalPage extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="title">Вопросительная частица هل</h1>
+              <h1 className="title">Вопросительная частица هل 🌴</h1>
               <div className="desc">
                 Вопросительная частица <span className="desc__ar"> هل </span> (верно или не верно) для уточнения информации как частица "ли"
                 в русском языке "а ходи ли ты ...", для выбора "да" или "нет"

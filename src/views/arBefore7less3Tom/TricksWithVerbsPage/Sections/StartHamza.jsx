@@ -1,21 +1,21 @@
-import React from "react";
+import React from 'react'
 
 // @material-ui/core components
-import withStyles from "@material-ui/core/styles/withStyles";
+import withStyles from '@material-ui/core/styles/withStyles'
 
-import arabicPage from "assets/jss/material-kit-react/views/arabicPage.jsx";
+import arabicPage from 'assets/jss/material-kit-react/views/arabicPage.jsx'
 
-import Word from "components/word";
+import Word from 'components/word'
 
 class StartHamza extends React.Component {
   render() {
     return (
       <div id="dual">
-        <h2 className="title">Глагол начинается с хамзы</h2>
+        <h2 className="title">Глагол начинается с хамзы ✍️ </h2>
 
         <div className="desc">
-          Если глагол начинается с хамзы, например <span className="contrast"> أكَلَ </span>,
-          <span className="contrast"> أخَذَ </span>, то в настоящем времени добавляем васла "~"
+          Если глагол начинается с хамзы, например <span className="contrast"> أكَلَ </span>,<span className="contrast"> أخَذَ </span>, то в
+          настоящем времени добавляем васла "~"
         </div>
 
         <div className="arsent">
@@ -36,8 +36,8 @@ class StartHamza extends React.Component {
           <div className="arsent__translate">Ешь, возьми</div>
         </div>
       </div>
-    );
+    )
   }
 }
 
-export default withStyles(arabicPage)(StartHamza);
+export default withStyles(arabicPage)(StartHamza)

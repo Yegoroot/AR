@@ -34,7 +34,7 @@ class Page extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="title">Усиление глагола</h1>
+              <h1 className="title">Усиление глагола 🌴</h1>
               <div className="arsent">
                 <div className="arsent__original">
                   <span> إذا رأيتَ نُيُوبَ اللَّيْثِ بارِزَةً فلا </span>
@@ -50,7 +50,7 @@ class Page extends React.Component {
 
               <div className="items">
                 <div className="item">
-                  <h2 className="title h2ar">(أ)</h2>
+                  <h2 className="title h2ar">(أ) </h2>
                   <div className="arsent">
                     <div className="arsent__original">
                       <span> اِذهَبْ : </span>
@@ -67,7 +67,7 @@ class Page extends React.Component {
                   </div>
                 </div>
                 <div className="item">
-                  <h2 className="title h2ar">(ب)</h2>
+                  <h2 className="title h2ar">(ب) </h2>
                   <div className="arsent">
                     <div className="arsent__original">
                       <span> اِذْهَبُوا : </span>
@@ -84,7 +84,7 @@ class Page extends React.Component {
                   </div>
                 </div>
                 <div className="item">
-                  <h2 className="title h2ar">(ج)</h2>
+                  <h2 className="title h2ar">(ج) </h2>
                   <div className="arsent">
                     <div className="arsent__original">
                       <span> اِذْهَبِي : </span>
@@ -101,7 +101,7 @@ class Page extends React.Component {
                   </div>
                 </div>
                 <div className="item">
-                  <h2 className="title h2ar">(د)</h2>
+                  <h2 className="title h2ar">(د) </h2>
                   <div className="arsent">
                     <div className="arsent__original">
                       <span> اِذْهَبَا : </span>
@@ -118,7 +118,7 @@ class Page extends React.Component {
                   </div>
                 </div>
                 <div className="item">
-                  <h2 className="title h2ar">(ه)</h2>
+                  <h2 className="title h2ar">(ه) </h2>
                   <div className="arsent">
                     <div className="arsent__original">
                       <span> اِذْهَبْنَ : </span>
@@ -135,7 +135,7 @@ class Page extends React.Component {
                   </div>
                 </div>
                 <div className="item">
-                  <h2 className="title h2ar">(و)</h2>
+                  <h2 className="title h2ar">(و) </h2>
                   <div className="arsent">
                     <div className="arsent__original">
                       <span> اِمْشِ : </span>
@@ -152,7 +152,7 @@ class Page extends React.Component {
                   </div>
                 </div>
               </div>
-              <h2 className="title">Случаи когда можно усиливать глагол при помощи Нун</h2>
+              <h2 className="title">Случаи когда можно усиливать глагол при помощи Нун ✍️</h2>
               <h3 className="title"> В приказе </h3>
               <div className="arsent">
                 <div className="arsent__original">
@@ -161,7 +161,7 @@ class Page extends React.Component {
                 </div>
               </div>
 
-              <h3 className="title"> Если содержится требование (طَلَبِيّة) (отрицание, запрет, вопрос)</h3>
+              <h3 className="title"> Если содержится требование (طَلَبِيّة) (отрицание, запрет, вопрос) </h3>
               <div className="arsent">
                 <div className="arsent__original">
                   <span>و</span>
@@ -196,7 +196,7 @@ class Page extends React.Component {
                 </div>
               </div>
 
-              <h2 className="title">Усиление близко к обязательному</h2>
+              <h2 className="title">Усиление близко к обязательному ✍️</h2>
               <div className="desc" dir="rtl">
                 Усиление становится близким к обязательному, если глагол настоящего времени приходит перед Имма-Условия <br />(
                 <b className="desc contrast_2">إمَّا</b>) <span className="desc"> الشَّرْطِيَّة </span>
@@ -210,7 +210,7 @@ class Page extends React.Component {
                 </div>
               </div>
 
-              <h2 className="title">Усиление обязательно</h2>
+              <h2 className="title">Усиление обязательно ✍️</h2>
               <div className="desc" dir="rtl">
                 Усилие глагола обязательно если это ответ на клятву. Но для этого есть 3 условия, если одно из условий не соблюдается, то
                 усиливать запрещается

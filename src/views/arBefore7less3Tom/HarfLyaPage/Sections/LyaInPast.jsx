@@ -3,7 +3,7 @@ import React from 'react'
 function LyaNafia() {
   return (
     <div id="liWithVerbs">
-      <h2 className="title">لا в прошедшем времени</h2>
+      <h2 className="title">لا в прошедшем времени ✍️ </h2>
 
       <div className="desc">
         Частица لا настоящего времени, кроме случая, если в одном предложениии <b> два глагола которые мы хотим отрицать </b> . Действия

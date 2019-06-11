@@ -46,12 +46,12 @@ class ShaddaVerbPage extends React.Component {
         <Parallax small filter image={require('assets/img/mosque/mosque15.jpg')} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
-            <h1 className="title">Глагол с шаддой</h1>
+            <h1 className="title">Глагол с шаддой 🌴</h1>
           </div>
 
           <WeakLetters templates={shadda} />
           <div className={classes.container}>
-            <h2 className="title">Глагол с шаддой и لا الناهية </h2>
+            <h2 className="title">Глагол с шаддой и لا الناهية ✍️ </h2>
             <p>Если с глаголомШадды приходит لا الناهية то видоизменяется конечная огласовка. Например:</p>
           </div>
           <img src={shaddaamr} style={{ width: '100%' }} alt="Схема 1" />

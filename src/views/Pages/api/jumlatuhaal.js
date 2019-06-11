@@ -1,21 +1,21 @@
 export default {
   header: {
-    color: "transparent",
-    brand: "جملة الحال",
+    color: 'transparent',
+    brand: 'جملة الحال',
     isBrandAr: true,
-    rightLinks: "HeaderLinks",
+    rightLinks: 'HeaderLinks',
     fixed: true,
     changeColorOnScroll: {
       height: 200,
-      color: "white"
+      color: 'white'
     }
   },
   paralax: {
     small: true,
     filter: true,
-    image: "assets/img/mosque/mosque2.jpg"
+    image: 'assets/img/mosque/mosque2.jpg'
   },
-  description: "",
+  description: '',
   content: `
 
   <p className="desc">
@@ -26,7 +26,7 @@ export default {
   время как само оно именное
 </p>
 
-<h2 className="h2ar">الحال</h2>
+<h2 className="h2ar">الحال ✍️  </h2>
 
 <div className="arsent">
   <div className="arsent__original">
@@ -56,7 +56,7 @@ export default {
   </div>
 </div>
 
-<h2 className="h2ar">جملة الحال </h2>
+<h2 className="h2ar">جملة الحال  ✍️  </h2>
 
 <div className="desc">
   <span className="desc__ar">جملة الحال</span> соединяется с помощью
@@ -101,4 +101,4 @@ export default {
     <span className="contrast"> пока я спал </span> (был в состоянии сна)
   </div>
     `
-};
+}

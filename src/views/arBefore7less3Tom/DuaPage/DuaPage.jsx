@@ -1,22 +1,22 @@
-import React from "react";
+import React from 'react'
 // nodejs library that concatenates classes
-import classNames from "classnames";
+import classNames from 'classnames'
 
-import withStyles from "@material-ui/core/styles/withStyles";
-import Header from "components/Header/Header.jsx";
-import Footer from "components/Footer/Footer.jsx";
+import withStyles from '@material-ui/core/styles/withStyles'
+import Header from 'components/Header/Header.jsx'
+import Footer from 'components/Footer/Footer.jsx'
 
-import Word from "components/word";
+import Word from 'components/word'
 
-import HeaderLinks from "components/Header/HeaderLinks.jsx";
+import HeaderLinks from 'components/Header/HeaderLinks.jsx'
 
-import Parallax from "components/Parallax/Parallax.jsx";
+import Parallax from 'components/Parallax/Parallax.jsx'
 
-import arabicPageStyle from "assets/jss/material-kit-react/views/arabicPage.jsx";
+import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
 
 class DuaPage extends React.Component {
   render() {
-    const { classes, ...rest } = this.props;
+    const { classes, ...rest } = this.props
 
     return (
       <div>
@@ -29,22 +29,20 @@ class DuaPage extends React.Component {
           changeColorOnScroll={{
             height: 200,
 
-            color: "white"
+            color: 'white'
           }}
           {...rest}
         />
 
-        <Parallax small filter image={require("assets/img/mosque/mosque20.jpg")} />
+        <Parallax small filter image={require('assets/img/mosque/mosque20.jpg')} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className={classes.title}>الدُّعاء</h1>
+              <h1 className={classes.title}>الدُّعاء 🤲</h1>
 
               <p className="desc">
-                Дуа (мольба) в арабском языке с точки зрения грамматики стоит в прошедшем времени,
-                например
-                <span className="desc__ar"> شَفَاكَ اللهُ </span>. Несомненно этому есть объяснения,
-                но я забыл почему
+                Дуа (мольба) в арабском языке с точки зрения грамматики стоит в прошедшем времени, например
+                <span className="desc__ar"> شَفَاكَ اللهُ </span>. Несомненно этому есть объяснения, но я забыл почему
               </p>
               <p className="desc">
                 Для сравнения возьмем обыкновенное предложение с глаголом в прошедшего времени.
@@ -57,8 +55,7 @@ class DuaPage extends React.Component {
                   <Word root="جَزَا" suffix="كَ" /> الله خيرا
                 </div>
                 <div className="arsent__translate">
-                  Да Воздаст Аллахъ <span className="contrast"> тебе </span> благом (говорят это
-                  лучшее, что можно пожелать муслиму)
+                  Да Воздаст Аллахъ <span className="contrast"> тебе </span> благом (говорят это лучшее, что можно пожелать муслиму)
                 </div>
               </div>
 
@@ -76,8 +73,7 @@ class DuaPage extends React.Component {
                   <Word root="بَرَ" suffix="كَ" /> اللهُ <Word root="في" suffix="ك" />
                 </div>
                 <div className="arsent__translate">
-                  Пусть Аллахъ даст баракат <span className="contrast">тебе </span> в твоем [ деле,
-                  занятии, ... ]
+                  Пусть Аллахъ даст баракат <span className="contrast">тебе </span> в твоем [ деле, занятии, ... ]
                 </div>
               </div>
 
@@ -86,8 +82,7 @@ class DuaPage extends React.Component {
                   <Word root="رَحِمَ" suffix="هُ" /> اللهُ
                 </div>
                 <div className="arsent__translate">
-                  Да смилуется над <span className="contrast"> ним </span> Аллахъ [ О великих людях
-                  после смерти, ученых ]
+                  Да смилуется над <span className="contrast"> ним </span> Аллахъ [ О великих людях после смерти, ученых ]
                 </div>
               </div>
 
@@ -97,8 +92,8 @@ class DuaPage extends React.Component {
         </div>
         <Footer />
       </div>
-    );
+    )
   }
 }
 
-export default withStyles(arabicPageStyle)(DuaPage);
+export default withStyles(arabicPageStyle)(DuaPage)

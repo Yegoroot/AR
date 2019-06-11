@@ -38,7 +38,7 @@ class PuralDualPage extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="title">Мн. и дв. число</h1>
+              <h1 className="title">Мн. и дв. число 🌴</h1>
 
               <div className="desc">
                 Если на правильное множественное или двойственное падает действие (становится в насб), то слабая буква
@@ -118,11 +118,11 @@ class PuralDualPage extends React.Component {
                 <div className="arsent__translate">Видели две ручки? - Видели две мои ручки?</div>
               </div>
 
-              <h2 className="title">Неправильное множественое число</h2>
+              <h2 className="title">Неправильное множественое число ✍️ </h2>
               <div className="desc">Есть некоторые модели у ломанных (неправильных) множественных</div>
               <div className="items">
                 {/* <div className="item">
-                  <h2 className="h2ar">فِعَال</h2>
+                  <h2 className="h2ar">فِعَال </h2>
                   <div className="arsent">
                     <div className="arsent__original">
                       <span> كَبِير </span> -<span className="contrast"> كِبَار </span>
@@ -133,7 +133,7 @@ class PuralDualPage extends React.Component {
                   </div>
                 </div> */}
                 <div className="item">
-                  <h2 className="h2ar">فَعَلَةٌ</h2>
+                  <h2 className="h2ar">فَعَلَةٌ 💡</h2>
                   <div className="arsent">
                     <div className="arsent__original">
                       <span> طالِب </span> -<span className="contrast"> طَلَبَةٌ </span>
@@ -147,7 +147,7 @@ class PuralDualPage extends React.Component {
                   </div>
                 </div>
                 <div className="item">
-                  <h2 className="h2ar">فُعَلٌ</h2>
+                  <h2 className="h2ar">فُعَلٌ 💡</h2>
                   <div className="arsent">
                     <div className="arsent__original">
                       <span> نُسْخَةٌ </span> -<span className="contrast"> نُسَخٌ </span>
@@ -161,7 +161,7 @@ class PuralDualPage extends React.Component {
                   </div>
                 </div>
                 <div className="item">
-                  <h2 className="h2ar">فَعْلَى</h2>
+                  <h2 className="h2ar">فَعْلَى 💡</h2>
                   <div className="arsent">
                     <div className="arsent__original">
                       <span> مَرِيضٌ </span> -<span className="contrast"> مَرْضَى </span>

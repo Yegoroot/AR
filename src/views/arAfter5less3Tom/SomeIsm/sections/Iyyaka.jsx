@@ -4,7 +4,7 @@ import Word from 'components/word'
 export default function() {
   return (
     <>
-      <h2 className="h2ar title">إِيَّكَ</h2>
+      <h2 className="h2ar title">إِيَّكَ ✍️ </h2>
       <div className="desc">
         Это слово указывает на <b>предостережение</b>, предостерегаем собеседника от какого то момента. В предложении скрыт глагол
         <span className="desc__ar"> اِتَّقِ </span>, его не следует произносить потому что он явно следует из контекста. <br /> <br />

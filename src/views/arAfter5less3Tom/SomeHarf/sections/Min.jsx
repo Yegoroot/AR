@@ -3,7 +3,7 @@ import React from 'react'
 export default function() {
   return (
     <>
-      <h2 className="h2ar title"> مِنْ </h2>
+      <h2 className="h2ar title"> مِنْ ✍️ </h2>
       <div className="desc">
         Одна из вариаций частицы <span className="desc__ar"> مِنْ </span> это &nbsp;
         <span className="desc__ar" dir="rtl">

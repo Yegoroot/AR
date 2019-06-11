@@ -3,7 +3,7 @@ import React from 'react'
 export default function() {
   return (
     <>
-      <h2 className="h2ar title"> لَكِنَّ </h2>
+      <h2 className="h2ar title"> لَكِنَّ ✍️ </h2>
       <div className="desc">
         Частица <span className="desc__ar"> لَكِنَّ </span> указывает на исправление (<span className="desc__ar"> الاسْتِدْراك </span>)
         <b> "Но", "Однако", "Тем не менее" </b>

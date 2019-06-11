@@ -3,7 +3,7 @@ import React from 'react'
 export default function() {
   return (
     <>
-      <h2 className="h2ar title"> أَلا </h2>
+      <h2 className="h2ar title"> أَلا ✍️ </h2>
       <div className="desc">
         <b> Частица начинания </b> или <b> побуждение обратить внимание </b>
       </div>

@@ -39,7 +39,7 @@ class AbjectDegrees extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="title">Двухпадежность имён</h1>
+              <h1 className="title">Двухпадежность имён 🌴</h1>
 
               <div className="desc">
                 Имя без стандартного полного трехпадежного склонения <b className="desc__ar"> الْاِسْمُ الَّذِي لَا يَنْصَرِفُ </b>. Они
@@ -59,7 +59,7 @@ class AbjectDegrees extends React.Component {
                 </div>
               </div>
 
-              <h2 className="title">Склонение двухпадежных имён</h2>
+              <h2 className="title">Склонение двухпадежных имён ✍️ </h2>
 
               <div className="arsent">
                 <div className="arsent__original">مَدَارِسُ فَاطِمَةُ رَمَضَانُ</div>
@@ -80,7 +80,7 @@ class AbjectDegrees extends React.Component {
                 </div>
               </div>
 
-              <h2 className="title">Сила двух причин</h2>
+              <h2 className="title">Сила двух причин ✍️ </h2>
 
               <div className="desc">
                 Одного <b> ломанного множественного числа </b> или <b> некоренного алифа женского рода </b>
@@ -117,7 +117,7 @@ class AbjectDegrees extends React.Component {
                 <b> Множественное множественного числа </b> (предельное множественное) так же обладает двойной силой
               </div>
 
-              <h2 className="title">Другие причины</h2>
+              <h2 className="title">Другие причины ✍️ </h2>
 
               <h3 className="title">Имена собственные женские (وَتَأْنِيثٌ) или мужские с тамарбутой</h3>
               <div className="desc">

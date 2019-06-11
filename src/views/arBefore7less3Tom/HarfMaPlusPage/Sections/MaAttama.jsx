@@ -3,7 +3,7 @@ import React from 'react'
 function MaAttama() {
   return (
     <>
-      <h2 className="title h2ar">ما النَّكِرة التَّامة المبهَمةُ</h2>
+      <h2 className="title h2ar">ما النَّكِرة التَّامة المبهَمةُ ✍️ </h2>
 
       <div className="desc">
         <b>

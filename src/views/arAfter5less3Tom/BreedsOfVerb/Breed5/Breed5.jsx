@@ -35,7 +35,7 @@ class Breed5 extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="h1ar">(V) تَفَعَّلَ</h1>
+              <h1 className="h1ar">(V) تَفَعَّلَ 🌴</h1>
 
               <div className="desc">
                 К глаголу второй породы <b> (усиление, учащение или переходность) </b> прибавили <b className="desc__ar"> ت </b>. Так же
@@ -77,12 +77,12 @@ class Breed5 extends React.Component {
                 </div>
               </div>
 
-              <h2 className="title"> Шаблоны </h2>
+              <h2 className="title"> Шаблоны ✍️ </h2>
 
               <div className="items items_islabel">
                 <div className="item">
                   <span className="item__label">الماضي</span>
-                  <h2 className="h2ar ">تَفَعَّلَ</h2>
+                  <h2 className="h2ar ">تَفَعَّلَ </h2>
                   <div className="arsent">
                     <div className="arsent__original">
                       <span className="contrast">تَعَلَّمَ</span>
@@ -104,7 +104,7 @@ class Breed5 extends React.Component {
                 </div>
 
                 <div className="item">
-                  <h2 className="h2ar ">يَتَفَعَّلُ</h2>
+                  <h2 className="h2ar ">يَتَفَعَّلُ </h2>
                   <span className="item__label">المُضارِع</span>
                   <div className="arsent">
                     <div className="arsent__original contrast">يَتَعَلَّمُ</div>
@@ -122,7 +122,7 @@ class Breed5 extends React.Component {
 
                 <div className="item">
                   <span className="item__label">الأمر</span>
-                  <h2 className="h2ar ">تَفَعَّلْ</h2>
+                  <h2 className="h2ar ">تَفَعَّلْ </h2>
                   <div className="arsent">
                     <div className="arsent__original contrast"> تَعَلَّمْ </div>
                     <div className="arsent__translate">Обучайся</div>
@@ -139,7 +139,7 @@ class Breed5 extends React.Component {
 
                 <div className="item">
                   <span className="item__label"> اسم الفَاعِل </span>
-                  <h2 className="h2ar ">مُتَفَعِّلٌ</h2>
+                  <h2 className="h2ar ">مُتَفَعِّلٌ </h2>
                   <div className="arsent">
                     <div className="arsent__original">
                       <span className="contrast"> مُتَعَلِّمٌ </span>
@@ -156,7 +156,7 @@ class Breed5 extends React.Component {
 
                 <div className="item">
                   <span className="item__label">المصدر</span>
-                  <h2 className="h2ar ">تَفَعَّلٌ</h2>
+                  <h2 className="h2ar ">تَفَعَّلٌ </h2>
                   <div className="arsent">
                     <span className="arsent__original">
                       <span className="contrast"> تَعَلُّمٌ </span>
@@ -178,7 +178,7 @@ class Breed5 extends React.Component {
                 </div>
                 {/* 
                 <div className="item">
-                  <h2 className="h2ar ">مُفَعَّلٌ</h2>
+                  <h2 className="h2ar ">مُفَعَّلٌ   </h2>
                   <div className="arsent">
                     <div className="arsent__original">
                       <span> سَجَّلَ </span>-<span className="contrast"> مُسَجَّلٌ </span>
@@ -195,7 +195,7 @@ class Breed5 extends React.Component {
                 </div> */}
               </div>
 
-              <h2> Удаление одной ت </h2>
+              <h2 className="title"> Удаление одной ت ✍️ </h2>
 
               <div className="desc">
                 Разрешается удалять одну <b className="desc__ar"> ت </b> если она повторяеться но для этого должна быть причина. Например:
@@ -220,7 +220,7 @@ class Breed5 extends React.Component {
                 </div>
               </div>
 
-              {/* <h2 className="h2ar"> اسم مكان و زمان </h2>
+              {/* <h2 className="h2ar"> اسم مكان و زمان    </h2>
 
               <div className="desc">
                 Что касается
@@ -237,7 +237,7 @@ class Breed5 extends React.Component {
                 </div>
               </div>
 
-              <h2 className="title"> Примеры</h2>
+              <h2 className="title"> Примеры   </h2>
 
               <div className="arsent">
                 <div className="arsent__original">

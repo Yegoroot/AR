@@ -4,7 +4,7 @@ import React from 'react'
 export default function() {
   return (
     <>
-      <h2 className="title h2ar"> مصدر الهيئة </h2>
+      <h2 className="title h2ar"> مصدر الهيئة ✍️ </h2>
 
       <div className="desc">
         <b> Масдар образа </b> (مصدر الهَيْئَةِ) это тот масдар, который указывает на

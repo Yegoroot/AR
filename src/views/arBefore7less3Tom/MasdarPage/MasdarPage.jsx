@@ -38,7 +38,7 @@ class MasdarPage extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="title">Масдар</h1>
+              <h1 className="title">Масдар 🌴</h1>
 
               <div className="desc">
                 <b>Масдар это отглагольное существительное</b> и потому принимает артикль, танвин, та марбуту (
@@ -93,7 +93,7 @@ class MasdarPage extends React.Component {
               <h3 className="title">Некоторые шаблоны</h3>
               <div className="items">
                 <div className="item">
-                  <h2 className="h2ar">فَعْلٌ </h2>
+                  <h2 className="h2ar">فَعْلٌ 💡</h2>
 
                   <div className="arsent">
                     <div className="arsent__original">
@@ -111,7 +111,7 @@ class MasdarPage extends React.Component {
                   </div>
                 </div>
                 <div className="item">
-                  <h2 className="h2ar">فِعَال </h2>
+                  <h2 className="h2ar">فِعَال 💡</h2>
 
                   <div className="arsent">
                     <div className="arsent__original">
@@ -130,7 +130,7 @@ class MasdarPage extends React.Component {
                 </div>
 
                 <div className="item">
-                  <h2 className="h2ar"> فُعْل </h2>
+                  <h2 className="h2ar"> فُعْل 💡 </h2>
 
                   <div className="arsent">
                     <div className="arsent__original">
@@ -149,7 +149,7 @@ class MasdarPage extends React.Component {
                 </div>
 
                 <div className="item">
-                  <h2 className="h2ar"> فَعِلٌ </h2>
+                  <h2 className="h2ar"> فَعِلٌ 💡</h2>
 
                   <div className="arsent">
                     <div className="arsent__original">
@@ -165,7 +165,7 @@ class MasdarPage extends React.Component {
                 </div>
               </div>
 
-              <h2 className="title">Имя масдара</h2>
+              <h2 className="title">Имя масдара ✍️ </h2>
               <div className="desc">
                 <b>Имя масдара</b> это имя которое указывает на то, что указывает масдар, однако букв в нём меньше. Например
               </div>

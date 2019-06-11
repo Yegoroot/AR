@@ -31,7 +31,7 @@ class Breed4 extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="h1ar">(X) اِسْتَفْعَلَ</h1>
+              <h1 className="h1ar">(X) اِسْتَفْعَلَ 🌴</h1>
 
               <div className="desc">
                 <span className="desc__ar"> </span>
@@ -39,7 +39,7 @@ class Breed4 extends React.Component {
 
               <div className="items items_islabel">
                 <div className="item">
-                  {/* <h2 className="h2ar "> اِسْتَفْعَلَ </h2> */}
+                  {/* <h2 className="h2ar "> اِسْتَفْعَلَ  ✍️  </h2> */}
                   <span className="item__label">الماضي</span>
                   <div className="arsent">
                     <div className="arsent__original contrast"> اِسْتَقْبَلَ </div>
@@ -52,7 +52,7 @@ class Breed4 extends React.Component {
                 </div>
 
                 <div className="item">
-                  {/* <h2 className="h2ar "> يَسْتَفْعِلُ </h2> */}
+                  {/* <h2 className="h2ar "> يَسْتَفْعِلُ  ✍️  </h2> */}
                   <span className="item__label">المُضارِع</span>
                   <div className="arsent">
                     <div className="arsent__original contrast"> يَسْتَقْبِلُ </div>
@@ -65,7 +65,7 @@ class Breed4 extends React.Component {
                 </div>
 
                 <div className="item">
-                  {/* <h2 className="h2ar ">اِسْتَفْعِلْ </h2> */}
+                  {/* <h2 className="h2ar ">اِسْتَفْعِلْ  ✍️  </h2> */}
                   <span className="item__label">الأمر</span>
                   <div className="arsent">
                     <div className="arsent__original contrast"> اِسْتَقْبِلْ </div>
@@ -78,7 +78,7 @@ class Breed4 extends React.Component {
                 </div>
 
                 <div className="item">
-                  {/* <h2 className="h2ar "> اِسْتِفْعَالٌ </h2> */}
+                  {/* <h2 className="h2ar "> اِسْتِفْعَالٌ  ✍️  </h2> */}
                   <span className="item__label">المصدر</span>
                   <div className="arsent">
                     <div className="arsent__original contrast"> اِسْتِفْعَالٌ </div>
@@ -91,7 +91,7 @@ class Breed4 extends React.Component {
                 </div>
 
                 {/* <div className="item">
-                  <h2 className="h2ar "> </h2>
+                  <h2 className="h2ar ">  ✍️  </h2>
                   <span className="item__label"> اسم الفَاعِل </span>
                   <div className="arsent">
                     <div className="arsent__original contrast"> </div>
@@ -100,7 +100,7 @@ class Breed4 extends React.Component {
                 </div>
 
                 <div className="item">
-                  <h2 className="h2ar "> </h2>
+                  <h2 className="h2ar ">  ✍️  </h2>
                   <span className="item__label"> اسم المَفْعُول </span>
                   <div className="arsent">
                     <div className="arsent__original contrast"> </div>
@@ -109,7 +109,7 @@ class Breed4 extends React.Component {
                 </div> */}
               </div>
 
-              <h2 className="title"> Примеры</h2>
+              <h2 className="title"> Примеры ✍️ </h2>
 
               <div className="arsent">
                 <div className="arsent__original">

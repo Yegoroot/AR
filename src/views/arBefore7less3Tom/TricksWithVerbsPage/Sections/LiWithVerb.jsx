@@ -7,7 +7,7 @@ class LiWithVerb extends React.Component {
   render() {
     return (
       <div id="liWithVerbs">
-        <h2 className="title">Частица لِ с глаголами</h2>
+        <h2 className="title">Частица لِ с глаголами ✍️ </h2>
 
         <div className="desc">
           Отвечает на вопрос <b>"для чего?", "почему?", "по какой причине?"</b> . И так же убирает
