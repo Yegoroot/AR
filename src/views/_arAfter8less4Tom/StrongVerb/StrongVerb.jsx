@@ -34,7 +34,13 @@ class Page extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="title">Усиление глагола 🌴</h1>
+              <h1 className="title">
+                Усиление глагола{' '}
+                <span role="img" aria-label="Palm Tree">
+                  {' '}
+                  🌴{' '}
+                </span>
+              </h1>
               <div className="arsent">
                 <div className="arsent__original">
                   <span> إذا رأيتَ نُيُوبَ اللَّيْثِ بارِزَةً فلا </span>
@@ -152,7 +158,13 @@ class Page extends React.Component {
                   </div>
                 </div>
               </div>
-              <h2 className="title">Случаи когда можно усиливать глагол при помощи Нун ✍️</h2>
+              <h2 className="title">
+                Случаи когда можно усиливать глагол при помощи Нун{' '}
+                <span role="img" aria-label="Writing Hand">
+                  {' '}
+                  ✍️{' '}
+                </span>
+              </h2>
               <h3 className="title"> В приказе </h3>
               <div className="arsent">
                 <div className="arsent__original">
@@ -196,7 +208,13 @@ class Page extends React.Component {
                 </div>
               </div>
 
-              <h2 className="title">Усиление близко к обязательному ✍️</h2>
+              <h2 className="title">
+                Усиление близко к обязательному{' '}
+                <span role="img" aria-label="Writing Hand">
+                  {' '}
+                  ✍️{' '}
+                </span>
+              </h2>
               <div className="desc" dir="rtl">
                 Усиление становится близким к обязательному, если глагол настоящего времени приходит перед Имма-Условия <br />(
                 <b className="desc contrast_2">إمَّا</b>) <span className="desc"> الشَّرْطِيَّة </span>
@@ -210,7 +228,13 @@ class Page extends React.Component {
                 </div>
               </div>
 
-              <h2 className="title">Усиление обязательно ✍️</h2>
+              <h2 className="title">
+                Усиление обязательно{' '}
+                <span role="img" aria-label="Writing Hand">
+                  {' '}
+                  ✍️{' '}
+                </span>
+              </h2>
               <div className="desc" dir="rtl">
                 Усилие глагола обязательно если это ответ на клятву. Но для этого есть 3 условия, если одно из условий не соблюдается, то
                 усиливать запрещается

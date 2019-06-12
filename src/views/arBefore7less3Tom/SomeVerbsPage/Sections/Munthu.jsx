@@ -6,7 +6,13 @@ class Munthu extends React.Component {
   render() {
     return (
       <div id="munzu">
-        <h2 className="title h2ar">مُنْذُ ✍️ </h2>
+        <h2 className="title h2ar">
+          مُنْذُ{' '}
+          <span role="img" aria-label="Writing Hand">
+            {' '}
+            ✍️{' '}
+          </span>{' '}
+        </h2>
         <div className="desc">
           Главные смыслы <b>"тому назад", "до тех пор", "уже", "с (времени)"</b>
         </div>

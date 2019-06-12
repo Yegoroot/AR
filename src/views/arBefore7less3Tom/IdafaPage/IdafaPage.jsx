@@ -38,7 +38,13 @@ class IdafaPage extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="title">Несогласованное определение 🌴</h1>
+              <h1 className="title">
+                Несогласованное определение{' '}
+                <span role="img" aria-label="Palm Tree">
+                  {' '}
+                  🌴{' '}
+                </span>
+              </h1>
 
               <div className="desc">
                 Термин <span className="desc__ar"> الإَضَافَةُ </span> "идафа", который означает буквально <b>"присоединение"</b>, можно
@@ -51,7 +57,14 @@ class IdafaPage extends React.Component {
                 <div className="arsent__translate">Карандаш ученика</div>
               </div>
 
-              <h2 className="title"> Первая часть идафы ✍️ </h2>
+              <h2 className="title">
+                {' '}
+                Первая часть идафы{' '}
+                <span role="img" aria-label="Writing Hand">
+                  {' '}
+                  ✍️{' '}
+                </span>{' '}
+              </h2>
               <div className="desc">
                 <b> Не принимает ни танвина ни определенного артикля </b> т.е стоит в так называемом "сопряженном состоянии". В зависимости
                 от местоположения может быть в любом падеже
@@ -72,7 +85,13 @@ class IdafaPage extends React.Component {
                 </div>
               </div>
 
-              <h2 className="title">Вторая часть идафы ✍️ </h2>
+              <h2 className="title">
+                Вторая часть идафы{' '}
+                <span role="img" aria-label="Writing Hand">
+                  {' '}
+                  ✍️{' '}
+                </span>{' '}
+              </h2>
 
               <div className="desc">
                 Может стоять как в определенном состоянии так и в не определенном состоянии

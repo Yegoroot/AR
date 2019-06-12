@@ -11,7 +11,13 @@ class StartHamza extends React.Component {
   render() {
     return (
       <div id="dual">
-        <h2 className="title">Глагол начинается с хамзы ✍️ </h2>
+        <h2 className="title">
+          Глагол начинается с хамзы{' '}
+          <span role="img" aria-label="Writing Hand">
+            {' '}
+            ✍️{' '}
+          </span>{' '}
+        </h2>
 
         <div className="desc">
           Если глагол начинается с хамзы, например <span className="contrast"> أكَلَ </span>,<span className="contrast"> أخَذَ </span>, то в

@@ -31,7 +31,13 @@ class Breed4 extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="h1ar">(IV) أَفْعَلَ 🌴</h1>
+              <h1 className="h1ar">
+                (IV) أَفْعَلَ{' '}
+                <span role="img" aria-label="Palm Tree">
+                  {' '}
+                  🌴{' '}
+                </span>
+              </h1>
 
               <div className="desc">
                 Добавлена одна служебная буква <span className="desc__ar"> (ء) </span> в начале, может делать глагол переходным, а может
@@ -183,7 +189,14 @@ class Breed4 extends React.Component {
                 </div>
               </div>
 
-              <h2 className="title"> Примеры ✍️ </h2>
+              <h2 className="title">
+                {' '}
+                Примеры{' '}
+                <span role="img" aria-label="Writing Hand">
+                  {' '}
+                  ✍️{' '}
+                </span>{' '}
+              </h2>
 
               <div className="arsent">
                 <div className="arsent__original">

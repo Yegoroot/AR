@@ -3,7 +3,13 @@ import React from 'react'
 export default function() {
   return (
     <>
-      <h2 className="title h2ar">لا العاطِفَةُ ✍️ </h2>
+      <h2 className="title h2ar">
+        لا العاطِفَةُ{' '}
+        <span role="img" aria-label="Writing Hand">
+          {' '}
+          ✍️{' '}
+        </span>{' '}
+      </h2>
 
       <div className="desc">
         Союзная <span className="desc__ar"> لا </span>. Используется чтоб <b> вывести второе из того на что указывает первая часть </b> .

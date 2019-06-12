@@ -3,7 +3,14 @@ import React from 'react'
 function Asbaha() {
   return (
     <div id="samaha">
-      <h2 className="title h2ar"> أَوْشَكَ من أخَوَاتِ كان ✍️ </h2>
+      <h2 className="title h2ar">
+        {' '}
+        أَوْشَكَ من أخَوَاتِ كان{' '}
+        <span role="img" aria-label="Writing Hand">
+          {' '}
+          ✍️{' '}
+        </span>{' '}
+      </h2>
       <div className="desc">
         Глагол <span className="desc__ar"> أَوْشَكَ </span> <span className="desc__ar"> قُرُبَ </span> (приблизился) относится к сестрам
         <span className="desc__ar"> كان </span> и требует частицу <span className="desc__ar"> أن </span> и глагол

@@ -62,7 +62,14 @@ class Page extends React.Component {
         </Parallax>
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
-            <h1 clssName="title"> Дополнительная информация 📌</h1>
+            <h1 clssName="title">
+              {' '}
+              Дополнительная информация{' '}
+              <span role="img" aria-label="Pushpin">
+                {' '}
+                📌{' '}
+              </span>
+            </h1>
             <div className="desc">
               Так как этот ресурс <b>не является учебником</b>, но является некиим <b>справочником Мединского Курса</b>, то к нему возможно
               обращатся в процессе обучения самому Мединскому Курсу
@@ -83,7 +90,7 @@ class Page extends React.Component {
                     iconColor="info"
                     vertical
                     link={() => (
-                      <a target="blank" href="http://nuruliman.ru/">
+                      <a className="link" target="blank" href="http://nuruliman.ru/">
                         Ссылка на сайт
                       </a>
                     )}
@@ -97,7 +104,7 @@ class Page extends React.Component {
                     iconColor="warning"
                     vertical
                     link={() => (
-                      <a target="blank" href="https://vk.com/arabskiyazik">
+                      <a className="link" target="blank" href="https://vk.com/arabskiyazik">
                         Ссылка на его вк группу
                       </a>
                     )}
@@ -111,7 +118,7 @@ class Page extends React.Component {
                     iconColor="info"
                     vertical
                     link={() => (
-                      <a target="blank" href="https://arabic-school.org/">
+                      <a className="link" target="blank" href="https://arabic-school.org/">
                         Ссылка на сайт
                       </a>
                     )}
@@ -125,7 +132,7 @@ class Page extends React.Component {
                     iconColor="success"
                     vertical
                     link={() => (
-                      <a href="https://www.youtube.com/channel/UCa6GjWb8qEKQQCimkEWbTLQ" target="blank">
+                      <a className="link" href="https://www.youtube.com/channel/UCa6GjWb8qEKQQCimkEWbTLQ" target="blank">
                         Ссылка канал в ютубе
                       </a>
                     )}
@@ -141,7 +148,10 @@ class Page extends React.Component {
                     iconColor="primary"
                     vertical
                     link={() => (
-                      <a href="https://drive.google.com/file/d/13OTkM3n16ce4kDNobxPheUFVTnA4GCZp/view?usp=sharing" target="blank">
+                      <a
+                        className="link"
+                        href="https://drive.google.com/file/d/13OTkM3n16ce4kDNobxPheUFVTnA4GCZp/view?usp=sharing"
+                        target="blank">
                         Ссылка на учебник
                       </a>
                     )}
@@ -156,6 +166,7 @@ class Page extends React.Component {
                     vertical
                     link={() => (
                       <a
+                        className="link"
                         href="http://tenishcenter.ru/%D0%B0%D1%80%D0%B0%D0%B1%D1%81%D0%BA%D0%B8%D0%B9-%D1%8F%D0%B7%D1%8B%D0%BA/"
                         target="blank">
                         Ссылка на программу центра

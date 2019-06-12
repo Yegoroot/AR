@@ -31,7 +31,13 @@ class Page extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="h1ar">ظَرْف إذا 🌴</h1>
+              <h1 className="h1ar">
+                ظَرْف إذا{' '}
+                <span role="img" aria-label="Palm Tree">
+                  {' '}
+                  🌴{' '}
+                </span>
+              </h1>
 
               <div className="desc">
                 <span className="desc__ar contrast"> إذا </span> (когда) это обстоятельство времени, которое содержит в себе смысл условия.
@@ -60,7 +66,14 @@ class Page extends React.Component {
                 </div>
               </div>
 
-              <h2 className="title"> Важное правило ✍️ </h2>
+              <h2 className="title">
+                {' '}
+                Важное правило{' '}
+                <span role="img" aria-label="Writing Hand">
+                  {' '}
+                  ✍️{' '}
+                </span>{' '}
+              </h2>
 
               <AnimateCard>
                 <div className="arsent arsent_rule">
@@ -151,7 +164,14 @@ class Page extends React.Component {
                 </div>
               </div>
 
-              <h2 className="title"> Другие примеры с إذا ✍️ </h2>
+              <h2 className="title">
+                {' '}
+                Другие примеры с إذا{' '}
+                <span role="img" aria-label="Writing Hand">
+                  {' '}
+                  ✍️{' '}
+                </span>{' '}
+              </h2>
 
               <div className="arsent">
                 <div className="arsent__original">

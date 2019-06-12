@@ -11,6 +11,18 @@ const simpleArticle = {
     position: 'relative',
     zIndex: '3'
   },
+  navWrapper: {
+    '& a': {
+      color: 'inherit',
+      backgroundColor: 'rgba(187, 239, 253, 0.14)',
+      borderBottom: '1px solid',
+      paddingRight: 3,
+      paddingLeft: 3,
+      '&:hover': {
+        backgroundColor: '#bbeffd'
+      }
+    }
+  },
   mainRaised: {
     margin: '-60px 30px 0px',
     '@media (max-width: 520px)': {

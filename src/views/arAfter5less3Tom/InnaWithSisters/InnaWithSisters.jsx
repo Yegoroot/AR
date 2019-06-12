@@ -37,7 +37,13 @@ class InnaWithSisters extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="title">Частица إِنَّ и ее сестры 🌴</h1>
+              <h1 className="title">
+                Частица إِنَّ и ее сестры{' '}
+                <span role="img" aria-label="Palm Tree">
+                  {' '}
+                  🌴{' '}
+                </span>
+              </h1>
               <div className="desc">
                 Эти предлоги внедряются в именное предложение перед подлежащим (<span className="desc__ar"> المُبْتَدأ </span>) и сказуемым
                 (<span className="desc__ar"> الخَبَر </span>). Ставят (<span className="desc__ar"> المُبْتَدأ </span>) в винительный падеж (

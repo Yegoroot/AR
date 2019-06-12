@@ -36,10 +36,22 @@ class Page extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="title">Формы удивления 🌴</h1>
+              <h1 className="title">
+                Формы удивления{' '}
+                <span role="img" aria-label="Palm Tree">
+                  {' '}
+                  🌴{' '}
+                </span>
+              </h1>
               <div className="desc">В арабском существует две классические формы (модели) удивления.</div>
 
-              <h2 className="h2ar">ما أفْعَلَهُ ✍️</h2>
+              <h2 className="h2ar">
+                ما أفْعَلَهُ{' '}
+                <span role="img" aria-label="Writing Hand">
+                  {' '}
+                  ✍️{' '}
+                </span>
+              </h2>
 
               <div className="arsent">
                 <div className="arsent__original" dir="rtl">
@@ -50,7 +62,13 @@ class Page extends React.Component {
                 <div className="arsent__translate">Какая красивая машина!</div>
               </div>
 
-              <h2 className="h2ar">أفْعِلْ بِهِ! ✍️</h2>
+              <h2 className="h2ar">
+                أفْعِلْ بِهِ!{' '}
+                <span role="img" aria-label="Writing Hand">
+                  {' '}
+                  ✍️{' '}
+                </span>
+              </h2>
 
               <div className="arsent">
                 <div className="arsent__original" dir="rtl">

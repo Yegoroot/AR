@@ -33,7 +33,13 @@ class SimilarityMaful extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="title">Схожесть стр. залога и мафъуль 🌴</h1>
+              <h1 className="title">
+                Схожесть стр. залога и мафъуль{' '}
+                <span role="img" aria-label="Palm Tree">
+                  {' '}
+                  🌴{' '}
+                </span>
+              </h1>
               <div className="desc" />
 
               <div className="arsent">

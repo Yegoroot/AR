@@ -31,7 +31,13 @@ class Breed6 extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="h1ar">(VI) تَفَاعَلَ 🌴</h1>
+              <h1 className="h1ar">
+                (VI) تَفَاعَلَ{' '}
+                <span role="img" aria-label="Palm Tree">
+                  {' '}
+                  🌴{' '}
+                </span>
+              </h1>
 
               <div className="desc">
                 Его основные значения - <b> взаимность действия </b>; <b> взаимное чередование </b>; Так же имеет значение
@@ -103,7 +109,14 @@ class Breed6 extends React.Component {
                 </div>
               </div>
 
-              <h2 className="title"> Примеры ✍️ </h2>
+              <h2 className="title">
+                {' '}
+                Примеры{' '}
+                <span role="img" aria-label="Writing Hand">
+                  {' '}
+                  ✍️{' '}
+                </span>{' '}
+              </h2>
 
               <div className="arsent">
                 <div className="arsent__original">

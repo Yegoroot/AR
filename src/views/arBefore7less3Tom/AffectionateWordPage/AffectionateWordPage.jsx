@@ -38,13 +38,26 @@ class AffectionateWordPage extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="title">Уменьшительно ласкательные 🌴</h1>
+              <h1 className="title">
+                Уменьшительно ласкательные{' '}
+                <span role="img" aria-label="Palm Tree">
+                  {' '}
+                  🌴{' '}
+                </span>
+              </h1>
 
               <div className="desc">Существуют три модели уменьшительно ласкательных имён</div>
 
               <div className="items">
                 <div className="item">
-                  <h2 className="title h2ar"> فُعَيْلُ 💡</h2>
+                  <h2 className="title h2ar">
+                    {' '}
+                    فُعَيْلُ{' '}
+                    <span role="img" aria-label="Light Bulb">
+                      {' '}
+                      💡{' '}
+                    </span>
+                  </h2>
                   <div className="arsent">
                     <div className="arsent__original">
                       <span className="contrast"> وُلَيْدُ </span>: وَلَدُ صَغِير
@@ -65,7 +78,14 @@ class AffectionateWordPage extends React.Component {
                   </div>
                 </div>
                 <div className="item">
-                  <h2 className="title h2ar"> فُعَيْعِل 💡</h2>
+                  <h2 className="title h2ar">
+                    {' '}
+                    فُعَيْعِل{' '}
+                    <span role="img" aria-label="Light Bulb">
+                      {' '}
+                      💡{' '}
+                    </span>
+                  </h2>
                   <div className="arsent">
                     <div className="arsent__original">
                       <span className="contrast"> فُنَيْدِق </span> من فُنْدُق
@@ -86,7 +106,14 @@ class AffectionateWordPage extends React.Component {
                   </div>
                 </div>
                 <div className="item">
-                  <h2 className="title h2ar"> فُعَيْعِيل 💡</h2>
+                  <h2 className="title h2ar">
+                    {' '}
+                    فُعَيْعِيل{' '}
+                    <span role="img" aria-label="Light Bulb">
+                      {' '}
+                      💡{' '}
+                    </span>
+                  </h2>
                   <div className="arsent">
                     <div className="arsent__original">
                       <span className="contrast"> مُفَيْتِيحُ </span> من مِفْتاح

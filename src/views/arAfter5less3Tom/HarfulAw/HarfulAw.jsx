@@ -30,7 +30,13 @@ class HarfulAw extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="title h1ar">حرف لو 🌴</h1>
+              <h1 className="title h1ar">
+                حرف لو{' '}
+                <span role="img" aria-label="Palm Tree">
+                  {' '}
+                  🌴{' '}
+                </span>
+              </h1>
               <div className="desc">
                 Частица لو (если, если бы) обозначает три вещи:
                 <p>
@@ -68,7 +74,14 @@ class HarfulAw extends React.Component {
                 <div className="arsent__translate">Если бы ты присутствовал вчера, то я бы не пожаловался директору</div>
               </div>
 
-              <h2 className="h2ar"> ولو ✍️ </h2>
+              <h2 className="h2ar">
+                {' '}
+                ولو{' '}
+                <span role="img" aria-label="Writing Hand">
+                  {' '}
+                  ✍️{' '}
+                </span>{' '}
+              </h2>
               <div className="arsent">
                 <div className="arsent__original">
                   <span> اُحْضُرْ الامْتِحانَ </span>

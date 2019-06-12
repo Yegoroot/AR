@@ -3,7 +3,17 @@ import { container, title } from 'assets/jss/material-kit-react.jsx'
 const landingPageStyle = {
   container: {
     zIndex: '12',
-    ...container
+    ...container,
+    '& a.link': {
+      color: 'inherit',
+      backgroundColor: 'rgba(187, 239, 253, 0.44)',
+      borderBottom: '1px solid',
+      paddingRight: 3,
+      paddingLeft: 3,
+      '&:hover': {
+        backgroundColor: '#bbeffd'
+      }
+    }
   },
   section: {
     textAlign: 'center'

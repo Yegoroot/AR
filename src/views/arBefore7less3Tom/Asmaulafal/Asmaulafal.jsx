@@ -39,7 +39,13 @@ class Asmaulafal extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="title h1ar">اسْماءُ الافِعال 🌴</h1>
+              <h1 className="title h1ar">
+                اسْماءُ الافِعال{' '}
+                <span role="img" aria-label="Palm Tree">
+                  {' '}
+                  🌴{' '}
+                </span>
+              </h1>
 
               <div className="desc">
                 <b>Не является глаголом, но смысл глагола</b>, не склоняется во временах. Бывает некоторые существуют в одном времени, но не

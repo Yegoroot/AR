@@ -3,7 +3,14 @@ import React from 'react'
 export default function() {
   return (
     <>
-      <h2 className="title h2ar"> أَخُصُّ ✍️ </h2>
+      <h2 className="title h2ar">
+        {' '}
+        أَخُصُّ{' '}
+        <span role="img" aria-label="Writing Hand">
+          {' '}
+          ✍️{' '}
+        </span>{' '}
+      </h2>
       <div className="desc">
         Подразумеваемый глагол <span className="desc__ar"> المَخصُوص </span> в данном случае <div className="desc__ar"> أَخُصُّ </div>
         <b> (я имею ввиду, подразумеваю)</b> ставит существительное в насб (винительный падеж), а сам глагол мы удаляем за ненадобностью (он

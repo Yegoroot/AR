@@ -35,7 +35,13 @@ class AlMafuluFihi extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="h1ar">(II) فَعَّلَ 🌴</h1>
+              <h1 className="h1ar">
+                (II) فَعَّلَ{' '}
+                <span role="img" aria-label="Palm Tree">
+                  {' '}
+                  🌴{' '}
+                </span>
+              </h1>
 
               <div className="desc">
                 Прибавлена одна служебная буква. Имеет значения: <b> Учащение </b> <b className="desc__ar"> (التَكْثِيرُ) </b> или
@@ -81,7 +87,14 @@ class AlMafuluFihi extends React.Component {
                 </div>
               </div>
 
-              <h2 className="title"> Шаблоны ✍️ </h2>
+              <h2 className="title">
+                {' '}
+                Шаблоны{' '}
+                <span role="img" aria-label="Writing Hand">
+                  {' '}
+                  ✍️{' '}
+                </span>{' '}
+              </h2>
 
               <div className="items items_islabel">
                 <div className="item">
@@ -182,7 +195,14 @@ class AlMafuluFihi extends React.Component {
                 </div>
               </div>
 
-              <h2 className="h2ar"> اسم مكان و زمان ✍️ </h2>
+              <h2 className="h2ar">
+                {' '}
+                اسم مكان و زمان{' '}
+                <span role="img" aria-label="Writing Hand">
+                  {' '}
+                  ✍️{' '}
+                </span>{' '}
+              </h2>
 
               <div className="desc">
                 Что касается
@@ -199,7 +219,14 @@ class AlMafuluFihi extends React.Component {
                 </div>
               </div>
 
-              <h2 className="title"> Примеры ✍️ </h2>
+              <h2 className="title">
+                {' '}
+                Примеры{' '}
+                <span role="img" aria-label="Writing Hand">
+                  {' '}
+                  ✍️{' '}
+                </span>{' '}
+              </h2>
 
               <div className="arsent">
                 <div className="arsent__original">

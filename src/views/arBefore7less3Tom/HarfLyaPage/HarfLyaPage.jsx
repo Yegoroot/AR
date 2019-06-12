@@ -36,7 +36,13 @@ class SoglasovOpr extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="title h1ar">حرف لا 🌴</h1>
+              <h1 className="title h1ar">
+                حرف لا{' '}
+                <span role="img" aria-label="Palm Tree">
+                  {' '}
+                  🌴{' '}
+                </span>
+              </h1>
               <LyaNafia />
               <LyaNahia />
               <LyaInPast />

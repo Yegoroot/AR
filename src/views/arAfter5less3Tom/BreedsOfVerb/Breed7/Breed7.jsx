@@ -30,7 +30,13 @@ class Breed7 extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="h1ar">(VII) انْفَعَلَ 🌴</h1>
+              <h1 className="h1ar">
+                (VII) انْفَعَلَ{' '}
+                <span role="img" aria-label="Palm Tree">
+                  {' '}
+                  🌴{' '}
+                </span>
+              </h1>
 
               <div className="desc">
                 Приходит со значением <b> возвратности </b> <b className="desc__ar"> المُطَاوَعَة </b>. Иногда переходит к страдательное.
@@ -75,7 +81,13 @@ class Breed7 extends React.Component {
                 <div className="arsent__translate">А обратились мушрики в бегство?</div>
               </div>
 
-              <h2 className="title">Шаблоны ✍️ </h2>
+              <h2 className="title">
+                Шаблоны{' '}
+                <span role="img" aria-label="Writing Hand">
+                  {' '}
+                  ✍️{' '}
+                </span>{' '}
+              </h2>
 
               <div className="items items_islabel">
                 <div className="item">
@@ -135,7 +147,13 @@ class Breed7 extends React.Component {
                 </div>
               </div>
 
-              <h2 className="title">Примеры ✍️ </h2>
+              <h2 className="title">
+                Примеры{' '}
+                <span role="img" aria-label="Writing Hand">
+                  {' '}
+                  ✍️{' '}
+                </span>{' '}
+              </h2>
               <div className="arsent">
                 <div className="arsent__original">
                   <span> وَقَعَ الكُوبُ على الأرض و </span>

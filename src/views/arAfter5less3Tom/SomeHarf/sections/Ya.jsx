@@ -3,7 +3,14 @@ import React from 'react'
 export default function() {
   return (
     <>
-      <h2 className="h2ar title"> ياء المُتَكَلِّم ✍️ </h2>
+      <h2 className="h2ar title">
+        {' '}
+        ياء المُتَكَلِّم{' '}
+        <span role="img" aria-label="Writing Hand">
+          {' '}
+          ✍️{' '}
+        </span>{' '}
+      </h2>
       <div className="desc">
         Усечение притяжательного местоимения первого лица. Так же
         <span className="desc__ar"> ياء المتكلِم </span> может исчезать у глаголов

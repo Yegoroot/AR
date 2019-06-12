@@ -34,7 +34,13 @@ class HarfDenyPage extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="title">Отрицательные частицы 🌴</h1>
+              <h1 className="title">
+                Отрицательные частицы{' '}
+                <span role="img" aria-label="Palm Tree">
+                  {' '}
+                  🌴{' '}
+                </span>
+              </h1>
               <div className="desc">
                 Частица
                 <span className="desc__ar contrast"> قَطُّ </span>- для прошедшего времени ( <b> не делал никогда до этого момента </b> ). В

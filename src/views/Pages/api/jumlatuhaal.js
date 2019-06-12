@@ -26,7 +26,7 @@ export default {
   время как само оно именное
 </p>
 
-<h2 className="h2ar">الحال ✍️  </h2>
+<h2 className="h2ar">الحال <span role="img" aria-label="Writing Hand"> ✍️ </span>  </h2>
 
 <div className="arsent">
   <div className="arsent__original">
@@ -56,7 +56,7 @@ export default {
   </div>
 </div>
 
-<h2 className="h2ar">جملة الحال  ✍️  </h2>
+<h2 className="h2ar">جملة الحال  <span role="img" aria-label="Writing Hand"> ✍️ </span>  </h2>
 
 <div className="desc">
   <span className="desc__ar">جملة الحال</span> соединяется с помощью

@@ -40,7 +40,13 @@ class IsmulMakanWaZamanPage extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="title h1ar">اسم مكان و زمان 🌴</h1>
+              <h1 className="title h1ar">
+                اسم مكان و زمان{' '}
+                <span role="img" aria-label="Palm Tree">
+                  {' '}
+                  🌴{' '}
+                </span>
+              </h1>
 
               <p className="desc">
                 В грамматическом правиле для примера возьмем слово
@@ -82,7 +88,13 @@ class IsmulMakanWaZamanPage extends React.Component {
                   </div>
                 </div>
               </AnimateCard>
-              <h2 className="h2ar">مَفْعَلٍ ✍️ </h2>
+              <h2 className="h2ar">
+                مَفْعَلٍ{' '}
+                <span role="img" aria-label="Writing Hand">
+                  {' '}
+                  ✍️{' '}
+                </span>{' '}
+              </h2>
 
               <p className="desc">
                 <b> 1) </b> Если
@@ -122,7 +134,13 @@ class IsmulMakanWaZamanPage extends React.Component {
                 </div>
               </div>
 
-              <h2 className="h2ar">مَفْعِلٍ ✍️ </h2>
+              <h2 className="h2ar">
+                مَفْعِلٍ{' '}
+                <span role="img" aria-label="Writing Hand">
+                  {' '}
+                  ✍️{' '}
+                </span>{' '}
+              </h2>
               <p className="desc">
                 <b> 1) </b> Если в настоящем времени правильный глагол
                 <b> с кясрой</b> <br />

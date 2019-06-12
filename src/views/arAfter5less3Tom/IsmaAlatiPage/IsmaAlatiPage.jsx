@@ -39,7 +39,13 @@ class IsmaAlatiPage extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="title h1ar">اسم آلة 🌴</h1>
+              <h1 className="title h1ar">
+                اسم آلة{' '}
+                <span role="img" aria-label="Palm Tree">
+                  {' '}
+                  🌴{' '}
+                </span>
+              </h1>
 
               <AnimateCard>
                 <div className="arsent arsent_rule">
@@ -80,7 +86,13 @@ class IsmaAlatiPage extends React.Component {
 
               <div className="items">
                 <div className="item">
-                  <h2 className="h2ar">مِفْعَالٌ 💡 </h2>
+                  <h2 className="h2ar">
+                    مِفْعَالٌ{' '}
+                    <span role="img" aria-label="Light Bulb">
+                      {' '}
+                      💡{' '}
+                    </span>{' '}
+                  </h2>
                   <div className="arsent">
                     <div className="arsent__original">
                       فَتَحَ يَفْتَحُ
@@ -102,7 +114,13 @@ class IsmaAlatiPage extends React.Component {
                 </div>
 
                 <div className="item">
-                  <h2 className="h2ar">مِفْعَلٌ 💡 </h2>
+                  <h2 className="h2ar">
+                    مِفْعَلٌ{' '}
+                    <span role="img" aria-label="Light Bulb">
+                      {' '}
+                      💡{' '}
+                    </span>{' '}
+                  </h2>
                   <div className="arsent">
                     <div className="arsent__original">
                       بَرَدَ يَبْرُدُ
@@ -123,7 +141,13 @@ class IsmaAlatiPage extends React.Component {
                   </div>
                 </div>
                 <div className="item">
-                  <h2 className="h2ar">مفْعَلَةٌ 💡</h2>
+                  <h2 className="h2ar">
+                    مفْعَلَةٌ{' '}
+                    <span role="img" aria-label="Light Bulb">
+                      {' '}
+                      💡{' '}
+                    </span>
+                  </h2>
                   <div className="arsent">
                     <div className="arsent__original">
                       لَعِقَ يَلْعَقٌ

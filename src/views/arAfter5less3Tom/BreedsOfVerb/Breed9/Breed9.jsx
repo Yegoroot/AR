@@ -31,7 +31,13 @@ class Breed4 extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="h1ar">(IX) اِفْعَلَّ 🌴</h1>
+              <h1 className="h1ar">
+                (IX) اِفْعَلَّ{' '}
+                <span role="img" aria-label="Palm Tree">
+                  {' '}
+                  🌴{' '}
+                </span>
+              </h1>
 
               <div className="desc">
                 Перед первой коренной приходит хамза, а третья кореная удваивается. По своему значению эта порода указывает на
@@ -53,7 +59,7 @@ class Breed4 extends React.Component {
 
               <div className="items items_islabel">
                 <div className="item">
-                  {/* <h2 className="h2ar "> اِفْعَلَّ  ✍️  </h2> */}
+                  {/* <h2 className="h2ar "> اِفْعَلَّ  <span role="img" aria-label="Writing Hand"> ✍️ </span>  </h2> */}
                   <span className="item__label">الماضي</span>
                   <div className="arsent">
                     <div className="arsent__original contrast"> اِحْمَرَّ </div>
@@ -62,7 +68,7 @@ class Breed4 extends React.Component {
                 </div>
 
                 <div className="item">
-                  {/* <h2 className="h2ar "> يَفْعَلُّ  ✍️  </h2>*/}
+                  {/* <h2 className="h2ar "> يَفْعَلُّ  <span role="img" aria-label="Writing Hand"> ✍️ </span>  </h2>*/}
                   <span className="item__label">المُضارِع</span>
                   <div className="arsent">
                     <div className="arsent__original contrast"> يَحْمَرُّ </div>
@@ -71,7 +77,7 @@ class Breed4 extends React.Component {
                 </div>
 
                 <div className="item">
-                  {/* <h2 className="h2ar "> اِفْعِلالٌ  ✍️  </h2>  */}
+                  {/* <h2 className="h2ar "> اِفْعِلالٌ  <span role="img" aria-label="Writing Hand"> ✍️ </span>  </h2>  */}
                   <span className="item__label">المصدر</span>
                   <div className="arsent">
                     <div className="arsent__original contrast"> اِحْمِرَارٌ </div>
@@ -80,7 +86,7 @@ class Breed4 extends React.Component {
                 </div>
 
                 <div className="item">
-                  {/* <h2 className="h2ar ">  ✍️  </h2> */}
+                  {/* <h2 className="h2ar ">  <span role="img" aria-label="Writing Hand"> ✍️ </span>  </h2> */}
                   <span className="item__label"> اسم الفَاعِل </span>
                   <div className="arsent">
                     <div className="arsent__original contrast"> مُحْمَرٌ </div>
@@ -89,7 +95,14 @@ class Breed4 extends React.Component {
                 </div>
               </div>
 
-              <h2 className="title"> Примеры ✍️ </h2>
+              <h2 className="title">
+                {' '}
+                Примеры{' '}
+                <span role="img" aria-label="Writing Hand">
+                  {' '}
+                  ✍️{' '}
+                </span>{' '}
+              </h2>
 
               <div className="arsent">
                 <div className="arsent__original">

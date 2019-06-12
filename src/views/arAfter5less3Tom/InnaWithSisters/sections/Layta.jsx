@@ -3,7 +3,13 @@ import React from 'react'
 export default function() {
   return (
     <>
-      <h2 className="h2ar title">لَيْتَ ✍️ </h2>
+      <h2 className="h2ar title">
+        لَيْتَ{' '}
+        <span role="img" aria-label="Writing Hand">
+          {' '}
+          ✍️{' '}
+        </span>{' '}
+      </h2>
       <div className="desc">
         Частица
         <span className="desc__ar"> لَيْتَ </span> обозначает несбыточное желание или почти не сбыточное

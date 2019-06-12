@@ -3,7 +3,14 @@ import React from 'react'
 export default function() {
   return (
     <>
-      <h2 className="h2ar title"> هَلّا ✍️ </h2>
+      <h2 className="h2ar title">
+        {' '}
+        هَلّا{' '}
+        <span role="img" aria-label="Writing Hand">
+          {' '}
+          ✍️{' '}
+        </span>{' '}
+      </h2>
       <div className="desc">
         Частица <b>побуждения действию</b> или частицы <b>сожаления</b>. Если приходит перед глаголом настоящего времени, то
         <i> побуждает к действию</i>, если приходит перед глаголом прошедшего времени, то <i> выражает сожаление</i>.

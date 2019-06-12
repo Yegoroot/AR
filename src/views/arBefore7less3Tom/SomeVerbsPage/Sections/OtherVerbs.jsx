@@ -5,7 +5,13 @@ import Word from 'components/word'
 function OtherVerbs() {
   return (
     <div id="OtherVerbs">
-      <h2 className="title h2ar">كَادَ - يَكَادُ ✍️ </h2>
+      <h2 className="title h2ar">
+        كَادَ - يَكَادُ{' '}
+        <span role="img" aria-label="Writing Hand">
+          {' '}
+          ✍️{' '}
+        </span>{' '}
+      </h2>
 
       <div className="arsent">
         <div className="arsent__original">
@@ -16,7 +22,13 @@ function OtherVerbs() {
         </div>
       </div>
 
-      <h2 className="title h2ar">رَجَا - يَرْجُو ✍️ </h2>
+      <h2 className="title h2ar">
+        رَجَا - يَرْجُو{' '}
+        <span role="img" aria-label="Writing Hand">
+          {' '}
+          ✍️{' '}
+        </span>{' '}
+      </h2>
 
       <div className="arsent">
         <div className="arsent__original">
@@ -28,7 +40,14 @@ function OtherVerbs() {
         </div>
       </div>
 
-      <h2 className="title h2ar "> ليس ✍️ </h2>
+      <h2 className="title h2ar ">
+        {' '}
+        ليس{' '}
+        <span role="img" aria-label="Writing Hand">
+          {' '}
+          ✍️{' '}
+        </span>{' '}
+      </h2>
       <div className="desc">
         Глагол прошедшего времени, который используется для отрицания в настоящем времени, спрягается только в прошедшем времени
       </div>

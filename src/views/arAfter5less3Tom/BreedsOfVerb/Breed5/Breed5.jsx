@@ -35,11 +35,17 @@ class Breed5 extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="h1ar">(V) تَفَعَّلَ 🌴</h1>
+              <h1 className="h1ar">
+                (V) تَفَعَّلَ{' '}
+                <span role="img" aria-label="Palm Tree">
+                  {' '}
+                  🌴{' '}
+                </span>
+              </h1>
 
               <div className="desc">
-                К глаголу второй породы <b> (усиление, учащение или переходность) </b> прибавили <b className="desc__ar"> ت </b>. Так же
-                значит <b> постепенность </b> (брал знания шаг за шагом)
+                К глаголу второй породы <b> (усиление, учащение или переходность) </b> прибавили <b className="desc__ar"> ت </b>{' '}
+                возвратности на сам объект. Так же значит <b> постепенность </b> (брал знания шаг за шагом)
                 <br />
                 <br />
                 <b className="desc__ar"> تَفَعَّلَ = ت + فَعَّلَ </b> и эта <b className="desc__ar"> ت </b> указывает на возвратность на сам
@@ -77,7 +83,14 @@ class Breed5 extends React.Component {
                 </div>
               </div>
 
-              <h2 className="title"> Шаблоны ✍️ </h2>
+              <h2 className="title">
+                {' '}
+                Шаблоны{' '}
+                <span role="img" aria-label="Writing Hand">
+                  {' '}
+                  ✍️{' '}
+                </span>{' '}
+              </h2>
 
               <div className="items items_islabel">
                 <div className="item">
@@ -195,7 +208,14 @@ class Breed5 extends React.Component {
                 </div> */}
               </div>
 
-              <h2 className="title"> Удаление одной ت ✍️ </h2>
+              <h2 className="title">
+                {' '}
+                Удаление одной ت{' '}
+                <span role="img" aria-label="Writing Hand">
+                  {' '}
+                  ✍️{' '}
+                </span>{' '}
+              </h2>
 
               <div className="desc">
                 Разрешается удалять одну <b className="desc__ar"> ت </b> если она повторяеться но для этого должна быть причина. Например:

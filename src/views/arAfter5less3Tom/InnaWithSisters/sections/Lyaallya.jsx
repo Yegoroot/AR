@@ -3,7 +3,14 @@ import React from 'react'
 export default function() {
   return (
     <>
-      <h2 className="h2ar title"> لَعَلَّ ✍️ </h2>
+      <h2 className="h2ar title">
+        {' '}
+        لَعَلَّ{' '}
+        <span role="img" aria-label="Writing Hand">
+          {' '}
+          ✍️{' '}
+        </span>{' '}
+      </h2>
       <div className="desc">
         Частица <span className="desc__ar"> لَعَلَّ </span> указывает на надежду (<span className="desc__ar"> التَرَجِّيَ </span>) или
         боязнь (<span className="desc__ar"> الإِشْفَاق </span>)<b> "Надеюсь", "Боюсь" </b>

@@ -4,7 +4,14 @@ import React from 'react'
 export default function() {
   return (
     <>
-      <h2 className="h2ar title"> مصدر المرَّةِ ✍️ </h2>
+      <h2 className="h2ar title">
+        {' '}
+        مصدر المرَّةِ{' '}
+        <span role="img" aria-label="Writing Hand">
+          {' '}
+          ✍️{' '}
+        </span>{' '}
+      </h2>
 
       <div className="desc">
         <b> Масдар еденичности </b> (مَصدر المَرَّةِ) это тот масдар, который упоминается для указания (разъяснения)

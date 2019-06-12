@@ -10,7 +10,13 @@ class Admiration extends React.Component {
     return (
       <div className={classes.section} id="admiration">
         <div className={classes.container}>
-          <h2 className="title">Глагол восхищения, удивления ✍️ </h2>
+          <h2 className="title">
+            Глагол восхищения, удивления{' '}
+            <span role="img" aria-label="Writing Hand">
+              {' '}
+              ✍️{' '}
+            </span>{' '}
+          </h2>
 
           <div className="desc">
             Модель образования <span className="contrast_2 desc__ar"> أفْعَل </span>

@@ -31,7 +31,13 @@ class Page extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="h1ar title">الشرط و جواب الشرط 🌴</h1>
+              <h1 className="h1ar title">
+                الشرط و جواب الشرط{' '}
+                <span role="img" aria-label="Palm Tree">
+                  {' '}
+                  🌴{' '}
+                </span>
+              </h1>
 
               <div className="desc">
                 Кто поймет этот урок, тот поймёт многие другие, в том числе и связанные с методологией фикха. Некоторые правила этого урока
@@ -42,7 +48,10 @@ class Page extends React.Component {
 
               <h2 className="h2ar title">
                 أَداةُ شَرْط <span className="contrast"> إنْ </span>
-                ✍️{' '}
+                <span role="img" aria-label="Writing Hand">
+                  {' '}
+                  ✍️{' '}
+                </span>{' '}
               </h2>
 
               <AnimateCard>
@@ -94,7 +103,11 @@ class Page extends React.Component {
               </div>
 
               <h2 className="title h2ar">
-                <span className="contrast"> إلاَّ </span> = إن + لا النافِيَةُ ✍️{' '}
+                <span className="contrast"> إلاَّ </span> = إن + لا النافِيَةُ{' '}
+                <span role="img" aria-label="Writing Hand">
+                  {' '}
+                  ✍️{' '}
+                </span>{' '}
               </h2>
 
               <div className="arsent">
@@ -112,12 +125,25 @@ class Page extends React.Component {
                 </div>
               </div>
 
-              <h2 className="title h2ar "> أسماء تَجزِم فعلَيْن ✍️ </h2>
+              <h2 className="title h2ar ">
+                {' '}
+                أسماء تَجزِم فعلَيْن{' '}
+                <span role="img" aria-label="Writing Hand">
+                  {' '}
+                  ✍️{' '}
+                </span>{' '}
+              </h2>
               <div className="desc">Существуют так же имена, которые джазмируют два глагола</div>
 
               <div className="items ">
                 <div className="item">
-                  <h2 className="h2ar">مَنْ 💡 </h2>
+                  <h2 className="h2ar">
+                    مَنْ{' '}
+                    <span role="img" aria-label="Light Bulb">
+                      {' '}
+                      💡{' '}
+                    </span>{' '}
+                  </h2>
                   <div className="arsent">
                     <div className="arsent__original">
                       <Word suffix="مَنْ" root="فَ" />
@@ -131,7 +157,13 @@ class Page extends React.Component {
                   </div>
                 </div>
                 <div className="item">
-                  <h2 className="h2ar">ما 💡 </h2>
+                  <h2 className="h2ar">
+                    ما{' '}
+                    <span role="img" aria-label="Light Bulb">
+                      {' '}
+                      💡{' '}
+                    </span>{' '}
+                  </h2>
                   <div className="arsent">
                     <div className="arsent__original">
                       <span> و </span>
@@ -145,7 +177,13 @@ class Page extends React.Component {
                   </div>
                 </div>
                 <div className="item">
-                  <h2 className="h2ar">مَتَى 💡 </h2>
+                  <h2 className="h2ar">
+                    مَتَى{' '}
+                    <span role="img" aria-label="Light Bulb">
+                      {' '}
+                      💡{' '}
+                    </span>{' '}
+                  </h2>
                   <div className="arsent">
                     <div className="arsent__original">
                       <span className="contrast"> مَتَى </span>
@@ -157,7 +195,13 @@ class Page extends React.Component {
                   </div>
                 </div>
                 <div className="item">
-                  <h2 className="h2ar">أَيَّ 💡 </h2>
+                  <h2 className="h2ar">
+                    أَيَّ{' '}
+                    <span role="img" aria-label="Light Bulb">
+                      {' '}
+                      💡{' '}
+                    </span>{' '}
+                  </h2>
                   <div className="arsent">
                     <div className="arsent__original">
                       <span className="contrast"> أَيَّ </span>
@@ -170,7 +214,13 @@ class Page extends React.Component {
                   </div>
                 </div>
                 <div className="item">
-                  <h2 className="h2ar">مَهْمَا 💡 </h2>
+                  <h2 className="h2ar">
+                    مَهْمَا{' '}
+                    <span role="img" aria-label="Light Bulb">
+                      {' '}
+                      💡{' '}
+                    </span>{' '}
+                  </h2>
                   <div className="arsent">
                     <div className="arsent__original">
                       <span className="contrast"> مَهْمَا </span>
@@ -182,7 +232,13 @@ class Page extends React.Component {
                   </div>
                 </div>
                 <div className="item">
-                  <h2 className="h2ar">حَيْثُ 💡 </h2>
+                  <h2 className="h2ar">
+                    حَيْثُ{' '}
+                    <span role="img" aria-label="Light Bulb">
+                      {' '}
+                      💡{' '}
+                    </span>{' '}
+                  </h2>
                   <div className="arsent">
                     <div className="arsent__original">
                       <span className="contrast"> حَيْثُ </span>
@@ -194,7 +250,13 @@ class Page extends React.Component {
                   </div>
                 </div>
                 <div className="item">
-                  <h2 className="h2ar">أينما / أَيْنَ 💡 </h2>
+                  <h2 className="h2ar">
+                    أينما / أَيْنَ{' '}
+                    <span role="img" aria-label="Light Bulb">
+                      {' '}
+                      💡{' '}
+                    </span>{' '}
+                  </h2>
                   <div className="arsent">
                     <div className="arsent__original">
                       <span className="contrast"> أَيْنَ </span>
@@ -216,7 +278,14 @@ class Page extends React.Component {
                 </div>
               </div>
 
-              <h2 className="title h2ar"> جوابَ الشرطِ يَقْتَرِنُ بالفاء في مَواضِعَ ✍️ </h2>
+              <h2 className="title h2ar">
+                {' '}
+                جوابَ الشرطِ يَقْتَرِنُ بالفاء في مَواضِعَ{' '}
+                <span role="img" aria-label="Writing Hand">
+                  {' '}
+                  ✍️{' '}
+                </span>{' '}
+              </h2>
               <div className="desc">
                 Следствие условия связывается с условием при помощи союза Фа. <b>Если جوابَ الشرطِ (следствие условия) содержит:</b>
               </div>

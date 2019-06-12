@@ -7,7 +7,10 @@ class UnAuthorized extends Component {
     return (
       <h1>
         You UnAuthorized, please <Link to="/auth/signin">Sign In</Link>
-        🌴
+        <span role="img" aria-label="Palm Tree">
+          {' '}
+          🌴{' '}
+        </span>
       </h1>
     )
   }

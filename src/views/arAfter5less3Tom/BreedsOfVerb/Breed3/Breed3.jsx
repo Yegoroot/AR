@@ -29,7 +29,13 @@ class Breed3 extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="h1ar">(III) فَاعَلَ 🌴</h1>
+              <h1 className="h1ar">
+                (III) فَاعَلَ{' '}
+                <span role="img" aria-label="Palm Tree">
+                  {' '}
+                  🌴{' '}
+                </span>
+              </h1>
 
               <div className="desc">
                 Значений у этого глагола не много, основное значение <b> Направленность </b> (направление действия в сторону какого то лица
@@ -81,7 +87,14 @@ class Breed3 extends React.Component {
                 </div>
               </div>
 
-              <h2 className="title"> Шаблоны ✍️ </h2>
+              <h2 className="title">
+                {' '}
+                Шаблоны{' '}
+                <span role="img" aria-label="Writing Hand">
+                  {' '}
+                  ✍️{' '}
+                </span>{' '}
+              </h2>
 
               <div className="items items_islabel">
                 <div className="item">

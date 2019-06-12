@@ -4,7 +4,14 @@ import Word from 'components/word'
 export default function() {
   return (
     <div id="samaha">
-      <h2 className="title h2ar"> رَأَى ✍️ </h2>
+      <h2 className="title h2ar">
+        {' '}
+        رَأَى{' '}
+        <span role="img" aria-label="Writing Hand">
+          {' '}
+          ✍️{' '}
+        </span>{' '}
+      </h2>
       <div className="desc">
         Этот глагол может прийти со смыслом <b> знал, подумал, видел сердцем </b> <span className="desc__ar "> رَأَى القَلبيّة </span> .
         Ставит в винительный падеж два прямых дополнения

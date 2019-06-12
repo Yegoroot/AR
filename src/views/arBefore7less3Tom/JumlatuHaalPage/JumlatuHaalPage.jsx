@@ -40,7 +40,13 @@ class JumlatuHaalPage extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="title h1ar">الحال 🌴</h1>
+              <h1 className="title h1ar">
+                الحال{' '}
+                <span role="img" aria-label="Palm Tree">
+                  {' '}
+                  🌴{' '}
+                </span>
+              </h1>
 
               <div className="desc">
                 <b>
@@ -58,7 +64,13 @@ class JumlatuHaalPage extends React.Component {
                 <span className="desc__ar">صاحِبُ الحال</span>)
               </div>
 
-              <h2 className="h2ar title">صاحِبُ الحال ✍️ </h2>
+              <h2 className="h2ar title">
+                صاحِبُ الحال{' '}
+                <span role="img" aria-label="Writing Hand">
+                  {' '}
+                  ✍️{' '}
+                </span>{' '}
+              </h2>
 
               <div className="desc">Владелец (صاحِبُ الحال) может быть выражен через:</div>
               <h3 className="title">
@@ -134,7 +146,10 @@ class JumlatuHaalPage extends React.Component {
 
               <h2 className=" title">
                 Состояние <span className="h2ar"> صاحِبِ الحالِ </span>
-                ✍️{' '}
+                <span role="img" aria-label="Writing Hand">
+                  {' '}
+                  ✍️{' '}
+                </span>{' '}
               </h2>
               <div className="desc">
                 В основе <span className="desc__ar"> صاحِبِ الحالِ </span> приходит в определённом состоянии, кроме случев когда есть какой
@@ -249,7 +264,13 @@ class JumlatuHaalPage extends React.Component {
                 </div>
               </div>
 
-              <h2 className="h2ar title">جملة الحال ✍️ </h2>
+              <h2 className="h2ar title">
+                جملة الحال{' '}
+                <span role="img" aria-label="Writing Hand">
+                  {' '}
+                  ✍️{' '}
+                </span>{' '}
+              </h2>
 
               <div className="desc">
                 <span className="desc__ar">الحال</span> может быть выражен предложением.
@@ -364,7 +385,14 @@ class JumlatuHaalPage extends React.Component {
                 </div>
               </div>
 
-              <h2 className=" title"> Отличие от определения (прилагательного) ✍️ </h2>
+              <h2 className=" title">
+                {' '}
+                Отличие от определения (прилагательного){' '}
+                <span role="img" aria-label="Writing Hand">
+                  {' '}
+                  ✍️{' '}
+                </span>{' '}
+              </h2>
               <div className="arsent">
                 <div className="arsent__original">
                   <span> شرب اِبني </span>

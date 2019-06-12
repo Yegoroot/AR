@@ -7,7 +7,13 @@ class DualIsm extends React.Component {
   render() {
     return (
       <div id="dual">
-        <h2 className="title">Глаголы для двойственных чисел ✍️ </h2>
+        <h2 className="title">
+          Глаголы для двойственных чисел{' '}
+          <span role="img" aria-label="Writing Hand">
+            {' '}
+            ✍️{' '}
+          </span>{' '}
+        </h2>
 
         <div className="items">
           <div className="item">
