@@ -1,6 +1,7 @@
 // import AdminPage from 'views/AdminPage'
 import Components from 'views/Components/Components.jsx'
-import Home from 'views/Home/Home.jsx'
+import Home from 'views/HomeAnimate/HomeAnimate.jsx'
+// import HomeAnimate from 'views/HomeAnimate/HomeAnimate.jsx'
 import AboutPage from 'views/AboutPage/AboutPage.jsx'
 import ProfilePage from 'views/ProfilePage/ProfilePage.jsx'
 import LoginPage from 'views/LoginPage/LoginPage.jsx'
