@@ -47,9 +47,9 @@ function Footer({ ...props }) {
             </ListItem>
             &nbsp; |
             <ListItem className={classes.inlineBlock}>
-              <a href="mailto:dont.repeat.yourself.ram@gmail.com" rel="noopener noreferrer" className={classes.block} target="_blank">
-                Обратная связь с разработчиком
-              </a>
+              <Link className={classes.block} to="/contacts">
+                Контакты
+              </Link>
             </ListItem>
           </List>
         </div>

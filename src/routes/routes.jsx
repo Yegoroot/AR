@@ -1,10 +1,11 @@
 // import AdminPage from 'views/AdminPage'
-import Components from 'views/Components/Components.jsx'
+// import Components from 'views/Components/Components.jsx'
 import Home from 'views/HomeAnimate/HomeAnimate.jsx'
 // import HomeAnimate from 'views/HomeAnimate/HomeAnimate.jsx'
+import Contacts from 'views/Contacts/Contacts.jsx'
 import AboutPage from 'views/AboutPage/AboutPage.jsx'
-import ProfilePage from 'views/ProfilePage/ProfilePage.jsx'
-import LoginPage from 'views/LoginPage/LoginPage.jsx'
+// import ProfilePage from 'views/ProfilePage/ProfilePage.jsx'
+// import LoginPage from 'views/LoginPage/LoginPage.jsx'
 // --------------------
 import WeakLettersPage from 'views/arBefore7less3Tom/WeakLettersPage/WeakLettersPage'
 import JumlatuHaalPage from 'views/arBefore7less3Tom/JumlatuHaalPage/JumlatuHaalPage'
@@ -159,9 +160,10 @@ var indexRoutes = [
   { path: '/jumlatuhaal', name: 'JumlatuHaalPage', component: JumlatuHaalPage },
   { path: '/weakLetters', name: 'WeakLettersPage', component: WeakLettersPage },
   { path: '/about', name: 'AboutPage', component: AboutPage },
-  { path: '/profile', name: 'ProfilePage', component: ProfilePage },
-  { path: '/login', name: 'LoginPage', component: LoginPage },
-  { path: '/components', name: 'Components', component: Components },
+  // { path: '/profile', name: 'ProfilePage', component: ProfilePage },
+  // { path: '/login', name: 'LoginPage', component: LoginPage },
+  // { path: '/components', name: 'Components', component: Components },
+  { path: '/contacts', name: 'Contacts', component: Contacts },
   { path: '/', name: 'Home', component: Home }
 ]
 
