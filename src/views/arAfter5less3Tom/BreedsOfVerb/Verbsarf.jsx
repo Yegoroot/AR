@@ -9,6 +9,7 @@ import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
 import AnimateCard from 'components/AnimateCard/AnimateCard'
 // import Word from 'components/word'
 import verbsarf from 'assets/img/verbsarf.png'
+import { Link } from 'react-router-dom'
 
 class Intr extends React.Component {
   render() {
@@ -159,7 +160,9 @@ class Intr extends React.Component {
                   ✍️{' '}
                 </span>{' '}
               </h2>
-              <div className="desc">Смотрите раздел "Четырёхбуквенный глагол"</div>
+              <div className="desc">
+                Смотрите раздел <Link to={'/letter4'}> "Четырёхбуквенный глагол" </Link>{' '}
+              </div>
 
               {/* -------------------------------- */}
             </div>
