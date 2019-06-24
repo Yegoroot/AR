@@ -25,6 +25,7 @@ function HeaderLinks({ ...props }) {
 
       <ListItem className={classes.listItem}>
         <CustomDropdown
+          className="dropdown"
           noLiPadding
           buttonText="Грамматика"
           buttonProps={{

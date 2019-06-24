@@ -28,8 +28,10 @@ const headerLinksStyle = theme => ({
     margin: '0',
     padding: '0',
     '& ul': {
-      maxHeight: 300,
-      overflowY: 'auto'
+      '@media (min-width: 960px)': {
+        maxHeight: 400,
+        overflowY: 'auto'
+      }
     },
     [theme.breakpoints.down('sm')]: {
       width: '100%',
@@ -48,7 +50,7 @@ const headerLinksStyle = theme => ({
   },
 
   navLink: {
-    color: 'inherit',
+    color: '#fff',
     position: 'relative',
     padding: '0.9375rem',
     fontWeight: '400',
@@ -60,8 +62,8 @@ const headerLinksStyle = theme => ({
     margin: '0px',
     display: 'inline-flex',
     '&:hover,&:focus': {
-      color: 'inherit',
-      background: 'rgba(200, 200, 200, 0.2)'
+      color: '#fff'
+      // background: 'rgba(200, 200, 200, 0.2)'
     },
     [theme.breakpoints.down('sm')]: {
       width: 'calc(100% - 30px)',

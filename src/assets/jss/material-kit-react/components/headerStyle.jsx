@@ -70,7 +70,11 @@ const headerStyle = {
     }
   },
   appResponsive: {
-    margin: '20px 10px'
+    margin: '20px 10px',
+    '@media (max-width: 960px)': {
+      margin: '20px 0px 60px',
+      display: 'flex'
+    }
   },
   primary: {
     backgroundColor: primaryColor,
@@ -136,12 +140,14 @@ const headerStyle = {
     right: '0',
     left: 'auto',
     visibility: 'visible',
-    overflowY: 'visible',
+    // overflowY: 'visible',
+    overflowY: 'auto',
     borderTop: 'none',
     textAlign: 'left',
     paddingRight: '0px',
     paddingLeft: '0',
-    backgroundImage: 'url(assets/img/mosque/mosque4.jpg)',
+    background: '#2d2d2dbd',
+    //backgroundImage: 'url(assets/img/mosque/mosque4.jpg)',
     ...transition
   }
 }
