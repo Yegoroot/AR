@@ -32,7 +32,7 @@ class Components extends React.Component {
               <h1 className={classes.title}>في منامي</h1>
               <h2 className={classes.subTitle}>
                 Электронный адрес для связи &nbsp;
-                <a style={{ color: '#fff' }} href="mailto:dont.repeat.yourself.ram@gmail.com">
+                <a style={{ color: '#fff', fontSize: 20, fontFamily: 'sans-serif' }} href="mailto:dont.repeat.yourself.ram@gmail.com">
                   dont.repeat.yourself.ram@gmail.com
                 </a>
               </h2>
