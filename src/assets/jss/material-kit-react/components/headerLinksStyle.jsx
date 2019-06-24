@@ -50,7 +50,10 @@ const headerLinksStyle = theme => ({
   },
 
   navLink: {
-    color: '#fff',
+    color: 'inherit',
+    '@media (max-width: 960px)': {
+      color: '#fff'
+    },
     position: 'relative',
     padding: '0.9375rem',
     fontWeight: '400',
