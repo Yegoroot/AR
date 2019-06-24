@@ -97,8 +97,7 @@ class HarfManAzzoidatuPage extends React.Component {
                   وَمَا <span className="contrast"> مِن </span> دَابَّةٍ فِي الأَرْضِ إِلاَّ عَلَى اللّهِ رِزْقُهَا
                 </div>
                 <div className="arsent__translate">
-                  И нет <span className="contrast">ничего и некого подобного, [усиленное значени]</span> на земле и небесах ( слои
-                  атомосферы, галактики ) приятнее Аллаха
+                  Нет на земле <span className="contrast"> ни единого живого </span> существа, которого Аллах не обеспечивал бы пропитанием.
                 </div>
               </div>
             </div>
