@@ -1,6 +1,7 @@
 ## About
 
-- [A React' Material Theme by Creative-Tim](https://demos.creative-tim.com/material-kit-react/) интегрированная в проект (а не наоборот), убраны лишние файлы
+- [demo fimanami.info](https://fimanami.info)
+
 - В проекте настроен manifest для PWA
 
 ## Установка
@@ -39,6 +40,7 @@
 Что касаеться роутов то я выложил у себя на сайте в директорию domen.com/ar
 и соответсвенно добавил в **history** basename={'/ar'}> а если не в connected-react-router то <BrowserRouter basename={'/ar'}> И index.jsx и **<Redirect to='/'/>** в switcher in App.js
 a так же в **package.json** "homepage": "https://domen.com/ar",
+- [A React' Material Theme by Creative-Tim](https://demos.creative-tim.com/material-kit-react/) интегрированная в create-react-app (не наоборот), убраны лишние файлы
 
 ## Ducks используется как концепция для Redux
 
