@@ -40,7 +40,7 @@
 Что касаеться роутов то я выложил у себя на сайте в директорию domen.com/ar
 и соответсвенно добавил в **history** basename={'/ar'}> а если не в connected-react-router то <BrowserRouter basename={'/ar'}> И index.jsx и **<Redirect to='/'/>** в switcher in App.js
 a так же в **package.json** "homepage": "https://domen.com/ar",
-- [A React' Material Theme by Creative-Tim](https://demos.creative-tim.com/material-kit-react/) интегрированная в create-react-app (не наоборот), убраны лишние файлы
+
 
 ## Ducks используется как концепция для Redux
 
@@ -51,9 +51,8 @@ Ducks позволяет нам:
 - Константы, sagas и reducerы храним в одном месте - и получаеться полноценный виджет, который содержит все необходимое
 - И появляется возможность поместить такой виджет в отдельную библиотеку и использовать в различных проектах
 
-## Для новичков
-
-Могу предложить пройти [курс от learnjavascript по React](https://coursehunters.net/course/prodvinutyy-kurs-po-react-js) - от части этот проект и настраивался так как выполнял автор курса, но в процессе возникли сложности в настройке основопологающих частей проекта таких как **Store Router** Возникли конфликты версий пакетов (так как курс не самый новый) тем не менее данный курс отлично отображает концептуальные подходы при разработке React приложений
+## Creative-Tim
+- [Creative-Tim](https://demos.creative-tim.com)
 
 ## Что можно удалить
 
