@@ -1,0 +1,91 @@
+html,
+body,
+#root
+  width: 100%
+  height: 100%
+  margin: 0
+  padding: 0
+  user-select: none
+
+.anime
+  background: #242424
+
+canvas
+  width: 100%
+  height: 100%
+  position: absolute
+  top: 0
+  overflow: hidden
+
+
+.anime
+  position: relative
+  width: 100%
+  height: 100%
+  color: #fff8de
+  overflow: hidden
+
+
+  &__container
+    text-align: left
+    pointer-events: none
+    position: absolute
+    top: 0px
+    left: 0px
+    width: 100%
+    height: 100%
+    align-items: center
+    padding-top: 80px
+    display: flex
+
+  &__header
+    display: flex
+    flex-direction: column-reverse
+
+  &__title
+    font-weight: 700
+    width: 500px
+    display: block
+    font-size: 11vw
+    line-height: 0.8em
+
+  &__desc
+    padding-bottom: 20px
+    display: block
+    max-width: 400px
+    font-size: 21px
+    font-weight: bold
+    text-align: right
+
+
+@media only screen and (min-width: 992px)
+  .anime__desc
+    padding-bottom: 40px
+
+
+@media only screen and (max-width: 768px)
+  .anime__title
+    font-size: 5rem
+
+
+@media only screen and (max-width: 576px)
+
+  .anime
+    &__container
+      align-items: flex-end
+      padding-top: 0px
+      padding-bottom: 40px
+
+    &__title
+      width: 100%
+      font-size: 3.4rem
+      line-height: 1.1
+
+    &__desc
+      text-align: left
+      padding-bottom: 0
+      padding-top: 30px
+
+    &__header
+      display: flex
+      flex-direction: column
