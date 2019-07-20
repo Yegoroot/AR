@@ -89,7 +89,7 @@ class VerbTransitiveAndNo extends React.Component {
                   <span className="contrast"> قَرَأَ </span>
                   <span className="contrast_2"> الدرسَ </span>
                   <span> و </span>
-                  <Word root="قَهِمَ" suffix="هُ" color2 />
+                  <Word root="فَهِمَ" suffix="هُ" color2 />
                 </div>
                 <div className="arsent__translate">Он читал урок и понял его (урок)</div>
               </div>
@@ -102,7 +102,9 @@ class VerbTransitiveAndNo extends React.Component {
                 </span>{' '}
               </h2>
 
-              <div className="desc"> Это такой глаго чъе действие остаётся в самом глаголе </div>
+              <div className="desc">
+                <b>Непереходной </b> это такой глагол, действие которого остаётся в нем самом
+              </div>
 
               <div className="arsent">
                 <div className="arsent__original">
@@ -121,16 +123,16 @@ class VerbTransitiveAndNo extends React.Component {
               </div>
 
               <div className="desc">
-                Иногда непереходной глагол становится переходным при помощи предлога родительного падежа
-                <b className="desc__ar"> حرف الجَرّ </b>
+                Но иногда непереходной глагол становится переходным при помощи
+                <b className="desc__ar"> حرف الجَرّ </b> <b> (предлога родительного падежа)</b>
               </div>
 
               <div className="arsent">
                 <div className="arsent__original">
                   <span className="contrast"> غَضِبَ </span>
-                  <span className="contrast_2"> المدرس </span>
-                  <span> على </span>
-                  <span className="contrast_2"> الطالِب الكسلانِ </span>
+                  <span> المدرس </span>
+                  <span className="contrast_2"> على </span>
+                  <span> الطالِب الكسلانِ </span>
                 </div>
                 <div className="arsent__translate">Разгневан учитель на ленивых студентов </div>
               </div>
@@ -138,14 +140,16 @@ class VerbTransitiveAndNo extends React.Component {
               <h2 className="title">
                 Из непереходного в переходный{' '}
                 <span role="img" aria-label="Writing Hand">
-                  {' '}
-                  ✍️{' '}
-                </span>{' '}
+                  ✍️
+                </span>
               </h2>
               <div className="desc">
-                <b className="desc__ar">Не</b>переходный становится переходным когда он из первой породы переносится в
-                <b className="desc__ar"> فَعَّلَ </b> (II) или
-                <b className="desc__ar"> أَفْعَلَ </b> (IV)
+                Непереходной становится переходным когда
+                <b>
+                  {' '}
+                  из первой породы переносится во II (<b className="desc__ar"> فَعَّلَ </b>) или в IV (
+                  <b className="desc__ar"> أَفْعَلَ </b>)
+                </b>
               </div>
 
               <h3 className="title"> По модели (IV) </h3>
@@ -228,8 +232,8 @@ class VerbTransitiveAndNo extends React.Component {
                 </span>{' '}
               </h2>
               <div className="desc">
-                {' '}
-                Если первообразный (изначальный трёхбуквенный) глагол является переходным, то он станет вдвойне переходным. Например{' '}
+                Если первообразный (изначальный трёхбуквенный) глагол является переходным, то он станет <b> вдвойне переходным </b> если его
+                перености во II или в IV. Например:
               </div>
 
               <div className="arsent">
