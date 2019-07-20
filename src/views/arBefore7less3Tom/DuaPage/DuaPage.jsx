@@ -38,7 +38,7 @@ class DuaPage extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className={classes.title}>
+              <h1 className="title h1ar">
                 الدُّعاء{' '}
                 <span role="img" aria-label="Palm Tree">
                   {' '}
@@ -47,13 +47,14 @@ class DuaPage extends React.Component {
               </h1>
 
               <p className="desc">
-                Дуа (мольба) в арабском языке с точки зрения грамматики стоит в прошедшем времени, например
-                <span className="desc__ar"> شَفَاكَ اللهُ </span>. Несомненно этому есть объяснения, но я забыл почему
+                <b>Дуа (мольба)</b> в арабском языке с точки зрения грамматики стоит в прошедшем времени, например
+                <span className="desc__ar"> شَفَاكَ اللهُ </span>. Несомненно этому есть объяснение, но его ищите в других источниках
               </p>
               <p className="desc">
-                Для сравнения возьмем обыкновенное предложение с глаголом в прошедшего времени.
-                <span className="desc__ar"> ذَهَبْتُ الى السوق </span>. Глагол прошедшего времени
-                <span className="desc__ar"> ذهب </span> "ходил" указывает на действия в прошлом
+                На данный момент мы лишь можем взять для сравнения предложение с глаголом в прошедшего времени например: (
+                <span className="desc__ar"> ذَهَبْتُ الى السوق </span> ) и понять что глагол прошедшего времени
+                <span className="desc__ar"> ذَهَبَ </span> "ходил" указывает на действия в прошлом, в то время как у дуа (мольбы) положение
+                несколько иное
               </p>
 
               <div className="arsent">
