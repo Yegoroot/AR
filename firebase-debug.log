@@ -1,61 +1,23 @@
-[debug] [2019-07-21T15:17:10.823Z] ----------------------------------------------------------------------
-[debug] [2019-07-21T15:17:10.826Z] Command:       /home/yegoroot/.nvm/versions/node/v10.13.0/bin/node /home/yegoroot/.nvm/versions/node/v10.13.0/bin/firebase deploy
-[debug] [2019-07-21T15:17:10.826Z] CLI Version:   6.11.0
-[debug] [2019-07-21T15:17:10.826Z] Platform:      linux
-[debug] [2019-07-21T15:17:10.826Z] Node Version:  v10.13.0
-[debug] [2019-07-21T15:17:10.829Z] Time:          Sun Jul 21 2019 18:17:10 GMT+0300 (GMT+03:00)
-[debug] [2019-07-21T15:17:10.829Z] ----------------------------------------------------------------------
+[debug] [2019-07-21T15:18:14.545Z] ----------------------------------------------------------------------
+[debug] [2019-07-21T15:18:14.548Z] Command:       /home/yegoroot/.nvm/versions/node/v10.13.0/bin/node /home/yegoroot/.nvm/versions/node/v10.13.0/bin/firebase deploy
+[debug] [2019-07-21T15:18:14.548Z] CLI Version:   6.11.0
+[debug] [2019-07-21T15:18:14.548Z] Platform:      linux
+[debug] [2019-07-21T15:18:14.549Z] Node Version:  v10.13.0
+[debug] [2019-07-21T15:18:14.549Z] Time:          Sun Jul 21 2019 18:18:14 GMT+0300 (GMT+03:00)
+[debug] [2019-07-21T15:18:14.549Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2019-07-21T15:17:10.840Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2019-07-21T15:17:10.841Z] > authorizing via signed-in user
-[debug] [2019-07-21T15:17:10.841Z] [iam] checking project fimanamiapp for permissions ["firebase.projects.get","firebasehosting.sites.update"]
-[debug] [2019-07-21T15:17:10.843Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/fimanamiapp:testIamPermissions  
+[debug] [2019-07-21T15:18:14.560Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-07-21T15:18:14.560Z] > authorizing via signed-in user
+[debug] [2019-07-21T15:18:14.561Z] [iam] checking project fimanamiapp for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2019-07-21T15:18:14.563Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/fimanamiapp:testIamPermissions  
 
-[debug] [2019-07-21T15:17:12.031Z] <<< HTTP RESPONSE 200
-[debug] [2019-07-21T15:17:12.035Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/fimanamiapp  
+[debug] [2019-07-21T15:18:15.688Z] <<< HTTP RESPONSE 200
+[debug] [2019-07-21T15:18:15.692Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/fimanamiapp  
  
-[debug] [2019-07-21T15:17:12.429Z] <<< HTTP RESPONSE 200
+[debug] [2019-07-21T15:18:16.087Z] <<< HTTP RESPONSE 200
 [info] 
 [info] === Deploying to 'fimanamiapp'...
 [info] 
 [info] i  deploying hosting
-[debug] [2019-07-21T15:17:12.441Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/fimanamiapp/versions  
-
-[debug] [2019-07-21T15:17:14.148Z] <<< HTTP RESPONSE 200
-[info] i  hosting[fimanamiapp]: beginning deploy...
-[info] i  hosting[fimanamiapp]: found 72 files in build
-[debug] [2019-07-21T15:17:14.212Z] [hosting] hash cache [YnVpbGQ] load error: lines is not defined
-[debug] [2019-07-21T15:17:16.088Z] [hosting] hash cache [YnVpbGQ] stored for 72 files
-[debug] [2019-07-21T15:17:16.088Z] [hosting][hash queue][FINAL]
-[debug] [2019-07-21T15:17:16.089Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/fimanamiapp/versions/95d6b3f0380f13e2:populateFiles  
- <request body omitted>
-[debug] [2019-07-21T15:17:18.137Z] <<< HTTP RESPONSE 200
-[debug] [2019-07-21T15:17:18.143Z] [hosting][populate queue][FINAL]
-[debug] [2019-07-21T15:17:18.143Z] [hosting] uploads queued: 1
-[debug] [2019-07-21T15:17:21.099Z] [hosting][upload queue][FINAL]
-[info] ✔  hosting[fimanamiapp]: file upload complete
-[debug] [2019-07-21T15:17:21.101Z] [hosting] deploy completed after 6952ms
-[debug] [2019-07-21T15:17:21.205Z] [
-  {
-    "config": {
-      "public": "build",
-      "ignore": [
-        "firebase.json",
-        "**/.*",
-        "**/node_modules/**"
-      ],
-      "rewrites": [
-        {
-          "source": "**",
-          "destination": "/index.html"
-        }
-      ],
-      "site": "fimanamiapp"
-    },
-    "site": "fimanamiapp",
-    "version": "sites/fimanamiapp/versions/95d6b3f0380f13e2"
-  }
-]
-[info] i  hosting[fimanamiapp]: finalizing version...
-[debug] [2019-07-21T15:17:21.207Z] >>> HTTP REQUEST PATCH https://firebasehosting.googleapis.com/v1beta1/sites/fimanamiapp/versions/95d6b3f0380f13e2?updateMask=status  
+[debug] [2019-07-21T15:18:16.096Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/fimanamiapp/versions  
 
