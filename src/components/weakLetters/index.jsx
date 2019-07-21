@@ -10,79 +10,77 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore'
 import PaperTense from 'components/paperTense'
 
 const styles = theme => ({
-    root: {
-        width: '100%',
-        // padding: 14,
-        ...theme.typography.body1,
-        //             ...theme.typography.h1,
-    },
-    // content: {
-    //     alignItems: 'center',
+  root: {
+    width: '100%',
+    // padding: 14,
+    // ...theme.typography.body1,
+    color: 'inherit'
+    //             ...theme.typography.h1,
+  },
+  // content: {
+  //     alignItems: 'center',
 
-    // },
-    secondaryHeading: {
-        // color: theme.palette.text.secondary,
-        fontSize: 45,
-        padding: 20,
-        '@media (max-width: 540px)': {
-            fontSize: 30,
-            padding: 10,
-        },
-        marginLeft: 'auto',
-        lineHeight: 1,
+  // },
+  secondaryHeading: {
+    // color: theme.palette.text.secondary,
+    fontSize: 45,
+    padding: 20,
+    '@media (max-width: 540px)': {
+      fontSize: 30,
+      padding: 10
     },
-    ExpansionPanelDetails: {
-        padding: '8px 0px 0px',
-        display: 'flex',
-        flexWrap: 'wrap',
-    },
+    marginLeft: 'auto',
+    lineHeight: 1
+  },
+  ExpansionPanelDetails: {
+    padding: '8px 0px 0px',
+    display: 'flex',
+    flexWrap: 'wrap'
+  }
 })
 
 class ControlledExpansionPanels extends React.Component {
-    state = {
-        expanded: this.props.templates[0].id,
-    }
+  state = {
+    expanded: this.props.templates[0].id
+  }
 
-    handleChange = panel => (event, expanded) => {
-        this.setState({
-            expanded: expanded ? panel : false,
-        })
-    }
+  handleChange = panel => (event, expanded) => {
+    this.setState({
+      expanded: expanded ? panel : false
+    })
+  }
 
-    render() {
-        const { classes, templates } = this.props
-        const { expanded } = this.state
-        // console.log(templates);
+  render() {
+    const { classes, templates } = this.props
+    const { expanded } = this.state
+    // console.log(templates);
 
-        return (
-            <div className={classes.root}>
-                {templates.map((template, index) => (
-                    <ExpansionPanel
-                        key={template.id}
-                        expanded={expanded === template.id}
-                        onChange={this.handleChange(template.id)}>
-                        <ExpansionPanelSummary
-                            classes={{
-                                content: classes.content,
-                            }}
-                            expandIcon={<ExpandMoreIcon />}>
-                            <div dir="rtl" lang="ar" className={classes.secondaryHeading}>
-                                {template.name}
-                            </div>
-                        </ExpansionPanelSummary>
-                        <ExpansionPanelDetails className={classes.ExpansionPanelDetails} dir="rtl" lang="ar">
-                            <PaperTense data={template.content} />
-                        </ExpansionPanelDetails>
-                    </ExpansionPanel>
-                ))}
-            </div>
-        )
-    }
+    return (
+      <div className={classes.root}>
+        {templates.map((template, index) => (
+          <ExpansionPanel key={template.id} expanded={expanded === template.id} onChange={this.handleChange(template.id)}>
+            <ExpansionPanelSummary
+              classes={{
+                content: classes.content
+              }}
+              expandIcon={<ExpandMoreIcon />}>
+              <div dir="rtl" lang="ar" className={classes.secondaryHeading}>
+                {template.name}
+              </div>
+            </ExpansionPanelSummary>
+            <ExpansionPanelDetails className={classes.ExpansionPanelDetails} dir="rtl" lang="ar">
+              <PaperTense data={template.content} />
+            </ExpansionPanelDetails>
+          </ExpansionPanel>
+        ))}
+      </div>
+    )
+  }
 }
 
 ControlledExpansionPanels.propTypes = {
-    classes: PropTypes.object.isRequired,
-    templates: PropTypes.array.isRequired,
+  classes: PropTypes.object.isRequired,
+  templates: PropTypes.array.isRequired
 }
 
 export default withStyles(styles)(ControlledExpansionPanels)

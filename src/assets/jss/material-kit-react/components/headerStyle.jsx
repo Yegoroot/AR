@@ -80,7 +80,7 @@ const headerStyle = {
   primary: {
     backgroundColor: primaryColor,
     color: '#FFFFFF',
-    boxShadow: '0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 12px -5px rgba(156, 39, 176, 0.46)'
+    boxShadow: '0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 12px -5px rgba(30, 37, 41, 0.46)'
   },
   info: {
     backgroundColor: infoColor,
@@ -147,7 +147,7 @@ const headerStyle = {
     textAlign: 'left',
     paddingRight: '0px',
     paddingLeft: '0',
-    background: '#2d2d2dbd',
+    background: 'rgba(30, 37, 41, 0.65);',
     //backgroundImage: 'url(assets/img/mosque/mosque4.jpg)',
     ...transition
   }
