@@ -12,6 +12,7 @@
 # this doesnt work
 .firebase
 /.firebase
+/.vscode
 hosting\..*\.cache
 *.cache
 
