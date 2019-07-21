@@ -15,6 +15,7 @@ import Parallax from 'components/Parallax/Parallax.jsx'
 import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
 import AnimateCard from 'components/AnimateCard/AnimateCard'
 import Word from 'components/word'
+import { Helmet } from 'react-helmet'
 
 class IsmulMakanWaZamanPage extends React.Component {
   render() {
@@ -22,6 +23,13 @@ class IsmulMakanWaZamanPage extends React.Component {
 
     return (
       <div>
+        <Helmet>
+          <title>اسم مكان و زمان имя места или времени</title>
+          <meta
+            name="description"
+            content="Иногда к именам места и времени присоединяется ة и некоторые ученые говорят что эта та-марбута указывает на постоянство действия"
+          />
+        </Helmet>
         <Header
           color="transparent"
           brand="اسم مكان و زمان"
@@ -30,7 +38,6 @@ class IsmulMakanWaZamanPage extends React.Component {
           fixed
           changeColorOnScroll={{
             height: 200,
-
             color: 'white'
           }}
           {...rest}
@@ -41,7 +48,7 @@ class IsmulMakanWaZamanPage extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title h1ar">
-                اسم مكان و زمان{' '}
+                اسم مكان و زمان
                 <span role="img" aria-label="Palm Tree">
                   {' '}
                   🌴{' '}
@@ -49,9 +56,9 @@ class IsmulMakanWaZamanPage extends React.Component {
               </h1>
 
               <p className="desc">
-                В грамматическом правиле для примера возьмем слово
-                <span className="desc__ar"> مَوْعِد </span>. Иногда к именам места и времени присоединяется{' '}
-                <span className="desc__ar"> ة </span> и некоторые ученые говорят что эта та-марбута указывает на постоянство действия{' '}
+                <b>Имена места и времени</b>. В грамматическом правиле для примера возьмем слово
+                <span className="desc__ar"> مَوْعِد </span>. Иногда к именам места и времени присоединяется
+                <span className="desc__ar"> ة </span> и некоторые ученые говорят что эта та-марбута указывает на постоянство действия
                 <span className="desc__ar"> مَدْرَسَة, مَحْكَمَة </span> .
               </p>
 

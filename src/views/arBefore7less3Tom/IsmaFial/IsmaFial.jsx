@@ -7,6 +7,7 @@ import HeaderLinks from 'components/Header/HeaderLinks.jsx'
 import Parallax from 'components/Parallax/Parallax.jsx'
 import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
 import ismfial from 'assets/img/content/ismfial.PNG'
+import { Helmet } from 'react-helmet'
 
 class IsmaFial extends React.Component {
   render() {
@@ -14,6 +15,13 @@ class IsmaFial extends React.Component {
 
     return (
       <div>
+        <Helmet>
+          <title>اسم الفاعِل лицо деятеля</title>
+          <meta
+            name="description"
+            content='Лицо деятель можно перевести как "действительное причастие" это имя существительное указывает на того кто выполняет действие.'
+          />
+        </Helmet>
         <Header
           color="transparent"
           brand="اسم الفاعِل"
@@ -33,7 +41,7 @@ class IsmaFial extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title h1ar">
-                اسم الفاعِل{' '}
+                اسم الفاعِل
                 <span role="img" aria-label="Palm Tree">
                   {' '}
                   🌴{' '}

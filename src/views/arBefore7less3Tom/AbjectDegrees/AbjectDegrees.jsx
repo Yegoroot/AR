@@ -16,6 +16,7 @@ import Parallax from 'components/Parallax/Parallax.jsx'
 import Word from 'components/word'
 
 import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
+import { Helmet } from 'react-helmet'
 
 class AbjectDegrees extends React.Component {
   render() {
@@ -23,6 +24,13 @@ class AbjectDegrees extends React.Component {
 
     return (
       <div>
+        <Helmet>
+          <title>Сравнительная и превосходная степень арабских прилагательных</title>
+          <meta
+            name="description"
+            content="Арабские прилагательные можно разделить на три группы: сравнительные, превосходные и обыкновенные"
+          />
+        </Helmet>
         <Header
           color="transparent"
           brand="Степени прилагательного"
@@ -42,7 +50,7 @@ class AbjectDegrees extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title">
-                Превосходная и сравнительная степень{' '}
+                Превосходная и сравнительная степень
                 <span role="img" aria-label="Palm Tree">
                   {' '}
                   🌴{' '}

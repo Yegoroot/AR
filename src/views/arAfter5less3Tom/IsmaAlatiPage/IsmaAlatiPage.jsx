@@ -14,6 +14,7 @@ import Parallax from 'components/Parallax/Parallax.jsx'
 
 import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
 import AnimateCard from 'components/AnimateCard/AnimateCard'
+import { Helmet } from 'react-helmet'
 
 class IsmaAlatiPage extends React.Component {
   render() {
@@ -21,6 +22,13 @@ class IsmaAlatiPage extends React.Component {
 
     return (
       <div>
+        <Helmet>
+          <title>اسم آلة орудие действия</title>
+          <meta
+            name="description"
+            content="Орудие действие в арабском языке существует для того чтоб указать на инструмент совершения действия"
+          />
+        </Helmet>
         <Header
           color="transparent"
           brand="اسم آلة"
@@ -40,7 +48,7 @@ class IsmaAlatiPage extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title h1ar">
-                اسم آلة{' '}
+                اسم آلة
                 <span role="img" aria-label="Palm Tree">
                   {' '}
                   🌴{' '}

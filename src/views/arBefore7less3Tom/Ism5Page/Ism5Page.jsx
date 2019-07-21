@@ -14,7 +14,7 @@ import Word from 'components/word'
 import HeaderLinks from 'components/Header/HeaderLinks.jsx'
 
 import Parallax from 'components/Parallax/Parallax.jsx'
-
+import { Helmet } from 'react-helmet'
 import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
 
 class Ism5Page extends React.Component {
@@ -23,6 +23,10 @@ class Ism5Page extends React.Component {
 
     return (
       <div>
+        <Helmet>
+          <title>Пять особых имён</title>
+          <meta name="description" content="В арабском языке есть 5 имен которые по особому склоняются,  أب, أخ и другие" />
+        </Helmet>
         <Header
           color="transparent"
           brand="5 имен"
@@ -41,7 +45,7 @@ class Ism5Page extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title">
-                5 имен{' '}
+                5 имен
                 <span role="img" aria-label="Palm Tree">
                   {' '}
                   🌴{' '}

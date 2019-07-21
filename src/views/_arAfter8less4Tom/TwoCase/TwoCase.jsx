@@ -12,9 +12,7 @@ import Footer from 'components/Footer/Footer.jsx'
 import HeaderLinks from 'components/Header/HeaderLinks.jsx'
 
 import Parallax from 'components/Parallax/Parallax.jsx'
-
-// import Word from 'components/word'
-
+import { Helmet } from 'react-helmet'
 import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
 
 class AbjectDegrees extends React.Component {
@@ -23,6 +21,13 @@ class AbjectDegrees extends React.Component {
 
     return (
       <div>
+        <Helmet>
+          <title>Двухпадежность имён</title>
+          <meta
+            name="description"
+            content="Имя без стандартного полного трехпадежного склонения  الْاِسْمُ الَّذِي لَا يَنْصَرِفُ. Они отличаются тем, что в неопределённом состоянии не принимают нунации"
+          />
+        </Helmet>
         <Header
           color="transparent"
           brand="Двухпадежность имен"
@@ -40,7 +45,7 @@ class AbjectDegrees extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title">
-                Двухпадежность имён{' '}
+                Двухпадежность имён
                 <span role="img" aria-label="Palm Tree">
                   {' '}
                   🌴{' '}

@@ -11,6 +11,7 @@ import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
 import Ladayya from './sections/Ladayya'
 import Kam from './sections/Kam'
 import Iyyaka from './sections/Iyyaka'
+import { Helmet } from 'react-helmet'
 
 class SomeIsm extends React.Component {
   render() {
@@ -18,6 +19,10 @@ class SomeIsm extends React.Component {
 
     return (
       <div>
+        <Helmet>
+          <title>Некоторые арабские имена</title>
+          <meta name="description" content="Некоторые из арабских имен со своими правилами и нюансами" />
+        </Helmet>
         <Header
           color="transparent"
           brand="Некоторые имена"
@@ -25,7 +30,6 @@ class SomeIsm extends React.Component {
           fixed
           changeColorOnScroll={{
             height: 200,
-
             color: 'white'
           }}
           {...rest}
@@ -36,7 +40,7 @@ class SomeIsm extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title">
-                Некоторые имена{' '}
+                Некоторые имена
                 <span role="img" aria-label="Palm Tree">
                   {' '}
                   🌴{' '}

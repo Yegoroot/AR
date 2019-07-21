@@ -8,12 +8,10 @@ import withStyles from '@material-ui/core/styles/withStyles'
 // core components
 import Header from 'components/Header/Header.jsx'
 import Footer from 'components/Footer/Footer.jsx'
-
 import HeaderLinks from 'components/Header/HeaderLinks.jsx'
-
 import Parallax from 'components/Parallax/Parallax.jsx'
-
 import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
+import { Helmet } from 'react-helmet'
 
 class Asmaulafal extends React.Component {
   render() {
@@ -21,6 +19,14 @@ class Asmaulafal extends React.Component {
 
     return (
       <div>
+        <Helmet>
+          <title>اسْماءُ الافعال существительное со смыслом глагола</title>
+          <meta
+            name="description"
+            content="Не является глаголом, но смысл глагола, не склоняется во временах. Бывает некоторые существуют в одном времени, но не
+            существуют в другом, т.е имя может существовать в повелительном но не существовать в прошедшем и т.п."
+          />
+        </Helmet>
         <Header
           color="transparent"
           brand="اسْماءُ الافعال"
@@ -29,7 +35,6 @@ class Asmaulafal extends React.Component {
           fixed
           changeColorOnScroll={{
             height: 200,
-
             color: 'white'
           }}
           {...rest}
@@ -40,7 +45,7 @@ class Asmaulafal extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title h1ar">
-                اسْماءُ الافِعال{' '}
+                اسْماءُ الافِعال
                 <span role="img" aria-label="Palm Tree">
                   {' '}
                   🌴{' '}

@@ -14,6 +14,7 @@ import MasdarMarratin from './sections/MasdarMarratin'
 import MasdarHayyati from './sections/MasdarHayyati'
 import MasdarMimiy from './sections/MasdarMimiy'
 import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
+import { Helmet } from 'react-helmet'
 
 class MasdarPage extends React.Component {
   render() {
@@ -21,6 +22,14 @@ class MasdarPage extends React.Component {
 
     return (
       <div>
+        <Helmet>
+          <title>Масдар отглагольное существительное</title>
+          <meta
+            name="description"
+            content='Масдар это отглагольное существительное и потому принимает артикль, танвин, та марбуту и иногда ставится во множественное число. Он не привязан ко времени, как например
+              слово "любовь", "надежда". Масдар это выражение глагола через существительное'
+          />
+        </Helmet>
         <Header
           color="transparent"
           brand="Масдар"
@@ -28,7 +37,6 @@ class MasdarPage extends React.Component {
           fixed
           changeColorOnScroll={{
             height: 200,
-
             color: 'white'
           }}
           {...rest}
@@ -39,7 +47,7 @@ class MasdarPage extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title">
-                Масдар{' '}
+                Масдар
                 <span role="img" aria-label="Palm Tree">
                   {' '}
                   🌴{' '}

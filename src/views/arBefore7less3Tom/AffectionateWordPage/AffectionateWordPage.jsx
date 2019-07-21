@@ -12,7 +12,7 @@ import Footer from 'components/Footer/Footer.jsx'
 import HeaderLinks from 'components/Header/HeaderLinks.jsx'
 
 import Parallax from 'components/Parallax/Parallax.jsx'
-
+import { Helmet } from 'react-helmet'
 import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
 
 class AffectionateWordPage extends React.Component {
@@ -21,6 +21,10 @@ class AffectionateWordPage extends React.Component {
 
     return (
       <div>
+        <Helmet>
+          <title>Уменьшительно ласкательные имена</title>
+          <meta name="description" content="Существуют три модели уменьшительно ласкательных имён в арабском языке" />
+        </Helmet>
         <Header
           color="transparent"
           brand="Уменьшительно ласкательные"
@@ -28,7 +32,6 @@ class AffectionateWordPage extends React.Component {
           fixed
           changeColorOnScroll={{
             height: 200,
-
             color: 'white'
           }}
           {...rest}
@@ -39,7 +42,7 @@ class AffectionateWordPage extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title">
-                Уменьшительно ласкательные{' '}
+                Уменьшительно ласкательные
                 <span role="img" aria-label="Palm Tree">
                   {' '}
                   🌴{' '}

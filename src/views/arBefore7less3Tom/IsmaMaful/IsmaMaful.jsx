@@ -6,6 +6,7 @@ import Footer from 'components/Footer/Footer.jsx'
 import HeaderLinks from 'components/Header/HeaderLinks.jsx'
 import Parallax from 'components/Parallax/Parallax.jsx'
 import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
+import { Helmet } from 'react-helmet'
 
 class IsmaMaful extends React.Component {
   render() {
@@ -13,6 +14,10 @@ class IsmaMaful extends React.Component {
 
     return (
       <div>
+        <Helmet>
+          <title>اسم المَفْول лицо поддействия</title>
+          <meta name="description" content="Лицо или предметы на которых падает действие" />
+        </Helmet>
         <Header
           color="transparent"
           brand="اسم المَفْول"
@@ -31,7 +36,7 @@ class IsmaMaful extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title h1ar">
-                اسم المَفْول{' '}
+                اسم المَفْول
                 <span role="img" aria-label="Palm Tree">
                   {' '}
                   🌴{' '}
