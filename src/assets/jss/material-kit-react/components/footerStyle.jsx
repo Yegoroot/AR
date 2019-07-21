@@ -40,7 +40,7 @@ const footerStyle = {
   },
   footerBlackFont: {
     // backgroundColor: primaryColor,
-    backgroundColor: '#262e38',
+    backgroundColor: '#111c25',
     color: '#fff',
     paddingTop: '21px'
   },
