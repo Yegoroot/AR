@@ -48,7 +48,7 @@ function Footer({ ...props }) {
             </ListItem>
             <ListItem className={classes.inlineBlock}>
               <Link className={classes.block} to="/about">
-                <span style={{ color: 'initial' }}> &nbsp; | &nbsp; </span>
+                {/* <span style={{ color: 'initial' }}> &nbsp; | &nbsp; </span> */}
                 <span role="img" aria-label="roket">
                   🚀
                 </span>
@@ -57,9 +57,9 @@ function Footer({ ...props }) {
             </ListItem>
             <ListItem className={classes.inlineBlock}>
               <Link className={classes.block} to="/contacts">
-                <span style={{ color: 'initial' }}> &nbsp; | &nbsp; </span>
+                {/* <span style={{ color: 'initial' }}> &nbsp; | &nbsp; </span> */}
                 <span role="img" aria-label="send with love">
-                  💌
+                  🤝
                 </span>
                 Контакты
               </Link>

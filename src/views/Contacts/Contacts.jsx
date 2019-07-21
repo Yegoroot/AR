@@ -35,7 +35,7 @@ class Components extends React.Component {
                 Электронный адрес для связи
                 <span role="img" aria-label="email with love">
                   {' '}
-                  💌{' '}
+                  📨{' '}
                 </span>
                 &nbsp;
                 <a style={{ color: '#fff', fontSize: 20, fontFamily: 'sans-serif' }} href="mailto:dont.repeat.yourself.ram@gmail.com">
