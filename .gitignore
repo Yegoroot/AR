@@ -9,12 +9,11 @@
 # production
 /build
 
-# this doesnt work
-.firebase
+
+
 /.firebase
 /.vscode
-hosting\..*\.cache
-*.cache
+firebase-debug.log
 
 # misc
 .DS_Store
