@@ -13,6 +13,7 @@ import HeaderLinks from 'components/Header/HeaderLinks.jsx'
 import Parallax from 'components/Parallax/Parallax.jsx'
 
 import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
+import { Helmet } from 'react-helmet'
 
 class IdafaPage extends React.Component {
   render() {
@@ -20,6 +21,13 @@ class IdafaPage extends React.Component {
 
     return (
       <div>
+        <Helmet>
+          <title>Несогласованное определение арабского языка (Идафа الإضافة)</title>
+          <meta
+            name="description"
+            content='Идафа (الإضافة) - можно перевести как "несогласованное определение". Иногда этот термин переводят как "изафетная связка"'
+          />
+        </Helmet>
         <Header
           color="transparent"
           brand="الإضافة"

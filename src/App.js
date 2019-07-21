@@ -1,15 +1,27 @@
-// import React, { Component } from 'react'
 import React from 'react'
+
+import { Helmet } from 'react-helmet'
+import Routes from './routes'
+
+const App = () => (
+  <>
+    <Helmet titleTemplate="%s - Мединский Курс" defaultTitle="Мединский Курс في منامي ">
+      <meta charSet="utf-8" />
+      <meta name="description" content="Справочник грамматики арабского языка основанный на Мединском курсе" />
+    </Helmet>
+    <Routes />
+  </>
+)
+
 /**
  *  КОГДА БУДЕШЬ ДОБАВЛЯТЬ connect-router то удали BrowserRouter в <Routes />
  */
+// import React from 'react'
+// import React, { Component } from 'react'
 // import store from './redux'
 // import { Provider } from 'react-redux'
 // import { ConnectedRouter } from 'connected-react-router'
 // import history from './history'
-import Routes from './routes'
-
-const App = () => <Routes />
 
 // class App extends Component {
 //   render() {

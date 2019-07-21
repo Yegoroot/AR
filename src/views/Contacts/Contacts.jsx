@@ -7,6 +7,7 @@ import HeaderLinks from 'components/Header/HeaderLinks.jsx'
 
 import Footer from 'components/Footer/Footer.jsx'
 import componentsStyle from 'assets/jss/material-kit-react/views/components.jsx'
+import { Helmet } from 'react-helmet'
 
 class Components extends React.Component {
   render() {
@@ -14,6 +15,10 @@ class Components extends React.Component {
 
     return (
       <div>
+        <Helmet>
+          <title>Контакты</title>
+          <meta name="description" content="Справочник грамматики арабского языка основанный на Мединском курсе" />
+        </Helmet>
         <Header
           // brand=""
           // isBrandAr

@@ -13,6 +13,7 @@ import HeaderLinks from 'components/Header/HeaderLinks.jsx'
 import Parallax from 'components/Parallax/Parallax.jsx'
 
 import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
+import { Helmet } from 'react-helmet'
 
 class JumlatuIsmPage extends React.Component {
   render() {
@@ -20,6 +21,10 @@ class JumlatuIsmPage extends React.Component {
 
     return (
       <div>
+        <Helmet>
+          <title>Именное предложение (جملة الاِسمِيّة) арабского языка </title>
+          <meta name="description" content="Именное предложение в арабском языке это предложение, которое начинается с имени" />
+        </Helmet>
         <Header
           color="transparent"
           brand="جملة الاسميّة"
@@ -38,7 +43,7 @@ class JumlatuIsmPage extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title h2ar">
-                جملة الاسميّة{' '}
+                جملة الاسميّة
                 <span role="img" aria-label="Palm Tree">
                   {' '}
                   🌴{' '}
@@ -47,7 +52,7 @@ class JumlatuIsmPage extends React.Component {
 
               <p className="desc">
                 Именное предложение <span className="desc__ar"> (جملة الاِسمِيّة) </span> – это предложение, которое
-                <b>начинается с имени</b>. Например:
+                <b> начинается с имени </b>. Например:
                 <span className="desc__ar"> الطالِب مجتهد </span> (студент прилежен). Подлежащее именного предложения
                 <span className="desc__ar"> (المُبْتَدَأُ) </span> ставится, как правило, в определённом состоянии, а сказуемое
                 <span className="desc__ar"> (الخَبَرُ) </span> - в неопределённом.

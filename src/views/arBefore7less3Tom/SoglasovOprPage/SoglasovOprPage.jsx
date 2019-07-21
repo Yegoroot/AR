@@ -13,6 +13,7 @@ import HeaderLinks from 'components/Header/HeaderLinks.jsx'
 import Parallax from 'components/Parallax/Parallax.jsx'
 
 import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
+import { Helmet } from 'react-helmet'
 
 class SoglasovOpr extends React.Component {
   render() {
@@ -20,6 +21,13 @@ class SoglasovOpr extends React.Component {
 
     return (
       <div>
+        <Helmet>
+          <title>Согласованное определение арабского языка</title>
+          <meta
+            name="description"
+            content="Согласованное определение арабского языка ставится после определяемого и полностью согласуется в роде, числе, падеже, состоянии"
+          />
+        </Helmet>
         <Header
           color="transparent"
           brand="Согласованное определение"

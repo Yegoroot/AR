@@ -10,6 +10,7 @@ import HeaderLinks from 'components/Header/HeaderLinks.jsx'
 import Parallax from 'components/Parallax/Parallax.jsx'
 
 import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
+import { Helmet } from 'react-helmet'
 
 class Page extends React.Component {
   render() {
@@ -17,6 +18,14 @@ class Page extends React.Component {
 
     return (
       <div>
+        <Helmet>
+          <title>Для различения предмета рассмотрения из общего смысла используется Различитель (التمييز) </title>
+          <meta
+            name="description"
+            content="Различитель содержит смысл مِن (из) для того, чтоб разъяснить, объяснить то, что пришло из общего смысла, различитель конкретизатор. 
+                Имеется разделитель предмета, и разделитель отношений"
+          />
+        </Helmet>
         <Header
           color="transparent"
           brand="Различитель"
@@ -35,14 +44,14 @@ class Page extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title">
-                التمييز (Различитель){' '}
+                Различитель (التمييز)
                 <span role="img" aria-label="Palm Tree">
                   {' '}
                   🌴{' '}
                 </span>
               </h1>
               <div className="desc">
-                <b>Различитель</b> (<b className="desc__ar"> التمييز </b>) которое содержит смысл
+                <b>Различитель</b> (<b className="desc__ar"> التمييز </b>) содержит смысл
                 <span className="desc__ar"> مِن </span> (из) для того, чтоб <b> разъяснить </b> , <b> объяснить </b> то, что пришло из
                 общего смысла, различитель конкретизатор. <br /> <br />
                 Имеем <b> разделитель предмета </b>, и <b> разделитель отношений </b>

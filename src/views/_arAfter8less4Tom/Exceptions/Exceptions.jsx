@@ -10,6 +10,7 @@ import HeaderLinks from 'components/Header/HeaderLinks.jsx'
 import Parallax from 'components/Parallax/Parallax.jsx'
 
 import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
+import { Helmet } from 'react-helmet'
 
 class Page extends React.Component {
   render() {
@@ -17,6 +18,13 @@ class Page extends React.Component {
 
     return (
       <div>
+        <Helmet>
+          <title>Выразить исключение в арабском языке</title>
+          <meta
+            name="description"
+            content="В арабском языке имеются восемь частиц для выражения исключения إِلَّا   غَيْرُ سِوَى سُوَى سَوَاءٌ خَلَا عَدَا حَاشَا "
+          />
+        </Helmet>
         <Header
           color="transparent"
           brand="Выражение исключения"

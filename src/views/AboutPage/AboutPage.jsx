@@ -19,12 +19,17 @@ import AboutPageStyle from 'assets/jss/material-kit-react/views/AboutPage.jsx'
 import InfoArea from 'components/InfoArea/InfoArea.jsx'
 
 import { Language, Brightness3, VerifiedUser, Book, Today, Explore } from '@material-ui/icons'
+import { Helmet } from 'react-helmet'
 
 class Page extends React.Component {
   render() {
     const { classes, ...rest } = this.props
     return (
       <div>
+        <Helmet>
+          <title>Дополнительные ресурсы, о проекте</title>
+          <meta name="description" content="Справочник грамматики арабского языка основанный на Мединском курсе" />
+        </Helmet>
         <Header
           color="transparent"
           brand="في منامي"
@@ -62,9 +67,8 @@ class Page extends React.Component {
         </Parallax>
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
-            <h1 clssName="title">
-              {' '}
-              Дополнительная информация{' '}
+            <h1 className="title">
+              Дополнительная информация
               <span role="img" aria-label="Pushpin">
                 {' '}
                 📌{' '}

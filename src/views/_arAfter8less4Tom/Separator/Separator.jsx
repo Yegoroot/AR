@@ -10,6 +10,7 @@ import HeaderLinks from 'components/Header/HeaderLinks.jsx'
 import Parallax from 'components/Parallax/Parallax.jsx'
 
 import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
+import { Helmet } from 'react-helmet'
 
 class Page extends React.Component {
   render() {
@@ -17,6 +18,13 @@ class Page extends React.Component {
 
     return (
       <div>
+        <Helmet>
+          <title>Разделитель (ضَمِيرُ فَصْلٍ) в арабском языке</title>
+          <meta
+            name="description"
+            content="В арабском языке есть местоимение разделитель, задача у которого усиливать смысл. Так же это местоимение используется для того чтоб не перепутать сказуемое с  приложением"
+          />
+        </Helmet>
         <Header
           color="transparent"
           brand="Разделитель"
@@ -35,7 +43,7 @@ class Page extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title h1ar">
-                ضَمِيرُ فَصْلٍ{' '}
+                ضَمِيرُ فَصْلٍ
                 <span role="img" aria-label="Palm Tree">
                   {' '}
                   🌴{' '}

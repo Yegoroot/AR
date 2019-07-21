@@ -15,6 +15,7 @@ import Word from 'components/word'
 // import AnimateCard from 'components/AnimateCard/AnimateCard.jsx'
 
 import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
+import { Helmet } from 'react-helmet'
 
 class JumlatuHaalPage extends React.Component {
   render() {
@@ -22,6 +23,13 @@ class JumlatuHaalPage extends React.Component {
 
     return (
       <div>
+        <Helmet>
+          <title>Обстоятельство образа действия или дополнение арабского языка </title>
+          <meta
+            name="description"
+            content='Обстоятельство образа действия в арабском языке или дополнение буквально означает "ситуация" или "положение. Отвечает на вопрос "как?" (В каком положении пребывает объект, в каком состоянии)'
+          />
+        </Helmet>
         <Header
           color="transparent"
           brand="الحال"
