@@ -5,6 +5,7 @@ import Header from 'components/Header/Header.jsx'
 import Parallax from 'components/Parallax/Parallax.jsx'
 import HeaderLinks from 'components/Header/HeaderLinks.jsx'
 
+import Footer from 'components/Footer/Footer.jsx'
 import componentsStyle from 'assets/jss/material-kit-react/views/components.jsx'
 
 class Components extends React.Component {
@@ -14,8 +15,8 @@ class Components extends React.Component {
     return (
       <div>
         <Header
-          // brand="في منامي"
-          isBrandAr
+          // brand=""
+          // isBrandAr
           rightLinks={<HeaderLinks />}
           fixed
           color="transparent"
@@ -31,7 +32,12 @@ class Components extends React.Component {
               {/* <h1 className={classes.title}>Заметки Арабского  <span role="img" aria-label="Palm Tree"> 🌴 </span></h1> */}
               <h1 className={classes.title}>في منامي</h1>
               <h2 className={classes.subTitle}>
-                Электронный адрес для связи &nbsp;
+                Электронный адрес для связи
+                <span role="img" aria-label="email with love">
+                  {' '}
+                  💌{' '}
+                </span>
+                &nbsp;
                 <a style={{ color: '#fff', fontSize: 20, fontFamily: 'sans-serif' }} href="mailto:dont.repeat.yourself.ram@gmail.com">
                   dont.repeat.yourself.ram@gmail.com
                 </a>
@@ -40,6 +46,7 @@ class Components extends React.Component {
           </div>
         </Parallax>
         {/* <Card />, */}
+        <Footer footerBlackFont />
       </div>
     )
   }

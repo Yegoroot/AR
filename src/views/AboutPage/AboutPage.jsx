@@ -140,6 +140,23 @@ class Page extends React.Component {
                 </GridItem>
                 <GridItem xs={12} sm={12} md={4}>
                   <InfoArea
+                    title="Культурно-Просветительский Центр"
+                    description="Преподование арабского языка и других языков в Культурно-Просветительском Центре"
+                    icon={Today}
+                    iconColor="gray"
+                    vertical
+                    link={() => (
+                      <a
+                        className="link"
+                        href="http://tenishcenter.ru/%D0%B0%D1%80%D0%B0%D0%B1%D1%81%D0%BA%D0%B8%D0%B9-%D1%8F%D0%B7%D1%8B%D0%BA/"
+                        target="blank">
+                        Ссылка на программу центра
+                      </a>
+                    )}
+                  />
+                </GridItem>
+                <GridItem xs={12} sm={12} md={4}>
+                  <InfoArea
                     title="Учебник Асмия"
                     description="В этом небольшой учебнике собран словообразовательные
                     и словоизменительные
@@ -153,23 +170,6 @@ class Page extends React.Component {
                         href="https://drive.google.com/file/d/13OTkM3n16ce4kDNobxPheUFVTnA4GCZp/view?usp=sharing"
                         target="blank">
                         Ссылка на учебник
-                      </a>
-                    )}
-                  />
-                </GridItem>
-                <GridItem xs={12} sm={12} md={4}>
-                  <InfoArea
-                    title="Культурно-Просветительский Центр"
-                    description="Преподование арабского языка и других языков в Культурно-Просветительском Центре"
-                    icon={Today}
-                    iconColor="gray"
-                    vertical
-                    link={() => (
-                      <a
-                        className="link"
-                        href="http://tenishcenter.ru/%D0%B0%D1%80%D0%B0%D0%B1%D1%81%D0%BA%D0%B8%D0%B9-%D1%8F%D0%B7%D1%8B%D0%BA/"
-                        target="blank">
-                        Ссылка на программу центра
                       </a>
                     )}
                   />

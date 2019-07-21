@@ -51,8 +51,16 @@ const headerLinksStyle = theme => ({
 
   navLink: {
     color: 'inherit',
+    '&:hover,&:focus': {
+      color: 'inherit',
+      background: 'rgba(200, 200, 200, 0.2)'
+    },
     '@media (max-width: 960px)': {
-      color: '#fff'
+      color: '#fff',
+      '&:hover,&:focus': {
+        color: '#fff',
+        background: 'none'
+      }
     },
     position: 'relative',
     padding: '0.9375rem',
@@ -64,10 +72,6 @@ const headerLinksStyle = theme => ({
     textDecoration: 'none',
     margin: '0px',
     display: 'inline-flex',
-    '&:hover,&:focus': {
-      color: '#fff'
-      // background: 'rgba(200, 200, 200, 0.2)'
-    },
     [theme.breakpoints.down('sm')]: {
       width: 'calc(100% - 30px)',
       marginLeft: '15px',

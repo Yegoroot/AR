@@ -7,6 +7,7 @@ import { useTransition, useSpring, animated as a } from 'react-spring/three'
 import { svgs, colors, deg, doubleSide } from './resources/helpers'
 import Header from 'components/Header/Header.jsx'
 import HeaderLinks from 'components/Header/HeaderLinks.jsx'
+import Footer from 'components/Footer/Footer.jsx'
 
 /** This component renders a shape */
 function Shape({ shape, rotation, position, color, opacity, index }) {
@@ -54,7 +55,7 @@ function Scene() {
 /** Main component */
 function App() {
   return (
-    <div class="anime">
+    <div className="anime">
       <Header
         brand="في منامي"
         isBrandAr
@@ -74,11 +75,11 @@ function App() {
       </Canvas>
 
       <div className="anime__container">
-        <div class="container">
+        <div className="container">
           <div className="anime__header">
             {/* <span class="anime__title" > في منامي </span> */}
-            <span class="anime__title"> Справочник Арабского </span>
-            <span class="anime__desc">
+            <span className="anime__title"> Справочник Арабского </span>
+            <span className="anime__desc">
               Заметки, записи, уроки, правила и исключения основанных на Мединском курсе
               <span role="img" aria-label="Books">
                 {' '}
@@ -90,6 +91,7 @@ function App() {
           {/* <span class="anime__link" > Мединский курс </span> */}
         </div>
       </div>
+      <Footer footerBlackFont />
     </div>
   )
 }
