@@ -10,7 +10,11 @@ const footerStyle = {
     borderRadius: '3px',
     textDecoration: 'none',
     position: 'relative',
-    display: 'block'
+    display: 'block',
+    '& span': {
+      fontSize: 22,
+      paddingRight: 8
+    }
   },
   left: {
     float: 'left!important',

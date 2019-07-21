@@ -26,41 +26,41 @@ function Footer({ ...props }) {
       <div className={classes.container}>
         <div className={classes.left}>
           <List className={classes.list}>
-            <span role="img" aria-label="finger">
-              👉
-            </span>
             <ListItem className={classes.inlineBlock}>
               <a href="http://dict.arabera.org/" rel="noopener noreferrer" className={classes.block} target="_blank">
+                <span role="img" aria-label="finger">
+                  👉
+                </span>
                 Словарь онлайн
               </a>
             </ListItem>
-            <span role="img" aria-label="fire">
-              🔥
-            </span>
             <ListItem className={classes.inlineBlock}>
               <a
                 href="http://glagol.reverso.net/%D1%81%D0%BF%D1%80%D1%8F%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B0%D1%80%D0%B0%D0%B1%D1%81%D0%BA%D0%B8%D0%B9.html"
                 rel="noopener noreferrer"
                 className={classes.block}
                 target="_blank">
+                <span role="img" aria-label="fire">
+                  🔥
+                </span>
                 Спрягать онлайн
               </a>
             </ListItem>
-            &nbsp; | &nbsp;
-            <span role="img" aria-label="roket">
-              🚀
-            </span>
             <ListItem className={classes.inlineBlock}>
               <Link className={classes.block} to="/about">
+                <span style={{ color: 'initial' }}> &nbsp; | &nbsp; </span>
+                <span role="img" aria-label="roket">
+                  🚀
+                </span>
                 Ресурсы
               </Link>
             </ListItem>
-            &nbsp; | &nbsp;
-            <span role="img" aria-label="send with love">
-              💌
-            </span>
             <ListItem className={classes.inlineBlock}>
               <Link className={classes.block} to="/contacts">
+                <span style={{ color: 'initial' }}> &nbsp; | &nbsp; </span>
+                <span role="img" aria-label="send with love">
+                  💌
+                </span>
                 Контакты
               </Link>
             </ListItem>
