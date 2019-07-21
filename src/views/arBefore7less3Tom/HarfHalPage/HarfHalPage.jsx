@@ -18,7 +18,7 @@ class HarfHalPage extends React.Component {
     return (
       <div>
         <Helmet>
-          <title>Вопросительная частица هل</title>
+          <title>Как задать вопрос в арабском языке</title>
           <meta
             name="description"
             content='Вопросительная частица арабского языка هل (верно или не верно) для уточнения информации как

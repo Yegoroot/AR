@@ -37,7 +37,7 @@ class WeakLettersPage extends React.Component {
     return (
       <div>
         <Helmet>
-          <title>Глагол со слабой коренной</title>
+          <title>Арабский глагол со слабой коренной</title>
           <meta
             name="description"
             content="Важное правило арабских глаголов касается слабых коренных, которые имеют своеобразное, но логичное образование"

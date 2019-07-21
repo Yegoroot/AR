@@ -24,7 +24,7 @@ class Ism5Page extends React.Component {
     return (
       <div>
         <Helmet>
-          <title>Пять особых имён</title>
+          <title>Пять особых имён в арабском</title>
           <meta name="description" content="В арабском языке есть 5 имен которые по особому склоняются,  أب, أخ и другие" />
         </Helmet>
         <Header

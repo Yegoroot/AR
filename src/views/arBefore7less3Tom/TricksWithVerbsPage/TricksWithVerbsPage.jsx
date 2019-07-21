@@ -23,7 +23,7 @@ class TricksWithVerbsPage extends React.Component {
     return (
       <div>
         <Helmet>
-          <title>Трюки с глаголами</title>
+          <title>Трюки с арабскими глаголами</title>
           <meta name="description" content="Арабские глаголы с различными частицами могут иметь различные значения " />
         </Helmet>
         <Header

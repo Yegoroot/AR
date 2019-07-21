@@ -25,7 +25,7 @@ class SomeIsm extends React.Component {
     return (
       <div>
         <Helmet>
-          <title>Некоторые арабские частицы</title>
+          <title>Некоторые частицы арабского языка</title>
           <meta name="description" content="Некоторые арабские частицы в разных положениях" />
         </Helmet>
         <Header

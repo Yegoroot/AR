@@ -8,12 +8,18 @@ import Parallax from 'components/Parallax/Parallax.jsx'
 import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
 import Word from 'components/word'
 import AnimateCard from 'components/AnimateCard/AnimateCard'
+import { Helmet } from 'react-helmet'
+
 class Page extends React.Component {
   render() {
     const { classes, ...rest } = this.props
 
     return (
       <div>
+        <Helmet>
+          <title>أَداةُ شَرْط إنْ</title>
+          <meta name="description" content="أَداةُ شَرْط إنْ. Кто поймёт эту тему тот поймет некоторые нюансы фикха" />
+        </Helmet>
         <Header
           color="transparent"
           brand="أَداةُ شَرْط إنْ"
@@ -32,7 +38,7 @@ class Page extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="h1ar title">
-                الشرط و جواب الشرط{' '}
+                الشرط و جواب الشرط
                 <span role="img" aria-label="Palm Tree">
                   {' '}
                   🌴{' '}

@@ -23,7 +23,7 @@ class HarfMaPlusPage extends React.Component {
     return (
       <div>
         <Helmet>
-          <title>حرف ما частица ма</title>
+          <title>Частица ма (حرف ما)</title>
           <meta name="description" content="Различные ситуации с частицей ма (حرف ما)" />
         </Helmet>
         <Header

@@ -17,7 +17,7 @@ class FialMabniLilmajhun extends React.Component {
     return (
       <div>
         <Helmet>
-          <title>Глагол страдательного залога</title>
+          <title>Глагол страдательного залога (пассивный залог в арабском)</title>
           <meta name="description" content="Глагол страдательного залога, это действие с необозначенным лицом. Он же пассивный залог" />
         </Helmet>
         <Header

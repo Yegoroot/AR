@@ -8,7 +8,7 @@ import { svgs, colors, deg, doubleSide } from './resources/helpers'
 import Header from 'components/Header/Header.jsx'
 import HeaderLinks from 'components/Header/HeaderLinks.jsx'
 import Footer from 'components/Footer/Footer.jsx'
-
+import { Helmet } from 'react-helmet'
 /** This component renders a shape */
 function Shape({ shape, rotation, position, color, opacity, index }) {
   return (
@@ -56,6 +56,13 @@ function Scene() {
 function App() {
   return (
     <div className="anime">
+      <Helmet>
+        <title>Справочник изучающего арабский языка</title>
+        <meta
+          name="description"
+          content="Справочник для изучения арабского языка основанного на Мединском курсе. Спряжение арабских глаголов, частицы, имена. Сарф и нахву"
+        />
+      </Helmet>
       <Header
         brand="في منامي"
         isBrandAr

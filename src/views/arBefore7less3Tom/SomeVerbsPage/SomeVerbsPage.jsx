@@ -30,7 +30,7 @@ class SomeVerbsPage extends React.Component {
     return (
       <div>
         <Helmet>
-          <title>Некоторые необычные глаголы</title>
+          <title>Некоторые необычные арабские глаголы</title>
           <meta
             name="description"
             content="Бывают разные глаголы в арабском языке у которых может быть своеобразное значение и правило оформления, но они скорее исключения"

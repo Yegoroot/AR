@@ -19,7 +19,7 @@ class Page extends React.Component {
     return (
       <div>
         <Helmet>
-          <title>Как выразить исключение</title>
+          <title>Как в арабском выразить исключение</title>
           <meta
             name="description"
             content="В арабском языке имеются восемь частиц для выражения исключения إِلَّا   غَيْرُ سِوَى سُوَى سَوَاءٌ خَلَا عَدَا حَاشَا "

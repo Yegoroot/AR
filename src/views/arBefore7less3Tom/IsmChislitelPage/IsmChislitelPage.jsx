@@ -18,7 +18,7 @@ class IsmChislitelPage extends React.Component {
     return (
       <div>
         <Helmet>
-          <title>Арабские числиткльные с 100</title>
+          <title>Арабские числительные с 100</title>
           <meta name="description" content="Вариации арабских числительных с 100" />
         </Helmet>
         <Header

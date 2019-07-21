@@ -16,7 +16,7 @@ class IsmaFial extends React.Component {
     return (
       <div>
         <Helmet>
-          <title>اسم الفاعِل лицо деятеля</title>
+          <title>Лицо деятеля (اسم الفاعِل )</title>
           <meta
             name="description"
             content='Лицо деятель можно перевести как "действительное причастие" это имя существительное указывает на того кто выполняет действие.'

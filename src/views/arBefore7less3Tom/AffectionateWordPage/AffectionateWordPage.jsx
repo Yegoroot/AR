@@ -22,7 +22,7 @@ class AffectionateWordPage extends React.Component {
     return (
       <div>
         <Helmet>
-          <title>Уменьшительно ласкательные имена</title>
+          <title>Уменьшительно ласкательные имена в арабском языке</title>
           <meta name="description" content="Существуют три модели уменьшительно ласкательных имён в арабском языке" />
         </Helmet>
         <Header

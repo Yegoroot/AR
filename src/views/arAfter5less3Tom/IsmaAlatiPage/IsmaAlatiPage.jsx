@@ -23,7 +23,7 @@ class IsmaAlatiPage extends React.Component {
     return (
       <div>
         <Helmet>
-          <title>اسم آلة орудие действия</title>
+          <title>Имя орудия действия (اسم آلة )</title>
           <meta
             name="description"
             content="Орудие действие в арабском языке существует для того чтоб указать на инструмент совершения действия"

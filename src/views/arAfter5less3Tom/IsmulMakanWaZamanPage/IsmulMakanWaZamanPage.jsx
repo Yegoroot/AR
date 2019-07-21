@@ -24,7 +24,7 @@ class IsmulMakanWaZamanPage extends React.Component {
     return (
       <div>
         <Helmet>
-          <title>اسم مكان و زمان имя места или времени</title>
+          <title>Имя места или времени (اسم مكان و زمان )</title>
           <meta
             name="description"
             content="Иногда к именам места и времени присоединяется ة и некоторые ученые говорят что эта та-марбута указывает на постоянство действия"

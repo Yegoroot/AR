@@ -5,9 +5,7 @@ import Routes from './routes'
 
 const App = () => (
   <>
-    <Helmet
-      titleTemplate="%s - изучение арабского языка, Мединский Курс"
-      defaultTitle="في منامي Изучение арабского языка по Мединскому Курсу">
+    <Helmet titleTemplate="%s - Мединский Курс" defaultTitle="Изучение арабского языка по Мединскому Курсу - في منامي">
       <meta charSet="utf-8" />
       <meta name="description" content="Справочник для изучения арабского языка по Мединскому курсу" />
     </Helmet>
