@@ -39,8 +39,8 @@ const footerStyle = {
     }
   },
   footerBlackFont: {
-    backgroundColor: primaryColor,
-    // backgroundColor: '#212529',
+    // backgroundColor: primaryColor,
+    backgroundColor: '#262e38',
     color: '#fff',
     paddingTop: '21px'
   },

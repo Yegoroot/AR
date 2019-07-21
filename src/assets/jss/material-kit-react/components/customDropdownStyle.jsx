@@ -74,7 +74,7 @@ const customDropdownStyle = theme => ({
     clear: 'both',
     fontWeight: '400',
     height: 'fit-content',
-    color: '#333',
+    color: '#3c4858',
     whiteSpace: 'nowrap'
   },
   blackHover: {
