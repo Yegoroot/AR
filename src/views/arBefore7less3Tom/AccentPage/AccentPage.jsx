@@ -10,6 +10,7 @@ import HeaderLinks from 'components/Header/HeaderLinks.jsx'
 import Parallax from 'components/Parallax/Parallax.jsx'
 
 import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
+import { Helmet } from 'react-helmet'
 
 class AccentPage extends React.Component {
   render() {
@@ -17,10 +18,13 @@ class AccentPage extends React.Component {
 
     return (
       <div>
+        <Helmet>
+          <title>Как точно задать вопрос в арабском языке</title>
+          <meta name="description" content="В зависимости от того что хотим спросить и расставляем [акцентируем] слова" />
+        </Helmet>
         <Header
           color="transparent"
           brand="Акцент в вопросе"
-          // isBrandAr
           rightLinks={<HeaderLinks />}
           fixed
           changeColorOnScroll={{

@@ -11,15 +11,20 @@ import Footer from 'components/Footer/Footer.jsx'
 import HeaderLinks from 'components/Header/HeaderLinks.jsx'
 
 import Parallax from 'components/Parallax/Parallax.jsx'
-
+import { Helmet } from 'react-helmet'
 import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
 import AnimateCard from 'components/AnimateCard/AnimateCard'
+
 class MinQoblu extends React.Component {
   render() {
     const { classes, ...rest } = this.props
 
     return (
       <div>
+        <Helmet>
+          <title>من قبلُ </title>
+          <meta name="description" content="Конструкция من قبلُ арабского языка" />
+        </Helmet>
         <Header
           color="transparent"
           brand="من قبلُ"
@@ -39,7 +44,7 @@ class MinQoblu extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="h1ar">
-                مِن قبلُ{' '}
+                مِن قبلُ
                 <span role="img" aria-label="Palm Tree">
                   {' '}
                   🌴{' '}

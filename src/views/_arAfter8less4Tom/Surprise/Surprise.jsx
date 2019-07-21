@@ -9,7 +9,7 @@ import Word from 'components/word'
 
 import HeaderLinks from 'components/Header/HeaderLinks.jsx'
 import Parallax from 'components/Parallax/Parallax.jsx'
-
+import { Helmet } from 'react-helmet'
 import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
 
 class Page extends React.Component {
@@ -18,6 +18,10 @@ class Page extends React.Component {
 
     return (
       <div>
+        <Helmet>
+          <title>Формы удивления в арабском</title>
+          <meta name="description" content="В арабском существует две классические формы (модели) удивления" />
+        </Helmet>
         <Header
           color="transparent"
           brand="Формы удивления"

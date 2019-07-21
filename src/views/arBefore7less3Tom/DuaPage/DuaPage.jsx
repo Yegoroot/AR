@@ -11,7 +11,7 @@ import Word from 'components/word'
 import HeaderLinks from 'components/Header/HeaderLinks.jsx'
 
 import Parallax from 'components/Parallax/Parallax.jsx'
-
+import { Helmet } from 'react-helmet'
 import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
 
 class DuaPage extends React.Component {
@@ -20,6 +20,10 @@ class DuaPage extends React.Component {
 
     return (
       <div>
+        <Helmet>
+          <title>Дуа (мольба الدُّعاء)</title>
+          <meta name="description" content="Дуа (мольба) в арабском языке с точки зрения грамматики стоит в прошедшем времени" />
+        </Helmet>
         <Header
           color="transparent"
           brand="الدُّعاء"
@@ -28,7 +32,6 @@ class DuaPage extends React.Component {
           fixed
           changeColorOnScroll={{
             height: 200,
-
             color: 'white'
           }}
           {...rest}
@@ -39,7 +42,7 @@ class DuaPage extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title h1ar">
-                الدُّعاء{' '}
+                الدُّعاء
                 <span role="img" aria-label="Palm Tree">
                   {' '}
                   🌴{' '}

@@ -8,7 +8,7 @@ import Footer from 'components/Footer/Footer.jsx'
 
 import HeaderLinks from 'components/Header/HeaderLinks.jsx'
 import Parallax from 'components/Parallax/Parallax.jsx'
-
+import { Helmet } from 'react-helmet'
 import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
 
 class IsmChislitelPage extends React.Component {
@@ -17,6 +17,10 @@ class IsmChislitelPage extends React.Component {
 
     return (
       <div>
+        <Helmet>
+          <title>Арабские числиткльные с 100</title>
+          <meta name="description" content="Вариации арабских числительных с 100" />
+        </Helmet>
         <Header
           color="transparent"
           brand="Числительные с 100"

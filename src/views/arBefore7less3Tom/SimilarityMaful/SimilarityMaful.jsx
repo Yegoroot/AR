@@ -8,7 +8,7 @@ import Footer from 'components/Footer/Footer.jsx'
 
 import HeaderLinks from 'components/Header/HeaderLinks.jsx'
 import Parallax from 'components/Parallax/Parallax.jsx'
-
+import { Helmet } from 'react-helmet'
 import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
 
 class SimilarityMaful extends React.Component {
@@ -17,6 +17,10 @@ class SimilarityMaful extends React.Component {
 
     return (
       <div>
+        <Helmet>
+          <title>Страдетельный залог и имя поддейственного </title>
+          <meta name="description" content="Есть определеннвя схожесть у страдетельного залога и имени поддейственного " />
+        </Helmet>
         <Header
           color="transparent"
           brand="Схожесть стр. залога и мафъуль"

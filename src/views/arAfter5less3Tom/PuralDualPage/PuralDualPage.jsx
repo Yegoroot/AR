@@ -12,7 +12,7 @@ import Footer from 'components/Footer/Footer.jsx'
 import HeaderLinks from 'components/Header/HeaderLinks.jsx'
 
 import Parallax from 'components/Parallax/Parallax.jsx'
-
+import { Helmet } from 'react-helmet'
 import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
 
 class PuralDualPage extends React.Component {
@@ -21,6 +21,10 @@ class PuralDualPage extends React.Component {
 
     return (
       <div>
+        <Helmet>
+          <title>Множественное и двойственное число арабского языка </title>
+          <meta name="description" content="Множественное и двойственное число арабского языка " />
+        </Helmet>
         <Header
           color="transparent"
           brand="Мн. и дв. число"
@@ -39,7 +43,7 @@ class PuralDualPage extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title">
-                Мн. и дв. число{' '}
+                Мн. и дв. число
                 <span role="img" aria-label="Palm Tree">
                   {' '}
                   🌴{' '}
