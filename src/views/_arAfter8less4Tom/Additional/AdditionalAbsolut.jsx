@@ -10,6 +10,7 @@ import Word from 'components/word'
 import HeaderLinks from 'components/Header/HeaderLinks.jsx'
 import Parallax from 'components/Parallax/Parallax.jsx'
 import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
+import { Helmet } from 'react-helmet'
 
 class Page extends React.Component {
   render() {
@@ -17,6 +18,15 @@ class Page extends React.Component {
 
     return (
       <div>
+        <Helmet>
+          <title>Абсолютное дополнение (المفعول المطلق)</title>
+          <meta
+            name="description"
+            content="Абсолютное дополнение (المفعول المطلق) упоминается масдаром в после глагола и состоит обычно из тех же букв что и
+            глагол. Приходит
+            для усиления или указания на количество или разъяснения типа действия"
+          />
+        </Helmet>
         <Header
           color="transparent"
           brand="المفعول المطلق"

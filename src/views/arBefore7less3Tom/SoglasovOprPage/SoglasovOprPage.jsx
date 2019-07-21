@@ -22,7 +22,7 @@ class SoglasovOpr extends React.Component {
     return (
       <div>
         <Helmet>
-          <title>Согласованное определение арабского языка</title>
+          <title>Согласованное определение</title>
           <meta
             name="description"
             content="Согласованное определение арабского языка ставится после определяемого и полностью согласуется в роде, числе, падеже, состоянии"

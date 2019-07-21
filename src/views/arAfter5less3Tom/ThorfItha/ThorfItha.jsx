@@ -8,12 +8,23 @@ import Parallax from 'components/Parallax/Parallax.jsx'
 import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
 import Word from 'components/word'
 import AnimateCard from 'components/AnimateCard/AnimateCard'
+import { Helmet } from 'react-helmet'
+
 class Page extends React.Component {
   render() {
     const { classes, ...rest } = this.props
 
     return (
       <div>
+        <Helmet>
+          <title>Обстоятельство времени (ظَرْف إذا)</title>
+          <meta
+            name="description"
+            content="ظَرْف إذا (когда) это обстоятельство времени, которое содержит в себе смысл условия. الشَّرْط - это условие, جَوَابُ الشَّرْطِ - это
+            следствие условия"
+          />
+        </Helmet>
+
         <Header
           color="transparent"
           brand=" ظَرْف إذا"
@@ -26,7 +37,6 @@ class Page extends React.Component {
           }}
           {...rest}
         />
-
         <Parallax small filter image={require('assets/img/mosque/mosque19.jpg')} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>

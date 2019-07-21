@@ -7,17 +7,23 @@ import HeaderLinks from 'components/Header/HeaderLinks.jsx'
 import Parallax from 'components/Parallax/Parallax.jsx'
 import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
 import AnimateCard from 'components/AnimateCard/AnimateCard'
-/** ОБСТОЯТЕЛЬСТВО МЕСТО И ВРЕМЕНИ
- *
- * группы: [level_3, разное]
- *
- */
+import { Helmet } from 'react-helmet'
+
 class AlMafuluFihi extends React.Component {
   render() {
     const { classes, ...rest } = this.props
 
     return (
       <div>
+        <Helmet>
+          <title>Обстоятельство места и времени (ظَرْف. المَفْعُول فيه)</title>
+          <meta
+            name="description"
+            content="المَفْعُول فيه это имя стоящее в насбе (винительном падеже) которое
+            упоминается для объяснения времени совершения действия или его места. Так же он называется
+             ظَرْف"
+          />
+        </Helmet>
         <Header
           color="transparent"
           brand="ظَرْف. المَفْعُول فيه"
@@ -36,8 +42,7 @@ class AlMafuluFihi extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="h1ar">
-                {' '}
-                المَفْعُول فيه. ظَرْف{' '}
+                المَفْعُول فيه. ظَرْف
                 <span role="img" aria-label="Palm Tree">
                   {' '}
                   🌴{' '}

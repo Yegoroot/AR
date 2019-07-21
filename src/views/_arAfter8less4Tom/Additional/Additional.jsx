@@ -9,6 +9,7 @@ import { Link } from 'react-router-dom'
 import HeaderLinks from 'components/Header/HeaderLinks.jsx'
 import Parallax from 'components/Parallax/Parallax.jsx'
 import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
+import { Helmet } from 'react-helmet'
 
 class Page extends React.Component {
   render() {
@@ -16,6 +17,13 @@ class Page extends React.Component {
 
     return (
       <div>
+        <Helmet>
+          <title>Виды дополнений</title>
+          <meta
+            name="description"
+            content="В арабском языке существует пять видов дополнения: абсолютное, прямое, обстоятельство времени или места, дополнение причины и цели, дополнения соучастия"
+          />
+        </Helmet>
         <Header
           color="transparent"
           brand="Виды дополнений"

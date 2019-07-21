@@ -7,7 +7,7 @@ const App = () => (
   <>
     <Helmet titleTemplate="%s - Мединский Курс" defaultTitle="Мединский Курс في منامي ">
       <meta charSet="utf-8" />
-      <meta name="description" content="Справочник грамматики арабского языка основанный на Мединском курсе" />
+      <meta name="description" content="Справочник для изучения арабского языка по Мединскому курсу" />
     </Helmet>
     <Routes />
   </>

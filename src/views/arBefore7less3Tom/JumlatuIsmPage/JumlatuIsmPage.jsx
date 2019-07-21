@@ -22,7 +22,7 @@ class JumlatuIsmPage extends React.Component {
     return (
       <div>
         <Helmet>
-          <title>Именное предложение (جملة الاِسمِيّة) арабского языка </title>
+          <title>Именное предложение (جملة الاِسمِيّة)</title>
           <meta name="description" content="Именное предложение в арабском языке это предложение, которое начинается с имени" />
         </Helmet>
         <Header
