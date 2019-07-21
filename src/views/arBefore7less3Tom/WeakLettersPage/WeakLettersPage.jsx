@@ -1,40 +1,48 @@
-import React from "react";
+import React from 'react'
 // nodejs library that concatenates classes
-import classNames from "classnames";
+import classNames from 'classnames'
 // @material-ui/core components
-import withStyles from "@material-ui/core/styles/withStyles";
+import withStyles from '@material-ui/core/styles/withStyles'
 // @material-ui/icons
 // import Filter_1 from '@material-ui/icons/Looks'
 // import Palette from '@material-ui/icons/Palette'
 // import Favorite from '@material-ui/icons/Favorite'
 // core components
-import Header from "components/Header/Header.jsx";
-import Footer from "components/Footer/Footer.jsx";
+import Header from 'components/Header/Header.jsx'
+import Footer from 'components/Footer/Footer.jsx'
 // import Button from 'components/CustomButtons/Button.jsx'
-import GridContainer from "components/Grid/GridContainer.jsx";
-import GridItem from "components/Grid/GridItem.jsx";
-import HeaderLinks from "components/Header/HeaderLinks.jsx";
-import NavPills from "components/NavPills/NavPills.jsx";
-import Parallax from "components/Parallax/Parallax.jsx";
+import GridContainer from 'components/Grid/GridContainer.jsx'
+import GridItem from 'components/Grid/GridItem.jsx'
+import HeaderLinks from 'components/Header/HeaderLinks.jsx'
+import NavPills from 'components/NavPills/NavPills.jsx'
+import Parallax from 'components/Parallax/Parallax.jsx'
 
-import arabicPageStyle from "assets/jss/material-kit-react/views/arabicPage.jsx";
-import WeakLetters from "components/weakLetters";
-import { weakLetters1, weakLetters2, weakLetters3 } from "api/verbs/weakLetters";
+import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
+import WeakLetters from 'components/weakLetters'
+import { weakLetters1, weakLetters2, weakLetters3 } from 'api/verbs/weakLetters'
+import { Helmet } from 'react-helmet'
 
 class WeakLettersPage extends React.Component {
   state = {
     value: 0
-  };
+  }
 
   handleChange = (event, value) => {
-    this.setState({ value });
-  };
+    this.setState({ value })
+  }
 
   render() {
-    const { classes, ...rest } = this.props;
+    const { classes, ...rest } = this.props
 
     return (
       <div>
+        <Helmet>
+          <title>Глагол со слабой коренной</title>
+          <meta
+            name="description"
+            content="Важное правило арабских глаголов касается слабых коренных, которые имеют своеобразное, но логичное образование"
+          />
+        </Helmet>
         <Header
           color="transparent"
           brand="Слабая коренная"
@@ -43,12 +51,12 @@ class WeakLettersPage extends React.Component {
           changeColorOnScroll={{
             height: 200,
 
-            color: "white"
+            color: 'white'
           }}
           {...rest}
         />
 
-        <Parallax small filter image={require("assets/img/mosque/mosque9.jpg")} />
+        <Parallax small filter image={require('assets/img/mosque/mosque9.jpg')} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           {/* <div className={classes.container}> */}
           <GridContainer justify="center">
@@ -58,17 +66,17 @@ class WeakLettersPage extends React.Component {
                 color="primary"
                 tabs={[
                   {
-                    tabButton: "Первая коренная",
+                    tabButton: 'Первая коренная',
                     // tabIcon: Filter_1,
                     tabContent: <WeakLetters templates={weakLetters1} />
                   },
                   {
-                    tabButton: "Вторая коренная",
+                    tabButton: 'Вторая коренная',
                     // tabIcon: Palette,
                     tabContent: <WeakLetters templates={weakLetters2} />
                   },
                   {
-                    tabButton: "Третья коренная",
+                    tabButton: 'Третья коренная',
                     // tabIcon: Favorite,
                     tabContent: <WeakLetters templates={weakLetters3} />
                   }
@@ -80,8 +88,8 @@ class WeakLettersPage extends React.Component {
         </div>
         <Footer />
       </div>
-    );
+    )
   }
 }
 
-export default withStyles(arabicPageStyle)(WeakLettersPage);
+export default withStyles(arabicPageStyle)(WeakLettersPage)

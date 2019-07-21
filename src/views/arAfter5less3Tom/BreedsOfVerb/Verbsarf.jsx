@@ -10,6 +10,7 @@ import AnimateCard from 'components/AnimateCard/AnimateCard'
 // import Word from 'components/word'
 import verbsarf from 'assets/img/verbsarf.png'
 import { Link } from 'react-router-dom'
+import { Helmet } from 'react-helmet'
 
 class Intr extends React.Component {
   render() {
@@ -17,6 +18,13 @@ class Intr extends React.Component {
 
     return (
       <div>
+        <Helmet>
+          <title>Сарф глаголов</title>
+          <meta
+            name="description"
+            content="В арабскоя языке есть трёхбуквенные глаголы и четырёхбуквенные (некоторые ученые утверждают что 81% приходится на трёхбуквенные). Эти глаголы могут быть двух видов مُجَرَّدٌ (первообразный) или مَزِيدٌ (производный)"
+          />
+        </Helmet>
         <Header
           color="transparent"
           brand="Сарф для глагола"
@@ -35,7 +43,7 @@ class Intr extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title">
-                Сарф глаголов{' '}
+                Сарф глаголов
                 <span role="img" aria-label="Palm Tree">
                   {' '}
                   🌴{' '}

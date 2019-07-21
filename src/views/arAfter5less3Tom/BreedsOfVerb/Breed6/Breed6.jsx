@@ -6,8 +6,7 @@ import Footer from 'components/Footer/Footer.jsx'
 import HeaderLinks from 'components/Header/HeaderLinks.jsx'
 import Parallax from 'components/Parallax/Parallax.jsx'
 import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
-// import AnimateCard from 'components/AnimateCard/AnimateCard'
-// import Word from 'components/word'
+import { Helmet } from 'react-helmet'
 
 class Breed6 extends React.Component {
   render() {
@@ -15,6 +14,10 @@ class Breed6 extends React.Component {
 
     return (
       <div>
+        <Helmet>
+          <title>Шестая порода арабского глагола</title>
+          <meta name="description" content="Шестая порода арабского глагола تَفَاعَلَ образуется от третей породы при помощи приставки ت" />
+        </Helmet>
         <Header
           color="transparent"
           brand="VI порода"
@@ -32,7 +35,7 @@ class Breed6 extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="h1ar">
-                (VI) تَفَاعَلَ{' '}
+                (VI) تَفَاعَلَ
                 <span role="img" aria-label="Palm Tree">
                   {' '}
                   🌴{' '}
@@ -40,7 +43,7 @@ class Breed6 extends React.Component {
               </h1>
 
               <div className="desc">
-                Его основные значения - <b> взаимность действия </b>; <b> взаимное чередование </b>; Так же имеет значение
+                Его основные значения - <b> взаимность действия </b>, <b> взаимное чередование </b>. Так же имеет значение
                 <b> притвориться чем либо </b>. Образуется от третей породы при помощи приставки <b classname="desc__ar"> ت </b>. В третьей
                 породе действие было направлено к какому то субъекту, в шестой породе приставка
                 <b classname="desc__ar"> ت </b> приводит к полной взаимности действий. (<b classname="desc__ar"> ت </b> возвратная)

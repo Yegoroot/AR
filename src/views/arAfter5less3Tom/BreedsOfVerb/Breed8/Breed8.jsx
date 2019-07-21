@@ -6,8 +6,7 @@ import Footer from 'components/Footer/Footer.jsx'
 import HeaderLinks from 'components/Header/HeaderLinks.jsx'
 import Parallax from 'components/Parallax/Parallax.jsx'
 import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
-// import AnimateCard from 'components/AnimateCard/AnimateCard'
-// import Word from 'components/word'
+import { Helmet } from 'react-helmet'
 
 class Breed8 extends React.Component {
   render() {
@@ -15,6 +14,13 @@ class Breed8 extends React.Component {
 
     return (
       <div>
+        <Helmet>
+          <title>Восьмая порода арабского глагола</title>
+          <meta
+            name="description"
+            content="Восьмая порода арабского глагола اِفْتَعَلَ. Добавлен алиф ا перед первой буквой и ت после неё. Основное значение возвратность, так же это действие которое совершается  для самого деятеля"
+          />
+        </Helmet>
         <Header
           color="transparent"
           brand="VIII порода"
@@ -32,7 +38,7 @@ class Breed8 extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="h1ar">
-                (VIII) اِفْتَعَلَ{' '}
+                (VIII) اِفْتَعَلَ
                 <span role="img" aria-label="Palm Tree">
                   {' '}
                   🌴{' '}

@@ -6,19 +6,18 @@ import Footer from 'components/Footer/Footer.jsx'
 import HeaderLinks from 'components/Header/HeaderLinks.jsx'
 import Parallax from 'components/Parallax/Parallax.jsx'
 import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
-// import AnimateCard from 'components/AnimateCard/AnimateCard'
-// import Word from 'components/word'
-/** ОБСТОЯТЕЛЬСТВО МЕСТО И ВРЕМЕНИ
- *
- * группы: [level_3, разное]
- *
- */
+import { Helmet } from 'react-helmet'
+
 class Breed5 extends React.Component {
   render() {
     const { classes, ...rest } = this.props
 
     return (
       <div>
+        <Helmet>
+          <title>Пятая порода арабского глагола</title>
+          <meta name="description" content="Глагол пятой породы تَفَعَّلَ образуется добавлением та возвратности ко второй породе" />
+        </Helmet>
         <Header
           color="transparent"
           brand="V порода"
@@ -36,7 +35,7 @@ class Breed5 extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="h1ar">
-                (V) تَفَعَّلَ{' '}
+                (V) تَفَعَّلَ
                 <span role="img" aria-label="Palm Tree">
                   {' '}
                   🌴{' '}

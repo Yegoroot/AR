@@ -14,7 +14,7 @@ import Word from 'components/word'
 import Parallax from 'components/Parallax/Parallax.jsx'
 
 import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
-// import AnimateCard from 'components/AnimateCard/AnimateCard'
+import { Helmet } from 'react-helmet'
 
 class VerbTransitiveAndNo extends React.Component {
   render() {
@@ -22,6 +22,15 @@ class VerbTransitiveAndNo extends React.Component {
 
     return (
       <div>
+        <Helmet>
+          <title>Переходность глаголов</title>
+          <meta
+            name="description"
+            content='Переходной можно назвать "заразный" это такой глагол действия которого от الفاعِل (деятеля) перешло на المَفْعُول بِه (прямое
+              дополнение)'
+          />
+        </Helmet>
+
         <Header
           color="transparent"
           brand="Переходнойсть глагола"
@@ -34,7 +43,6 @@ class VerbTransitiveAndNo extends React.Component {
           }}
           {...rest}
         />
-
         <Parallax small filter image={require('assets/img/mosque/mosque17.jpg')} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
@@ -53,11 +61,11 @@ class VerbTransitiveAndNo extends React.Component {
               </div>
 
               <h2 className="title">
-                Переходной{' '}
+                Переходной
                 <span role="img" aria-label="Writing Hand">
                   {' '}
                   ✍️{' '}
-                </span>{' '}
+                </span>
               </h2>
 
               <div className="desc">

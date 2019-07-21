@@ -10,6 +10,7 @@ import HeaderLinks from 'components/Header/HeaderLinks.jsx'
 import Parallax from 'components/Parallax/Parallax.jsx'
 import Word from 'components/word'
 import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
+import { Helmet } from 'react-helmet'
 
 class Page extends React.Component {
   render() {
@@ -17,6 +18,14 @@ class Page extends React.Component {
 
     return (
       <div>
+        <Helmet>
+          <title>Усиление арабского глагола</title>
+          <meta
+            name="description"
+            content="Существуют тяжелая Нун для усиления и лёгкая Нун. Глагол прошедшего времени ни когда не при каких обстоятельствах не
+            усиливается."
+          />
+        </Helmet>
         <Header
           color="transparent"
           brand="Усиление глагола"
@@ -35,7 +44,7 @@ class Page extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title">
-                Усиление глагола{' '}
+                Усиление глагола
                 <span role="img" aria-label="Palm Tree">
                   {' '}
                   🌴{' '}

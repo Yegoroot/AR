@@ -8,6 +8,7 @@ import HeaderLinks from 'components/Header/HeaderLinks.jsx'
 import Parallax from 'components/Parallax/Parallax.jsx'
 import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
 import AnimateCard from 'components/AnimateCard/AnimateCard'
+import { Helmet } from 'react-helmet'
 
 class FialMabniLilmajhun extends React.Component {
   render() {
@@ -15,6 +16,10 @@ class FialMabniLilmajhun extends React.Component {
 
     return (
       <div>
+        <Helmet>
+          <title>Глагол страдательного залога</title>
+          <meta name="description" content="Глагол страдательного залога, это действие с необозначенным лицом. Он же пассивный залог" />
+        </Helmet>
         <Header
           color="transparent"
           brand="الفعل المبني لِلمجهول"
@@ -33,15 +38,16 @@ class FialMabniLilmajhun extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="title">
-                الفِعْل المَبْنِي لِلمَجْهُول{' '}
+              <h1 className="title h1ar">
+                الفِعْل المَبْنِي لِلمَجْهُول
                 <span role="img" aria-label="Palm Tree">
                   {' '}
                   🌴{' '}
                 </span>
               </h1>
               <div className="desc">
-                Глагол страдательного залога, это действие с необозначенным лицом, бывает два варианта, <b> лицо неизвестно вовсе</b> , или
+                <b>Глагол страдательного залога</b>, это действие с необозначенным лицом, бывает два варианта, <b> лицо неизвестно вовсе</b>{' '}
+                , или
                 <b> из контекста понятно кто совершил </b>. Употребляется в том случае если не имеет значение кто совершает действие, когда
                 акцент идет на сам результат. Часто встречается в новостях.
                 <br /> <br />

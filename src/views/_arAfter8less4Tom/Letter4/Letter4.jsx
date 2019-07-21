@@ -6,8 +6,7 @@ import Footer from 'components/Footer/Footer.jsx'
 import HeaderLinks from 'components/Header/HeaderLinks.jsx'
 import Parallax from 'components/Parallax/Parallax.jsx'
 import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
-// import AnimateCard from 'components/AnimateCard/AnimateCard'
-// import Word from 'components/word'
+import { Helmet } from 'react-helmet'
 
 class Letter4 extends React.Component {
   render() {
@@ -15,6 +14,13 @@ class Letter4 extends React.Component {
 
     return (
       <div>
+        <Helmet>
+          <title>Четырёхбуквенный арабский глагол</title>
+          <meta
+            name="description"
+            content="Четырёхбуквенных глаголов в арабском языке не много. Так же как и в трёхбуквенном существуют первообразные مُجَرَّد производные مَزِيد"
+          />
+        </Helmet>
         <Header
           color="transparent"
           brand="Четырёхбуквенный глагол"
@@ -32,8 +38,7 @@ class Letter4 extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title">
-                {' '}
-                Четырёхбуквенный глагол{' '}
+                Четырёхбуквенный глагол
                 <span role="img" aria-label="Palm Tree">
                   {' '}
                   🌴{' '}

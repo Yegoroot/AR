@@ -6,8 +6,7 @@ import Footer from 'components/Footer/Footer.jsx'
 import HeaderLinks from 'components/Header/HeaderLinks.jsx'
 import Parallax from 'components/Parallax/Parallax.jsx'
 import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
-// import AnimateCard from 'components/AnimateCard/AnimateCard'
-// import Word from 'components/word'
+import { Helmet } from 'react-helmet'
 
 class Breed4 extends React.Component {
   render() {
@@ -15,6 +14,13 @@ class Breed4 extends React.Component {
 
     return (
       <div>
+        <Helmet>
+          <title>Четвёртая порода арабского глагола</title>
+          <meta
+            name="description"
+            content="Глагол четвёртой породы أَفْعَلَ образуется добавлением хамзы в начале. И даёт смысл вхождения"
+          />
+        </Helmet>
         <Header
           color="transparent"
           brand="IV порода"
@@ -32,7 +38,7 @@ class Breed4 extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="h1ar">
-                (IV) أَفْعَلَ{' '}
+                (IV) أَفْعَلَ
                 <span role="img" aria-label="Palm Tree">
                   {' '}
                   🌴{' '}
@@ -41,8 +47,8 @@ class Breed4 extends React.Component {
 
               <div className="desc">
                 Добавлена одна служебная буква <span className="desc__ar"> (ء) </span> в начале, может делать глагол переходным, а может
-                давать смысл: <b> вхождения (на какую то территорию) </b>, например <span className="desc__ar"> أصْبَحَ </span> (вошел в
-                утро), <span className="desc__ar"> أمْصَرَ </span> (вошел в Египет)
+                давать смысл: <b> вхождения </b>, например <span className="desc__ar"> أصْبَحَ </span> (вошел в утро),{' '}
+                <span className="desc__ar"> أمْصَرَ </span> (вошел в Египет)
               </div>
 
               <div className="items items_islabel">

@@ -6,19 +6,22 @@ import Footer from 'components/Footer/Footer.jsx'
 import HeaderLinks from 'components/Header/HeaderLinks.jsx'
 import Parallax from 'components/Parallax/Parallax.jsx'
 import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
-// import AnimateCard from 'components/AnimateCard/AnimateCard'
-// import Word from 'components/word'
-/** ОБСТОЯТЕЛЬСТВО МЕСТО И ВРЕМЕНИ
- *
- * группы: [level_3, разное]
- *
- */
+import { Helmet } from 'react-helmet'
+
 class AlMafuluFihi extends React.Component {
   render() {
     const { classes, ...rest } = this.props
 
     return (
       <div>
+        <Helmet>
+          <title>Вторая порода арабского глагола</title>
+          <meta
+            name="description"
+            content="Глагол второй породы فَعَّلَ образуется добавлением служебной буквы. И приходит со значениями: учащение, (التَكْثِيرُ) или
+            усиление (المُبَالَغَةُ)"
+          />
+        </Helmet>
         <Header
           color="transparent"
           brand="II порода"
@@ -36,7 +39,7 @@ class AlMafuluFihi extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="h1ar">
-                (II) فَعَّلَ{' '}
+                (II) فَعَّلَ
                 <span role="img" aria-label="Palm Tree">
                   {' '}
                   🌴{' '}
@@ -44,11 +47,11 @@ class AlMafuluFihi extends React.Component {
               </h1>
 
               <div className="desc">
-                Прибавлена одна служебная буква. Имеет значения: <b> Учащение </b> <b className="desc__ar"> (التَكْثِيرُ) </b> или
+                Добавлена служебная буква. Имеет значения: <b> Учащение </b> <b className="desc__ar"> (التَكْثِيرُ) </b> или
                 <b> Усиление </b> <b className="desc__ar"> (المُبَالَغَةُ) </b>. Так же используем раздел второй породы для того чтоб
                 сообщить <b> переходность глаголам непереходным </b> или
-                <b> двойную переходность глаголам переходным </b> и сообщаем ему принудительное значение, но об этом смотрите в разделе
-                "Переходность глаголов"
+                <b> двойную переходность глаголам переходным </b> и сообщаем ему принудительное значение, но об этом подробней смотрите в
+                разделе "Переходность глаголов"
               </div>
 
               <div className="arsent">

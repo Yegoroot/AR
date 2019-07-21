@@ -7,6 +7,7 @@ import HeaderLinks from 'components/Header/HeaderLinks.jsx'
 import Parallax from 'components/Parallax/Parallax.jsx'
 import Word from 'components/word'
 import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
+import { Helmet } from 'react-helmet'
 
 class Breed7 extends React.Component {
   render() {
@@ -14,6 +15,13 @@ class Breed7 extends React.Component {
 
     return (
       <div>
+        <Helmet>
+          <title>Седьмая порода арабского глагола</title>
+          <meta
+            name="description"
+            content="Седьмая порода арабского глагола انْفَعَلَ передаёт значение возвратности только при образовании от переходных глаголов"
+          />
+        </Helmet>
         <Header
           color="transparent"
           brand="VII порода"
@@ -31,7 +39,7 @@ class Breed7 extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="h1ar">
-                (VII) انْفَعَلَ{' '}
+                (VII) انْفَعَلَ
                 <span role="img" aria-label="Palm Tree">
                   {' '}
                   🌴{' '}

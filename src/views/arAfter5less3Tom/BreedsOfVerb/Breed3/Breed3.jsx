@@ -6,6 +6,7 @@ import Footer from 'components/Footer/Footer.jsx'
 import HeaderLinks from 'components/Header/HeaderLinks.jsx'
 import Parallax from 'components/Parallax/Parallax.jsx'
 import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
+import { Helmet } from 'react-helmet'
 
 class Breed3 extends React.Component {
   render() {
@@ -13,6 +14,13 @@ class Breed3 extends React.Component {
 
     return (
       <div>
+        <Helmet>
+          <title>Третья порода арабского глагола</title>
+          <meta
+            name="description"
+            content="Глагол третъей породы فَاعَلَ образуется добавлением служебной буквы. И приходит со значениями: направленность, устремительность"
+          />
+        </Helmet>
         <Header
           color="transparent"
           brand="III порода"
@@ -30,7 +38,7 @@ class Breed3 extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="h1ar">
-                (III) فَاعَلَ{' '}
+                (III) فَاعَلَ
                 <span role="img" aria-label="Palm Tree">
                   {' '}
                   🌴{' '}

@@ -21,6 +21,7 @@ import Akhussu from './Sections/Akhussu'
 import Uff from './Sections/Uff'
 
 import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
+import { Helmet } from 'react-helmet'
 
 class SomeVerbsPage extends React.Component {
   render() {
@@ -28,6 +29,13 @@ class SomeVerbsPage extends React.Component {
 
     return (
       <div>
+        <Helmet>
+          <title>Некоторые необычные глаголы</title>
+          <meta
+            name="description"
+            content="Бывают разные глаголы в арабском языке у которых может быть своеобразное значение и правило оформления, но они скорее исключения"
+          />
+        </Helmet>
         <Header
           color="transparent"
           brand="Некоторые глаголы"

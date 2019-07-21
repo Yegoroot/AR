@@ -6,8 +6,7 @@ import Footer from 'components/Footer/Footer.jsx'
 import HeaderLinks from 'components/Header/HeaderLinks.jsx'
 import Parallax from 'components/Parallax/Parallax.jsx'
 import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
-// import AnimateCard from 'components/AnimateCard/AnimateCard'
-// import Word from 'components/word'
+import { Helmet } from 'react-helmet'
 
 class Breed4 extends React.Component {
   render() {
@@ -15,6 +14,10 @@ class Breed4 extends React.Component {
 
     return (
       <div>
+        <Helmet>
+          <title>Десятая порода арабского глагола</title>
+          <meta name="description" content="Десятая порода арабского глагола اِسْتَفْعَلَ" />
+        </Helmet>
         <Header
           color="transparent"
           brand="X порода"
@@ -32,7 +35,7 @@ class Breed4 extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="h1ar">
-                (X) اِسْتَفْعَلَ{' '}
+                (X) اِسْتَفْعَلَ
                 <span role="img" aria-label="Palm Tree">
                   {' '}
                   🌴{' '}

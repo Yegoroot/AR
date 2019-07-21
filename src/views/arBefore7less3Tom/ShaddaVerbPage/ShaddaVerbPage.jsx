@@ -16,6 +16,7 @@ import WeakLetters from 'components/weakLetters'
 
 import { shadda } from 'api/verbs/shadda'
 import shaddaamr from 'assets/img/content/harf/shaddaamr.png'
+import { Helmet } from 'react-helmet'
 
 class ShaddaVerbPage extends React.Component {
   state = {
@@ -30,6 +31,10 @@ class ShaddaVerbPage extends React.Component {
     const { classes, ...rest } = this.props
     return (
       <div>
+        <Helmet>
+          <title>Глагол с шаддой</title>
+          <meta name="description" content="В арабском языке трёхбуквенный глагол со сдвоенной коренной спрягается определенным образом" />
+        </Helmet>
         <Header
           color="transparent"
           brand="Глагол с шаддой"
@@ -43,7 +48,7 @@ class ShaddaVerbPage extends React.Component {
           {...rest}
         />
 
-        <Parallax small filter image={require('assets/img/mosque/mosque15.jpg')} />
+        <Parallax small filter image={require('assets/img/mosque/mosque17.jpg')} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <h1 className="title">

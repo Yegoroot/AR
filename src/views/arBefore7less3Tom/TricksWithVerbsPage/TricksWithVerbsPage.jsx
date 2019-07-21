@@ -12,6 +12,7 @@ import DualIsm from './Sections/DualIsm'
 import StartHamza from './Sections/StartHamza'
 import ConcOfCond from './Sections/ConcOfCond'
 import Word from 'components/word'
+import { Helmet } from 'react-helmet'
 
 import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
 
@@ -21,6 +22,10 @@ class TricksWithVerbsPage extends React.Component {
 
     return (
       <div>
+        <Helmet>
+          <title>Трюки с глаголами</title>
+          <meta name="description" content="Арабские глаголы с различными частицами могут иметь различные значения " />
+        </Helmet>
         <Header
           color="transparent"
           brand="Нюансы с глаголами"
