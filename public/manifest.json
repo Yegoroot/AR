@@ -1,7 +1,7 @@
 {
   "name": "في منامي",
   "short_name": "في منامي",
-  "theme_color": "#000000",
+  "theme_color": "#111c25",
   "background_color": "#111c25",
   "display": "standalone",
   "Scope": "/",
