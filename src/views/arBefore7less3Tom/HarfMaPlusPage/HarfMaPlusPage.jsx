@@ -14,6 +14,7 @@ import MaThorf from './Sections/MaThorf'
 import HeaderLinks from 'components/Header/HeaderLinks.jsx'
 import Parallax from 'components/Parallax/Parallax.jsx'
 import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
+import { Helmet } from 'react-helmet'
 
 class HarfMaPlusPage extends React.Component {
   render() {
@@ -21,6 +22,10 @@ class HarfMaPlusPage extends React.Component {
 
     return (
       <div>
+        <Helmet>
+          <title>حرف ما частица ма</title>
+          <meta name="description" content="Различные ситуации с частицей ма (حرف ما)" />
+        </Helmet>
         <Header
           color="transparent"
           brand="حرف ما"
@@ -29,7 +34,6 @@ class HarfMaPlusPage extends React.Component {
           fixed
           changeColorOnScroll={{
             height: 200,
-
             color: 'white'
           }}
           {...rest}
@@ -40,7 +44,7 @@ class HarfMaPlusPage extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title h1ar">
-                حرف ما{' '}
+                حرف ما
                 <span role="img" aria-label="Palm Tree">
                   {' '}
                   🌴{' '}

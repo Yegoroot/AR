@@ -14,6 +14,7 @@ import Kaanna from './sections/Kaanna'
 import Lakinna from './sections/Lakinna'
 import Layta from './sections/Layta'
 import Lyaallya from './sections/Lyaallya'
+import { Helmet } from 'react-helmet'
 
 class InnaWithSisters extends React.Component {
   render() {
@@ -21,6 +22,14 @@ class InnaWithSisters extends React.Component {
 
     return (
       <div>
+        <Helmet>
+          <title>Частица إِنَّ и ее сестры</title>
+          <meta
+            name="description"
+            content="Эти предлоги внедряются в именное предложение перед подлежащим ( المُبْتَدأ ) и сказуемым
+            ( الخَبَر ). Ставят (المُبْتَدأ) в винительный падеж ( النصب ) и после этого المُبْتَدأ  называется اسم إنَّ "
+          />
+        </Helmet>
         <Header
           color="transparent"
           brand="Частица إِنَّ и ее сестры"

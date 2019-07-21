@@ -7,7 +7,7 @@ import HeaderLinks from 'components/Header/HeaderLinks.jsx'
 import Parallax from 'components/Parallax/Parallax.jsx'
 
 import Word from 'components/word'
-
+import { Helmet } from 'react-helmet'
 import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
 
 class HarfWaPage extends React.Component {
@@ -15,6 +15,10 @@ class HarfWaPage extends React.Component {
     const { classes, ...rest } = this.props
     return (
       <div>
+        <Helmet>
+          <title>Частица Вав (واو)</title>
+          <meta name="description" content="Различные вариации арабской частицы Вав" />
+        </Helmet>
         <Header
           color="transparent"
           brand="واو"
@@ -33,7 +37,7 @@ class HarfWaPage extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title h1ar">
-                واو{' '}
+                واو
                 <span role="img" aria-label="Palm Tree">
                   {' '}
                   🌴{' '}
@@ -41,11 +45,11 @@ class HarfWaPage extends React.Component {
               </h1>
 
               <h2 className="title h2ar">
-                واو العَطْف{' '}
+                واو العَطْف
                 <span role="img" aria-label="Writing Hand">
                   {' '}
                   ✍️{' '}
-                </span>{' '}
+                </span>
               </h2>
               <div className="arsent">
                 <div className="arsent__original">

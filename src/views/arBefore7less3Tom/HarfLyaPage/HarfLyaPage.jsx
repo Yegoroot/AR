@@ -10,6 +10,7 @@ import LyaNafia from './Sections/LyaNafia'
 import LyaNahia from './Sections/LyaNahia'
 import LyaInPast from './Sections/LyaInPast'
 import LyaAtifa from './Sections/LyaAtifa'
+import { Helmet } from 'react-helmet'
 
 import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
 
@@ -19,6 +20,10 @@ class SoglasovOpr extends React.Component {
 
     return (
       <div>
+        <Helmet>
+          <title>Частица Ля (حرف لا)</title>
+          <meta name="description" content="Различные правила с частицей Ля (حرف لا)" />
+        </Helmet>
         <Header
           color="transparent"
           brand="حرف لا"
@@ -37,7 +42,7 @@ class SoglasovOpr extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title h1ar">
-                حرف لا{' '}
+                حرف لا
                 <span role="img" aria-label="Palm Tree">
                   {' '}
                   🌴{' '}

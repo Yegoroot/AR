@@ -7,6 +7,7 @@ import HeaderLinks from 'components/Header/HeaderLinks.jsx'
 import Parallax from 'components/Parallax/Parallax.jsx'
 import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
 import Word from 'components/word'
+import { Helmet } from 'react-helmet'
 
 class LamIbtidaa extends React.Component {
   render() {
@@ -14,9 +15,14 @@ class LamIbtidaa extends React.Component {
 
     return (
       <div>
+        <Helmet>
+          <title>Лям начинания (لَام الاِبْتِداء)</title>
+          <meta name="description" content="Эта Лям начианания, а так же она обозначает усиление содержания предложения" />
+        </Helmet>
         <Header
           color="transparent"
           brand="لَام الاِبْتِداء"
+          isBrandAr
           rightLinks={<HeaderLinks />}
           fixed
           changeColorOnScroll={{
@@ -31,7 +37,7 @@ class LamIbtidaa extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="h1ar">
-                لَام الاِبْتِداء{' '}
+                لَام الاِبْتِداء
                 <span role="img" aria-label="Palm Tree">
                   {' '}
                   🌴{' '}

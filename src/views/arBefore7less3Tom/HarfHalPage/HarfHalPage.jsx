@@ -8,7 +8,7 @@ import Footer from 'components/Footer/Footer.jsx'
 
 import HeaderLinks from 'components/Header/HeaderLinks.jsx'
 import Parallax from 'components/Parallax/Parallax.jsx'
-
+import { Helmet } from 'react-helmet'
 import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
 
 class HarfHalPage extends React.Component {
@@ -17,6 +17,14 @@ class HarfHalPage extends React.Component {
 
     return (
       <div>
+        <Helmet>
+          <title>Вопросительная частица هل</title>
+          <meta
+            name="description"
+            content='Вопросительная частица арабского языка هل (верно или не верно) для уточнения информации как
+            частица "ли" в русском языке "а ходи ли ты ...", для выбора "да" или "нет"'
+          />
+        </Helmet>
         <Header
           color="transparent"
           brand="Частица هل"
@@ -24,7 +32,6 @@ class HarfHalPage extends React.Component {
           fixed
           changeColorOnScroll={{
             height: 200,
-
             color: 'white'
           }}
           {...rest}
@@ -35,15 +42,15 @@ class HarfHalPage extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title">
-                Вопросительная частица هل{' '}
+                Вопросительная частица هل
                 <span role="img" aria-label="Palm Tree">
                   {' '}
                   🌴{' '}
                 </span>
               </h1>
               <div className="desc">
-                Вопросительная частица <span className="desc__ar"> هل </span> (верно или не верно) для уточнения информации как частица "ли"
-                в русском языке "а ходи ли ты ...", для выбора "да" или "нет"
+                <b> Вопросительная частица </b> <span className="desc__ar"> هل </span> (верно или не верно) для уточнения информации как
+                частица "ли" в русском языке "а ходи ли ты ...", для выбора "да" или "нет"
               </div>
 
               <div className="arsent">

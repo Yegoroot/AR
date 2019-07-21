@@ -7,6 +7,7 @@ import HeaderLinks from 'components/Header/HeaderLinks.jsx'
 import Parallax from 'components/Parallax/Parallax.jsx'
 import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
 import Word from 'components/word'
+import { Helmet } from 'react-helmet'
 
 class HarfulAw extends React.Component {
   render() {
@@ -14,6 +15,13 @@ class HarfulAw extends React.Component {
 
     return (
       <div>
+        <Helmet>
+          <title>Частица: если, если бы (حرف لو) </title>
+          <meta
+            name="description"
+            content="Частица لو (если, если бы) обозначает три вещи: условие, так же это условие связанно с прошедшем временем и ограничение"
+          />
+        </Helmet>
         <Header
           color="transparent"
           brand="Частица لو"
@@ -31,7 +39,7 @@ class HarfulAw extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title h1ar">
-                حرف لو{' '}
+                حرف لو
                 <span role="img" aria-label="Palm Tree">
                   {' '}
                   🌴{' '}
@@ -42,7 +50,7 @@ class HarfulAw extends React.Component {
                 <p>
                   <b> Условие, </b>
                   так же
-                  <b> Это условие связанно с прошедшем временем </b> и <b>Ограничение</b>
+                  <b> это условие связанно с прошедшем временем </b> и <b> ограничение </b>
                 </p>
                 <p>
                   Следствие условия начинается с Лям

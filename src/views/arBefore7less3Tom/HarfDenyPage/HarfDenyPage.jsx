@@ -10,6 +10,7 @@ import HeaderLinks from 'components/Header/HeaderLinks.jsx'
 import Parallax from 'components/Parallax/Parallax.jsx'
 
 import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
+import { Helmet } from 'react-helmet'
 
 class HarfDenyPage extends React.Component {
   render() {
@@ -17,6 +18,15 @@ class HarfDenyPage extends React.Component {
 
     return (
       <div>
+        <Helmet>
+          <title>Отрицательные частицы арабского</title>
+          <meta
+            name="description"
+            content="Отрицательные частицы. قَطُّ - для прошедшего времени. В
+            то время как частица
+             أبدٌا - для настоящего времени"
+          />
+        </Helmet>
         <Header
           color="transparent"
           brand="Отрицательные частицы"
@@ -35,7 +45,7 @@ class HarfDenyPage extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title">
-                Отрицательные частицы{' '}
+                Отрицательные частицы
                 <span role="img" aria-label="Palm Tree">
                   {' '}
                   🌴{' '}

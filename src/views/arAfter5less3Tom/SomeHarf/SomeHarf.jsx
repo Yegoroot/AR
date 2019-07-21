@@ -16,12 +16,18 @@ import Ya from './sections/Ya'
 import Ala from './sections/Ala'
 import Halya from './sections/Halya'
 import Bal from './sections/Bal'
+import { Helmet } from 'react-helmet'
+
 class SomeIsm extends React.Component {
   render() {
     const { classes, ...rest } = this.props
 
     return (
       <div>
+        <Helmet>
+          <title>Некоторые арабские частицы</title>
+          <meta name="description" content="Некоторые арабские частицы в разных положениях" />
+        </Helmet>
         <Header
           color="transparent"
           brand="Некоторые частицы"
@@ -40,7 +46,7 @@ class SomeIsm extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title">
-                Некоторые частицы{' '}
+                Некоторые частицы
                 <span role="img" aria-label="Palm Tree">
                   {' '}
                   🌴{' '}

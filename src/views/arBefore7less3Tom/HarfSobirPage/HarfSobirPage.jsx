@@ -10,6 +10,7 @@ import HeaderLinks from 'components/Header/HeaderLinks.jsx'
 import Parallax from 'components/Parallax/Parallax.jsx'
 
 import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
+import { Helmet } from 'react-helmet'
 
 class HarfSobirPage extends React.Component {
   render() {
@@ -17,15 +18,21 @@ class HarfSobirPage extends React.Component {
 
     return (
       <div>
+        <Helmet>
+          <title>Собирательная частица اسم الجنس الجَمْعِ </title>
+          <meta
+            name="description"
+            content="Собирательная частица есть двух типов: для людей и для не людей. Например у человека есть вид (племя) турки,
+            русские, арабы, эстонцы "
+          />
+        </Helmet>
         <Header
           color="transparent"
           brand="Собирательная частица"
-          // isBrandAr
           rightLinks={<HeaderLinks />}
           fixed
           changeColorOnScroll={{
             height: 200,
-
             color: 'white'
           }}
           {...rest}
@@ -36,7 +43,7 @@ class HarfSobirPage extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title  h1ar">
-                اسم الجنس الجَمْعِ{' '}
+                اسم الجنس الجَمْعِ
                 <span role="img" aria-label="Palm Tree">
                   {' '}
                   🌴{' '}

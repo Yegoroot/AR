@@ -15,6 +15,7 @@ import Parallax from 'components/Parallax/Parallax.jsx'
 
 import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
 import AnimateCard from 'components/AnimateCard/AnimateCard'
+import { Helmet } from 'react-helmet'
 
 class AdwatulDjazmPage extends React.Component {
   render() {
@@ -22,6 +23,10 @@ class AdwatulDjazmPage extends React.Component {
 
     return (
       <div>
+        <Helmet>
+          <title>أدوات الجزم</title>
+          <meta name="description" content="أدوات الجزم. Частица Лям, Лямма, Ля Нахия, Лямуль Амр" />
+        </Helmet>
         <Header
           color="transparent"
           brand="أدوات الجزم"
@@ -30,7 +35,6 @@ class AdwatulDjazmPage extends React.Component {
           fixed
           changeColorOnScroll={{
             height: 200,
-
             color: 'white'
           }}
           {...rest}
@@ -41,7 +45,7 @@ class AdwatulDjazmPage extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title h1ar">
-                أدوات الجزم{' '}
+                أدوات الجزم
                 <span role="img" aria-label="Palm Tree">
                   {' '}
                   🌴{' '}

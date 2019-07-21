@@ -12,7 +12,7 @@ import Footer from 'components/Footer/Footer.jsx'
 import HeaderLinks from 'components/Header/HeaderLinks.jsx'
 
 import Parallax from 'components/Parallax/Parallax.jsx'
-
+import { Helmet } from 'react-helmet'
 import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
 
 class HarfManAzzoidatuPage extends React.Component {
@@ -21,6 +21,13 @@ class HarfManAzzoidatuPage extends React.Component {
 
     return (
       <div>
+        <Helmet>
+          <title>Мин Заида (مِن الزّائِدَة)</title>
+          <meta
+            name="description"
+            content="Эта частица усиливает мысль в предложении, часто используется в Коране, одна из частиц показывающих его описательную точность."
+          />
+        </Helmet>
         <Header
           color="transparent"
           brand="مِن الزّائِدَة"
@@ -40,7 +47,7 @@ class HarfManAzzoidatuPage extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title h1ar">
-                مِن الزّائِدَة{' '}
+                مِن الزّائِدَة
                 <span role="img" aria-label="Palm Tree">
                   {' '}
                   🌴{' '}
