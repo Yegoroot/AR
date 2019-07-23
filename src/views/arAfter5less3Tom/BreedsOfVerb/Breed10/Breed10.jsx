@@ -16,7 +16,7 @@ class Breed4 extends React.Component {
       <div>
         <Helmet>
           <title>Десятая порода арабского глагола</title>
-          <meta name="description" content="Десятая порода арабского глагола اِسْتَفْعَلَ" />
+          <meta name="description" content="Десятая (10) порода арабского глагола اِسْتَفْعَلَ" />
         </Helmet>
         <Header
           color="transparent"

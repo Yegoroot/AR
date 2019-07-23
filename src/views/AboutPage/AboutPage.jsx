@@ -27,8 +27,11 @@ class Page extends React.Component {
     return (
       <div>
         <Helmet>
-          <title>Дополнительные ресурсы, о проекте [في منامي]</title>
-          <meta name="description" content="Справочник грамматики арабского языка основанный на Мединском курсе" />
+          <title>Дополнительные ресурсы для изучения арабского, о проекте [في منامي]</title>
+          <meta
+            name="description"
+            content="Справочник грамматики для изучающего арабский язык основанный на Мединском курсе. Породы, спряжение глаголов. Сарф, нахву"
+          />
         </Helmet>
         <Header
           color="transparent"

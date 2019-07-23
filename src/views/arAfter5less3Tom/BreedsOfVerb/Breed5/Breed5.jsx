@@ -16,7 +16,7 @@ class Breed5 extends React.Component {
       <div>
         <Helmet>
           <title>Пятая порода арабского глагола</title>
-          <meta name="description" content="Глагол пятой породы تَفَعَّلَ образуется добавлением та возвратности ко второй породе" />
+          <meta name="description" content="Глагол пятой (5) породы تَفَعَّلَ образуется добавлением та возвратности ко второй породе" />
         </Helmet>
         <Header
           color="transparent"

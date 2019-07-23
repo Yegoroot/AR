@@ -16,7 +16,10 @@ class Breed6 extends React.Component {
       <div>
         <Helmet>
           <title>Шестая порода арабского глагола</title>
-          <meta name="description" content="Шестая порода арабского глагола تَفَاعَلَ образуется от третей породы при помощи приставки ت" />
+          <meta
+            name="description"
+            content="Шестая (6) порода арабского глагола تَفَاعَلَ образуется от третьей (3) породы при помощи приставки ت"
+          />
         </Helmet>
         <Header
           color="transparent"

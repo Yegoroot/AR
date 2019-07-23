@@ -17,7 +17,10 @@ class Components extends React.Component {
       <div>
         <Helmet>
           <title>Контакты [في منامي]</title>
-          <meta name="description" content="Справочник грамматики арабского языка основанный на Мединском курсе" />
+          <meta
+            name="description"
+            content="Справочник грамматики для изучающего арабский язык основанный на Мединском курсе. Породы, спряжение глаголов. Сарф, нахву"
+          />
         </Helmet>
         <Header
           // brand=""
