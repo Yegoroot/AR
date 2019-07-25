@@ -59,7 +59,12 @@ class WeakLettersPage extends React.Component {
         <Parallax small filter image={require('assets/img/mosque/mosque9.jpg')} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
-            <h1 className="title">Шаблоны глаголов со слабой коренной</h1>
+            <h1 className="title">
+              Шаблоны глаголов со слабой коренной
+              <span role="img" aria-label="Palm Tree">
+                {' 🌴 '}
+              </span>
+            </h1>
           </div>
           <GridContainer>
             <GridItem xs={12} sm={12} md={12} className={classes.navWrapper}>
