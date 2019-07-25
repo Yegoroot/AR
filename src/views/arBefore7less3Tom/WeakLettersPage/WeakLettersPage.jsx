@@ -4,9 +4,9 @@ import classNames from 'classnames'
 // @material-ui/core components
 import withStyles from '@material-ui/core/styles/withStyles'
 // @material-ui/icons
-// import Filter_1 from '@material-ui/icons/Looks'
-// import Palette from '@material-ui/icons/Palette'
-// import Favorite from '@material-ui/icons/Favorite'
+import BrightnessLow from '@material-ui/icons/BrightnessLow'
+import BrightnessMedium from '@material-ui/icons/BrightnessMedium'
+import BrightnessHigh from '@material-ui/icons/BrightnessHigh'
 // core components
 import Header from 'components/Header/Header.jsx'
 import Footer from 'components/Footer/Footer.jsx'
@@ -37,10 +37,10 @@ class WeakLettersPage extends React.Component {
     return (
       <div>
         <Helmet>
-          <title>Арабский глагол со слабой коренной</title>
+          <title>Слабая коренная в арабских глаголах, шаблоны</title>
           <meta
             name="description"
-            content="Важное правило арабских глаголов касается слабых коренных, которые имеют своеобразное, но логичное образование"
+            content="Для глаголов со слабой коренной есть определенные шаблоны, которые имеют своеобразное, но логичное образование"
           />
         </Helmet>
         <Header
@@ -58,26 +58,28 @@ class WeakLettersPage extends React.Component {
 
         <Parallax small filter image={require('assets/img/mosque/mosque9.jpg')} />
         <div className={classNames(classes.main, classes.mainRaised)}>
-          {/* <div className={classes.container}> */}
-          <GridContainer justify="center">
+          <div className={classes.container}>
+            <h1 className="title">Шаблоны глаголов со слабой коренной</h1>
+          </div>
+          <GridContainer>
             <GridItem xs={12} sm={12} md={12} className={classes.navWrapper}>
               <NavPills
-                alignCenter
+                // alignCenter
                 color="primary"
                 tabs={[
                   {
                     tabButton: 'Первая коренная',
-                    // tabIcon: Filter_1,
+                    tabIcon: BrightnessLow,
                     tabContent: <WeakLetters templates={weakLetters1} />
                   },
                   {
                     tabButton: 'Вторая коренная',
-                    // tabIcon: Palette,
+                    tabIcon: BrightnessMedium,
                     tabContent: <WeakLetters templates={weakLetters2} />
                   },
                   {
                     tabButton: 'Третья коренная',
-                    // tabIcon: Favorite,
+                    tabIcon: BrightnessHigh,
                     tabContent: <WeakLetters templates={weakLetters3} />
                   }
                 ]}

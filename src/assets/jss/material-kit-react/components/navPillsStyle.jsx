@@ -5,11 +5,15 @@ const navPillsStyle = theme => ({
     marginTop: '20px',
     paddingLeft: '0',
     marginBottom: '0',
+    paddingRight: 15,
     overflow: 'visible !important'
   },
   flexContainer: {
+    paddingBottom: 30,
+    justifyContent: 'flex-end',
     [theme.breakpoints.down('xs')]: {
       display: 'flex',
+      paddingBottom: 20,
       flexWrap: 'wrap'
     }
   },
