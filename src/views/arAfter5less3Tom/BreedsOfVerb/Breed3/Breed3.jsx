@@ -15,10 +15,10 @@ class Breed3 extends React.Component {
     return (
       <div>
         <Helmet>
-          <title>Третья порода арабского глагола</title>
+          <title>3 порода арабского глагола</title>
           <meta
             name="description"
-            content="Глагол третъей (3) породы فَاعَلَ образуется добавлением служебной буквы. И приходит со значениями: направленность, устремительность"
+            content="Глагол третъей породы приходит со значениями: направленность, устремительность. Образуется по шаблону فَاعَلَ   и происходит от первообразного с добавлением одной служебной буквы"
           />
         </Helmet>
         <Header
@@ -37,11 +37,10 @@ class Breed3 extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="h1ar">
-                (III) فَاعَلَ
+              <h1 className="title">
+                Глагол III породы (فَاعَلَ)
                 <span role="img" aria-label="Palm Tree">
-                  {' '}
-                  🌴{' '}
+                  {' 🌴 '}
                 </span>
               </h1>
 
@@ -56,7 +55,7 @@ class Breed3 extends React.Component {
                   <span className="contrast"> قَاتَلَ </span>
                 </div>
                 <div className="arsent__translate">
-                  Сражался. (старался убить) <b> Устремительность </b>
+                  Сражался (старался убить) <b> Устремительность </b>
                 </div>
               </div>
 
@@ -65,7 +64,7 @@ class Breed3 extends React.Component {
                   <span className="contrast"> خَادَعَ </span>
                 </div>
                 <div className="arsent__translate">
-                  Обманывал. (старался обмануть) <b> Устремительность </b>
+                  Обманывал (старался обмануть) <b> Устремительность </b>
                 </div>
               </div>
 
@@ -96,12 +95,10 @@ class Breed3 extends React.Component {
               </div>
 
               <h2 className="title">
-                {' '}
-                Шаблоны{' '}
+                Шаблоны
                 <span role="img" aria-label="Writing Hand">
-                  {' '}
-                  ✍️{' '}
-                </span>{' '}
+                  {' ✍️ '}
+                </span>
               </h2>
 
               <div className="items items_islabel">
