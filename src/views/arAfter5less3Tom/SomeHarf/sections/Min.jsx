@@ -4,12 +4,10 @@ export default function() {
   return (
     <>
       <h2 className="h2ar title">
-        {' '}
-        مِنْ{' '}
+        مِنْ
         <span role="img" aria-label="Writing Hand">
-          {' '}
-          ✍️{' '}
-        </span>{' '}
+          {' ✍️ '}
+        </span>
       </h2>
       <div className="desc">
         Одна из вариаций частицы <span className="desc__ar"> مِنْ </span> это &nbsp;
@@ -29,7 +27,7 @@ export default function() {
 
       <div className="arsent">
         <div className="arsent__original" dir="rtl">
-          <span> كَلْ </span>
+          <span> كُلْ </span>
           <span className="contrast"> مِنْ </span>
           <span> هذا </span>
         </div>

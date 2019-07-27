@@ -228,7 +228,7 @@ class AlMafuluFihi extends React.Component {
               </div>
 
               <h2 className="title">
-                Ещё примеры с глаголом
+                Ещё примеры с глаголом 2 породы
                 <span role="img" aria-label="Writing Hand">
                   {' 💪 '}
                 </span>

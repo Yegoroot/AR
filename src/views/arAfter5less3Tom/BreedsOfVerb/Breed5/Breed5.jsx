@@ -37,8 +37,7 @@ class Breed5 extends React.Component {
               <h1 className="h1ar">
                 (V) تَفَعَّلَ
                 <span role="img" aria-label="Palm Tree">
-                  {' '}
-                  🌴{' '}
+                  {' 🌴 '}
                 </span>
               </h1>
 
