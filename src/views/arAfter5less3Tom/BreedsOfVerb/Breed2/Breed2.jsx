@@ -98,10 +98,9 @@ class AlMafuluFihi extends React.Component {
               </div>
 
               <h2 className="title">
-                Шаблоны глагола
+                Шаблоны
                 <span role="img" aria-label="Writing Hand">
-                  {' '}
-                  ✍️{' '}
+                  {' ✍️ '}
                 </span>
               </h2>
 
@@ -205,10 +204,9 @@ class AlMafuluFihi extends React.Component {
               </div>
 
               <h2 className="h2ar">
-                اسم مكان و زمان{' '}
+                اسم مكان و زمان
                 <span role="img" aria-label="Writing Hand">
-                  {' '}
-                  ✍️{' '}
+                  {' ✍️ '}
                 </span>
               </h2>
 
@@ -228,7 +226,7 @@ class AlMafuluFihi extends React.Component {
               </div>
 
               <h2 className="title">
-                Ещё примеры с глаголом 2 породы
+                Дополнительные примеры
                 <span role="img" aria-label="Writing Hand">
                   {' 💪 '}
                 </span>

@@ -52,6 +52,13 @@ class Breed4 extends React.Component {
                 <span className="desc__ar"> أمْصَرَ </span> (вошел в Египет)
               </div>
 
+              <h2 className="title">
+                Шаблоны
+                <span role="img" aria-label="Writing Hand">
+                  {' ✍️ '}
+                </span>
+              </h2>
+
               <div className="items items_islabel">
                 <div className="item">
                   <h2 className="h2ar ">أَفْعَلَ </h2>
@@ -197,7 +204,7 @@ class Breed4 extends React.Component {
               </div>
 
               <h2 className="title">
-                Дополнительные примеры с 4 породой
+                Дополнительные примеры
                 <span role="img" aria-label="Writing Hand">
                   {' 💪 '}
                 </span>

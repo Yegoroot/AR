@@ -15,8 +15,11 @@ class Breed5 extends React.Component {
     return (
       <div>
         <Helmet>
-          <title>Пятая порода арабского глагола</title>
-          <meta name="description" content="Глагол пятой (5) породы تَفَعَّلَ образуется добавлением та возвратности ко второй породе" />
+          <title>5 порода арабского глагола</title>
+          <meta
+            name="description"
+            content='Глагол пятой породы (تَفَعَّلَ) образуется добавлением "та возвратности" ко второй породе. Даёт значение возвратности к субъекту от действия глягола второй породы'
+          />
         </Helmet>
         <Header
           color="transparent"
@@ -34,8 +37,8 @@ class Breed5 extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="h1ar">
-                (V) تَفَعَّلَ
+              <h1 className="title">
+                Глагол пятой породы (تَفَعَّلَ)
                 <span role="img" aria-label="Palm Tree">
                   {' 🌴 '}
                 </span>

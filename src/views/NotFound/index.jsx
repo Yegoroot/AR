@@ -37,7 +37,9 @@ class Components extends React.Component {
         <Parallax style={{ height: '100vh' }} image={require('assets/img/bg2.jpg')}>
           <div className={classes.container}>
             <div className={classes.brand}>
-              <h1 className={classes.title}>Не найдено</h1>
+              <h1 className={classes.title} style={{ fontFamily: "'Roboto', 'Helvetica', 'Arial', sans-serif" }}>
+                Not Found
+              </h1>
               <h2 className={classes.subTitle}>
                 Запрашиваемая страница не найдена
                 <span role="img" aria-label="email with love">
