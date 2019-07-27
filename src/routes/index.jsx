@@ -8,7 +8,8 @@ class Routes extends Component {
       <BrowserRouter>
         <Switch>
           {indexRoutes.map((prop, key) => (
-            <Route path={prop.path} key={key} component={prop.component} />
+            // <Route path={prop.path} key={key}  component={prop.component} {...prop} />
+            <Route path={prop.path} key={key} exact component={prop.component} />
           ))}
         </Switch>
       </BrowserRouter>

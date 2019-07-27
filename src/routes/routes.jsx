@@ -3,6 +3,7 @@
 import Home from 'views/HomeAnimate/HomeAnimate.jsx'
 // import HomeAnimate from 'views/HomeAnimate/HomeAnimate.jsx'
 import Contacts from 'views/Contacts/Contacts.jsx'
+import NotFound from 'views/NotFound'
 import AboutPage from 'views/AboutPage/AboutPage.jsx'
 // import ProfilePage from 'views/ProfilePage/ProfilePage.jsx'
 // import LoginPage from 'views/LoginPage/LoginPage.jsx'
@@ -164,7 +165,8 @@ var indexRoutes = [
   // { path: '/login', name: 'LoginPage', component: LoginPage },
   // { path: '/components', name: 'Components', component: Components },
   { path: '/contacts', name: 'Contacts', component: Contacts },
-  { path: '/', name: 'Home', component: Home }
+  { path: '/', name: 'Home', exact: 'true', component: Home },
+  { path: '*', name: 'Home', component: NotFound }
 ]
 
 export default indexRoutes
