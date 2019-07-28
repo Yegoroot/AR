@@ -39,12 +39,7 @@ class AlMafuluFihi extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="title">
-                Глагол второй породы (فَعَّلَ)
-                <span role="img" aria-label="Palm Tree">
-                  {' 🌴 '}
-                </span>
-              </h1>
+              <h1 className="title">Глагол второй породы&nbsp;(فَعَّلَ)</h1>
 
               <div className="desc">
                 К первообразному добавлена одна служебная буква по модели فَعَّلَ, и глагол стал называться
@@ -203,10 +198,9 @@ class AlMafuluFihi extends React.Component {
                 </div>
               </div>
 
-              <h2 className="h2ar">
-                اسم مكان و زمان
+              <h2 className="h2ar title">
                 <span role="img" aria-label="Writing Hand">
-                  {' ✍️ '}
+                  &nbsp;اسم مكان و زمان&nbsp;{'✍️'}
                 </span>
               </h2>
 
@@ -226,9 +220,8 @@ class AlMafuluFihi extends React.Component {
               </div>
 
               <h2 className="title">
-                Дополнительные примеры
                 <span role="img" aria-label="Writing Hand">
-                  {' 💪 '}
+                  Дополнительные примеры&nbsp;💪
                 </span>
               </h2>
 

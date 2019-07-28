@@ -40,10 +40,7 @@ class Breed7 extends React.Component {
             <div className={classes.navWrapper}>
               <h1 className="h1ar">
                 (VII) انْفَعَلَ
-                <span role="img" aria-label="Palm Tree">
-                  {' '}
-                  🌴{' '}
-                </span>
+                <span role="img" aria-label="Palm Tree" />
               </h1>
 
               <div className="desc">

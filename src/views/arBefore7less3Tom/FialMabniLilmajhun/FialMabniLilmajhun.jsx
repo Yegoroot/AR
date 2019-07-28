@@ -40,10 +40,7 @@ class FialMabniLilmajhun extends React.Component {
             <div className={classes.navWrapper}>
               <h1 className="title h1ar">
                 الفِعْل المَبْنِي لِلمَجْهُول
-                <span role="img" aria-label="Palm Tree">
-                  {' '}
-                  🌴{' '}
-                </span>
+                <span role="img" aria-label="Palm Tree" />
               </h1>
               <div className="desc">
                 <b>Глагол страдательного залога</b>, это действие с необозначенным лицом, бывает два варианта, <b> лицо неизвестно вовсе</b>{' '}

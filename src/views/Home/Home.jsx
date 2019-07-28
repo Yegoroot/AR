@@ -46,7 +46,7 @@ class Components extends React.Component {
         <Parallax style={{ height: '100vh' }} image={require('assets/img/bg4.jpg')}>
           <div className={classes.container}>
             <div className={classes.brand}>
-              {/* <h1 className={classes.title}>Заметки Арабского  <span role="img" aria-label="Palm Tree"> 🌴 </span></h1> */}
+              {/* <h1 className={classes.title}>Заметки Арабского  <span role="img" aria-label="Palm Tree"> 📌 </span></h1> */}
               <h1 className={classes.title}>في منامي</h1>
               <h2 className={classes.subTitle}>
                 Заметки, запсиси, уроки, правила и исключения основанных на Мединском курсе{' '}

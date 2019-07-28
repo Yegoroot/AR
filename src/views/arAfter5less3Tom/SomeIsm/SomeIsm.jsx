@@ -41,10 +41,7 @@ class SomeIsm extends React.Component {
             <div className={classes.navWrapper}>
               <h1 className="title">
                 Некоторые имена
-                <span role="img" aria-label="Palm Tree">
-                  {' '}
-                  🌴{' '}
-                </span>
+                <span role="img" aria-label="Palm Tree" />
               </h1>
               <Ladayya />
               <Kam />

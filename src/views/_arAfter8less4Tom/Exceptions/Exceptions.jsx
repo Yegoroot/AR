@@ -43,11 +43,7 @@ class Page extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title">
-                Выражение исключения{' '}
-                <span role="img" aria-label="Palm Tree">
-                  {' '}
-                  🌴{' '}
-                </span>
+                Выражение исключения <span role="img" aria-label="Palm Tree" />
               </h1>
               <div className="desc">
                 Имеется восемь частиц исключения со смыслом <b>кроме, исключая</b>.<span className="desc__ar"> إِلَّا </span>(частица),

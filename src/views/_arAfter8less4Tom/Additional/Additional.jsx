@@ -43,11 +43,7 @@ class Page extends React.Component {
             <div className={classes.navWrapper}>
               <h1 className="title">
                 {' '}
-                Виды дополнений (المفعول){' '}
-                <span role="img" aria-label="Palm Tree">
-                  {' '}
-                  🌴{' '}
-                </span>
+                Виды дополнений (المفعول) <span role="img" aria-label="Palm Tree" />
               </h1>
               <div className="desc">
                 Существует 5 видов дополнения:

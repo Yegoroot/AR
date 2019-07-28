@@ -39,10 +39,7 @@ class Letter4 extends React.Component {
             <div className={classes.navWrapper}>
               <h1 className="title">
                 Четырёхбуквенный глагол
-                <span role="img" aria-label="Palm Tree">
-                  {' '}
-                  🌴{' '}
-                </span>
+                <span role="img" aria-label="Palm Tree" />
               </h1>
 
               <div className="desc">

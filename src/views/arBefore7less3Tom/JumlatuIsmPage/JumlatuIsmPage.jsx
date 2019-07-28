@@ -44,10 +44,7 @@ class JumlatuIsmPage extends React.Component {
             <div className={classes.navWrapper}>
               <h1 className="title h2ar">
                 جملة الاسميّة
-                <span role="img" aria-label="Palm Tree">
-                  {' '}
-                  🌴{' '}
-                </span>
+                <span role="img" aria-label="Palm Tree" />
               </h1>
 
               <p className="desc">

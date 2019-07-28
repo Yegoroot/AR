@@ -39,9 +39,9 @@ class Breed4 extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title">
-                Глагол четвёртой породы (أَفْعَلَ)
+                Глагол четвёртой породы{' '}
                 <span role="img" aria-label="Palm Tree">
-                  {' 🌴 '}
+                  (أَفْعَلَ)&nbsp;
                 </span>
               </h1>
 

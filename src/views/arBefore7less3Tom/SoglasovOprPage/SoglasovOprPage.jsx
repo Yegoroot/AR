@@ -45,11 +45,7 @@ class SoglasovOpr extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title">
-                Согласованное определение{' '}
-                <span role="img" aria-label="Palm Tree">
-                  {' '}
-                  🌴{' '}
-                </span>
+                Согласованное определение <span role="img" aria-label="Palm Tree" />
               </h1>
 
               <div className="desc">

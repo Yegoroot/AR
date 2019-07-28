@@ -62,7 +62,7 @@ class WeakLettersPage extends React.Component {
             <h1 className="title">
               Шаблоны глаголов со слабой коренной
               <span role="img" aria-label="Palm Tree">
-                {' 🌴 '}
+                nbsp;📌&nbsp;
               </span>
             </h1>
           </div>

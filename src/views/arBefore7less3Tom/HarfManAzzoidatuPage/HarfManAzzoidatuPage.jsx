@@ -48,10 +48,7 @@ class HarfManAzzoidatuPage extends React.Component {
             <div className={classes.navWrapper}>
               <h1 className="title h1ar">
                 مِن الزّائِدَة
-                <span role="img" aria-label="Palm Tree">
-                  {' '}
-                  🌴{' '}
-                </span>
+                <span role="img" aria-label="Palm Tree" />
               </h1>
 
               <div className="desc">

@@ -43,10 +43,7 @@ class AlMafuluFihi extends React.Component {
             <div className={classes.navWrapper}>
               <h1 className="h1ar">
                 المَفْعُول فيه. ظَرْف
-                <span role="img" aria-label="Palm Tree">
-                  {' '}
-                  🌴{' '}
-                </span>
+                <span role="img" aria-label="Palm Tree" />
               </h1>
 
               <div className="desc">

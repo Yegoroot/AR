@@ -47,11 +47,7 @@ class InnaWithSisters extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title">
-                Частица إِنَّ и ее сестры{' '}
-                <span role="img" aria-label="Palm Tree">
-                  {' '}
-                  🌴{' '}
-                </span>
+                Частица إِنَّ и ее сестры <span role="img" aria-label="Palm Tree" />
               </h1>
               <div className="desc">
                 Эти предлоги внедряются в именное предложение перед подлежащим (<span className="desc__ar"> المُبْتَدأ </span>) и сказуемым

@@ -38,9 +38,9 @@ class Breed5 extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title">
-                Глагол пятой породы (تَفَعَّلَ)
+                Глагол пятой породы{' '}
                 <span role="img" aria-label="Palm Tree">
-                  {' 🌴 '}
+                  (تَفَعَّلَ)&nbsp;{'📌'}
                 </span>
               </h1>
 
@@ -85,12 +85,10 @@ class Breed5 extends React.Component {
               </div>
 
               <h2 className="title">
-                {' '}
-                Шаблоны{' '}
+                Шаблоны
                 <span role="img" aria-label="Writing Hand">
-                  {' '}
-                  ✍️{' '}
-                </span>{' '}
+                  {' ✍️ '}
+                </span>
               </h2>
 
               <div className="items items_islabel">

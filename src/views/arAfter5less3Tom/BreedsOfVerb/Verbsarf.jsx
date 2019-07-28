@@ -44,10 +44,7 @@ class Intr extends React.Component {
             <div className={classes.navWrapper}>
               <h1 className="title">
                 Сарф глаголов
-                <span role="img" aria-label="Palm Tree">
-                  {' '}
-                  🌴{' '}
-                </span>
+                <span role="img" aria-label="Palm Tree" />
               </h1>
 
               <div className="desc">

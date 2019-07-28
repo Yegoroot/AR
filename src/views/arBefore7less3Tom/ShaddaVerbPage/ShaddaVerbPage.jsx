@@ -55,7 +55,7 @@ class ShaddaVerbPage extends React.Component {
               Глагол с шаддой{' '}
               <span role="img" aria-label="Palm Tree">
                 {' '}
-                🌴{' '}
+                📌{' '}
               </span>
             </h1>
           </div>

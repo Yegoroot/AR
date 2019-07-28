@@ -37,13 +37,7 @@ class Page extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="h1ar title">
-                الشرط و جواب الشرط
-                <span role="img" aria-label="Palm Tree">
-                  {' '}
-                  🌴{' '}
-                </span>
-              </h1>
+              <h1 className="h1ar title">الشرط و جواب الشرط</h1>
 
               <div className="desc">
                 Кто поймет этот урок, тот поймёт многие другие, в том числе и связанные с методологией фикха. Некоторые правила этого урока

@@ -35,11 +35,7 @@ class Page extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title h1ar">
-                المفعول المُطْلَق{' '}
-                <span role="img" aria-label="Palm Tree">
-                  {' '}
-                  🌴{' '}
-                </span>
+                المفعول المُطْلَق <span role="img" aria-label="Palm Tree" />
               </h1>
 
               <div className="desc">

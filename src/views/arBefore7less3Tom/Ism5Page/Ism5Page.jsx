@@ -46,10 +46,7 @@ class Ism5Page extends React.Component {
             <div className={classes.navWrapper}>
               <h1 className="title">
                 5 имен
-                <span role="img" aria-label="Palm Tree">
-                  {' '}
-                  🌴{' '}
-                </span>
+                <span role="img" aria-label="Palm Tree" />
               </h1>
               <div className="desc">
                 В арабском языке есть 5 имен которые по особому склоняются, <span className="desc__ar"> أب, أخ </span> и другие

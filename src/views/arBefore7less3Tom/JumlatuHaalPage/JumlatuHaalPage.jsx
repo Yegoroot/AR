@@ -49,11 +49,7 @@ class JumlatuHaalPage extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title h1ar">
-                الحال{' '}
-                <span role="img" aria-label="Palm Tree">
-                  {' '}
-                  🌴{' '}
-                </span>
+                الحال <span role="img" aria-label="Palm Tree" />
               </h1>
 
               <div className="desc">

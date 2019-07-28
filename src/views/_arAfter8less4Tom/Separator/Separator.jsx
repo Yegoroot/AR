@@ -44,10 +44,7 @@ class Page extends React.Component {
             <div className={classes.navWrapper}>
               <h1 className="title h1ar">
                 ضَمِيرُ فَصْلٍ
-                <span role="img" aria-label="Palm Tree">
-                  {' '}
-                  🌴{' '}
-                </span>
+                <span role="img" aria-label="Palm Tree" />
               </h1>
               <p className="desc">
                 Разберем <b> разделитель </b> <span className="desc__ar"> هو </span>. Местоимение разделитель обязательно должно быть личным

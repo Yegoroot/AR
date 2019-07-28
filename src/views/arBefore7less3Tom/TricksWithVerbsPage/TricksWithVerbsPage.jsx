@@ -42,7 +42,7 @@ class TricksWithVerbsPage extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              {/* <h1 className="title">Нюансы с глаголами  <span role="img" aria-label="Palm Tree"> 🌴 </span></h1> */}
+              {/* <h1 className="title">Нюансы с глаголами  <span role="img" aria-label="Palm Tree"> 📌 </span></h1> */}
               <LiWithVerb />
               <Admiration />
               <DualIsm />
