@@ -72,9 +72,10 @@ const headerStyle = {
   appResponsive: {
     margin: '20px 10px',
     '@media (max-width: 960px)': {
-      margin: '20px 0px 40px',
+      margin: '0',
       display: 'flex',
-      paddingBottom: '30px'
+      paddingBottom: '30px',
+      paddingTop: 20
     }
   },
   primary: {
