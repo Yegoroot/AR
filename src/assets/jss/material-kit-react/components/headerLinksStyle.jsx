@@ -29,7 +29,7 @@ const headerLinksStyle = theme => ({
     padding: '0',
     '& ul': {
       '@media (min-width: 960px)': {
-        maxHeight: 400,
+        maxHeight: '95vh',
         overflowY: 'auto'
       }
     },

@@ -32,7 +32,7 @@ class ShaddaVerbPage extends React.Component {
     return (
       <div>
         <Helmet>
-          <title>Глагол с шаддой</title>
+          <title>Удвоенный глагол (с шаддой) арабского языка</title>
           <meta name="description" content="В арабском языке трёхбуквенный глагол со сдвоенной коренной спрягается определенным образом" />
         </Helmet>
         <Header
@@ -52,22 +52,18 @@ class ShaddaVerbPage extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <h1 className="title">
-              Глагол с шаддой{' '}
-              <span role="img" aria-label="Palm Tree">
-                {' '}
-                📌{' '}
-              </span>
+              Глагол с шаддой&nbsp;<span className="ph">§</span>
             </h1>
           </div>
 
           <WeakLetters templates={shadda} />
           <div className={classes.container}>
             <h2 className="title">
-              Глагол с шаддой и لا الناهية{' '}
+              Глагол с шаддой и لا الناهية&nbsp;
               <span role="img" aria-label="Writing Hand">
-                {' '}
-                ✍️{' '}
-              </span>{' '}
+                
+                ✍️
+              </span>
             </h2>
             <p>Если с глаголомШадды приходит لا الناهية то видоизменяется конечная огласовка. Например:</p>
           </div>

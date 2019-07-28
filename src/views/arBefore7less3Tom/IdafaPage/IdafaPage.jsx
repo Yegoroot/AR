@@ -47,7 +47,7 @@ class IdafaPage extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title">
-                Несогласованное определение&nbsp;<span className="ph">§</span>
+                Несогласованное определение (الإضافة)&nbsp;<span className="ph">§</span>
               </h1>
 
               <div className="desc">
@@ -62,7 +62,8 @@ class IdafaPage extends React.Component {
               </div>
 
               <h2 className="title">
-                Первая часть<span role="img" aria-label="Writing Hand">
+                Первая часть
+                <span role="img" aria-label="Writing Hand">
                   идафы&nbsp;✍️
                 </span>
               </h2>

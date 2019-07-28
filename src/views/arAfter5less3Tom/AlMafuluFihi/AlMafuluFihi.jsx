@@ -16,10 +16,10 @@ class AlMafuluFihi extends React.Component {
     return (
       <div>
         <Helmet>
-          <title>Обстоятельство места и времени (ظَرْف. المَفْعُول فيه)</title>
+          <title>Обстоятельство места и времени (ظَرْف. المَفْعُول فيه) в арабском языке</title>
           <meta
             name="description"
-            content="المَفْعُول فيه это имя стоящее в насбе (винительном падеже) которое
+            content="Обстоятельство места и времени (المَفْعُول فيه) это имя стоящее в насбе (винительном падеже) которое
             упоминается для объяснения времени совершения действия или его места. Так же он называется
              ظَرْف"
           />
@@ -41,11 +41,13 @@ class AlMafuluFihi extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="h1ar title">
-                المَفْعُول فيه. ظَرْف&nbsp;<span className="ph">§</span>
+              <h1 className="title">
+                Обстоятельство места и времени
+                <br />
+                (المَفْعُول فيه. ظَرْف)&nbsp;<span className="ph">§</span>
               </h1>
 
-              <div className="desc">Обстоятельство места и времени</div>
+              <div className="desc">Обстоятельство места и времени </div>
 
               <AnimateCard>
                 <div className="arsent arsent_rule">
@@ -65,9 +67,12 @@ class AlMafuluFihi extends React.Component {
                 </div>
               </AnimateCard>
 
-              <h2 className="h2ar">
-                ظَرْف زمان<span role="img" aria-label="Writing Hand">
-                  &nbsp;✍️</span></h2>
+              <h2 className="h2ar title">
+                ظَرْف زمان
+                <span role="img" aria-label="Writing Hand">
+                  &nbsp;✍️
+                </span>
+              </h2>
               <div className="arsent">
                 <div className="arsent__original">
                   <span> خَرَجْتُ </span>
@@ -91,9 +96,12 @@ class AlMafuluFihi extends React.Component {
                 </div>
                 <div className="arsent__translate">Я заснул после того как ты заснул</div>
               </div>
-              <h2 className="h2ar">
-                ظَرْف مَكَان<span role="img" aria-label="Writing Hand">
-                  &nbsp;✍️</span></h2>
+              <h2 className="h2ar title">
+                ظَرْف مَكَان
+                <span role="img" aria-label="Writing Hand">
+                  &nbsp;✍️
+                </span>
+              </h2>
               <div className="arsent">
                 <div className="arsent__original">
                   <span> مَشَيْتُ </span>
@@ -117,9 +125,12 @@ class AlMafuluFihi extends React.Component {
                 </div>
                 <div className="arsent__translate">Я заснул под деревом</div>
               </div>
-              <h2 className="h2ar">
-                بعضُ الظروف مَبْنِيَّةُ منها<span role="img" aria-label="Writing Hand">
-                  &nbsp;✍️</span></h2>
+              <h2 className="h2ar title">
+                بعضُ الظروف مَبْنِيَّةُ منها
+                <span role="img" aria-label="Writing Hand">
+                  &nbsp;✍️
+                </span>
+              </h2>
               <div className="desc">
                 Некоторые <span className="desc__ar"> الظروف </span> Которые имеют не изменяемые окончания
               </div>
@@ -173,9 +184,12 @@ class AlMafuluFihi extends React.Component {
                 </div>
                 <div className="arsent__translate"> Садись Где хочешь </div>
               </div>
-              <h2 className="h2ar">
-                هناك أسماءُ تَنُوبُ عنِ الظرف<span role="img" aria-label="Writing Hand">
-                  &nbsp;✍️</span></h2>
+              <h2 className="h2ar title">
+                هناك أسماءُ تَنُوبُ عنِ الظرف
+                <span role="img" aria-label="Writing Hand">
+                  &nbsp;✍️
+                </span>
+              </h2>
               <div className="desc">
                 Существуют имена заменяющие <span className="desc__ar"> الظرف </span>. Ниже будут представлены несколько типов этих имён
               </div>

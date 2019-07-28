@@ -17,8 +17,8 @@ class Page extends React.Component {
     return (
       <div>
         <Helmet>
-          <title>أَداةُ شَرْط إنْ</title>
-          <meta name="description" content="أَداةُ شَرْط إنْ. Кто поймёт эту тему тот поймет некоторые нюансы фикха" />
+          <title>Джазмирование двух глаголов أَداةُ شَرْط إنْ</title>
+          <meta name="description" content="Джазмирование двух глаголов أَداةُ شَرْط إنْ. Кто поймёт эту тему тот поймет некоторые нюансы фикха" />
         </Helmet>
         <Header
           color="transparent"
@@ -33,7 +33,7 @@ class Page extends React.Component {
           {...rest}
         />
 
-        <Parallax small filter image={require('assets/img/mosque/mosque30.jpg')} />
+        <Parallax small filter image={require('assets/img/mosque/mosque16.jpg')} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
@@ -47,7 +47,7 @@ class Page extends React.Component {
               </div>
 
               <h2 className="h2ar title">
-                أَداةُ شَرْط <span className="contrast"> إنْ </span>
+                أَداةُ شَرْط <span className="contrast">إنْ</span>
                 <span role="img" aria-label="Writing Hand">
                   &nbsp;✍️
                 </span>
@@ -124,7 +124,7 @@ class Page extends React.Component {
               </div>
 
               <h2 className="title h2ar ">
-                {' '}
+                
                 أسماء تَجزِم فعلَيْن
                 <span role="img" aria-label="Writing Hand">
                   &nbsp;✍️

@@ -37,7 +37,7 @@ class Breed4 extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="h1ar">
+              <h1 className="h1ar title">
                 (IX) اِفْعَلَّ&nbsp;<span className="ph">§</span>
               </h1>
 

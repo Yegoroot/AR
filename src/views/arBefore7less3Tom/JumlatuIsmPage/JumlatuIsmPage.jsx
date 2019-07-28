@@ -45,12 +45,12 @@ class JumlatuIsmPage extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="title h2ar">
-                جملة الاسميّة&nbsp;<span className="ph">§</span>
+              <h1 className="title">
+                Именное предложение (جملة&nbsp;الاسميّة)&nbsp;<span className="ph">§</span>
               </h1>
 
               <p className="desc">
-                Именное предложение <span className="desc__ar"> (جملة الاِسمِيّة) </span> – это предложение, которое
+                <b>Именное предложение</b> <span className="desc__ar"> (جملة الاِسمِيّة) </span> – это предложение, которое
                 <b> начинается с имени </b>. Например:
                 <span className="desc__ar"> الطالِب مجتهد </span> (студент прилежен). Подлежащее именного предложения
                 <span className="desc__ar"> (المُبْتَدَأُ) </span> ставится, как правило, в определённом состоянии, а сказуемое

@@ -49,7 +49,7 @@ class JumlatuHaalPage extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title h1ar">
-                الحال&nbsp;<span className="ph">§</span>
+                Состояние (الحال)&nbsp;<span className="ph">§</span>
               </h1>
 
               <div className="desc">

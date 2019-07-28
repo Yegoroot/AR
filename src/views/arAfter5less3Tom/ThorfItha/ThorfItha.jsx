@@ -17,11 +17,10 @@ class Page extends React.Component {
     return (
       <div>
         <Helmet>
-          <title>Обстоятельство времени (ظَرْف إذا)</title>
+          <title>Обстоятельство времени (ظَرْف إذا) в арабском языке</title>
           <meta
             name="description"
-            content="ظَرْف إذا (когда) это обстоятельство времени, которое содержит в себе смысл условия. الشَّرْط - это условие, جَوَابُ الشَّرْطِ - это
-            следствие условия"
+            content="Обстоятельство времени (ظَرْف إذا) (когда), содержит в себе смысл условия. الشَّرْط - это условие, جَوَابُ الشَّرْطِ - это следствие условия"
           />
         </Helmet>
 
@@ -37,12 +36,12 @@ class Page extends React.Component {
           }}
           {...rest}
         />
-        <Parallax small filter image={require('assets/img/mosque/mosque19.jpg')} />
+        <Parallax small filter image={require('assets/img/mosque/mosque14.jpg')} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="h1ar">
-                ظَرْف إذا&nbsp;<span className="ph">§</span>
+              <h1 className=" title">
+                Обстоятельство времени (ظَرْف إذا)&nbsp;<span className="ph">§</span>
               </h1>
 
               <div className="desc">
@@ -73,8 +72,11 @@ class Page extends React.Component {
               </div>
 
               <h2 className="title">
-                Важное правило<span role="img" aria-label="Writing Hand">
-                  &nbsp;✍️</span></h2>
+                Важное правило
+                <span role="img" aria-label="Writing Hand">
+                  &nbsp;✍️
+                </span>
+              </h2>
 
               <AnimateCard>
                 <div className="arsent arsent_rule">
@@ -166,8 +168,11 @@ class Page extends React.Component {
               </div>
 
               <h2 className="title">
-                Другие примеры с إذا<span role="img" aria-label="Writing Hand">
-                  &nbsp;✍️</span></h2>
+                Другие примеры с إذا
+                <span role="img" aria-label="Writing Hand">
+                  &nbsp;💪
+                </span>
+              </h2>
 
               <div className="arsent">
                 <div className="arsent__original">
