@@ -15,10 +15,10 @@ class Breed6 extends React.Component {
     return (
       <div>
         <Helmet>
-          <title>Шестая порода арабского глагола</title>
+          <title>6 порода арабского глагола</title>
           <meta
             name="description"
-            content="Шестая (6) порода арабского глагола تَفَاعَلَ образуется от третьей (3) породы при помощи приставки ت"
+            content='Глагол шестой породы арабского глагола تَفَاعَلَ образуется от третьей породы при помощи приставки ت. И приходит со значением "Взаимность действия"'
           />
         </Helmet>
         <Header
@@ -33,12 +33,12 @@ class Breed6 extends React.Component {
           {...rest}
         />
 
-        <Parallax small filter image={require('assets/img/mosque/mosque11.jpg')} />
+        <Parallax small filter image={require('assets/img/mosque/mosque29.jpg')} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="h1ar title">
-                (VI) تَفَاعَلَ&nbsp;<span className="ph">§</span>
+              <h1 className="title">
+                Глагол шестой породы (تَفَاعَلَ)&nbsp;<span className="ph">§</span>
               </h1>
 
               <div className="desc">
@@ -112,8 +112,11 @@ class Breed6 extends React.Component {
               </div>
 
               <h2 className="title">
-                Примеры<span role="img" aria-label="Writing Hand">
-                  &nbsp;✍️</span></h2>
+                Примеры
+                <span role="img" aria-label="Writing Hand">
+                  &nbsp;✍️
+                </span>
+              </h2>
 
               <div className="arsent">
                 <div className="arsent__original">

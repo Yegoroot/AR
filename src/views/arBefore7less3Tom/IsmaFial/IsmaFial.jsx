@@ -16,7 +16,7 @@ class IsmaFial extends React.Component {
     return (
       <div>
         <Helmet>
-          <title>Лицо деятеля (اسم الفاعِل )</title>
+          <title>Лицо деятеля (اسم الفاعِل)</title>
           <meta
             name="description"
             content='Лицо деятель можно перевести как "действительное причастие" это имя существительное указывает на того кто выполняет действие.'
@@ -36,12 +36,12 @@ class IsmaFial extends React.Component {
           {...rest}
         />
 
-        <Parallax small filter image={require('assets/img/mosque/mosque19.jpg')} />
+        <Parallax small filter image={require('assets/img/mosque/mosque13.jpg')} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="title h1ar">
-                اسم الفاعِل&nbsp;<span className="ph">§</span>
+              <h1 className="title">
+              Лицо деятеля (اسم الفاعِل)&nbsp;<span className="ph">§</span>
               </h1>
               <div className="desc">
                 <b>Лицо деятель</b> можно перевести как "действительное причастие" это имя существительное указывает на того кто выполняет

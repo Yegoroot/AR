@@ -15,10 +15,10 @@ class Breed4 extends React.Component {
     return (
       <div>
         <Helmet>
-          <title>Девятая порода арабского глагола</title>
+          <title>9 порода арабского глагола</title>
           <meta
             name="description"
-            content="Девятая (9) порода арабского глагола اِفْعَلَّ. Образуется: перед первой коренной приходит хамза, а третья кореная удваивается. По своему значению эта порода указывает на цвета или какие либо недостатки"
+            content="Девятая порода арабского глагола اِفْعَلَّ. Образуется: перед первой коренной приходит хамза, а третья кореная удваивается. По своему значению эта порода указывает на цвета или какие либо недостатки"
           />
         </Helmet>
         <Header
@@ -33,12 +33,12 @@ class Breed4 extends React.Component {
           {...rest}
         />
 
-        <Parallax small filter image={require('assets/img/mosque/mosque1.jpg')} />
+        <Parallax small filter image={require('assets/img/mosque/mosque2.jpg')} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="h1ar title">
-                (IX) اِفْعَلَّ&nbsp;<span className="ph">§</span>
+              <h1 className="title">
+                Глагол девятой породы (اِفْعَلَّ)&nbsp;<span className="ph">§</span>
               </h1>
 
               <div className="desc">
@@ -98,8 +98,11 @@ class Breed4 extends React.Component {
               </div>
 
               <h2 className="title">
-                Примеры<span role="img" aria-label="Writing Hand">
-                  &nbsp;✍️</span></h2>
+                Примеры
+                <span role="img" aria-label="Writing Hand">
+                  &nbsp;✍️
+                </span>
+              </h2>
 
               <div className="arsent">
                 <div className="arsent__original">

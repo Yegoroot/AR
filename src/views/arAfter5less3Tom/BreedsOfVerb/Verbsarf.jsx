@@ -19,7 +19,7 @@ class Intr extends React.Component {
     return (
       <div>
         <Helmet>
-          <title>Сарф глаголов</title>
+          <title>Сарф (изначальное изминение) глаголов</title>
           <meta
             name="description"
             content="В арабскоя языке есть трёхбуквенные глаголы и четырёхбуквенные (некоторые ученые утверждают что 81% приходится на трёхбуквенные). Эти глаголы могут быть двух видов مُجَرَّدٌ (первообразный) или مَزِيدٌ (производный)"
@@ -37,7 +37,7 @@ class Intr extends React.Component {
           {...rest}
         />
 
-        <Parallax small filter image={require('assets/img/mosque/mosque3.jpg')} />
+        <Parallax small filter image={require('assets/img/mosque/mosque23.jpg')} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <img src={verbsarf} style={{ width: '100%' }} alt="Схема глаголов" />
           <div className={classes.container}>
@@ -66,8 +66,11 @@ class Intr extends React.Component {
               </div>
 
               <h2 className="title">
-                Трехбуквенные<span role="img" aria-label="Writing Hand">
-                  &nbsp;✍️</span></h2>
+                Трехбуквенные
+                <span role="img" aria-label="Writing Hand">
+                  &nbsp;✍️
+                </span>
+              </h2>
               <h3 className="title"> Первообразный </h3>
 
               <div className="arsent">
@@ -152,8 +155,11 @@ class Intr extends React.Component {
               </AnimateCard>
 
               <h2 className="title">
-                Четырёхбуквенные<span role="img" aria-label="Writing Hand">
-                  &nbsp;✍️</span></h2>
+                Четырёхбуквенные
+                <span role="img" aria-label="Writing Hand">
+                  &nbsp;✍️
+                </span>
+              </h2>
               <div className="desc">
                 Смотрите раздел <Link to={'/letter4'}> "Четырёхбуквенный глагол" </Link>{' '}
               </div>

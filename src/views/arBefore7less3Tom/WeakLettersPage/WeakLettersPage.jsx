@@ -37,10 +37,10 @@ class WeakLettersPage extends React.Component {
     return (
       <div>
         <Helmet>
-          <title>Слабая коренная в арабских глаголах, шаблоны</title>
+          <title>Спряжение пустых и недостаточных глаголов. Слабая коренная в арабских глаголах, шаблоны. </title>
           <meta
             name="description"
-            content="Для глаголов со слабой коренной есть определенные шаблоны, которые имеют своеобразное, но логичное образование"
+            content="Для пустых и недостаточных глаголов есть определенные шаблоны, которые имеют своеобразное, но логичное образование"
           />
         </Helmet>
         <Header
@@ -56,14 +56,11 @@ class WeakLettersPage extends React.Component {
           {...rest}
         />
 
-        <Parallax small filter image={require('assets/img/mosque/mosque1.jpg')} />
+        <Parallax small filter image={require('assets/img/mosque/mosque21.jpg')} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <h1 className="title">
-              Шаблоны глаголов со слабой коренной
-              <span role="img" aria-label="Palm Tree">
-                nbsp;📌&nbsp;
-              </span>
+              Шаблоны глаголов со слабой коренной&nbsp;<span className="ph">§</span>
             </h1>
           </div>
           <GridContainer>

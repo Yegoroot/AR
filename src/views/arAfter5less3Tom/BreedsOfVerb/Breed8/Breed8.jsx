@@ -15,10 +15,10 @@ class Breed8 extends React.Component {
     return (
       <div>
         <Helmet>
-          <title>Восьмая порода арабского глагола</title>
+          <title>8 порода арабского глагола</title>
           <meta
             name="description"
-            content="Восьмая (8) порода арабского глагола اِفْتَعَلَ. Добавлен алиф ا перед первой буквой и ت после неё. Основное значение возвратность, так же это действие которое совершается  для самого деятеля"
+            content="Восьмая порода арабского глагола اِفْتَعَلَ. Добавлен алиф ا перед первой буквой и ت после неё. Основное значение возвратность, так же это действие которое совершается  для самого деятеля"
           />
         </Helmet>
         <Header
@@ -37,8 +37,8 @@ class Breed8 extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="h1ar title">
-                (VIII) اِفْتَعَلَ&nbsp;<span className="ph">§</span>
+              <h1 className="title">
+                Глагол восьмой породы (اِفْتَعَلَ)&nbsp;<span className="ph">§</span>
               </h1>
 
               <div className="desc">
@@ -114,8 +114,11 @@ class Breed8 extends React.Component {
               </div>
 
               <h2 className="title">
-                Шаблоны<span role="img" aria-label="Writing Hand">
-                  &nbsp;✍️</span></h2>
+                Шаблоны
+                <span role="img" aria-label="Writing Hand">
+                  &nbsp;✍️
+                </span>
+              </h2>
               <div className="items items_islabel">
                 <div className="item">
                   <h2 className="h2ar ">اِفْتَعَلَ </h2>
@@ -170,8 +173,11 @@ class Breed8 extends React.Component {
               </div>
 
               <h2 className="title">
-                Примеры<span role="img" aria-label="Writing Hand">
-                  &nbsp;✍️</span></h2>
+                Примеры
+                <span role="img" aria-label="Writing Hand">
+                  &nbsp;✍️
+                </span>
+              </h2>
 
               <div className="arsent">
                 <div className="arsent__original">

@@ -43,12 +43,12 @@ class IsmulMakanWaZamanPage extends React.Component {
           {...rest}
         />
 
-        <Parallax small filter image={require('assets/img/mosque/mosque13.jpg')} />
+        <Parallax small filter image={require('assets/img/mosque/mosque14.jpg')} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="title h1ar">
-                اسم مكان و زمان&nbsp;<span className="ph">§</span>
+              <h1 className="title">
+              Имена места и времени (اسم&nbsp;مكان&nbsp;و&nbsp;زمان)&nbsp;<span className="ph">§</span>
               </h1>
 
               <p className="desc">

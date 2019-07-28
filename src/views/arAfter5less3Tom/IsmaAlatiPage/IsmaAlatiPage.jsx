@@ -23,7 +23,7 @@ class IsmaAlatiPage extends React.Component {
     return (
       <div>
         <Helmet>
-          <title>Имя орудия действия (اسم آلة )</title>
+          <title>Имя орудия действия (اسم آلة)</title>
           <meta
             name="description"
             content="Орудие действие в арабском языке существует для того чтоб указать на инструмент совершения действия"
@@ -43,12 +43,12 @@ class IsmaAlatiPage extends React.Component {
           {...rest}
         />
 
-        <Parallax small filter image={require('assets/img/mosque/mosque14.jpg')} />
+        <Parallax small filter image={require('assets/img/mosque/mosque16.jpg')} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="title h1ar">
-                اسم آلة&nbsp;<span className="ph">§</span>
+              <h1 className="title">
+              Имя орудия действия (اسم آلة)&nbsp;<span className="ph">§</span>
               </h1>
 
               <AnimateCard>

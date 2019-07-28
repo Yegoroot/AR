@@ -19,10 +19,10 @@ class Page extends React.Component {
     return (
       <div>
         <Helmet>
-          <title>Усиление арабского глагола</title>
+          <title>Усиление значения арабского глагола</title>
           <meta
             name="description"
-            content="Существуют тяжелая Нун для усиления и лёгкая Нун. Глагол прошедшего времени ни когда не при каких обстоятельствах не
+            content="Существуют тяжелая Нун для усиления значения и лёгкая Нун. Глагол прошедшего времени ни когда не при каких обстоятельствах не
             усиливается."
           />
         </Helmet>
@@ -39,7 +39,7 @@ class Page extends React.Component {
           {...rest}
         />
 
-        <Parallax small filter image={require('assets/img/mosque/mosque17.jpg')} />
+        <Parallax small filter image={require('assets/img/mosque/mosque7.jpg')} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>

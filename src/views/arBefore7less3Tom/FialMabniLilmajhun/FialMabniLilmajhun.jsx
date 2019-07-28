@@ -17,13 +17,13 @@ class FialMabniLilmajhun extends React.Component {
     return (
       <div>
         <Helmet>
-          <title>Глагол страдательного залога (пассивный залог в арабском)</title>
-          <meta name="description" content="Глагол страдательного залога, это действие с необозначенным лицом. Он же пассивный залог" />
+          <title>Глагол страдательного залога в арабском языке (пассивный залог)</title>
+          <meta name="description" content="Глагол страдательного залога, это действие с необозначенным лицом. Он же пассивный залог. Это действие с необозначенным лицом, бывает два варианта, лицо неизвестно вовсе или из контекста понятно кто совершил" />
         </Helmet>
         <Header
           color="transparent"
           brand="الفعل المبني لِلمجهول"
-          isBrandAr
+          // isBrandAr
           rightLinks={<HeaderLinks />}
           fixed
           changeColorOnScroll={{
@@ -34,7 +34,7 @@ class FialMabniLilmajhun extends React.Component {
           {...rest}
         />
 
-        <Parallax small filter image={require('assets/img/mosque/mosque14.jpg')} />
+        <Parallax small filter image={require('assets/img/mosque/mosque22.jpg')} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
@@ -42,8 +42,7 @@ class FialMabniLilmajhun extends React.Component {
                 الفِعْل المَبْنِي لِلمَجْهُول&nbsp;<span className="ph">§</span>
               </h1>
               <div className="desc">
-                <b>Глагол страдательного залога</b>, это действие с необозначенным лицом, бывает два варианта, <b> лицо неизвестно вовсе</b>{' '}
-                , или
+                <b>Глагол страдательного залога</b>, это действие с необозначенным лицом, бывает два варианта, <b> лицо неизвестно вовсе</b> или
                 <b> из контекста понятно кто совершил </b>. Употребляется в том случае если не имеет значение кто совершает действие, когда
                 акцент идет на сам результат. Часто встречается в новостях.
                 <br /> <br />
@@ -51,8 +50,11 @@ class FialMabniLilmajhun extends React.Component {
                 информацию, а в настоящем если употребляется то смысл <b> факт, инструкцаия, предписание, правило </b>
               </div>
               <h2 className="title">
-                Активный залог<span role="img" aria-label="Writing Hand">
-                  &nbsp;✍️</span></h2>
+                Активный залог
+                <span role="img" aria-label="Writing Hand">
+                  &nbsp;✍️
+                </span>
+              </h2>
               <div className="desc">
                 Рассмотрим пример ниже. Заметьте фокус на деятеле, деятель Хамид, обратите внимание на огласовку прямого дополнения (مفعول
                 به)
@@ -67,8 +69,11 @@ class FialMabniLilmajhun extends React.Component {
                 </div>
               </div>
               <h2 className="title">
-                Пример пассивного залога فُعِلَ - يُفْعَلُ<span role="img" aria-label="Writing Hand">
-                  &nbsp;✍️</span></h2>
+                Пример пассивного залога فُعِلَ - يُفْعَلُ
+                <span role="img" aria-label="Writing Hand">
+                  &nbsp;✍️
+                </span>
+              </h2>
               <div className="desc">В случае с пассивным залогом деятель неизвестен (или известен из контекста), фокус на результате.</div>
               <div className="arsent">
                 <div className="arsent__original">
@@ -91,7 +96,8 @@ class FialMabniLilmajhun extends React.Component {
               </div>
               <div className="arsent">
                 <div className="arsent__original">
-                  <Word root="َفُتِح" suffix="تْ" />&nbsp;
+                  <Word root="َفُتِح" suffix="تْ" />
+                  &nbsp;
                   <Word root="النّافِذَ" suffix="ةُ" />
                 </div>
                 <div className="arsent__translate">Окна открыли</div>
@@ -123,8 +129,11 @@ class FialMabniLilmajhun extends React.Component {
               </AnimateCard>
 
               <h2 className="title">
-                Пассивный залог со средней больной<span role="img" aria-label="Writing Hand">
-                  &nbsp;✍️</span></h2>
+                Пассивный залог со средней больной
+                <span role="img" aria-label="Writing Hand">
+                  &nbsp;✍️
+                </span>
+              </h2>
 
               <div className="arsent">
                 <div className="arsent__original">
@@ -138,8 +147,11 @@ class FialMabniLilmajhun extends React.Component {
               </div>
 
               <h2 className="title">
-                Пассивный залог с последней больной<span role="img" aria-label="Writing Hand">
-                  &nbsp;✍️</span></h2>
+                Пассивный залог с последней больной
+                <span role="img" aria-label="Writing Hand">
+                  &nbsp;✍️
+                </span>
+              </h2>
               <div className="arsent">
                 <div className="arsent__original">
                   <Word root="نَج" suffix="ا" /> - <Word root="نُجِ" suffix="يَ" />

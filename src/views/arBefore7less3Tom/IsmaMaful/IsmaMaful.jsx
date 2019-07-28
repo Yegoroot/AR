@@ -15,7 +15,7 @@ class IsmaMaful extends React.Component {
     return (
       <div>
         <Helmet>
-          <title>اسم المَفْول лицо поддействия</title>
+          <title>Лицо поддействия (اسم المَفْول)</title>
           <meta name="description" content="Лицо или предметы на которых падает действие" />
         </Helmet>
         <Header
@@ -35,8 +35,8 @@ class IsmaMaful extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="title h1ar">
-                اسم المَفْول&nbsp;<span className="ph">§</span>
+              <h1 className="title">
+                Лицо поддействия (اسم المَفْول)&nbsp;<span className="ph">§</span>
               </h1>
               <div className="desc">Лицо или предметы на которых падает действие. Например</div>
 

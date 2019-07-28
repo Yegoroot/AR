@@ -43,7 +43,7 @@ class VerbTransitiveAndNo extends React.Component {
           }}
           {...rest}
         />
-        <Parallax small filter image={require('assets/img/mosque/mosque17.jpg')} />
+        <Parallax small filter image={require('assets/img/mosque/mosque24.jpg')} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
@@ -98,8 +98,11 @@ class VerbTransitiveAndNo extends React.Component {
               </div>
 
               <h2 className="title">
-                Непереходной<span role="img" aria-label="Writing Hand">
-                  &nbsp;✍️</span></h2>
+                Непереходной
+                <span role="img" aria-label="Writing Hand">
+                  &nbsp;✍️
+                </span>
+              </h2>
 
               <div className="desc">
                 <b>Непереходной </b> это такой глагол, действие которого остаётся в нем самом
@@ -137,7 +140,8 @@ class VerbTransitiveAndNo extends React.Component {
               </div>
 
               <h2 className="title">
-                Из непереходного в переходный<span role="img" aria-label="Writing Hand">
+                Из непереходного в переходный&nbsp;
+                <span role="img" aria-label="Writing Hand">
                   ✍️
                 </span>
               </h2>
@@ -222,8 +226,11 @@ class VerbTransitiveAndNo extends React.Component {
               </div>
 
               <h2 className="title">
-                В двойне переходный<span role="img" aria-label="Writing Hand">
-                  &nbsp;✍️</span></h2>
+                В двойне переходный
+                <span role="img" aria-label="Writing Hand">
+                  &nbsp;✍️
+                </span>
+              </h2>
               <div className="desc">
                 Если первообразный (изначальный трёхбуквенный) глагол является переходным, то он станет <b> вдвойне переходным </b> если его
                 перености во II или в IV. Например:

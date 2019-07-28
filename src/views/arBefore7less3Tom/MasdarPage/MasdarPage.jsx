@@ -23,7 +23,7 @@ class MasdarPage extends React.Component {
     return (
       <div>
         <Helmet>
-          <title>Масдар отглагольное существительное</title>
+          <title>Масдар (отглагольное существительное)</title>
           <meta
             name="description"
             content='Масдар это отглагольное существительное и потому принимает артикль, танвин, та марбуту и иногда ставится во множественное число. Он не привязан ко времени, как например
@@ -42,7 +42,7 @@ class MasdarPage extends React.Component {
           {...rest}
         />
 
-        <Parallax small filter image={require('assets/img/mosque/mosque3.jpg')} />
+        <Parallax small filter image={require('assets/img/mosque/mosque8.jpg')} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>

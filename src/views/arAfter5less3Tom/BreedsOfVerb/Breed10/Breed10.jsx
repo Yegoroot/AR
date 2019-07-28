@@ -15,8 +15,8 @@ class Breed4 extends React.Component {
     return (
       <div>
         <Helmet>
-          <title>Десятая порода арабского глагола</title>
-          <meta name="description" content="Десятая (10) порода арабского глагола اِسْتَفْعَلَ" />
+          <title>9 порода арабского глагола</title>
+          <meta name="description" content="Десятая порода арабского глагола اِسْتَفْعَلَ" />
         </Helmet>
         <Header
           color="transparent"
@@ -34,8 +34,8 @@ class Breed4 extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="h1ar title">
-                (X) اِسْتَفْعَلَ&nbsp;<span className="ph">§</span>
+              <h1 className="title">
+                Глагол десятой породы (اِسْتَفْعَلَ)&nbsp;<span className="ph">§</span>
               </h1>
 
               <div className="desc">
@@ -115,8 +115,11 @@ class Breed4 extends React.Component {
               </div>
 
               <h2 className="title">
-                Примеры<span role="img" aria-label="Writing Hand">
-                  &nbsp;✍️</span></h2>
+                Примеры
+                <span role="img" aria-label="Writing Hand">
+                  &nbsp;✍️
+                </span>
+              </h2>
 
               <div className="arsent">
                 <div className="arsent__original">
