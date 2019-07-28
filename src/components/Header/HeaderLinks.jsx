@@ -77,7 +77,6 @@ function HeaderLinks({ ...props }) {
         <CustomDropdown
           noLiPadding
           buttonText="Глагол"
-          // FSAr
           buttonProps={{
             className: classes.navLink,
             color: 'transparent'
@@ -145,7 +144,6 @@ function HeaderLinks({ ...props }) {
         <CustomDropdown
           noLiPadding
           buttonText="Имя"
-          // FSAr
           buttonProps={{
             className: classes.navLink,
             color: 'transparent'
@@ -192,7 +190,6 @@ function HeaderLinks({ ...props }) {
         <CustomDropdown
           noLiPadding
           buttonText="Частицы"
-          // FSAr
           buttonProps={{
             className: classes.navLink,
             color: 'transparent'
@@ -243,7 +240,6 @@ function HeaderLinks({ ...props }) {
         <CustomDropdown
           noLiPadding
           buttonText="Разное"
-          // FSAr
           buttonProps={{
             className: classes.navLink,
             color: 'transparent'

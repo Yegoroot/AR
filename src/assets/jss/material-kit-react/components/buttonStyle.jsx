@@ -287,9 +287,6 @@ const buttonStyle = {
         height: '17px'
       }
     }
-  },
-  FSAr: {
-    fontSize: '27px !important'
   }
 }
 
