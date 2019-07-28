@@ -98,11 +98,8 @@ class VerbTransitiveAndNo extends React.Component {
               </div>
 
               <h2 className="title">
-                Непереходной{' '}
-                <span role="img" aria-label="Writing Hand">
-                  &nbsp;✍️
-                </span>{' '}
-              </h2>
+                Непереходной<span role="img" aria-label="Writing Hand">
+                  &nbsp;✍️</span></h2>
 
               <div className="desc">
                 <b>Непереходной </b> это такой глагол, действие которого остаётся в нем самом
@@ -140,8 +137,7 @@ class VerbTransitiveAndNo extends React.Component {
               </div>
 
               <h2 className="title">
-                Из непереходного в переходный{' '}
-                <span role="img" aria-label="Writing Hand">
+                Из непереходного в переходный<span role="img" aria-label="Writing Hand">
                   ✍️
                 </span>
               </h2>
@@ -227,11 +223,8 @@ class VerbTransitiveAndNo extends React.Component {
 
               <h2 className="title">
                 {' '}
-                В двойне переходный{' '}
-                <span role="img" aria-label="Writing Hand">
-                  &nbsp;✍️
-                </span>{' '}
-              </h2>
+                В двойне переходный<span role="img" aria-label="Writing Hand">
+                  &nbsp;✍️</span></h2>
               <div className="desc">
                 Если первообразный (изначальный трёхбуквенный) глагол является переходным, то он станет <b> вдвойне переходным </b> если его
                 перености во II или в IV. Например:

@@ -102,11 +102,8 @@ class IsmaFial extends React.Component {
               {/* ------ */}
 
               <h2 className="title">
-                اسم الفاعِل у глаголов с шаддой{' '}
-                <span role="img" aria-label="Writing Hand">
-                  &nbsp;✍️
-                </span>{' '}
-              </h2>
+                اسم الفاعِل у глаголов с шаддой<span role="img" aria-label="Writing Hand">
+                  &nbsp;✍️</span></h2>
               <div className="desc">
                 Не смотря на то что حَاجٌَ и ему подобные не похожи на اسم الفاعِل, мы чётко видим по каким принципам образуется это лицо
                 деятель
@@ -143,11 +140,8 @@ class IsmaFial extends React.Component {
               {/* -------- */}
 
               <h2 className="title">
-                اسم الفاعِل у глаголов со средней слабой{' '}
-                <span role="img" aria-label="Writing Hand">
-                  &nbsp;✍️
-                </span>{' '}
-              </h2>
+                اسم الفاعِل у глаголов со средней слабой<span role="img" aria-label="Writing Hand">
+                  &nbsp;✍️</span></h2>
               <div className="desc">Когда мы хотим образовать اسم الفاعِل со средней больной, то меняем коренной алиф на хамзу</div>
               <div className="arsent">
                 <div className="arsent__original">
@@ -172,11 +166,8 @@ class IsmaFial extends React.Component {
 
               {/* -------- */}
               <h2 className="title">
-                اسم الفاعِل у глаголов со слабой последней{' '}
-                <span role="img" aria-label="Writing Hand">
-                  &nbsp;✍️
-                </span>{' '}
-              </h2>
+                اسم الفاعِل у глаголов со слабой последней<span role="img" aria-label="Writing Hand">
+                  &nbsp;✍️</span></h2>
 
               <div className="arsent">
                 <div className="arsent__original">
@@ -194,11 +185,8 @@ class IsmaFial extends React.Component {
 
               {/* -------- */}
               <h2 className="title">
-                С точки зрения сарф и нахв{' '}
-                <span role="img" aria-label="Writing Hand">
-                  &nbsp;✍️
-                </span>{' '}
-              </h2>
+                С точки зрения сарф и нахв<span role="img" aria-label="Writing Hand">
+                  &nbsp;✍️</span></h2>
               <div className="desc">
                 На картинке показаны подходы с точки зрения сарфа и нахв, три разных предложения и три разных роли у одного слова
               </div>

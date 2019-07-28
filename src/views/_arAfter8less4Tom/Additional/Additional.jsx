@@ -54,11 +54,10 @@ class Page extends React.Component {
               </div>
 
               <h2 className="title h2ar">
-                {' '}
-                المَفعول بِه{' '}
+                المَفعول بِه
                 <span role="img" aria-label="Writing Hand">
                   &nbsp;✍️
-                </span>{' '}
+                </span>
               </h2>
               <div className="desc">
                 <b> Прямое дополнение </b> это объект, на который непосредственно (без предлога) переходит действие переходного глагола (см.
@@ -80,30 +79,27 @@ class Page extends React.Component {
               </div>
 
               <h2 className="title h2ar">
-                {' '}
-                المَفْعُول فيه{' '}
+                المَفْعُول فيه
                 <span role="img" aria-label="Writing Hand">
                   &nbsp;✍️
-                </span>{' '}
+                </span>
               </h2>
               <div className="desc">
                 Про <b> обстоятельство места или времени </b> можно посмотреть <Link to={'/almafulufihi'}> в этом разделе </Link>
               </div>
 
               <h2 className="h2ar title">
-                {' '}
-                المفعول المُطْلَق{' '}
+                المفعول المُطْلَق
                 <span role="img" aria-label="Writing Hand">
                   &nbsp;✍️
-                </span>{' '}
+                </span>
               </h2>
               <div className="desc">
                 Про <b> абсолютное дополнение </b> можно посмотреть <Link to={'/addabsolute'}> в этом разделе </Link>
               </div>
 
               <h2 className="h2ar title">
-                {' '}
-                المَفعول لَه{' '}
+                المَفعول لَه
                 <span role="img" aria-label="Writing Hand">
                   &nbsp;✍️
                 </span>
@@ -142,10 +138,10 @@ class Page extends React.Component {
               </div>
 
               <h2 className="h2ar title">
-                المفعول مَعَهُ{' '}
+                المفعول مَعَهُ
                 <span role="img" aria-label="Writing Hand">
                   &nbsp;✍️
-                </span>{' '}
+                </span>
               </h2>
               <div className="desc">
                 <b className="desc__ar"> المَفْعُولُ مَعَهُ </b> – это имя в винительном падеже, которое стоит после предлога

@@ -67,11 +67,8 @@ class AbjectDegrees extends React.Component {
               </div>
 
               <h2 className="title">
-                Склонение двухпадежных имён{' '}
-                <span role="img" aria-label="Writing Hand">
-                  &nbsp;✍️
-                </span>{' '}
-              </h2>
+                Склонение двухпадежных имён<span role="img" aria-label="Writing Hand">
+                  &nbsp;✍️</span></h2>
 
               <div className="arsent">
                 <div className="arsent__original">مَدَارِسُ فَاطِمَةُ رَمَضَانُ</div>
@@ -93,11 +90,8 @@ class AbjectDegrees extends React.Component {
               </div>
 
               <h2 className="title">
-                Сила двух причин{' '}
-                <span role="img" aria-label="Writing Hand">
-                  &nbsp;✍️
-                </span>{' '}
-              </h2>
+                Сила двух причин<span role="img" aria-label="Writing Hand">
+                  &nbsp;✍️</span></h2>
 
               <div className="desc">
                 Одного <b> ломанного множественного числа </b> или <b> некоренного алифа женского рода </b>
@@ -135,11 +129,8 @@ class AbjectDegrees extends React.Component {
               </div>
 
               <h2 className="title">
-                Другие причины{' '}
-                <span role="img" aria-label="Writing Hand">
-                  &nbsp;✍️
-                </span>{' '}
-              </h2>
+                Другие причины<span role="img" aria-label="Writing Hand">
+                  &nbsp;✍️</span></h2>
 
               <h3 className="title">Имена собственные женские (وَتَأْنِيثٌ) или мужские с тамарбутой</h3>
               <div className="desc">

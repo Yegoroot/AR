@@ -206,11 +206,8 @@ class Breed5 extends React.Component {
 
               <h2 className="title">
                 {' '}
-                Удаление одной ت{' '}
-                <span role="img" aria-label="Writing Hand">
-                  &nbsp;✍️
-                </span>{' '}
-              </h2>
+                Удаление одной ت<span role="img" aria-label="Writing Hand">
+                  &nbsp;✍️</span></h2>
 
               <div className="desc">
                 Разрешается удалять одну <b className="desc__ar"> ت </b> если она повторяеться но для этого должна быть причина. Например:

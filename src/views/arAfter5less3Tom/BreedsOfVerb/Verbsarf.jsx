@@ -67,11 +67,8 @@ class Intr extends React.Component {
 
               <h2 className="title">
                 {' '}
-                Трехбуквенные{' '}
-                <span role="img" aria-label="Writing Hand">
-                  &nbsp;✍️
-                </span>{' '}
-              </h2>
+                Трехбуквенные<span role="img" aria-label="Writing Hand">
+                  &nbsp;✍️</span></h2>
               <h3 className="title"> Первообразный </h3>
 
               <div className="arsent">
@@ -157,11 +154,8 @@ class Intr extends React.Component {
 
               <h2 className="title">
                 {' '}
-                Четырёхбуквенные{' '}
-                <span role="img" aria-label="Writing Hand">
-                  &nbsp;✍️
-                </span>{' '}
-              </h2>
+                Четырёхбуквенные<span role="img" aria-label="Writing Hand">
+                  &nbsp;✍️</span></h2>
               <div className="desc">
                 Смотрите раздел <Link to={'/letter4'}> "Четырёхбуквенный глагол" </Link>{' '}
               </div>

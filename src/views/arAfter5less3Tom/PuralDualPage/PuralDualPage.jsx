@@ -125,11 +125,8 @@ class PuralDualPage extends React.Component {
               </div>
 
               <h2 className="title">
-                Неправильное множественое число{' '}
-                <span role="img" aria-label="Writing Hand">
-                  &nbsp;✍️
-                </span>{' '}
-              </h2>
+                Неправильное множественое число<span role="img" aria-label="Writing Hand">
+                  &nbsp;✍️</span></h2>
               <div className="desc">Есть некоторые модели у ломанных (неправильных) множественных</div>
               <div className="items">
                 {/* <div className="item">

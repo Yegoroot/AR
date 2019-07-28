@@ -86,11 +86,8 @@ class Breed7 extends React.Component {
               </div>
 
               <h2 className="title">
-                Шаблоны{' '}
-                <span role="img" aria-label="Writing Hand">
-                  &nbsp;✍️
-                </span>{' '}
-              </h2>
+                Шаблоны<span role="img" aria-label="Writing Hand">
+                  &nbsp;✍️</span></h2>
 
               <div className="items items_islabel">
                 <div className="item">
@@ -151,11 +148,8 @@ class Breed7 extends React.Component {
               </div>
 
               <h2 className="title">
-                Примеры{' '}
-                <span role="img" aria-label="Writing Hand">
-                  &nbsp;✍️
-                </span>{' '}
-              </h2>
+                Примеры<span role="img" aria-label="Writing Hand">
+                  &nbsp;✍️</span></h2>
               <div className="arsent">
                 <div className="arsent__original">
                   <span> وَقَعَ الكُوبُ على الأرض و </span>

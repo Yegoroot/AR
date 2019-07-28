@@ -62,8 +62,7 @@ class IdafaPage extends React.Component {
               </div>
 
               <h2 className="title">
-                Первая часть{' '}
-                <span role="img" aria-label="Writing Hand">
+                Первая часть<span role="img" aria-label="Writing Hand">
                   идафы&nbsp;✍️
                 </span>
               </h2>

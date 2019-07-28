@@ -56,11 +56,8 @@ class HarfWaPage extends React.Component {
               </div>
 
               <h2 className="title h2ar">
-                ٌواو القَسَم{' '}
-                <span role="img" aria-label="Writing Hand">
-                  &nbsp;✍️
-                </span>{' '}
-              </h2>
+                ٌواو القَسَم<span role="img" aria-label="Writing Hand">
+                  &nbsp;✍️</span></h2>
               <div className="desc">Клятвенная вав, относится к предлогам родительного падежа и поэтому дает кясру слову</div>
               <div className="arsent">
                 <div className="arsent__original">
@@ -70,11 +67,8 @@ class HarfWaPage extends React.Component {
               </div>
 
               <h2 className="title h2ar">
-                واو الحَال{' '}
-                <span role="img" aria-label="Writing Hand">
-                  &nbsp;✍️
-                </span>{' '}
-              </h2>
+                واو الحَال<span role="img" aria-label="Writing Hand">
+                  &nbsp;✍️</span></h2>
 
               <div className="desc">
                 Это <span className="desc__ar"> واو </span> состояния. В дополнение можно посмотреть урок про

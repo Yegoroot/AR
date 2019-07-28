@@ -54,11 +54,8 @@ class IsmaMaful extends React.Component {
 
               <h2 className="title">
                 {' '}
-                Примеры{' '}
-                <span role="img" aria-label="Writing Hand">
-                  &nbsp;✍️
-                </span>{' '}
-              </h2>
+                Примеры<span role="img" aria-label="Writing Hand">
+                  &nbsp;✍️</span></h2>
               <div className="arsent">
                 <div>
                   <span className="arsent__original" dir="rtl">
@@ -118,11 +115,8 @@ class IsmaMaful extends React.Component {
               </div>
 
               <h2 className="title">
-                اسم المَفْول со слабой средней{' '}
-                <span role="img" aria-label="Writing Hand">
-                  &nbsp;✍️
-                </span>{' '}
-              </h2>
+                اسم المَفْول со слабой средней<span role="img" aria-label="Writing Hand">
+                  &nbsp;✍️</span></h2>
               <h3 className="title">1 шаблон</h3>
 
               <div className="arsent">
@@ -154,11 +148,8 @@ class IsmaMaful extends React.Component {
               </div>
 
               <h2 className="title">
-                اسم المَفْول со слабой последней{' '}
-                <span role="img" aria-label="Writing Hand">
-                  &nbsp;✍️
-                </span>{' '}
-              </h2>
+                اسم المَفْول со слабой последней<span role="img" aria-label="Writing Hand">
+                  &nbsp;✍️</span></h2>
               <h3 className="title">1 шаблон</h3>
 
               <div className="arsent">
@@ -191,11 +182,8 @@ class IsmaMaful extends React.Component {
               </div>
 
               <h2 className="title">
-                اسم المَفْول с шаддой{' '}
-                <span role="img" aria-label="Writing Hand">
-                  &nbsp;✍️
-                </span>{' '}
-              </h2>
+                اسم المَفْول с шаддой<span role="img" aria-label="Writing Hand">
+                  &nbsp;✍️</span></h2>
               <div className="arsent">
                 <div className="arsent__original" dir="rtl">
                   <span>سَرَّ</span> - <span className="contrast">مَسرُور</span>

@@ -51,11 +51,8 @@ class FialMabniLilmajhun extends React.Component {
                 информацию, а в настоящем если употребляется то смысл <b> факт, инструкцаия, предписание, правило </b>
               </div>
               <h2 className="title">
-                Активный залог{' '}
-                <span role="img" aria-label="Writing Hand">
-                  &nbsp;✍️
-                </span>{' '}
-              </h2>
+                Активный залог<span role="img" aria-label="Writing Hand">
+                  &nbsp;✍️</span></h2>
               <div className="desc">
                 Рассмотрим пример ниже. Заметьте фокус на деятеле, деятель Хамид, обратите внимание на огласовку прямого дополнения (مفعول
                 به)
@@ -70,11 +67,8 @@ class FialMabniLilmajhun extends React.Component {
                 </div>
               </div>
               <h2 className="title">
-                Пример пассивного залога فُعِلَ - يُفْعَلُ{' '}
-                <span role="img" aria-label="Writing Hand">
-                  &nbsp;✍️
-                </span>{' '}
-              </h2>
+                Пример пассивного залога فُعِلَ - يُفْعَلُ<span role="img" aria-label="Writing Hand">
+                  &nbsp;✍️</span></h2>
               <div className="desc">В случае с пассивным залогом деятель неизвестен (или известен из контекста), фокус на результате.</div>
               <div className="arsent">
                 <div className="arsent__original">
@@ -129,11 +123,8 @@ class FialMabniLilmajhun extends React.Component {
               </AnimateCard>
 
               <h2 className="title">
-                Пассивный залог со средней больной{' '}
-                <span role="img" aria-label="Writing Hand">
-                  &nbsp;✍️
-                </span>{' '}
-              </h2>
+                Пассивный залог со средней больной<span role="img" aria-label="Writing Hand">
+                  &nbsp;✍️</span></h2>
 
               <div className="arsent">
                 <div className="arsent__original">
@@ -147,11 +138,8 @@ class FialMabniLilmajhun extends React.Component {
               </div>
 
               <h2 className="title">
-                Пассивный залог с последней больной{' '}
-                <span role="img" aria-label="Writing Hand">
-                  &nbsp;✍️
-                </span>{' '}
-              </h2>
+                Пассивный залог с последней больной<span role="img" aria-label="Writing Hand">
+                  &nbsp;✍️</span></h2>
               <div className="arsent">
                 <div className="arsent__original">
                   <Word root="نَج" suffix="ا" /> - <Word root="نُجِ" suffix="يَ" />

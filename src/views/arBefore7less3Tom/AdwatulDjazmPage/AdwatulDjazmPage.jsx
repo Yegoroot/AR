@@ -49,11 +49,8 @@ class AdwatulDjazmPage extends React.Component {
               </h1>
 
               <h2 className="title h2ar">
-                لَمْ{' '}
-                <span role="img" aria-label="Writing Hand">
-                  &nbsp;✍️
-                </span>{' '}
-              </h2>
+                لَمْ<span role="img" aria-label="Writing Hand">
+                  &nbsp;✍️</span></h2>
               <div className="desc">
                 <b> Отрицательная частица </b> приходит перед глаголами настоящего времени у ней две роли: <b> отрицает </b> и
                 <b> меняет время на прошедшее</b>
@@ -65,11 +62,8 @@ class AdwatulDjazmPage extends React.Component {
               </div>
 
               <h2 className="title h2ar">
-                لَمّا{' '}
-                <span role="img" aria-label="Writing Hand">
-                  &nbsp;✍️
-                </span>{' '}
-              </h2>
+                لَمّا<span role="img" aria-label="Writing Hand">
+                  &nbsp;✍️</span></h2>
               <div className="desc">
                 <b> Частица (пока еще не, еще не) </b>. Отрицает и прошлый и настоящий момент, у <span className="desc__ar"> لمَّا </span>
                 есть высокий уровень возможности свершения
@@ -96,11 +90,8 @@ class AdwatulDjazmPage extends React.Component {
               </div>
 
               <h2 className="title h2ar">
-                لا النّاهية{' '}
-                <span role="img" aria-label="Writing Hand">
-                  &nbsp;✍️
-                </span>{' '}
-              </h2>
+                لا النّاهية<span role="img" aria-label="Writing Hand">
+                  &nbsp;✍️</span></h2>
               <div className="desc">
                 <b>Частица отрицания</b> приходит только ко второму лицу настоящего времени!
               </div>
@@ -118,11 +109,8 @@ class AdwatulDjazmPage extends React.Component {
               </div>
 
               <h2 className="title h2ar">
-                لامُ الأمر{' '}
-                <span role="img" aria-label="Writing Hand">
-                  &nbsp;✍️
-                </span>{' '}
-              </h2>
+                لامُ الأمر<span role="img" aria-label="Writing Hand">
+                  &nbsp;✍️</span></h2>
               <div className="desc">
                 <b>Частица приказа</b> может прийти к любому лицу (Пусть он, пусть она)
               </div>

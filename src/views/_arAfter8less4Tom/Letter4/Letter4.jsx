@@ -49,11 +49,8 @@ class Letter4 extends React.Component {
 
               <h2 className="title">
                 {' '}
-                Первообразный فَعْلَلَ{' '}
-                <span role="img" aria-label="Writing Hand">
-                  &nbsp;✍️
-                </span>{' '}
-              </h2>
+                Первообразный فَعْلَلَ<span role="img" aria-label="Writing Hand">
+                  &nbsp;✍️</span></h2>
 
               <div className="arsent">
                 <div className="arsent__original">
@@ -88,11 +85,8 @@ class Letter4 extends React.Component {
 
               <h2 className="title">
                 {' '}
-                Производный 1 تَفَعْلَلَ{' '}
-                <span role="img" aria-label="Writing Hand">
-                  &nbsp;✍️
-                </span>{' '}
-              </h2>
+                Производный 1 تَفَعْلَلَ<span role="img" aria-label="Writing Hand">
+                  &nbsp;✍️</span></h2>
 
               <div className="arsent">
                 <div className="arsent__original">
@@ -127,11 +121,8 @@ class Letter4 extends React.Component {
 
               <h2 className="title">
                 {' '}
-                Производный 2 اِفْعَلَلَّ{' '}
-                <span role="img" aria-label="Writing Hand">
-                  &nbsp;✍️
-                </span>{' '}
-              </h2>
+                Производный 2 اِفْعَلَلَّ<span role="img" aria-label="Writing Hand">
+                  &nbsp;✍️</span></h2>
 
               <div className="arsent">
                 <div className="arsent__original">
@@ -165,11 +156,8 @@ class Letter4 extends React.Component {
 
               <h2 className="title">
                 {' '}
-                Производный 3 اِفْعَنْلَلَ{' '}
-                <span role="img" aria-label="Writing Hand">
-                  &nbsp;✍️
-                </span>{' '}
-              </h2>
+                Производный 3 اِفْعَنْلَلَ<span role="img" aria-label="Writing Hand">
+                  &nbsp;✍️</span></h2>
 
               <div className="arsent">
                 <div className="arsent__original">
@@ -203,11 +191,8 @@ class Letter4 extends React.Component {
 
               <h2 className="title">
                 {' '}
-                Примеры{' '}
-                <span role="img" aria-label="Writing Hand">
-                  &nbsp;✍️
-                </span>{' '}
-              </h2>
+                Примеры<span role="img" aria-label="Writing Hand">
+                  &nbsp;✍️</span></h2>
 
               <div className="arsent">
                 <div className="arsent__original">
@@ -247,11 +232,8 @@ class Letter4 extends React.Component {
 
               <h2 className="title">
                 {' '}
-                Мини словарь{' '}
-                <span role="img" aria-label="Writing Hand">
-                  &nbsp;✍️
-                </span>{' '}
-              </h2>
+                Мини словарь<span role="img" aria-label="Writing Hand">
+                  &nbsp;✍️</span></h2>
 
               <div className="arsent">
                 <div>

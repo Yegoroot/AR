@@ -66,11 +66,8 @@ class AlMafuluFihi extends React.Component {
               </AnimateCard>
 
               <h2 className="h2ar">
-                ظَرْف زمان{' '}
-                <span role="img" aria-label="Writing Hand">
-                  &nbsp;✍️
-                </span>{' '}
-              </h2>
+                ظَرْف زمان<span role="img" aria-label="Writing Hand">
+                  &nbsp;✍️</span></h2>
               <div className="arsent">
                 <div className="arsent__original">
                   <span> خَرَجْتُ </span>
@@ -95,11 +92,8 @@ class AlMafuluFihi extends React.Component {
                 <div className="arsent__translate">Я заснул после того как ты заснул</div>
               </div>
               <h2 className="h2ar">
-                ظَرْف مَكَان{' '}
-                <span role="img" aria-label="Writing Hand">
-                  &nbsp;✍️
-                </span>{' '}
-              </h2>
+                ظَرْف مَكَان<span role="img" aria-label="Writing Hand">
+                  &nbsp;✍️</span></h2>
               <div className="arsent">
                 <div className="arsent__original">
                   <span> مَشَيْتُ </span>
@@ -124,11 +118,8 @@ class AlMafuluFihi extends React.Component {
                 <div className="arsent__translate">Я заснул под деревом</div>
               </div>
               <h2 className="h2ar">
-                بعضُ الظروف مَبْنِيَّةُ منها{' '}
-                <span role="img" aria-label="Writing Hand">
-                  &nbsp;✍️
-                </span>{' '}
-              </h2>
+                بعضُ الظروف مَبْنِيَّةُ منها<span role="img" aria-label="Writing Hand">
+                  &nbsp;✍️</span></h2>
               <div className="desc">
                 Некоторые <span className="desc__ar"> الظروف </span> Которые имеют не изменяемые окончания
               </div>
@@ -183,11 +174,8 @@ class AlMafuluFihi extends React.Component {
                 <div className="arsent__translate"> Садись Где хочешь </div>
               </div>
               <h2 className="h2ar">
-                هناك أسماءُ تَنُوبُ عنِ الظرف{' '}
-                <span role="img" aria-label="Writing Hand">
-                  &nbsp;✍️
-                </span>{' '}
-              </h2>
+                هناك أسماءُ تَنُوبُ عنِ الظرف<span role="img" aria-label="Writing Hand">
+                  &nbsp;✍️</span></h2>
               <div className="desc">
                 Существуют имена заменяющие <span className="desc__ar"> الظرف </span>. Ниже будут представлены несколько типов этих имён
               </div>

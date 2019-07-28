@@ -79,12 +79,8 @@ class HarfulAw extends React.Component {
               </div>
 
               <h2 className="h2ar">
-                {' '}
-                ولو{' '}
-                <span role="img" aria-label="Writing Hand">
-                  &nbsp;✍️
-                </span>{' '}
-              </h2>
+                ولو<span role="img" aria-label="Writing Hand">
+                  &nbsp;✍️</span></h2>
               <div className="arsent">
                 <div className="arsent__original">
                   <span> اُحْضُرْ الامْتِحانَ </span>

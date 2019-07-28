@@ -113,11 +113,8 @@ class Breed6 extends React.Component {
 
               <h2 className="title">
                 {' '}
-                Примеры{' '}
-                <span role="img" aria-label="Writing Hand">
-                  &nbsp;✍️
-                </span>{' '}
-              </h2>
+                Примеры<span role="img" aria-label="Writing Hand">
+                  &nbsp;✍️</span></h2>
 
               <div className="arsent">
                 <div className="arsent__original">

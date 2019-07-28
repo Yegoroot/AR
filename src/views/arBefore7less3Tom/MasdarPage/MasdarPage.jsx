@@ -202,11 +202,8 @@ class MasdarPage extends React.Component {
               </div>
 
               <h2 className="title">
-                Имя масдара{' '}
-                <span role="img" aria-label="Writing Hand">
-                  &nbsp;✍️
-                </span>{' '}
-              </h2>
+                Имя масдара<span role="img" aria-label="Writing Hand">
+                  &nbsp;✍️</span></h2>
               <div className="desc">
                 <b>Имя масдара</b> это имя которое указывает на то, что указывает масдар, однако букв в нём меньше. Например
               </div>

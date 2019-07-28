@@ -57,11 +57,8 @@ class AbjectDegrees extends React.Component {
                 Прилагательные можно разделить на три группы <b>сравнительные</b>, <b>превосходные</b> и обыкновенные
               </div>
               <h2 className="title">
-                Сравнительная степень أفْعَل مِنْهُ{' '}
-                <span role="img" aria-label="Writing Hand">
-                  &nbsp;✍️
-                </span>{' '}
-              </h2>
+                Сравнительная степень أفْعَل مِنْهُ<span role="img" aria-label="Writing Hand">
+                  &nbsp;✍️</span></h2>
 
               <div className="arsent">
                 <div className="arsent__original">
@@ -74,11 +71,8 @@ class AbjectDegrees extends React.Component {
               </div>
 
               <h2 className="title">
-                Превосходная степень{' '}
-                <span role="img" aria-label="Writing Hand">
-                  &nbsp;✍️
-                </span>{' '}
-              </h2>
+                Превосходная степень<span role="img" aria-label="Writing Hand">
+                  &nbsp;✍️</span></h2>
               <div className="desc">"Один из сАмых". Изофетная связка</div>
               <div className="arsent">
                 <div className="arsent__original">
