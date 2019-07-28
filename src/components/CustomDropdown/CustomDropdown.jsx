@@ -54,7 +54,7 @@ class CustomDropdown extends React.Component {
   }
 
   shouldComponentUpdate(nextProps, nextState) {
-    return this.props.isMobile !== nextProps.isMobile
+    return this.props.isMobile !== nextProps.isMobile || this.state.open !== nextState.open
   }
 
   render() {
@@ -74,8 +74,7 @@ class CustomDropdown extends React.Component {
       hoverColor,
       left,
       rtlActive,
-      noLiPadding,
-      FSAr
+      noLiPadding
     } = this.props
     const caretClasses = classNames({
       [classes.caret]: true,
@@ -107,7 +106,6 @@ class CustomDropdown extends React.Component {
             aria-label="Notifications"
             aria-owns={isOpenWithMobile ? 'menu-list' : null}
             aria-haspopup="true"
-            FSAr={FSAr}
             {...buttonProps}
             buttonRef={node => {
               this.anchorEl = node
