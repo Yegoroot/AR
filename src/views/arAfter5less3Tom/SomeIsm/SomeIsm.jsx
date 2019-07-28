@@ -40,7 +40,7 @@ class SomeIsm extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title">
-                Некоторые имена &nbsp;<span className="ph">§</span>
+                Некоторые имена&nbsp;<span className="ph">§</span>
               </h1>
               <Ladayya />
               <Kam />

@@ -42,7 +42,7 @@ class AffectionateWordPage extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title">
-                Уменьшительно ласкательные &nbsp;<span className="ph">§</span>
+                Уменьшительно ласкательные&nbsp;<span className="ph">§</span>
               </h1>
 
               <div className="desc">Существуют три модели уменьшительно ласкательных имён</div>

@@ -44,7 +44,7 @@ class Page extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title">
-                Усиление глагола &nbsp;<span className="ph">§</span>
+                Усиление глагола&nbsp;<span className="ph">§</span>
               </h1>
               <div className="arsent">
                 <div className="arsent__original">

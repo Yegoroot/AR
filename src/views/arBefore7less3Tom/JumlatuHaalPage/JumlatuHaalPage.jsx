@@ -24,7 +24,7 @@ class JumlatuHaalPage extends React.Component {
     return (
       <div>
         <Helmet>
-          <title>Обстоятельство образа действия или дополнение</title>
+          <title>Обстоятельство образа действия или дополнение арабского языка</title>
           <meta
             name="description"
             content='Обстоятельство образа действия в арабском языке или дополнение буквально означает "ситуация" или "положение. Отвечает на вопрос "как?" (В каком положении пребывает объект, в каком состоянии)'
@@ -49,16 +49,16 @@ class JumlatuHaalPage extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title h1ar">
-                الحال &nbsp;<span className="ph">§</span>
+                الحال&nbsp;<span className="ph">§</span>
               </h1>
 
               <div className="desc">
                 <b>
                   Состояние (<span className="desc__ar">الحال</span>)
                 </b>
-                &nbsp;- обстоятельство образа действия или дополнение, которое
+               &nbsp;- обстоятельство образа действия или дополнение, которое
                 <b>
-                  &nbsp; проясняет состояние владельца (<span className="desc__ar">صاحِبُ الحال</span>)
+                 &nbsp; проясняет состояние владельца (<span className="desc__ar">صاحِبُ الحال</span>)
                 </b>
               </div>
               <div className="desc">

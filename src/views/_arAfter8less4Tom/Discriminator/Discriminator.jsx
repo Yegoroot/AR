@@ -38,12 +38,12 @@ class Page extends React.Component {
           {...rest}
         />
 
-        <Parallax small filter image={require('assets/img/mosque/mosque12.jpg')} />
+        <Parallax small filter image={require('assets/img/mosque/mosque8.jpg')} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title">
-                Различитель (التمييز) &nbsp;<span className="ph">§</span>
+                Различитель (التمييز)&nbsp;<span className="ph">§</span>
               </h1>
               <div className="desc">
                 <b>Различитель</b> (<b className="desc__ar"> التمييز </b>) содержит смысл
@@ -77,12 +77,9 @@ class Page extends React.Component {
                 </div>
               </div>
               <h2 className="title h2ar">
-                {' '}
-                تَمْيِيز الذَّاتِ{' '}
                 <span role="img" aria-label="Writing Hand">
-                  {' '}
-                  ✍️{' '}
-                </span>{' '}
+                  تَمْيِيز الذَّاتِ&nbsp;✍️
+                </span>
               </h2>
               <div className="desc">
                 <b> Различитель предмета </b> используется для
@@ -90,7 +87,7 @@ class Page extends React.Component {
                 название у него <i> различитель одного слова</i>
               </div>
 
-              <h3 className="title ">Как с ним обращатся. حُكْمُهُ (хукм)</h3>
+              <h3 className="title ">Как с ним обращатся. حُكْمُهُ&nbsp;(хукм)</h3>
               <div className="desc">
                 Основа для нас ставить его <b> в винительный падеж</b>.
               </div>
@@ -140,11 +137,9 @@ class Page extends React.Component {
               </div>
 
               <h2 className="title h2ar">
-                تَمْيِيز النِّسْبَة{' '}
                 <span role="img" aria-label="Writing Hand">
-                  {' '}
-                  ✍️{' '}
-                </span>{' '}
+                  تَمْيِيز النِّسْبَة&nbsp;✍️
+                </span>
               </h2>
               <div className="desc">
                 <b> Различитель отношения </b> <b> разъясняет предложение </b> у которого не ясно отношение к чему либо (в каком отношении
@@ -186,12 +181,9 @@ class Page extends React.Component {
               </div>
 
               <h2 className="title ">
-                {' '}
-                Дополнительные примеры{' '}
                 <span role="img" aria-label="Writing Hand">
-                  {' '}
-                  ✍️{' '}
-                </span>{' '}
+                  Дополнительные примеры&nbsp;💪
+                </span>
               </h2>
               <div className="arsent">
                 <div className="arsent__original">

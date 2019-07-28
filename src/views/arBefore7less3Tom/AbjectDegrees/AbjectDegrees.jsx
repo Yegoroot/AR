@@ -50,7 +50,7 @@ class AbjectDegrees extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title">
-                Превосходная и сравнительная степень &nbsp;<span className="ph">§</span>
+                Превосходная и сравнительная степень&nbsp;<span className="ph">§</span>
               </h1>
 
               <div className="desc">

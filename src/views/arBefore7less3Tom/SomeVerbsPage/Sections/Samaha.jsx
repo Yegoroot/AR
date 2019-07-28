@@ -23,7 +23,7 @@ class Samaha extends React.Component {
         <div className="arsent">
           <div className="arsent__original">
             أبِي <span className="contrast"> سَمَحَ </span> <Word prefix="لِ" root="ي" />
-            &nbsp;
+           &nbsp;
             <span className="contrast_2">
               <Word prefix="بِ" root="اذهاب" />
             </span>
@@ -38,7 +38,7 @@ class Samaha extends React.Component {
         <div className="arsent">
           <div className="arsent__original">
             المدرّس <span className="contrast"> سَمَحَ </span> <Word prefix="لِ" root="الطلاب" />
-            &nbsp;
+           &nbsp;
             <span className="contrast_2">
               <Word prefix="بِ" root="كِتَابَة" />
             </span>

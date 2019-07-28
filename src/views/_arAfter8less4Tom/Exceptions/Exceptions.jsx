@@ -38,12 +38,12 @@ class Page extends React.Component {
           {...rest}
         />
 
-        <Parallax small filter image={require('assets/img/mosque/mosque30.jpg')} />
+        <Parallax small filter image={require('assets/img/mosque/mosque7.jpg')} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title">
-                Выражение исключения &nbsp;<span className="ph">§</span>
+                Выражение исключения&nbsp;<span className="ph">§</span>
               </h1>
               <div className="desc">
                 Имеется восемь частиц исключения со смыслом <b>кроме, исключая</b>.<span className="desc__ar"> إِلَّا </span>(частица),
@@ -51,12 +51,9 @@ class Page extends React.Component {
               </div>
 
               <h2 className="title">
-                {' '}
-                Полное утвердительное предложение{' '}
                 <span role="img" aria-label="Writing Hand">
-                  {' '}
-                  ✍️{' '}
-                </span>{' '}
+                  Полное утвердительное предложение&nbsp;✍️
+                </span>
               </h2>
               <div className="desc">
                 Если предложение утвердительное, то исключаемое имя после частицы <span className="desc__ar"> إِلَّا </span> обязательно
@@ -84,12 +81,9 @@ class Page extends React.Component {
               </div>
 
               <h2 className="title">
-                {' '}
-                Полное отрицательное предложение{' '}
                 <span role="img" aria-label="Writing Hand">
-                  {' '}
-                  ✍️{' '}
-                </span>{' '}
+                  Полное отрицательное предложение&nbsp;✍️
+                </span>
               </h2>
               <div className="desc">
                 В отрицательном предложениях или вопросительных <b>исключаемое слово либо согласуется</b> с тем понятием, из которого оно
@@ -125,12 +119,9 @@ class Page extends React.Component {
               </div>
 
               <h2 className="title">
-                {' '}
-                Неполное отрицательное предложение{' '}
                 <span role="img" aria-label="Writing Hand">
-                  {' '}
-                  ✍️{' '}
-                </span>{' '}
+                  Неполное отрицательное предложение&nbsp;✍️
+                </span>
               </h2>
               <div className="desc">
                 Если (отрицательное) предложение неполное (то есть, не указано то, из чего исключают), то исключаемое ставится в тот падеж,
@@ -168,12 +159,9 @@ class Page extends React.Component {
               </div>
 
               <h2 className="title">
-                {' '}
-                Слова исключения, кроме إِلَّا{' '}
                 <span role="img" aria-label="Writing Hand">
-                  {' '}
-                  ✍️{' '}
-                </span>{' '}
+                  Слова исключения, кроме&nbsp;إِلَّا&nbsp;✍️
+                </span>
               </h2>
               <div className="desc">
                 После слов: <span className="desc__ar"> غَيْر, سِوَى, سُوَى, سَوَاء </span> исключаемое ставится в родительный падеж, так

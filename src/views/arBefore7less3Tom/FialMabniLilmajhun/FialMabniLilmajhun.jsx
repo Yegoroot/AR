@@ -39,7 +39,7 @@ class FialMabniLilmajhun extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title h1ar">
-                الفِعْل المَبْنِي لِلمَجْهُول &nbsp;<span className="ph">§</span>
+                الفِعْل المَبْنِي لِلمَجْهُول&nbsp;<span className="ph">§</span>
               </h1>
               <div className="desc">
                 <b>Глагол страдательного залога</b>, это действие с необозначенным лицом, бывает два варианта, <b> лицо неизвестно вовсе</b>{' '}
@@ -99,7 +99,7 @@ class FialMabniLilmajhun extends React.Component {
               </div>
               <div className="arsent">
                 <div className="arsent__original">
-                  <Word root="َفُتِح" suffix="تْ" /> &nbsp;
+                  <Word root="َفُتِح" suffix="تْ" />&nbsp;
                   <Word root="النّافِذَ" suffix="ةُ" />
                 </div>
                 <div className="arsent__translate">Окна открыли</div>

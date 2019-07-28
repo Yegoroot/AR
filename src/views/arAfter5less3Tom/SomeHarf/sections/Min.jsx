@@ -10,11 +10,11 @@ export default function() {
         </span>
       </h2>
       <div className="desc">
-        Одна из вариаций частицы <span className="desc__ar"> مِنْ </span> это &nbsp;
+        Одна из вариаций частицы <span className="desc__ar"> مِنْ </span> это&nbsp;
         <span className="desc__ar" dir="rtl">
           مِن التَّبْعِيضِيَّةُ
         </span>
-        &nbsp; которая приходит со значением <b> из, часть, некоторые </b> (часть) .
+       &nbsp; которая приходит со значением <b> из, часть, некоторые </b> (часть) .
       </div>
 
       <div className="arsent">

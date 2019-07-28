@@ -41,12 +41,12 @@ class JumlatuIsmPage extends React.Component {
           {...rest}
         />
 
-        <Parallax small filter image={require('assets/img/mosque/mosque7.jpg')} />
+        <Parallax small filter image={require('assets/img/mosque/mosque3.jpg')} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title h2ar">
-                جملة الاسميّة &nbsp;<span className="ph">§</span>
+                جملة الاسميّة&nbsp;<span className="ph">§</span>
               </h1>
 
               <p className="desc">

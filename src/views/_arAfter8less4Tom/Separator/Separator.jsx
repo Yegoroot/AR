@@ -38,12 +38,12 @@ class Page extends React.Component {
           {...rest}
         />
 
-        <Parallax small filter image={require('assets/img/mosque/mosque3.jpg')} />
+        <Parallax small filter image={require('assets/img/mosque/mosque4.jpg')} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title h1ar">
-                ضَمِيرُ فَصْلٍ &nbsp;<span className="ph">§</span>
+                ضَمِيرُ فَصْلٍ&nbsp;<span className="ph">§</span>
               </h1>
               <p className="desc">
                 Разберем <b> разделитель </b> <span className="desc__ar"> هو </span>. Местоимение разделитель обязательно должно быть личным

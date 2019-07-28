@@ -36,7 +36,7 @@ class IsmaMaful extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title h1ar">
-                اسم المَفْول &nbsp;<span className="ph">§</span>
+                اسم المَفْول&nbsp;<span className="ph">§</span>
               </h1>
               <div className="desc">Лицо или предметы на которых падает действие. Например</div>
 
@@ -66,7 +66,7 @@ class IsmaMaful extends React.Component {
                     <span className="contrast"> المَضْرُوب </span>
                     <span className="desc__ar"> (ضَرَبَ) </span>
                   </span>
-                  <span className="arsent__translate"> &nbsp; Побитый &nbsp;</span>
+                  <span className="arsent__translate">&nbsp; Побитый&nbsp;</span>
                 </div>
 
                 <div>
@@ -74,7 +74,7 @@ class IsmaMaful extends React.Component {
                     <span className="contrast"> المقْتُول </span>
                     <span className="desc__ar"> (قتل) </span>
                   </span>
-                  <span className="arsent__translate"> &nbsp; Убитый &nbsp;</span>
+                  <span className="arsent__translate">&nbsp; Убитый&nbsp;</span>
                 </div>
 
                 <div>
@@ -82,7 +82,7 @@ class IsmaMaful extends React.Component {
                     <span className="contrast"> المجْهول </span>
                     <span className="desc__ar"> (جهل) </span>
                   </span>
-                  <span className="arsent__translate"> &nbsp; Неизвестный &nbsp;</span>
+                  <span className="arsent__translate">&nbsp; Неизвестный&nbsp;</span>
                 </div>
 
                 <div>
@@ -90,7 +90,7 @@ class IsmaMaful extends React.Component {
                     <span className="contrast"> المعلوم </span>
                     <span className="desc__ar"> (علم) </span>
                   </span>
-                  <span className="arsent__translate"> &nbsp; Известный &nbsp;</span>
+                  <span className="arsent__translate">&nbsp; Известный&nbsp;</span>
                 </div>
 
                 <div>
@@ -98,7 +98,7 @@ class IsmaMaful extends React.Component {
                     <span className="contrast"> المسروق </span>
                     <span className="desc__ar"> (سرق) </span>
                   </span>
-                  <span className="arsent__translate"> &nbsp; Украденный &nbsp;</span>
+                  <span className="arsent__translate">&nbsp; Украденный&nbsp;</span>
                 </div>
 
                 <div>
@@ -106,7 +106,7 @@ class IsmaMaful extends React.Component {
                     <span className="contrast"> المفتُوح </span>
                     <span className="desc__ar"> (فتح) </span>
                   </span>
-                  <span className="arsent__translate"> &nbsp; Открытый &nbsp;</span>
+                  <span className="arsent__translate">&nbsp; Открытый&nbsp;</span>
                 </div>
 
                 <div>
@@ -114,7 +114,7 @@ class IsmaMaful extends React.Component {
                     <span className="contrast"> المَفْهُول </span>
                     <span className="desc__ar"> (فهِم) </span>
                   </span>
-                  <span className="arsent__translate"> &nbsp; Понятно, понятый &nbsp;</span>
+                  <span className="arsent__translate">&nbsp; Понятно, понятый&nbsp;</span>
                 </div>
               </div>
 

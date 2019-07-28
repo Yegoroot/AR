@@ -44,7 +44,7 @@ class MinQoblu extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="h1ar">
-                مِن قبلُ &nbsp;<span className="ph">§</span>
+                مِن قبلُ&nbsp;<span className="ph">§</span>
               </h1>
 
               <div className="desc">

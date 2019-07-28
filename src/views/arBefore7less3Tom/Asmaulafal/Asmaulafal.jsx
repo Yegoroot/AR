@@ -45,7 +45,7 @@ class Asmaulafal extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title h1ar">
-                اسْماءُ الافِعال &nbsp;<span className="ph">§</span>
+                اسْماءُ الافِعال&nbsp;<span className="ph">§</span>
               </h1>
 
               <div className="desc">

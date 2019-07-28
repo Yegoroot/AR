@@ -38,7 +38,7 @@ class SimilarityMaful extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title">
-                Схожесть стр. залога и мафъуль &nbsp;<span className="ph">§</span>
+                Схожесть стр. залога и мафъуль&nbsp;<span className="ph">§</span>
               </h1>
               <div className="desc" />
 

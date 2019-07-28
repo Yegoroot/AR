@@ -202,7 +202,7 @@ class AlMafuluFihi extends React.Component {
 
               <h2 className="h2ar title">
                 <span role="img" aria-label="Writing Hand">
-                  &nbsp;اسم مكان و زمان&nbsp;{'✍️'}
+                 &nbsp;اسم مكان و زمان&nbsp;{'✍️'}
                 </span>
               </h2>
 

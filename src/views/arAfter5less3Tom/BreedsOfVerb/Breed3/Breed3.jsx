@@ -112,7 +112,7 @@ class Breed3 extends React.Component {
                   <span className="item__label">الماضي </span>
                 </div>
                 <div className="item">
-                  <h2 className="h2ar "> &nbsp; &nbsp;&nbsp; يُفَاعِلُ </h2>
+                  <h2 className="h2ar ">&nbsp;&nbsp;&nbsp; يُفَاعِلُ </h2>
                   <div className="arsent">
                     <div className="arsent__original contrast">يُشَهِدُ</div>
                     <div className="arsent__translate">Смотрит </div>

@@ -45,7 +45,7 @@ class AbjectDegrees extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title">
-                Двухпадежность имён &nbsp;<span className="ph">§</span>
+                Двухпадежность имён&nbsp;<span className="ph">§</span>
               </h1>
 
               <div className="desc">
@@ -104,7 +104,7 @@ class AbjectDegrees extends React.Component {
               <div className="desc">
                 Одного <b> ломанного множественного числа </b> или <b> некоренного алифа женского рода </b>
                 <b className="desc__ar"> (اءُ) </b> и <b> алиф максуры </b> <b className="desc__ar"> (ى) </b> достаточно, чтобы сделать имя
-                двухпадежным &nbsp;
+                двухпадежным&nbsp;
                 <b className="desc__ar" dir="rtl">
                   (ألف التأنيث الممدودة ألف التأنيث المقصورة صيغة منتهي الجموع)
                 </b>

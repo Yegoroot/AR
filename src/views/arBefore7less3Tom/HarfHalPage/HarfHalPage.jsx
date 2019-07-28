@@ -42,7 +42,7 @@ class HarfHalPage extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title">
-                Вопросительная частица هل &nbsp;<span className="ph">§</span>
+                Вопросительная частица هل&nbsp;<span className="ph">§</span>
               </h1>
               <div className="desc">
                 <b> Вопросительная частица </b> <span className="desc__ar"> هل </span> (верно или не верно) для уточнения информации как

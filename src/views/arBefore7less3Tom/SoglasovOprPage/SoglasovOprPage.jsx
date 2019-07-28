@@ -41,7 +41,7 @@ class SoglasovOpr extends React.Component {
           {...rest}
         />
 
-        <Parallax small filter image={require('assets/img/mosque/mosque16.jpg')} />
+        <Parallax small filter image={require('assets/img/mosque/mosque2.jpg')} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>

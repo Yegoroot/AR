@@ -49,7 +49,7 @@ function Kam() {
       <div className="arsent">
         <div className="arsent__original">
           <Word prefix="بِ" root="كَم" />
-          &nbsp;
+         &nbsp;
           <Word root="رِيا" suffix="لٍ" />
           <span> هذا القلم؟ </span>
         </div>
@@ -58,7 +58,7 @@ function Kam() {
       <div className="arsent">
         <div className="arsent__original">
           <Word prefix="بِ" root="كَم" />
-          &nbsp;
+         &nbsp;
           <Word root="رِيال" suffix="اً" />
           <span> هذا القلم؟ </span>
         </div>

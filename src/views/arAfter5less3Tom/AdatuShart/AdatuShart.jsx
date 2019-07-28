@@ -81,7 +81,7 @@ class Page extends React.Component {
                 <div className="arsent__original">
                   <span className="contrast"> إنْ </span>
                   <Word suffix="دْ" root="تَجْتَهِ" />
-                  &nbsp;
+                 &nbsp;
                   <Word suffix="حْ" root="تَنْجَ" />
                 </div>
                 <div className="arsent__translate">
@@ -93,7 +93,7 @@ class Page extends React.Component {
                 <div className="arsent__original">
                   <span className="contrast"> إنْ </span>
                   <Word suffix="وا" root="تَعُود" />
-                  &nbsp;
+                 &nbsp;
                   <Word suffix="دْ" root="نَعُ" />
                 </div>
                 <div className="arsent__translate">
@@ -147,7 +147,7 @@ class Page extends React.Component {
                   <div className="arsent">
                     <div className="arsent__original">
                       <Word suffix="مَنْ" root="فَ" />
-                      &nbsp;
+                     &nbsp;
                       <Word suffix="لْ" root="يَعْمَ" />
                       <span> مِثْقَالَ ذَرَّةٍ خَيْراً يَرَهُ</span>
                     </div>
@@ -188,7 +188,7 @@ class Page extends React.Component {
                     <div className="arsent__original">
                       <span className="contrast"> مَتَى </span>
                       <Word suffix="رْ" root="تُسَافِ" />
-                      &nbsp;
+                     &nbsp;
                       <Word suffix="رْ" root=" أُسَافِ" />
                     </div>
                     <div className="arsent__translate">Когда ты уедешь, я уеду</div>
@@ -225,7 +225,7 @@ class Page extends React.Component {
                     <div className="arsent__original">
                       <span className="contrast"> مَهْمَا </span>
                       <Word suffix="لْ" root="تَقُ" />
-                      &nbsp;
+                     &nbsp;
                       <Word suffix="كَ" negative root="قْ" prefix="نُصَدِّ" />
                     </div>
                     <div className="arsent__translate">Что бы ты не говорил, мы поверим тебе</div>
@@ -243,7 +243,7 @@ class Page extends React.Component {
                     <div className="arsent__original">
                       <span className="contrast"> حَيْثُ </span>
                       <Word suffix="بْ" root="تَذْهَ" />
-                      &nbsp;
+                     &nbsp;
                       <Word suffix="بْ" root="أذْهَ" />
                     </div>
                     <div className="arsent__translate">Куда ты пойдёшь, я пойду</div>
@@ -261,12 +261,12 @@ class Page extends React.Component {
                     <div className="arsent__original">
                       <span className="contrast"> أَيْنَ </span>
                       <Word suffix="نْ" root="تَسْكُ" />
-                      &nbsp;
+                     &nbsp;
                       <Word suffix="نْ" root=" أَسْكُ" />
                       <span>. و كثيراً ما تلحقها (ما) الزَّائِدَةُ لِلتَّوْكِيْدِ, نحو: </span>
                       <span className="contrast"> أينما </span>
                       <Word suffix="وا" root="تَكُون" />
-                      &nbsp;
+                     &nbsp;
                       <Word suffix="كُمُ" root="كْ" negative prefix="يُدْرِ" />
                       <span> المَوْتُ </span>
                     </div>

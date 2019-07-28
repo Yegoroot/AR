@@ -41,7 +41,7 @@ class IsmaFial extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title h1ar">
-                اسم الفاعِل &nbsp;<span className="ph">§</span>
+                اسم الفاعِل&nbsp;<span className="ph">§</span>
               </h1>
               <div className="desc">
                 <b>Лицо деятель</b> можно перевести как "действительное причастие" это имя существительное указывает на того кто выполняет
@@ -55,7 +55,7 @@ class IsmaFial extends React.Component {
                     <span className="contrast"> الضارِب </span>
                     <span className="desc__ar"> (ضَرَبَ) </span>
                   </span>
-                  <span className="arsent__translate"> &nbsp; Тот кто бъет &nbsp;</span>
+                  <span className="arsent__translate">&nbsp; Тот кто бъет&nbsp;</span>
                 </div>
 
                 <div>
@@ -63,7 +63,7 @@ class IsmaFial extends React.Component {
                     <span className="contrast"> القاتِل </span>
                     <span className="desc__ar"> (قتل) </span>
                   </span>
-                  <span className="arsent__translate"> &nbsp; Убица &nbsp;</span>
+                  <span className="arsent__translate">&nbsp; Убица&nbsp;</span>
                 </div>
 
                 <div>
@@ -71,7 +71,7 @@ class IsmaFial extends React.Component {
                     <span className="contrast"> الجالِس </span>
                     <span className="desc__ar"> (جلس) </span>
                   </span>
-                  <span className="arsent__translate"> &nbsp; Сидящий &nbsp;</span>
+                  <span className="arsent__translate">&nbsp; Сидящий&nbsp;</span>
                 </div>
 
                 <div>
@@ -79,7 +79,7 @@ class IsmaFial extends React.Component {
                     <span className="contrast"> الكاتِب </span>
                     <span className="desc__ar"> (كتب) </span>
                   </span>
-                  <span className="arsent__translate"> &nbsp; Писатель &nbsp;</span>
+                  <span className="arsent__translate">&nbsp; Писатель&nbsp;</span>
                 </div>
 
                 <div>
@@ -87,7 +87,7 @@ class IsmaFial extends React.Component {
                     <span className="contrast"> العابِد </span>
                     <span className="desc__ar"> (عبد) </span>
                   </span>
-                  <span className="arsent__translate"> &nbsp; Раб &nbsp;</span>
+                  <span className="arsent__translate">&nbsp; Раб&nbsp;</span>
                 </div>
 
                 <div>
@@ -95,7 +95,7 @@ class IsmaFial extends React.Component {
                     <span className="contrast"> الناصِح </span>
                     <span className="desc__ar"> (نصح) </span>
                   </span>
-                  <span className="arsent__translate"> &nbsp; Советующий &nbsp;</span>
+                  <span className="arsent__translate">&nbsp; Советующий&nbsp;</span>
                 </div>
               </div>
 

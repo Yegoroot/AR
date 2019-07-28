@@ -45,7 +45,7 @@ class Ism5Page extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title">
-                5 имен &nbsp;<span className="ph">§</span>
+                5 имен&nbsp;<span className="ph">§</span>
               </h1>
               <div className="desc">
                 В арабском языке есть 5 имен которые по особому склоняются, <span className="desc__ar"> أب, أخ </span> и другие

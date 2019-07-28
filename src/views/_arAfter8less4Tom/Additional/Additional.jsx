@@ -43,7 +43,7 @@ class Page extends React.Component {
             <div className={classes.navWrapper}>
               <h1 className="title">
                 {' '}
-                Виды дополнений (المفعول) &nbsp;<span className="ph">§</span>
+                Виды дополнений (المفعول)&nbsp;<span className="ph">§</span>
               </h1>
               <div className="desc">
                 Существует 5 видов дополнения:
