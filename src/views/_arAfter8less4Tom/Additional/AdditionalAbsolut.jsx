@@ -19,7 +19,7 @@ class Page extends React.Component {
     return (
       <div>
         <Helmet>
-          <title>Абсолютное дополнение (المفعول المطلق)</title>
+          <title>Абсолютное дополнение (المفعول المطلق) а арабском языке</title>
           <meta
             name="description"
             content="Абсолютное дополнение (المفعول المطلق) упоминается масдаром в после глагола и состоит обычно из тех же букв что и
@@ -40,7 +40,7 @@ class Page extends React.Component {
           {...rest}
         />
 
-        <Parallax small filter image={require('assets/img/mosque/mosque30.jpg')} />
+        <Parallax small filter image={require('assets/img/mosque/mosque12.jpg')} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
@@ -112,9 +112,11 @@ class Page extends React.Component {
               </div>
 
               <h2 className="title">
-                {' '}
-                На месте масдара<span role="img" aria-label="Writing Hand">
-                  &nbsp;✍️</span></h2>
+                На месте масдара
+                <span role="img" aria-label="Writing Hand">
+                  &nbsp;✍️
+                </span>
+              </h2>
 
               <div className="desc">
                 Иногда хлебное место Масдара заменяет то, что указывает на него и то что заменило Масдар будет принимать винительный падеж

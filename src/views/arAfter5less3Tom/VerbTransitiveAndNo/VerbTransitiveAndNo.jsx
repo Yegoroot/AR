@@ -222,7 +222,6 @@ class VerbTransitiveAndNo extends React.Component {
               </div>
 
               <h2 className="title">
-                {' '}
                 В двойне переходный<span role="img" aria-label="Writing Hand">
                   &nbsp;✍️</span></h2>
               <div className="desc">

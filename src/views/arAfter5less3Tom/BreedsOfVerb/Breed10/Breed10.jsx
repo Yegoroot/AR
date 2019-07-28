@@ -115,7 +115,6 @@ class Breed4 extends React.Component {
               </div>
 
               <h2 className="title">
-                {' '}
                 Примеры<span role="img" aria-label="Writing Hand">
                   &nbsp;✍️</span></h2>
 
