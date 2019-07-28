@@ -26,7 +26,7 @@ class CustomDropdown extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      open: this.props.isMobile ? true : false
+      open: false
     }
     this.handleClick = this.handleClick.bind(this)
     this.handleClose = this.handleClose.bind(this)
@@ -52,8 +52,16 @@ class CustomDropdown extends React.Component {
       this.setState({ open: false })
     }
   }
+
+  shouldComponentUpdate(nextProps, nextState) {
+    return this.props.isMobile !== nextProps.isMobile
+  }
+
   render() {
     const { open } = this.state
+
+    const isOpenWithMobile = this.props.isMobile ? true : open
+
     const {
       classes,
       buttonText,
@@ -71,7 +79,7 @@ class CustomDropdown extends React.Component {
     } = this.props
     const caretClasses = classNames({
       [classes.caret]: true,
-      [classes.caretActive]: open,
+      [classes.caretActive]: isOpenWithMobile,
       [classes.caretRTL]: rtlActive
     })
     const dropdownItem = classNames({
@@ -97,7 +105,7 @@ class CustomDropdown extends React.Component {
         <div>
           <Button
             aria-label="Notifications"
-            aria-owns={open ? 'menu-list' : null}
+            aria-owns={isOpenWithMobile ? 'menu-list' : null}
             aria-haspopup="true"
             FSAr={FSAr}
             {...buttonProps}
@@ -111,18 +119,18 @@ class CustomDropdown extends React.Component {
           </Button>
         </div>
         <Popper
-          open={open}
+          open={isOpenWithMobile}
           anchorEl={this.anchorEl}
           transition
           disablePortal
           placement={dropup ? (left ? 'top-start' : 'top') : left ? 'bottom-start' : 'bottom'}
           className={classNames({
             // [classes.pooperMobileOpen]: this.props.isMobile && !open,
-            [classes.popperClose]: !open,
+            [classes.popperClose]: !isOpenWithMobile,
             [classes.pooperResponsive]: true
           })}>
           {({ TransitionProps, placement }) => (
-            <Grow in={open} id="menu-list" style={dropup ? { transformOrigin: '0 100% 0' } : { transformOrigin: '0 0 0' }}>
+            <Grow in={isOpenWithMobile} id="menu-list" style={dropup ? { transformOrigin: '0 100% 0' } : { transformOrigin: '0 0 0' }}>
               <Paper className={classes.dropdown}>
                 <ClickAwayListener onClickAway={this.handleCloseAway}>
                   <MenuList role="menu" className={classes.menuList}>
@@ -174,8 +182,6 @@ CustomDropdown.propTypes = {
   onClick: PropTypes.func
 }
 
-const mapSizesToProps = ({ width }) => ({
-  isMobile: width < 960
-})
+const mapSizesToProps = ({ width }) => ({ isMobile: width < 960 })
 
 export default withSizes(mapSizesToProps)(withStyles(customDropdownStyle)(CustomDropdown))
