@@ -38,10 +38,7 @@ class Breed3 extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title">
-                Глагол третьей породы{' '}
-                <span role="img" aria-label="Palm Tree">
-                  (فَاعَلَ)&nbsp;
-                </span>
+                Глагол третьей породы&nbsp;(فَاعَلَ)&nbsp;<span className="ph">§</span>
               </h1>
 
               <div className="desc">

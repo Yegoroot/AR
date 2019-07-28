@@ -43,8 +43,7 @@ class Page extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title">
-                Различитель (التمييز)
-                <span role="img" aria-label="Palm Tree" />
+                Различитель (التمييز) &nbsp;<span className="ph">§</span>
               </h1>
               <div className="desc">
                 <b>Различитель</b> (<b className="desc__ar"> التمييز </b>) содержит смысл

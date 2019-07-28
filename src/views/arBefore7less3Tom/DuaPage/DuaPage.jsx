@@ -42,8 +42,7 @@ class DuaPage extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title h1ar">
-                الدُّعاء
-                <span role="img" aria-label="Palm Tree" />
+                الدُّعاء &nbsp;<span className="ph">§</span>
               </h1>
 
               <p className="desc">

@@ -41,8 +41,7 @@ class IsmaFial extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title h1ar">
-                اسم الفاعِل
-                <span role="img" aria-label="Palm Tree" />
+                اسم الفاعِل &nbsp;<span className="ph">§</span>
               </h1>
               <div className="desc">
                 <b>Лицо деятель</b> можно перевести как "действительное причастие" это имя существительное указывает на того кто выполняет

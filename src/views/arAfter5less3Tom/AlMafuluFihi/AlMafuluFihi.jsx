@@ -41,16 +41,11 @@ class AlMafuluFihi extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="h1ar">
-                المَفْعُول فيه. ظَرْف
-                <span role="img" aria-label="Palm Tree" />
+              <h1 className="h1ar title">
+                المَفْعُول فيه. ظَرْف&nbsp;<span className="ph">§</span>
               </h1>
 
-              <div className="desc">
-                Обстоятельство места и времени
-                {/* <span className="contrast_2 desc__ar"> (ا / و) </span> заменяется на
-                <span className="contrast_2 desc__ar"> (ي) </span> */}
-              </div>
+              <div className="desc">Обстоятельство места и времени</div>
 
               <AnimateCard>
                 <div className="arsent arsent_rule">

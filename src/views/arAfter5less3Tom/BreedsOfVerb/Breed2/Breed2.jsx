@@ -39,7 +39,9 @@ class AlMafuluFihi extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="title">Глагол второй породы&nbsp;(فَعَّلَ)</h1>
+              <h1 className="title">
+                Глагол второй породы&nbsp;(فَعَّلَ)&nbsp;<span className="ph">§</span>
+              </h1>
 
               <div className="desc">
                 К первообразному добавлена одна служебная буква по модели فَعَّلَ, и глагол стал называться

@@ -43,8 +43,7 @@ class PuralDualPage extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title">
-                Мн. и дв. число
-                <span role="img" aria-label="Palm Tree" />
+                Мн. и дв. число &nbsp;<span className="ph">§</span>
               </h1>
 
               <div className="desc">

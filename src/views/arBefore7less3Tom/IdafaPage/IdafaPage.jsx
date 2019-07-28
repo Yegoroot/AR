@@ -47,7 +47,7 @@ class IdafaPage extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title">
-                Несогласованное определение <span role="img" aria-label="Palm Tree" />
+                Несогласованное определение &nbsp;<span className="ph">§</span>
               </h1>
 
               <div className="desc">

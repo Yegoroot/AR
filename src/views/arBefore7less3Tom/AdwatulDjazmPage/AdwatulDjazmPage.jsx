@@ -45,8 +45,7 @@ class AdwatulDjazmPage extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title h1ar">
-                أدوات الجزم
-                <span role="img" aria-label="Palm Tree" />
+                أدوات الجزم &nbsp;<span className="ph">§</span>
               </h1>
 
               <h2 className="title h2ar">

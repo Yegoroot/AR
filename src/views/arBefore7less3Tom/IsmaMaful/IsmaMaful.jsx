@@ -36,8 +36,7 @@ class IsmaMaful extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title h1ar">
-                اسم المَفْول
-                <span role="img" aria-label="Palm Tree" />
+                اسم المَفْول &nbsp;<span className="ph">§</span>
               </h1>
               <div className="desc">Лицо или предметы на которых падает действие. Например</div>
 

@@ -45,8 +45,7 @@ class HarfDenyPage extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title">
-                Отрицательные частицы
-                <span role="img" aria-label="Palm Tree" />
+                Отрицательные частицы &nbsp;<span className="ph">§</span>
               </h1>
               <div className="desc">
                 Частица

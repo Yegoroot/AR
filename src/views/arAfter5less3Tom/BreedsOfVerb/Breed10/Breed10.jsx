@@ -35,8 +35,7 @@ class Breed4 extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="h1ar">
-                (X) اِسْتَفْعَلَ
-                <span role="img" aria-label="Palm Tree" />
+                (X) اِسْتَفْعَلَ &nbsp;<span className="ph">§</span>
               </h1>
 
               <div className="desc">

@@ -38,8 +38,7 @@ class Letter4 extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title">
-                Четырёхбуквенный глагол
-                <span role="img" aria-label="Palm Tree" />
+                Четырёхбуквенный глагол &nbsp;<span className="ph">§</span>
               </h1>
 
               <div className="desc">

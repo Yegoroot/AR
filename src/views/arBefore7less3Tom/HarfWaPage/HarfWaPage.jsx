@@ -37,8 +37,7 @@ class HarfWaPage extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title h1ar">
-                واو
-                <span role="img" aria-label="Palm Tree" />
+                واو &nbsp;<span className="ph">§</span>
               </h1>
 
               <h2 className="title h2ar">

@@ -39,8 +39,7 @@ class HarfulAw extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title h1ar">
-                حرف لو
-                <span role="img" aria-label="Palm Tree" />
+                حرف لو &nbsp;<span className="ph">§</span>
               </h1>
               <div className="desc">
                 Частица لو (если, если бы) обозначает три вещи:

@@ -39,7 +39,7 @@ class IsmChislitelPage extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title">
-                Числительные с 100 <span role="img" aria-label="Palm Tree" />
+                Числительные с 100 &nbsp;<span className="ph">§</span>
               </h1>
               <div className="arsent">
                 <div className="arsent__original">

@@ -38,8 +38,7 @@ class Breed6 extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="h1ar">
-                (VI) تَفَاعَلَ
-                <span role="img" aria-label="Palm Tree" />
+                (VI) تَفَاعَلَ &nbsp;<span className="ph">§</span>
               </h1>
 
               <div className="desc">

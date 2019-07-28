@@ -37,8 +37,7 @@ class LamIbtidaa extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="h1ar">
-                لَام الاِبْتِداء
-                <span role="img" aria-label="Palm Tree" />
+                لَام الاِبْتِداء &nbsp;<span className="ph">§</span>
               </h1>
               <div className="desc">
                 Эта Лям <b>начианания</b>, а так же она обозначает <b>усиление содержания предложения</b>

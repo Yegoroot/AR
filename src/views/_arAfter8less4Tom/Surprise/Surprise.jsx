@@ -41,7 +41,7 @@ class Page extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title">
-                Формы удивления <span role="img" aria-label="Palm Tree" />
+                Формы удивления &nbsp;<span className="ph">§</span>
               </h1>
               <div className="desc">В арабском существует две классические формы (модели) удивления.</div>
 

@@ -43,8 +43,7 @@ class HarfSobirPage extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title  h1ar">
-                اسم الجنس الجَمْعِ
-                <span role="img" aria-label="Palm Tree" />
+                اسم الجنس الجَمْعِ &nbsp;<span className="ph">§</span>
               </h1>
               <div className="desc">
                 Собирательная частица есть двух типов: <b> для людей и для не людей </b>. Например у человека есть вид (племя) турки,

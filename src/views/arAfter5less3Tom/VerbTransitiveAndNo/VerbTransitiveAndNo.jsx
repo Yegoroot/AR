@@ -48,7 +48,7 @@ class VerbTransitiveAndNo extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title">
-                Переходной и непереходной глагол <span role="img" aria-label="Palm Tree" />
+                Переходной и непереходной глагол &nbsp;<span className="ph">§</span>
               </h1>
 
               <div className="desc">

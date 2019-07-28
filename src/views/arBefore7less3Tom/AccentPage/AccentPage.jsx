@@ -40,7 +40,7 @@ class AccentPage extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title">
-                Более точно задать вопрос <span role="img" aria-label="Palm Tree" />
+                Более точно задать вопрос &nbsp;<span className="ph">§</span>
               </h1>
               <p className="desc">В зависимости от того что хотим спросить и расставляем [акцентируем] слова</p>
 

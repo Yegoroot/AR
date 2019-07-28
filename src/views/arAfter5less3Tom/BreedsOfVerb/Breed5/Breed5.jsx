@@ -38,10 +38,7 @@ class Breed5 extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title">
-                Глагол пятой породы{' '}
-                <span role="img" aria-label="Palm Tree">
-                  (تَفَعَّلَ)&nbsp;{'📌'}
-                </span>
+                Глагол пятой породы&nbsp;(تَفَعَّلَ)&nbsp;<span className="ph">§</span>
               </h1>
 
               <div className="desc">
