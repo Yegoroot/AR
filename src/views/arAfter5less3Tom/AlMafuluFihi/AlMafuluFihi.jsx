@@ -68,8 +68,7 @@ class AlMafuluFihi extends React.Component {
               <h2 className="h2ar">
                 ظَرْف زمان{' '}
                 <span role="img" aria-label="Writing Hand">
-                  {' '}
-                  ✍️{' '}
+                  &nbsp;✍️
                 </span>{' '}
               </h2>
               <div className="arsent">
@@ -98,8 +97,7 @@ class AlMafuluFihi extends React.Component {
               <h2 className="h2ar">
                 ظَرْف مَكَان{' '}
                 <span role="img" aria-label="Writing Hand">
-                  {' '}
-                  ✍️{' '}
+                  &nbsp;✍️
                 </span>{' '}
               </h2>
               <div className="arsent">
@@ -128,8 +126,7 @@ class AlMafuluFihi extends React.Component {
               <h2 className="h2ar">
                 بعضُ الظروف مَبْنِيَّةُ منها{' '}
                 <span role="img" aria-label="Writing Hand">
-                  {' '}
-                  ✍️{' '}
+                  &nbsp;✍️
                 </span>{' '}
               </h2>
               <div className="desc">
@@ -188,8 +185,7 @@ class AlMafuluFihi extends React.Component {
               <h2 className="h2ar">
                 هناك أسماءُ تَنُوبُ عنِ الظرف{' '}
                 <span role="img" aria-label="Writing Hand">
-                  {' '}
-                  ✍️{' '}
+                  &nbsp;✍️
                 </span>{' '}
               </h2>
               <div className="desc">

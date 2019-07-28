@@ -44,7 +44,7 @@ class JumlatuHaalPage extends React.Component {
           {...rest}
         />
 
-        <Parallax small filter image={require('assets/img/mosque/mosque3.jpg')} />
+        <Parallax small filter image={require('assets/img/mosque/mosque10.jpg')} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
@@ -56,9 +56,9 @@ class JumlatuHaalPage extends React.Component {
                 <b>
                   Состояние (<span className="desc__ar">الحال</span>)
                 </b>
-               &nbsp;- обстоятельство образа действия или дополнение, которое
+                &nbsp;- обстоятельство образа действия или дополнение, которое
                 <b>
-                 &nbsp; проясняет состояние владельца (<span className="desc__ar">صاحِبُ الحال</span>)
+                  &nbsp; проясняет состояние владельца (<span className="desc__ar">صاحِبُ الحال</span>)
                 </b>
               </div>
               <div className="desc">
@@ -69,11 +69,9 @@ class JumlatuHaalPage extends React.Component {
               </div>
 
               <h2 className="h2ar title">
-                صاحِبُ الحال{' '}
                 <span role="img" aria-label="Writing Hand">
-                  {' '}
-                  ✍️{' '}
-                </span>{' '}
+                  صاحِبُ الحال&nbsp;✍️
+                </span>
               </h2>
 
               <div className="desc">Владелец (صاحِبُ الحال) может быть выражен через:</div>
@@ -107,7 +105,7 @@ class JumlatuHaalPage extends React.Component {
               </div>
 
               <h3 className="title ">
-                Прямое дополнение (<span className="h3ar">مفعول به</span>)
+                Прямое дополнение&nbsp;(<span className="h3ar">مفعول به</span>)
               </h3>
               <div className="arsent">
                 <div className="arsent__original">
@@ -135,7 +133,7 @@ class JumlatuHaalPage extends React.Component {
               </div>
 
               <h3 className="title">
-                Подлежащее (<span className="h3ar"> مُبْتَدأ </span>)
+                Подлежащее &nbsp;(<span className="h3ar">مُبْتَدأ</span>)
               </h3>
               <div className="arsent">
                 <div className="arsent__original">
@@ -149,11 +147,9 @@ class JumlatuHaalPage extends React.Component {
               </div>
 
               <h2 className=" title">
-                Состояние <span className="h2ar"> صاحِبِ الحالِ </span>
                 <span role="img" aria-label="Writing Hand">
-                  {' '}
-                  ✍️{' '}
-                </span>{' '}
+                  Состояние <span className="h2ar">صاحِبِ الحالِ</span>&nbsp;✍️
+                </span>
               </h2>
               <div className="desc">
                 В основе <span className="desc__ar"> صاحِبِ الحالِ </span> приходит в определённом состоянии, кроме случев когда есть какой
@@ -269,11 +265,9 @@ class JumlatuHaalPage extends React.Component {
               </div>
 
               <h2 className="h2ar title">
-                جملة الحال{' '}
                 <span role="img" aria-label="Writing Hand">
-                  {' '}
-                  ✍️{' '}
-                </span>{' '}
+                  جملة الحال&nbsp;✍
+                </span>
               </h2>
 
               <div className="desc">
@@ -390,12 +384,9 @@ class JumlatuHaalPage extends React.Component {
               </div>
 
               <h2 className=" title">
-                {' '}
-                Отличие от определения (прилагательного){' '}
                 <span role="img" aria-label="Writing Hand">
-                  {' '}
-                  ✍️{' '}
-                </span>{' '}
+                  Отличие от определения (прилагательного)&nbsp;✍️
+                </span>
               </h2>
               <div className="arsent">
                 <div className="arsent__original">

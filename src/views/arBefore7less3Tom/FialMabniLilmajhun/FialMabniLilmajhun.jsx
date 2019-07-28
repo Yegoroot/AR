@@ -53,8 +53,7 @@ class FialMabniLilmajhun extends React.Component {
               <h2 className="title">
                 Активный залог{' '}
                 <span role="img" aria-label="Writing Hand">
-                  {' '}
-                  ✍️{' '}
+                  &nbsp;✍️
                 </span>{' '}
               </h2>
               <div className="desc">
@@ -73,8 +72,7 @@ class FialMabniLilmajhun extends React.Component {
               <h2 className="title">
                 Пример пассивного залога فُعِلَ - يُفْعَلُ{' '}
                 <span role="img" aria-label="Writing Hand">
-                  {' '}
-                  ✍️{' '}
+                  &nbsp;✍️
                 </span>{' '}
               </h2>
               <div className="desc">В случае с пассивным залогом деятель неизвестен (или известен из контекста), фокус на результате.</div>
@@ -133,8 +131,7 @@ class FialMabniLilmajhun extends React.Component {
               <h2 className="title">
                 Пассивный залог со средней больной{' '}
                 <span role="img" aria-label="Writing Hand">
-                  {' '}
-                  ✍️{' '}
+                  &nbsp;✍️
                 </span>{' '}
               </h2>
 
@@ -152,8 +149,7 @@ class FialMabniLilmajhun extends React.Component {
               <h2 className="title">
                 Пассивный залог с последней больной{' '}
                 <span role="img" aria-label="Writing Hand">
-                  {' '}
-                  ✍️{' '}
+                  &nbsp;✍️
                 </span>{' '}
               </h2>
               <div className="arsent">

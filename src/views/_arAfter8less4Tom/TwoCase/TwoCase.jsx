@@ -69,8 +69,7 @@ class AbjectDegrees extends React.Component {
               <h2 className="title">
                 Склонение двухпадежных имён{' '}
                 <span role="img" aria-label="Writing Hand">
-                  {' '}
-                  ✍️{' '}
+                  &nbsp;✍️
                 </span>{' '}
               </h2>
 
@@ -96,8 +95,7 @@ class AbjectDegrees extends React.Component {
               <h2 className="title">
                 Сила двух причин{' '}
                 <span role="img" aria-label="Writing Hand">
-                  {' '}
-                  ✍️{' '}
+                  &nbsp;✍️
                 </span>{' '}
               </h2>
 
@@ -139,8 +137,7 @@ class AbjectDegrees extends React.Component {
               <h2 className="title">
                 Другие причины{' '}
                 <span role="img" aria-label="Writing Hand">
-                  {' '}
-                  ✍️{' '}
+                  &nbsp;✍️
                 </span>{' '}
               </h2>
 

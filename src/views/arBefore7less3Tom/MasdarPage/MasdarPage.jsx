@@ -204,8 +204,7 @@ class MasdarPage extends React.Component {
               <h2 className="title">
                 Имя масдара{' '}
                 <span role="img" aria-label="Writing Hand">
-                  {' '}
-                  ✍️{' '}
+                  &nbsp;✍️
                 </span>{' '}
               </h2>
               <div className="desc">

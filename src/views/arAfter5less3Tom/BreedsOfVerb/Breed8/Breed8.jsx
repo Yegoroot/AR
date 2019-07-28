@@ -117,8 +117,7 @@ class Breed8 extends React.Component {
                 {' '}
                 Шаблоны{' '}
                 <span role="img" aria-label="Writing Hand">
-                  {' '}
-                  ✍️{' '}
+                  &nbsp;✍️
                 </span>{' '}
               </h2>
               <div className="items items_islabel">
@@ -178,8 +177,7 @@ class Breed8 extends React.Component {
                 {' '}
                 Примеры{' '}
                 <span role="img" aria-label="Writing Hand">
-                  {' '}
-                  ✍️{' '}
+                  &nbsp;✍️
                 </span>{' '}
               </h2>
 

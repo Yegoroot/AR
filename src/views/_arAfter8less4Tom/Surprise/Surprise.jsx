@@ -48,8 +48,7 @@ class Page extends React.Component {
               <h2 className="h2ar">
                 ما أفْعَلَهُ{' '}
                 <span role="img" aria-label="Writing Hand">
-                  {' '}
-                  ✍️{' '}
+                  &nbsp;✍️
                 </span>
               </h2>
 
@@ -65,8 +64,7 @@ class Page extends React.Component {
               <h2 className="h2ar">
                 أفْعِلْ بِهِ!{' '}
                 <span role="img" aria-label="Writing Hand">
-                  {' '}
-                  ✍️{' '}
+                  &nbsp;✍️
                 </span>
               </h2>
 

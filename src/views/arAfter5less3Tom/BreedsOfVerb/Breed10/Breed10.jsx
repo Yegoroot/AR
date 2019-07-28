@@ -118,8 +118,7 @@ class Breed4 extends React.Component {
                 {' '}
                 Примеры{' '}
                 <span role="img" aria-label="Writing Hand">
-                  {' '}
-                  ✍️{' '}
+                  &nbsp;✍️
                 </span>{' '}
               </h2>
 

@@ -51,8 +51,7 @@ class TricksWithVerbsPage extends React.Component {
               <h2 className="title">
                 Два прямых дополнения{' '}
                 <span role="img" aria-label="Writing Hand">
-                  {' '}
-                  ✍️{' '}
+                  &nbsp;✍️
                 </span>{' '}
               </h2>
               <div className="desc">

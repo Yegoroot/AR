@@ -166,8 +166,7 @@ class Page extends React.Component {
               <h2 className="title">
                 Случаи когда можно усиливать глагол при помощи Нун{' '}
                 <span role="img" aria-label="Writing Hand">
-                  {' '}
-                  ✍️{' '}
+                  &nbsp;✍️
                 </span>
               </h2>
               <h3 className="title"> В приказе </h3>
@@ -216,8 +215,7 @@ class Page extends React.Component {
               <h2 className="title">
                 Усиление близко к обязательному{' '}
                 <span role="img" aria-label="Writing Hand">
-                  {' '}
-                  ✍️{' '}
+                  &nbsp;✍️
                 </span>
               </h2>
               <div className="desc" dir="rtl">
@@ -236,8 +234,7 @@ class Page extends React.Component {
               <h2 className="title">
                 Усиление обязательно{' '}
                 <span role="img" aria-label="Writing Hand">
-                  {' '}
-                  ✍️{' '}
+                  &nbsp;✍️
                 </span>
               </h2>
               <div className="desc" dir="rtl">

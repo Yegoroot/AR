@@ -59,8 +59,7 @@ class AbjectDegrees extends React.Component {
               <h2 className="title">
                 Сравнительная степень أفْعَل مِنْهُ{' '}
                 <span role="img" aria-label="Writing Hand">
-                  {' '}
-                  ✍️{' '}
+                  &nbsp;✍️
                 </span>{' '}
               </h2>
 
@@ -77,8 +76,7 @@ class AbjectDegrees extends React.Component {
               <h2 className="title">
                 Превосходная степень{' '}
                 <span role="img" aria-label="Writing Hand">
-                  {' '}
-                  ✍️{' '}
+                  &nbsp;✍️
                 </span>{' '}
               </h2>
               <div className="desc">"Один из сАмых". Изофетная связка</div>

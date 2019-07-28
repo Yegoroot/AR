@@ -76,8 +76,7 @@ class Page extends React.Component {
                 {' '}
                 Важное правило{' '}
                 <span role="img" aria-label="Writing Hand">
-                  {' '}
-                  ✍️{' '}
+                  &nbsp;✍️
                 </span>{' '}
               </h2>
 
@@ -174,8 +173,7 @@ class Page extends React.Component {
                 {' '}
                 Другие примеры с إذا{' '}
                 <span role="img" aria-label="Writing Hand">
-                  {' '}
-                  ✍️{' '}
+                  &nbsp;✍️
                 </span>{' '}
               </h2>
 

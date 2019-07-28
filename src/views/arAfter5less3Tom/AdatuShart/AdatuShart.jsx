@@ -49,8 +49,7 @@ class Page extends React.Component {
               <h2 className="h2ar title">
                 أَداةُ شَرْط <span className="contrast"> إنْ </span>
                 <span role="img" aria-label="Writing Hand">
-                  {' '}
-                  ✍️{' '}
+                  &nbsp;✍️
                 </span>{' '}
               </h2>
 
@@ -105,8 +104,7 @@ class Page extends React.Component {
               <h2 className="title h2ar">
                 <span className="contrast"> إلاَّ </span> = إن + لا النافِيَةُ{' '}
                 <span role="img" aria-label="Writing Hand">
-                  {' '}
-                  ✍️{' '}
+                  &nbsp;✍️
                 </span>{' '}
               </h2>
 
@@ -129,8 +127,7 @@ class Page extends React.Component {
                 {' '}
                 أسماء تَجزِم فعلَيْن{' '}
                 <span role="img" aria-label="Writing Hand">
-                  {' '}
-                  ✍️{' '}
+                  &nbsp;✍️
                 </span>{' '}
               </h2>
               <div className="desc">Существуют так же имена, которые джазмируют два глагола</div>
@@ -282,8 +279,7 @@ class Page extends React.Component {
                 {' '}
                 جوابَ الشرطِ يَقْتَرِنُ بالفاء في مَواضِعَ{' '}
                 <span role="img" aria-label="Writing Hand">
-                  {' '}
-                  ✍️{' '}
+                  &nbsp;✍️
                 </span>{' '}
               </h2>
               <div className="desc">

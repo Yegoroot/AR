@@ -43,8 +43,7 @@ class HarfWaPage extends React.Component {
               <h2 className="title h2ar">
                 واو العَطْف
                 <span role="img" aria-label="Writing Hand">
-                  {' '}
-                  ✍️{' '}
+                  &nbsp;✍️
                 </span>
               </h2>
               <div className="arsent">
@@ -59,8 +58,7 @@ class HarfWaPage extends React.Component {
               <h2 className="title h2ar">
                 ٌواو القَسَم{' '}
                 <span role="img" aria-label="Writing Hand">
-                  {' '}
-                  ✍️{' '}
+                  &nbsp;✍️
                 </span>{' '}
               </h2>
               <div className="desc">Клятвенная вав, относится к предлогам родительного падежа и поэтому дает кясру слову</div>
@@ -74,8 +72,7 @@ class HarfWaPage extends React.Component {
               <h2 className="title h2ar">
                 واو الحَال{' '}
                 <span role="img" aria-label="Writing Hand">
-                  {' '}
-                  ✍️{' '}
+                  &nbsp;✍️
                 </span>{' '}
               </h2>
 

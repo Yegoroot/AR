@@ -51,8 +51,7 @@ class Letter4 extends React.Component {
                 {' '}
                 Первообразный فَعْلَلَ{' '}
                 <span role="img" aria-label="Writing Hand">
-                  {' '}
-                  ✍️{' '}
+                  &nbsp;✍️
                 </span>{' '}
               </h2>
 
@@ -91,8 +90,7 @@ class Letter4 extends React.Component {
                 {' '}
                 Производный 1 تَفَعْلَلَ{' '}
                 <span role="img" aria-label="Writing Hand">
-                  {' '}
-                  ✍️{' '}
+                  &nbsp;✍️
                 </span>{' '}
               </h2>
 
@@ -131,8 +129,7 @@ class Letter4 extends React.Component {
                 {' '}
                 Производный 2 اِفْعَلَلَّ{' '}
                 <span role="img" aria-label="Writing Hand">
-                  {' '}
-                  ✍️{' '}
+                  &nbsp;✍️
                 </span>{' '}
               </h2>
 
@@ -170,8 +167,7 @@ class Letter4 extends React.Component {
                 {' '}
                 Производный 3 اِفْعَنْلَلَ{' '}
                 <span role="img" aria-label="Writing Hand">
-                  {' '}
-                  ✍️{' '}
+                  &nbsp;✍️
                 </span>{' '}
               </h2>
 
@@ -209,8 +205,7 @@ class Letter4 extends React.Component {
                 {' '}
                 Примеры{' '}
                 <span role="img" aria-label="Writing Hand">
-                  {' '}
-                  ✍️{' '}
+                  &nbsp;✍️
                 </span>{' '}
               </h2>
 
@@ -254,8 +249,7 @@ class Letter4 extends React.Component {
                 {' '}
                 Мини словарь{' '}
                 <span role="img" aria-label="Writing Hand">
-                  {' '}
-                  ✍️{' '}
+                  &nbsp;✍️
                 </span>{' '}
               </h2>
 

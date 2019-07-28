@@ -104,8 +104,7 @@ class IsmaFial extends React.Component {
               <h2 className="title">
                 اسم الفاعِل у глаголов с шаддой{' '}
                 <span role="img" aria-label="Writing Hand">
-                  {' '}
-                  ✍️{' '}
+                  &nbsp;✍️
                 </span>{' '}
               </h2>
               <div className="desc">
@@ -146,8 +145,7 @@ class IsmaFial extends React.Component {
               <h2 className="title">
                 اسم الفاعِل у глаголов со средней слабой{' '}
                 <span role="img" aria-label="Writing Hand">
-                  {' '}
-                  ✍️{' '}
+                  &nbsp;✍️
                 </span>{' '}
               </h2>
               <div className="desc">Когда мы хотим образовать اسم الفاعِل со средней больной, то меняем коренной алиф на хамзу</div>
@@ -176,8 +174,7 @@ class IsmaFial extends React.Component {
               <h2 className="title">
                 اسم الفاعِل у глаголов со слабой последней{' '}
                 <span role="img" aria-label="Writing Hand">
-                  {' '}
-                  ✍️{' '}
+                  &nbsp;✍️
                 </span>{' '}
               </h2>
 
@@ -199,8 +196,7 @@ class IsmaFial extends React.Component {
               <h2 className="title">
                 С точки зрения сарф и нахв{' '}
                 <span role="img" aria-label="Writing Hand">
-                  {' '}
-                  ✍️{' '}
+                  &nbsp;✍️
                 </span>{' '}
               </h2>
               <div className="desc">

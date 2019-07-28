@@ -37,12 +37,11 @@ class Page extends React.Component {
           {...rest}
         />
 
-        <Parallax small filter image={require('assets/img/mosque/mosque14.jpg')} />
+        <Parallax small filter image={require('assets/img/mosque/mosque11.jpg')} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title">
-                {' '}
                 Виды дополнений (المفعول)&nbsp;<span className="ph">§</span>
               </h1>
               <div className="desc">
@@ -58,8 +57,7 @@ class Page extends React.Component {
                 {' '}
                 المَفعول بِه{' '}
                 <span role="img" aria-label="Writing Hand">
-                  {' '}
-                  ✍️{' '}
+                  &nbsp;✍️
                 </span>{' '}
               </h2>
               <div className="desc">
@@ -85,8 +83,7 @@ class Page extends React.Component {
                 {' '}
                 المَفْعُول فيه{' '}
                 <span role="img" aria-label="Writing Hand">
-                  {' '}
-                  ✍️{' '}
+                  &nbsp;✍️
                 </span>{' '}
               </h2>
               <div className="desc">
@@ -97,8 +94,7 @@ class Page extends React.Component {
                 {' '}
                 المفعول المُطْلَق{' '}
                 <span role="img" aria-label="Writing Hand">
-                  {' '}
-                  ✍️{' '}
+                  &nbsp;✍️
                 </span>{' '}
               </h2>
               <div className="desc">
@@ -109,8 +105,7 @@ class Page extends React.Component {
                 {' '}
                 المَفعول لَه{' '}
                 <span role="img" aria-label="Writing Hand">
-                  {' '}
-                  ✍️{' '}
+                  &nbsp;✍️
                 </span>
               </h2>
               <div className="desc">
@@ -149,8 +144,7 @@ class Page extends React.Component {
               <h2 className="h2ar title">
                 المفعول مَعَهُ{' '}
                 <span role="img" aria-label="Writing Hand">
-                  {' '}
-                  ✍️{' '}
+                  &nbsp;✍️
                 </span>{' '}
               </h2>
               <div className="desc">

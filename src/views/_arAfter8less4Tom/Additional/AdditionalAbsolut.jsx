@@ -115,8 +115,7 @@ class Page extends React.Component {
                 {' '}
                 На месте масдара{' '}
                 <span role="img" aria-label="Writing Hand">
-                  {' '}
-                  ✍️{' '}
+                  &nbsp;✍️
                 </span>{' '}
               </h2>
 

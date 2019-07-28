@@ -51,8 +51,7 @@ class AdwatulDjazmPage extends React.Component {
               <h2 className="title h2ar">
                 لَمْ{' '}
                 <span role="img" aria-label="Writing Hand">
-                  {' '}
-                  ✍️{' '}
+                  &nbsp;✍️
                 </span>{' '}
               </h2>
               <div className="desc">
@@ -68,8 +67,7 @@ class AdwatulDjazmPage extends React.Component {
               <h2 className="title h2ar">
                 لَمّا{' '}
                 <span role="img" aria-label="Writing Hand">
-                  {' '}
-                  ✍️{' '}
+                  &nbsp;✍️
                 </span>{' '}
               </h2>
               <div className="desc">
@@ -100,8 +98,7 @@ class AdwatulDjazmPage extends React.Component {
               <h2 className="title h2ar">
                 لا النّاهية{' '}
                 <span role="img" aria-label="Writing Hand">
-                  {' '}
-                  ✍️{' '}
+                  &nbsp;✍️
                 </span>{' '}
               </h2>
               <div className="desc">
@@ -123,8 +120,7 @@ class AdwatulDjazmPage extends React.Component {
               <h2 className="title h2ar">
                 لامُ الأمر{' '}
                 <span role="img" aria-label="Writing Hand">
-                  {' '}
-                  ✍️{' '}
+                  &nbsp;✍️
                 </span>{' '}
               </h2>
               <div className="desc">

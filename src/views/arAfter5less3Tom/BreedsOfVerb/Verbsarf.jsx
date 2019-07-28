@@ -69,8 +69,7 @@ class Intr extends React.Component {
                 {' '}
                 Трехбуквенные{' '}
                 <span role="img" aria-label="Writing Hand">
-                  {' '}
-                  ✍️{' '}
+                  &nbsp;✍️
                 </span>{' '}
               </h2>
               <h3 className="title"> Первообразный </h3>
@@ -160,8 +159,7 @@ class Intr extends React.Component {
                 {' '}
                 Четырёхбуквенные{' '}
                 <span role="img" aria-label="Writing Hand">
-                  {' '}
-                  ✍️{' '}
+                  &nbsp;✍️
                 </span>{' '}
               </h2>
               <div className="desc">

@@ -208,8 +208,7 @@ class Breed5 extends React.Component {
                 {' '}
                 Удаление одной ت{' '}
                 <span role="img" aria-label="Writing Hand">
-                  {' '}
-                  ✍️{' '}
+                  &nbsp;✍️
                 </span>{' '}
               </h2>
 

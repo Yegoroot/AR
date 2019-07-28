@@ -94,8 +94,7 @@ class IsmulMakanWaZamanPage extends React.Component {
               <h2 className="h2ar">
                 مَفْعَلٍ{' '}
                 <span role="img" aria-label="Writing Hand">
-                  {' '}
-                  ✍️{' '}
+                  &nbsp;✍️
                 </span>{' '}
               </h2>
 
@@ -140,8 +139,7 @@ class IsmulMakanWaZamanPage extends React.Component {
               <h2 className="h2ar">
                 مَفْعِلٍ{' '}
                 <span role="img" aria-label="Writing Hand">
-                  {' '}
-                  ✍️{' '}
+                  &nbsp;✍️
                 </span>{' '}
               </h2>
               <p className="desc">

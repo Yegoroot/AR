@@ -56,8 +56,7 @@ class IsmaMaful extends React.Component {
                 {' '}
                 Примеры{' '}
                 <span role="img" aria-label="Writing Hand">
-                  {' '}
-                  ✍️{' '}
+                  &nbsp;✍️
                 </span>{' '}
               </h2>
               <div className="arsent">
@@ -121,8 +120,7 @@ class IsmaMaful extends React.Component {
               <h2 className="title">
                 اسم المَفْول со слабой средней{' '}
                 <span role="img" aria-label="Writing Hand">
-                  {' '}
-                  ✍️{' '}
+                  &nbsp;✍️
                 </span>{' '}
               </h2>
               <h3 className="title">1 шаблон</h3>
@@ -158,8 +156,7 @@ class IsmaMaful extends React.Component {
               <h2 className="title">
                 اسم المَفْول со слабой последней{' '}
                 <span role="img" aria-label="Writing Hand">
-                  {' '}
-                  ✍️{' '}
+                  &nbsp;✍️
                 </span>{' '}
               </h2>
               <h3 className="title">1 шаблон</h3>
@@ -196,8 +193,7 @@ class IsmaMaful extends React.Component {
               <h2 className="title">
                 اسم المَفْول с шаддой{' '}
                 <span role="img" aria-label="Writing Hand">
-                  {' '}
-                  ✍️{' '}
+                  &nbsp;✍️
                 </span>{' '}
               </h2>
               <div className="arsent">

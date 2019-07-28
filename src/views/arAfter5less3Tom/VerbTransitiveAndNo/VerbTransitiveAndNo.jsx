@@ -59,8 +59,7 @@ class VerbTransitiveAndNo extends React.Component {
               <h2 className="title">
                 Переходной
                 <span role="img" aria-label="Writing Hand">
-                  {' '}
-                  ✍️{' '}
+                  &nbsp;✍️
                 </span>
               </h2>
 
@@ -101,8 +100,7 @@ class VerbTransitiveAndNo extends React.Component {
               <h2 className="title">
                 Непереходной{' '}
                 <span role="img" aria-label="Writing Hand">
-                  {' '}
-                  ✍️{' '}
+                  &nbsp;✍️
                 </span>{' '}
               </h2>
 
@@ -231,8 +229,7 @@ class VerbTransitiveAndNo extends React.Component {
                 {' '}
                 В двойне переходный{' '}
                 <span role="img" aria-label="Writing Hand">
-                  {' '}
-                  ✍️{' '}
+                  &nbsp;✍️
                 </span>{' '}
               </h2>
               <div className="desc">
