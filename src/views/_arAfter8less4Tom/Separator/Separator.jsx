@@ -38,7 +38,7 @@ class Page extends React.Component {
           {...rest}
         />
 
-        <Parallax small filter image={require('assets/img/mosque/mosque6.jpg')} />
+        <Parallax small filter image={require('assets/img/mosque/mosque3.jpg')} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
@@ -55,12 +55,9 @@ class Page extends React.Component {
               </p>
 
               <h2 className="title">
-                {' '}
-                Чтоб не спутать с заменителем{' '}
                 <span role="img" aria-label="Writing Hand">
-                  {' '}
-                  ✍️{' '}
-                </span>{' '}
+                  Чтоб не спутать с заменителем&nbsp;✍️
+                </span>
               </h2>
               <div className="arsent">
                 <div className="arsent__original">
@@ -95,12 +92,9 @@ class Page extends React.Component {
               </div>
 
               <h2 className="title">
-                {' '}
-                Чтоб не спутать с определением{' '}
                 <span role="img" aria-label="Writing Hand">
-                  {' '}
-                  ✍️{' '}
-                </span>{' '}
+                  Чтоб не спутать с определением&nbsp;✍️
+                </span>
               </h2>
               <div className="arsent">
                 <div className="arsent__original">
@@ -119,11 +113,8 @@ class Page extends React.Component {
               </div>
 
               <h2 className="title">
-                {' '}
-                Другие примеры{' '}
                 <span role="img" aria-label="Writing Hand">
-                  {' '}
-                  ✍️{' '}
+                  Другие примеры&nbsp;✍️
                 </span>
               </h2>
               <div className="arsent">

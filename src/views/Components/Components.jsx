@@ -26,50 +26,50 @@ import SectionCarousel from './Sections/SectionCarousel.jsx'
 import componentsStyle from 'assets/jss/material-kit-react/views/components.jsx'
 
 class Components extends React.Component {
-    render() {
-        const { classes, ...rest } = this.props
-        return (
-            <div>
-                <Header
-                    brand="في منامي"
-                    isBrandAr
-                    rightLinks={<HeaderLinks />}
-                    fixed
-                    color="transparent"
-                    changeColorOnScroll={{
-                        height: 400,
-                        color: 'white',
-                    }}
-                    {...rest}
-                />
+  render() {
+    const { classes, ...rest } = this.props
+    return (
+      <div>
+        <Header
+          brand="في منامي"
+          isBrandAr
+          rightLinks={<HeaderLinks />}
+          fixed
+          color="transparent"
+          changeColorOnScroll={{
+            height: 400,
+            color: 'white'
+          }}
+          {...rest}
+        />
 
-                <Parallax image={require('assets/img/mosque/minaret.jpg')}>
-                    <div className={classes.container}>
-                        <GridContainer>
-                            <GridItem>
-                                <div className={classes.brand}>
-                                    <h1 className={classes.title}>Arabic Bookmarks.</h1>
-                                    <h3 className={classes.subtitle}>Заметки, запсиси, уроки, правила и исключения.</h3>
-                                </div>
-                            </GridItem>
-                        </GridContainer>
-                    </div>
-                </Parallax>
-
-                <div className={classNames(classes.main, classes.mainRaised)}>
-                    <SectionBasics />
-                    <SectionNavbars />
-                    <SectionTabs />
-                    <SectionPills />
-                    <SectionNotifications />
-                    <SectionTypography />
-                    <SectionJavascript />
-                    <SectionCarousel />
+        <Parallax image={require('assets/img/mosque/mosque16.jpg')}>
+          <div className={classes.container}>
+            <GridContainer>
+              <GridItem>
+                <div className={classes.brand}>
+                  <h1 className={classes.title}>Arabic Bookmarks.</h1>
+                  <h3 className={classes.subtitle}>Заметки, запсиси, уроки, правила и исключения.</h3>
                 </div>
-                <Footer />
-            </div>
-        )
-    }
+              </GridItem>
+            </GridContainer>
+          </div>
+        </Parallax>
+
+        <div className={classNames(classes.main, classes.mainRaised)}>
+          <SectionBasics />
+          <SectionNavbars />
+          <SectionTabs />
+          <SectionPills />
+          <SectionNotifications />
+          <SectionTypography />
+          <SectionJavascript />
+          <SectionCarousel />
+        </div>
+        <Footer />
+      </div>
+    )
+  }
 }
 
 export default withStyles(componentsStyle)(Components)

@@ -22,10 +22,10 @@ class IdafaPage extends React.Component {
     return (
       <div>
         <Helmet>
-          <title>Несогласованное определение (Идафа الإضافة)</title>
+          <title>Несогласованное определение в арабском языке (Идафа الإضافة)</title>
           <meta
             name="description"
-            content='Идафа (الإضافة) - можно перевести как "несогласованное определение". Иногда этот термин переводят как "изафетная связка"'
+            content='Идафа (الإضافة) или "несогласованное определение" очень частая конструкция в арабском языке. Иногда этот термин переводят как "изафетная связка"'
           />
         </Helmet>
         <Header
@@ -47,7 +47,7 @@ class IdafaPage extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title">
-                Несогласованное определение &nbsp;<span className="ph">§</span>
+                Несогласованное определение&nbsp;<span className="ph">§</span>
               </h1>
 
               <div className="desc">
@@ -62,12 +62,10 @@ class IdafaPage extends React.Component {
               </div>
 
               <h2 className="title">
-                {' '}
-                Первая часть идафы{' '}
+                Первая часть{' '}
                 <span role="img" aria-label="Writing Hand">
-                  {' '}
-                  ✍️{' '}
-                </span>{' '}
+                  идафы&nbsp;✍️
+                </span>
               </h2>
               <div className="desc">
                 <b> Не принимает ни танвина ни определенного артикля </b> т.е стоит в так называемом "сопряженном состоянии". В зависимости
@@ -90,11 +88,11 @@ class IdafaPage extends React.Component {
               </div>
 
               <h2 className="title">
-                Вторая часть идафы{' '}
+                Вторая часть
                 <span role="img" aria-label="Writing Hand">
                   {' '}
-                  ✍️{' '}
-                </span>{' '}
+                  идафы&nbsp;✍️
+                </span>
               </h2>
 
               <div className="desc">

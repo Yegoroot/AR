@@ -60,7 +60,7 @@ class Page extends React.Component {
           {...rest}
         />
 
-        <Parallax small={paralax.small} filter={paralax.filter} image={require('assets/img/mosque/mosque2.jpg')} />
+        <Parallax small={paralax.small} filter={paralax.filter} image={require('assets/img/mosque/mosque3.jpg')} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>

@@ -1,21 +1,21 @@
 export default {
   header: {
-    color: "transparent",
-    brand: "مِن الزّائِدَة", // название страницы
+    color: 'transparent',
+    brand: 'مِن الزّائِدَة', // название страницы
     isBrandAr: true, // крупный шрифт или мелий (для арабского текста нужен крупный)
-    rightLinks: "HeaderLinks", // какие ссылки меню показывать
+    rightLinks: 'HeaderLinks', // какие ссылки меню показывать
     fixed: true,
     changeColorOnScroll: {
       height: 200,
-      color: "white"
+      color: 'white'
     }
   },
   paralax: {
     small: true,
     filter: true,
-    image: require("assets/img/mosque/mosque21.jpg")
+    image: require('assets/img/mosque/mosque11.jpg')
   },
-  description: "",
+  description: '',
   content: `<p>
             Эта частица усиливает мысль в предложении, часто используется в Коране, одна из многих
             частиц показывающих описательную точность{' '}
@@ -95,4 +95,4 @@ export default {
             رِزْقُهَا
         </ArSent>
     `
-};
+}

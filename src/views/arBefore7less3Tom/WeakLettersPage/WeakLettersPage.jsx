@@ -56,7 +56,7 @@ class WeakLettersPage extends React.Component {
           {...rest}
         />
 
-        <Parallax small filter image={require('assets/img/mosque/mosque9.jpg')} />
+        <Parallax small filter image={require('assets/img/mosque/mosque1.jpg')} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <h1 className="title">

@@ -13,7 +13,7 @@ export default {
   paralax: {
     small: true,
     filter: true,
-    image: 'assets/img/mosque/mosque2.jpg'
+    image: 'assets/img/mosque/mosque3.jpg'
   },
   description: '',
   content: `

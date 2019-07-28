@@ -30,7 +30,7 @@ class Breed4 extends React.Component {
           {...rest}
         />
 
-        <Parallax small filter image={require('assets/img/mosque/mosque8.jpg')} />
+        <Parallax small filter image={require('assets/img/mosque/mosque3.jpg')} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>

@@ -22,10 +22,11 @@ class SoglasovOpr extends React.Component {
     return (
       <div>
         <Helmet>
-          <title>Согласованное определение</title>
+          <title>Согласованное определение в арабском языке</title>
           <meta
             name="description"
-            content="Согласованное определение арабского языка ставится после определяемого и полностью согласуется в роде, числе, падеже, состоянии"
+            content="Согласованное определение ставится после определяемого и полностью согласуется в роде, числе, падеже, состоянии. Чаще всего в роде согласованного определения выступает
+            прилагательное"
           />
         </Helmet>
         <Header
@@ -40,12 +41,12 @@ class SoglasovOpr extends React.Component {
           {...rest}
         />
 
-        <Parallax small filter image={require('assets/img/mosque/minaret.jpg')} />
+        <Parallax small filter image={require('assets/img/mosque/mosque16.jpg')} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title">
-                Согласованное определение &nbsp;<span className="ph">§</span>
+                Согласованное определение&nbsp;<span className="ph">§</span>
               </h1>
 
               <div className="desc">
@@ -74,10 +75,8 @@ class SoglasovOpr extends React.Component {
               </div>
 
               <h2 className="title">
-                Если идафа в неопределенном состоянии{' '}
                 <span role="img" aria-label="Writing Hand">
-                  {' '}
-                  ✍️{' '}
+                  Если идафа в неопределенном состоянии&nbsp;✍️
                 </span>
               </h2>
               <div className="desc">
@@ -117,11 +116,8 @@ class SoglasovOpr extends React.Component {
               </div>
 
               <h2 className="title">
-                {' '}
-                Если идафа в определенном состоянии{' '}
                 <span role="img" aria-label="Writing Hand">
-                  {' '}
-                  ✍️{' '}
+                  Если идафа в определенном состоянии&nbsp;✍️
                 </span>
               </h2>
               <div className="desc">Если же идафа в определенном состоянии, то и определяемое считается в определенном состоянии</div>
@@ -159,11 +155,8 @@ class SoglasovOpr extends React.Component {
               </div>
 
               <h2 className="title">
-                {' '}
-                Если определение в идафе имеет собственную идафу{' '}
                 <span role="img" aria-label="Writing Hand">
-                  {' '}
-                  ✍️{' '}
+                  Если определение в идафе имеет собственную идафу&nbsp;✍️
                 </span>
               </h2>
               <div className="desc">

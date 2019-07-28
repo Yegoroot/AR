@@ -22,8 +22,11 @@ class JumlatuIsmPage extends React.Component {
     return (
       <div>
         <Helmet>
-          <title>Именное предложение (جملة الاِسمِيّة)</title>
-          <meta name="description" content="Именное предложение в арабском языке это предложение, которое начинается с имени" />
+          <title>Именное предложение (جملة الاِسمِيّة) в арабском языке</title>
+          <meta
+            name="description"
+            content="Именное предложение это предложение, которое начинается с имени. Для изучающего арабский язык будет просто понять эти концепции"
+          />
         </Helmet>
         <Header
           color="transparent"
@@ -38,7 +41,7 @@ class JumlatuIsmPage extends React.Component {
           {...rest}
         />
 
-        <Parallax small filter image={require('assets/img/mosque/mosque5.jpg')} />
+        <Parallax small filter image={require('assets/img/mosque/mosque7.jpg')} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
@@ -54,7 +57,11 @@ class JumlatuIsmPage extends React.Component {
                 <span className="desc__ar"> (الخَبَرُ) </span> - в неопределённом.
               </p>
 
-              <h3 className="title">Сказуемое выраженное именем</h3>
+              <h3 className="title">
+                <span role="img" aria-label="Writing Hand">
+                  Сказуемое выраженное именем&nbsp;✍️
+                </span>
+              </h3>
               <p className="desc">Если сказуемое именного предложения является именем, то оно согласуется с подлежащим в числе и роде:</p>
               <div className="arsent">
                 <div className="arsent__original">
@@ -81,7 +88,11 @@ class JumlatuIsmPage extends React.Component {
                 <div className="arsent__translate">Ученицы активны</div>
               </div>
 
-              <h3 className="title">Сказуемое выраженное глаголом</h3>
+              <h3 className="title">
+                <span role="img" aria-label="Writing Hand">
+                  Сказуемое выраженное глаголом&nbsp;✍️
+                </span>
+              </h3>
               <div className="arsent">
                 <div className="arsent__original">
                   زيدٌ <span className="contrast"> فتح </span> الباب
@@ -89,7 +100,11 @@ class JumlatuIsmPage extends React.Component {
                 <div className="arsent__translate">Зейд открыл дверь</div>
               </div>
 
-              <h3 className="title">Сказумеое выраженное идафой обстоятельства и имени</h3>
+              <h3 className="title">
+                <span role="img" aria-label="Writing Hand">
+                  Сказуемое выраженное идафой обстоятельства и именем&nbsp;✍️
+                </span>
+              </h3>
               <div className="arsent">
                 <div className="arsent__original">
                   السّيّارةُ <span className="contrast"> أَمامَ البيتِ </span>
@@ -97,7 +112,11 @@ class JumlatuIsmPage extends React.Component {
                 <div className="arsent__translate">Машина перед домом</div>
               </div>
 
-              <h3 className="title">Сказуемое выраженое сочетанием предлога родительного падежа и имени</h3>
+              <h3 className="title">
+                <span role="img" aria-label="Writing Hand">
+                  Сказуемое выраженное сочетанием предлога родительного падежа и имени&nbsp;✍️
+                </span>
+              </h3>
               <div className="arsent">
                 <div className="arsent__original">
                   التّلميذُ <span className="contrast"> فى المدرسةِ </span>

@@ -37,7 +37,7 @@ class AlMafuluFihi extends React.Component {
           {...rest}
         />
 
-        <Parallax small filter image={require('assets/img/mosque/mosque23.jpg')} />
+        <Parallax small filter image={require('assets/img/mosque/mosque13.jpg')} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
