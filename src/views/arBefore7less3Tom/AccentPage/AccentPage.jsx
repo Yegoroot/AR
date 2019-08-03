@@ -20,7 +20,7 @@ class AccentPage extends React.Component {
       <div>
         <Helmet>
           <title>Как точно задать вопрос в арабском языке</title>
-          <meta name="description" content="В зависимости от того что хотим спросить и расставляем [акцентируем] слова" />
+          <meta name="description" content="Акцентирование смысла в арабских предложениях в зависимости от того, что хотим спросить" />
         </Helmet>
         <Header
           color="transparent"
@@ -29,13 +29,12 @@ class AccentPage extends React.Component {
           fixed
           changeColorOnScroll={{
             height: 200,
-
             color: 'white'
           }}
           {...rest}
         />
 
-        <Parallax small filter image={require('assets/img/mosque/mosque11.jpg')} />
+        <Parallax small filter image={require('assets/img/mosque/mosque7.jpg')} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>

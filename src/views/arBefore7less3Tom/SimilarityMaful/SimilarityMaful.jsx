@@ -19,7 +19,7 @@ class SimilarityMaful extends React.Component {
       <div>
         <Helmet>
           <title>Страдетельный залог и имя поддейственного </title>
-          <meta name="description" content="Есть определеннвя схожесть у страдетельного залога и имени поддейственного " />
+          <meta name="description" content="Есть определеннвя схожесть у страдетельного залога и имени поддейственного в арабском языке" />
         </Helmet>
         <Header
           color="transparent"
@@ -33,12 +33,12 @@ class SimilarityMaful extends React.Component {
           {...rest}
         />
 
-        <Parallax small filter image={require('assets/img/mosque/mosque1.jpg')} />
+        <Parallax small filter image={require('assets/img/mosque/mosque10.jpg')} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title">
-                Схожесть стр. залога и мафъуль&nbsp;<span className="ph">§</span>
+                Схожесть страдательного залога и имени поддейственного&nbsp;<span className="ph">§</span>
               </h1>
               <div className="desc" />
 

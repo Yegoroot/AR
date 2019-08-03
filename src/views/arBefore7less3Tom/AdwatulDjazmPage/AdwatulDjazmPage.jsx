@@ -27,7 +27,7 @@ class AdwatulDjazmPage extends React.Component {
           <title>أدوات الجزم</title>
           <meta
             name="description"
-            content="أدوات الجزم. Частица Лям, Лямма, Ля Нахия, Лямуль Амр"
+            content="أدوات الجزم. Арабские частицы которые урезают глагол. Частица Лям, Лямма, Ля Нахия, Лямуль Амр"
           />
         </Helmet>
         <Header
@@ -43,7 +43,7 @@ class AdwatulDjazmPage extends React.Component {
           {...rest}
         />
 
-        <Parallax small filter image={require("assets/img/bg4.jpg")} />
+        <Parallax small filter image={require("assets/img/mosque/mosque22.jpg")} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>

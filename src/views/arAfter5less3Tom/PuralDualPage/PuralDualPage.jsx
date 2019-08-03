@@ -38,7 +38,7 @@ class PuralDualPage extends React.Component {
           {...rest}
         />
 
-        <Parallax small filter image={require('assets/img/mosque/mosque10.jpg')} />
+        <Parallax small filter image={require('assets/img/mosque/mosque14.jpg')} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
@@ -47,8 +47,8 @@ class PuralDualPage extends React.Component {
               </h1>
 
               <div className="desc">
-                Если на правильное множественное или двойственное падает действие (становится в насб), то слабая буква
-                <span className="contrast_2 desc__ar"> (ا / و) </span> заменяется на
+                Если на правильное <b> множественное </b> или <b> двойственное </b> падает действие (становится в насб), то слабая буква
+                <span className="contrast_2 desc__ar"> (ا&nbsp;/&nbsp;و) </span> заменяется на
                 <span className="contrast_2 desc__ar"> (ي) </span>
               </div>
               <div className="arsent">

@@ -38,12 +38,12 @@ class HarfSobirPage extends React.Component {
           {...rest}
         />
 
-        <Parallax small filter image={require("assets/img/mosque/mosque12.jpg")} />
+        <Parallax small filter image={require("assets/img/mosque/mosque29.jpg")} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title  ">
-                اسم الجنس الجَمْعِ&nbsp;<span className="ph">§</span>
+                Собирательная частица (اسم&nbsp;الجنس&nbsp;الجَمْعِ)&nbsp;<span className="ph">§</span>
               </h1>
               <div className="desc">
                 Собирательная частица есть двух типов: <b> для людей и для не людей </b>. Например у

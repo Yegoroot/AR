@@ -19,7 +19,7 @@ class IsmChislitelPage extends React.Component {
       <div>
         <Helmet>
           <title>Арабские числительные с 100</title>
-          <meta name="description" content="Вариации арабских числительных с 100" />
+          <meta name="description" content="Вариации арабских числительных с сотнями" />
         </Helmet>
         <Header
           color="transparent"
@@ -34,7 +34,7 @@ class IsmChislitelPage extends React.Component {
           {...rest}
         />
 
-        <Parallax small filter image={require('assets/img/mosque/mosque12.jpg')} />
+        <Parallax small filter image={require('assets/img/mosque/mosque11.jpg')} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>

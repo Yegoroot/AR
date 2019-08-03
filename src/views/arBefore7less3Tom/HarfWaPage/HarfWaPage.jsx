@@ -16,8 +16,8 @@ class HarfWaPage extends React.Component {
     return (
       <div>
         <Helmet>
-          <title>Частица Вав (واو)</title>
-          <meta name="description" content="Различные вариации арабской частицы Вав" />
+          <title>Частица Ва (واو): соединения, клятва, состояние и др</title>
+          <meta name="description" content="Частица Ва (واو) может соединенять части предложений, иметь значение клятвы, состояние и др" />
         </Helmet>
         <Header
           color="transparent"
@@ -32,12 +32,12 @@ class HarfWaPage extends React.Component {
           {...rest}
         />
 
-        <Parallax small filter image={require("assets/img/mosque/mosque14.jpg")} />
+        <Parallax small filter image={require("assets/img/mosque/mosque26.jpg")} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title ">
-                واو&nbsp;<span className="ph">§</span>
+               Частица ва (واو)&nbsp;<span className="ph">§</span>
               </h1>
 
               <h2 className="title h2ar">

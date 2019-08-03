@@ -40,12 +40,12 @@ class DuaPage extends React.Component {
           {...rest}
         />
 
-        <Parallax small filter image={require("assets/img/mosque/mosque30.jpg")} />
+        <Parallax small filter image={require("assets/img/mosque/mosque29.jpg")} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title ">
-                الدُّعاء&nbsp;<span className="ph">§</span>
+                Мольба (الدُّعاء)&nbsp;<span className="ph">§</span>
               </h1>
 
               <p className="desc">

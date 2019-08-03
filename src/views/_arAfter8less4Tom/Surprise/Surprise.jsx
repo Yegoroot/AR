@@ -19,7 +19,7 @@ class Page extends React.Component {
     return (
       <div>
         <Helmet>
-          <title>Формы удивления в арабском</title>
+          <title>Как удивляться по арабски</title>
           <meta name="description" content="В арабском существует две классические формы (модели) удивления" />
         </Helmet>
         <Header
@@ -36,7 +36,7 @@ class Page extends React.Component {
           {...rest}
         />
 
-        <Parallax small filter image={require('assets/img/mosque/mosque17.jpg')} />
+        <Parallax small filter image={require('assets/img/mosque/mosque16.jpg')} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>

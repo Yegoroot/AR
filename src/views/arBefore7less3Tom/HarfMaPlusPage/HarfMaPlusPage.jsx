@@ -23,8 +23,8 @@ class HarfMaPlusPage extends React.Component {
     return (
       <div>
         <Helmet>
-          <title>Частица ма (حرف ما)</title>
-          <meta name="description" content="Различные ситуации с частицей ма (حرف ما)" />
+          <title>Частица ма (вопрос, отрицание, непределённость и др)</title>
+          <meta name="description" content="Частица ма (حرف ما) может отрицать арабские глаголы, строить вопрос, давать смысл неопределённости и др" />
         </Helmet>
         <Header
           color="transparent"
@@ -39,12 +39,12 @@ class HarfMaPlusPage extends React.Component {
           {...rest}
         />
 
-        <Parallax small filter image={require("assets/img/mosque/mosque10.jpg")} />
+        <Parallax small filter image={require("assets/img/mosque/mosque25.jpg")} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title ">
-                حرف ما&nbsp;<span className="ph">§</span>
+              Частица ма (حرف&nbsp;ما)&nbsp;<span className="ph">§</span>
               </h1>
               <MainAboutMa />
               <MaAttama />

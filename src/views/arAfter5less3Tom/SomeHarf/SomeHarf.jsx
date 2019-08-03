@@ -26,7 +26,7 @@ class SomeIsm extends React.Component {
       <div>
         <Helmet>
           <title>Некоторые частицы арабского языка</title>
-          <meta name="description" content="Некоторые арабские частицы в разных положениях" />
+          <meta name="description" content="Некоторые из арабских частиц, которые превносят дополнительный смысл в предложения или меняют" />
         </Helmet>
         <Header
           color="transparent"
@@ -41,7 +41,7 @@ class SomeIsm extends React.Component {
           {...rest}
         />
 
-        <Parallax small filter image={require('assets/img/mosque/mosque11.jpg')} />
+        <Parallax small filter image={require('assets/img/mosque/mosque4.jpg')} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>

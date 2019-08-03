@@ -37,7 +37,7 @@ class HarfHalPage extends React.Component {
           {...rest}
         />
 
-        <Parallax small filter image={require('assets/img/mosque/mosque12.jpg')} />
+        <Parallax small filter image={require('assets/img/mosque/mosque3.jpg')} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>

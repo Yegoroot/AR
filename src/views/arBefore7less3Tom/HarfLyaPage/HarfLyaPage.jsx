@@ -21,8 +21,8 @@ class SoglasovOpr extends React.Component {
     return (
       <div>
         <Helmet>
-          <title>Частица Ля (حرف لا)</title>
-          <meta name="description" content="Различные правила с частицей Ля (حرف لا)" />
+          <title>Частица Ля в (حرف لا)</title>
+          <meta name="description" content="Различные правила с частицей Ля (حرف لا), у которой главная роль отрицать настоящее, прошедшее, но также он имеет другие значения" />
         </Helmet>
         <Header
           color="transparent"
@@ -37,7 +37,7 @@ class SoglasovOpr extends React.Component {
           {...rest}
         />
 
-        <Parallax small filter image={require("assets/img/mosque/mosque7.jpg")} />
+        <Parallax small filter image={require("assets/img/mosque/mosque23.jpg")} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>

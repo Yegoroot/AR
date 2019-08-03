@@ -22,9 +22,7 @@ class HarfDenyPage extends React.Component {
           <title>Отрицательные частицы арабского</title>
           <meta
             name="description"
-            content="Отрицательные частицы. قَطُّ - для прошедшего времени. В
-            то время как частица
-             أبدٌا - для настоящего времени"
+            content="Частица قَطُّ для отрицания прошедшего времени, а أبدٌا для отрицания настоящего"
           />
         </Helmet>
         <Header
@@ -40,7 +38,7 @@ class HarfDenyPage extends React.Component {
           {...rest}
         />
 
-        <Parallax small filter image={require('assets/img/mosque/mosque12.jpg')} />
+        <Parallax small filter image={require('assets/img/mosque/mosque28.jpg')} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
@@ -49,9 +47,9 @@ class HarfDenyPage extends React.Component {
               </h1>
               <div className="desc">
                 Частица
-                <span className="desc__ar contrast"> قَطُّ </span>- для прошедшего времени ( <b> не делал никогда до этого момента </b> ). В
+                <span className="desc__ar contrast"> قَطُّ </span> для <b> отрицания прошедшего времени </b> ( не делал никогда до этого момента ). В
                 то время как частица
-                <span className="contrast desc__ar"> أبدٌا </span>- для настоящего времени ( <b> никогда не делал и не буду делать </b> )
+                <span className="contrast desc__ar"> أبدٌا </span> <b> для отрицания настоящего времени </b> ( никогда не делал и не буду делать )
               </div>
 
               <div className="arsent">

@@ -16,10 +16,10 @@ class LamIbtidaa extends React.Component {
     return (
       <div>
         <Helmet>
-          <title>Лям начинания (لَام الاِبْتِداء)</title>
+          <title>Частица начинания, усиления лям (لَام الاِبْتِداء)</title>
           <meta
             name="description"
-            content="Эта Лям начианания, а так же она обозначает усиление содержания предложения"
+            content="Эта Лям начианания нового предложенмя, смысла, а так же она обозначает усиление содержания предложения"
           />
         </Helmet>
         <Header
@@ -35,16 +35,16 @@ class LamIbtidaa extends React.Component {
           {...rest}
         />
 
-        <Parallax small filter image={require("assets/img/mosque/mosque11.jpg")} />
+        <Parallax small filter image={require("assets/img/mosque/mosque24.jpg")} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className=" title">
-                لَام الاِبْتِداء&nbsp;<span className="ph">§</span>
+                Лям начинания (لَام&nbsp;الاِبْتِداء)&nbsp;<span className="ph">§</span>
               </h1>
               <div className="desc">
-                Эта Лям <b>начианания</b>, а так же она обозначает{" "}
-                <b>усиление содержания предложения</b>
+                Эта <b> лям начианания </b>, а так же она обозначает
+                <b> усиление содержания предложения </b>
               </div>
               <div className="arsent">
                 <div className="arsent__original">

@@ -23,7 +23,7 @@ class MinQoblu extends React.Component {
       <div>
         <Helmet>
           <title>من قبلُ </title>
-          <meta name="description" content="Конструкция من قبلُ арабского языка" />
+          <meta name="description" content="Конструкция من قبلُ, которая держит контекст смысла" />
         </Helmet>
         <Header
           color="transparent"
@@ -39,12 +39,12 @@ class MinQoblu extends React.Component {
           {...rest}
         />
 
-        <Parallax small filter image={require("assets/img/mosque/mosque30.jpg")} />
+        <Parallax small filter image={require("assets/img/mosque/mosque13.jpg")} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className=" title">
-                مِن قبلُ&nbsp;<span className="ph">§</span>
+                Конструкция مِن&nbsp;قبلُ&nbsp;<span className="ph">§</span>
               </h1>
 
               <div className="desc">

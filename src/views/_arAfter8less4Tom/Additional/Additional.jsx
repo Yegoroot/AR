@@ -173,7 +173,7 @@ class Page extends React.Component {
                   <span className="contrast_2"> وَ </span>
                   <span className="contrast"> الشَّمْسَ </span>
                 </div>
-                <div className="arsent__translate">Вернулся Саид и (светило) солнцеь</div>
+                <div className="arsent__translate">Вернулся Саид и (светило) солнце</div>
               </div>
 
               <div className="desc">
