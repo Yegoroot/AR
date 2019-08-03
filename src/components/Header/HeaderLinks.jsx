@@ -1,36 +1,38 @@
-import React from 'react'
+import React from "react";
 // react components for routing our app without refresh
-import { Link } from 'react-router-dom'
+import { Link } from "react-router-dom";
 
 // @material-ui/core components
-import withStyles from '@material-ui/core/styles/withStyles'
-import { List, ListItem } from '@material-ui/core'
-import { Waves, Apps, Bookmarks, Book, Assignment, Home } from '@material-ui/icons'
+import withStyles from "@material-ui/core/styles/withStyles";
+import { List, ListItem } from "@material-ui/core";
+import { Waves, Apps, Bookmarks, Book, Assignment, Home } from "@material-ui/icons";
 
 // core components
-import CustomDropdown from 'components/CustomDropdown/CustomDropdown.jsx'
+import CustomDropdown from "components/CustomDropdown/CustomDropdown.jsx";
 // import Button from 'components/CustomButtons/Button.jsx'
 
-import headerLinksStyle from 'assets/jss/material-kit-react/components/headerLinksStyle.jsx'
+import headerLinksStyle from "assets/jss/material-kit-react/components/headerLinksStyle.jsx";
 
 function HeaderLinks({ ...props }) {
-  const { classes } = props
+  const { classes } = props;
   return (
     <List className={classes.list}>
       <ListItem className={classes.listItem}>
         <Link to="/" className={classes.navLink}>
-          <Home className={classes.icons} /> <span className={classes.navLinkHideDesc}>Главная</span>
+          <Home className={classes.icons} />{" "}
+          <span className={classes.navLinkHideDesc}>Главная</span>
         </Link>
       </ListItem>
 
       <ListItem className={classes.listItem}>
         <CustomDropdown
+          dropup
           className="dropdown"
           noLiPadding
           buttonText="Грамматика"
           buttonProps={{
             className: classes.navLink,
-            color: 'transparent'
+            color: "transparent"
           }}
           buttonIcon={Apps}
           dropdownList={[
@@ -76,10 +78,11 @@ function HeaderLinks({ ...props }) {
       <ListItem className={classes.listItem}>
         <CustomDropdown
           noLiPadding
+          dropup // для больших списков меню с середины документа прыгало вверх // кажись это было для изначального меню
           buttonText="Глагол"
           buttonProps={{
             className: classes.navLink,
-            color: 'transparent'
+            color: "transparent"
           }}
           buttonIcon={Bookmarks}
           dropdownList={[
@@ -143,10 +146,11 @@ function HeaderLinks({ ...props }) {
       <ListItem className={classes.listItem}>
         <CustomDropdown
           noLiPadding
+          dropup
           buttonText="Имя"
           buttonProps={{
             className: classes.navLink,
-            color: 'transparent'
+            color: "transparent"
           }}
           buttonIcon={Book}
           dropdownList={[
@@ -189,10 +193,11 @@ function HeaderLinks({ ...props }) {
       <ListItem className={classes.listItem}>
         <CustomDropdown
           noLiPadding
+          dropup
           buttonText="Частицы"
           buttonProps={{
             className: classes.navLink,
-            color: 'transparent'
+            color: "transparent"
           }}
           buttonIcon={Assignment}
           dropdownList={[
@@ -242,7 +247,7 @@ function HeaderLinks({ ...props }) {
           buttonText="Разное"
           buttonProps={{
             className: classes.navLink,
-            color: 'transparent'
+            color: "transparent"
           }}
           buttonIcon={Waves}
           dropdownList={[
@@ -271,7 +276,7 @@ function HeaderLinks({ ...props }) {
         />
       </ListItem>
     </List>
-  )
+  );
 }
 
-export default withStyles(headerLinksStyle)(HeaderLinks)
+export default withStyles(headerLinksStyle)(HeaderLinks);
