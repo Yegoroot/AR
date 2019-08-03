@@ -1,31 +1,34 @@
-import React from 'react'
+import React from "react";
 // nodejs library that concatenates classes
-import classNames from 'classnames'
+import classNames from "classnames";
 
 // @material-ui/core components
-import withStyles from '@material-ui/core/styles/withStyles'
+import withStyles from "@material-ui/core/styles/withStyles";
 
 // core components
-import Header from 'components/Header/Header.jsx'
-import Footer from 'components/Footer/Footer.jsx'
+import Header from "components/Header/Header.jsx";
+import Footer from "components/Footer/Footer.jsx";
 
-import Word from 'components/word'
+import Word from "components/word";
 
-import HeaderLinks from 'components/Header/HeaderLinks.jsx'
+import HeaderLinks from "components/Header/HeaderLinks.jsx";
 
-import Parallax from 'components/Parallax/Parallax.jsx'
-import { Helmet } from 'react-helmet'
-import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
+import Parallax from "components/Parallax/Parallax.jsx";
+import { Helmet } from "react-helmet";
+import arabicPageStyle from "assets/jss/material-kit-react/views/arabicPage.jsx";
 
 class Ism5Page extends React.Component {
   render() {
-    const { classes, ...rest } = this.props
+    const { classes, ...rest } = this.props;
 
     return (
       <div>
         <Helmet>
-          <title>Пять особых имён в арабском</title>
-          <meta name="description" content="В арабском языке есть 5 имен которые по особому склоняются,  أب, أخ и другие" />
+          <title>5 особо склоняемых имён в арабском</title>
+          <meta
+            name="description"
+            content="В арабском языке есть 5 имен которые по особому склоняются,  أب, أخ и другие"
+          />
         </Helmet>
         <Header
           color="transparent"
@@ -35,20 +38,21 @@ class Ism5Page extends React.Component {
           changeColorOnScroll={{
             height: 200,
 
-            color: 'white'
+            color: "white"
           }}
           {...rest}
         />
 
-        <Parallax small filter image={require('assets/img/mosque/mosque17.jpg')} />
+        <Parallax small filter image={require("assets/img/mosque/mosque19.jpg")} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title">
-                5 имен&nbsp;<span className="ph">§</span>
+                Пять особо склоняемых имён в арабском&nbsp;<span className="ph">§</span>
               </h1>
               <div className="desc">
-                В арабском языке есть 5 имен которые по особому склоняются, <span className="desc__ar"> أب, أخ </span> и другие
+                В арабском языке есть 5 имен которые по особому склоняются,{" "}
+                <span className="desc__ar"> أب, أخ </span> и другие
               </div>
 
               <div className="arsent">
@@ -80,8 +84,8 @@ class Ism5Page extends React.Component {
         </div>
         <Footer />
       </div>
-    )
+    );
   }
 }
 
-export default withStyles(arabicPageStyle)(Ism5Page)
+export default withStyles(arabicPageStyle)(Ism5Page);

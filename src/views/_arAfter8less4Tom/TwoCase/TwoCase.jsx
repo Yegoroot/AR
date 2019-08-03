@@ -1,23 +1,23 @@
-import React from 'react'
+import React from "react";
 // nodejs library that concatenates classes
-import classNames from 'classnames'
+import classNames from "classnames";
 
 // @material-ui/core components
-import withStyles from '@material-ui/core/styles/withStyles'
+import withStyles from "@material-ui/core/styles/withStyles";
 
 // core components
-import Header from 'components/Header/Header.jsx'
-import Footer from 'components/Footer/Footer.jsx'
+import Header from "components/Header/Header.jsx";
+import Footer from "components/Footer/Footer.jsx";
 
-import HeaderLinks from 'components/Header/HeaderLinks.jsx'
+import HeaderLinks from "components/Header/HeaderLinks.jsx";
 
-import Parallax from 'components/Parallax/Parallax.jsx'
-import { Helmet } from 'react-helmet'
-import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
+import Parallax from "components/Parallax/Parallax.jsx";
+import { Helmet } from "react-helmet";
+import arabicPageStyle from "assets/jss/material-kit-react/views/arabicPage.jsx";
 
 class AbjectDegrees extends React.Component {
   render() {
-    const { classes, ...rest } = this.props
+    const { classes, ...rest } = this.props;
 
     return (
       <div>
@@ -35,40 +35,46 @@ class AbjectDegrees extends React.Component {
           fixed
           changeColorOnScroll={{
             height: 200,
-            color: 'white'
+            color: "white"
           }}
           {...rest}
         />
 
-        <Parallax small filter image={require('assets/img/mosque/mosque17.jpg')} />
+        <Parallax small filter image={require("assets/img/mosque/mosque21.jpg")} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title">
-                Двухпадежность имён&nbsp;<span className="ph">§</span>
+                Двухпадежность арабских имён&nbsp;<span className="ph">§</span>
               </h1>
 
               <div className="desc">
-                Имя без стандартного полного трехпадежного склонения <b className="desc__ar"> الْاِسْمُ الَّذِي لَا يَنْصَرِفُ </b>. Они
-                отличаются тем, что в неопределённом состоянии <b> не принимают нунации </b> (тан-вин может появиться только при
-                необходимости для гладкости слога, например: <b className="desc__ar"> سَلَاسَلاً وَ أَغْلَالاً</b> )
+                Имя без стандартного полного трехпадежного склонения
+                <b className="desc__ar"> الْاِسْمُ الَّذِي لَا يَنْصَرِفُ </b>. Они отличаются тем,
+                что в неопределённом состоянии <b> не принимают нунации </b> (тан-вин может
+                появиться только при необходимости для гладкости слога, например:
+                <b className="desc__ar"> سَلَاسَلاً وَ أَغْلَالاً</b> )
                 <b> и различают только два падежа: именительный и винительный.</b>
               </div>
               <div className="desc">
-                Имена становятся двухпадежным, если содержат в себе две причины (точнее, два изъяна) или одну, которая имеет силу двух
-                причин. Одна причина связана с внешней звуковой оболочкой слова, а вторая с её смыслом. Для лёгкости запоминания причин
+                Имена становятся двухпадежным, если содержат в себе две причины (точнее, два изъяна)
+                или одну, которая имеет силу двух причин. Одна причина связана с внешней звуковой
+                оболочкой слова, а вторая с её смыслом. Для лёгкости запоминания причин
                 двухпадежности обычно используется вспомогательная связка:
               </div>
               <div className="arsent">
                 <div className="arsent__original">
-                  عَدْلٌ ووَصْفٌ وَتَأْنِيثٌ وَمَعْرِفَةٌ وَعُجْمَةٌ ثُمَّ جَمْعٌ ثُمَّ تَرْكِيبٌ وَالنُّونُ الزَائِدَةُ مِنْ قَبْلِهَا
-                  أَلِفٌ وَوَزْنُ فِعْلٍ
+                  عَدْلٌ ووَصْفٌ وَتَأْنِيثٌ وَمَعْرِفَةٌ وَعُجْمَةٌ ثُمَّ جَمْعٌ ثُمَّ تَرْكِيبٌ
+                  وَالنُّونُ الزَائِدَةُ مِنْ قَبْلِهَا أَلِفٌ وَوَزْنُ فِعْلٍ
                 </div>
               </div>
 
               <h2 className="title">
-                Склонение двухпадежных имён<span role="img" aria-label="Writing Hand">
-                  &nbsp;✍️</span></h2>
+                Склонение двухпадежных имён
+                <span role="img" aria-label="Writing Hand">
+                  &nbsp;✍️
+                </span>
+              </h2>
 
               <div className="arsent">
                 <div className="arsent__original">مَدَارِسُ فَاطِمَةُ رَمَضَانُ</div>
@@ -90,13 +96,17 @@ class AbjectDegrees extends React.Component {
               </div>
 
               <h2 className="title">
-                Сила двух причин<span role="img" aria-label="Writing Hand">
-                  &nbsp;✍️</span></h2>
+                Сила двух причин
+                <span role="img" aria-label="Writing Hand">
+                  &nbsp;✍️
+                </span>
+              </h2>
 
               <div className="desc">
-                Одного <b> ломанного множественного числа </b> или <b> некоренного алифа женского рода </b>
-                <b className="desc__ar"> (اءُ) </b> и <b> алиф максуры </b> <b className="desc__ar"> (ى) </b> достаточно, чтобы сделать имя
-                двухпадежным&nbsp;
+                Одного <b> ломанного множественного числа </b> или{" "}
+                <b> некоренного алифа женского рода </b>
+                <b className="desc__ar"> (اءُ) </b> и <b> алиф максуры </b>{" "}
+                <b className="desc__ar"> (ى) </b> достаточно, чтобы сделать имя двухпадежным&nbsp;
                 <b className="desc__ar" dir="rtl">
                   (ألف التأنيث الممدودة ألف التأنيث المقصورة صيغة منتهي الجموع)
                 </b>
@@ -125,20 +135,27 @@ class AbjectDegrees extends React.Component {
                 </div>
               </div>
               <div className="desc">
-                <b> Множественное множественного числа </b> (предельное множественное) так же обладает двойной силой
+                <b> Множественное множественного числа </b> (предельное множественное) так же
+                обладает двойной силой
               </div>
 
               <h2 className="title">
-                Другие причины<span role="img" aria-label="Writing Hand">
-                  &nbsp;✍️</span></h2>
+                Другие причины
+                <span role="img" aria-label="Writing Hand">
+                  &nbsp;✍️
+                </span>
+              </h2>
 
-              <h3 className="title">Имена собственные женские (وَتَأْنِيثٌ) или мужские с тамарбутой</h3>
+              <h3 className="title">
+                Имена собственные женские (وَتَأْنِيثٌ) или мужские с тамарбутой
+              </h3>
               <div className="desc">
                 <b> Имена собственные женские </b> как имеющие окончание
-                <b className="desc__ar"> التاء المَرْبُوطَة </b>, так и не имеющие. Если женское имя трёхбуквенное, а средняя с "сукуном",
-                то ему можно отнести к трёхпадежному
+                <b className="desc__ar"> التاء المَرْبُوطَة </b>, так и не имеющие. Если женское имя
+                трёхбуквенное, а средняя с "сукуном", то ему можно отнести к трёхпадежному
                 <br />
-                <b> Имена собственные мужские с </b> <b className="desc__ar"> التاء المَرْبُوطَة </b>.
+                <b> Имена собственные мужские с </b>{" "}
+                <b className="desc__ar"> التاء المَرْبُوطَة </b>.
               </div>
               <div className="arsent">
                 <div>
@@ -165,8 +182,9 @@ class AbjectDegrees extends React.Component {
 
               <h3 className="title">Иностранность (وَعُجْمَةٌ)</h3>
               <div className="desc">
-                Если это имя состоит из трёх букв, средняя из которых огласована "сукуном", то оно относится к трёхпадежным, кроме случаев
-                если же оно женского рода, тогда танвин никогда не добавляется.
+                Если это имя состоит из трёх букв, средняя из которых огласована "сукуном", то оно
+                относится к трёхпадежным, кроме случаев если же оно женского рода, тогда танвин
+                никогда не добавляется.
               </div>
               <div className="arsent">
                 <div>
@@ -189,7 +207,8 @@ class AbjectDegrees extends React.Component {
 
               <h3 className="title">Деформированные (عَدْلٌ)</h3>
               <div className="desc">
-                Образованные из прилагательных путём изменения их формы по модели <b className="desc__ar"> فُعَلُ </b>
+                Образованные из прилагательных путём изменения их формы по модели{" "}
+                <b className="desc__ar"> فُعَلُ </b>
               </div>
               <div className="arsent">
                 <div>
@@ -199,7 +218,10 @@ class AbjectDegrees extends React.Component {
               </div>
 
               <h3 className="title">Слова с окончанием "алиф" и "нун" </h3>
-              <div className="desc">(А у прилагательных в этой модели فَعْلانُ женский род образуется по модели فَعْلَى )</div>
+              <div className="desc">
+                (А у прилагательных в этой модели فَعْلانُ женский род образуется по модели فَعْلَى
+                )
+              </div>
               <div className="arsent">
                 <div>
                   <span className="arsent__original"> كَسْلانُ </span>
@@ -232,8 +254,12 @@ class AbjectDegrees extends React.Component {
                 </div>
               </div>
 
-              <h3 className="title">Имена, образованные из двух слов путём слитного (но не изафетного) соединения.</h3>
-              <div className="desc">Слова состоящие из двух слов, как в русском "самовар", "паравоз"</div>
+              <h3 className="title">
+                Имена, образованные из двух слов путём слитного (но не изафетного) соединения.
+              </h3>
+              <div className="desc">
+                Слова состоящие из двух слов, как в русском "самовар", "паравоз"
+              </div>
               <div className="arsent">
                 <div>
                   <span className="arsent__original"> حَضْرَمَوتُ </span>
@@ -249,8 +275,8 @@ class AbjectDegrees extends React.Component {
         </div>
         <Footer />
       </div>
-    )
+    );
   }
 }
 
-export default withStyles(arabicPageStyle)(AbjectDegrees)
+export default withStyles(arabicPageStyle)(AbjectDegrees);
