@@ -133,7 +133,8 @@ const headerStyle = theme => ({
     transitionProperty: "top, bottom, width",
     transitionDuration: ".2s, .2s, .35s",
     transitionTimingFunction: "linear, linear, ease",
-    width: drawerWidth,
+    width: `calc(${drawerWidth}px + 10px)`, // drawerWidth = 260
+    maxWidth: 280,
     ...boxShadow,
     position: "fixed",
     display: "block",
@@ -145,9 +146,8 @@ const headerStyle = theme => ({
     overflowY: "auto",
     borderTop: "none",
     textAlign: "left",
-    paddingRight: "0px",
+    paddingRight: "10px", // потому что на правый руль перекинул (арабик версия меню)
     paddingLeft: "0",
-    minWidth: 270,
     ...transition,
     [theme.breakpoints.down("sm")]: {
       "& .dropdown": {

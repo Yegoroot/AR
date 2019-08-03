@@ -77,9 +77,6 @@ const headerLinksStyle = theme => ({
       margin: 0,
       width: "100%",
       justifyContent: "flex-end"
-      // "& > span:first-child": {
-      //   justifyContent: "flex-start"
-      // }
     }
   },
   notificationNavLink: {
