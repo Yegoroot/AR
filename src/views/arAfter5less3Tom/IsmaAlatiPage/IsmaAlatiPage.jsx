@@ -1,24 +1,24 @@
-import React from 'react'
+import React from "react";
 // nodejs library that concatenates classes
-import classNames from 'classnames'
+import classNames from "classnames";
 
-import withStyles from '@material-ui/core/styles/withStyles'
+import withStyles from "@material-ui/core/styles/withStyles";
 
 // core components
-import Header from 'components/Header/Header.jsx'
-import Footer from 'components/Footer/Footer.jsx'
+import Header from "components/Header/Header.jsx";
+import Footer from "components/Footer/Footer.jsx";
 
-import HeaderLinks from 'components/Header/HeaderLinks.jsx'
+import HeaderLinks from "components/Header/HeaderLinks.jsx";
 
-import Parallax from 'components/Parallax/Parallax.jsx'
+import Parallax from "components/Parallax/Parallax.jsx";
 
-import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
-import AnimateCard from 'components/AnimateCard/AnimateCard'
-import { Helmet } from 'react-helmet'
+import arabicPageStyle from "assets/jss/material-kit-react/views/arabicPage.jsx";
+import AnimateCard from "components/AnimateCard/AnimateCard";
+import { Helmet } from "react-helmet";
 
 class IsmaAlatiPage extends React.Component {
   render() {
-    const { classes, ...rest } = this.props
+    const { classes, ...rest } = this.props;
 
     return (
       <div>
@@ -38,29 +38,31 @@ class IsmaAlatiPage extends React.Component {
           changeColorOnScroll={{
             height: 200,
 
-            color: 'white'
+            color: "white"
           }}
           {...rest}
         />
 
-        <Parallax small filter image={require('assets/img/mosque/mosque16.jpg')} />
+        <Parallax small filter image={require("assets/img/mosque/mosque16.jpg")} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title">
-              Имя орудия действия (اسم آلة)&nbsp;<span className="ph">§</span>
+                Имя орудия действия (اسم آلة)&nbsp;<span className="ph">§</span>
               </h1>
 
               <AnimateCard>
                 <div className="arsent arsent_rule">
                   <div className="arsent__original">
                     كلمةُ <span className="contrast_2"> مِفْتَاح </span> مأخوذةٌ من مصدر
-                    <span className="contrast_2"> فَتَحَ يَفْتحُ </span> للدلالة على آلة الفَتْحِ, و تَسْمى
+                    <span className="contrast_2"> فَتَحَ يَفْتحُ </span> للدلالة على آلة الفَتْحِ, و
+                    تَسْمى
                     <span className="contrast"> اسْمَ آلةٍ </span>
                   </div>
                   <div className="arsent__translate">
                     Cлово <span className="contrast_2"> ключ </span> образовано от
-                    <span className="contrast_2"> открыл открываю </span> для того чтоб указать на инструмент открывания и назвается это
+                    <span className="contrast_2"> открыл открываю </span> для того чтоб указать на
+                    инструмент открывания и назвается это
                     <span className="contrast"> имя орудия </span>
                   </div>
                 </div>
@@ -68,10 +70,12 @@ class IsmaAlatiPage extends React.Component {
 
               <AnimateCard>
                 <div className="arsent arsent_rule">
-                  <div className="arsent__original">اِسْمُ الآلة اسمٌ مَصُوغ من الفعل الثلاثي للدلالة على ما وقعَ الفعلُ بِواسِطَتِه</div>
+                  <div className="arsent__original">
+                    اِسْمُ الآلة اسمٌ مَصُوغ من الفعل الثلاثي للدلالة على ما وقعَ الفعلُ بِواسِطَتِه
+                  </div>
                   <div className="arsent__translate">
-                    Имя инструмента образуется от трехбуквенного глагола для указания на инструмент при помощи которого было совершено какое
-                    либо действие
+                    Имя инструмента образуется от трехбуквенного глагола для указания на инструмент
+                    при помощи которого было совершено какое либо действие
                   </div>
                 </div>
               </AnimateCard>
@@ -79,9 +83,11 @@ class IsmaAlatiPage extends React.Component {
                 <div className="arsent arsent_rule">
                   <div className="arsent__original">
                     <span className=""> لِاسْمُ الآلة </span> ثلاثةُ أوزانٍ
-                    <span className="contrast"> مِفْعَالٌ </span> , و<span className="contrast"> مِفْعَلٌ </span> , و
+                    <span className="contrast"> مِفْعَالٌ </span> , و
+                    <span className="contrast"> مِفْعَلٌ </span> , و
                     <span className="contrast"> مفْعَلَةٌ </span> , نَحْو
-                    <span className="contrast_2"> مِفْتاحِ </span> , و<span className="contrast_2"> مِبْرَد </span>, و
+                    <span className="contrast_2"> مِفْتاحِ </span> , و
+                    <span className="contrast_2"> مِبْرَد </span>, و
                     <span className="contrast_2"> مِكْنَسَة </span>
                   </div>
                   <div className="arsent__translate">У имени инструмента три модели</div>
@@ -91,11 +97,10 @@ class IsmaAlatiPage extends React.Component {
               <div className="items">
                 <div className="item">
                   <h2 className="h2ar">
-                    مِفْعَالٌ{' '}
+                    مِفْعَالٌ
                     <span role="img" aria-label="Light Bulb">
-                      {' '}
-                      💡{' '}
-                    </span>{' '}
+                      &nbsp;💡
+                    </span>
                   </h2>
                   <div className="arsent">
                     <div className="arsent__original">
@@ -119,11 +124,10 @@ class IsmaAlatiPage extends React.Component {
 
                 <div className="item">
                   <h2 className="h2ar">
-                    مِفْعَلٌ{' '}
+                    مِفْعَلٌ
                     <span role="img" aria-label="Light Bulb">
-                      {' '}
-                      💡{' '}
-                    </span>{' '}
+                      &nbsp;💡
+                    </span>
                   </h2>
                   <div className="arsent">
                     <div className="arsent__original">
@@ -146,10 +150,9 @@ class IsmaAlatiPage extends React.Component {
                 </div>
                 <div className="item">
                   <h2 className="h2ar">
-                    مفْعَلَةٌ{' '}
+                    مفْعَلَةٌ
                     <span role="img" aria-label="Light Bulb">
-                      {' '}
-                      💡{' '}
+                      &nbsp;💡
                     </span>
                   </h2>
                   <div className="arsent">
@@ -177,8 +180,8 @@ class IsmaAlatiPage extends React.Component {
         </div>
         <Footer />
       </div>
-    )
+    );
   }
 }
 
-export default withStyles(arabicPageStyle)(IsmaAlatiPage)
+export default withStyles(arabicPageStyle)(IsmaAlatiPage);
