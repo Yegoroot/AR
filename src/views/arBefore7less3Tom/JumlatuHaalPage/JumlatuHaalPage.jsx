@@ -1,25 +1,25 @@
-import React from 'react'
+import React from "react";
 // nodejs library that concatenates classes
-import classNames from 'classnames'
+import classNames from "classnames";
 
-import withStyles from '@material-ui/core/styles/withStyles'
+import withStyles from "@material-ui/core/styles/withStyles";
 
 // core components
-import Header from 'components/Header/Header.jsx'
-import Footer from 'components/Footer/Footer.jsx'
+import Header from "components/Header/Header.jsx";
+import Footer from "components/Footer/Footer.jsx";
 
-import HeaderLinks from 'components/Header/HeaderLinks.jsx'
+import HeaderLinks from "components/Header/HeaderLinks.jsx";
 
-import Parallax from 'components/Parallax/Parallax.jsx'
-import Word from 'components/word'
+import Parallax from "components/Parallax/Parallax.jsx";
+import Word from "components/word";
 // import AnimateCard from 'components/AnimateCard/AnimateCard.jsx'
 
-import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
-import { Helmet } from 'react-helmet'
+import arabicPageStyle from "assets/jss/material-kit-react/views/arabicPage.jsx";
+import { Helmet } from "react-helmet";
 
 class JumlatuHaalPage extends React.Component {
   render() {
-    const { classes, ...rest } = this.props
+    const { classes, ...rest } = this.props;
 
     return (
       <div>
@@ -39,16 +39,16 @@ class JumlatuHaalPage extends React.Component {
           changeColorOnScroll={{
             height: 200,
 
-            color: 'white'
+            color: "white"
           }}
           {...rest}
         />
 
-        <Parallax small filter image={require('assets/img/mosque/mosque10.jpg')} />
+        <Parallax small filter image={require("assets/img/mosque/mosque10.jpg")} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="title h1ar">
+              <h1 className="title ">
                 Состояние (الحال)&nbsp;<span className="ph">§</span>
               </h1>
 
@@ -58,14 +58,16 @@ class JumlatuHaalPage extends React.Component {
                 </b>
                 &nbsp;- обстоятельство образа действия или дополнение, которое
                 <b>
-                  &nbsp; проясняет состояние владельца (<span className="desc__ar">صاحِبُ الحال</span>)
+                  &nbsp; проясняет состояние владельца (
+                  <span className="desc__ar">صاحِبُ الحال</span>)
                 </b>
               </div>
               <div className="desc">
                 Само слово
-                <span className="desc__ar"> الحال </span> буквально означает "ситуация" или "положение. Отвечает на вопрос
-                <b> "как?"</b> (В каком положении пребывает объект, в каком состоянии). Согласуется в роде, числе с (
-                <span className="desc__ar">صاحِبُ الحال</span>)
+                <span className="desc__ar"> الحال </span> буквально означает "ситуация" или
+                "положение. Отвечает на вопрос
+                <b> "как?"</b> (В каком положении пребывает объект, в каком состоянии). Согласуется
+                в роде, числе с (<span className="desc__ar">صاحِبُ الحال</span>)
               </div>
 
               <h2 className="h2ar title">
@@ -86,7 +88,8 @@ class JumlatuHaalPage extends React.Component {
                   <span className="contrast">غَضِبًا </span>
                 </div>
                 <div className="arsent__translate">
-                  Пришел учитель в класс <span className="contrast">злым </span>(пришёл в состоянии злости)
+                  Пришел учитель в класс <span className="contrast">злым </span>(пришёл в состоянии
+                  злости)
                 </div>
               </div>
 
@@ -142,7 +145,8 @@ class JumlatuHaalPage extends React.Component {
                   <span className="contrast"> جالِساً </span>
                 </div>
                 <div className="arsent__translate">
-                  Пришёл к директору, а там наш учитель <span className="contrast"> сядящий </span> (сидит)
+                  Пришёл к директору, а там наш учитель <span className="contrast"> сядящий </span>{" "}
+                  (сидит)
                 </div>
               </div>
 
@@ -152,8 +156,9 @@ class JumlatuHaalPage extends React.Component {
                 </span>
               </h2>
               <div className="desc">
-                В основе <span className="desc__ar"> صاحِبِ الحالِ </span> приходит в определённом состоянии, кроме случев когда есть какой
-                то разрешитель (<span className="desc__ar"> مُسَوِّغ </span>):
+                В основе <span className="desc__ar"> صاحِبِ الحالِ </span> приходит в определённом
+                состоянии, кроме случев когда есть какой то разрешитель (
+                <span className="desc__ar"> مُسَوِّغ </span>):
               </div>
 
               <h3 className="title ">
@@ -181,7 +186,8 @@ class JumlatuHaalPage extends React.Component {
                   <span> في الخُرُوج </span>
                 </div>
                 <div className="arsent__translate">
-                  Пришёл ко мне <span className="contrast"> просящийся </span> войти, старательный студент
+                  Пришёл ко мне <span className="contrast"> просящийся </span> войти, старательный
+                  студент
                 </div>
               </div>
               <div className="arsent">
@@ -217,7 +223,8 @@ class JumlatuHaalPage extends React.Component {
                   <span> حَقيبتَهُ </span>
                 </div>
                 <div className="arsent__translate">
-                  Пусть не заходит ни кто в кабинет экзамена <span className="contrast"> несущим </span> портфель свой
+                  Пусть не заходит ни кто в кабинет экзамена{" "}
+                  <span className="contrast"> несущим </span> портфель свой
                 </div>
               </div>
               <div className="arsent">
@@ -259,7 +266,8 @@ class JumlatuHaalPage extends React.Component {
                   <span className="contrast"> قِياماً </span>
                 </div>
                 <div className="arsent__translate">
-                  Молился Посланник Аллахъа <span className="contrast"> сидя </span>, за ним мужчины молились
+                  Молился Посланник Аллахъа <span className="contrast"> сидя </span>, за ним мужчины
+                  молились
                   <span className="contrast"> стоя </span>
                 </div>
               </div>
@@ -274,11 +282,14 @@ class JumlatuHaalPage extends React.Component {
                 <span className="desc__ar">الحال</span> может быть выражен предложением.
               </div>
               <div className="desc">
-                Предложение обязательно должно быть связанно с <span className="desc__ar">الحال</span> местоимением или
-                <span className="desc__ar"> واو الحال </span> или местоимением и <span className="desc__ar"> واو الحال </span>
+                Предложение обязательно должно быть связанно с{" "}
+                <span className="desc__ar">الحال</span> местоимением или
+                <span className="desc__ar"> واو الحال </span> или местоимением и{" "}
+                <span className="desc__ar"> واو الحال </span>
               </div>
               <div className="desc">
-                Если в предложении глагол прошедшего времени в утвердительной форме то вместе с<span className="desc__ar"> واو الحال </span>
+                Если в предложении глагол прошедшего времени в утвердительной форме то вместе с
+                <span className="desc__ar"> واو الحال </span>
                 нужно поставить частицу
                 <span className="desc__ar contrast_2"> قد </span>.
               </div>
@@ -334,7 +345,9 @@ class JumlatuHaalPage extends React.Component {
                   <span className="contrast_2"> و </span>
                   <span className="contrast"> الإمام يُسَلِّمُ </span>
                 </div>
-                <div className="arsent__translate">Я зашел в мечеть в то время когда имам давал салям</div>
+                <div className="arsent__translate">
+                  Я зашел в мечеть в то время когда имам давал салям
+                </div>
               </div>
 
               <div className="arsent">
@@ -395,14 +408,16 @@ class JumlatuHaalPage extends React.Component {
                   <span className="contrast"> صافِيًا </span>
                 </div>
                 <div className="arsent__translate">
-                  Мой сын пил воду <span className="contrast"> чистой </span> (в момент пития вода была чистой, в чистом виде)
+                  Мой сын пил воду <span className="contrast"> чистой </span> (в момент пития вода
+                  была чистой, в чистом виде)
                 </div>
               </div>
 
               <div className="arsent">
                 <div className="arsent__original">شرب اِبني الماء الصافِي</div>
                 <div className="arsent__translate">
-                  Мой сын пил чистую воду [ Если хотим сказать что вода и была чистой, то используем простое прилагательное ]
+                  Мой сын пил чистую воду [ Если хотим сказать что вода и была чистой, то используем
+                  простое прилагательное ]
                 </div>
               </div>
 
@@ -412,8 +427,8 @@ class JumlatuHaalPage extends React.Component {
         </div>
         <Footer />
       </div>
-    )
+    );
   }
 }
 
-export default withStyles(arabicPageStyle)(JumlatuHaalPage)
+export default withStyles(arabicPageStyle)(JumlatuHaalPage);

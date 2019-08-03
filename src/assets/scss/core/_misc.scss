@@ -1,7 +1,7 @@
 html * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: 'Amiri', 'Roboto', sans-serif;
+  font-family: "Amiri", "Roboto", sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -22,7 +22,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Amiri', 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  font-family: "Amiri", "Roboto", "Helvetica", "Arial", sans-serif;
   font-weight: 300;
   line-height: 1.5em;
 }
@@ -49,15 +49,19 @@ h6 {
   margin-bottom: 10px;
 }
 h1 {
-  font-size: 2.9rem;
+  font-size: 3.1rem;
   line-height: 1.15em;
   margin-top: 2.3rem;
   margin-bottom: 3rem;
   @media screen and (max-width: 1040px) {
-    font-size: 2.4rem;
+    font-size: 2.8rem;
     line-height: 1;
   }
   @media screen and (max-width: 960px) {
+    font-size: 2.4rem;
+    line-height: 1.4;
+  }
+  @media screen and (max-width: 350px) {
     font-size: 2rem;
     line-height: 1.4;
   }

@@ -1,23 +1,23 @@
-import React from 'react'
+import React from "react";
 // nodejs library that concatenates classes
-import classNames from 'classnames'
+import classNames from "classnames";
 
 // @material-ui/core components
-import withStyles from '@material-ui/core/styles/withStyles'
+import withStyles from "@material-ui/core/styles/withStyles";
 
 // core components
-import Header from 'components/Header/Header.jsx'
-import Footer from 'components/Footer/Footer.jsx'
+import Header from "components/Header/Header.jsx";
+import Footer from "components/Footer/Footer.jsx";
 
-import HeaderLinks from 'components/Header/HeaderLinks.jsx'
+import HeaderLinks from "components/Header/HeaderLinks.jsx";
 
-import Parallax from 'components/Parallax/Parallax.jsx'
-import { Helmet } from 'react-helmet'
-import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
+import Parallax from "components/Parallax/Parallax.jsx";
+import { Helmet } from "react-helmet";
+import arabicPageStyle from "assets/jss/material-kit-react/views/arabicPage.jsx";
 
 class HarfManAzzoidatuPage extends React.Component {
   render() {
-    const { classes, ...rest } = this.props
+    const { classes, ...rest } = this.props;
 
     return (
       <div>
@@ -37,22 +37,26 @@ class HarfManAzzoidatuPage extends React.Component {
           changeColorOnScroll={{
             height: 200,
 
-            color: 'white'
+            color: "white"
           }}
           {...rest}
         />
 
-        <Parallax small filter image={require('assets/img/mosque/mosque11.jpg')} />
+        <Parallax small filter image={require("assets/img/mosque/mosque11.jpg")} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="title h1ar">
+              <h1 className="title ">
                 مِن الزّائِدَة&nbsp;<span className="ph">§</span>
               </h1>
 
               <div className="desc">
-                Эта частица <b>усиливает мысль</b> в предложении, часто используется в Коране, одна из частиц показывающих его описательную
-                точность. <b>Употребляется только если перед ней стоит отрицательная частица, запрет или частица вопроса</b>
+                Эта частица <b>усиливает мысль</b> в предложении, часто используется в Коране, одна
+                из частиц показывающих его описательную точность.{" "}
+                <b>
+                  Употребляется только если перед ней стоит отрицательная частица, запрет или
+                  частица вопроса
+                </b>
               </div>
 
               <h3 className="title">Расмотрим разницу</h3>
@@ -69,8 +73,8 @@ class HarfManAzzoidatuPage extends React.Component {
                   أحَدٍ إِلى المدرسة
                 </div>
                 <div className="arsent__translate">
-                  <span className="contrast">Вообще никто</span> [ни кошка, ни учителя, ни директор, ни пришельцев с соседней галактики, ни
-                  кого] не были в школе
+                  <span className="contrast">Вообще никто</span> [ни кошка, ни учителя, ни директор,
+                  ни пришельцев с соседней галактики, ни кого] не были в школе
                 </div>
               </div>
 
@@ -90,17 +94,22 @@ class HarfManAzzoidatuPage extends React.Component {
                   مَا تَسْقُطُ <span className="contrast"> مِن </span>وَرَقَةٍ إِلاَّ يَعْلَمُهَا
                 </div>
                 <div className="arsent__translate">
-                  Не падает <span className="contrast">каким бы не был маленьким и незаметным, в любом месте и времени</span> листочек без
-                  Его ведома
+                  Не падает{" "}
+                  <span className="contrast">
+                    каким бы не был маленьким и незаметным, в любом месте и времени
+                  </span>{" "}
+                  листочек без Его ведома
                 </div>
               </div>
 
               <div className="arsent">
                 <div className="arsent__original">
-                  وَمَا <span className="contrast"> مِن </span> دَابَّةٍ فِي الأَرْضِ إِلاَّ عَلَى اللّهِ رِزْقُهَا
+                  وَمَا <span className="contrast"> مِن </span> دَابَّةٍ فِي الأَرْضِ إِلاَّ عَلَى
+                  اللّهِ رِزْقُهَا
                 </div>
                 <div className="arsent__translate">
-                  Нет на земле <span className="contrast"> ни единого живого </span> существа, которого Аллах не обеспечивал бы пропитанием.
+                  Нет на земле <span className="contrast"> ни единого живого </span> существа,
+                  которого Аллах не обеспечивал бы пропитанием.
                 </div>
               </div>
             </div>
@@ -108,8 +117,8 @@ class HarfManAzzoidatuPage extends React.Component {
         </div>
         <Footer />
       </div>
-    )
+    );
   }
 }
 
-export default withStyles(arabicPageStyle)(HarfManAzzoidatuPage)
+export default withStyles(arabicPageStyle)(HarfManAzzoidatuPage);

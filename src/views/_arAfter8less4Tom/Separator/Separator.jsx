@@ -1,20 +1,20 @@
-import React from 'react'
-import classNames from 'classnames'
+import React from "react";
+import classNames from "classnames";
 
-import withStyles from '@material-ui/core/styles/withStyles'
+import withStyles from "@material-ui/core/styles/withStyles";
 // core components
-import Header from 'components/Header/Header.jsx'
-import Footer from 'components/Footer/Footer.jsx'
+import Header from "components/Header/Header.jsx";
+import Footer from "components/Footer/Footer.jsx";
 
-import HeaderLinks from 'components/Header/HeaderLinks.jsx'
-import Parallax from 'components/Parallax/Parallax.jsx'
+import HeaderLinks from "components/Header/HeaderLinks.jsx";
+import Parallax from "components/Parallax/Parallax.jsx";
 
-import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
-import { Helmet } from 'react-helmet'
+import arabicPageStyle from "assets/jss/material-kit-react/views/arabicPage.jsx";
+import { Helmet } from "react-helmet";
 
 class Page extends React.Component {
   render() {
-    const { classes, ...rest } = this.props
+    const { classes, ...rest } = this.props;
 
     return (
       <div>
@@ -33,25 +33,28 @@ class Page extends React.Component {
           fixed
           changeColorOnScroll={{
             height: 200,
-            color: 'white'
+            color: "white"
           }}
           {...rest}
         />
 
-        <Parallax small filter image={require('assets/img/mosque/mosque4.jpg')} />
+        <Parallax small filter image={require("assets/img/mosque/mosque4.jpg")} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="title h1ar">
+              <h1 className="title ">
                 Разделитель (ضَمِيرُ&nbsp;فَصْلٍ)&nbsp;<span className="ph">§</span>
               </h1>
               <p className="desc">
-                Разберем <b> разделитель </b> <span className="desc__ar"> هو </span>. Местоимение разделитель обязательно должно быть личным
-                местоимением выражающим именительный падеж (он, она, они, мы).
+                Разберем <b> разделитель </b> <span className="desc__ar"> هو </span>. Местоимение
+                разделитель обязательно должно быть личным местоимением выражающим именительный
+                падеж (он, она, они, мы).
                 <br />
                 <br />
-                Cамое главное его значение это <b> усиление смысла </b> Так же это местоимение используется для того чтоб
-                <b> не перепутать сказуемое с каким либо приложением </b> (заменителем или определением к определяемому слову)
+                Cамое главное его значение это <b> усиление смысла </b> Так же это местоимение
+                используется для того чтоб
+                <b> не перепутать сказуемое с каким либо приложением </b> (заменителем или
+                определением к определяемому слову)
               </p>
 
               <h2 className="title">
@@ -80,15 +83,19 @@ class Page extends React.Component {
               </div>
 
               <div className="desc">
-                В первом (<b className="desc__ar contrast_2"> * </b>) примере <span className="desc__ar"> المُراقِبُ </span> является
+                В первом (<b className="desc__ar contrast_2"> * </b>) примере{" "}
+                <span className="desc__ar"> المُراقِبُ </span> является
                 <span className="desc__ar"> خبر </span> (Сказуемым)
               </div>
 
               <div className="desc">
-                Во втором (<b className="desc__ar contrast_2"> ** </b>) примере если удалить разделитель, то решим что
-                <span className="desc__ar"> المُراقِبُ </span> является заменителем к заменяемому слову
-                <span className="desc__ar"> هذا </span> То есть если мы скажем так, то собеседник будет ждать продолжение (предложение будет
-                не законченным) Получится как будто мы хотим сказать продолжение "Этот новый инспектор ..."
+                Во втором (<b className="desc__ar contrast_2"> ** </b>) примере если удалить
+                разделитель, то решим что
+                <span className="desc__ar"> المُراقِبُ </span> является заменителем к заменяемому
+                слову
+                <span className="desc__ar"> هذا </span> То есть если мы скажем так, то собеседник
+                будет ждать продолжение (предложение будет не законченным) Получится как будто мы
+                хотим сказать продолжение "Этот новый инспектор ..."
               </div>
 
               <h2 className="title">
@@ -105,10 +112,13 @@ class Page extends React.Component {
                 <div className="arsent__translate">Хамид успешный</div>
               </div>
               <div className="desc">
-                Слово <span className="desc__ar"> النَاجِحُ </span> является <span className="desc__ar"> خبر </span> только в том случае,
-                если есть <span className="desc__ar"> ضَمِيرُ فَصْلٍ </span>, а если мы удалим разделитель и скажим
+                Слово <span className="desc__ar"> النَاجِحُ </span> является{" "}
+                <span className="desc__ar"> خبر </span> только в том случае, если есть{" "}
+                <span className="desc__ar"> ضَمِيرُ فَصْلٍ </span>, а если мы удалим разделитель и
+                скажим
                 <span className="desc__ar"> حامد النَاجِحُ </span>, то велика вероятность решить что
-                <span className="desc__ar"> النَاجِحُ </span> является определением к определяемому слову
+                <span className="desc__ar"> النَاجِحُ </span> является определением к определяемому
+                слову
                 <span className="desc__ar"> حامد </span>
               </div>
 
@@ -138,8 +148,8 @@ class Page extends React.Component {
         </div>
         <Footer />
       </div>
-    )
+    );
   }
 }
 
-export default withStyles(arabicPageStyle)(Page)
+export default withStyles(arabicPageStyle)(Page);

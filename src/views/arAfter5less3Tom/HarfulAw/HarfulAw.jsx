@@ -1,17 +1,17 @@
-import React from 'react'
-import classNames from 'classnames'
-import withStyles from '@material-ui/core/styles/withStyles'
-import Header from 'components/Header/Header.jsx'
-import Footer from 'components/Footer/Footer.jsx'
-import HeaderLinks from 'components/Header/HeaderLinks.jsx'
-import Parallax from 'components/Parallax/Parallax.jsx'
-import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
-import Word from 'components/word'
-import { Helmet } from 'react-helmet'
+import React from "react";
+import classNames from "classnames";
+import withStyles from "@material-ui/core/styles/withStyles";
+import Header from "components/Header/Header.jsx";
+import Footer from "components/Footer/Footer.jsx";
+import HeaderLinks from "components/Header/HeaderLinks.jsx";
+import Parallax from "components/Parallax/Parallax.jsx";
+import arabicPageStyle from "assets/jss/material-kit-react/views/arabicPage.jsx";
+import Word from "components/word";
+import { Helmet } from "react-helmet";
 
 class HarfulAw extends React.Component {
   render() {
-    const { classes, ...rest } = this.props
+    const { classes, ...rest } = this.props;
 
     return (
       <div>
@@ -29,16 +29,16 @@ class HarfulAw extends React.Component {
           fixed
           changeColorOnScroll={{
             height: 200,
-            color: 'white'
+            color: "white"
           }}
           {...rest}
         />
 
-        <Parallax small filter image={require('assets/img/mosque/mosque19.jpg')} />
+        <Parallax small filter image={require("assets/img/mosque/mosque19.jpg")} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="title h1ar">
+              <h1 className="title ">
                 حرف لو&nbsp;<span className="ph">§</span>
               </h1>
               <div className="desc">
@@ -50,8 +50,8 @@ class HarfulAw extends React.Component {
                 </p>
                 <p>
                   Следствие условия начинается с Лям
-                  <span className="contrast desc__ar"> ل </span> если следствие утвердительное предложение. В отрицательных предложениях
-                  условия Лям добавляется редко
+                  <span className="contrast desc__ar"> ل </span> если следствие утвердительное
+                  предложение. В отрицательных предложениях условия Лям добавляется редко
                 </p>
               </div>
               <div className="arsent">
@@ -68,19 +68,26 @@ class HarfulAw extends React.Component {
                   <span className=""> سمعتَ قِصَّته </span>
                   <Word root="بَكَيْتَ" prefix="لَ" />
                 </div>
-                <div className="arsent__translate">Если бы ты услышал его историю то ты непременно бы заплакал</div>
+                <div className="arsent__translate">
+                  Если бы ты услышал его историю то ты непременно бы заплакал
+                </div>
               </div>
               <div className="arsent">
                 <div className="arsent__original">
                   <span className="contrast"> لو </span>
                   <span className=""> حَضَرتَ أمس ما شَكَوْتك إلى المدير </span>
                 </div>
-                <div className="arsent__translate">Если бы ты присутствовал вчера, то я бы не пожаловался директору</div>
+                <div className="arsent__translate">
+                  Если бы ты присутствовал вчера, то я бы не пожаловался директору
+                </div>
               </div>
 
               <h2 className="h2ar">
-                ولو<span role="img" aria-label="Writing Hand">
-                  &nbsp;✍️</span></h2>
+                ولو
+                <span role="img" aria-label="Writing Hand">
+                  &nbsp;✍️
+                </span>
+              </h2>
               <div className="arsent">
                 <div className="arsent__original">
                   <span> اُحْضُرْ الامْتِحانَ </span>
@@ -106,8 +113,8 @@ class HarfulAw extends React.Component {
         </div>
         <Footer />
       </div>
-    )
+    );
   }
 }
 
-export default withStyles(arabicPageStyle)(HarfulAw)
+export default withStyles(arabicPageStyle)(HarfulAw);

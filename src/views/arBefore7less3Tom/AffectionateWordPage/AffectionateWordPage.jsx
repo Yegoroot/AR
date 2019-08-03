@@ -1,29 +1,32 @@
-import React from 'react'
+import React from "react";
 // nodejs library that concatenates classes
-import classNames from 'classnames'
+import classNames from "classnames";
 
 // @material-ui/core components
-import withStyles from '@material-ui/core/styles/withStyles'
+import withStyles from "@material-ui/core/styles/withStyles";
 
 // core components
-import Header from 'components/Header/Header.jsx'
-import Footer from 'components/Footer/Footer.jsx'
+import Header from "components/Header/Header.jsx";
+import Footer from "components/Footer/Footer.jsx";
 
-import HeaderLinks from 'components/Header/HeaderLinks.jsx'
+import HeaderLinks from "components/Header/HeaderLinks.jsx";
 
-import Parallax from 'components/Parallax/Parallax.jsx'
-import { Helmet } from 'react-helmet'
-import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
+import Parallax from "components/Parallax/Parallax.jsx";
+import { Helmet } from "react-helmet";
+import arabicPageStyle from "assets/jss/material-kit-react/views/arabicPage.jsx";
 
 class AffectionateWordPage extends React.Component {
   render() {
-    const { classes, ...rest } = this.props
+    const { classes, ...rest } = this.props;
 
     return (
       <div>
         <Helmet>
           <title>Уменьшительно ласкательные имена в арабском языке</title>
-          <meta name="description" content="Существуют три модели уменьшительно ласкательных имён в арабском языке" />
+          <meta
+            name="description"
+            content="Существуют три модели уменьшительно ласкательных имён в арабском языке, которые могут образовать довольно красивые словосочетания"
+          />
         </Helmet>
         <Header
           color="transparent"
@@ -32,17 +35,17 @@ class AffectionateWordPage extends React.Component {
           fixed
           changeColorOnScroll={{
             height: 200,
-            color: 'white'
+            color: "white"
           }}
           {...rest}
         />
 
-        <Parallax small filter image={require('assets/img/mosque/mosque30.jpg')} />
+        <Parallax small filter image={require("assets/img/mosque/mosque18.jpg")} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title">
-                Уменьшительно ласкательные&nbsp;<span className="ph">§</span>
+                Уменьшительно ласкательные в арабском&nbsp;<span className="ph">§</span>
               </h1>
 
               <div className="desc">Существуют три модели уменьшительно ласкательных имён</div>
@@ -50,11 +53,9 @@ class AffectionateWordPage extends React.Component {
               <div className="items">
                 <div className="item">
                   <h2 className="title h2ar">
-                    {' '}
-                    فُعَيْلُ{' '}
+                    فُعَيْلُ
                     <span role="img" aria-label="Light Bulb">
-                      {' '}
-                      💡{' '}
+                      &nbsp;💡
                     </span>
                   </h2>
                   <div className="arsent">
@@ -78,11 +79,9 @@ class AffectionateWordPage extends React.Component {
                 </div>
                 <div className="item">
                   <h2 className="title h2ar">
-                    {' '}
-                    فُعَيْعِل{' '}
+                    فُعَيْعِل
                     <span role="img" aria-label="Light Bulb">
-                      {' '}
-                      💡{' '}
+                      &nbsp;💡
                     </span>
                   </h2>
                   <div className="arsent">
@@ -106,11 +105,9 @@ class AffectionateWordPage extends React.Component {
                 </div>
                 <div className="item">
                   <h2 className="title h2ar">
-                    {' '}
-                    فُعَيْعِيل{' '}
+                    فُعَيْعِيل
                     <span role="img" aria-label="Light Bulb">
-                      {' '}
-                      💡{' '}
+                      &nbsp;💡
                     </span>
                   </h2>
                   <div className="arsent">
@@ -132,8 +129,8 @@ class AffectionateWordPage extends React.Component {
         </div>
         <Footer />
       </div>
-    )
+    );
   }
 }
 
-export default withStyles(arabicPageStyle)(AffectionateWordPage)
+export default withStyles(arabicPageStyle)(AffectionateWordPage);

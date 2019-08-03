@@ -1,23 +1,23 @@
-import React from 'react'
+import React from "react";
 // nodejs library that concatenates classes
-import classNames from 'classnames'
+import classNames from "classnames";
 
-import withStyles from '@material-ui/core/styles/withStyles'
+import withStyles from "@material-ui/core/styles/withStyles";
 
 // core components
-import Header from 'components/Header/Header.jsx'
-import Footer from 'components/Footer/Footer.jsx'
+import Header from "components/Header/Header.jsx";
+import Footer from "components/Footer/Footer.jsx";
 
-import HeaderLinks from 'components/Header/HeaderLinks.jsx'
+import HeaderLinks from "components/Header/HeaderLinks.jsx";
 
-import Parallax from 'components/Parallax/Parallax.jsx'
-import { Helmet } from 'react-helmet'
-import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
-import AnimateCard from 'components/AnimateCard/AnimateCard'
+import Parallax from "components/Parallax/Parallax.jsx";
+import { Helmet } from "react-helmet";
+import arabicPageStyle from "assets/jss/material-kit-react/views/arabicPage.jsx";
+import AnimateCard from "components/AnimateCard/AnimateCard";
 
 class MinQoblu extends React.Component {
   render() {
-    const { classes, ...rest } = this.props
+    const { classes, ...rest } = this.props;
 
     return (
       <div>
@@ -34,22 +34,24 @@ class MinQoblu extends React.Component {
           changeColorOnScroll={{
             height: 200,
 
-            color: 'white'
+            color: "white"
           }}
           {...rest}
         />
 
-        <Parallax small filter image={require('assets/img/mosque/mosque30.jpg')} />
+        <Parallax small filter image={require("assets/img/mosque/mosque30.jpg")} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="h1ar title">
+              <h1 className=" title">
                 مِن قبلُ&nbsp;<span className="ph">§</span>
               </h1>
 
               <div className="desc">
-                По идее мы должны сказать <span className="desc__ar contrast_2"> من قبلِ </span>, но мы так не употребляем, а говорим
-                <span className="desc__ar contrast"> من قبلُ </span> (через дамму) значит там что то происходит
+                По идее мы должны сказать <span className="desc__ar contrast_2"> من قبلِ </span>, но
+                мы так не употребляем, а говорим
+                <span className="desc__ar contrast"> من قبلُ </span> (через дамму) значит там что то
+                происходит
               </div>
 
               <AnimateCard>
@@ -63,8 +65,8 @@ class MinQoblu extends React.Component {
                     <span> على الضم إذا قُطِعَ عن الإضافة لفظاً لا معنى. </span>
                   </div>
                   <div className="arsent__translate">
-                    Строим قبل и بعد вместе с даммой когда вторая часть (у этого словосочетания) отрезана, отрезана словестно но не по
-                    смыслу
+                    Строим قبل и بعد вместе с даммой когда вторая часть (у этого словосочетания)
+                    отрезана, отрезана словестно но не по смыслу
                   </div>
                 </div>
               </AnimateCard>
@@ -77,8 +79,9 @@ class MinQoblu extends React.Component {
                   <span className="contrast"> منْ بَعْدُ </span>
                 </div>
                 <div className="arsent__translate">
-                  [الروم / 4] В основе من قبل ذالك و من بعد ذالك. Вторая часть этой изофетной связки ذالك удалена за ненадобностью, но так
-                  как она у нас еще в умах содержится, мы указываем на то что там у нас содержится при помощи даммы
+                  [الروم / 4] В основе من قبل ذالك و من بعد ذالك. Вторая часть этой изофетной связки
+                  ذالك удалена за ненадобностью, но так как она у нас еще в умах содержится, мы
+                  указываем на то что там у нас содержится при помощи даммы
                 </div>
               </div>
             </div>
@@ -86,8 +89,8 @@ class MinQoblu extends React.Component {
         </div>
         <Footer />
       </div>
-    )
+    );
   }
 }
 
-export default withStyles(arabicPageStyle)(MinQoblu)
+export default withStyles(arabicPageStyle)(MinQoblu);

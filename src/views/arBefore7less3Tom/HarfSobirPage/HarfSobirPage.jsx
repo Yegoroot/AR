@@ -1,20 +1,20 @@
-import React from 'react'
-import classNames from 'classnames'
+import React from "react";
+import classNames from "classnames";
 
-import withStyles from '@material-ui/core/styles/withStyles'
+import withStyles from "@material-ui/core/styles/withStyles";
 // core components
-import Header from 'components/Header/Header.jsx'
-import Footer from 'components/Footer/Footer.jsx'
+import Header from "components/Header/Header.jsx";
+import Footer from "components/Footer/Footer.jsx";
 
-import HeaderLinks from 'components/Header/HeaderLinks.jsx'
-import Parallax from 'components/Parallax/Parallax.jsx'
+import HeaderLinks from "components/Header/HeaderLinks.jsx";
+import Parallax from "components/Parallax/Parallax.jsx";
 
-import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
-import { Helmet } from 'react-helmet'
+import arabicPageStyle from "assets/jss/material-kit-react/views/arabicPage.jsx";
+import { Helmet } from "react-helmet";
 
 class HarfSobirPage extends React.Component {
   render() {
-    const { classes, ...rest } = this.props
+    const { classes, ...rest } = this.props;
 
     return (
       <div>
@@ -33,21 +33,22 @@ class HarfSobirPage extends React.Component {
           fixed
           changeColorOnScroll={{
             height: 200,
-            color: 'white'
+            color: "white"
           }}
           {...rest}
         />
 
-        <Parallax small filter image={require('assets/img/mosque/mosque12.jpg')} />
+        <Parallax small filter image={require("assets/img/mosque/mosque12.jpg")} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
-              <h1 className="title  h1ar">
+              <h1 className="title  ">
                 اسم الجنس الجَمْعِ&nbsp;<span className="ph">§</span>
               </h1>
               <div className="desc">
-                Собирательная частица есть двух типов: <b> для людей и для не людей </b>. Например у человека есть вид (племя) турки,
-                русские, арабы, эстонцы .У животных и растений тоже есть виды (семейства), например львы, финики, яблоки
+                Собирательная частица есть двух типов: <b> для людей и для не людей </b>. Например у
+                человека есть вид (племя) турки, русские, арабы, эстонцы .У животных и растений тоже
+                есть виды (семейства), например львы, финики, яблоки
               </div>
               <div className="desc">
                 И для того чтоб выделить индивида из племени, вида, семейства мы применяем
@@ -59,7 +60,8 @@ class HarfSobirPage extends React.Component {
                   العَرَب + <span className="contrast"> يّ </span> = العَرَبِيّ
                 </div>
                 <div className="arsent__translate">
-                  племя арабы + <span className="contrast"> собирательная частица </span> = араб (индивид)
+                  племя арабы + <span className="contrast"> собирательная частица </span> = араб
+                  (индивид)
                 </div>
               </div>
 
@@ -68,7 +70,8 @@ class HarfSobirPage extends React.Component {
                   الرُوس + <span className="contrast"> يّ </span> = الروسِيّ
                 </div>
                 <div className="arsent__translate">
-                  племя русские + <span className="contrast"> собирательная частица </span> = русский (индивид)
+                  племя русские + <span className="contrast"> собирательная частица </span> =
+                  русский (индивид)
                 </div>
               </div>
 
@@ -77,7 +80,8 @@ class HarfSobirPage extends React.Component {
                   التُّفَاح + <span className="contrast"> ة </span> = التُّفَاحة
                 </div>
                 <div className="arsent__translate">
-                  вид фрукта яблоки + <span className="contrast"> собирательная частица </span> = яблоко (индивид вида)
+                  вид фрукта яблоки + <span className="contrast"> собирательная частица </span> =
+                  яблоко (индивид вида)
                 </div>
               </div>
             </div>
@@ -85,8 +89,8 @@ class HarfSobirPage extends React.Component {
         </div>
         <Footer />
       </div>
-    )
+    );
   }
 }
 
-export default withStyles(arabicPageStyle)(HarfSobirPage)
+export default withStyles(arabicPageStyle)(HarfSobirPage);
