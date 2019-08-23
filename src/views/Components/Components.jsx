@@ -18,10 +18,8 @@ import SectionBasics from './Sections/SectionBasics.jsx'
 import SectionNavbars from './Sections/SectionNavbars.jsx'
 import SectionTabs from './Sections/SectionTabs.jsx'
 import SectionPills from './Sections/SectionPills.jsx'
-import SectionNotifications from './Sections/SectionNotifications.jsx'
 import SectionTypography from './Sections/SectionTypography.jsx'
 import SectionJavascript from './Sections/SectionJavascript.jsx'
-import SectionCarousel from './Sections/SectionCarousel.jsx'
 
 import componentsStyle from 'assets/jss/material-kit-react/views/components.jsx'
 
@@ -38,7 +36,7 @@ class Components extends React.Component {
           color="transparent"
           changeColorOnScroll={{
             height: 400,
-            color: 'white'
+            color: 'white',
           }}
           {...rest}
         />
@@ -49,7 +47,9 @@ class Components extends React.Component {
               <GridItem>
                 <div className={classes.brand}>
                   <h1 className={classes.title}>Arabic Bookmarks.</h1>
-                  <h3 className={classes.subtitle}>Заметки, запсиси, уроки, правила и исключения.</h3>
+                  <h3 className={classes.subtitle}>
+                    Заметки, запсиси, уроки, правила и исключения.
+                  </h3>
                 </div>
               </GridItem>
             </GridContainer>
@@ -61,10 +61,8 @@ class Components extends React.Component {
           <SectionNavbars />
           <SectionTabs />
           <SectionPills />
-          <SectionNotifications />
           <SectionTypography />
           <SectionJavascript />
-          <SectionCarousel />
         </div>
         <Footer />
       </div>

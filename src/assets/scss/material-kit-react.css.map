@@ -14,9 +14,6 @@
         "core/_mixins.scss",
         "core/mixins/_colored-shadows.scss",
         "core/_misc.scss",
-        "plugins/_plugin-nouislider.scss",
-        "plugins/_plugin-react-datetime.scss",
-        "plugins/_plugin-react-slick.scss"
     ],
     "names": [],
     "file": "material-kit-react.css"

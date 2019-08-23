@@ -1,5 +1,5 @@
 // import AdminPage from 'views/AdminPage'
-// import Components from 'views/Components/Components.jsx'
+import Components from 'views/Components/Components.jsx'
 import Home from 'views/HomeAnimate/HomeAnimate.jsx'
 // import HomeAnimate from 'views/HomeAnimate/HomeAnimate.jsx'
 import Contacts from 'views/Contacts/Contacts.jsx'
@@ -88,8 +88,16 @@ var indexRoutes = [
   { path: '/discriminator', name: 'Discriminator', component: Discriminator },
   { path: '/surprise', name: 'Surprise', component: Surprise },
   { path: '/additional', name: 'Additional', component: Additional },
-  { path: '/additionalprop', name: 'AdditionalProperty', component: AdditionalProperty },
-  { path: '/addabsolute', name: 'AdditionalAbsolut', component: AdditionalAbsolut },
+  {
+    path: '/additionalprop',
+    name: 'AdditionalProperty',
+    component: AdditionalProperty,
+  },
+  {
+    path: '/addabsolute',
+    name: 'AdditionalAbsolut',
+    component: AdditionalAbsolut,
+  },
   { path: '/strongverb', name: 'StrongVerb', component: StrongVerb },
 
   /** after 16 less 3tom
@@ -108,7 +116,11 @@ var indexRoutes = [
   /**
    */
   /** after 5 less 3tom*/
-  { path: '/ismulmakanwazaman', name: 'IsmulMakanWaZamanPage', component: IsmulMakanWaZamanPage },
+  {
+    path: '/ismulmakanwazaman',
+    name: 'IsmulMakanWaZamanPage',
+    component: IsmulMakanWaZamanPage,
+  },
   { path: '/twocase', name: 'TwoCase', component: TwoCase },
   { path: '/ismaalati', name: 'IsmaAlatiPage', component: IsmaAlatiPage },
   { path: '/puraldual', name: 'PuralDualPage', component: PuralDualPage },
@@ -120,8 +132,16 @@ var indexRoutes = [
   { path: '/someism', name: 'SomeIsm', component: SomeIsm },
   { path: '/someharf', name: 'SomeHarf', component: SomeHarf },
   { path: '/lamibtidaa', name: 'LamIbtidaa', component: LamIbtidaa },
-  { path: '/verbtransitive', name: 'VerbTransitiveAndNo', component: VerbTransitiveAndNo },
-  { path: '/innawithsisters', name: 'InnaWithSisters', component: InnaWithSisters },
+  {
+    path: '/verbtransitive',
+    name: 'VerbTransitiveAndNo',
+    component: VerbTransitiveAndNo,
+  },
+  {
+    path: '/innawithsisters',
+    name: 'InnaWithSisters',
+    component: InnaWithSisters,
+  },
 
   /****************************
    *
@@ -131,42 +151,70 @@ var indexRoutes = [
   { path: '/pages/:id', name: 'Pages', component: Pages },
   { path: '/harfsobir', name: 'HarfSobirPage', component: HarfSobirPage },
   { path: '/harfhal', name: 'HarfHalPage', component: HarfHalPage },
-  { path: '/chislitel100', name: 'IsmChislitelPage', component: IsmChislitelPage },
+  {
+    path: '/chislitel100',
+    name: 'IsmChislitelPage',
+    component: IsmChislitelPage,
+  },
   { path: '/similarity', name: 'SimilarityMaful', component: SimilarityMaful },
   { path: '/ismumaful', name: 'IsmaMaful', component: IsmaMaful },
   { path: '/ismafial', name: 'IsmaFial', component: IsmaFial },
 
   /** 2 tom and 1  в ОСНОВЕ //
    *  и чуть чуть из третьего (незначительно)  */
-  { path: '/fialmabnililmajhun', name: 'FialMabniLilmajhun', component: FialMabniLilmajhun },
-  { path: '/harfazzoidatu', name: 'HarfManAzzoidatuPage', component: HarfManAzzoidatuPage },
+  {
+    path: '/fialmabnililmajhun',
+    name: 'FialMabniLilmajhun',
+    component: FialMabniLilmajhun,
+  },
+  {
+    path: '/harfazzoidatu',
+    name: 'HarfManAzzoidatuPage',
+    component: HarfManAzzoidatuPage,
+  },
   { path: '/dua', name: 'DuaPage', component: DuaPage },
   { path: '/asmaulafal', name: 'Asmaulafal', component: Asmaulafal },
   { path: '/someverbs', name: 'SomeVerbsPage', component: SomeVerbsPage },
   { path: '/ism5', name: 'Ism5Page', component: Ism5Page },
-  { path: '/affectionateword', name: 'AffectionateWordPage', component: AffectionateWordPage },
+  {
+    path: '/affectionateword',
+    name: 'AffectionateWordPage',
+    component: AffectionateWordPage,
+  },
   { path: '/shaddaverb', name: 'ShaddaVerbPage', component: ShaddaVerbPage },
   { path: '/harfwa', name: 'HarfWaPage', component: HarfWaPage },
   { path: '/harfdeny', name: 'HarfDenyPage', component: HarfDenyPage },
   { path: '/accent', name: 'AccentPage', component: AccentPage },
   { path: '/harfmaplus', name: 'HarfMaPlusPage', component: HarfMaPlusPage },
-  { path: '/abjectivedegrees', name: 'AbjectDegrees', component: AbjectDegrees },
+  {
+    path: '/abjectivedegrees',
+    name: 'AbjectDegrees',
+    component: AbjectDegrees,
+  },
   { path: '/masdar', name: 'MasdarPage', component: MasdarPage },
   { path: '/typeharflya', name: 'HarfLyaPage', component: HarfLyaPage },
-  { path: '/tricksverbs', name: 'TricksWithVerbsPage', component: TricksWithVerbsPage },
+  {
+    path: '/tricksverbs',
+    name: 'TricksWithVerbsPage',
+    component: TricksWithVerbsPage,
+  },
   { path: '/jumlatuism', name: 'JumlatuIsmPage', component: JumlatuIsmPage },
   { path: '/soglasopr', name: 'SoglasovOprPage', component: SoglasovOprPage },
   { path: '/idafa', name: 'IdafaPage', component: IdafaPage },
-  { path: '/adwatuldjazm', name: 'AdwatulDjazmPage', component: AdwatulDjazmPage },
+  {
+    path: '/adwatuldjazm',
+    name: 'AdwatulDjazmPage',
+    component: AdwatulDjazmPage,
+  },
   { path: '/jumlatuhaal', name: 'JumlatuHaalPage', component: JumlatuHaalPage },
   { path: '/weakLetters', name: 'WeakLettersPage', component: WeakLettersPage },
   { path: '/about', name: 'AboutPage', component: AboutPage },
   // { path: '/profile', name: 'ProfilePage', component: ProfilePage },
   // { path: '/login', name: 'LoginPage', component: LoginPage },
-  // { path: '/components', name: 'Components', component: Components },
+  { path: '/components', name: 'Components', component: Components },
   { path: '/contacts', name: 'Contacts', component: Contacts },
   { path: '/', name: 'Home', exact: 'true', component: Home },
-  { path: '*', name: 'Home', component: NotFound }
+  { path: '*', name: 'Home', component: NotFound },
 ]
 
 export default indexRoutes
