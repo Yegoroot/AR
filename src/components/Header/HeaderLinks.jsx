@@ -1,25 +1,32 @@
-import React from "react";
+import React from 'react';
 // react components for routing our app without refresh
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 
 // @material-ui/core components
-import withStyles from "@material-ui/core/styles/withStyles";
-import { List, ListItem } from "@material-ui/core";
-import { Waves, Apps, Bookmarks, Book, Assignment, Home } from "@material-ui/icons";
+import withStyles from '@material-ui/core/styles/withStyles';
+import { List, ListItem } from '@material-ui/core';
+import {
+  Waves,
+  Apps,
+  Bookmarks,
+  Book,
+  Assignment,
+  Home,
+} from '@material-ui/icons'
 
 // core components
-import CustomDropdown from "components/CustomDropdown/CustomDropdown.jsx";
+import CustomDropdown from 'components/CustomDropdown/CustomDropdown.jsx';
 // import Button from 'components/CustomButtons/Button.jsx'
 
-import headerLinksStyle from "assets/jss/material-kit-react/components/headerLinksStyle.jsx";
+import headerLinksStyle from 'assets/jss/material-kit-react/components/headerLinksStyle.jsx';
 
 function HeaderLinks({ ...props }) {
-  const { classes } = props;
+  const { classes } = props
   return (
     <List className={classes.list}>
       <ListItem className={classes.listItem}>
         <Link to="/" className={classes.navLink}>
-          <Home className={classes.icons} />{" "}
+          <Home className={classes.icons} />{' '}
           <span className={classes.navLinkHideDesc}>Главная</span>
         </Link>
       </ListItem>
@@ -32,7 +39,7 @@ function HeaderLinks({ ...props }) {
           buttonText="Грамматика"
           buttonProps={{
             className: classes.navLink,
-            color: "transparent"
+            color: 'transparent'
           }}
           buttonIcon={Apps}
           dropdownList={[
@@ -42,36 +49,68 @@ function HeaderLinks({ ...props }) {
             <Link to="/soglasopr" className={classes.dropdownLink}>
               Согласованное определение
             </Link>,
-            <Link to="/jumlatuism" className={classes.dropdownLink} style={{ fontSize: 20 }}>
+            <Link
+              to="/jumlatuism"
+              className={classes.dropdownLink}
+              style={{ fontSize: 20 }}
+            >
               جملة الاسمية
             </Link>,
-            <Link to="/separator" style={{ fontSize: 20 }} className={classes.dropdownLink}>
+            <Link
+              to="/separator"
+              style={{ fontSize: 20 }}
+              className={classes.dropdownLink}
+            >
               ضمير فصل
             </Link>,
             <Link to="/exceptions" className={classes.dropdownLink}>
               Выражение исключения
             </Link>,
-            <Link to="/discriminator" style={{ fontSize: 20 }} className={classes.dropdownLink}>
+            <Link
+              to="/discriminator"
+              style={{ fontSize: 20 }}
+              className={classes.dropdownLink}
+            >
               التمييز
             </Link>,
-            <Link to="/jumlatuhaal" className={classes.dropdownLink} style={{ fontSize: 20 }}>
+            <Link
+              to="/jumlatuhaal"
+              className={classes.dropdownLink}
+              style={{ fontSize: 20 }}
+            >
               الحال
             </Link>,
             <Link to="/additional" className={classes.dropdownLink}>
               Виды дополнений
             </Link>,
-            <Link to="/addabsolute" style={{ fontSize: 20 }} className={classes.dropdownLink}>
+            <Link
+              to="/addabsolute"
+              style={{ fontSize: 20 }}
+              className={classes.dropdownLink}
+            >
               المفعول المطلق
             </Link>,
-            <Link to="/almafulufihi" style={{ fontSize: 20 }} className={classes.dropdownLink}>
+            <Link
+              to="/almafulufihi"
+              style={{ fontSize: 20 }}
+              className={classes.dropdownLink}
+            >
               المفعول فيه. ظرف
             </Link>,
-            <Link to="/thorfitha" style={{ fontSize: 20 }} className={classes.dropdownLink}>
+            <Link
+              to="/thorfitha"
+              style={{ fontSize: 20 }}
+              className={classes.dropdownLink}
+            >
               ظرف إذا. شرط
             </Link>,
-            <Link to="/adatushart" style={{ fontSize: 20 }} className={classes.dropdownLink}>
+            <Link
+              to="/adatushart"
+              style={{ fontSize: 20 }}
+              className={classes.dropdownLink}
+            >
               شرط إنْ
-            </Link>
+            </Link>,
           ]}
         />
       </ListItem>
@@ -82,7 +121,7 @@ function HeaderLinks({ ...props }) {
           buttonText="Глагол"
           buttonProps={{
             className: classes.navLink,
-            color: "transparent"
+            color: 'transparent',
           }}
           buttonIcon={Bookmarks}
           dropdownList={[
@@ -139,7 +178,7 @@ function HeaderLinks({ ...props }) {
             </Link>,
             <Link to="/strongverb" className={classes.dropdownLink}>
               Усиление глагола
-            </Link>
+            </Link>,
           ]}
         />
       </ListItem>
@@ -150,26 +189,46 @@ function HeaderLinks({ ...props }) {
           buttonText="Имя"
           buttonProps={{
             className: classes.navLink,
-            color: "transparent"
+            color: 'transparent',
           }}
           buttonIcon={Book}
           dropdownList={[
             <Link to="/masdar" className={classes.dropdownLink}>
               Масдар
             </Link>,
-            <Link to="/asmaulafal" className={classes.dropdownLink} style={{ fontSize: 20 }}>
+            <Link
+              to="/asmaulafal"
+              className={classes.dropdownLink}
+              style={{ fontSize: 20 }}
+            >
               اسماء الافعال
             </Link>,
-            <Link to="/ismumaful" className={classes.dropdownLink} style={{ fontSize: 20 }}>
+            <Link
+              to="/ismumaful"
+              className={classes.dropdownLink}
+              style={{ fontSize: 20 }}
+            >
               اسم المَفول
             </Link>,
-            <Link to="/ismafial" className={classes.dropdownLink} style={{ fontSize: 20 }}>
+            <Link
+              to="/ismafial"
+              className={classes.dropdownLink}
+              style={{ fontSize: 20 }}
+            >
               اسم الفاعل
             </Link>,
-            <Link to="/ismulmakanwazaman" className={classes.dropdownLink} style={{ fontSize: 20 }}>
+            <Link
+              to="/ismulmakanwazaman"
+              className={classes.dropdownLink}
+              style={{ fontSize: 20 }}
+            >
               اسم مكان و زمان
             </Link>,
-            <Link to="/ismaalati" className={classes.dropdownLink} style={{ fontSize: 20 }}>
+            <Link
+              to="/ismaalati"
+              className={classes.dropdownLink}
+              style={{ fontSize: 20 }}
+            >
               اسم آلَة
             </Link>,
             <Link to="/abjectivedegrees" className={classes.dropdownLink}>
@@ -186,7 +245,7 @@ function HeaderLinks({ ...props }) {
             </Link>,
             <Link to="/someism" className={classes.dropdownLink}>
               Некоторые имена
-            </Link>
+            </Link>,
           ]}
         />
       </ListItem>
@@ -197,27 +256,51 @@ function HeaderLinks({ ...props }) {
           buttonText="Частицы"
           buttonProps={{
             className: classes.navLink,
-            color: "transparent"
+            color: 'transparent'
           }}
           buttonIcon={Assignment}
           dropdownList={[
-            <Link to="/adwatuldjazm" className={classes.dropdownLink} style={{ fontSize: 20 }}>
+            <Link
+              to="/adwatuldjazm"
+              className={classes.dropdownLink}
+              style={{ fontSize: 20 }}
+            >
               أدوَات الجزم
             </Link>,
 
-            <Link to="/typeharflya" style={{ fontSize: 20 }} className={classes.dropdownLink}>
+            <Link
+              to="/typeharflya"
+              style={{ fontSize: 20 }}
+              className={classes.dropdownLink}
+            >
               حرف لا
             </Link>,
-            <Link to="/lamibtidaa" style={{ fontSize: 20 }} className={classes.dropdownLink}>
+            <Link
+              to="/lamibtidaa"
+              style={{ fontSize: 20 }}
+              className={classes.dropdownLink}
+            >
               لَام الابتداء
             </Link>,
-            <Link to="/harfmaplus" style={{ fontSize: 20 }} className={classes.dropdownLink}>
+            <Link
+              to="/harfmaplus"
+              style={{ fontSize: 20 }}
+              className={classes.dropdownLink}
+            >
               حرف ما
             </Link>,
-            <Link to="/harfwa" style={{ fontSize: 20 }} className={classes.dropdownLink}>
+            <Link
+              to="/harfwa"
+              style={{ fontSize: 20 }}
+              className={classes.dropdownLink}
+            >
               حرف و
             </Link>,
-            <Link to="/harfazzoidatu" className={classes.dropdownLink} style={{ fontSize: 20 }}>
+            <Link
+              to="/harfazzoidatu"
+              className={classes.dropdownLink}
+              style={{ fontSize: 20 }}
+            >
               مِن الزّائدة
             </Link>,
             <Link to="/harfdeny" className={classes.dropdownLink}>
@@ -229,15 +312,23 @@ function HeaderLinks({ ...props }) {
             <Link to="/innawithsisters" className={classes.dropdownLink}>
               Частица инна и её сестры
             </Link>,
-            <Link to="/harfHal" style={{ fontSize: 20 }} className={classes.dropdownLink}>
+            <Link
+              to="/harfHal"
+              style={{ fontSize: 20 }}
+              className={classes.dropdownLink}
+            >
               حرف هل
             </Link>,
-            <Link to="/harfulaw" style={{ fontSize: 20 }} className={classes.dropdownLink}>
+            <Link
+              to="/harfulaw"
+              style={{ fontSize: 20 }}
+              className={classes.dropdownLink}
+            >
               حرف لو
             </Link>,
             <Link to="/someharf" className={classes.dropdownLink}>
               Некоторые частицы
-            </Link>
+            </Link>,
           ]}
         />
       </ListItem>
@@ -247,7 +338,7 @@ function HeaderLinks({ ...props }) {
           buttonText="Разное"
           buttonProps={{
             className: classes.navLink,
-            color: "transparent"
+            color: 'transparent',
           }}
           buttonIcon={Waves}
           dropdownList={[
@@ -263,7 +354,11 @@ function HeaderLinks({ ...props }) {
             <Link to="/chislitel100" className={classes.dropdownLink}>
               Числительные с 100
             </Link>,
-            <Link to="/minqoblu" style={{ fontSize: 20 }} className={classes.dropdownLink}>
+            <Link
+              to="/minqoblu"
+              style={{ fontSize: 20 }}
+              className={classes.dropdownLink}
+            >
               مِن قبلُ
             </Link>,
             <Link to="/puraldual" className={classes.dropdownLink}>
@@ -271,12 +366,12 @@ function HeaderLinks({ ...props }) {
             </Link>,
             <Link to="/surprise" className={classes.dropdownLink}>
               Формы удивления
-            </Link>
+            </Link>,
           ]}
         />
       </ListItem>
     </List>
-  );
+  )
 }
 
-export default withStyles(headerLinksStyle)(HeaderLinks);
+export default withStyles(headerLinksStyle)(HeaderLinks)

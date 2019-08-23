@@ -11,12 +11,12 @@ import {
   dangerColor,
   dangerBoxShadow,
   roseColor,
-  roseBoxShadow
+  roseBoxShadow,
 } from 'assets/jss/material-kit-react.jsx'
 
 const customDropdownStyle = theme => ({
   popperClose: {
-    pointerEvents: 'none'
+    pointerEvents: 'none',
   },
   dropdown: {
     borderRadius: '3px',
@@ -31,13 +31,13 @@ const customDropdownStyle = theme => ({
     textAlign: 'left',
     listStyle: 'none',
     backgroundColor: '#fff',
-    backgroundClip: 'padding-box'
+    backgroundClip: 'padding-box',
   },
   menuList: {
-    padding: '0'
+    padding: '0',
   },
   pooperMobileOpen: {
-    display: 'none'
+    display: 'none',
   },
   pooperResponsive: {
     zIndex: '1200',
@@ -45,7 +45,7 @@ const customDropdownStyle = theme => ({
       position: 'relative !important',
       transform: 'none !important',
       top: '0 !important',
-      left: '0 !important'
+      left: '0 !important',
     },
     [theme.breakpoints.down('sm')]: {
       zIndex: '1640',
@@ -56,17 +56,22 @@ const customDropdownStyle = theme => ({
       backgroundColor: 'transparent',
       border: '0',
       boxShadow: 'none',
-      color: 'black'
-    }
+      color: 'black',
+    },
   },
   dropdownItem: {
     ...defaultFont,
     fontSize: '13px',
     padding: '10px 20px',
     margin: '0 5px',
+    disaply: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
     '@media (max-width: 960px)': {
-      margin: '0 0px'
+      margin: '0 0px',
+      minHeight: '40px',
     },
+    '@media (min-width: 960px)': { minHeight: 'initial' },
     borderRadius: '2px',
     position: 'relative',
     transition: 'all 150ms linear',
@@ -74,70 +79,72 @@ const customDropdownStyle = theme => ({
     clear: 'both',
     fontWeight: '400',
     height: 'fit-content',
+
     color: '#3c4858',
-    whiteSpace: 'nowrap'
+    whiteSpace: 'nowrap',
   },
   blackHover: {
     '&:hover': {
-      boxShadow: '0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(33, 33, 33, 0.4)',
+      boxShadow:
+        '0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(33, 33, 33, 0.4)',
       backgroundColor: '#212121',
-      color: '#fff'
-    }
+      color: '#fff',
+    },
   },
   primaryHover: {
     '&:hover': {
       backgroundColor: primaryColor,
       color: '#FFFFFF',
-      ...primaryBoxShadow
-    }
+      ...primaryBoxShadow,
+    },
   },
   infoHover: {
     '&:hover': {
       backgroundColor: infoColor,
       color: '#FFFFFF',
-      ...infoBoxShadow
-    }
+      ...infoBoxShadow,
+    },
   },
   successHover: {
     '&:hover': {
       backgroundColor: successColor,
       color: '#FFFFFF',
-      ...successBoxShadow
-    }
+      ...successBoxShadow,
+    },
   },
   warningHover: {
     '&:hover': {
       backgroundColor: warningColor,
       color: '#FFFFFF',
-      ...warningBoxShadow
-    }
+      ...warningBoxShadow,
+    },
   },
   dangerHover: {
     '&:hover': {
       backgroundColor: dangerColor,
       color: '#FFFFFF',
-      ...dangerBoxShadow
-    }
+      ...dangerBoxShadow,
+    },
   },
   roseHover: {
     '&:hover': {
       backgroundColor: roseColor,
       color: '#FFFFFF',
-      ...roseBoxShadow
-    }
+      ...roseBoxShadow,
+    },
   },
   dropdownItemRTL: {
-    textAlign: 'right'
+    textAlign: 'right',
   },
   dropdownDividerItem: {
     margin: '5px 0',
     backgroundColor: 'rgba(0, 0, 0, 0.12)',
     height: '1px',
-    overflow: 'hidden'
+    overflow: 'hidden',
   },
   buttonIcon: {
     width: '20px',
-    height: '20px'
+    height: '20px',
   },
   caret: {
     transition: 'all 150ms ease-in',
@@ -148,13 +155,13 @@ const customDropdownStyle = theme => ({
     verticalAlign: 'middle',
     borderTop: '4px solid',
     borderRight: '4px solid transparent',
-    borderLeft: '4px solid transparent'
+    borderLeft: '4px solid transparent',
   },
   caretActive: {
-    transform: 'rotate(180deg)'
+    transform: 'rotate(180deg)',
   },
   caretRTL: {
-    marginRight: '4px'
+    marginRight: '4px',
   },
   dropdownHeader: {
     display: 'block',
@@ -167,12 +174,12 @@ const customDropdownStyle = theme => ({
     marginTop: '10px',
     '&:hover,&:focus': {
       backgroundColor: 'transparent',
-      cursor: 'auto'
-    }
+      cursor: 'auto',
+    },
   },
   noLiPadding: {
-    padding: '0'
-  }
+    padding: '0',
+  },
 })
 
 export default customDropdownStyle
