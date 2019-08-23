@@ -1,10 +1,12 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
+import "react-hot-loader";
 
-import 'assets/scss/material-kit-react.css?v=1.3.0'
+import React from "react";
+import ReactDOM from "react-dom";
 
-import App from './App'
-import * as serviceWorker from './serviceWorker'
+import "assets/scss/material-kit-react.css?v=1.3.0";
 
-ReactDOM.render(<App />, document.getElementById('root'))
-serviceWorker.register()
+import App from "./App";
+import * as serviceWorker from "./serviceWorker";
+
+ReactDOM.render(<App />, document.getElementById("root"));
+serviceWorker.register();
