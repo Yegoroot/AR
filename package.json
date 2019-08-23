@@ -60,7 +60,6 @@
   "devDependencies": {
     "eslint-config-prettier": "^4.2.0",
     "eslint-plugin-prettier": "^3.0.1",
-    "lint-staged": "^8.1.6",
     "prettier": "^1.17.0"
   }
 }
