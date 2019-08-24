@@ -1,5 +1,5 @@
 // import AdminPage from 'views/AdminPage'
-import Components from 'views/Components/Components.jsx'
+// import Components from 'views/Components/Components.jsx'
 import Home from 'views/HomeAnimate/HomeAnimate.jsx'
 // import HomeAnimate from 'views/HomeAnimate/HomeAnimate.jsx'
 import Contacts from 'views/Contacts/Contacts.jsx'
@@ -211,7 +211,7 @@ var indexRoutes = [
   { path: '/about', name: 'AboutPage', component: AboutPage },
   // { path: '/profile', name: 'ProfilePage', component: ProfilePage },
   // { path: '/login', name: 'LoginPage', component: LoginPage },
-  { path: '/components', name: 'Components', component: Components },
+  // { path: '/components', name: 'Components', component: Components },
   { path: '/contacts', name: 'Contacts', component: Contacts },
   { path: '/', name: 'Home', exact: 'true', component: Home },
   { path: '*', name: 'Home', component: NotFound },
