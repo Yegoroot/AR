@@ -25,8 +25,8 @@ function HeaderLinks({ ...props }) {
   return (
     <List className={classes.list}>
       <ListItem className={classes.listItem}>
-        <Link to="/" className={classes.navLink}>
-          <Home className={classes.icons} />{' '}
+        <Link to="/" className={classes.navLink} style={{ padding: 10 }}>
+          <Home className={classes.icons} />
           <span className={classes.navLinkHideDesc}>Главная</span>
         </Link>
       </ListItem>
