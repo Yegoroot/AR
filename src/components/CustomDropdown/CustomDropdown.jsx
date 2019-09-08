@@ -1,26 +1,26 @@
-import React from 'react';
+import React from 'react'
 // nodejs library that concatenates classes
-import classNames from 'classnames';
+import classNames from 'classnames'
 // nodejs library to set properties for components
-import PropTypes from 'prop-types';
+import PropTypes from 'prop-types'
 
 // @material-ui/core components
-import withStyles from '@material-ui/core/styles/withStyles';
-import MenuItem from '@material-ui/core/MenuItem';
-import MenuList from '@material-ui/core/MenuList';
-import ClickAwayListener from '@material-ui/core/ClickAwayListener';
-import Paper from '@material-ui/core/Paper';
-import Grow from '@material-ui/core/Grow';
-import Divider from '@material-ui/core/Divider';
-import Icon from '@material-ui/core/Icon';
-import Popper from '@material-ui/core/Popper';
+import withStyles from '@material-ui/core/styles/withStyles'
+import MenuItem from '@material-ui/core/MenuItem'
+import MenuList from '@material-ui/core/MenuList'
+import ClickAwayListener from '@material-ui/core/ClickAwayListener'
+import Paper from '@material-ui/core/Paper'
+import Grow from '@material-ui/core/Grow'
+import Divider from '@material-ui/core/Divider'
+// import Icon from '@material-ui/core/Icon'
+import Popper from '@material-ui/core/Popper'
 
 // core components
-import Button from 'components/CustomButtons/Button.jsx';
+import Button from 'components/CustomButtons/Button.jsx'
 
-import customDropdownStyle from 'assets/jss/material-kit-react/components/customDropdownStyle.jsx';
+import customDropdownStyle from 'assets/jss/material-kit-react/components/customDropdownStyle.jsx'
 
-import withSizes from 'react-sizes';
+import withSizes from 'react-sizes'
 
 class CustomDropdown extends React.Component {
   constructor(props) {
@@ -68,7 +68,6 @@ class CustomDropdown extends React.Component {
     const {
       classes,
       buttonText,
-      buttonIcon,
       dropdownList,
       buttonProps,
       dropup,
@@ -94,20 +93,7 @@ class CustomDropdown extends React.Component {
       dropdown: true,
       [classes.dropdown]: true,
     })
-    let icon = null
-    switch (typeof buttonIcon) {
-      case 'function':
-        icon = <this.props.buttonIcon className={classes.buttonIcon} />
-        break
-      case 'string':
-        icon = (
-          <Icon className={classes.buttonIcon}>{this.props.buttonIcon}</Icon>
-        )
-        break
-      default:
-        icon = null
-        break
-    }
+
     return (
       <div>
         <div>
@@ -121,7 +107,6 @@ class CustomDropdown extends React.Component {
             }}
             onClick={this.handleClick}
           >
-            {icon}
             {buttonText !== undefined ? buttonText : null}
             {!this.props.isMobile && caret ? (
               <b className={caretClasses} />
@@ -202,12 +187,20 @@ class CustomDropdown extends React.Component {
 
 CustomDropdown.defaultProps = {
   caret: true,
-  hoverColor: 'primary'
+  hoverColor: 'primary',
 }
 
 CustomDropdown.propTypes = {
   classes: PropTypes.object.isRequired,
-  hoverColor: PropTypes.oneOf(['black', 'primary', 'info', 'success', 'warning', 'danger', 'rose']),
+  hoverColor: PropTypes.oneOf([
+    'black',
+    'primary',
+    'info',
+    'success',
+    'warning',
+    'danger',
+    'rose',
+  ]),
   buttonText: PropTypes.node,
   buttonIcon: PropTypes.oneOfType([PropTypes.func, PropTypes.string]),
   dropdownList: PropTypes.array,
