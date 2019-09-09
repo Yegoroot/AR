@@ -55,21 +55,10 @@ class Page extends React.Component {
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title ">
-                Прекрасные Имена Аллахъа
-                <span className="ph">&nbsp;§ </span>
+                Прекрасные Имена Аллахъа <span className="ph">&nbsp;§ </span>
               </h1>
-              {/* <p className="desc">
-                Разберем <b> разделитель </b>{' '}
-                <span className="desc__ar"> هو </span>. Местоимение разделитель
-                обязательно должно быть личным местоимением выражающим
-                именительный падеж (он, она, они, мы).
-                <br />
-                <br />
-                Cамое главное его значение это <b> усиление смысла </b> Так же
-                это местоимение используется для того чтоб
-                <b> не перепутать сказуемое с каким либо приложением </b>{' '}
-                (заменителем или определением к определяемому слову)
-              </p> */}
+              {/* <p className="desc"> ---- </p> */}
+
               <div className={classes.nameslist}>
                 {Names.map(data => (
                   <CardWord key={data.id} data={data} />

@@ -4,6 +4,7 @@ import Card from '@material-ui/core/Card'
 import CardContent from '@material-ui/core/CardContent'
 import Tooltip from '@material-ui/core/Tooltip'
 import Button from '@material-ui/core/Button'
+import ClickAwayListener from '@material-ui/core/ClickAwayListener'
 
 const useStyles = makeStyles({
   card: {
@@ -39,6 +40,16 @@ const useStyles = makeStyles({
 export default function CardWord({ data }) {
   const classes = useStyles()
 
+  const [open, setOpen] = React.useState(false)
+
+  function handleTooltipClose() {
+    setOpen(false)
+  }
+
+  function handleTooltipOpen() {
+    setOpen(true)
+  }
+
   return (
     <Card className={classes.card}>
       <CardContent>
@@ -46,16 +57,30 @@ export default function CardWord({ data }) {
         <span className={classes.pos} color="textSecondary">
           {data.transliteration}
         </span>
-        <Tooltip
-          title={
-            <React.Fragment>
-              <span className={classes.tooltip}> {data.desc}</span>
-            </React.Fragment>
-          }
-          placement="top-end"
-        >
-          <Button className={classes.button}>{data.translate}</Button>
-        </Tooltip>
+        <ClickAwayListener onClickAway={handleTooltipClose}>
+          <div>
+            <Tooltip
+              PopperProps={{
+                disablePortal: true,
+              }}
+              onClose={handleTooltipClose}
+              open={open}
+              disableFocusListener
+              disableHoverListener
+              disableTouchListener
+              title={
+                <React.Fragment>
+                  <span className={classes.tooltip}> {data.desc}</span>
+                </React.Fragment>
+              }
+              placement="top-end"
+            >
+              <Button onClick={handleTooltipOpen} className={classes.button}>
+                {data.translate}
+              </Button>
+            </Tooltip>
+          </div>
+        </ClickAwayListener>
       </CardContent>
     </Card>
   )
