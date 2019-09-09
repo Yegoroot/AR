@@ -13,6 +13,8 @@ import { Helmet } from 'react-helmet'
 
 import CardWord from 'components/CardWord'
 
+import Names from '../../../api/99'
+
 arabicPageStyle.nameslist = {
   display: 'grid',
   gridTemplateColumns: 'repeat(auto-fill, minmax(250px,1fr))',
@@ -69,12 +71,9 @@ class Page extends React.Component {
                 (заменителем или определением к определяемому слову)
               </p> */}
               <div className={classes.nameslist}>
-                <CardWord />
-                <CardWord />
-                <CardWord />
-                <CardWord />
-                <CardWord />
-                <CardWord />
+                {Names.map(data => (
+                  <CardWord key={data.id} data={data} />
+                ))}
               </div>
 
               {/* ------------------ */}

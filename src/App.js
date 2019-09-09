@@ -1,8 +1,8 @@
-import { hot } from "react-hot-loader/root";
-import React from "react";
+import { hot } from 'react-hot-loader/root'
+import React from 'react'
 
-import { Helmet } from "react-helmet";
-import Routes from "./routes";
+import { Helmet } from 'react-helmet'
+import Routes from './routes'
 
 const App = () => (
   <>
@@ -18,7 +18,7 @@ const App = () => (
     </Helmet>
     <Routes />
   </>
-);
+)
 
 /**
  *  КОГДА БУДЕШЬ ДОБАВЛЯТЬ connect-router то удали BrowserRouter в <Routes />
@@ -45,5 +45,5 @@ const App = () => (
 //   }
 // }
 
-export default hot(App);
-// export default App;
+export default hot(App)
+// export default App
