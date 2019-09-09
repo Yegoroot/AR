@@ -1,3 +1,4 @@
+import Names99 from 'views/23082019/Names99/Names99.jsx'
 // import AdminPage from 'views/AdminPage'
 // import Components from 'views/Components/Components.jsx'
 import Home from 'views/HomeAnimate/HomeAnimate.jsx'
@@ -79,6 +80,7 @@ import AdditionalAbsolut from 'views/_arAfter8less4Tom/Additional/AdditionalAbso
 import TwoCase from 'views/_arAfter8less4Tom/TwoCase/TwoCase'
 
 var indexRoutes = [
+  { path: '/99', name: 'Names99', component: Names99 },
   /** after 8 less 4tom
    *
    */
