@@ -8,21 +8,22 @@ import classNames from 'classnames'
 
 const styles = theme => ({
   wrapper: {
-    ...theme.arabicFont
+    ...theme.arabicFont,
+    display: 'inline-block',
   },
   color: {
-    color: '#f44336'
+    color: '#f44336',
   },
   color2: {
-    color: '#009688'
-  }
+    color: '#009688',
+  },
 })
 
 let arrHarfCodes = [
   1614, // fatha
   1615, // damma
   1616, // kasra
-  1618 // sukkun
+  1618, // sukkun
 ]
 
 let arrCharCodes = [
@@ -33,11 +34,11 @@ let arrCharCodes = [
   1584, // zal
   1585, // ra
   1586, // zay
-  1608 // waw
+  1608, // waw
 ]
 
 const word = ({ root, suffix, prefix, classes, negative, color2 }) => {
-  let zmj = `\u{200d}` // Zero Width Joiner	U+200D	&#8205;	&zwj;
+  let zmj = '\u{200d}' // Zero Width Joiner	U+200D	&#8205;	&zwj;
   let prefixZmj, suffixZmj
 
   /** prefix
@@ -86,19 +87,25 @@ const word = ({ root, suffix, prefix, classes, negative, color2 }) => {
   // выделение цветом
   const hightlightRoot = classNames({
     [classes.color]: negative,
-    [classes.color2]: color2 && negative
+    [classes.color2]: color2 && negative,
   })
   const hightlightPerefer = classNames({
     [classes.color]: !negative,
-    [classes.color2]: color2 && !negative
+    [classes.color2]: color2 && !negative,
   })
 
   return (
-    <span className={classes.wrapper}>
-      {prefix ? <span className={hightlightPerefer}>{`${prefix}${prefixZmj}`}</span> : null}
-      <span className={hightlightRoot}>{`${prefixZmj}${root}${suffixZmj}`}</span>
-      {suffix ? <span className={hightlightPerefer}>{`${suffixZmj}${suffix}`}</span> : null}
-    </span>
+    <div className={classes.wrapper}>
+      {prefix ? (
+        <span className={hightlightPerefer}>{`${prefix}${prefixZmj}`}</span>
+      ) : null}
+      <span
+        className={hightlightRoot}
+      >{`${prefixZmj}${root}${suffixZmj}`}</span>
+      {suffix ? (
+        <span className={hightlightPerefer}>{`${suffixZmj}${suffix}`}</span>
+      ) : null}
+    </div>
   )
 }
 
