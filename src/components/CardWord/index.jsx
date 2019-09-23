@@ -42,12 +42,11 @@ export default function CardWord({ data }) {
 
   const [open, setOpen] = React.useState(false)
 
+  function handleTooltipToggle() {
+    setOpen(!open)
+  }
   function handleTooltipClose() {
     setOpen(false)
-  }
-
-  function handleTooltipOpen() {
-    setOpen(true)
   }
 
   return (
@@ -75,7 +74,7 @@ export default function CardWord({ data }) {
               }
               placement="top-end"
             >
-              <Button onClick={handleTooltipOpen} className={classes.button}>
+              <Button onClick={handleTooltipToggle} className={classes.button}>
                 {data.translate}
               </Button>
             </Tooltip>
