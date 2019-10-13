@@ -23,7 +23,10 @@ class PuralDualPage extends React.Component {
       <div>
         <Helmet>
           <title>Множественное и двойственное число арабского языка </title>
-          <meta name="description" content="Множественное и двойственное число арабского языка " />
+          <meta
+            name="description"
+            content="Множественное и двойственное число арабского языка "
+          />
         </Helmet>
         <Header
           color="transparent"
@@ -33,12 +36,16 @@ class PuralDualPage extends React.Component {
           changeColorOnScroll={{
             height: 200,
 
-            color: 'white'
+            color: 'white',
           }}
           {...rest}
         />
 
-        <Parallax small filter image={require('assets/img/mosque/mosque14.jpg')} />
+        <Parallax
+          small
+          filter
+          image={require('assets/img/mosque/mosque14.jpg')}
+        />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
@@ -47,19 +54,27 @@ class PuralDualPage extends React.Component {
               </h1>
 
               <div className="desc">
-                Если на правильное <b> множественное </b> или <b> двойственное </b> падает действие (становится в насб), то слабая буква
-                <span className="contrast_2 desc__ar"> (ا&nbsp;/&nbsp;و) </span> заменяется на
+                Если на правильное <b> множественное </b> или{' '}
+                <b> двойственное </b> падает действие (становится в насб), то
+                слабая буква
+                <span className="contrast_2 desc__ar">
+                  {' '}
+                  (ا&nbsp;/&nbsp;و){' '}
+                </span>{' '}
+                заменяется на
                 <span className="contrast_2 desc__ar"> (ي) </span>
               </div>
               <div className="arsent">
                 <div className="arsent__original">
-                  <Word root="ا" negative suffix="نِ" prefix="بِنْتَ" /> <span> - رأيتُ </span>
+                  <Word root="ا" negative suffix="نِ" prefix="بِنْتَ" />{' '}
+                  <span> - رأيتُ </span>
                   <Word root="يْ" negative suffix="ن" prefix="بِنْتَ" />
                 </div>
               </div>
               <div className="arsent">
                 <div className="arsent__original">
-                  <Word root="و" negative suffix="ن" prefix="مُدَرِّس" /> <span> - رأيتُ </span>
+                  <Word root="و" negative suffix="ن" prefix="مُدَرِّس" />{' '}
+                  <span> - رأيتُ </span>
                   <Word root="ي" negative suffix="ن" prefix="مُدَرِّس" />
                 </div>
               </div>
@@ -100,7 +115,8 @@ class PuralDualPage extends React.Component {
               <div className="arsent">
                 <div className="arsent__original">
                   <span> أبْحَثُ عن </span>
-                  <Word root="المدرِّس" suffix="ين" /> -<span> أبْحَثُ عن </span>
+                  <Word root="المدرِّس" suffix="ين" /> -
+                  <span> أبْحَثُ عن </span>
                   <Word root="المدرِّس" suffix="ي" />
                   <span> الفِقْهِ </span>
                 </div>
@@ -111,7 +127,9 @@ class PuralDualPage extends React.Component {
                   <span> - </span>
                   <Word root="قَلمَ" suffix="يَ" />
                 </div>
-                <div className="arsent__translate">Две ручки - две мои ручки</div>
+                <div className="arsent__translate">
+                  Две ручки - две мои ручки
+                </div>
               </div>
 
               <div className="arsent">
@@ -121,13 +139,21 @@ class PuralDualPage extends React.Component {
                   <span> </span>
                   <Word root="قَلمَ" suffix="يَّ" />؟
                 </div>
-                <div className="arsent__translate">Видели две ручки? - Видели две мои ручки?</div>
+                <div className="arsent__translate">
+                  Видели две ручки? - Видели две мои ручки?
+                </div>
               </div>
 
               <h2 className="title">
-                Неправильное множественое число<span role="img" aria-label="Writing Hand">
-                  &nbsp;✍️</span></h2>
-              <div className="desc">Есть некоторые модели у ломанных (неправильных) множественных</div>
+                Неправильное множественое число
+                <span role="img" aria-label="Writing Hand">
+                  &nbsp;✍️
+                </span>
+              </h2>
+              <div className="desc">
+                Есть некоторые модели у ломанных (неправильных) множественных
+                {/* بعض أوزان مع التكسير */}
+              </div>
               <div className="items">
                 {/* <div className="item">
                   <h2 className="h2ar">فِعَال </h2>
@@ -144,19 +170,21 @@ class PuralDualPage extends React.Component {
                   <h2 className="h2ar">
                     فَعَلَةٌ{' '}
                     <span role="img" aria-label="Light Bulb">
-                      {' '}
-                      💡{' '}
+                      💡
                     </span>
                   </h2>
                   <div className="arsent">
                     <div className="arsent__original">
-                      <span> طالِب </span> -<span className="contrast"> طَلَبَةٌ </span>
+                      <span> طالِب </span> -
+                      <span className="contrast"> طَلَبَةٌ </span>
                     </div>
                     <div className="arsent__original">
-                      <span> كافِر </span> -<span className="contrast"> كَفَرَةٌ </span>
+                      <span> كافِر </span> -
+                      <span className="contrast"> كَفَرَةٌ </span>
                     </div>
                     <div className="arsent__original">
-                      <span> فاجِر </span> -<span className="contrast"> فَجَرَةٌ </span>
+                      <span> فاجِر </span> -
+                      <span className="contrast"> فَجَرَةٌ </span>
                     </div>
                   </div>
                 </div>
@@ -164,19 +192,21 @@ class PuralDualPage extends React.Component {
                   <h2 className="h2ar">
                     فُعَلٌ{' '}
                     <span role="img" aria-label="Light Bulb">
-                      {' '}
-                      💡{' '}
+                      💡
                     </span>
                   </h2>
                   <div className="arsent">
                     <div className="arsent__original">
-                      <span> نُسْخَةٌ </span> -<span className="contrast"> نُسَخٌ </span>
+                      <span> نُسْخَةٌ </span> -
+                      <span className="contrast"> نُسَخٌ </span>
                     </div>
                     <div className="arsent__original">
-                      <span> صُورَةٌ </span> -<span className="contrast"> صُوَرٌ </span>
+                      <span> صُورَةٌ </span> -
+                      <span className="contrast"> صُوَرٌ </span>
                     </div>
                     <div className="arsent__original">
-                      <span> غُرْفَةٌ </span> -<span className="contrast"> غُرَفٌ </span>
+                      <span> غُرْفَةٌ </span> -
+                      <span className="contrast"> غُرَفٌ </span>
                     </div>
                   </div>
                 </div>
@@ -184,19 +214,148 @@ class PuralDualPage extends React.Component {
                   <h2 className="h2ar">
                     فَعْلَى{' '}
                     <span role="img" aria-label="Light Bulb">
-                      {' '}
-                      💡{' '}
+                      💡
                     </span>
                   </h2>
                   <div className="arsent">
                     <div className="arsent__original">
-                      <span> مَرِيضٌ </span> -<span className="contrast"> مَرْضَى </span>
+                      <span> مَرِيضٌ </span> -
+                      <span className="contrast"> مَرْضَى </span>
                     </div>
                     <div className="arsent__original">
-                      <span> قَتِيلٌ </span> -<span className="contrast"> قَتْلَى </span>
+                      <span> قَتِيلٌ </span> -
+                      <span className="contrast"> قَتْلَى </span>
                     </div>
                     <div className="arsent__original">
-                      <span> جَرِيحٌ </span> -<span className="contrast"> جَرْحَى </span>
+                      <span> جَرِيحٌ </span> -
+                      <span className="contrast"> جَرْحَى </span>
+                    </div>
+                  </div>
+                </div>
+
+                {/* <div className="item">
+                  <h2 className="h2ar">
+                    فُعَّالٌ{' '}
+                    <span role="img" aria-label="Light Bulb">
+                      💡
+                    </span>
+                  </h2>
+                  <div className="arsent">
+                    <div className="arsent__original">
+                      <span className="contrast"> كُتَّابٌ </span>
+                    </div>
+                  </div>
+                </div> */}
+
+                <div className="item">
+                  <h2 className="h2ar">
+                    فِعَالٌ{' '}
+                    <span role="img" aria-label="Light Bulb">
+                      💡
+                    </span>
+                  </h2>
+                  <div className="arsent">
+                    <div className="arsent__original">
+                      <span> رجل </span> -
+                      <span className="contrast"> رِجالٌ </span>
+                    </div>
+                  </div>
+                </div>
+                <div className="item">
+                  <h2 className="h2ar">
+                    أفْعَالٌ{' '}
+                    <span role="img" aria-label="Light Bulb">
+                      💡
+                    </span>
+                  </h2>
+                  <div className="arsent">
+                    <div className="arsent__original">
+                      <span> قلم </span> -
+                      <span className="contrast"> أقْلامٌ </span>
+                    </div>
+                  </div>
+                </div>
+                <div className="item">
+                  <h2 className="h2ar">
+                    فُعُولٌ{' '}
+                    <span role="img" aria-label="Light Bulb">
+                      💡
+                    </span>
+                  </h2>
+                  <div className="arsent">
+                    <div className="arsent__original">
+                      <span> شيخ </span> -
+                      <span className="contrast"> شُيُوخٌ </span>
+                    </div>
+                  </div>
+                </div>
+                <div className="item">
+                  <h2 className="h2ar">
+                    فُعَلاء<span className="contrast">ُ</span>{' '}
+                    <span role="img" aria-label="Light Bulb">
+                      💡
+                    </span>
+                  </h2>
+                  <div className="arsent">
+                    <div className="arsent__original">
+                      <span> زميل </span> -
+                      <span className="contrast"> زُمَلاءُ </span>
+                    </div>
+                  </div>
+                </div>
+                <div className="item">
+                  <h2 className="h2ar">
+                    أفْعِلاء<span className="contrast">ُ</span>{' '}
+                    <span role="img" aria-label="Light Bulb">
+                      💡
+                    </span>
+                  </h2>
+                  <div className="arsent">
+                    <div className="arsent__original">
+                      <span> صديق </span> -
+                      <span className="contrast"> أصْدِقاءُ </span>
+                    </div>
+                  </div>
+                </div>
+                <div className="item">
+                  <h2 className="h2ar">
+                    فِعْلَةٌ{' '}
+                    <span role="img" aria-label="Light Bulb">
+                      💡
+                    </span>
+                  </h2>
+                  <div className="arsent">
+                    <div className="arsent__original">
+                      <span> فتى </span> -
+                      <span className="contrast"> فِتْيَةٌ </span>
+                    </div>
+                  </div>
+                </div>
+                <div className="item">
+                  <h2 className="h2ar">
+                    فُعُلٌ{' '}
+                    <span role="img" aria-label="Light Bulb">
+                      💡
+                    </span>
+                  </h2>
+                  <div className="arsent">
+                    <div className="arsent__original">
+                      <span> جَديد </span> -
+                      <span className="contrast"> جُدُدٌ </span>
+                    </div>
+                  </div>
+                </div>
+                <div className="item">
+                  <h2 className="h2ar">
+                    أفْعِلَةٌ{' '}
+                    <span role="img" aria-label="Light Bulb">
+                      💡
+                    </span>
+                  </h2>
+                  <div className="arsent">
+                    <div className="arsent__original">
+                      <span> رَغيف </span> -
+                      <span className="contrast"> أرْغِفَةٌ </span>
                     </div>
                   </div>
                 </div>
