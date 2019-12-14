@@ -1,4 +1,7 @@
-import Names99 from 'views/23082019/Names99/Names99.jsx'
+import Names99 from 'views/BLOG/namesOfAllah/Names99.jsx'
+import BenifitsOfLearn from 'views/BLOG/namesOfAllah/BenifitsOfLearn'
+import RulesOfLearn from 'views/BLOG/namesOfAllah/RulesOfLearn'
+
 // import AdminPage from 'views/AdminPage'
 // import Components from 'views/Components/Components.jsx'
 import Home from 'views/HomeAnimate/HomeAnimate.jsx'
@@ -80,6 +83,8 @@ import AdditionalAbsolut from 'views/_arAfter8less4Tom/Additional/AdditionalAbso
 import TwoCase from 'views/_arAfter8less4Tom/TwoCase/TwoCase'
 
 var indexRoutes = [
+  { path: '/benifits99', name: 'benifits99', component: BenifitsOfLearn },
+  { path: '/rulesoflearn99', name: 'rulesoflearn99', component: RulesOfLearn },
   { path: '/99', name: 'Names99', component: Names99 },
   /** after 8 less 4tom
    *

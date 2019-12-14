@@ -10,6 +10,7 @@ import Parallax from 'components/Parallax/Parallax.jsx'
 
 import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
 import { Helmet } from 'react-helmet'
+import { Link } from 'react-router-dom'
 
 import CardWord from 'components/CardWord'
 
@@ -57,7 +58,15 @@ class Page extends React.Component {
               <h1 className="title ">
                 Прекрасные Имена Аллахъа <span className="ph">&nbsp;§ </span>
               </h1>
-              {/* <p className="desc"> ---- </p> */}
+              <p className="desc">
+                Прежде чем вы выучите Прекрасные Имена Аллахъа,{' '}
+                <Link to="benifits99"> посмотрите о достоинствах изучения</Link>
+                , и так же важно понимать и знать{' '}
+                <Link to="rulesoflearn99">
+                  {' '}
+                  правила для понимания имён Аллахъа
+                </Link>
+              </p>
 
               <div className={classes.nameslist}>
                 {Names.map(data => (
