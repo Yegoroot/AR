@@ -3,6 +3,7 @@
 - [demo fimanami.info](https://fimanami.info)
 
 - В проекте настроен manifest для PWA
+- node 12 is working
 
 ## Установка
 
@@ -41,7 +42,6 @@
 и соответсвенно добавил в **history** basename={'/ar'}> а если не в connected-react-router то <BrowserRouter basename={'/ar'}> И index.jsx и **<Redirect to='/'/>** в switcher in App.js
 a так же в **package.json** "homepage": "https://domen.com/ar",
 
-
 ## Ducks используется как концепция для Redux
 
 Обычно в разных файлах redux всего приложения: **action** отдельно, **reducer** в сторонке отдельно
@@ -52,6 +52,7 @@ Ducks позволяет нам:
 - И появляется возможность поместить такой виджет в отдельную библиотеку и использовать в различных проектах
 
 ## Creative-Tim
+
 - [Creative-Tim](https://demos.creative-tim.com)
 
 ## Что можно удалить
