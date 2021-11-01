@@ -2,15 +2,10 @@ import Names99 from 'views/BLOG/namesOfAllah/Names99.jsx'
 import BenifitsOfLearn from 'views/BLOG/namesOfAllah/BenifitsOfLearn'
 import RulesOfLearn from 'views/BLOG/namesOfAllah/RulesOfLearn'
 
-// import AdminPage from 'views/AdminPage'
-// import Components from 'views/Components/Components.jsx'
 import Home from 'views/HomeAnimate/HomeAnimate.jsx'
-// import HomeAnimate from 'views/HomeAnimate/HomeAnimate.jsx'
 import Contacts from 'views/Contacts/Contacts.jsx'
 import NotFound from 'views/NotFound'
 import AboutPage from 'views/AboutPage/AboutPage.jsx'
-// import ProfilePage from 'views/ProfilePage/ProfilePage.jsx'
-// import LoginPage from 'views/LoginPage/LoginPage.jsx'
 // --------------------
 import WeakLettersPage from 'views/arBefore7less3Tom/WeakLettersPage/WeakLettersPage'
 import JumlatuHaalPage from 'views/arBefore7less3Tom/JumlatuHaalPage/JumlatuHaalPage'
@@ -34,9 +29,6 @@ import Asmaulafal from 'views/arBefore7less3Tom/Asmaulafal/Asmaulafal'
 import DuaPage from 'views/arBefore7less3Tom/DuaPage/DuaPage'
 import HarfManAzzoidatuPage from 'views/arBefore7less3Tom/HarfManAzzoidatuPage/HarfManAzzoidatuPage'
 import FialMabniLilmajhun from 'views/arBefore7less3Tom/FialMabniLilmajhun/FialMabniLilmajhun'
-
-// недоделанный (начатый эпизод)
-import Pages from 'views/Pages/Pages'
 
 /** new level 3 tom */
 import HarfSobirPage from 'views/arBefore7less3Tom/HarfSobirPage/HarfSobirPage'
@@ -155,7 +147,6 @@ var indexRoutes = [
    *
    */
   /** new level 3 tom */
-  { path: '/pages/:id', name: 'Pages', component: Pages },
   { path: '/harfsobir', name: 'HarfSobirPage', component: HarfSobirPage },
   { path: '/harfhal', name: 'HarfHalPage', component: HarfHalPage },
   {
@@ -216,9 +207,6 @@ var indexRoutes = [
   { path: '/jumlatuhaal', name: 'JumlatuHaalPage', component: JumlatuHaalPage },
   { path: '/weakLetters', name: 'WeakLettersPage', component: WeakLettersPage },
   { path: '/about', name: 'AboutPage', component: AboutPage },
-  // { path: '/profile', name: 'ProfilePage', component: ProfilePage },
-  // { path: '/login', name: 'LoginPage', component: LoginPage },
-  // { path: '/components', name: 'Components', component: Components },
   { path: '/contacts', name: 'Contacts', component: Contacts },
   { path: '/', name: 'Home', exact: 'true', component: Home },
   { path: '*', name: 'Home', component: NotFound },
