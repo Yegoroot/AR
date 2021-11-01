@@ -36,25 +36,35 @@ class JumlatuIsmPage extends React.Component {
           fixed
           changeColorOnScroll={{
             height: 200,
-            color: 'white'
+            color: 'white',
           }}
           {...rest}
         />
 
-        <Parallax small filter image={require('assets/img/mosque/mosque3.jpg')} />
+        <Parallax
+          small
+          filter
+          image={require('assets/img/mosque/mosque3.jpg')}
+        />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title">
-                Именное предложение (جملة&nbsp;الاسميّة)&nbsp;<span className="ph">§</span>
+                Именное предложение (جملة&nbsp;الاسميّة)&nbsp;
+                <span className="ph">§</span>
               </h1>
 
               <p className="desc">
-                <b>Именное предложение</b> <span className="desc__ar"> (جملة الاِسمِيّة) </span> – это предложение, которое
+                <b>Именное предложение</b>{' '}
+                <span className="desc__ar"> (جملة الاِسمِيّة) </span> – это
+                предложение, которое
                 <b> начинается с имени </b>. Например:
-                <span className="desc__ar"> الطالِب مجتهد </span> (студент прилежен). Подлежащее именного предложения
-                <span className="desc__ar"> (المُبْتَدَأُ) </span> ставится, как правило, в определённом состоянии, а сказуемое
-                <span className="desc__ar"> (الخَبَرُ) </span> - в неопределённом.
+                <span className="desc__ar"> الطالِب مجتهد </span> (студент
+                прилежен). Подлежащее именного предложения
+                <span className="desc__ar"> (المُبْتَدَأُ) </span> ставится, как
+                правило, в определённом состоянии, а сказуемое
+                <span className="desc__ar"> (الخَبَرُ) </span> - в
+                неопределённом.
               </p>
 
               <h3 className="title">
@@ -62,7 +72,10 @@ class JumlatuIsmPage extends React.Component {
                   Сказуемое выраженное именем&nbsp;✍️
                 </span>
               </h3>
-              <p className="desc">Если сказуемое именного предложения является именем, то оно согласуется с подлежащим в числе и роде:</p>
+              <p className="desc">
+                Если сказуемое именного предложения является именем, то оно
+                согласуется с подлежащим в числе и роде:
+              </p>
               <div className="arsent">
                 <div className="arsent__original">
                   التّلميذُ <span className="contrast"> نشيط </span>
@@ -114,7 +127,8 @@ class JumlatuIsmPage extends React.Component {
 
               <h3 className="title">
                 <span role="img" aria-label="Writing Hand">
-                  Сказуемое выраженное сочетанием предлога родительного падежа и имени&nbsp;✍️
+                  Сказуемое выраженное сочетанием предлога родительного падежа и
+                  имени&nbsp;✍️
                 </span>
               </h3>
               <div className="arsent">

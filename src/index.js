@@ -12,6 +12,8 @@ ReactDOM.render(<App />, document.getElementById('root'))
 serviceWorker.register()
 
 if (!localStorage.getItem('confirmOk')) {
-  window.confirm('На этом сайте есть ошибки, не использовать как опорный. Поситите новый проект madinah.best')
+  window.confirm(
+    'На этом сайте есть ошибки, не использовать как опорный. Поситите новый проект madinah.best'
+  )
   localStorage.setItem('confirmOk', true)
 }

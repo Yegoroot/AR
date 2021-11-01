@@ -15,7 +15,7 @@ function Footer({ ...props }) {
   const footerClasses = classNames({
     [classes.footer]: true,
     [classes.footerWhiteFont]: whiteFont,
-    [classes.footerBlackFont]: footerBlackFont
+    [classes.footerBlackFont]: footerBlackFont,
   })
   //   const aClasses = classNames({
   //     [classes.a]: true,
@@ -27,7 +27,12 @@ function Footer({ ...props }) {
         <div className={classes.left}>
           <List className={classes.list}>
             <ListItem className={classes.inlineBlock}>
-              <a href="http://dict.arabera.org/" rel="noopener noreferrer" className={classes.block} target="_blank">
+              <a
+                href="http://dict.arabera.org/"
+                rel="noopener noreferrer"
+                className={classes.block}
+                target="_blank"
+              >
                 <span role="img" aria-label="finger">
                   👉
                 </span>
@@ -39,7 +44,8 @@ function Footer({ ...props }) {
                 href="http://glagol.reverso.net/%D1%81%D0%BF%D1%80%D1%8F%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B0%D1%80%D0%B0%D0%B1%D1%81%D0%BA%D0%B8%D0%B9.html"
                 rel="noopener noreferrer"
                 className={classes.block}
-                target="_blank">
+                target="_blank"
+              >
                 <span role="img" aria-label="fire">
                   🔥
                 </span>
@@ -64,6 +70,14 @@ function Footer({ ...props }) {
                 Контакты
               </Link>
             </ListItem>
+            <ListItem className={classes.inlineBlock}>
+              <a className={classes.block} href="https://madinah.best">
+                <span role="img" aria-label="send with love">
+                  🚀
+                </span>
+                Новый проект
+              </a>
+            </ListItem>
           </List>
         </div>
         {/* <div className={classes.right}>
@@ -78,7 +92,7 @@ function Footer({ ...props }) {
 Footer.propTypes = {
   classes: PropTypes.object.isRequired,
   whiteFont: PropTypes.bool,
-  onePage: PropTypes.bool
+  onePage: PropTypes.bool,
 }
 
 export default withStyles(footerStyle)(Footer)

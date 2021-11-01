@@ -20,7 +20,7 @@ import { Helmet } from 'react-helmet'
 
 class ShaddaVerbPage extends React.Component {
   state = {
-    value: 0
+    value: 0,
   }
 
   handleChange = (event, value) => {
@@ -33,7 +33,10 @@ class ShaddaVerbPage extends React.Component {
       <div>
         <Helmet>
           <title>Удвоенный глагол (с шаддой) арабского языка</title>
-          <meta name="description" content="В арабском языке трёхбуквенный глагол со сдвоенной коренной спрягается определенным образом" />
+          <meta
+            name="description"
+            content="В арабском языке трёхбуквенный глагол со сдвоенной коренной спрягается определенным образом"
+          />
         </Helmet>
         <Header
           color="transparent"
@@ -43,12 +46,16 @@ class ShaddaVerbPage extends React.Component {
           changeColorOnScroll={{
             height: 200,
 
-            color: 'white'
+            color: 'white',
           }}
           {...rest}
         />
 
-        <Parallax small filter image={require('assets/img/mosque/mosque17.jpg')} />
+        <Parallax
+          small
+          filter
+          image={require('assets/img/mosque/mosque17.jpg')}
+        />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <h1 className="title">
@@ -61,11 +68,13 @@ class ShaddaVerbPage extends React.Component {
             <h2 className="title">
               Глагол с шаддой и لا الناهية&nbsp;
               <span role="img" aria-label="Writing Hand">
-                
                 ✍️
               </span>
             </h2>
-            <p>Если с глаголомШадды приходит لا الناهية то видоизменяется конечная огласовка. Например:</p>
+            <p>
+              Если с глаголомШадды приходит لا الناهية то видоизменяется
+              конечная огласовка. Например:
+            </p>
           </div>
           <img src={shaddaamr} style={{ width: '100%' }} alt="Схема 1" />
         </div>

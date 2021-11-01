@@ -30,11 +30,14 @@ class Components extends React.Component {
           color="transparent"
           changeColorOnScroll={{
             height: 400,
-            color: 'white'
+            color: 'white',
           }}
           {...rest}
         />
-        <Parallax style={{ height: '100vh' }} image={require('assets/img/bg4.jpg')}>
+        <Parallax
+          style={{ height: '100vh' }}
+          image={require('assets/img/bg4.jpg')}
+        >
           <div className={classes.container}>
             <div className={classes.brand}>
               {/* <h1 className={classes.title}>Заметки Арабского  <span role="img" aria-label="Palm Tree"> 📌 </span></h1> */}
@@ -45,8 +48,15 @@ class Components extends React.Component {
                   {' '}
                   📨{' '}
                 </span>
-               &nbsp;
-                <a style={{ color: '#fff', fontSize: 20, fontFamily: 'sans-serif' }} href="mailto:dont.repeat.yourself.ram@gmail.com">
+                &nbsp;
+                <a
+                  style={{
+                    color: '#fff',
+                    fontSize: 20,
+                    fontFamily: 'sans-serif',
+                  }}
+                  href="mailto:dont.repeat.yourself.ram@gmail.com"
+                >
                   dont.repeat.yourself.ram@gmail.com
                 </a>
               </h2>
