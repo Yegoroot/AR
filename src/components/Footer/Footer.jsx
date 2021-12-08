@@ -75,7 +75,7 @@ function Footer({ ...props }) {
                 <span role="img" aria-label="send with love">
                   🚀
                 </span>
-                Новый проект
+                Madinah.best Новый проект
               </a>
             </ListItem>
           </List>
