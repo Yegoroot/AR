@@ -7,10 +7,38 @@ class Routes extends Component {
     return (
       <BrowserRouter>
         <Switch>
-          {indexRoutes.map((prop, key) => (
+          {indexRoutes.map(
+            (prop, key) => {
+              return (
+                <Route
+                  path={prop.path}
+                  key={key}
+                  exact
+                  component={prop.component}
+                />
+              )
+              // if (prop.redirect) {
+              //   return (
+              //     <Route
+              //       path={prop.path}
+              //       component={() => {
+              //         window.location.href = prop.redirect
+              //         return null
+              //       }}
+              //     />
+              //   )
+              // }
+              // return (
+              //   <Route
+              //     path={prop.path}
+              //     key={key}
+              //     exact
+              //     component={prop.component}
+              //   />
+              // )
+            }
             // <Route path={prop.path} key={key}  component={prop.component} {...prop} />
-            <Route path={prop.path} key={key} exact component={prop.component} />
-          ))}
+          )}
         </Switch>
       </BrowserRouter>
     )

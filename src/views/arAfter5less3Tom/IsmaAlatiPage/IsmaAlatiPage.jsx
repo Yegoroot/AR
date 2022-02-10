@@ -26,7 +26,7 @@ class IsmaAlatiPage extends React.Component {
           <title>Имя орудия действия (اسم آلة)</title>
           <meta
             http-equiv="refresh"
-            content="0; url=https://learn.madinah.best/grammar/morphologiya/imya-deystviya/"
+            content="0; url=https://learn.madinah.best/grammar/morphologiya/imya-instrumenta/"
           />
           <meta
             name="description"
