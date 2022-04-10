@@ -192,7 +192,8 @@ function HeaderLinks({ ...props }) {
               className={classes.dropdownLink}
               style={{ fontSize: 20 }}
             >
-              اسماء الافعال
+              {' '}
+              - اسماء الافعال
             </Link>,
             <Link
               to="/ismumaful"
@@ -220,7 +221,8 @@ function HeaderLinks({ ...props }) {
               className={classes.dropdownLink}
               style={{ fontSize: 20 }}
             >
-              اسم آلَة
+              {' '}
+              - اسم آلَة
             </Link>,
             <Link to="/abjectivedegrees" className={classes.dropdownLink}>
               Степени прилагательного

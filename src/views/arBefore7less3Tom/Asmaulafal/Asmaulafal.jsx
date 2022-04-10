@@ -1,26 +1,30 @@
-import React from "react";
+import React from 'react'
 // nodejs library that concatenates classes
-import classNames from "classnames";
+import classNames from 'classnames'
 
 // @material-ui/core components
-import withStyles from "@material-ui/core/styles/withStyles";
+import withStyles from '@material-ui/core/styles/withStyles'
 
 // core components
-import Header from "components/Header/Header.jsx";
-import Footer from "components/Footer/Footer.jsx";
-import HeaderLinks from "components/Header/HeaderLinks.jsx";
-import Parallax from "components/Parallax/Parallax.jsx";
-import arabicPageStyle from "assets/jss/material-kit-react/views/arabicPage.jsx";
-import { Helmet } from "react-helmet";
+import Header from 'components/Header/Header.jsx'
+import Footer from 'components/Footer/Footer.jsx'
+import HeaderLinks from 'components/Header/HeaderLinks.jsx'
+import Parallax from 'components/Parallax/Parallax.jsx'
+import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
+import { Helmet } from 'react-helmet'
 
 class Asmaulafal extends React.Component {
   render() {
-    const { classes, ...rest } = this.props;
+    const { classes, ...rest } = this.props
 
     return (
       <div>
         <Helmet>
           <title>Существительное со смыслом глагола (اسْماءُ الافعال ) </title>
+          <meta
+            http-equiv="refresh"
+            content="0; url=https://learn.madinah.best/grammar/ksvedeniyu/asmaa-alafaal/"
+          />
           <meta
             name="description"
             content="Не является глаголом, но смысл глагола, не склоняется во временах. Бывает некоторые существуют в одном времени, но не
@@ -35,12 +39,16 @@ class Asmaulafal extends React.Component {
           fixed
           changeColorOnScroll={{
             height: 200,
-            color: "white"
+            color: 'white',
           }}
           {...rest}
         />
 
-        <Parallax small filter image={require("assets/img/mosque/mosque10.jpg")} />
+        <Parallax
+          small
+          filter
+          image={require('assets/img/mosque/mosque10.jpg')}
+        />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
@@ -49,9 +57,10 @@ class Asmaulafal extends React.Component {
               </h1>
 
               <div className="desc">
-                <b>Не является глаголом, но смысл глагола</b>, не склоняется во временах. Бывает
-                некоторые существуют в одном времени, но не существуют в другом, т.е имя может
-                существовать в повелительном но не существовать в прошедшем и т.п. Например
+                <b>Не является глаголом, но смысл глагола</b>, не склоняется во
+                временах. Бывает некоторые существуют в одном времени, но не
+                существуют в другом, т.е имя может существовать в повелительном
+                но не существовать в прошедшем и т.п. Например
               </div>
 
               <div className="arsent">
@@ -112,8 +121,8 @@ class Asmaulafal extends React.Component {
         </div>
         <Footer />
       </div>
-    );
+    )
   }
 }
 
-export default withStyles(arabicPageStyle)(Asmaulafal);
+export default withStyles(arabicPageStyle)(Asmaulafal)
