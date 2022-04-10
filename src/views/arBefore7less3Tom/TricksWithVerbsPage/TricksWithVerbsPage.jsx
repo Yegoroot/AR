@@ -24,7 +24,10 @@ class TricksWithVerbsPage extends React.Component {
       <div>
         <Helmet>
           <title>Трюки с арабскими глаголами</title>
-          <meta name="description" content="Арабские глаголы с различными частицами могут иметь различные значения " />
+          <meta
+            name="description"
+            content="Арабские глаголы с различными частицами могут иметь различные значения "
+          />
         </Helmet>
         <Header
           color="transparent"
@@ -33,12 +36,16 @@ class TricksWithVerbsPage extends React.Component {
           fixed
           changeColorOnScroll={{
             height: 200,
-            color: 'white'
+            color: 'white',
           }}
           {...rest}
         />
 
-        <Parallax small filter image={require('assets/img/mosque/mosque18.jpg')} />
+        <Parallax
+          small
+          filter
+          image={require('assets/img/mosque/mosque18.jpg')}
+        />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
@@ -55,8 +62,12 @@ class TricksWithVerbsPage extends React.Component {
                 </span>
               </h2>
               <div className="desc">
-                Некоторые глаголы могут <b> ставить в винительный падеж два прямых дополнения </b> . Например глаголы
-                <span className="desc__ar"> ظَنَّ</span>,<span className="desc__ar"> جَعَلَ </span>,<span className="desc__ar"> رَأى </span>
+                Некоторые глаголы могут{' '}
+                <b> ставить в винительный падеж два прямых дополнения </b> .
+                Например глаголы
+                <span className="desc__ar"> ظَنَّ</span>,
+                <span className="desc__ar"> جَعَلَ </span>,
+                <span className="desc__ar"> رَأى </span>
                 (если رَأى со смыслом "видел сердцем, знал")
               </div>
               <div className="arsent">
@@ -70,14 +81,16 @@ class TricksWithVerbsPage extends React.Component {
                     <Word root="حرام" suffix="اً" />
                   </span>
                 </div>
-                <div className="arsent__translate">Я считаю тебя слабым</div>
+                <div className="arsent__translate">
+                  Аллахъ запретил алкгоголь
+                </div>
               </div>
               <div className="arsent">
                 <div className="arsent__original">
                   <Word root="أَرا" suffix="كَ" negative />
                   <span> </span>
                   <span>
-                    <Word root="حرضَعِيفام" suffix="اً" />
+                    <Word root="ضَعِيف" suffix="اً" />
                   </span>
                 </div>
                 <div className="arsent__translate">Я считаю тебя слабым</div>
@@ -93,7 +106,9 @@ class TricksWithVerbsPage extends React.Component {
                     <Word root="مُجْتَهِد" suffix="ينَ" />
                   </span>
                 </div>
-                <div className="arsent__translate">А ты знаешь старательных студентов</div>
+                <div className="arsent__translate">
+                  А ты знаешь старательных студентов
+                </div>
               </div>
             </div>
           </div>
