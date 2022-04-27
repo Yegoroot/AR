@@ -9,11 +9,4 @@ import App from './App'
 import * as serviceWorker from './serviceWorker'
 
 ReactDOM.render(<App />, document.getElementById('root'))
-serviceWorker.register()
-
-if (!localStorage.getItem('confirmOk')) {
-  window.confirm(
-    'На этом сайте есть ошибки, не использовать как опорный. Поситите новый проект madinah.best'
-  )
-  localStorage.setItem('confirmOk', true)
-}
+serviceWorker.unregister()

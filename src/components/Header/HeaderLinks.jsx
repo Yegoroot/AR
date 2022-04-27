@@ -136,7 +136,9 @@ function HeaderLinks({ ...props }) {
               Сарф глаголов
             </Link>,
             <Link to="/verbtransitive" className={classes.dropdownLink}>
+              {' - '}
               Переходность глагола
+              {' - '}
             </Link>,
             <Link to="/breed2" className={classes.dropdownLink}>
               II порода глагола
@@ -192,8 +194,9 @@ function HeaderLinks({ ...props }) {
               className={classes.dropdownLink}
               style={{ fontSize: 20 }}
             >
-              {' '}
-              - اسماء الافعال
+              {' - '}
+              اسماء الافعال
+              {' - '}
             </Link>,
             <Link
               to="/ismumaful"
@@ -221,8 +224,9 @@ function HeaderLinks({ ...props }) {
               className={classes.dropdownLink}
               style={{ fontSize: 20 }}
             >
-              {' '}
-              - اسم آلَة
+              {' - '}
+              اسم آلَة
+              {' - '}
             </Link>,
             <Link to="/abjectivedegrees" className={classes.dropdownLink}>
               Степени прилагательного

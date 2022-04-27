@@ -25,6 +25,10 @@ class VerbTransitiveAndNo extends React.Component {
         <Helmet>
           <title>Переходность арабских глаголов</title>
           <meta
+            http-equiv="refresh"
+            content="0; url=https://learn.madinah.best/grammar/glagol/perehodnoy/"
+          />
+          <meta
             name="description"
             content='Переходной можно назвать "заразный" это такой глагол действия которого от الفاعِل (деятеля) перешло на المَفْعُول بِه (прямое
               дополнение)'
@@ -39,20 +43,27 @@ class VerbTransitiveAndNo extends React.Component {
           changeColorOnScroll={{
             height: 200,
 
-            color: 'white'
+            color: 'white',
           }}
           {...rest}
         />
-        <Parallax small filter image={require('assets/img/mosque/mosque24.jpg')} />
+        <Parallax
+          small
+          filter
+          image={require('assets/img/mosque/mosque24.jpg')}
+        />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title">
-                Переходной и непереходной глагол&nbsp;<span className="ph">§</span>
+                Переходной и непереходной глагол&nbsp;
+                <span className="ph">§</span>
               </h1>
 
               <div className="desc">
-                Глагол бывает <b> переходным </b> <span className="desc__ar"> فَالْمُتَعَدِّي </span> и <b> непереходным </b>
+                Глагол бывает <b> переходным </b>{' '}
+                <span className="desc__ar"> فَالْمُتَعَدِّي </span> и{' '}
+                <b> непереходным </b>
                 <span className="desc__ar"> الَازِمُ </span> .
               </div>
 
@@ -64,12 +75,17 @@ class VerbTransitiveAndNo extends React.Component {
               </h2>
 
               <div className="desc">
-                Переходной можно назвать "заразный" это такой глагол <b>действия которого от </b>
+                Переходной можно назвать "заразный" это такой глагол{' '}
+                <b>действия которого от </b>
                 <b className="desc__ar"> الفاعِل </b>
-                (деятеля) <b> перешло на </b> <b className="desc__ar"> المَفْعُول بِه </b> (прямое дополнение)
+                (деятеля) <b> перешло на </b>{' '}
+                <b className="desc__ar"> المَفْعُول بِه </b> (прямое дополнение)
                 <br />
                 <br />
-                Такой глагол нуждается в <b className="desc__ar"> الفاعِل </b> и <b className="desc__ar"> المَفْعُول بِه </b>
+                Такой глагол нуждается в <b className="desc__ar">
+                  {' '}
+                  الفاعِل{' '}
+                </b> и <b className="desc__ar"> المَفْعُول بِه </b>
               </div>
 
               <div className="arsent">
@@ -79,12 +95,15 @@ class VerbTransitiveAndNo extends React.Component {
                   <span> عليه السلام </span>
                   <span className="contrast_2"> الكَعَبَةَ </span>
                 </div>
-                <div className="arsent__translate">Построил Ибрахим (Мир Ему) Каабу</div>
+                <div className="arsent__translate">
+                  Построил Ибрахим (Мир Ему) Каабу
+                </div>
               </div>
 
               <div className="desc">
-                И его признаком является, то что он может принять <b className="desc__ar"> هَاءَ الضَمِير </b> (ха местоимённое) которое
-                будет возвращаться на прямое дополнение
+                И его признаком является, то что он может принять{' '}
+                <b className="desc__ar"> هَاءَ الضَمِير </b> (ха местоимённое)
+                которое будет возвращаться на прямое дополнение
               </div>
 
               <div className="arsent">
@@ -94,7 +113,9 @@ class VerbTransitiveAndNo extends React.Component {
                   <span> و </span>
                   <Word root="فَهِمَ" suffix="هُ" color2 />
                 </div>
-                <div className="arsent__translate">Он читал урок и понял его (урок)</div>
+                <div className="arsent__translate">
+                  Он читал урок и понял его (урок)
+                </div>
               </div>
 
               <h2 className="title">
@@ -105,7 +126,8 @@ class VerbTransitiveAndNo extends React.Component {
               </h2>
 
               <div className="desc">
-                <b>Непереходной </b> это такой глагол, действие которого остаётся в нем самом
+                <b>Непереходной </b> это такой глагол, действие которого
+                остаётся в нем самом
               </div>
 
               <div className="arsent">
@@ -126,7 +148,8 @@ class VerbTransitiveAndNo extends React.Component {
 
               <div className="desc">
                 Но иногда непереходной глагол становится переходным при помощи
-                <b className="desc__ar"> حرف الجَرّ </b> <b> (предлога родительного падежа)</b>
+                <b className="desc__ar"> حرف الجَرّ </b>{' '}
+                <b> (предлога родительного падежа)</b>
               </div>
 
               <div className="arsent">
@@ -136,7 +159,9 @@ class VerbTransitiveAndNo extends React.Component {
                   <span className="contrast_2"> على </span>
                   <span> الطالِب الكسلانِ </span>
                 </div>
-                <div className="arsent__translate">Разгневан учитель на ленивых студентов </div>
+                <div className="arsent__translate">
+                  Разгневан учитель на ленивых студентов{' '}
+                </div>
               </div>
 
               <h2 className="title">
@@ -149,7 +174,8 @@ class VerbTransitiveAndNo extends React.Component {
                 Непереходной становится переходным когда
                 <b>
                   {' '}
-                  из первой породы переносится во II (<b className="desc__ar"> فَعَّلَ </b>) или в IV (
+                  из первой породы переносится во II (
+                  <b className="desc__ar"> فَعَّلَ </b>) или в IV (
                   <b className="desc__ar"> أَفْعَلَ </b>)
                 </b>
               </div>
@@ -170,7 +196,9 @@ class VerbTransitiveAndNo extends React.Component {
                   <span className="contrast_2"> حامِداً </span>
                   <span> من الفصلِ </span>
                 </div>
-                <div className="arsent__translate">Учитель вывел Хамида из класса </div>
+                <div className="arsent__translate">
+                  Учитель вывел Хамида из класса{' '}
+                </div>
               </div>
 
               <div className="arsent">
@@ -178,7 +206,9 @@ class VerbTransitiveAndNo extends React.Component {
                   <span className="contrast"> نَزَل </span>
                   <span> الجَرِيْحُ من سيَّارة الإسْعافِ </span>
                 </div>
-                <div className="arsent__translate">Спустился раненый с кареты скорой помощи </div>
+                <div className="arsent__translate">
+                  Спустился раненый с кареты скорой помощи{' '}
+                </div>
               </div>
 
               <div className="arsent">
@@ -188,7 +218,9 @@ class VerbTransitiveAndNo extends React.Component {
                   <span className="contrast_2"> الجريْحَ </span>
                   <span> من سيارة الإسْعافِ </span>
                 </div>
-                <div className="arsent__translate">Спустилия медбратья раненного с кареты скорой помощи </div>
+                <div className="arsent__translate">
+                  Спустилия медбратья раненного с кареты скорой помощи{' '}
+                </div>
               </div>
 
               <h3 className="title"> По модели (II) </h3>
@@ -198,7 +230,10 @@ class VerbTransitiveAndNo extends React.Component {
                   <span className="contrast"> نَزَلَ </span>
                   <span> الطِفلُ من الطائِرة </span>
                 </div>
-                <div className="arsent__translate"> Спустился ребёнок с самолета </div>
+                <div className="arsent__translate">
+                  {' '}
+                  Спустился ребёнок с самолета{' '}
+                </div>
               </div>
               <div className="arsent">
                 <div className="arsent__original">
@@ -206,7 +241,10 @@ class VerbTransitiveAndNo extends React.Component {
                   <span className="contrast_2"> الطِفْلَ </span>
                   <span> من الطائِرة </span>
                 </div>
-                <div className="arsent__translate"> Спустил я ребёнка с самолёта </div>
+                <div className="arsent__translate">
+                  {' '}
+                  Спустил я ребёнка с самолёта{' '}
+                </div>
               </div>
 
               <div className="arsent">
@@ -222,7 +260,10 @@ class VerbTransitiveAndNo extends React.Component {
                   <span> الحواءُ </span>
                   <span className="contrast_2"> المَرِيضَ </span>
                 </div>
-                <div className="arsent__translate"> Лекарства усыпили больного </div>
+                <div className="arsent__translate">
+                  {' '}
+                  Лекарства усыпили больного{' '}
+                </div>
               </div>
 
               <h2 className="title">
@@ -232,7 +273,8 @@ class VerbTransitiveAndNo extends React.Component {
                 </span>
               </h2>
               <div className="desc">
-                Если первообразный (изначальный трёхбуквенный) глагол является переходным, то он станет <b> вдвойне переходным </b> если его
+                Если первообразный (изначальный трёхбуквенный) глагол является
+                переходным, то он станет <b> вдвойне переходным </b> если его
                 перености во II или в IV. Например:
               </div>
 
@@ -250,7 +292,10 @@ class VerbTransitiveAndNo extends React.Component {
                   <span> الطلابُ </span>
                   <span className="contrast_2"> المدرسَ القرآنَ </span>
                 </div>
-                <div className="arsent__translate"> Заставили студенты слушать Учителя Коран </div>
+                <div className="arsent__translate">
+                  {' '}
+                  Заставили студенты слушать Учителя Коран{' '}
+                </div>
               </div>
 
               <div className="arsent">
@@ -267,7 +312,10 @@ class VerbTransitiveAndNo extends React.Component {
                   <span> المدرِّس </span>
                   <span className="contrast_2"> الطالبَ الدرسَ</span>
                 </div>
-                <div className="arsent__translate"> Заставил учитель студента понять урок (ох уж эти учителя) </div>
+                <div className="arsent__translate">
+                  {' '}
+                  Заставил учитель студента понять урок (ох уж эти учителя){' '}
+                </div>
               </div>
 
               {/* --------------------- */}
