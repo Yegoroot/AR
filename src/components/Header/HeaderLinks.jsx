@@ -37,7 +37,7 @@ function HeaderLinks({ ...props }) {
           }}
           dropdownList={[
             <Link to="/idafa" className={classes.dropdownLink}>
-              Несогласованное определение
+              - Несогласованное определение -
             </Link>,
             <Link to="/soglasopr" className={classes.dropdownLink}>
               Согласованное определение
