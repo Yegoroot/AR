@@ -29,6 +29,10 @@ class IsmulMakanWaZamanPage extends React.Component {
             name="description"
             content="Иногда к именам места и времени присоединяется ة и некоторые ученые говорят что эта та-марбута указывает на постоянство действия"
           />
+          <meta
+            http-equiv="refresh"
+            content="0; url=https://learn.madinah.best/grammar/morphologiya/imya-deystviya-i-vremenyi/"
+          />
         </Helmet>
         <Header
           color="transparent"
