@@ -217,7 +217,7 @@ function HeaderLinks({ ...props }) {
               className={classes.dropdownLink}
               style={{ fontSize: 20 }}
             >
-              اسم مكان و زمان
+              - اسم مكان و زمان -
             </Link>,
             <Link
               to="/ismaalati"
