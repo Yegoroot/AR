@@ -24,6 +24,10 @@ class Page extends React.Component {
             name="description"
             content="В арабском языке имеются восемь частиц для выражения исключения إِلَّا   غَيْرُ سِوَى سُوَى سَوَاءٌ خَلَا عَدَا حَاشَا "
           />
+          <meta
+            http-equiv="refresh"
+            content="0; url=https://learn.madinah.best/grammar/ksvedeniyu/exception/"
+          />
         </Helmet>
         <Header
           color="transparent"
@@ -33,12 +37,16 @@ class Page extends React.Component {
           fixed
           changeColorOnScroll={{
             height: 200,
-            color: 'white'
+            color: 'white',
           }}
           {...rest}
         />
 
-        <Parallax small filter image={require('assets/img/mosque/mosque7.jpg')} />
+        <Parallax
+          small
+          filter
+          image={require('assets/img/mosque/mosque7.jpg')}
+        />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
@@ -46,8 +54,14 @@ class Page extends React.Component {
                 Выражение исключения&nbsp;<span className="ph">§</span>
               </h1>
               <div className="desc">
-                Имеется восемь частиц исключения со смыслом <b>кроме, исключая</b>.<span className="desc__ar"> إِلَّا </span>(частица),
-                <span className="desc__ar"> غَيْرُ سِوَى سُوَى سَوَاءٌ خَلَا عَدَا حَاشَا </span> (имена)
+                Имеется восемь частиц исключения со смыслом{' '}
+                <b>кроме, исключая</b>.
+                <span className="desc__ar"> إِلَّا </span>(частица),
+                <span className="desc__ar">
+                  {' '}
+                  غَيْرُ سِوَى سُوَى سَوَاءٌ خَلَا عَدَا حَاشَا{' '}
+                </span>{' '}
+                (имена)
               </div>
 
               <h2 className="title">
@@ -56,7 +70,8 @@ class Page extends React.Component {
                 </span>
               </h2>
               <div className="desc">
-                Если предложение утвердительное, то исключаемое имя после частицы <span className="desc__ar"> إِلَّا </span> обязательно
+                Если предложение утвердительное, то исключаемое имя после
+                частицы <span className="desc__ar"> إِلَّا </span> обязательно
                 ставится в винительный падеж,
               </div>
 
@@ -67,7 +82,9 @@ class Page extends React.Component {
                   <span>زَيْدا</span>
                   <span className="contrast">ً</span>
                 </div>
-                <div className="arsent__translate">Все, кроме Зейда, встали</div>
+                <div className="arsent__translate">
+                  Все, кроме Зейда, встали
+                </div>
               </div>
 
               <div className="arsent">
@@ -77,7 +94,9 @@ class Page extends React.Component {
                   <span>عَمْرا</span>
                   <span className="contrast">ً</span>
                 </div>
-                <div className="arsent__translate">Люди вышли, исключая Амра</div>
+                <div className="arsent__translate">
+                  Люди вышли, исключая Амра
+                </div>
               </div>
 
               <h2 className="title">
@@ -86,8 +105,10 @@ class Page extends React.Component {
                 </span>
               </h2>
               <div className="desc">
-                В отрицательном предложениях или вопросительных <b>исключаемое слово либо согласуется</b> с тем понятием, из которого оно
-                исключается, <b>либо ставится в винительный падеж</b>
+                В отрицательном предложениях или вопросительных{' '}
+                <b>исключаемое слово либо согласуется</b> с тем понятием, из
+                которого оно исключается,{' '}
+                <b>либо ставится в винительный падеж</b>
               </div>
               <div className="arsent">
                 <div className="arsent__original">
@@ -101,7 +122,10 @@ class Page extends React.Component {
                   <span>حامِد</span>
                   <span className="contrast">ٌ</span>
                 </div>
-                <div className="arsent__translate"> Не прибыл из студентов никто, кроме Хамида </div>
+                <div className="arsent__translate">
+                  {' '}
+                  Не прибыл из студентов никто, кроме Хамида{' '}
+                </div>
               </div>
               <div className="arsent">
                 <div className="arsent__original">
@@ -115,7 +139,10 @@ class Page extends React.Component {
                   <span>حامِد</span>
                   <span className="contrast">ٍ</span>
                 </div>
-                <div className="arsent__translate"> Не звоните никому, кроме Хамида </div>
+                <div className="arsent__translate">
+                  {' '}
+                  Не звоните никому, кроме Хамида{' '}
+                </div>
               </div>
 
               <h2 className="title">
@@ -124,8 +151,10 @@ class Page extends React.Component {
                 </span>
               </h2>
               <div className="desc">
-                Если (отрицательное) предложение неполное (то есть, не указано то, из чего исключают), то исключаемое ставится в тот падеж,
-                в котором оно бы стояло бы без частицы <span className="desc__ar"> إِلَّا </span>
+                Если (отрицательное) предложение неполное (то есть, не указано
+                то, из чего исключают), то исключаемое ставится в тот падеж, в
+                котором оно бы стояло бы без частицы{' '}
+                <span className="desc__ar"> إِلَّا </span>
               </div>
               <div className="arsent">
                 <div className="arsent__original">
@@ -135,7 +164,10 @@ class Page extends React.Component {
                   <span>زَيْد</span>
                   <span className="contrast">ٌ</span>
                 </div>
-                <div className="arsent__translate"> Никто, кроме Зейда, не встал </div>
+                <div className="arsent__translate">
+                  {' '}
+                  Никто, кроме Зейда, не встал{' '}
+                </div>
               </div>
               <div className="arsent">
                 <div className="arsent__original">
@@ -145,7 +177,10 @@ class Page extends React.Component {
                   <span>زَيْدا</span>
                   <span className="contrast">ً</span>
                 </div>
-                <div className="arsent__translate"> Никого, кроме Зейда, я не побил </div>
+                <div className="arsent__translate">
+                  {' '}
+                  Никого, кроме Зейда, я не побил{' '}
+                </div>
               </div>
               <div className="arsent">
                 <div className="arsent__original">
@@ -155,7 +190,10 @@ class Page extends React.Component {
                   <span>بِزَيْد</span>
                   <span className="contrast">ٍ</span>
                 </div>
-                <div className="arsent__translate"> Я прошёл рядом, только с Зейдом </div>
+                <div className="arsent__translate">
+                  {' '}
+                  Я прошёл рядом, только с Зейдом{' '}
+                </div>
               </div>
 
               <h2 className="title">
@@ -164,13 +202,18 @@ class Page extends React.Component {
                 </span>
               </h2>
               <div className="desc">
-                После слов: <span className="desc__ar"> غَيْر, سِوَى, سُوَى, سَوَاء </span> исключаемое ставится в родительный падеж, так
-                как они являются именами, с которыми исключаемое имя <b> образует несогласованное определение </b> (идафу).
+                После слов:{' '}
+                <span className="desc__ar"> غَيْر, سِوَى, سُوَى, سَوَاء </span>{' '}
+                исключаемое ставится в родительный падеж, так как они являются
+                именами, с которыми исключаемое имя{' '}
+                <b> образует несогласованное определение </b> (идафу).
               </div>
 
               <div className="desc">
-                После слов: <span className="desc__ar"> خَلَا, عَدَا, حَاشَا </span> исключаемое имя можно поставить как в винительный
-                падеж, так и в родительный
+                После слов:{' '}
+                <span className="desc__ar"> خَلَا, عَدَا, حَاشَا </span>{' '}
+                исключаемое имя можно поставить как в винительный падеж, так и в
+                родительный
               </div>
               <div className="arsent">
                 <div className="arsent__original">
@@ -182,7 +225,10 @@ class Page extends React.Component {
                   <span>وَزَيْد</span>
                   <span className="contrast">ٍ</span>
                 </div>
-                <div className="arsent__translate"> Все встали, кроме Зейда </div>
+                <div className="arsent__translate">
+                  {' '}
+                  Все встали, кроме Зейда{' '}
+                </div>
               </div>
             </div>
           </div>
