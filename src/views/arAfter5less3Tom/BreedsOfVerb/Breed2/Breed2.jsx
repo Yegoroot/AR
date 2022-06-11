@@ -18,6 +18,10 @@ class AlMafuluFihi extends React.Component {
         <Helmet>
           <title>2 порода арабского глагола</title>
           <meta
+            http-equiv="refresh"
+            content="0; url=https://learn.madinah.best/grammar/breeds-verb/breed-2/"
+          />
+          <meta
             name="description"
             content="Глагол второй породы приходит со значениями: учащение (التَكْثِيرُ) или
             (المُبَالَغَةُ) усиление. Образуется по шаблону فَعَّلَ и происходит от первообразного с добавлением одной служебной буквы"
