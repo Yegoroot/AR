@@ -23,7 +23,7 @@ class Asmaulafal extends React.Component {
           <title>Существительное со смыслом глагола (اسْماءُ الافعال ) </title>
           <meta
             http-equiv="refresh"
-            content="0; url=https://learn.madinah.best/grammar/ksvedeniyu/asmaa-alafaal/"
+            content="0; url=https://grammar.arabic.best/ru/rules/ksvedeniyu/asmaa-alafaal"
           />
           <meta
             name="description"

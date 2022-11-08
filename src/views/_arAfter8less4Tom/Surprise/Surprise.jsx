@@ -20,7 +20,14 @@ class Page extends React.Component {
       <div>
         <Helmet>
           <title>Как удивляться по арабски</title>
-          <meta name="description" content="В арабском существует две классические формы (модели) удивления" />
+          <meta
+            name="description"
+            content="В арабском существует две классические формы (модели) удивления"
+          />
+          <meta
+            http-equiv="refresh"
+            content="0; url=https://grammar.arabic.best/ru/rules/construction-of-speech/surprise-expression"
+          />
         </Helmet>
         <Header
           color="transparent"
@@ -31,22 +38,29 @@ class Page extends React.Component {
           changeColorOnScroll={{
             height: 200,
 
-            color: 'white'
+            color: 'white',
           }}
           {...rest}
         />
 
-        <Parallax small filter image={require('assets/img/mosque/mosque16.jpg')} />
+        <Parallax
+          small
+          filter
+          image={require('assets/img/mosque/mosque16.jpg')}
+        />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title">
                 Формы удивления&nbsp;<span className="ph">§</span>
               </h1>
-              <div className="desc">В арабском существует две классические формы (модели) удивления.</div>
+              <div className="desc">
+                В арабском существует две классические формы (модели) удивления.
+              </div>
 
               <h2 className="h2ar">
-                ما أفْعَلَهُ<span role="img" aria-label="Writing Hand">
+                ما أفْعَلَهُ
+                <span role="img" aria-label="Writing Hand">
                   &nbsp;✍️
                 </span>
               </h2>
@@ -61,7 +75,8 @@ class Page extends React.Component {
               </div>
 
               <h2 className="h2ar">
-                أفْعِلْ بِهِ!<span role="img" aria-label="Writing Hand">
+                أفْعِلْ بِهِ!
+                <span role="img" aria-label="Writing Hand">
                   &nbsp;✍️
                 </span>
               </h2>

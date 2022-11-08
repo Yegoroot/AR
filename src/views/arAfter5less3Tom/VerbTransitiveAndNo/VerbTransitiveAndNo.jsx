@@ -26,7 +26,7 @@ class VerbTransitiveAndNo extends React.Component {
           <title>Переходность арабских глаголов</title>
           <meta
             http-equiv="refresh"
-            content="0; url=https://learn.madinah.best/grammar/glagol/perehodnoy/"
+            content="0; url=https://grammar.arabic.best/ru/rules/verbs/perehodnoy"
           />
           <meta
             name="description"

@@ -18,8 +18,15 @@ class IsmChislitelPage extends React.Component {
     return (
       <div>
         <Helmet>
+          <meta
+            http-equiv="refresh"
+            content="0; url=https://grammar.arabic.best/ru/rules/bonus/100"
+          />
           <title>Арабские числительные с 100</title>
-          <meta name="description" content="Вариации арабских числительных с сотнями" />
+          <meta
+            name="description"
+            content="Вариации арабских числительных с сотнями"
+          />
         </Helmet>
         <Header
           color="transparent"
@@ -29,12 +36,16 @@ class IsmChislitelPage extends React.Component {
           changeColorOnScroll={{
             height: 200,
 
-            color: 'white'
+            color: 'white',
           }}
           {...rest}
         />
 
-        <Parallax small filter image={require('assets/img/mosque/mosque11.jpg')} />
+        <Parallax
+          small
+          filter
+          image={require('assets/img/mosque/mosque11.jpg')}
+        />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
@@ -43,7 +54,9 @@ class IsmChislitelPage extends React.Component {
               </h1>
               <div className="arsent">
                 <div className="arsent__original">
-                  مِئَةُ - مِئَتَانِ - ثَلاثُمِئَةَ - أرْبَعُمِئَةَ - خَمْسُمِئَةَ - سِتُّمِئَةَ - سَبعُمِئَةَ - ثَمانمِئَةَ - تِسْعُمِئة
+                  مِئَةُ - مِئَتَانِ - ثَلاثُمِئَةَ - أرْبَعُمِئَةَ -
+                  خَمْسُمِئَةَ - سِتُّمِئَةَ - سَبعُمِئَةَ - ثَمانمِئَةَ -
+                  تِسْعُمِئة
                 </div>
               </div>
             </div>

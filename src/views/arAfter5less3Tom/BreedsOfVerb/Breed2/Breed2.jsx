@@ -19,7 +19,7 @@ class AlMafuluFihi extends React.Component {
           <title>2 порода арабского глагола</title>
           <meta
             http-equiv="refresh"
-            content="0; url=https://learn.madinah.best/grammar/breeds-verb/breed-2/"
+            content="0; url=https://grammar.arabic.best/ru/rules/verbs/breed-2"
           />
           <meta
             name="description"

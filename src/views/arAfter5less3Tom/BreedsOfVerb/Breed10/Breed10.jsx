@@ -18,7 +18,7 @@ class Breed4 extends React.Component {
           <title>9 порода арабского глагола</title>
           <meta
             http-equiv="refresh"
-            content="0; url=https://learn.madinah.best/grammar/breeds-verb/breed-10/"
+            content="0; url=https://grammar.arabic.best/ru/rules/verbs/breed-10"
           />
 
           <meta

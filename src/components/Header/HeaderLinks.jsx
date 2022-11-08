@@ -229,7 +229,7 @@ function HeaderLinks({ ...props }) {
               {' - '}
             </Link>,
             <Link to="/abjectivedegrees" className={classes.dropdownLink}>
-              Степени прилагательного
+              - Степени прилагательного -
             </Link>,
             <Link to="/affectionateword" className={classes.dropdownLink}>
               Уменьшительно ласкательные
@@ -341,7 +341,7 @@ function HeaderLinks({ ...props }) {
               Прекрасные имена Аллахъа
             </Link>,
             <Link to="/accent" className={classes.dropdownLink}>
-              Акцент на объекте
+              - Акцент на объекте -
             </Link>,
             <Link to="/dua" className={classes.dropdownLink}>
               Дуа
@@ -350,7 +350,7 @@ function HeaderLinks({ ...props }) {
               Страдательный залог и мафъуль
             </Link>,
             <Link to="/chislitel100" className={classes.dropdownLink}>
-              Числительные с 100
+              - Числительные с 100 -
             </Link>,
             <Link
               to="/minqoblu"
@@ -363,7 +363,7 @@ function HeaderLinks({ ...props }) {
               Мн. и дв. число
             </Link>,
             <Link to="/surprise" className={classes.dropdownLink}>
-              Формы удивления
+              - Формы удивления -
             </Link>,
           ]}
         />

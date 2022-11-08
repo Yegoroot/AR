@@ -27,7 +27,7 @@ class IdafaPage extends React.Component {
           </title>
           <meta
             http-equiv="refresh"
-            content="0; url=https://learn.madinah.best/grammar/perviye-shagi/idafah/"
+            content="0; url=https://grammar.arabic.best/ru/rules/first-steps/idafah"
           />
           <meta
             name="description"

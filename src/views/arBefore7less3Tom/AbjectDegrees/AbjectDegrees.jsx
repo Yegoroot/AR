@@ -1,34 +1,40 @@
-import React from "react";
+import React from 'react'
 // nodejs library that concatenates classes
-import classNames from "classnames";
+import classNames from 'classnames'
 
 // @material-ui/core components
-import withStyles from "@material-ui/core/styles/withStyles";
+import withStyles from '@material-ui/core/styles/withStyles'
 
 // core components
-import Header from "components/Header/Header.jsx";
-import Footer from "components/Footer/Footer.jsx";
+import Header from 'components/Header/Header.jsx'
+import Footer from 'components/Footer/Footer.jsx'
 
-import HeaderLinks from "components/Header/HeaderLinks.jsx";
+import HeaderLinks from 'components/Header/HeaderLinks.jsx'
 
-import Parallax from "components/Parallax/Parallax.jsx";
+import Parallax from 'components/Parallax/Parallax.jsx'
 
-import Word from "components/word";
+import Word from 'components/word'
 
-import arabicPageStyle from "assets/jss/material-kit-react/views/arabicPage.jsx";
-import { Helmet } from "react-helmet";
+import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
+import { Helmet } from 'react-helmet'
 
 class AbjectDegrees extends React.Component {
   render() {
-    const { classes, ...rest } = this.props;
+    const { classes, ...rest } = this.props
 
     return (
       <div>
         <Helmet>
-          <title>Сравнительная и превосходная степень арабских прилагательных</title>
+          <title>
+            Сравнительная и превосходная степень арабских прилагательных
+          </title>
           <meta
             name="description"
             content="В арабском языке можно выделить: прилагательные сравнительной, превосходной степени и обыкновенные"
+          />
+          <meta
+            http-equiv="refresh"
+            content="0; url=https://grammar.arabic.best/ru/rules/derivatives/preference-name"
           />
         </Helmet>
         <Header
@@ -40,22 +46,27 @@ class AbjectDegrees extends React.Component {
           changeColorOnScroll={{
             height: 200,
 
-            color: "white"
+            color: 'white',
           }}
           {...rest}
         />
 
-        <Parallax small filter image={require("assets/img/mosque/mosque17.jpg")} />
+        <Parallax
+          small
+          filter
+          image={require('assets/img/mosque/mosque17.jpg')}
+        />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title">
-                Превосходная и сравнительная степень&nbsp;<span className="ph">§</span>
+                Превосходная и сравнительная степень&nbsp;
+                <span className="ph">§</span>
               </h1>
 
               <div className="desc">
-                Прилагательные можно разделить на три группы <b>сравнительные</b>,
-                <b> превосходные </b> и обыкновенные
+                Прилагательные можно разделить на три группы{' '}
+                <b>сравнительные</b>,<b> превосходные </b> и обыкновенные
               </div>
               <h2 className="title">
                 Сравнительная степень أفْعَل مِنْهُ
@@ -70,7 +81,8 @@ class AbjectDegrees extends React.Component {
                   <Word prefix="مِنْ" root="هُ" />
                 </div>
                 <div className="arsent__translate">
-                  Хашим высокий, но Хамид <span className="contrast">выше его </span>
+                  Хашим высокий, но Хамид{' '}
+                  <span className="contrast">выше его </span>
                 </div>
               </div>
 
@@ -97,8 +109,8 @@ class AbjectDegrees extends React.Component {
         </div>
         <Footer />
       </div>
-    );
+    )
   }
 }
 
-export default withStyles(arabicPageStyle)(AbjectDegrees);
+export default withStyles(arabicPageStyle)(AbjectDegrees)

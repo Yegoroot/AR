@@ -31,7 +31,7 @@ class IsmulMakanWaZamanPage extends React.Component {
           />
           <meta
             http-equiv="refresh"
-            content="0; url=https://learn.madinah.best/grammar/morphologiya/imya-deystviya-i-vremenyi/"
+            content="0; url=https://grammar.arabic.best/ru/rules/derivatives/imya-deystviya-i-vremenyi"
           />
         </Helmet>
         <Header

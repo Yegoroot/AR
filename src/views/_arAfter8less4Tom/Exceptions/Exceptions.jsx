@@ -26,7 +26,7 @@ class Page extends React.Component {
           />
           <meta
             http-equiv="refresh"
-            content="0; url=https://learn.madinah.best/grammar/ksvedeniyu/exception/"
+            content="0; url=https://grammar.arabic.best/ru/rules/ksvedeniyu/exception"
           />
         </Helmet>
         <Header

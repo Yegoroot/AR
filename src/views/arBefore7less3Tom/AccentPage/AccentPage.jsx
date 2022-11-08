@@ -20,7 +20,14 @@ class AccentPage extends React.Component {
       <div>
         <Helmet>
           <title>Как точно задать вопрос в арабском языке</title>
-          <meta name="description" content="Акцентирование смысла в арабских предложениях в зависимости от того, что хотим спросить" />
+          <meta
+            name="description"
+            content="Акцентирование смысла в арабских предложениях в зависимости от того, что хотим спросить"
+          />
+          <meta
+            http-equiv="refresh"
+            content="0; url=https://grammar.arabic.best/ru/rules/construction-of-speech/accent-question"
+          />
         </Helmet>
         <Header
           color="transparent"
@@ -29,19 +36,26 @@ class AccentPage extends React.Component {
           fixed
           changeColorOnScroll={{
             height: 200,
-            color: 'white'
+            color: 'white',
           }}
           {...rest}
         />
 
-        <Parallax small filter image={require('assets/img/mosque/mosque7.jpg')} />
+        <Parallax
+          small
+          filter
+          image={require('assets/img/mosque/mosque7.jpg')}
+        />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title">
                 Более точно задать вопрос&nbsp;<span className="ph">§</span>
               </h1>
-              <p className="desc">В зависимости от того что хотим спросить и расставляем [акцентируем] слова</p>
+              <p className="desc">
+                В зависимости от того что хотим спросить и расставляем
+                [акцентируем] слова
+              </p>
 
               <div className="arsent">
                 <div className="arsent__original">
@@ -49,34 +63,41 @@ class AccentPage extends React.Component {
                   <span> قتلتَ العقربُ في الفصلِ؟ </span>
                 </div>
                 <div className="arsent__translate">
-                  А <span className="contrast"> ты </span>(или другой) убил скорпиона к классе?
+                  А <span className="contrast"> ты </span>(или другой) убил
+                  скорпиона к классе?
                 </div>
               </div>
 
               <div className="arsent">
                 <div className="arsent__original">
-                  أ <span className="contrast"> قتلتَ </span> أنتَ العقربُ في الفصلِ؟
+                  أ <span className="contrast"> قتلتَ </span> أنتَ العقربُ في
+                  الفصلِ؟
                 </div>
                 <div className="arsent__translate">
-                  А <span className="contrast"> убил ты </span>(или он жив) скорпиона к классе?
+                  А <span className="contrast"> убил ты </span>(или он жив)
+                  скорпиона к классе?
                 </div>
               </div>
 
               <div className="arsent">
                 <div className="arsent__original">
-                  أ <span className="contrast"> عقربَ </span>قتلتَ أنتَ في الفصلِ؟
+                  أ <span className="contrast"> عقربَ </span>قتلتَ أنتَ في
+                  الفصلِ؟
                 </div>
                 <div className="arsent__translate">
-                  А <span className="contrast"> скорпиона </span>(или другое) ты убил в классе?
+                  А <span className="contrast"> скорпиона </span>(или другое) ты
+                  убил в классе?
                 </div>
               </div>
 
               <div className="arsent">
                 <div className="arsent__original">
-                  أ <span className="contrast"> في الفصلِ </span>قتلتَ أنتَ عقربُ ؟
+                  أ <span className="contrast"> في الفصلِ </span>قتلتَ أنتَ
+                  عقربُ ؟
                 </div>
                 <div className="arsent__translate">
-                  А <span className="contrast"> в классе </span>(или в другом месте) ты убил скорпиона?
+                  А <span className="contrast"> в классе </span>(или в другом
+                  месте) ты убил скорпиона?
                 </div>
               </div>
             </div>
