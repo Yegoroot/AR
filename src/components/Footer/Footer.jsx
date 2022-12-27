@@ -26,7 +26,7 @@ function Footer({ ...props }) {
       <div className={classes.container}>
         <div className={classes.left}>
           <List className={classes.list}>
-            <ListItem className={classes.inlineBlock}>
+            {/* <ListItem className={classes.inlineBlock}>
               <a
                 href="http://dict.arabera.org/"
                 rel="noopener noreferrer"
@@ -38,8 +38,8 @@ function Footer({ ...props }) {
                 </span>
                 Словарь онлайн
               </a>
-            </ListItem>
-            <ListItem className={classes.inlineBlock}>
+            </ListItem> */}
+            {/* <ListItem className={classes.inlineBlock}>
               <a
                 href="http://glagol.reverso.net/%D1%81%D0%BF%D1%80%D1%8F%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B0%D1%80%D0%B0%D0%B1%D1%81%D0%BA%D0%B8%D0%B9.html"
                 rel="noopener noreferrer"
@@ -51,27 +51,29 @@ function Footer({ ...props }) {
                 </span>
                 Спрягать онлайн
               </a>
-            </ListItem>
-            <ListItem className={classes.inlineBlock}>
+            </ListItem> */}
+            {/* <ListItem className={classes.inlineBlock}>
               <Link className={classes.block} to="/about">
-                {/* <span style={{ color: 'initial' }}>&nbsp; |&nbsp; </span> */}
                 <span role="img" aria-label="roket">
                   🚀
                 </span>
                 Ресурсы
               </Link>
-            </ListItem>
-            <ListItem className={classes.inlineBlock}>
+            </ListItem> */}
+            {/* <ListItem className={classes.inlineBlock}>
               <Link className={classes.block} to="/contacts">
-                {/* <span style={{ color: 'initial' }}>&nbsp; |&nbsp; </span> */}
                 <span role="img" aria-label="send with love">
                   🤝
                 </span>
                 Контакты
               </Link>
-            </ListItem>
+            </ListItem> */}
             <ListItem className={classes.inlineBlock}>
-              <a className={classes.block} href="https://arabic.best">
+              <a
+                className={classes.block}
+                style={{ fontFamily: 'initial !important' }}
+                href="https://arabic.best"
+              >
                 <span role="img" aria-label="send with love">
                   🚀
                 </span>
