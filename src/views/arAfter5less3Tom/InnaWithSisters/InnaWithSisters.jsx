@@ -23,6 +23,10 @@ class InnaWithSisters extends React.Component {
     return (
       <div>
         <Helmet>
+          <meta
+            http-equiv="refresh"
+            content="0; url=https://grammar.arabic.best/ru/rules/middle/inna-wa-akhawatuha"
+          />
           <title>Частица إِنَّ и ее сестры</title>
           <meta
             name="description"
@@ -37,12 +41,16 @@ class InnaWithSisters extends React.Component {
           fixed
           changeColorOnScroll={{
             height: 200,
-            color: 'white'
+            color: 'white',
           }}
           {...rest}
         />
 
-        <Parallax small filter image={require('assets/img/mosque/mosque2.jpg')} />
+        <Parallax
+          small
+          filter
+          image={require('assets/img/mosque/mosque2.jpg')}
+        />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
@@ -50,9 +58,12 @@ class InnaWithSisters extends React.Component {
                 Частица إِنَّ и ее сестры&nbsp;<span className="ph">§</span>
               </h1>
               <div className="desc">
-                Эти предлоги внедряются в именное предложение перед подлежащим (<span className="desc__ar"> المُبْتَدأ </span>) и сказуемым
-                (<span className="desc__ar"> الخَبَر </span>). Ставят (<span className="desc__ar"> المُبْتَدأ </span>) в винительный падеж (
-                <span className="desc__ar"> النصب </span>) и после этого <span className="desc__ar"> المُبْتَدأ </span> называется
+                Эти предлоги внедряются в именное предложение перед подлежащим (
+                <span className="desc__ar"> المُبْتَدأ </span>) и сказуемым (
+                <span className="desc__ar"> الخَبَر </span>). Ставят (
+                <span className="desc__ar"> المُبْتَدأ </span>) в винительный
+                падеж (<span className="desc__ar"> النصب </span>) и после этого{' '}
+                <span className="desc__ar"> المُبْتَدأ </span> называется
                 <span className="desc__ar"> اسم إنَّ </span>
               </div>
               <Inna />

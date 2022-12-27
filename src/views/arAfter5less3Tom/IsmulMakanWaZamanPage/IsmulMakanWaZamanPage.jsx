@@ -24,14 +24,14 @@ class IsmulMakanWaZamanPage extends React.Component {
     return (
       <div>
         <Helmet>
+          <meta
+            http-equiv="refresh"
+            content="0; url=https://grammar.arabic.best/ru/rules/derivatives/imya-deystviya-i-vremenyi"
+          />
           <title>Имя места или времени (اسم مكان و زمان )</title>
           <meta
             name="description"
             content="Иногда к именам места и времени присоединяется ة и некоторые ученые говорят что эта та-марбута указывает на постоянство действия"
-          />
-          <meta
-            http-equiv="refresh"
-            content="0; url=https://grammar.arabic.best/ru/rules/derivatives/imya-deystviya-i-vremenyi"
           />
         </Helmet>
         <Header

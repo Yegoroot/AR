@@ -25,16 +25,16 @@ class AbjectDegrees extends React.Component {
     return (
       <div>
         <Helmet>
+          <meta
+            http-equiv="refresh"
+            content="0; url=https://grammar.arabic.best/ru/rules/derivatives/preference-name"
+          />
           <title>
             Сравнительная и превосходная степень арабских прилагательных
           </title>
           <meta
             name="description"
             content="В арабском языке можно выделить: прилагательные сравнительной, превосходной степени и обыкновенные"
-          />
-          <meta
-            http-equiv="refresh"
-            content="0; url=https://grammar.arabic.best/ru/rules/derivatives/preference-name"
           />
         </Helmet>
         <Header

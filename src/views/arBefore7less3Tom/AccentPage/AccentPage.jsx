@@ -19,14 +19,14 @@ class AccentPage extends React.Component {
     return (
       <div>
         <Helmet>
+          <meta
+            http-equiv="refresh"
+            content="0; url=https://grammar.arabic.best/ru/rules/construction-of-speech/accent-question"
+          />
           <title>Как точно задать вопрос в арабском языке</title>
           <meta
             name="description"
             content="Акцентирование смысла в арабских предложениях в зависимости от того, что хотим спросить"
-          />
-          <meta
-            http-equiv="refresh"
-            content="0; url=https://grammar.arabic.best/ru/rules/construction-of-speech/accent-question"
           />
         </Helmet>
         <Header

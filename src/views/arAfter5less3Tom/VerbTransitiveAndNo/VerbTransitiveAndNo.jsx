@@ -23,11 +23,11 @@ class VerbTransitiveAndNo extends React.Component {
     return (
       <div>
         <Helmet>
-          <title>Переходность арабских глаголов</title>
           <meta
             http-equiv="refresh"
             content="0; url=https://grammar.arabic.best/ru/rules/verbs/perehodnoy"
           />
+          <title>Переходность арабских глаголов</title>
           <meta
             name="description"
             content='Переходной можно назвать "заразный" это такой глагол действия которого от الفاعِل (деятеля) перешло на المَفْعُول بِه (прямое

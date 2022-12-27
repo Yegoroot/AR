@@ -22,13 +22,13 @@ class IdafaPage extends React.Component {
     return (
       <div>
         <Helmet>
-          <title>
-            Несогласованное определение в арабском языке (Идафа الإضافة)
-          </title>
           <meta
             http-equiv="refresh"
             content="0; url=https://grammar.arabic.best/ru/rules/first-steps/idafah"
           />
+          <title>
+            Несогласованное определение в арабском языке (Идафа الإضافة)
+          </title>
           <meta
             name="description"
             content='Идафа (الإضافة) или "несогласованное определение" очень частая конструкция в арабском языке. Иногда этот термин переводят как "изафетная связка"'

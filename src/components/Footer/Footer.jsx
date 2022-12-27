@@ -71,11 +71,11 @@ function Footer({ ...props }) {
               </Link>
             </ListItem>
             <ListItem className={classes.inlineBlock}>
-              <a className={classes.block} href="https://madinah.best">
+              <a className={classes.block} href="https://arabic.best">
                 <span role="img" aria-label="send with love">
                   🚀
                 </span>
-                Madinah.best Новый проект
+                Новый проект Arabic.best
               </a>
             </ListItem>
           </List>

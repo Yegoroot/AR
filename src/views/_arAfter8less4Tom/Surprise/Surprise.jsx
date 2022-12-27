@@ -19,14 +19,14 @@ class Page extends React.Component {
     return (
       <div>
         <Helmet>
+          <meta
+            http-equiv="refresh"
+            content="0; url=https://grammar.arabic.best/ru/rules/construction-of-speech/surprise-expression"
+          />
           <title>Как удивляться по арабски</title>
           <meta
             name="description"
             content="В арабском существует две классические формы (модели) удивления"
-          />
-          <meta
-            http-equiv="refresh"
-            content="0; url=https://grammar.arabic.best/ru/rules/construction-of-speech/surprise-expression"
           />
         </Helmet>
         <Header

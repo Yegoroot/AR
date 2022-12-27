@@ -261,7 +261,7 @@ function HeaderLinks({ ...props }) {
               className={classes.dropdownLink}
               style={{ fontSize: 20 }}
             >
-              أدوَات الجزم
+              ـ أدوَات الجزم ـ
             </Link>,
 
             <Link
@@ -306,7 +306,7 @@ function HeaderLinks({ ...props }) {
               Собирательная частица
             </Link>,
             <Link to="/innawithsisters" className={classes.dropdownLink}>
-              Частица инна и её сестры
+              - Частица инна и её сестры -
             </Link>,
             <Link
               to="/harfHal"

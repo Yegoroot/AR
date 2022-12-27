@@ -20,11 +20,11 @@ class Asmaulafal extends React.Component {
     return (
       <div>
         <Helmet>
-          <title>Существительное со смыслом глагола (اسْماءُ الافعال ) </title>
           <meta
             http-equiv="refresh"
             content="0; url=https://grammar.arabic.best/ru/rules/ksvedeniyu/asmaa-alafaal"
           />
+          <title>Существительное со смыслом глагола (اسْماءُ الافعال ) </title>
           <meta
             name="description"
             content="Не является глаголом, но смысл глагола, не склоняется во временах. Бывает некоторые существуют в одном времени, но не

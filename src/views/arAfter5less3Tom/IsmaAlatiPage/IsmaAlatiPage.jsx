@@ -23,11 +23,11 @@ class IsmaAlatiPage extends React.Component {
     return (
       <div>
         <Helmet>
-          <title>Имя орудия действия (اسم آلة)</title>
           <meta
             http-equiv="refresh"
             content="0; url=https://grammar.arabic.best/ru/rules/derivatives/imya-instrumenta"
           />
+          <title>Имя орудия действия (اسم آلة)</title>
           <meta
             name="description"
             content="Орудие действие в арабском языке существует для того чтоб указать на инструмент совершения действия"

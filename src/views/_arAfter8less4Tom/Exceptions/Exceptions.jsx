@@ -19,14 +19,14 @@ class Page extends React.Component {
     return (
       <div>
         <Helmet>
+          <meta
+            http-equiv="refresh"
+            content="0; url=https://grammar.arabic.best/ru/rules/ksvedeniyu/exception"
+          />
           <title>Как в арабском выразить исключение</title>
           <meta
             name="description"
             content="В арабском языке имеются восемь частиц для выражения исключения إِلَّا   غَيْرُ سِوَى سُوَى سَوَاءٌ خَلَا عَدَا حَاشَا "
-          />
-          <meta
-            http-equiv="refresh"
-            content="0; url=https://grammar.arabic.best/ru/rules/ksvedeniyu/exception"
           />
         </Helmet>
         <Header
