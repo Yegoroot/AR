@@ -8,6 +8,7 @@ import HeaderLinks from 'components/Header/HeaderLinks.jsx'
 // import './s  tyle.css' // // Icons made by Freepik from www.flaticon.com
 //
 import componentsStyle from 'assets/jss/material-kit-react/views/components.jsx'
+import { Helmet } from 'react-helmet'
 
 // const calc = (x, y) => [x - window.innerWidth / 2, y - window.innerHeight / 2]
 // const trans1 = (x, y) => `translate3d(${x / 10}px,${y / 10}px,0)`
@@ -31,25 +32,34 @@ class Components extends React.Component {
 
     return (
       <div>
+        <Helmet>
+          <meta
+            http-equiv="refresh"
+            content="0; url=https://grammar.arabic.best/ru"
+          />
+        </Helmet>
         <Header
-          // brand="في منامي"
           isBrandAr
           rightLinks={<HeaderLinks />}
           fixed
           color="transparent"
           changeColorOnScroll={{
             height: 400,
-            color: 'white'
+            color: 'white',
           }}
           {...rest}
         />
-        <Parallax style={{ height: '100vh' }} image={require('assets/img/bg4.jpg')}>
+        <Parallax
+          style={{ height: '100vh' }}
+          image={require('assets/img/bg4.jpg')}
+        >
           <div className={classes.container}>
             <div className={classes.brand}>
               {/* <h1 className={classes.title}>Заметки Арабского  <span role="img" aria-label="Palm Tree"> 📌 </span></h1> */}
               <h1 className={classes.title}>في منامي</h1>
               <h2 className={classes.subTitle}>
-                Заметки, запсиси, уроки, правила и исключения основанных на Мединском курсе{' '}
+                Заметки, запсиси, уроки, правила и исключения основанных на
+                Мединском курсе{' '}
                 <span role="img" aria-label="Books">
                   {' '}
                   📚{' '}
