@@ -12,8 +12,18 @@ import { Helmet } from 'react-helmet'
 /** This component renders a shape */
 function Shape({ shape, rotation, position, color, opacity, index }) {
   return (
-    <a.mesh rotation={rotation} position={position.interpolate((x, y, z) => [x, y, z + -index * 50])}>
-      <a.meshPhongMaterial attach="material" color={color} opacity={opacity} side={doubleSide} depthWrite={false} transparent />
+    <a.mesh
+      rotation={rotation}
+      position={position.interpolate((x, y, z) => [x, y, z + -index * 50])}
+    >
+      <a.meshPhongMaterial
+        attach="material"
+        color={color}
+        opacity={opacity}
+        side={doubleSide}
+        depthWrite={false}
+        transparent
+      />
       <shapeBufferGeometry attach="geometry" args={[shape]} />
     </a.mesh>
   )
@@ -24,7 +34,10 @@ function Scene() {
   const [page, setPage] = useState(0)
   const [shapes, setShapes] = useState([])
   // Switches scenes every 4 seconds
-  useEffect(() => void setInterval(() => setPage(i => (i + 1) % svgs.length), 3000), [])
+  useEffect(
+    () => void setInterval(() => setPage(i => (i + 1) % svgs.length), 3000),
+    []
+  )
   // Converts current SVG into mesh-shapes: https://threejs.org/docs/index.html#examples/loaders/SVGLoader
   useEffect(() => void svgs[page].then(setShapes), [page])
   // This spring controls the background color animation
@@ -35,13 +48,23 @@ function Scene() {
     enter: { rotation: [0, 0, 0], position: [0, 0, 0], opacity: 1 },
     leave: { rotation: [0.2, -0.9, 0], position: [0, -400, 200], opacity: 0 },
     config: { mass: 30, tension: 800, friction: 190, precision: 0.0001 },
-    ...{ order: ['leave', 'enter', 'update'], trail: 15, lazy: true, unique: true, reset: true }
+    ...{
+      order: ['leave', 'enter', 'update'],
+      trail: 15,
+      lazy: true,
+      unique: true,
+      reset: true,
+    },
   })
   return (
     <>
       <mesh scale={[20000, 20000, 1]} rotation={[0, deg(-20), 0]}>
         <planeGeometry attach="geometry" args={[1, 1]} />
-        <a.meshPhongMaterial attach="material" color={color} depthTest={false} />
+        <a.meshPhongMaterial
+          attach="material"
+          color={color}
+          depthTest={false}
+        />
       </mesh>
       <group position={[1600, -700, page]} rotation={[0, deg(180), 0]}>
         {transitions.map(({ item, key, props }) => (
@@ -57,6 +80,10 @@ function App() {
   return (
     <div className="anime">
       <Helmet>
+        <meta
+          http-equiv="refresh"
+          content="0; url=https://grammar.arabic.best/ru"
+        />
         <title>Справочник грамматики арабского языка </title>
         <meta
           name="description"
@@ -71,11 +98,20 @@ function App() {
         color="transparent"
         changeColorOnScroll={{
           height: 400,
-          color: 'white'
+          color: 'white',
         }}
       />
 
-      <Canvas invalidateFrameloop camera={{ fov: 90, position: [0, 0, 1800], rotation: [0, deg(-20), deg(180)], near: 0.1, far: 20000 }}>
+      <Canvas
+        invalidateFrameloop
+        camera={{
+          fov: 90,
+          position: [0, 0, 1800],
+          rotation: [0, deg(-20), deg(180)],
+          near: 0.1,
+          far: 20000,
+        }}
+      >
         <ambientLight intensity={0.5} />
         <spotLight intensity={0.5} position={[300, 300, 4000]} />
         <Scene />
@@ -86,7 +122,8 @@ function App() {
           <div className="anime__header">
             <span className="anime__title"> Справочник Арабского </span>
             <span className="anime__desc">
-              Заметки, записи, уроки, правила и исключения основанные на Мединском курсе
+              Заметки, записи, уроки, правила и исключения основанные на
+              Мединском курсе
               <span role="img" aria-label="Books">
                 {' 📚 '}
               </span>
