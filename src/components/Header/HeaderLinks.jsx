@@ -232,7 +232,7 @@ function HeaderLinks({ ...props }) {
               - Степени прилагательного -
             </Link>,
             <Link to="/affectionateword" className={classes.dropdownLink}>
-              Уменьшительно ласкательные
+              - Уменьшительно ласкательные -
             </Link>,
             <Link to="/ism5" className={classes.dropdownLink}>
               Спряжение 5 имён

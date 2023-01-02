@@ -22,6 +22,10 @@ class AffectionateWordPage extends React.Component {
     return (
       <div>
         <Helmet>
+          <meta
+            http-equiv="refresh"
+            content="0; url=https://grammar.arabic.best/ru/rules/derivatives/diminutive-name"
+          />
           <title>Уменьшительно ласкательные имена в арабском языке</title>
           <meta
             name="description"
