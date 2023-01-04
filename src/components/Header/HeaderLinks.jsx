@@ -147,7 +147,7 @@ function HeaderLinks({ ...props }) {
               III порода глагола
             </Link>,
             <Link to="/breed4" className={classes.dropdownLink}>
-              IV порода глагола
+              - IV порода глагола -
             </Link>,
             <Link to="/breed5" className={classes.dropdownLink}>
               V порода глагола

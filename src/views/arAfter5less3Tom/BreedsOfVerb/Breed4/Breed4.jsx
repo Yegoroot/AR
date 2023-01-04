@@ -15,6 +15,10 @@ class Breed4 extends React.Component {
     return (
       <div>
         <Helmet>
+          <meta
+            http-equiv="refresh"
+            content="0; url=https://grammar.arabic.best/ru/rules/verbs/breed-4"
+          />
           <title>4 порода арабского глагола</title>
           <meta
             name="description"
@@ -29,23 +33,30 @@ class Breed4 extends React.Component {
           fixed
           changeColorOnScroll={{
             height: 200,
-            color: 'white'
+            color: 'white',
           }}
           {...rest}
         />
 
-        <Parallax small filter image={require('assets/img/mosque/mosque27.jpg')} />
+        <Parallax
+          small
+          filter
+          image={require('assets/img/mosque/mosque27.jpg')}
+        />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title">
-                Глагол четвёртой породы&nbsp;(أَفْعَلَ)&nbsp;<span className="ph">§</span>
+                Глагол четвёртой породы&nbsp;(أَفْعَلَ)&nbsp;
+                <span className="ph">§</span>
               </h1>
 
               <div className="desc">
-                К перевообразному добавлена служебная буква <span className="desc__ar"> (ء) </span> в начале слова. Эта порода может делать
-                глагол переходным, а может давать смысл: <b> вхождения </b>, например <span className="desc__ar"> أصْبَحَ </span> (вошел в
-                утро),
+                К перевообразному добавлена служебная буква{' '}
+                <span className="desc__ar"> (ء) </span> в начале слова. Эта
+                порода может делать глагол переходным, а может давать смысл:{' '}
+                <b> вхождения </b>, например{' '}
+                <span className="desc__ar"> أصْبَحَ </span> (вошел в утро),
                 <span className="desc__ar"> أمْصَرَ </span> (вошел в Египет)
               </div>
 
@@ -103,25 +114,29 @@ class Breed4 extends React.Component {
                   <h2 className="h2ar ">مُفْعِلٌ </h2>
                   <div className="arsent">
                     <div className="arsent__original">
-                      <span> يُرْسِلُ </span>-<span className="contrast"> مُرْسِلٌ </span>
+                      <span> يُرْسِلُ </span>-
+                      <span className="contrast"> مُرْسِلٌ </span>
                     </div>
                     <div className="arsent__translate">Отправитель</div>
                   </div>
                   <div className="arsent mobile-hid">
                     <div className="arsent__original">
-                      <span> يُجِيبُ </span>-<span className="contrast"> مُجِيبٌ </span>
+                      <span> يُجِيبُ </span>-
+                      <span className="contrast"> مُجِيبٌ </span>
                     </div>
                     <div className="arsent__translate">Отвечающий</div>
                   </div>
                   <div className="arsent">
                     <div className="arsent__original">
-                      <span> يُلْقِي </span>-<span className="contrast"> مُلْقِي </span>
+                      <span> يُلْقِي </span>-
+                      <span className="contrast"> مُلْقِي </span>
                     </div>
                     <div className="arsent__translate">Бросающий</div>
                   </div>
                   <div className="arsent">
                     <div className="arsent__original">
-                      <span> يُسْلِمُ </span>-<span className="contrast"> مُسْلِمٌ </span>
+                      <span> يُسْلِمُ </span>-
+                      <span className="contrast"> مُسْلِمٌ </span>
                     </div>
                     <div className="arsent__translate">Мусульманин</div>
                   </div>
@@ -132,13 +147,15 @@ class Breed4 extends React.Component {
                   <h2 className="h2ar ">مُفْعَلٌ </h2>
                   <div className="arsent">
                     <div className="arsent__original">
-                      <span> يُرْسِلُ </span>-<span className="contrast"> مُرْسَلٌ </span>
+                      <span> يُرْسِلُ </span>-
+                      <span className="contrast"> مُرْسَلٌ </span>
                     </div>
                     <div className="arsent__translate">Посланный</div>
                   </div>
                   <div className="arsent">
                     <div className="arsent__original">
-                      <span> يُلْقِي </span>-<span className="contrast"> مُلْقًى </span>
+                      <span> يُلْقِي </span>-
+                      <span className="contrast"> مُلْقًى </span>
                     </div>
                     <div className="arsent__translate">Брошенный</div>
                   </div>
@@ -180,19 +197,24 @@ class Breed4 extends React.Component {
                   <h2 className="h2ar ">أفْعِلْ </h2>
                   <div className="arsent">
                     <div className="arsent__original">
-                      <span> تُرْسِلُ </span>- <span> أصْلِهُ تُأَرْسِلُ </span>- <span className="contrast"> أَرْسِلْ </span>
+                      <span> تُرْسِلُ </span>- <span> أصْلِهُ تُأَرْسِلُ </span>
+                      - <span className="contrast"> أَرْسِلْ </span>
                     </div>
                     <div className="arsent__translate">Отправь</div>
                   </div>
                   <div className="arsent">
                     <div className="arsent__original">
-                      <span> تُجِيبُ </span>- <span> أصْلِهُ تُأَجِيبُ </span>- <span className="contrast"> أَجِبْ </span>
+                      <span> تُجِيبُ </span>- <span> أصْلِهُ تُأَجِيبُ </span>-{' '}
+                      <span className="contrast"> أَجِبْ </span>
                     </div>
-                    <div className="arsent__translate">Ответь (из за двух сукунов ушла слабая буква)</div>
+                    <div className="arsent__translate">
+                      Ответь (из за двух сукунов ушла слабая буква)
+                    </div>
                   </div>
                   <div className="arsent">
                     <div className="arsent__original">
-                      <span> تُؤْمِنُ </span>- <span className="contrast"> آمِنْ </span>
+                      <span> تُؤْمِنُ </span>-{' '}
+                      <span className="contrast"> آمِنْ </span>
                     </div>
                     <div className="arsent__translate">Верь</div>
                   </div>
@@ -216,7 +238,10 @@ class Breed4 extends React.Component {
                   <span className="contrast"> أَدْخِلْهَا </span>
                   <span> بِسُرْعَةٍ </span>
                 </div>
-                <div className="arsent__translate"> Зачем ты вытащил доску? Затащи ее обратно, быстро </div>
+                <div className="arsent__translate">
+                  {' '}
+                  Зачем ты вытащил доску? Затащи ее обратно, быстро{' '}
+                </div>
               </div>
               <div className="arsent">
                 <div className="arsent__original">
@@ -224,7 +249,10 @@ class Breed4 extends React.Component {
                   <span className="contrast"> أَدْراكَ </span>
                   <span> أَنّهُ يَكْذِب؟ </span>
                 </div>
-                <div className="arsent__translate"> Что заставило тебя знать что он врёт? </div>
+                <div className="arsent__translate">
+                  {' '}
+                  Что заставило тебя знать что он врёт?{' '}
+                </div>
               </div>
               {/* -------------------------------- */}
             </div>
