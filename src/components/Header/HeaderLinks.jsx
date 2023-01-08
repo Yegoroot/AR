@@ -133,7 +133,7 @@ function HeaderLinks({ ...props }) {
               Глагол страдательного залога
             </Link>,
             <Link to="/verbsarf" className={classes.dropdownLink}>
-              Сарф глаголов
+              - Сарф глаголов -
             </Link>,
             <Link to="/verbtransitive" className={classes.dropdownLink}>
               {' - '}
@@ -144,7 +144,7 @@ function HeaderLinks({ ...props }) {
               {' - '}II порода глагола {' - '}
             </Link>,
             <Link to="/breed3" className={classes.dropdownLink}>
-              III порода глагола
+              - III порода глагола-
             </Link>,
             <Link to="/breed4" className={classes.dropdownLink}>
               - IV порода глагола -

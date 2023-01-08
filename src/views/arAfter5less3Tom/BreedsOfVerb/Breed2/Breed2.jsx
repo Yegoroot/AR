@@ -18,7 +18,7 @@ class AlMafuluFihi extends React.Component {
         <Helmet>
           <meta
             http-equiv="refresh"
-            content="0; url=https://grammar.arabic.best/ru/rules/verbs/breed-2"
+            content="0; url=https://grammar.arabic.best/ru/rules/breeds/breed-2"
           />
           <title>2 порода арабского глагола</title>
           <meta
