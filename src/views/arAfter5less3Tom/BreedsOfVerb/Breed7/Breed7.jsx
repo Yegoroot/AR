@@ -16,6 +16,10 @@ class Breed7 extends React.Component {
     return (
       <div>
         <Helmet>
+          <meta
+            http-equiv="refresh"
+            content="0; url=https://grammar.arabic.best/rules/breeds/breed-7"
+          />
           <title>7 порода арабского глагола</title>
           <meta
             name="description"
@@ -29,25 +33,33 @@ class Breed7 extends React.Component {
           fixed
           changeColorOnScroll={{
             height: 200,
-            color: 'white'
+            color: 'white',
           }}
           {...rest}
         />
 
-        <Parallax small filter image={require('assets/img/mosque/mosque30.jpg')} />
+        <Parallax
+          small
+          filter
+          image={require('assets/img/mosque/mosque30.jpg')}
+        />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title">
-                Глагол седьмой породы (انْفَعَلَ)&nbsp;<span className="ph">§</span>
+                Глагол седьмой породы (انْفَعَلَ)&nbsp;
+                <span className="ph">§</span>
               </h1>
 
               <div className="desc">
-                Приходит со значением <b> возвратности </b> <b className="desc__ar"> المُطَاوَعَة </b>.
+                Приходит со значением <b> возвратности </b>{' '}
+                <b className="desc__ar"> المُطَاوَعَة </b>.
                 <br />
                 <br />
-                Передаёт значение возвратности только при образовании от переходных глаголов. Иными словами: чтоб 7ая порода стала
-                возвратной к первой, первая порода должна принадлежать к глаголам переходным
+                Передаёт значение возвратности только при образовании от
+                переходных глаголов. Иными словами: чтоб 7ая порода стала
+                возвратной к первой, первая порода должна принадлежать к
+                глаголам переходным
               </div>
 
               <div className="arsent">
@@ -55,7 +67,9 @@ class Breed7 extends React.Component {
                   <span> فَتَحْتُ البابَ, </span>
                   <span className="contrast"> فانْفَتَحَ </span>
                 </div>
-                <div className="arsent__translate">Открыл я дверь, дверь открылась</div>
+                <div className="arsent__translate">
+                  Открыл я дверь, дверь открылась
+                </div>
               </div>
 
               <div className="arsent">
@@ -65,24 +79,31 @@ class Breed7 extends React.Component {
                   <span className="contrast"> اِنْقَلَبَ </span>
                   <span> الكتاب </span>
                 </div>
-                <div className="arsent__translate">Перевернул я книгу. Книга перевернулась</div>
+                <div className="arsent__translate">
+                  Перевернул я книгу. Книга перевернулась
+                </div>
               </div>
 
               <div className="desc">
-                При вопросительном <span className="desc__ar"> أَ </span> соединительная хамза отпадает
+                При вопросительном <span className="desc__ar"> أَ </span>{' '}
+                соединительная хамза отпадает
               </div>
               <div className="arsent">
                 <div className="arsent__original">
                   <span> اِنْهَزَمَ المُشْرِكُونَ </span>
                 </div>
-                <div className="arsent__translate">Мушрики обратились в бегство</div>
+                <div className="arsent__translate">
+                  Мушрики обратились в бегство
+                </div>
               </div>
               <div className="arsent">
                 <div className="arsent__original">
                   <Word root="نْهَزَمَ" prefix="أَ" />
                   <span> المُشْرِكُونَ؟ </span>
                 </div>
-                <div className="arsent__translate">А обратились мушрики в бегство?</div>
+                <div className="arsent__translate">
+                  А обратились мушрики в бегство?
+                </div>
               </div>
 
               <h2 className="title">
@@ -161,14 +182,18 @@ class Breed7 extends React.Component {
                   <span> وَقَعَ الكُوبُ على الأرض و </span>
                   <span className="contrast"> انْكَسَرَ </span>
                 </div>
-                <div className="arsent__translate">Упал стакан на землю и разбился</div>
+                <div className="arsent__translate">
+                  Упал стакан на землю и разбился
+                </div>
               </div>
               <div className="arsent">
                 <div className="arsent__original">
                   <span> سافر الفَرِيق</span>
                   <span className="contrast"> المُنْهَزِم </span>
                 </div>
-                <div className="arsent__translate">Проигравшая команда уехала</div>
+                <div className="arsent__translate">
+                  Проигравшая команда уехала
+                </div>
               </div>
             </div>
           </div>

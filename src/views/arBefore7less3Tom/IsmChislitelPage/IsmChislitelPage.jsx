@@ -20,7 +20,7 @@ class IsmChislitelPage extends React.Component {
         <Helmet>
           <meta
             http-equiv="refresh"
-            content="0; url=https://grammar.arabic.best/ru/rules/bonus/100"
+            content="0; url=https://grammar.arabic.best/rules/bonus/100"
           />
           <title>Арабские числительные с 100</title>
           <meta

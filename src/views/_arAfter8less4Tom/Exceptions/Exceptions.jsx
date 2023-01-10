@@ -21,7 +21,7 @@ class Page extends React.Component {
         <Helmet>
           <meta
             http-equiv="refresh"
-            content="0; url=https://grammar.arabic.best/ru/rules/ksvedeniyu/exception"
+            content="0; url=https://grammar.arabic.best/rules/ksvedeniyu/exception"
           />
           <title>Как в арабском выразить исключение</title>
           <meta

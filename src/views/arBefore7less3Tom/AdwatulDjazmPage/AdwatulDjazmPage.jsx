@@ -26,7 +26,7 @@ class AdwatulDjazmPage extends React.Component {
         <Helmet>
           <meta
             http-equiv="refresh"
-            content="0; url=https://grammar.arabic.best/ru/rules/verbs/adwatu-djazm"
+            content="0; url=https://grammar.arabic.best/rules/verbs/adwatu-djazm"
           />
           <title>أدوات الجزم</title>
           <meta

@@ -21,7 +21,7 @@ class Intr extends React.Component {
         <Helmet>
           <meta
             http-equiv="refresh"
-            content="0; url=https://grammar.arabic.best/ru/rules/breeds/about-verb-breeds"
+            content="0; url=https://grammar.arabic.best/rules/breeds/about-verb-breeds"
           />
           <title>Сарф (изначальное изминение) глаголов</title>
           <meta

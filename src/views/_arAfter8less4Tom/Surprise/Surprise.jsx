@@ -21,7 +21,7 @@ class Page extends React.Component {
         <Helmet>
           <meta
             http-equiv="refresh"
-            content="0; url=https://grammar.arabic.best/ru/rules/construction-of-speech/surprise-expression"
+            content="0; url=https://grammar.arabic.best/rules/construction-of-speech/surprise-expression"
           />
           <title>Как удивляться по арабски</title>
           <meta

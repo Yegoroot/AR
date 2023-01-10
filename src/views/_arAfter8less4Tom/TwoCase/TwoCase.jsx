@@ -24,7 +24,7 @@ class AbjectDegrees extends React.Component {
         <Helmet>
           <meta
             http-equiv="refresh"
-            content="0; url=https://grammar.arabic.best/ru/rules/ia3rob/mamnua-minas-sarf"
+            content="0; url=https://grammar.arabic.best/rules/ia3rob/mamnua-minas-sarf"
           />
           <title>Двухпадежность арабских имён</title>
           <meta

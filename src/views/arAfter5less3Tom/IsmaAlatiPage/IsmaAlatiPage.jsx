@@ -25,7 +25,7 @@ class IsmaAlatiPage extends React.Component {
         <Helmet>
           <meta
             http-equiv="refresh"
-            content="0; url=https://grammar.arabic.best/ru/rules/derivatives/imya-instrumenta"
+            content="0; url=https://grammar.arabic.best/rules/derivatives/imya-instrumenta"
           />
           <title>Имя орудия действия (اسم آلة)</title>
           <meta

@@ -25,7 +25,7 @@ class InnaWithSisters extends React.Component {
         <Helmet>
           <meta
             http-equiv="refresh"
-            content="0; url=https://grammar.arabic.best/ru/rules/middle/inna-wa-akhawatuha"
+            content="0; url=https://grammar.arabic.best/rules/middle/inna-wa-akhawatuha"
           />
           <title>Частица إِنَّ и ее сестры</title>
           <meta

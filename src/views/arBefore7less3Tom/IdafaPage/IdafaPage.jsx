@@ -24,7 +24,7 @@ class IdafaPage extends React.Component {
         <Helmet>
           <meta
             http-equiv="refresh"
-            content="0; url=https://grammar.arabic.best/ru/rules/first-steps/idafah"
+            content="0; url=https://grammar.arabic.best/rules/first-steps/idafah"
           />
           <title>
             Несогласованное определение в арабском языке (Идафа الإضافة)

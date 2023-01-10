@@ -27,7 +27,7 @@ class AbjectDegrees extends React.Component {
         <Helmet>
           <meta
             http-equiv="refresh"
-            content="0; url=https://grammar.arabic.best/ru/rules/derivatives/preference-name"
+            content="0; url=https://grammar.arabic.best/rules/derivatives/preference-name"
           />
           <title>
             Сравнительная и превосходная степень арабских прилагательных

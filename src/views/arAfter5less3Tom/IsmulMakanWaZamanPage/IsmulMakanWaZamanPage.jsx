@@ -26,7 +26,7 @@ class IsmulMakanWaZamanPage extends React.Component {
         <Helmet>
           <meta
             http-equiv="refresh"
-            content="0; url=https://grammar.arabic.best/ru/rules/derivatives/imya-deystviya-i-vremenyi"
+            content="0; url=https://grammar.arabic.best/rules/derivatives/imya-deystviya-i-vremenyi"
           />
           <title>Имя места или времени (اسم مكان و زمان )</title>
           <meta

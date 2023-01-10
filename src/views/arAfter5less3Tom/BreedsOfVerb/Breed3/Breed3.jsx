@@ -17,7 +17,7 @@ class Breed3 extends React.Component {
         <Helmet>
           <meta
             http-equiv="refresh"
-            content="0; url=https://grammar.arabic.best/ru/rules/breeds/breed-3"
+            content="0; url=https://grammar.arabic.best/rules/breeds/breed-3"
           />
           <title>3 порода арабского глагола</title>
           <meta
