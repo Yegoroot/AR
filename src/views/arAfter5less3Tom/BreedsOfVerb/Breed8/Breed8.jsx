@@ -15,6 +15,10 @@ class Breed8 extends React.Component {
     return (
       <div>
         <Helmet>
+          <meta
+            http-equiv="refresh"
+            content="0; url=https://grammar.arabic.best/rules/breeds/breed-8"
+          />
           <title>8 порода арабского глагола</title>
           <meta
             name="description"
@@ -28,23 +32,31 @@ class Breed8 extends React.Component {
           fixed
           changeColorOnScroll={{
             height: 200,
-            color: 'white'
+            color: 'white',
           }}
           {...rest}
         />
 
-        <Parallax small filter image={require('assets/img/mosque/mosque1.jpg')} />
+        <Parallax
+          small
+          filter
+          image={require('assets/img/mosque/mosque1.jpg')}
+        />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title">
-                Глагол восьмой породы (اِفْتَعَلَ)&nbsp;<span className="ph">§</span>
+                Глагол восьмой породы (اِفْتَعَلَ)&nbsp;
+                <span className="ph">§</span>
               </h1>
 
               <div className="desc">
-                Добавлен алиф <span className="desc__ar"> ا </span> перед первой буквой и <span className="desc__ar"> ت </span>
-                после неё. Основное значение <b> возвратность </b>, так же это действие которое совершается <b> для самого деятеля </b> Так
-                же добавочный смысл (добавочный оттенок) заключается в том что акцентируется сама деятельность деятеля, например
+                Добавлен алиф <span className="desc__ar"> ا </span> перед первой
+                буквой и <span className="desc__ar"> ت </span>
+                после неё. Основное значение <b> возвратность </b>, так же это
+                действие которое совершается <b> для самого деятеля </b> Так же
+                добавочный смысл (добавочный оттенок) заключается в том что
+                акцентируется сама деятельность деятеля, например
               </div>
 
               <div className="arsent">
@@ -52,8 +64,9 @@ class Breed8 extends React.Component {
                   كَسَبَ - <span className="contrast"> اِكْتَسَبَ </span>
                 </div>
                 <div className="arsent__translate">
-                  Приобретал (не зависимо от усилий) - <span className="contrast"> приобретал </span> (в результате своей деятельности,
-                  своего искания)
+                  Приобретал (не зависимо от усилий) -{' '}
+                  <span className="contrast"> приобретал </span> (в результате
+                  своей деятельности, своего искания)
                 </div>
               </div>
 
@@ -62,13 +75,16 @@ class Breed8 extends React.Component {
                   تَبِعَ - <span className="contrast"> اِتَّبَعَ </span>
                 </div>
                 <div className="arsent__translate">
-                  Следовал, шел [за кем то] - <span className="contrast"> следовал, шел [за кем то]</span> (осознано за кем то следовал,
-                  сознательно, придерживался осознанной линии в своих действиях )
+                  Следовал, шел [за кем то] -{' '}
+                  <span className="contrast"> следовал, шел [за кем то]</span>{' '}
+                  (осознано за кем то следовал, сознательно, придерживался
+                  осознанной линии в своих действиях )
                 </div>
               </div>
 
               <h3 className="title">
-                Если первая кореная <span className="desc__ar"> ز, د, ذ </span>, то вместо <span className="desc__ar"> ت </span>
+                Если первая кореная <span className="desc__ar"> ز, د, ذ </span>,
+                то вместо <span className="desc__ar"> ت </span>
                 ставится <span className="desc__ar"> د </span>
               </h3>
               <div className="arsent">
@@ -81,13 +97,18 @@ class Breed8 extends React.Component {
               <div className="arsent">
                 <div className="arsent__original">
                   <span> ذَكَرَ - </span>
-                  <span className="contrast"> اِذدَكَرَ / أِذَّكر / اِدَّكَرَ </span>
+                  <span className="contrast">
+                    {' '}
+                    اِذدَكَرَ / أِذَّكر / اِدَّكَرَ{' '}
+                  </span>
                 </div>
                 <div className="arsent__translate">Упоминал - вспоминал</div>
               </div>
 
               <h3 className="title">
-                Если первая кореная <span className="desc__ar"> ص, ض, ظ, ط </span>, то вместо <span className="desc__ar"> ت </span>
+                Если первая кореная{' '}
+                <span className="desc__ar"> ص, ض, ظ, ط </span>, то вместо{' '}
+                <span className="desc__ar"> ت </span>
                 ставится <span className="desc__ar"> ط </span>
               </h3>
               <div className="arsent">
@@ -96,12 +117,17 @@ class Breed8 extends React.Component {
                   <span className="contrast"> اِضْطَرَبَ </span>
                 </div>
                 <div className="arsent__translate">
-                  Бил - <span className="contrast"> был возбужденным, волновался </span>
+                  Бил -{' '}
+                  <span className="contrast">
+                    {' '}
+                    был возбужденным, волновался{' '}
+                  </span>
                 </div>
               </div>
 
               <h3 className="title">
-                Если первая кореная <span className="desc__ar"> و </span>, то она становится <span className="desc__ar"> ت </span>
+                Если первая кореная <span className="desc__ar"> و </span>, то
+                она становится <span className="desc__ar"> ت </span>
               </h3>
               <div className="arsent">
                 <div className="arsent__original">
@@ -187,7 +213,10 @@ class Breed8 extends React.Component {
                   <span className="contrast"> أَدْخِلْهَا </span>
                   <span> بِسُرْعَةٍ </span>
                 </div>
-                <div className="arsent__translate"> Зачем ты вытащил доску? Затащи ее обратно, быстро </div>
+                <div className="arsent__translate">
+                  {' '}
+                  Зачем ты вытащил доску? Затащи ее обратно, быстро{' '}
+                </div>
               </div>
               <div className="arsent">
                 <div className="arsent__original">
@@ -195,7 +224,10 @@ class Breed8 extends React.Component {
                   <span className="contrast"> أَدْراكَ </span>
                   <span> أَنّهُ يَكْذِب؟ </span>
                 </div>
-                <div className="arsent__translate"> Что заставило тебя знать что он врёт? </div>
+                <div className="arsent__translate">
+                  {' '}
+                  Что заставило тебя знать что он врёт?{' '}
+                </div>
               </div>
               {/* -------------------------------- */}
             </div>

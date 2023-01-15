@@ -36,9 +36,12 @@ function HeaderLinks({ ...props }) {
             color: 'transparent',
           }}
           dropdownList={[
-            <Link to="/idafa" className={classes.dropdownLink}>
+            <a
+              href="https://grammar.arabic.best/rules/first-steps/idafah"
+              className={classes.dropdownLink}
+            >
               - Несогласованное определение -
-            </Link>,
+            </a>,
             <Link to="/soglasopr" className={classes.dropdownLink}>
               Согласованное определение
             </Link>,
@@ -56,9 +59,12 @@ function HeaderLinks({ ...props }) {
             >
               ضمير فصل
             </Link>,
-            <Link to="/exceptions" className={classes.dropdownLink}>
+            <a
+              href="https://grammar.arabic.best/rules/ksvedeniyu/exception"
+              className={classes.dropdownLink}
+            >
               - Выражение исключения -
-            </Link>,
+            </a>,
             <Link
               to="/discriminator"
               style={{ fontSize: 20 }}
@@ -132,41 +138,74 @@ function HeaderLinks({ ...props }) {
             <Link to="/fialmabnililmajhun" className={classes.dropdownLink}>
               Глагол страдательного залога
             </Link>,
-            <Link to="/verbsarf" className={classes.dropdownLink}>
+            <a
+              href="https://grammar.arabic.best/rules/breeds/about-verb-breeds"
+              className={classes.dropdownLink}
+            >
               - Сарф глаголов -
-            </Link>,
-            <Link to="/verbtransitive" className={classes.dropdownLink}>
+            </a>,
+            <a
+              href="https://grammar.arabic.best/rules/verbs/perehodnoy"
+              className={classes.dropdownLink}
+            >
               {' - '}
               Переходность глагола
               {' - '}
-            </Link>,
-            <Link to="/breed2" className={classes.dropdownLink}>
+            </a>,
+            <a
+              href="https://grammar.arabic.best/rules/breeds/breed-2"
+              className={classes.dropdownLink}
+            >
               {' - '}II порода глагола {' - '}
-            </Link>,
-            <Link to="/breed3" className={classes.dropdownLink}>
+            </a>,
+            <a
+              href="https://grammar.arabic.best/rules/breeds/breed-3"
+              className={classes.dropdownLink}
+            >
               - III порода глагола-
-            </Link>,
-            <Link to="/breed4" className={classes.dropdownLink}>
+            </a>,
+            <a
+              href="https://grammar.arabic.best/rules/breeds/breed-4"
+              className={classes.dropdownLink}
+            >
               - IV порода глагола -
-            </Link>,
-            <Link to="/breed5" className={classes.dropdownLink}>
-              V порода глагола
-            </Link>,
-            <Link to="/breed6" className={classes.dropdownLink}>
-              VI порода глагола
-            </Link>,
-            <Link to="/breed7" className={classes.dropdownLink}>
+            </a>,
+            <a
+              href="https://grammar.arabic.best/rules/breeds/breed-5"
+              className={classes.dropdownLink}
+            >
+              - V порода глагола -
+            </a>,
+            <a
+              href="https://grammar.arabic.best/rules/breeds/breed-6"
+              className={classes.dropdownLink}
+            >
+              - VI порода глагола -
+            </a>,
+            <a
+              href="https://grammar.arabic.best/rules/breeds/breed-7"
+              className={classes.dropdownLink}
+            >
               - VII порода глагола -
-            </Link>,
-            <Link to="/breed8" className={classes.dropdownLink}>
-              VIII порода глагола
-            </Link>,
-            <Link to="/breed9" className={classes.dropdownLink}>
-              IX порода глагола
-            </Link>,
-            <Link to="/breed10" className={classes.dropdownLink}>
+            </a>,
+            <a
+              href="https://grammar.arabic.best/rules/breeds/breed-8"
+              className={classes.dropdownLink}
+            >
+              - VIII порода глагола-
+            </a>,
+            <a
+              href="https://grammar.arabic.best/rules/breeds/breed-9"
+              className={classes.dropdownLink}
+            >
+              - IX порода глагола -
+            </a>,
+            <a
+              href="https://grammar.arabic.best/rules/breeds/breed-10"
+              className={classes.dropdownLink}
+            >
               - X порода глагола -
-            </Link>,
+            </a>,
             <Link to="/letter4" className={classes.dropdownLink}>
               Четырёхбуквенный глагол
             </Link>,
@@ -189,15 +228,15 @@ function HeaderLinks({ ...props }) {
             <Link to="/masdar" className={classes.dropdownLink}>
               Масдар
             </Link>,
-            <Link
-              to="/asmaulafal"
+            <a
+              href="https://grammar.arabic.best/rules/ksvedeniyu/asmaa-alafaal"
               className={classes.dropdownLink}
               style={{ fontSize: 20 }}
             >
               {' - '}
               اسماء الافعال
               {' - '}
-            </Link>,
+            </a>,
             <Link
               to="/ismumaful"
               className={classes.dropdownLink}
@@ -212,34 +251,43 @@ function HeaderLinks({ ...props }) {
             >
               اسم الفاعل
             </Link>,
-            <Link
-              to="/ismulmakanwazaman"
+            <a
+              href="https://grammar.arabic.best/rules/derivatives/imya-deystviya-i-vremenyi"
               className={classes.dropdownLink}
               style={{ fontSize: 20 }}
             >
               - اسم مكان و زمان -
-            </Link>,
-            <Link
-              to="/ismaalati"
+            </a>,
+            <a
+              href="https://grammar.arabic.best/rules/derivatives/imya-instrumenta"
               className={classes.dropdownLink}
               style={{ fontSize: 20 }}
             >
               {' - '}
               اسم آلَة
               {' - '}
-            </Link>,
-            <Link to="/abjectivedegrees" className={classes.dropdownLink}>
+            </a>,
+            <a
+              href="https://grammar.arabic.best/rules/derivatives/preference-name"
+              className={classes.dropdownLink}
+            >
               - Степени прилагательного -
-            </Link>,
-            <Link to="/affectionateword" className={classes.dropdownLink}>
+            </a>,
+            <a
+              href="https://grammar.arabic.best/rules/derivatives/diminutive-name"
+              className={classes.dropdownLink}
+            >
               - Уменьшительно ласкательные -
-            </Link>,
+            </a>,
             <Link to="/ism5" className={classes.dropdownLink}>
               Спряжение 5 имён
             </Link>,
-            <Link to="/twocase" className={classes.dropdownLink}>
+            <a
+              href="https://grammar.arabic.best/rules/ia3rob/mamnua-minas-sarf"
+              className={classes.dropdownLink}
+            >
               - Двухпадежность имён -
-            </Link>,
+            </a>,
             <Link to="/someism" className={classes.dropdownLink}>
               Некоторые имена
             </Link>,
@@ -256,13 +304,13 @@ function HeaderLinks({ ...props }) {
             color: 'transparent',
           }}
           dropdownList={[
-            <Link
-              to="/adwatuldjazm"
+            <a
+              href="https://grammar.arabic.best/rules/verbs/adwatu-djazm"
               className={classes.dropdownLink}
               style={{ fontSize: 20 }}
             >
               ـ أدوَات الجزم ـ
-            </Link>,
+            </a>,
 
             <Link
               to="/typeharflya"
@@ -305,9 +353,12 @@ function HeaderLinks({ ...props }) {
             <Link to="/harfsobir" className={classes.dropdownLink}>
               Собирательная частица
             </Link>,
-            <Link to="/innawithsisters" className={classes.dropdownLink}>
+            <a
+              href="https://grammar.arabic.best/rules/middle/inna-wa-akhawatuha"
+              className={classes.dropdownLink}
+            >
               - Частица инна и её сестры -
-            </Link>,
+            </a>,
             <Link
               to="/harfHal"
               style={{ fontSize: 20 }}
@@ -340,7 +391,10 @@ function HeaderLinks({ ...props }) {
             <Link to="/99" className={classes.dropdownLink}>
               Прекрасные имена Аллахъа
             </Link>,
-            <Link to="/accent" className={classes.dropdownLink}>
+            <Link
+              to="https://grammar.arabic.best/rules/construction-of-speech/accent-question"
+              className={classes.dropdownLink}
+            >
               - Акцент на объекте -
             </Link>,
             <Link to="/dua" className={classes.dropdownLink}>
@@ -349,9 +403,12 @@ function HeaderLinks({ ...props }) {
             <Link to="/similarity" className={classes.dropdownLink}>
               Страдательный залог и мафъуль
             </Link>,
-            <Link to="/chislitel100" className={classes.dropdownLink}>
+            <a
+              href="https://grammar.arabic.best/rules/vocabulary/100"
+              className={classes.dropdownLink}
+            >
               - Числительные с 100 -
-            </Link>,
+            </a>,
             <Link
               to="/minqoblu"
               style={{ fontSize: 20 }}
@@ -362,9 +419,12 @@ function HeaderLinks({ ...props }) {
             <Link to="/puraldual" className={classes.dropdownLink}>
               Мн. и дв. число
             </Link>,
-            <Link to="/surprise" className={classes.dropdownLink}>
+            <a
+              href="https://grammar.arabic.best/rules/construction-of-speech/surprise-expression"
+              className={classes.dropdownLink}
+            >
               - Формы удивления -
-            </Link>,
+            </a>,
           ]}
         />
       </ListItem>

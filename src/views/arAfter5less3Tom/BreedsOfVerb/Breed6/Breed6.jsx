@@ -15,6 +15,10 @@ class Breed6 extends React.Component {
     return (
       <div>
         <Helmet>
+          <meta
+            http-equiv="refresh"
+            content="0; url=https://grammar.arabic.best/rules/breeds/breed-6"
+          />
           <title>6 порода арабского глагола</title>
           <meta
             name="description"
@@ -28,24 +32,33 @@ class Breed6 extends React.Component {
           fixed
           changeColorOnScroll={{
             height: 200,
-            color: 'white'
+            color: 'white',
           }}
           {...rest}
         />
 
-        <Parallax small filter image={require('assets/img/mosque/mosque29.jpg')} />
+        <Parallax
+          small
+          filter
+          image={require('assets/img/mosque/mosque29.jpg')}
+        />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title">
-                Глагол шестой породы (تَفَاعَلَ)&nbsp;<span className="ph">§</span>
+                Глагол шестой породы (تَفَاعَلَ)&nbsp;
+                <span className="ph">§</span>
               </h1>
 
               <div className="desc">
-                Его основные значения - <b> взаимность действия </b>, <b> взаимное чередование </b>. Так же имеет значение
-                <b> притвориться чем либо </b>. Образуется от третей породы при помощи приставки <b classname="desc__ar"> ت </b>. В третьей
-                породе действие было направлено к какому то субъекту, в шестой породе приставка
-                <b classname="desc__ar"> ت </b> приводит к полной взаимности действий. (<b classname="desc__ar"> ت </b> возвратная)
+                Его основные значения - <b> взаимность действия </b>,{' '}
+                <b> взаимное чередование </b>. Так же имеет значение
+                <b> притвориться чем либо </b>. Образуется от третей породы при
+                помощи приставки <b classname="desc__ar"> ت </b>. В третьей
+                породе действие было направлено к какому то субъекту, в шестой
+                породе приставка
+                <b classname="desc__ar"> ت </b> приводит к полной взаимности
+                действий. (<b classname="desc__ar"> ت </b> возвратная)
               </div>
 
               <div className="items items_islabel">
@@ -58,7 +71,9 @@ class Breed6 extends React.Component {
                   </div>
                   <div className="arsent">
                     <div className="arsent__original contrast">تَبَاكَىَ</div>
-                    <div className="arsent__translate">Притворялся плачущим</div>
+                    <div className="arsent__translate">
+                      Притворялся плачущим
+                    </div>
                   </div>
                 </div>
 
@@ -71,7 +86,9 @@ class Breed6 extends React.Component {
                   </div>
                   <div className="arsent">
                     <div className="arsent__original contrast">يَتَباكى</div>
-                    <div className="arsent__translate">Притворяется плачущим</div>
+                    <div className="arsent__translate">
+                      Притворяется плачущим
+                    </div>
                   </div>
                 </div>
 
@@ -93,11 +110,15 @@ class Breed6 extends React.Component {
                   <span className="item__label">المصدر</span>
                   <div className="arsent">
                     <div className="arsent__original contrast">تَعَاوُنُ</div>
-                    <div className="arsent__translate">Взаимная помощь, сотрудничество</div>
+                    <div className="arsent__translate">
+                      Взаимная помощь, сотрудничество
+                    </div>
                   </div>
                   <div className="arsent">
                     <div className="arsent__original contrast">تَبَاكٍ</div>
-                    <div className="arsent__translate">Притворство плачущим</div>
+                    <div className="arsent__translate">
+                      Притворство плачущим
+                    </div>
                   </div>
                 </div>
 
@@ -123,7 +144,10 @@ class Breed6 extends React.Component {
                   <span className="contrast"> تَعَاوَنَ </span>
                   <span> الطلابُ </span>
                 </div>
-                <div className="arsent__translate"> Помогали студенты друг другу </div>
+                <div className="arsent__translate">
+                  {' '}
+                  Помогали студенты друг другу{' '}
+                </div>
               </div>
 
               <div className="arsent">
@@ -131,14 +155,20 @@ class Breed6 extends React.Component {
                   <span className="contrast"> تَمَارَضَ </span>
                   <span> الطَّالبُ </span>
                 </div>
-                <div className="arsent__translate"> Притворился студент больным </div>
+                <div className="arsent__translate">
+                  {' '}
+                  Притворился студент больным{' '}
+                </div>
               </div>
 
               <div className="arsent">
                 <div className="arsent__original">
                   <span> أ تَبْكي أم تَتََبَاكى ياوَلَد؟ </span>
                 </div>
-                <div className="arsent__translate"> Ты плачешь (по настоящему) или притворяешся? </div>
+                <div className="arsent__translate">
+                  {' '}
+                  Ты плачешь (по настоящему) или притворяешся?{' '}
+                </div>
               </div>
 
               <div className="arsent">
@@ -147,7 +177,10 @@ class Breed6 extends React.Component {
                   <span> هؤلاء و </span>
                   <span className="contrast"> تَضَارَبُوا </span>
                 </div>
-                <div className="arsent__translate"> Поругались и подрались </div>
+                <div className="arsent__translate">
+                  {' '}
+                  Поругались и подрались{' '}
+                </div>
               </div>
               <div className="arsent">
                 <div className="arsent__original">
@@ -155,7 +188,11 @@ class Breed6 extends React.Component {
                   <span className="contrast"> يَتَعامى </span>
                   <span> حتى يَتَصَدَّقَ عليه الناس</span>
                 </div>
-                <div className="arsent__translate"> Тот мужчина притворяется слепым, Чтоб люди давали ему милостыню </div>
+                <div className="arsent__translate">
+                  {' '}
+                  Тот мужчина притворяется слепым, Чтоб люди давали ему
+                  милостыню{' '}
+                </div>
               </div>
             </div>
           </div>

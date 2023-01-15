@@ -15,6 +15,10 @@ class Breed4 extends React.Component {
     return (
       <div>
         <Helmet>
+          <meta
+            http-equiv="refresh"
+            content="0; url=https://grammar.arabic.best/rules/breeds/breed-9"
+          />
           <title>9 порода арабского глагола</title>
           <meta
             name="description"
@@ -28,33 +32,43 @@ class Breed4 extends React.Component {
           fixed
           changeColorOnScroll={{
             height: 200,
-            color: 'white'
+            color: 'white',
           }}
           {...rest}
         />
 
-        <Parallax small filter image={require('assets/img/mosque/mosque2.jpg')} />
+        <Parallax
+          small
+          filter
+          image={require('assets/img/mosque/mosque2.jpg')}
+        />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title">
-                Глагол девятой породы (اِفْعَلَّ)&nbsp;<span className="ph">§</span>
+                Глагол девятой породы (اِفْعَلَّ)&nbsp;
+                <span className="ph">§</span>
               </h1>
 
               <div className="desc">
-                Перед первой коренной приходит хамза, а третья кореная удваивается. По своему значению эта порода указывает на
-                <b> цвета </b> или какие либо <b> недостатки </b>. И передает эта порода становление этих качеств
+                Перед первой коренной приходит хамза, а третья кореная
+                удваивается. По своему значению эта порода указывает на
+                <b> цвета </b> или какие либо <b> недостатки </b>. И передает
+                эта порода становление этих качеств
               </div>
 
               <div className="desc">
-                Так же можно указать и 11 породу <span className="desc__ar"> اِفْعَالَّ </span>, но в отличии от 9 эта парода указывает
-                только
-                <b> цвета </b>. Этот алиф указывает на усиление 9 породы (Например не просто почернел а сильно почернел)
+                Так же можно указать и 11 породу{' '}
+                <span className="desc__ar"> اِفْعَالَّ </span>, но в отличии от
+                9 эта парода указывает только
+                <b> цвета </b>. Этот алиф указывает на усиление 9 породы
+                (Например не просто почернел а сильно почернел)
               </div>
 
               <div className="arsent">
                 <div className="arsent__original">
-                  <span> أحْمَر </span> -<span className="contrast"> اِحْمَرَّ </span>
+                  <span> أحْمَر </span> -
+                  <span className="contrast"> اِحْمَرَّ </span>
                 </div>
                 <div className="arsent__translate"> Красный - покраснел </div>
               </div>
@@ -82,7 +96,10 @@ class Breed4 extends React.Component {
                   {/* <h2 className="h2ar "> اِفْعِلالٌ  <span role="img" aria-label="Writing Hand"> ✍️ </span>  </h2>  */}
                   <span className="item__label">المصدر</span>
                   <div className="arsent">
-                    <div className="arsent__original contrast"> اِحْمِرَارٌ </div>
+                    <div className="arsent__original contrast">
+                      {' '}
+                      اِحْمِرَارٌ{' '}
+                    </div>
                     <div className="arsent__translate"> Покраснение </div>
                   </div>
                 </div>
@@ -108,14 +125,20 @@ class Breed4 extends React.Component {
                 <div className="arsent__original">
                   <span> اِحْتَرَقَ الخَشَبَ واسْوَدَّ </span>
                 </div>
-                <div className="arsent__translate"> Дерево сгорело и почернело </div>
+                <div className="arsent__translate">
+                  {' '}
+                  Дерево сгорело и почернело{' '}
+                </div>
               </div>
 
               <div className="arsent">
                 <div className="arsent__original">
                   <span> غَسَلْتُ الثّوبَ الوَسِخَ بالصابون فَابْيَضَّ </span>
                 </div>
-                <div className="arsent__translate"> Постирал грязное платье мылом и оно побелело </div>
+                <div className="arsent__translate">
+                  {' '}
+                  Постирал грязное платье мылом и оно побелело{' '}
+                </div>
               </div>
 
               {/* -------------------------------- */}

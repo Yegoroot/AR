@@ -15,6 +15,10 @@ class Breed5 extends React.Component {
     return (
       <div>
         <Helmet>
+          <meta
+            http-equiv="refresh"
+            content="0; url=https://grammar.arabic.best/rules/breeds/breed-5"
+          />
           <title>5 порода арабского глагола</title>
           <meta
             name="description"
@@ -28,31 +32,40 @@ class Breed5 extends React.Component {
           fixed
           changeColorOnScroll={{
             height: 200,
-            color: 'white'
+            color: 'white',
           }}
           {...rest}
         />
 
-        <Parallax small filter image={require('assets/img/mosque/mosque28.jpg')} />
+        <Parallax
+          small
+          filter
+          image={require('assets/img/mosque/mosque28.jpg')}
+        />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title">
-                Глагол пятой породы&nbsp;(تَفَعَّلَ)&nbsp;<span className="ph">§</span>
+                Глагол пятой породы&nbsp;(تَفَعَّلَ)&nbsp;
+                <span className="ph">§</span>
               </h1>
 
               <div className="desc">
-                К глаголу второй породы <b> (усиление, учащение или переходность) </b> прибавили <b className="desc__ar"> ت </b>{' '}
-                возвратности на сам объект. Так же значит <b> постепенность </b> (брал знания шаг за шагом)
+                К глаголу второй породы{' '}
+                <b> (усиление, учащение или переходность) </b> прибавили{' '}
+                <b className="desc__ar"> ت </b> возвратности на сам объект. Так
+                же значит <b> постепенность </b> (брал знания шаг за шагом)
                 <br />
                 <br />
-                <b className="desc__ar"> تَفَعَّلَ = ت + فَعَّلَ </b> и эта <b className="desc__ar"> ت </b> указывает на возвратность на сам
+                <b className="desc__ar"> تَفَعَّلَ = ت + فَعَّلَ </b> и эта{' '}
+                <b className="desc__ar"> ت </b> указывает на возвратность на сам
                 субъект (<span className="desc__ar"> فاعِل</span> ).
               </div>
 
               <div className="arsent">
                 <div className="arsent__original">
-                  <span className="contrast"> تَعَلَّمَ </span> =<span> ت + عَلَّمَ </span>
+                  <span className="contrast"> تَعَلَّمَ </span> =
+                  <span> ت + عَلَّمَ </span>
                 </div>
                 <div className="arsent__translate">
                   <span className="contrast"> Обучился </span> - обучил
@@ -61,7 +74,8 @@ class Breed5 extends React.Component {
 
               <div className="arsent">
                 <div className="arsent__original">
-                  <span className="contrast"> تَزَوَّجَ </span>=<span> ت + زَوَّجَ </span>
+                  <span className="contrast"> تَزَوَّجَ </span>=
+                  <span> ت + زَوَّجَ </span>
                 </div>
                 <div className="arsent__translate">
                   <span className="contrast"> Женился </span> - женил
@@ -76,7 +90,8 @@ class Breed5 extends React.Component {
                   <span className="contrast_2"> عَلَّمَهُ </span>
                 </div>
                 <div className="arsent__translate">
-                  Лучший из вас тот, кто <span className="contrast"> обучился </span> Корану и
+                  Лучший из вас тот, кто{' '}
+                  <span className="contrast"> обучился </span> Корану и
                   <span className="contrast_2"> научил ему </span>
                 </div>
               </div>
@@ -212,7 +227,8 @@ class Breed5 extends React.Component {
               </h2>
 
               <div className="desc">
-                Разрешается удалять одну <b className="desc__ar"> ت </b> если она повторяеться но для этого должна быть причина. Например:
+                Разрешается удалять одну <b className="desc__ar"> ت </b> если
+                она повторяеться но для этого должна быть причина. Например:
               </div>
 
               <div className="arsent">
@@ -221,7 +237,8 @@ class Breed5 extends React.Component {
                   <span> الملائِكةُ والرُّوحُ </span>
                 </div>
                 <div className="arsent__translate">
-                  В основе <b className="desc__ar"> تَتَنَزِّلُ </b> [АльКадр / 4]
+                  В основе <b className="desc__ar"> تَتَنَزِّلُ </b> [АльКадр /
+                  4]
                 </div>
               </div>
               <div className="arsent">
@@ -230,7 +247,8 @@ class Breed5 extends React.Component {
                   <span className="contrast"> تَجَسَّسوا </span>
                 </div>
                 <div className="arsent__translate">
-                  В основе <b className="desc__ar"> تَتَجَسَّسوا </b> Не шпионьте [49 / 12]
+                  В основе <b className="desc__ar"> تَتَجَسَّسوا </b> Не
+                  шпионьте [49 / 12]
                 </div>
               </div>
 
