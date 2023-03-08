@@ -79,9 +79,12 @@ function HeaderLinks({ ...props }) {
             >
               الحال
             </Link>,
-            <Link to="/additional" className={classes.dropdownLink}>
-              Виды дополнений
-            </Link>,
+            <a
+              href="https://grammar.arabic.best/rules/derivatives/types-of-object"
+              className={classes.dropdownLink}
+            >
+              - Виды дополнений -
+            </a>,
             <Link
               to="/addabsolute"
               style={{ fontSize: 20 }}
@@ -100,16 +103,19 @@ function HeaderLinks({ ...props }) {
               to="/thorfitha"
               style={{ fontSize: 20 }}
               className={classes.dropdownLink}
-            >
-              ظرف إذا. شرط
-            </Link>,
-            <Link
-              to="/adatushart"
-              style={{ fontSize: 20 }}
+            ></Link>,
+            <a
+              href="https://grammar.arabic.best/rules/some-words/itha"
               className={classes.dropdownLink}
             >
-              شرط إنْ
-            </Link>,
+              - ظرف إذا. شرط -
+            </a>,
+            <a
+              href="https://grammar.arabic.best/rules/verbs/adawatu-djazima-lif3ilayn"
+              className={classes.dropdownLink}
+            >
+              - شرط إنْ-
+            </a>,
           ]}
         />
       </ListItem>
@@ -132,12 +138,18 @@ function HeaderLinks({ ...props }) {
             <Link to="/someverbs" className={classes.dropdownLink}>
               Некоторые глаголы
             </Link>,
-            <Link to="/weakLetters" className={classes.dropdownLink}>
-              Слабая коренная
-            </Link>,
-            <Link to="/fialmabnililmajhun" className={classes.dropdownLink}>
-              Глагол страдательного залога
-            </Link>,
+            <a
+              href="https://grammar.arabic.best/rules/verbs/regular-verb-and-weak-verb"
+              className={classes.dropdownLink}
+            >
+              - Слабая коренная-
+            </a>,
+            <a
+              href="https://grammar.arabic.best/rules/verbs/verb-with-a-hidden-doer"
+              className={classes.dropdownLink}
+            >
+              - Глагол страдательного залога -
+            </a>,
             <a
               href="https://grammar.arabic.best/rules/breeds/about-verb-breeds"
               className={classes.dropdownLink}
@@ -237,20 +249,20 @@ function HeaderLinks({ ...props }) {
               اسماء الافعال
               {' - '}
             </a>,
-            <Link
-              to="/ismumaful"
+            <a
+              href="https://grammar.arabic.best/rules/derivatives/ismul-maf3ul"
               className={classes.dropdownLink}
               style={{ fontSize: 20 }}
             >
-              اسم المَفول
-            </Link>,
-            <Link
-              to="/ismafial"
+              - اسم المَفول -
+            </a>,
+            <a
+              href="https://grammar.arabic.best/rules/derivatives/ismu-fa3il"
               className={classes.dropdownLink}
               style={{ fontSize: 20 }}
             >
-              اسم الفاعل
-            </Link>,
+              - اسم الفاعل -
+            </a>,
             <a
               href="https://grammar.arabic.best/rules/derivatives/imya-deystviya-i-vremenyi"
               className={classes.dropdownLink}

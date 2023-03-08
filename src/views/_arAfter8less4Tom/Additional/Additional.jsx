@@ -18,6 +18,10 @@ class Page extends React.Component {
     return (
       <div>
         <Helmet>
+          <meta
+            http-equiv="refresh"
+            content="0; url=https://grammar.arabic.best/rules/derivatives/types-of-object"
+          />
           <title>Виды дополнений в арабском языке</title>
           <meta
             name="description"
@@ -32,12 +36,16 @@ class Page extends React.Component {
           fixed
           changeColorOnScroll={{
             height: 200,
-            color: 'white'
+            color: 'white',
           }}
           {...rest}
         />
 
-        <Parallax small filter image={require('assets/img/mosque/mosque11.jpg')} />
+        <Parallax
+          small
+          filter
+          image={require('assets/img/mosque/mosque11.jpg')}
+        />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
@@ -46,11 +54,16 @@ class Page extends React.Component {
               </h1>
               <div className="desc">
                 Существует 5 видов дополнения:
-                <b> абсолютное дополнение </b> (<span className="desc__ar"> المفعول المطلق </span>), <b> прямое дополнение </b> (
-                <span className="desc__ar"> المفعول به </span> ), <b> обстоятельство времени или места </b>(
-                <span className="desc__ar"> المفعول فيه </span>), <b> дополнение причины, цели </b> (
+                <b> абсолютное дополнение </b> (
+                <span className="desc__ar"> المفعول المطلق </span>),{' '}
+                <b> прямое дополнение </b> (
+                <span className="desc__ar"> المفعول به </span> ),{' '}
+                <b> обстоятельство времени или места </b>(
+                <span className="desc__ar"> المفعول فيه </span>),{' '}
+                <b> дополнение причины, цели </b> (
                 <span className="desc__ar"> المفعول له </span>
-                ), <b> дополнение соучастия </b> (<span className="desc__ar"> المفعول معه </span> )
+                ), <b> дополнение соучастия </b> (
+                <span className="desc__ar"> المفعول معه </span> )
               </div>
 
               <h2 className="title h2ar">
@@ -60,15 +73,21 @@ class Page extends React.Component {
                 </span>
               </h2>
               <div className="desc">
-                <b> Прямое дополнение </b> это объект, на который непосредственно (без предлога) переходит действие переходного глагола (см.
-                <Link to={'/verbtransitive'}> "Переходность глагола" </Link>), выражается винительным падежом.
+                <b> Прямое дополнение </b> это объект, на который
+                непосредственно (без предлога) переходит действие переходного
+                глагола (см.
+                <Link to={'/verbtransitive'}> "Переходность глагола" </Link>),
+                выражается винительным падежом.
               </div>
               <div className="arsent">
                 <div className="arsent__original">
                   <span> مَدَحْتُ </span>
                   <span className="contrast"> الْوَلَدَ </span>
                 </div>
-                <div className="arsent__translate"> Я похвалил (кого?) ребенка </div>
+                <div className="arsent__translate">
+                  {' '}
+                  Я похвалил (кого?) ребенка{' '}
+                </div>
               </div>
               <div className="arsent">
                 <div className="arsent__original">
@@ -85,7 +104,8 @@ class Page extends React.Component {
                 </span>
               </h2>
               <div className="desc">
-                Про <b> обстоятельство места или времени </b> можно посмотреть <Link to={'/almafulufihi'}> в этом разделе </Link>
+                Про <b> обстоятельство места или времени </b> можно посмотреть{' '}
+                <Link to={'/almafulufihi'}> в этом разделе </Link>
               </div>
 
               <h2 className="h2ar title">
@@ -95,7 +115,8 @@ class Page extends React.Component {
                 </span>
               </h2>
               <div className="desc">
-                Про <b> абсолютное дополнение </b> можно посмотреть <Link to={'/addabsolute'}> в этом разделе </Link>
+                Про <b> абсолютное дополнение </b> можно посмотреть{' '}
+                <Link to={'/addabsolute'}> в этом разделе </Link>
               </div>
 
               <h2 className="h2ar title">
@@ -105,7 +126,8 @@ class Page extends React.Component {
                 </span>
               </h2>
               <div className="desc">
-                <b> Дополнение причины, цели </b> это масдар, который упоминается для разъяснения причины действия или поступков
+                <b> Дополнение причины, цели </b> это масдар, который
+                упоминается для разъяснения причины действия или поступков
               </div>
 
               <div className="arsent">
@@ -114,7 +136,10 @@ class Page extends React.Component {
                   <span className="contrast"> خَشْيَةَ </span>
                   <span> إمْلاقٍ </span>
                 </div>
-                <div className="arsent__translate"> Не убивайте ваших детей (по причине ?) из за страха бедности </div>
+                <div className="arsent__translate">
+                  {' '}
+                  Не убивайте ваших детей (по причине ?) из за страха бедности{' '}
+                </div>
               </div>
 
               <div className="arsent">
@@ -124,7 +149,8 @@ class Page extends React.Component {
                   <span> لِمَوَدَّتِهِم </span>
                 </div>
                 <div className="arsent__translate">
-                  Я закрываю глаза на промохи моих друзей (по причине ?) в надежде сохранить привязанность
+                  Я закрываю глаза на промохи моих друзей (по причине ?) в
+                  надежде сохранить привязанность
                 </div>
               </div>
 
@@ -134,7 +160,9 @@ class Page extends React.Component {
                   <span className="contrast"> خَوفً </span>
                   <span> مِن الحارّ </span>
                 </div>
-                <div className="arsent__translate">Не вышел из дома сегодня (по какой причине?) из за страха жары</div>
+                <div className="arsent__translate">
+                  Не вышел из дома сегодня (по какой причине?) из за страха жары
+                </div>
               </div>
 
               <h2 className="h2ar title">
@@ -144,9 +172,12 @@ class Page extends React.Component {
                 </span>
               </h2>
               <div className="desc">
-                <b className="desc__ar"> المَفْعُولُ مَعَهُ </b> – это имя в винительном падеже, которое стоит после предлога
-                <b className="desc__ar"> وَ </b> и указывает на то, что <b> "сопутствует" </b> действующему лицу во время выполнения
-                действия. На русский язык المفعول معه следует переводить в соответствии с контекстом предложения.
+                <b className="desc__ar"> المَفْعُولُ مَعَهُ </b> – это имя в
+                винительном падеже, которое стоит после предлога
+                <b className="desc__ar"> وَ </b> и указывает на то, что{' '}
+                <b> "сопутствует" </b> действующему лицу во время выполнения
+                действия. На русский язык المفعول معه следует переводить в
+                соответствии с контекстом предложения.
               </div>
 
               <div className="arsent">
@@ -155,7 +186,9 @@ class Page extends React.Component {
                   <span className="contrast_2"> وَ </span>
                   <span className="contrast"> النَّهْرَ </span>
                 </div>
-                <div className="arsent__translate">Зейд шёл и (рядом была) река</div>
+                <div className="arsent__translate">
+                  Зейд шёл и (рядом была) река
+                </div>
               </div>
 
               <div className="arsent">
@@ -164,7 +197,9 @@ class Page extends React.Component {
                   <span className="contrast_2"> وَ </span>
                   <span className="contrast"> اللَّيْلَ </span>
                 </div>
-                <div className="arsent__translate">Мой отец уехал и (была) ночь</div>
+                <div className="arsent__translate">
+                  Мой отец уехал и (была) ночь
+                </div>
               </div>
 
               <div className="arsent">
@@ -173,15 +208,20 @@ class Page extends React.Component {
                   <span className="contrast_2"> وَ </span>
                   <span className="contrast"> الشَّمْسَ </span>
                 </div>
-                <div className="arsent__translate">Вернулся Саид и (светило) солнце</div>
+                <div className="arsent__translate">
+                  Вернулся Саид и (светило) солнце
+                </div>
               </div>
 
               <div className="desc">
-                То есть река, ночь и солнце как бы <b>"сопутствовали"</b> действующему лицу во время выполнения действия.
+                То есть река, ночь и солнце как бы <b>"сопутствовали"</b>{' '}
+                действующему лицу во время выполнения действия.
               </div>
               <div className="desc">
-                Предлог <b className="desc__ar">وَ</b>, носящий смысл <b className="desc__ar"> مَعَ </b> "с, вместе" и предшествующий
-                <b className="desc__ar"> المفعول معه </b>, в арабской терминологии называют <b className="desc__ar"> واوُ المعيّة </b>
+                Предлог <b className="desc__ar">وَ</b>, носящий смысл{' '}
+                <b className="desc__ar"> مَعَ </b> "с, вместе" и предшествующий
+                <b className="desc__ar"> المفعول معه </b>, в арабской
+                терминологии называют <b className="desc__ar"> واوُ المعيّة </b>
                 (вав сопутствия).
               </div>
             </div>

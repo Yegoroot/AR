@@ -1,22 +1,26 @@
-import React from "react";
-import classNames from "classnames";
-import withStyles from "@material-ui/core/styles/withStyles";
-import Header from "components/Header/Header.jsx";
-import Footer from "components/Footer/Footer.jsx";
-import HeaderLinks from "components/Header/HeaderLinks.jsx";
-import Parallax from "components/Parallax/Parallax.jsx";
-import arabicPageStyle from "assets/jss/material-kit-react/views/arabicPage.jsx";
-import Word from "components/word";
-import AnimateCard from "components/AnimateCard/AnimateCard";
-import { Helmet } from "react-helmet";
+import React from 'react'
+import classNames from 'classnames'
+import withStyles from '@material-ui/core/styles/withStyles'
+import Header from 'components/Header/Header.jsx'
+import Footer from 'components/Footer/Footer.jsx'
+import HeaderLinks from 'components/Header/HeaderLinks.jsx'
+import Parallax from 'components/Parallax/Parallax.jsx'
+import arabicPageStyle from 'assets/jss/material-kit-react/views/arabicPage.jsx'
+import Word from 'components/word'
+import AnimateCard from 'components/AnimateCard/AnimateCard'
+import { Helmet } from 'react-helmet'
 
 class Page extends React.Component {
   render() {
-    const { classes, ...rest } = this.props;
+    const { classes, ...rest } = this.props
 
     return (
       <div>
         <Helmet>
+          <meta
+            http-equiv="refresh"
+            content="0; url=https://grammar.arabic.best/rules/verbs/adawatu-djazima-lif3ilayn"
+          />
           <title>Джазмирование двух глаголов أَداةُ شَرْط إنْ</title>
           <meta
             name="description"
@@ -31,25 +35,30 @@ class Page extends React.Component {
           fixed
           changeColorOnScroll={{
             height: 200,
-            color: "white"
+            color: 'white',
           }}
           {...rest}
         />
 
-        <Parallax small filter image={require("assets/img/mosque/mosque16.jpg")} />
+        <Parallax
+          small
+          filter
+          image={require('assets/img/mosque/mosque16.jpg')}
+        />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className=" title">الشرط و جواب الشرط</h1>
 
               <div className="desc">
-                Кто поймет этот урок, тот поймёт многие другие, в том числе и связанные с
-                методологией фикха. Некоторые правила этого урока является продолжением урока про{" "}
-                <span className="desc__ar"> ظَرْف إذا </span>. А именно в предыдущем уроке мы
-                разобрали два случая когда ставиться союз Фа между{" "}
-                <span className="desc__ar"> الشرط </span> и
-                <span className="desc__ar"> جواب الشرط </span>, а в конце этого урока разберем
-                остальные случаи
+                Кто поймет этот урок, тот поймёт многие другие, в том числе и
+                связанные с методологией фикха. Некоторые правила этого урока
+                является продолжением урока про{' '}
+                <span className="desc__ar"> ظَرْف إذا </span>. А именно в
+                предыдущем уроке мы разобрали два случая когда ставиться союз Фа
+                между <span className="desc__ar"> الشرط </span> и
+                <span className="desc__ar"> جواب الشرط </span>, а в конце этого
+                урока разберем остальные случаи
               </div>
 
               <h2 className="h2ar title">
@@ -66,8 +75,9 @@ class Page extends React.Component {
                     <span> أداةُ شَرْطٍ تَجْزِمُ فِعْلَيْنِ </span>
                   </div>
                   <div className="arsent__translate">
-                    Частица<span className="contrast desc__ar"> إنْ </span> джазмирует два глагола
-                    [ниже будут представлены другие слова которые могут джазмировать ]
+                    Частица<span className="contrast desc__ar"> إنْ </span>{' '}
+                    джазмирует два глагола [ниже будут представлены другие слова
+                    которые могут джазмировать ]
                   </div>
                   <div className="arsent__original" style={{ paddingTop: 20 }}>
                     <span> الأوَّلُ فعلَ </span>
@@ -76,7 +86,8 @@ class Page extends React.Component {
                     <span className="contrast_2"> جوابَ الشرطِ </span>
                   </div>
                   <div className="arsent__translate">
-                    Первый глагол <span className="contrast_2"> условие </span> второй
+                    Первый глагол <span className="contrast_2"> условие </span>{' '}
+                    второй
                     <span className="contrast_2"> следствие условия </span>
                   </div>
                 </div>
@@ -125,8 +136,8 @@ class Page extends React.Component {
                 </div>
                 <div className="arsent__translate">
                   <span className="contrast"> Если </span>
-                  ты не простишь меня и не смилостивуешся над мной, то я окажусь потерпевшим убыток
-                  [47 Аят Сура Худ]
+                  ты не простишь меня и не смилостивуешся над мной, то я окажусь
+                  потерпевшим убыток [47 Аят Сура Худ]
                 </div>
               </div>
 
@@ -136,16 +147,18 @@ class Page extends React.Component {
                   &nbsp;✍️
                 </span>
               </h2>
-              <div className="desc">Существуют так же имена, которые джазмируют два глагола</div>
+              <div className="desc">
+                Существуют так же имена, которые джазмируют два глагола
+              </div>
 
               <div className="items ">
                 <div className="item">
                   <h2 className="h2ar">
-                    مَنْ{" "}
+                    مَنْ{' '}
                     <span role="img" aria-label="Light Bulb">
-                      {" "}
-                      💡{" "}
-                    </span>{" "}
+                      {' '}
+                      💡{' '}
+                    </span>{' '}
                   </h2>
                   <div className="arsent">
                     <div className="arsent__original">
@@ -155,18 +168,18 @@ class Page extends React.Component {
                       <span> مِثْقَالَ ذَرَّةٍ خَيْراً يَرَهُ</span>
                     </div>
                     <div className="arsent__translate">
-                      Тот кто совершит благое весом с пылинку, увидит (слабая буква усеклась) это.
-                      [99 Сура 7 Аят]
+                      Тот кто совершит благое весом с пылинку, увидит (слабая
+                      буква усеклась) это. [99 Сура 7 Аят]
                     </div>
                   </div>
                 </div>
                 <div className="item">
                   <h2 className="h2ar">
-                    ما{" "}
+                    ما{' '}
                     <span role="img" aria-label="Light Bulb">
-                      {" "}
-                      💡{" "}
-                    </span>{" "}
+                      {' '}
+                      💡{' '}
+                    </span>{' '}
                   </h2>
                   <div className="arsent">
                     <div className="arsent__original">
@@ -177,16 +190,18 @@ class Page extends React.Component {
                       <Word suffix="هُ" root="مْ" prefix="يَعْلَ" negative />
                       <span> الله </span>
                     </div>
-                    <div className="arsent__translate">[Сура Бакара 197 Аят]</div>
+                    <div className="arsent__translate">
+                      [Сура Бакара 197 Аят]
+                    </div>
                   </div>
                 </div>
                 <div className="item">
                   <h2 className="h2ar">
-                    مَتَى{" "}
+                    مَتَى{' '}
                     <span role="img" aria-label="Light Bulb">
-                      {" "}
-                      💡{" "}
-                    </span>{" "}
+                      {' '}
+                      💡{' '}
+                    </span>{' '}
                   </h2>
                   <div className="arsent">
                     <div className="arsent__original">
@@ -195,16 +210,18 @@ class Page extends React.Component {
                       &nbsp;
                       <Word suffix="رْ" root=" أُسَافِ" />
                     </div>
-                    <div className="arsent__translate">Когда ты уедешь, я уеду</div>
+                    <div className="arsent__translate">
+                      Когда ты уедешь, я уеду
+                    </div>
                   </div>
                 </div>
                 <div className="item">
                   <h2 className="h2ar">
-                    أَيَّ{" "}
+                    أَيَّ{' '}
                     <span role="img" aria-label="Light Bulb">
-                      {" "}
-                      💡{" "}
-                    </span>{" "}
+                      {' '}
+                      💡{' '}
+                    </span>{' '}
                   </h2>
                   <div className="arsent">
                     <div className="arsent__original">
@@ -214,16 +231,18 @@ class Page extends React.Component {
                       <span> في المكتبة </span>
                       <span> نَشْتَرِهِ </span>
                     </div>
-                    <div className="arsent__translate">Какой словарь найдём, такой и купим</div>
+                    <div className="arsent__translate">
+                      Какой словарь найдём, такой и купим
+                    </div>
                   </div>
                 </div>
                 <div className="item">
                   <h2 className="h2ar">
-                    مَهْمَا{" "}
+                    مَهْمَا{' '}
                     <span role="img" aria-label="Light Bulb">
-                      {" "}
-                      💡{" "}
-                    </span>{" "}
+                      {' '}
+                      💡{' '}
+                    </span>{' '}
                   </h2>
                   <div className="arsent">
                     <div className="arsent__original">
@@ -232,16 +251,18 @@ class Page extends React.Component {
                       &nbsp;
                       <Word suffix="كَ" negative root="قْ" prefix="نُصَدِّ" />
                     </div>
-                    <div className="arsent__translate">Что бы ты не говорил, мы поверим тебе</div>
+                    <div className="arsent__translate">
+                      Что бы ты не говорил, мы поверим тебе
+                    </div>
                   </div>
                 </div>
                 <div className="item">
                   <h2 className="h2ar">
-                    حَيْثُ{" "}
+                    حَيْثُ{' '}
                     <span role="img" aria-label="Light Bulb">
-                      {" "}
-                      💡{" "}
-                    </span>{" "}
+                      {' '}
+                      💡{' '}
+                    </span>{' '}
                   </h2>
                   <div className="arsent">
                     <div className="arsent__original">
@@ -250,16 +271,18 @@ class Page extends React.Component {
                       &nbsp;
                       <Word suffix="بْ" root="أذْهَ" />
                     </div>
-                    <div className="arsent__translate">Куда ты пойдёшь, я пойду</div>
+                    <div className="arsent__translate">
+                      Куда ты пойдёшь, я пойду
+                    </div>
                   </div>
                 </div>
                 <div className="item">
                   <h2 className="h2ar">
-                    أينما / أَيْنَ{" "}
+                    أينما / أَيْنَ{' '}
                     <span role="img" aria-label="Light Bulb">
-                      {" "}
-                      💡{" "}
-                    </span>{" "}
+                      {' '}
+                      💡{' '}
+                    </span>{' '}
                   </h2>
                   <div className="arsent">
                     <div className="arsent__original">
@@ -267,7 +290,10 @@ class Page extends React.Component {
                       <Word suffix="نْ" root="تَسْكُ" />
                       &nbsp;
                       <Word suffix="نْ" root=" أَسْكُ" />
-                      <span>. و كثيراً ما تلحقها (ما) الزَّائِدَةُ لِلتَّوْكِيْدِ, نحو: </span>
+                      <span>
+                        . و كثيراً ما تلحقها (ما) الزَّائِدَةُ لِلتَّوْكِيْدِ,
+                        نحو:{' '}
+                      </span>
                       <span className="contrast"> أينما </span>
                       <Word suffix="وا" root="تَكُون" />
                       &nbsp;
@@ -275,9 +301,10 @@ class Page extends React.Component {
                       <span> المَوْتُ </span>
                     </div>
                     <div className="arsent__translate">
-                      "Где ты будешь жить, там я буду жить". К ما так же может добавится ما
-                      الزَّائِدَةُ (Ма Добавочная) для усиления. Например: "Где бы вы не находились,
-                      вас настигнет смерть" [Сура АнНиса 78Аят]
+                      "Где ты будешь жить, там я буду жить". К ما так же может
+                      добавится ما الزَّائِدَةُ (Ма Добавочная) для усиления.
+                      Например: "Где бы вы не находились, вас настигнет смерть"
+                      [Сура АнНиса 78Аят]
                     </div>
                   </div>
                 </div>
@@ -290,13 +317,14 @@ class Page extends React.Component {
                 </span>
               </h2>
               <div className="desc">
-                Следствие условия связывается с условием при помощи союза Фа.{" "}
+                Следствие условия связывается с условием при помощи союза Фа.{' '}
                 <b>Если جوابَ الشرطِ (следствие условия) содержит:</b>
               </div>
 
               <h3 className="title">1) Именное предложение</h3>
               <div className="desc">
-                Но если там приходит <span className="desc__ar"> إذا الفُجَائِيَّةُ </span>{" "}
+                Но если там приходит{' '}
+                <span className="desc__ar"> إذا الفُجَائِيَّةُ </span>{' '}
                 <b> ИЗА неожиданности</b> то она заменяет Фа
               </div>
 
@@ -310,7 +338,9 @@ class Page extends React.Component {
                   <Word root="لَيْسَ" prefix="فَ" />
                   <span> مِنَّا </span>
                 </div>
-                <div className="arsent__translate">Кто обманывает, тот не из нас</div>
+                <div className="arsent__translate">
+                  Кто обманывает, тот не из нас
+                </div>
               </div>
 
               <h3 className="title">4) Содержит قَد</h3>
@@ -323,8 +353,8 @@ class Page extends React.Component {
                   <span> فازَ فوزاً عظِيم </span>
                 </div>
                 <div className="arsent__translate">
-                  А тот кто повинуется Аллахъу и Его Посланнику тот уже достиг великого успеха [Сура
-                  Союзники, 71 Аят]
+                  А тот кто повинуется Аллахъу и Его Посланнику тот уже достиг
+                  великого успеха [Сура Союзники, 71 Аят]
                 </div>
               </div>
 
@@ -350,7 +380,8 @@ class Page extends React.Component {
                   <span> يَلْبَسَهُ في الآخرة </span>
                 </div>
                 <div className="arsent__translate">
-                  Кто наденет шёлковую одежду в этом мире, тот не оденет в следующем
+                  Кто наденет шёлковую одежду в этом мире, тот не оденет в
+                  следующем
                 </div>
               </div>
 
@@ -380,13 +411,16 @@ class Page extends React.Component {
                 <div className="arsent__original">
                   <span> أنَّه </span>
                   <span className="contrast"> مَنْ </span>
-                  <span> قَتَلَ نَفْساً بِغَيْرِ نَفْسٍ, أوْ فَسادٍ في الأرض </span>
+                  <span>
+                    {' '}
+                    قَتَلَ نَفْساً بِغَيْرِ نَفْسٍ, أوْ فَسادٍ في الأرض{' '}
+                  </span>
                   <Word root="كأَنَّما" prefix="فَ" />
                   <span> قَتَلَ الناسَ جَميعاً </span>
                 </div>
                 <div className="arsent__translate">
-                  Кто убил душу не за душу, и не за порчу на земле, тот как будто убил все
-                  человечество. [Сура Трапеза 32 Аят]
+                  Кто убил душу не за душу, и не за порчу на земле, тот как
+                  будто убил все человечество. [Сура Трапеза 32 Аят]
                 </div>
               </div>
 
@@ -398,8 +432,8 @@ class Page extends React.Component {
                     <span className="contrast_2"> بالفَاء </span>
                   </div>
                   <div className="arsent__translate">
-                    <span className="contrast"> Не джазмируется </span> следствие условия если
-                    приходит
+                    <span className="contrast"> Не джазмируется </span>{' '}
+                    следствие условия если приходит
                     <span className="contrast_2"> Фа </span>
                   </div>
                 </div>
@@ -411,8 +445,8 @@ class Page extends React.Component {
         </div>
         <Footer />
       </div>
-    );
+    )
   }
 }
 
-export default withStyles(arabicPageStyle)(Page);
+export default withStyles(arabicPageStyle)(Page)

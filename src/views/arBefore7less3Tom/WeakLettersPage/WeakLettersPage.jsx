@@ -37,6 +37,10 @@ class WeakLettersPage extends React.Component {
     return (
       <div>
         <Helmet>
+          <meta
+            http-equiv="refresh"
+            content="0; url=https://grammar.arabic.best/rules/verbs/regular-verb-and-weak-verb"
+          />
           <title>
             Спряжение пустых и недостаточных глаголов. Слабая коренная в
             арабских глаголах, шаблоны.{' '}

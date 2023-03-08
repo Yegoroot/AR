@@ -19,6 +19,10 @@ class Page extends React.Component {
         <Helmet>
           <title>Обстоятельство времени (ظَرْف إذا) в арабском языке</title>
           <meta
+            http-equiv="refresh"
+            content="0; url=https://grammar.arabic.best/rules/verbs/iqtiraanu-jawabu-shart-bilfaa"
+          />
+          <meta
             name="description"
             content="Обстоятельство времени (ظَرْف إذا) (когда), содержит в себе смысл условия. الشَّرْط - это условие, جَوَابُ الشَّرْطِ - это следствие условия"
           />
@@ -32,26 +36,34 @@ class Page extends React.Component {
           fixed
           changeColorOnScroll={{
             height: 200,
-            color: 'white'
+            color: 'white',
           }}
           {...rest}
         />
-        <Parallax small filter image={require('assets/img/mosque/mosque14.jpg')} />
+        <Parallax
+          small
+          filter
+          image={require('assets/img/mosque/mosque14.jpg')}
+        />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className=" title">
-                Обстоятельство времени (ظَرْف إذا)&nbsp;<span className="ph">§</span>
+                Обстоятельство времени (ظَرْف إذا)&nbsp;
+                <span className="ph">§</span>
               </h1>
 
               <div className="desc">
-                <span className="desc__ar contrast"> إذا </span> (когда) это обстоятельство времени, которое содержит в себе смысл условия.
-                Обычно (не всегда) приходит перед глаголом прошедшего времени и меняет его на настоящее. Определения:
+                <span className="desc__ar contrast"> إذا </span> (когда) это
+                обстоятельство времени, которое содержит в себе смысл условия.
+                Обычно (не всегда) приходит перед глаголом прошедшего времени и
+                меняет его на настоящее. Определения:
                 <b>
                   <span className="desc__ar"> الشَّرْط </span> - это условие
                 </b>
                 <b>
-                  <span className="desc__ar"> جَوَابُ الشَّرْطِ </span> - это следствие условия
+                  <span className="desc__ar"> جَوَابُ الشَّرْطِ </span> - это
+                  следствие условия
                 </b>
               </div>
 
@@ -86,7 +98,9 @@ class Page extends React.Component {
                     <span> في مواضِعَ, منها </span>
                   </div>
                   <div className="arsent__translate">
-                    Обязательно использование союза <span className="contrast desc__ar"> ف </span> в следующих случаях
+                    Обязательно использование союза{' '}
+                    <span className="contrast desc__ar"> ف </span> в следующих
+                    случаях
                   </div>
 
                   <div className="arsent__original" style={{ paddingTop: 20 }}>
@@ -101,11 +115,15 @@ class Page extends React.Component {
                   <div className="arsent__original" style={{ paddingTop: 20 }}>
                     <span> أن يكون الجوابُ </span>
                     <span className="contrast_2"> فعلاً طلبيّا </span>
-                    <span> (و من أنواع الطلب: الأمرُ و النَّاهْيُ و الاسْتِفْهَامُ) </span>
+                    <span>
+                      {' '}
+                      (و من أنواع الطلب: الأمرُ و النَّاهْيُ و الاسْتِفْهَامُ){' '}
+                    </span>
                   </div>
                   <div className="arsent__translate">
                     <span> (2) </span>
-                    Если глагол условия является требованием. Разновидности Требования являются: Приказ, Запрет, Вопрос
+                    Если глагол условия является требованием. Разновидности
+                    Требования являются: Приказ, Запрет, Вопрос
                   </div>
                 </div>
               </AnimateCard>
@@ -119,7 +137,8 @@ class Page extends React.Component {
                   <span> قريبٌ </span>
                 </div>
                 <div className="arsent__translate">
-                  <span className="contrast"> Если </span> рабы мои спросят тебя обо мне,
+                  <span className="contrast"> Если </span> рабы мои спросят тебя
+                  обо мне,
                   <span className="contrast"> то </span>
                   поистине я близок
                 </div>
@@ -147,7 +166,8 @@ class Page extends React.Component {
                   <span> تُوْقِظْهُ </span>
                 </div>
                 <div className="arsent__translate">
-                  <span className="contrast"> Если </span> обнаружишь больного спящим,
+                  <span className="contrast"> Если </span> обнаружишь больного
+                  спящим,
                   <span className="contrast"> то </span>
                   не буди его
                 </div>
@@ -183,8 +203,10 @@ class Page extends React.Component {
                   <span> تُرَدُّ إلى قليلٍ تَقْنَعُ </span>
                 </div>
                 <div className="arsent__translate">
-                  Душа она жаждет (чего то), <span className="contrast"> если </span> ты ее провоцируешь (на это). А{' '}
-                  <span className="contrast"> если </span> даешь ей мало (ограничиваешь её) она удовлетворяется малым
+                  Душа она жаждет (чего то),{' '}
+                  <span className="contrast"> если </span> ты ее провоцируешь
+                  (на это). А <span className="contrast"> если </span> даешь ей
+                  мало (ограничиваешь её) она удовлетворяется малым
                 </div>
               </div>
 
@@ -196,8 +218,10 @@ class Page extends React.Component {
                   <span> وجاوِزْهُ إلى ما تَسْتَطِيعُ </span>
                 </div>
                 <div className="arsent__translate">
-                  <span className="contrast"> Если </span> ты что то не можешь (например учишся, учишся, а тебя ступор),{' '}
-                  <span className="contrast"> то </span> оставь это. И приступи к тому что ты можешь осилить
+                  <span className="contrast"> Если </span> ты что то не можешь
+                  (например учишся, учишся, а тебя ступор),{' '}
+                  <span className="contrast"> то </span> оставь это. И приступи
+                  к тому что ты можешь осилить
                 </div>
               </div>
 

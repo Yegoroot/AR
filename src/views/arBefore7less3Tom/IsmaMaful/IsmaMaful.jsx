@@ -15,8 +15,16 @@ class IsmaMaful extends React.Component {
     return (
       <div>
         <Helmet>
+          <meta
+            http-equiv="refresh"
+            content="0; url=https://grammar.arabic.best/rules/derivatives/ismul-maf3ul"
+          />
+
           <title>Лицо поддействия (اسم المَفْول)</title>
-          <meta name="description" content="Лицо или предметы на которых падает действие" />
+          <meta
+            name="description"
+            content="Лицо или предметы на которых падает действие"
+          />
         </Helmet>
         <Header
           color="transparent"
@@ -26,19 +34,26 @@ class IsmaMaful extends React.Component {
           fixed
           changeColorOnScroll={{
             height: 200,
-            color: 'white'
+            color: 'white',
           }}
           {...rest}
         />
 
-        <Parallax small filter image={require('assets/img/mosque/mosque11.jpg')} />
+        <Parallax
+          small
+          filter
+          image={require('assets/img/mosque/mosque11.jpg')}
+        />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <div className={classes.navWrapper}>
               <h1 className="title">
-                Лицо поддействия (اسم المَفْول)&nbsp;<span className="ph">§</span>
+                Лицо поддействия (اسم المَفْول)&nbsp;
+                <span className="ph">§</span>
               </h1>
-              <div className="desc">Лицо или предметы на которых падает действие. Например</div>
+              <div className="desc">
+                Лицо или предметы на которых падает действие. Например
+              </div>
 
               <div className="arsent">
                 <div className="arsent__original">
@@ -48,20 +63,27 @@ class IsmaMaful extends React.Component {
               </div>
 
               <div className="desc">
-                <span className="desc__ar"> مَكْتُوب </span> - это предмет на которое падает действие.
-                <span className="desc__ar"> كَتَبَ </span>, то есть это письмо, запись, это то что написано
+                <span className="desc__ar"> مَكْتُوب </span> - это предмет на
+                которое падает действие.
+                <span className="desc__ar"> كَتَبَ </span>, то есть это письмо,
+                запись, это то что написано
               </div>
 
               <h2 className="title">
-                Примеры<span role="img" aria-label="Writing Hand">
-                  &nbsp;✍️</span></h2>
+                Примеры
+                <span role="img" aria-label="Writing Hand">
+                  &nbsp;✍️
+                </span>
+              </h2>
               <div className="arsent">
                 <div>
                   <span className="arsent__original" dir="rtl">
                     <span className="contrast"> المَضْرُوب </span>
                     <span className="desc__ar"> (ضَرَبَ) </span>
                   </span>
-                  <span className="arsent__translate">&nbsp; Побитый&nbsp;</span>
+                  <span className="arsent__translate">
+                    &nbsp; Побитый&nbsp;
+                  </span>
                 </div>
 
                 <div>
@@ -77,7 +99,9 @@ class IsmaMaful extends React.Component {
                     <span className="contrast"> المجْهول </span>
                     <span className="desc__ar"> (جهل) </span>
                   </span>
-                  <span className="arsent__translate">&nbsp; Неизвестный&nbsp;</span>
+                  <span className="arsent__translate">
+                    &nbsp; Неизвестный&nbsp;
+                  </span>
                 </div>
 
                 <div>
@@ -85,7 +109,9 @@ class IsmaMaful extends React.Component {
                     <span className="contrast"> المعلوم </span>
                     <span className="desc__ar"> (علم) </span>
                   </span>
-                  <span className="arsent__translate">&nbsp; Известный&nbsp;</span>
+                  <span className="arsent__translate">
+                    &nbsp; Известный&nbsp;
+                  </span>
                 </div>
 
                 <div>
@@ -93,7 +119,9 @@ class IsmaMaful extends React.Component {
                     <span className="contrast"> المسروق </span>
                     <span className="desc__ar"> (سرق) </span>
                   </span>
-                  <span className="arsent__translate">&nbsp; Украденный&nbsp;</span>
+                  <span className="arsent__translate">
+                    &nbsp; Украденный&nbsp;
+                  </span>
                 </div>
 
                 <div>
@@ -101,7 +129,9 @@ class IsmaMaful extends React.Component {
                     <span className="contrast"> المفتُوح </span>
                     <span className="desc__ar"> (فتح) </span>
                   </span>
-                  <span className="arsent__translate">&nbsp; Открытый&nbsp;</span>
+                  <span className="arsent__translate">
+                    &nbsp; Открытый&nbsp;
+                  </span>
                 </div>
 
                 <div>
@@ -109,18 +139,24 @@ class IsmaMaful extends React.Component {
                     <span className="contrast"> المَفْهُول </span>
                     <span className="desc__ar"> (فهِم) </span>
                   </span>
-                  <span className="arsent__translate">&nbsp; Понятно, понятый&nbsp;</span>
+                  <span className="arsent__translate">
+                    &nbsp; Понятно, понятый&nbsp;
+                  </span>
                 </div>
               </div>
 
               <h2 className="title">
-                اسم المَفْول со слабой средней<span role="img" aria-label="Writing Hand">
-                  &nbsp;✍️</span></h2>
+                اسم المَفْول со слабой средней
+                <span role="img" aria-label="Writing Hand">
+                  &nbsp;✍️
+                </span>
+              </h2>
               <h3 className="title">1 шаблон</h3>
 
               <div className="arsent">
                 <div className="arsent__original" dir="rtl">
-                  قال - <strike> مَقْوُول </strike> - <span className="contrast"> مَقُول </span>
+                  قال - <strike> مَقْوُول </strike> -{' '}
+                  <span className="contrast"> مَقُول </span>
                 </div>
                 <div className="arsent__translate">То что сказанно</div>
               </div>
@@ -134,7 +170,8 @@ class IsmaMaful extends React.Component {
               <h3 className="title">2 шаблон</h3>
               <div className="arsent">
                 <div className="arsent__original" dir="rtl">
-                  باع - <strike>مبْيُوع</strike> - <span className="contrast"> مَبِيع </span>
+                  باع - <strike>مبْيُوع</strike> -{' '}
+                  <span className="contrast"> مَبِيع </span>
                 </div>
                 <div className="arsent__translate">То что проданно</div>
               </div>
@@ -147,15 +184,20 @@ class IsmaMaful extends React.Component {
               </div>
 
               <h2 className="title">
-                اسم المَفْول со слабой последней<span role="img" aria-label="Writing Hand">
-                  &nbsp;✍️</span></h2>
+                اسم المَفْول со слабой последней
+                <span role="img" aria-label="Writing Hand">
+                  &nbsp;✍️
+                </span>
+              </h2>
               <h3 className="title">1 шаблон</h3>
 
               <div className="arsent">
                 <div className="arsent__original" dir="rtl">
                   دَعا - <span className="contrast"> مَدْعُوٌّ </span>
                 </div>
-                <div className="arsent__translate">Призванный, приглашенный</div>
+                <div className="arsent__translate">
+                  Призванный, приглашенный
+                </div>
               </div>
 
               <div className="arsent">
@@ -181,8 +223,11 @@ class IsmaMaful extends React.Component {
               </div>
 
               <h2 className="title">
-                اسم المَفْول с шаддой<span role="img" aria-label="Writing Hand">
-                  &nbsp;✍️</span></h2>
+                اسم المَفْول с шаддой
+                <span role="img" aria-label="Writing Hand">
+                  &nbsp;✍️
+                </span>
+              </h2>
               <div className="arsent">
                 <div className="arsent__original" dir="rtl">
                   <span>سَرَّ</span> - <span className="contrast">مَسرُور</span>
